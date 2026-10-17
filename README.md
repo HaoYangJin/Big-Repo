@@ -7,10 +7,27 @@
 - [60 个仓库分类档案](research/README.md)：包含真实提交、PR、发布及固定的仓库玩法维度。
 - [共性与差异比较](research/COMPARISON.md)：按内容类型归纳，区分候选信号、实际观察与建议。
 - [研究方法与限制](research/METHODOLOGY.md)：采样、来源时间、未知项和复现命令。
-- [repo-maintainer 插件](plugins/repo-maintainer/README.md)：Codex 优先，兼容 Claude Code，维护到可审查 PR。
+- [repo-maintainer 插件](plugins/repo-maintainer/README.md)：Codex 优先，兼容 Claude Code，经验证自动合并 PR。
 - [验收报告](docs/validation.md)：本机测试、平台验证状态和已知限制。
 
-插件固定覆盖仓库接管、日常维护、审查、发布准备、技能维护和展示玩法。默认首次非预期验证失败即交接，不自动合并、发布或部署；私有仓库不接入公开统计图表。
+插件固定覆盖仓库接管、日常维护、审查、发布准备、技能维护和展示玩法。默认首次非预期验证失败即交接，默认在验证与独立审查通过后自动合并，不正式发布或部署；私有仓库不接入公开统计图表。
+
+## 直接让 AI 管理本仓库
+
+无需先安装插件：让当前代理读取仓库内的技能和项目规则即可执行。例如：
+
+> 使用 repo-intake、repo-audit 和 maintenance-delivery，完成一轮审查、修正、验证和复核；通过本地检查、独立审查和 CI 后自动合并，首次非预期失败即保留现场并交接。
+
+本仓库已经完成首版三系统 CI；[第一轮自我优化记录](docs/self-review-round-1.md)记录本次采用插件维护自身的范围与证据。完整的平台安装加载与模型驱动验收仍单独标注，不与直接读取技能执行混为一谈。
+
+在仓库根目录运行：
+
+```text
+python -m unittest discover -s tests
+python scripts/build_plugin.py --output dist
+```
+
+研究结果、六个技能和六类仓库玩法可分别使用，不需要为小型仓库引入全部流程。
 
 ## 阅读入口
 
@@ -28,7 +45,7 @@
 在需要使用模板的仓库内执行，将路径替换为本仓库的实际位置：
 
 ```powershell
-git config --local commit.template "D:/Code/Github/Repo/templates/commit-message.txt"
+git config --local commit.template "/absolute/path/to/repo-standards/templates/commit-message.txt"
 git commit
 ```
 

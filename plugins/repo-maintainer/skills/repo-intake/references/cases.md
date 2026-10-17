@@ -6,4 +6,4 @@
 - AI贡献限制按具体项目政策核对。 来源：[rust-lang/rust/AGENTS.md:3](https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/AGENTS.md#L3)。
 - 目录中生成源与手写扩展需要分别识别。 来源：[openai/openai-dotnet/CONTRIBUTING.md:9](https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/CONTRIBUTING.md#L9)。
 
-本插件的首次非预期失败交接、默认交付到PR和展示预览策略是用户选择的产品行为，不宣称由这些样本共同证明。
+本插件的首次非预期失败交接、验证与审查通过后默认自动合并和展示预览策略是用户选择的产品行为，不宣称由这些样本共同证明。

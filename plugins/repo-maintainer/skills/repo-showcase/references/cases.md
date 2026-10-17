@@ -8,4 +8,4 @@
 
 补充工具：[Star History](https://github.com/star-history/star-history)、[Shields](https://github.com/badges/shields)、[All Contributors](https://github.com/all-contributors/allcontributors.org)。它们不是核心样本共同采用的必备配置；私有仓库默认不调用公开图表服务。
 
-本插件的首次非预期失败交接、默认交付到PR和展示预览策略是用户选择的产品行为，不宣称由这些样本共同证明。
+本插件的首次非预期失败交接、验证与审查通过后默认自动合并和展示预览策略是用户选择的产品行为，不宣称由这些样本共同证明。

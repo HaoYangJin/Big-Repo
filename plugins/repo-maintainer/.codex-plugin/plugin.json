@@ -1,10 +1,10 @@
 {
   "name": "repo-maintainer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "基于官方仓库研究的 AI 维护交付、发布准备与仓库展示技能。",
   "skills": "./skills/",
   "interface": {
     "displayName": "仓库维护与交付",
-    "shortDescription": "维护到可审查 PR，失败带证据交接，按需增强仓库展示"
+    "shortDescription": "经验证自动合并，失败带证据交接，按需增强仓库展示"
   }
 }
