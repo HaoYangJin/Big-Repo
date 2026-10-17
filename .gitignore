@@ -1,0 +1,20 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporary output
+work/
+tmp/
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
