@@ -1,0 +1,1630 @@
+{
+  "requested_repository": "denoland/deno",
+  "category": "frameworks",
+  "collected_at": "2026-10-17T16:12:16.135978+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "denoland/deno",
+  "metadata": {
+    "html_url": "https://github.com/denoland/deno",
+    "description": "A modern runtime for JavaScript and TypeScript.",
+    "homepage": "https://deno.com",
+    "language": "Rust",
+    "stargazers_count": 108703,
+    "forks_count": 6484,
+    "open_issues_count": 1714,
+    "pushed_at": "2026-10-07T13:56:06Z",
+    "created_at": "2018-05-15T01:34:26Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [
+      "deno",
+      "javascript",
+      "rust",
+      "typescript"
+    ],
+    "owner": {
+      "login": "denoland",
+      "type": "Organization",
+      "html_url": "https://github.com/denoland"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "a18ce33715e30cd2b0d99c7e322ef11a65490e4d",
+      "url": "https://github.com/denoland/deno/commit/a18ce33715e30cd2b0d99c7e322ef11a65490e4d",
+      "date": "2026-10-06T18:51:00Z",
+      "subject": "fix(completions): complete script paths for bare deno run in zsh (#36976)"
+    },
+    {
+      "sha": "2f885193c678c1802f4de6e25659e8ef7aa5e8cd",
+      "url": "https://github.com/denoland/deno/commit/2f885193c678c1802f4de6e25659e8ef7aa5e8cd",
+      "date": "2026-10-06T15:12:05Z",
+      "subject": "perf: avoid allocating null-prototype objects for default parameters (#36940)"
+    },
+    {
+      "sha": "117c76f209421dd2174879dbcf8fbe83b418602d",
+      "url": "https://github.com/denoland/deno/commit/117c76f209421dd2174879dbcf8fbe83b418602d",
+      "date": "2026-10-06T13:16:30Z",
+      "subject": "chore(core): add SharedArrayBuffer to primordials (#36627)"
+    },
+    {
+      "sha": "ead2af980a19edb0d0ffc8d24ecc51c0281a3dfa",
+      "url": "https://github.com/denoland/deno/commit/ead2af980a19edb0d0ffc8d24ecc51c0281a3dfa",
+      "date": "2026-10-06T09:06:17Z",
+      "subject": "fix(ext/napi): check napi_create_dataview bounds for overflow (#36962)"
+    },
+    {
+      "sha": "94e7a1601e5333f545aa86f94a65b42cb428093a",
+      "url": "https://github.com/denoland/deno/commit/94e7a1601e5333f545aa86f94a65b42cb428093a",
+      "date": "2026-10-06T09:05:17Z",
+      "subject": "fix(ext/fetch): bump hyper-util to 0.1.21 and hyper to 1.11.1 to cancel idle interval when pool empties (#36968)"
+    },
+    {
+      "sha": "0875ce328b9b6b80ec12c008ccf675ce8e28c398",
+      "url": "https://github.com/denoland/deno/commit/0875ce328b9b6b80ec12c008ccf675ce8e28c398",
+      "date": "2026-10-06T09:04:41Z",
+      "subject": "chore(deps): bump xxhash-rust from 0.8.15 to 0.8.16 (#36963)"
+    },
+    {
+      "sha": "3d44d1d82fdaca0b4e776bfe89e46e026e29f72d",
+      "url": "https://github.com/denoland/deno/commit/3d44d1d82fdaca0b4e776bfe89e46e026e29f72d",
+      "date": "2026-10-05T09:33:03Z",
+      "subject": "perf(install): fetch abbreviated packuments under minimumDependencyAge when possible (#36907)"
+    },
+    {
+      "sha": "7a96f1b3620fd3b6b4cff44093ca1393f341fded",
+      "url": "https://github.com/denoland/deno/commit/7a96f1b3620fd3b6b4cff44093ca1393f341fded",
+      "date": "2026-10-05T09:25:33Z",
+      "subject": "fix(ext/node): support assert message functions and format arguments (#36944)"
+    },
+    {
+      "sha": "17410fd868dd3e7c0a6766e0dd9bc9a37d4da44f",
+      "url": "https://github.com/denoland/deno/commit/17410fd868dd3e7c0a6766e0dd9bc9a37d4da44f",
+      "date": "2026-10-05T09:23:02Z",
+      "subject": "fix(ext/napi): ignore the callback return value while an exception is pending (#36942)"
+    },
+    {
+      "sha": "b4f08f127652d8442b4d3dbabc277aca3840bc1d",
+      "url": "https://github.com/denoland/deno/commit/b4f08f127652d8442b4d3dbabc277aca3840bc1d",
+      "date": "2026-10-01T17:20:22Z",
+      "subject": "feat(config): add deploy.buildTimeout and deploy.runtime.memoryLimit to the schema (#36938)"
+    },
+    {
+      "sha": "b8681dfa6442a0dfa5c7ddc43b279c504079cf2a",
+      "url": "https://github.com/denoland/deno/commit/b8681dfa6442a0dfa5c7ddc43b279c504079cf2a",
+      "date": "2026-10-01T10:00:01Z",
+      "subject": "fix(ext/node): align X.509v1 certificate handling with OpenSSL (#36933)"
+    },
+    {
+      "sha": "34a123ad51004b8053ea33f70beea99ab2948a25",
+      "url": "https://github.com/denoland/deno/commit/34a123ad51004b8053ea33f70beea99ab2948a25",
+      "date": "2026-10-01T08:27:34Z",
+      "subject": "fix(compile): check read permission for dynamically imported local files (#36925)"
+    },
+    {
+      "sha": "1b48a20f85a8164aebe4fb29ae53909136a3d777",
+      "url": "https://github.com/denoland/deno/commit/1b48a20f85a8164aebe4fb29ae53909136a3d777",
+      "date": "2026-09-28T11:31:09Z",
+      "subject": "fix(core): errno_location for android bionic (#36890)"
+    },
+    {
+      "sha": "b157cd27e153f0a3e2ef10a6a31edfd105fcbf93",
+      "url": "https://github.com/denoland/deno/commit/b157cd27e153f0a3e2ef10a6a31edfd105fcbf93",
+      "date": "2026-09-25T18:11:24Z",
+      "subject": "fix: bump rand 0.9.x to patched version"
+    },
+    {
+      "sha": "2200b3efab5cbf8378d58c10d5930939e57fd03d",
+      "url": "https://github.com/denoland/deno/commit/2200b3efab5cbf8378d58c10d5930939e57fd03d",
+      "date": "2026-09-25T13:57:04Z",
+      "subject": "fix(coverage): skip the V8 code cache while collecting coverage (#36901)"
+    },
+    {
+      "sha": "db5ac7b9c7335f742d7950117104c694bdc01ae6",
+      "url": "https://github.com/denoland/deno/commit/db5ac7b9c7335f742d7950117104c694bdc01ae6",
+      "date": "2026-09-25T13:55:34Z",
+      "subject": "perf(ext/napi): track and deregister finalizers with BTreeMap instead of Vec (#36895)"
+    },
+    {
+      "sha": "15673487d88c60235a505c684afabe4079bf2afb",
+      "url": "https://github.com/denoland/deno/commit/15673487d88c60235a505c684afabe4079bf2afb",
+      "date": "2026-09-25T12:49:48Z",
+      "subject": "chore(tests): update node-gyp to 12.1.0 in test registry (#36903)"
+    },
+    {
+      "sha": "6adda14d0dd7d2ba01553dfd941288396313cb2f",
+      "url": "https://github.com/denoland/deno/commit/6adda14d0dd7d2ba01553dfd941288396313cb2f",
+      "date": "2026-09-25T11:02:02Z",
+      "subject": "fix(ext/node): mock.reset() restores mock.method() implementations (#36886)"
+    },
+    {
+      "sha": "461f32ec6174d88b7e43654a054d46d67ae2fdab",
+      "url": "https://github.com/denoland/deno/commit/461f32ec6174d88b7e43654a054d46d67ae2fdab",
+      "date": "2026-09-22T00:30:06Z",
+      "subject": "fix(check): pin @types/node and resolve it through the configured registry (#36883)"
+    },
+    {
+      "sha": "abd22074e47c6a5cd14e9e4e84743f084aa5a575",
+      "url": "https://github.com/denoland/deno/commit/abd22074e47c6a5cd14e9e4e84743f084aa5a575",
+      "date": "2026-09-17T10:35:30Z",
+      "subject": "chore: forward v2.9.7 release commit to main (#36859)"
+    }
+  ],
+  "default_sha": "a18ce33715e30cd2b0d99c7e322ef11a65490e4d",
+  "root_and_selected_directory_paths": [
+    ".cargo",
+    ".claude",
+    ".devcontainer",
+    ".dprint.json",
+    ".editorconfig",
+    ".gitattributes",
+    ".github",
+    ".github/CODE_OF_CONDUCT.md",
+    ".github/CONTRIBUTING.md",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug_report.md",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/feature_request.md",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/SECURITY.md",
+    ".github/copilot-instructions.md",
+    ".github/mtime_cache",
+    ".github/workflows",
+    ".github/workflows/cargo_publish.generated.yml",
+    ".github/workflows/cargo_publish.ts",
+    ".github/workflows/ci.generated.yml",
+    ".github/workflows/ci.ts",
+    ".github/workflows/create_prerelease_tag.generated.yml",
+    ".github/workflows/create_prerelease_tag.ts",
+    ".github/workflows/ecosystem_compat_test.generated.yml",
+    ".github/workflows/ecosystem_compat_test.ts",
+    ".github/workflows/node_compat_test.generated.yml",
+    ".github/workflows/node_compat_test.ts",
+    ".github/workflows/npm_publish.generated.yml",
+    ".github/workflows/npm_publish.ts",
+    ".github/workflows/post_publish.generated.yml",
+    ".github/workflows/post_publish.ts",
+    ".github/workflows/pr.generated.yml",
+    ".github/workflows/pr.ts",
+    ".github/workflows/promote_to_release.generated.yml",
+    ".github/workflows/promote_to_release.ts",
+    ".github/workflows/start_release.generated.yml",
+    ".github/workflows/start_release.ts",
+    ".github/workflows/version_bump.generated.yml",
+    ".github/workflows/version_bump.ts",
+    ".gitignore",
+    ".gitmodules",
+    ".rustfmt.toml",
+    "CLAUDE.md",
+    "Cargo.lock",
+    "Cargo.toml",
+    "LICENSE.md",
+    "README.md",
+    "Releases.md",
+    "cli",
+    "doc",
+    "doc/README.md",
+    "doc/architecture.md",
+    "doc/ci.md",
+    "doc/codebase-map.md",
+    "doc/desktop-architecture.md",
+    "doc/package-management.md",
+    "doc/testing.md",
+    "ext",
+    "flake.lock",
+    "flake.nix",
+    "import_map.json",
+    "libs",
+    "runtime",
+    "rust-toolchain.toml",
+    "tests",
+    "tools",
+    "x"
+  ],
+  "workflow_paths": [
+    ".github/workflows/cargo_publish.generated.yml",
+    ".github/workflows/cargo_publish.ts",
+    ".github/workflows/ci.generated.yml",
+    ".github/workflows/ci.ts",
+    ".github/workflows/create_prerelease_tag.generated.yml",
+    ".github/workflows/create_prerelease_tag.ts",
+    ".github/workflows/ecosystem_compat_test.generated.yml",
+    ".github/workflows/ecosystem_compat_test.ts",
+    ".github/workflows/node_compat_test.generated.yml",
+    ".github/workflows/node_compat_test.ts",
+    ".github/workflows/npm_publish.generated.yml",
+    ".github/workflows/npm_publish.ts",
+    ".github/workflows/post_publish.generated.yml",
+    ".github/workflows/post_publish.ts",
+    ".github/workflows/promote_to_release.generated.yml",
+    ".github/workflows/promote_to_release.ts",
+    ".github/workflows/start_release.generated.yml",
+    ".github/workflows/start_release.ts",
+    ".github/workflows/pr.generated.yml",
+    ".github/workflows/pr.ts",
+    ".github/workflows/version_bump.generated.yml",
+    ".github/workflows/version_bump.ts"
+  ],
+  "documents": [
+    {
+      "path": "CLAUDE.md",
+      "sha": "0276c23c589c0399f8ed51d9128e34f9a1d1ce56",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/CLAUDE.md",
+      "lines": 433,
+      "signals": {
+        "tests": [
+          138,
+          141,
+          144,
+          147,
+          150,
+          153,
+          159,
+          163,
+          166,
+          169,
+          172,
+          176
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          37
+        ]
+      }
+    },
+    {
+      "path": "Cargo.toml",
+      "sha": "79e56e4417fbafdc5bda90871a4047d73250373e",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/Cargo.toml",
+      "lines": 638,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          389,
+          478,
+          488,
+          508,
+          510
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "8173eb951062916cc112a8fb7c0e120b1c945975",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/README.md",
+      "lines": 116,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          3,
+          107,
+          109,
+          111,
+          113,
+          115
+        ],
+        "media": [
+          3,
+          7
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Releases.md",
+      "status": "skipped-size",
+      "sha": "b285b740d5bfaf820a6766a5eca403f865fe57d8"
+    },
+    {
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha": "256b5d5ddc939d669616fb9039ac13ed8ad52063",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/.github/CODE_OF_CONDUCT.md",
+      "lines": 5,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CONTRIBUTING.md",
+      "sha": "60c16527da8b3a7454a2ac34879d15224c3bbaec",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/.github/CONTRIBUTING.md",
+      "lines": 333,
+      "signals": {
+        "tests": [
+          61,
+          62,
+          290,
+          293
+        ],
+        "lint": [
+          39,
+          99
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha": "883291acf8e122c29f48090ddfa9e64045044d45",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/.github/ISSUE_TEMPLATE/bug_report.md",
+      "lines": 9,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "2b38da27b67e5962856f5d5f66740cc8fea67dde",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 8,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha": "8666a71e9989dbbd148d714b8c5b16a584c635b9",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/.github/ISSUE_TEMPLATE/feature_request.md",
+      "lines": 7,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "23e590c3e95c907a07d98bc243e6b4c9104a38f7",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/.github/PULL_REQUEST_TEMPLATE.md",
+      "lines": 31,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [
+          11,
+          13
+        ],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/SECURITY.md",
+      "sha": "266131c1e55b606b68ab3dbe1e9915264a257569",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/.github/SECURITY.md",
+      "lines": 66,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          10
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "doc/README.md",
+      "sha": "cf6bb5b58220b4d27b858e8d90c9b82337509d7b",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/doc/README.md",
+      "lines": 43,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/cargo_publish.generated.yml",
+      "sha": "cb082d89dd109d4932ad81b2fcdb014f5a6d6aff",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/.github/workflows/cargo_publish.generated.yml",
+      "lines": 49,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          24,
+          29,
+          31
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/cargo_publish.ts",
+      "sha": "ce8d94daa41e67adba78ca919dd5e241c29a8e0c",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/.github/workflows/cargo_publish.ts",
+      "lines": 83,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci.generated.yml",
+      "status": "skipped-size",
+      "sha": "c7a12ec7f041e050694024a42d546004528047f4"
+    },
+    {
+      "path": ".github/workflows/ci.ts",
+      "sha": "b020f32a7d8dfb71592013b2a10feadd959345c8",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/.github/workflows/ci.ts",
+      "lines": 2250,
+      "signals": {
+        "tests": [
+          1498,
+          1511,
+          1522,
+          1581,
+          1997,
+          2045
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          2087
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/create_prerelease_tag.generated.yml",
+      "sha": "f4a166aaafd038b288b14042dfb121e5579122a1",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/.github/workflows/create_prerelease_tag.generated.yml",
+      "lines": 38,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          20,
+          25
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/create_prerelease_tag.ts",
+      "sha": "9641639526e697c382a69fd1367e5cbc4d0fda39",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/.github/workflows/create_prerelease_tag.ts",
+      "lines": 73,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ecosystem_compat_test.generated.yml",
+      "sha": "80e6b7dc449aa941cb1389f8cf27cf0d31aad7cd",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/.github/workflows/ecosystem_compat_test.generated.yml",
+      "lines": 66,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          22,
+          26,
+          30,
+          49,
+          53,
+          55
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ecosystem_compat_test.ts",
+      "sha": "4c0ee5a96be9078350aa65f4172aca1db953fdd2",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/.github/workflows/ecosystem_compat_test.ts",
+      "lines": 111,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/node_compat_test.generated.yml",
+      "sha": "d7152dae3209ed2babb51c21dc016d479f4a950d",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/.github/workflows/node_compat_test.generated.yml",
+      "lines": 132,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          63,
+          69,
+          71,
+          75,
+          101,
+          107,
+          109
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/node_compat_test.ts",
+      "sha": "60dcea057452eddabafff86888ed3c94f525bcf6",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/.github/workflows/node_compat_test.ts",
+      "lines": 202,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/npm_publish.generated.yml",
+      "sha": "6bed607801566c349c840b0fd94d30f3b3c0cb84",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/.github/workflows/npm_publish.generated.yml",
+      "lines": 301,
+      "signals": {
+        "tests": [
+          46
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          124,
+          127,
+          260
+        ],
+        "permissions": [
+          266,
+          267
+        ],
+        "pinned_actions": [
+          28,
+          32,
+          40,
+          63,
+          67,
+          71,
+          275,
+          279,
+          283,
+          288
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/npm_publish.ts",
+      "sha": "cb148dd8cc9387e5748a03b868928ea5c1c4f0b8",
+      "status": "inspected",
+      "url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/.github/workflows/npm_publish.ts",
+      "lines": 467,
+      "signals": {
+        "tests": [
+          348
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          157,
+          160,
+          441
+        ],
+        "permissions": [
+          446
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 33683,
+      "title": "perf(ext/fetch): cache lowercased header names per Headers instance",
+      "url": "https://github.com/denoland/deno/pull/33683",
+      "merged_at": "2026-06-02T02:37:54Z",
+      "merge_commit_sha": "8c47426fcecfa545251dc5b9217509a4d31e30e6",
+      "files": [
+        "ext/fetch/20_headers.js",
+        "ext/fetch/23_response.js",
+        "ext/fetch/Cargo.toml",
+        "ext/fetch/benches/headers_methods.rs"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "ext/fetch/20_headers.js",
+          "status": "modified",
+          "additions": 82,
+          "deletions": 16,
+          "blob_url": "https://github.com/denoland/deno/blob/f170752b1566d44f7f0443036aadf8b056e4c5bd/ext%2Ffetch%2F20_headers.js"
+        },
+        {
+          "filename": "ext/fetch/23_response.js",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 4,
+          "blob_url": "https://github.com/denoland/deno/blob/f170752b1566d44f7f0443036aadf8b056e4c5bd/ext%2Ffetch%2F23_response.js"
+        },
+        {
+          "filename": "ext/fetch/Cargo.toml",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/denoland/deno/blob/f170752b1566d44f7f0443036aadf8b056e4c5bd/ext%2Ffetch%2FCargo.toml"
+        },
+        {
+          "filename": "ext/fetch/benches/headers_methods.rs",
+          "status": "added",
+          "additions": 92,
+          "deletions": 0,
+          "blob_url": "https://github.com/denoland/deno/blob/f170752b1566d44f7f0443036aadf8b056e4c5bd/ext%2Ffetch%2Fbenches%2Fheaders_methods.rs"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "APPROVED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 26794913605,
+          "name": "ci",
+          "path": ".github/workflows/ci.generated.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/26794913605",
+          "head_sha": "8c47426fcecfa545251dc5b9217509a4d31e30e6"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 26794287743,
+          "name": "pr",
+          "path": ".github/workflows/pr.generated.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/26794287743",
+          "head_sha": "f170752b1566d44f7f0443036aadf8b056e4c5bd"
+        },
+        {
+          "id": 26762268436,
+          "name": "ci",
+          "path": ".github/workflows/ci.generated.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/26762268436",
+          "head_sha": "f170752b1566d44f7f0443036aadf8b056e4c5bd"
+        },
+        {
+          "id": 26762267092,
+          "name": "pr",
+          "path": ".github/workflows/pr.generated.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/26762267092",
+          "head_sha": "f170752b1566d44f7f0443036aadf8b056e4c5bd"
+        }
+      ]
+    },
+    {
+      "number": 34984,
+      "title": "fix(serde_v8): add recursion depth limit to deserializer",
+      "url": "https://github.com/denoland/deno/pull/34984",
+      "merged_at": "2026-06-07T20:58:17Z",
+      "merge_commit_sha": "6a9963a968fb4fe6861c041db65d0608eb03e529",
+      "files": [
+        "libs/serde_v8/de.rs",
+        "libs/serde_v8/error.rs",
+        "libs/serde_v8/tests/de.rs"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "libs/serde_v8/de.rs",
+          "status": "modified",
+          "additions": 122,
+          "deletions": 20,
+          "blob_url": "https://github.com/denoland/deno/blob/a35df3d697937b84003d17762c579b002bb87a6d/libs%2Fserde_v8%2Fde.rs"
+        },
+        {
+          "filename": "libs/serde_v8/error.rs",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/denoland/deno/blob/a35df3d697937b84003d17762c579b002bb87a6d/libs%2Fserde_v8%2Ferror.rs"
+        },
+        {
+          "filename": "libs/serde_v8/tests/de.rs",
+          "status": "modified",
+          "additions": 59,
+          "deletions": 0,
+          "blob_url": "https://github.com/denoland/deno/blob/a35df3d697937b84003d17762c579b002bb87a6d/libs%2Fserde_v8%2Ftests%2Fde.rs"
+        }
+      ],
+      "review_states": [
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 27104627736,
+          "name": "ci",
+          "path": ".github/workflows/ci.generated.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/denoland/deno/actions/runs/27104627736",
+          "head_sha": "6a9963a968fb4fe6861c041db65d0608eb03e529"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 27103821273,
+          "name": "pr",
+          "path": ".github/workflows/pr.generated.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/27103821273",
+          "head_sha": "a35df3d697937b84003d17762c579b002bb87a6d"
+        },
+        {
+          "id": 27103754881,
+          "name": "ci",
+          "path": ".github/workflows/ci.generated.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/27103754881",
+          "head_sha": "a35df3d697937b84003d17762c579b002bb87a6d"
+        },
+        {
+          "id": 27103754870,
+          "name": "pr",
+          "path": ".github/workflows/pr.generated.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/27103754870",
+          "head_sha": "a35df3d697937b84003d17762c579b002bb87a6d"
+        }
+      ]
+    },
+    {
+      "number": 36976,
+      "title": "fix(completions): complete script paths for bare deno run in zsh",
+      "url": "https://github.com/denoland/deno/pull/36976",
+      "merged_at": "2026-10-06T18:51:00Z",
+      "merge_commit_sha": "a18ce33715e30cd2b0d99c7e322ef11a65490e4d",
+      "files": [
+        "libs/cli_parser/src/completions.rs"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "libs/cli_parser/src/completions.rs",
+          "status": "modified",
+          "additions": 71,
+          "deletions": 14,
+          "blob_url": "https://github.com/denoland/deno/blob/6a24385ad966fdfd3e977aa666f4544da0441321/libs%2Fcli_parser%2Fsrc%2Fcompletions.rs"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39023656163,
+          "name": "node_compat_test",
+          "path": ".github/workflows/node_compat_test.generated.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/denoland/deno/actions/runs/39023656163",
+          "head_sha": "a18ce33715e30cd2b0d99c7e322ef11a65490e4d"
+        },
+        {
+          "id": 38885206037,
+          "name": "node_compat_test",
+          "path": ".github/workflows/node_compat_test.generated.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/denoland/deno/actions/runs/38885206037",
+          "head_sha": "a18ce33715e30cd2b0d99c7e322ef11a65490e4d"
+        },
+        {
+          "id": 38884325168,
+          "name": "ecosystem_compat_test",
+          "path": ".github/workflows/ecosystem_compat_test.generated.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/38884325168",
+          "head_sha": "a18ce33715e30cd2b0d99c7e322ef11a65490e4d"
+        },
+        {
+          "id": 38718065731,
+          "name": "node_compat_test",
+          "path": ".github/workflows/node_compat_test.generated.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/denoland/deno/actions/runs/38718065731",
+          "head_sha": "a18ce33715e30cd2b0d99c7e322ef11a65490e4d"
+        },
+        {
+          "id": 38717114165,
+          "name": "ecosystem_compat_test",
+          "path": ".github/workflows/ecosystem_compat_test.generated.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/38717114165",
+          "head_sha": "a18ce33715e30cd2b0d99c7e322ef11a65490e4d"
+        },
+        {
+          "id": 38547396418,
+          "name": "node_compat_test",
+          "path": ".github/workflows/node_compat_test.generated.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/denoland/deno/actions/runs/38547396418",
+          "head_sha": "a18ce33715e30cd2b0d99c7e322ef11a65490e4d"
+        },
+        {
+          "id": 38546492043,
+          "name": "ecosystem_compat_test",
+          "path": ".github/workflows/ecosystem_compat_test.generated.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/38546492043",
+          "head_sha": "a18ce33715e30cd2b0d99c7e322ef11a65490e4d"
+        },
+        {
+          "id": 38381524457,
+          "name": "node_compat_test",
+          "path": ".github/workflows/node_compat_test.generated.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/denoland/deno/actions/runs/38381524457",
+          "head_sha": "a18ce33715e30cd2b0d99c7e322ef11a65490e4d"
+        },
+        {
+          "id": 38380538799,
+          "name": "ecosystem_compat_test",
+          "path": ".github/workflows/ecosystem_compat_test.generated.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/38380538799",
+          "head_sha": "a18ce33715e30cd2b0d99c7e322ef11a65490e4d"
+        },
+        {
+          "id": 38235088265,
+          "name": "node_compat_test",
+          "path": ".github/workflows/node_compat_test.generated.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/denoland/deno/actions/runs/38235088265",
+          "head_sha": "a18ce33715e30cd2b0d99c7e322ef11a65490e4d"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 37485735421,
+          "name": "pr",
+          "path": ".github/workflows/pr.generated.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/37485735421",
+          "head_sha": "6a24385ad966fdfd3e977aa666f4544da0441321"
+        },
+        {
+          "id": 37485735079,
+          "name": "ci",
+          "path": ".github/workflows/ci.generated.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/37485735079",
+          "head_sha": "6a24385ad966fdfd3e977aa666f4544da0441321"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v2.9.7",
+      "url": "https://github.com/denoland/deno/releases/tag/v2.9.7",
+      "published_at": "2026-09-17T09:04:55Z",
+      "target_commitish": "main",
+      "commit_sha": "0c071246a412575e07423263404a5d13e7ed6aa2",
+      "assets": [
+        "deno-aarch64-apple-darwin.from-2.9.6.bsdiff",
+        "deno-aarch64-apple-darwin.from-2.9.6.bsdiff.sha256sum",
+        "deno-aarch64-apple-darwin.sha256sum",
+        "deno-aarch64-apple-darwin.zip",
+        "deno-aarch64-apple-darwin.zip.sha256sum",
+        "deno-aarch64-pc-windows-msvc.from-2.9.6.bsdiff",
+        "deno-aarch64-pc-windows-msvc.from-2.9.6.bsdiff.sha256sum",
+        "deno-aarch64-pc-windows-msvc.sha256sum",
+        "deno-aarch64-pc-windows-msvc.zip",
+        "deno-aarch64-pc-windows-msvc.zip.sha256sum",
+        "deno-aarch64-unknown-linux-gnu.from-2.9.6.bsdiff",
+        "deno-aarch64-unknown-linux-gnu.from-2.9.6.bsdiff.sha256sum",
+        "deno-aarch64-unknown-linux-gnu.sha256sum",
+        "deno-aarch64-unknown-linux-gnu.zip",
+        "deno-aarch64-unknown-linux-gnu.zip.sha256sum",
+        "deno-x86_64-apple-darwin.from-2.9.6.bsdiff",
+        "deno-x86_64-apple-darwin.from-2.9.6.bsdiff.sha256sum",
+        "deno-x86_64-apple-darwin.sha256sum",
+        "deno-x86_64-apple-darwin.zip",
+        "deno-x86_64-apple-darwin.zip.sha256sum",
+        "deno-x86_64-pc-windows-msvc.from-2.9.6.bsdiff",
+        "deno-x86_64-pc-windows-msvc.from-2.9.6.bsdiff.sha256sum",
+        "deno-x86_64-pc-windows-msvc.sha256sum",
+        "deno-x86_64-pc-windows-msvc.zip",
+        "deno-x86_64-pc-windows-msvc.zip.sha256sum",
+        "deno-x86_64-unknown-linux-gnu.from-2.9.6.bsdiff",
+        "deno-x86_64-unknown-linux-gnu.from-2.9.6.bsdiff.sha256sum",
+        "deno-x86_64-unknown-linux-gnu.sha256sum",
+        "deno-x86_64-unknown-linux-gnu.zip",
+        "deno-x86_64-unknown-linux-gnu.zip.sha256sum",
+        "denort-aarch64-apple-darwin.zip",
+        "denort-aarch64-apple-darwin.zip.sha256sum",
+        "denort-aarch64-pc-windows-msvc.zip",
+        "denort-aarch64-pc-windows-msvc.zip.sha256sum",
+        "denort-aarch64-unknown-linux-gnu.zip",
+        "denort-aarch64-unknown-linux-gnu.zip.sha256sum",
+        "denort-x86_64-apple-darwin.zip",
+        "denort-x86_64-apple-darwin.zip.sha256sum",
+        "denort-x86_64-pc-windows-msvc.zip",
+        "denort-x86_64-pc-windows-msvc.zip.sha256sum",
+        "denort-x86_64-unknown-linux-gnu.zip",
+        "denort-x86_64-unknown-linux-gnu.zip.sha256sum",
+        "deno_src.tar.gz",
+        "lib.deno.d.ts",
+        "libdenort-aarch64-apple-darwin.zip",
+        "libdenort-aarch64-apple-darwin.zip.sha256sum",
+        "libdenort-aarch64-pc-windows-msvc.zip",
+        "libdenort-aarch64-pc-windows-msvc.zip.sha256sum",
+        "libdenort-aarch64-unknown-linux-gnu.zip",
+        "libdenort-aarch64-unknown-linux-gnu.zip.sha256sum",
+        "libdenort-x86_64-apple-darwin.zip",
+        "libdenort-x86_64-apple-darwin.zip.sha256sum",
+        "libdenort-x86_64-pc-windows-msvc.zip",
+        "libdenort-x86_64-pc-windows-msvc.zip.sha256sum",
+        "libdenort-x86_64-unknown-linux-gnu.zip",
+        "libdenort-x86_64-unknown-linux-gnu.zip.sha256sum"
+      ],
+      "workflow_runs": [
+        {
+          "id": 35203161845,
+          "name": "npm_publish",
+          "path": ".github/workflows/npm_publish.generated.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/denoland/deno/actions/runs/35203161845",
+          "head_sha": "0c071246a412575e07423263404a5d13e7ed6aa2"
+        },
+        {
+          "id": 35203161792,
+          "name": "post_publish",
+          "path": ".github/workflows/post_publish.generated.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/35203161792",
+          "head_sha": "0c071246a412575e07423263404a5d13e7ed6aa2"
+        },
+        {
+          "id": 35118868597,
+          "name": "ci",
+          "path": ".github/workflows/ci.generated.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/denoland/deno/actions/runs/35118868597",
+          "head_sha": "0c071246a412575e07423263404a5d13e7ed6aa2"
+        },
+        {
+          "id": 35117547513,
+          "name": "cargo_publish",
+          "path": ".github/workflows/cargo_publish.generated.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/35117547513",
+          "head_sha": "0c071246a412575e07423263404a5d13e7ed6aa2"
+        }
+      ]
+    },
+    {
+      "tag": "v2.9.6",
+      "url": "https://github.com/denoland/deno/releases/tag/v2.9.6",
+      "published_at": "2026-08-27T17:29:30Z",
+      "target_commitish": "main",
+      "commit_sha": "e518fbd66dda5debcbdefc0beb0b3756b37b64fa",
+      "assets": [
+        "deno-aarch64-apple-darwin.from-2.9.5.bsdiff",
+        "deno-aarch64-apple-darwin.from-2.9.5.bsdiff.sha256sum",
+        "deno-aarch64-apple-darwin.sha256sum",
+        "deno-aarch64-apple-darwin.zip",
+        "deno-aarch64-apple-darwin.zip.sha256sum",
+        "deno-aarch64-pc-windows-msvc.from-2.9.5.bsdiff",
+        "deno-aarch64-pc-windows-msvc.from-2.9.5.bsdiff.sha256sum",
+        "deno-aarch64-pc-windows-msvc.sha256sum",
+        "deno-aarch64-pc-windows-msvc.zip",
+        "deno-aarch64-pc-windows-msvc.zip.sha256sum",
+        "deno-aarch64-unknown-linux-gnu.from-2.9.5.bsdiff",
+        "deno-aarch64-unknown-linux-gnu.from-2.9.5.bsdiff.sha256sum",
+        "deno-aarch64-unknown-linux-gnu.sha256sum",
+        "deno-aarch64-unknown-linux-gnu.zip",
+        "deno-aarch64-unknown-linux-gnu.zip.sha256sum",
+        "deno-x86_64-apple-darwin.from-2.9.5.bsdiff",
+        "deno-x86_64-apple-darwin.from-2.9.5.bsdiff.sha256sum",
+        "deno-x86_64-apple-darwin.sha256sum",
+        "deno-x86_64-apple-darwin.zip",
+        "deno-x86_64-apple-darwin.zip.sha256sum",
+        "deno-x86_64-pc-windows-msvc.from-2.9.5.bsdiff",
+        "deno-x86_64-pc-windows-msvc.from-2.9.5.bsdiff.sha256sum",
+        "deno-x86_64-pc-windows-msvc.sha256sum",
+        "deno-x86_64-pc-windows-msvc.zip",
+        "deno-x86_64-pc-windows-msvc.zip.sha256sum",
+        "deno-x86_64-unknown-linux-gnu.from-2.9.5.bsdiff",
+        "deno-x86_64-unknown-linux-gnu.from-2.9.5.bsdiff.sha256sum",
+        "deno-x86_64-unknown-linux-gnu.sha256sum",
+        "deno-x86_64-unknown-linux-gnu.zip",
+        "deno-x86_64-unknown-linux-gnu.zip.sha256sum",
+        "denort-aarch64-apple-darwin.zip",
+        "denort-aarch64-apple-darwin.zip.sha256sum",
+        "denort-aarch64-pc-windows-msvc.zip",
+        "denort-aarch64-pc-windows-msvc.zip.sha256sum",
+        "denort-aarch64-unknown-linux-gnu.zip",
+        "denort-aarch64-unknown-linux-gnu.zip.sha256sum",
+        "denort-x86_64-apple-darwin.zip",
+        "denort-x86_64-apple-darwin.zip.sha256sum",
+        "denort-x86_64-pc-windows-msvc.zip",
+        "denort-x86_64-pc-windows-msvc.zip.sha256sum",
+        "denort-x86_64-unknown-linux-gnu.zip",
+        "denort-x86_64-unknown-linux-gnu.zip.sha256sum",
+        "deno_src.tar.gz",
+        "lib.deno.d.ts",
+        "libdenort-aarch64-apple-darwin.zip",
+        "libdenort-aarch64-apple-darwin.zip.sha256sum",
+        "libdenort-aarch64-pc-windows-msvc.zip",
+        "libdenort-aarch64-pc-windows-msvc.zip.sha256sum",
+        "libdenort-aarch64-unknown-linux-gnu.zip",
+        "libdenort-aarch64-unknown-linux-gnu.zip.sha256sum",
+        "libdenort-x86_64-apple-darwin.zip",
+        "libdenort-x86_64-apple-darwin.zip.sha256sum",
+        "libdenort-x86_64-pc-windows-msvc.zip",
+        "libdenort-x86_64-pc-windows-msvc.zip.sha256sum",
+        "libdenort-x86_64-unknown-linux-gnu.zip",
+        "libdenort-x86_64-unknown-linux-gnu.zip.sha256sum"
+      ],
+      "workflow_runs": [
+        {
+          "id": 33098669767,
+          "name": "npm_publish",
+          "path": ".github/workflows/npm_publish.generated.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/33098669767",
+          "head_sha": "e518fbd66dda5debcbdefc0beb0b3756b37b64fa"
+        },
+        {
+          "id": 33098669797,
+          "name": "post_publish",
+          "path": ".github/workflows/post_publish.generated.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/denoland/deno/actions/runs/33098669797",
+          "head_sha": "e518fbd66dda5debcbdefc0beb0b3756b37b64fa"
+        },
+        {
+          "id": 33087843365,
+          "name": "ci",
+          "path": ".github/workflows/ci.generated.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/33087843365",
+          "head_sha": "e518fbd66dda5debcbdefc0beb0b3756b37b64fa"
+        },
+        {
+          "id": 33086886190,
+          "name": "cargo_publish",
+          "path": ".github/workflows/cargo_publish.generated.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/33086886190",
+          "head_sha": "e518fbd66dda5debcbdefc0beb0b3756b37b64fa"
+        }
+      ]
+    },
+    {
+      "tag": "v2.9.5",
+      "url": "https://github.com/denoland/deno/releases/tag/v2.9.5",
+      "published_at": "2026-08-06T15:05:43Z",
+      "target_commitish": "main",
+      "commit_sha": "17fadf33a8df3af9488b9f42efd1f2290d6dc7a3",
+      "assets": [
+        "deno-aarch64-apple-darwin.from-2.9.4.bsdiff",
+        "deno-aarch64-apple-darwin.from-2.9.4.bsdiff.sha256sum",
+        "deno-aarch64-apple-darwin.sha256sum",
+        "deno-aarch64-apple-darwin.zip",
+        "deno-aarch64-apple-darwin.zip.sha256sum",
+        "deno-aarch64-pc-windows-msvc.from-2.9.4.bsdiff",
+        "deno-aarch64-pc-windows-msvc.from-2.9.4.bsdiff.sha256sum",
+        "deno-aarch64-pc-windows-msvc.sha256sum",
+        "deno-aarch64-pc-windows-msvc.zip",
+        "deno-aarch64-pc-windows-msvc.zip.sha256sum",
+        "deno-aarch64-unknown-linux-gnu.from-2.9.4.bsdiff",
+        "deno-aarch64-unknown-linux-gnu.from-2.9.4.bsdiff.sha256sum",
+        "deno-aarch64-unknown-linux-gnu.sha256sum",
+        "deno-aarch64-unknown-linux-gnu.zip",
+        "deno-aarch64-unknown-linux-gnu.zip.sha256sum",
+        "deno-x86_64-apple-darwin.from-2.9.4.bsdiff",
+        "deno-x86_64-apple-darwin.from-2.9.4.bsdiff.sha256sum",
+        "deno-x86_64-apple-darwin.sha256sum",
+        "deno-x86_64-apple-darwin.zip",
+        "deno-x86_64-apple-darwin.zip.sha256sum",
+        "deno-x86_64-pc-windows-msvc.from-2.9.4.bsdiff",
+        "deno-x86_64-pc-windows-msvc.from-2.9.4.bsdiff.sha256sum",
+        "deno-x86_64-pc-windows-msvc.sha256sum",
+        "deno-x86_64-pc-windows-msvc.zip",
+        "deno-x86_64-pc-windows-msvc.zip.sha256sum",
+        "deno-x86_64-unknown-linux-gnu.from-2.9.4.bsdiff",
+        "deno-x86_64-unknown-linux-gnu.from-2.9.4.bsdiff.sha256sum",
+        "deno-x86_64-unknown-linux-gnu.sha256sum",
+        "deno-x86_64-unknown-linux-gnu.zip",
+        "deno-x86_64-unknown-linux-gnu.zip.sha256sum",
+        "denort-aarch64-apple-darwin.zip",
+        "denort-aarch64-apple-darwin.zip.sha256sum",
+        "denort-aarch64-pc-windows-msvc.zip",
+        "denort-aarch64-pc-windows-msvc.zip.sha256sum",
+        "denort-aarch64-unknown-linux-gnu.zip",
+        "denort-aarch64-unknown-linux-gnu.zip.sha256sum",
+        "denort-x86_64-apple-darwin.zip",
+        "denort-x86_64-apple-darwin.zip.sha256sum",
+        "denort-x86_64-pc-windows-msvc.zip",
+        "denort-x86_64-pc-windows-msvc.zip.sha256sum",
+        "denort-x86_64-unknown-linux-gnu.zip",
+        "denort-x86_64-unknown-linux-gnu.zip.sha256sum",
+        "deno_src.tar.gz",
+        "lib.deno.d.ts",
+        "libdenort-aarch64-apple-darwin.zip",
+        "libdenort-aarch64-apple-darwin.zip.sha256sum",
+        "libdenort-aarch64-pc-windows-msvc.zip",
+        "libdenort-aarch64-pc-windows-msvc.zip.sha256sum",
+        "libdenort-aarch64-unknown-linux-gnu.zip",
+        "libdenort-aarch64-unknown-linux-gnu.zip.sha256sum",
+        "libdenort-x86_64-apple-darwin.zip",
+        "libdenort-x86_64-apple-darwin.zip.sha256sum",
+        "libdenort-x86_64-pc-windows-msvc.zip",
+        "libdenort-x86_64-pc-windows-msvc.zip.sha256sum",
+        "libdenort-x86_64-unknown-linux-gnu.zip",
+        "libdenort-x86_64-unknown-linux-gnu.zip.sha256sum"
+      ],
+      "workflow_runs": [
+        {
+          "id": 31114190813,
+          "name": "npm_publish",
+          "path": ".github/workflows/npm_publish.generated.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/31114190813",
+          "head_sha": "17fadf33a8df3af9488b9f42efd1f2290d6dc7a3"
+        },
+        {
+          "id": 31114189112,
+          "name": "post_publish",
+          "path": ".github/workflows/post_publish.generated.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/31114189112",
+          "head_sha": "17fadf33a8df3af9488b9f42efd1f2290d6dc7a3"
+        },
+        {
+          "id": 31099091193,
+          "name": "ci",
+          "path": ".github/workflows/ci.generated.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/31099091193",
+          "head_sha": "17fadf33a8df3af9488b9f42efd1f2290d6dc7a3"
+        },
+        {
+          "id": 31098397425,
+          "name": "cargo_publish",
+          "path": ".github/workflows/cargo_publish.generated.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/denoland/deno/actions/runs/31098397425",
+          "head_sha": "17fadf33a8df3af9488b9f42efd1f2290d6dc7a3"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v2.9.7",
+      "sha": "0c071246a412575e07423263404a5d13e7ed6aa2"
+    },
+    {
+      "name": "v2.9.6",
+      "sha": "e518fbd66dda5debcbdefc0beb0b3756b37b64fa"
+    },
+    {
+      "name": "v2.9.5",
+      "sha": "17fadf33a8df3af9488b9f42efd1f2290d6dc7a3"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:09.325503+00:00",
+  "source_times": {
+    "/repos/denoland/deno": "2026-10-17T16:12:16.135978+00:00",
+    "/repos/denoland/deno/commits?sha=main&per_page=20": "2026-10-17T16:12:18.090784+00:00",
+    "/repos/denoland/deno/git/trees/a18ce33715e30cd2b0d99c7e322ef11a65490e4d": "2026-10-17T16:12:19.493965+00:00",
+    "/repos/denoland/deno/git/trees/8f4e923832fdca2297e015207fb3d61cbe1b3f86": "2026-10-17T16:12:20.918180+00:00",
+    "/repos/denoland/deno/git/trees/034388a8761e91d06efe9807ba843c9643327836": "2026-10-17T16:12:22.387811+00:00",
+    "/repos/denoland/deno/git/trees/9d62de2874f63fd8ddce1944b58cc36b4aea3791": "2026-10-17T16:12:23.769959+00:00",
+    "/repos/denoland/deno/git/trees/b92f31e07c6fa887899bf2c4972d5dc69511ef52": "2026-10-17T16:12:25.138612+00:00",
+    "/repos/denoland/deno/git/blobs/0276c23c589c0399f8ed51d9128e34f9a1d1ce56": "2026-10-17T16:12:26.723125+00:00",
+    "/repos/denoland/deno/git/blobs/79e56e4417fbafdc5bda90871a4047d73250373e": "2026-10-17T16:12:28.428174+00:00",
+    "/repos/denoland/deno/git/blobs/8173eb951062916cc112a8fb7c0e120b1c945975": "2026-10-17T16:12:29.813754+00:00",
+    "/repos/denoland/deno/git/blobs/256b5d5ddc939d669616fb9039ac13ed8ad52063": "2026-10-17T16:12:32.272077+00:00",
+    "/repos/denoland/deno/git/blobs/60c16527da8b3a7454a2ac34879d15224c3bbaec": "2026-10-17T16:12:33.801533+00:00",
+    "/repos/denoland/deno/git/blobs/883291acf8e122c29f48090ddfa9e64045044d45": "2026-10-17T16:12:35.773377+00:00",
+    "/repos/denoland/deno/git/blobs/2b38da27b67e5962856f5d5f66740cc8fea67dde": "2026-10-17T16:12:37.226197+00:00",
+    "/repos/denoland/deno/git/blobs/8666a71e9989dbbd148d714b8c5b16a584c635b9": "2026-10-17T16:12:38.660691+00:00",
+    "/repos/denoland/deno/git/blobs/23e590c3e95c907a07d98bc243e6b4c9104a38f7": "2026-10-17T16:12:40.078800+00:00",
+    "/repos/denoland/deno/git/blobs/266131c1e55b606b68ab3dbe1e9915264a257569": "2026-10-17T16:12:41.592490+00:00",
+    "/repos/denoland/deno/git/blobs/cf6bb5b58220b4d27b858e8d90c9b82337509d7b": "2026-10-17T16:12:42.972977+00:00",
+    "/repos/denoland/deno/git/blobs/cb082d89dd109d4932ad81b2fcdb014f5a6d6aff": "2026-10-17T16:12:45.714707+00:00",
+    "/repos/denoland/deno/git/blobs/ce8d94daa41e67adba78ca919dd5e241c29a8e0c": "2026-10-17T16:12:49.426719+00:00",
+    "/repos/denoland/deno/git/blobs/b020f32a7d8dfb71592013b2a10feadd959345c8": "2026-10-17T16:12:51.352868+00:00",
+    "/repos/denoland/deno/git/blobs/f4a166aaafd038b288b14042dfb121e5579122a1": "2026-10-17T16:12:52.785334+00:00",
+    "/repos/denoland/deno/git/blobs/9641639526e697c382a69fd1367e5cbc4d0fda39": "2026-10-17T16:12:54.148098+00:00",
+    "/repos/denoland/deno/git/blobs/80e6b7dc449aa941cb1389f8cf27cf0d31aad7cd": "2026-10-17T16:12:56.477928+00:00",
+    "/repos/denoland/deno/git/blobs/4c0ee5a96be9078350aa65f4172aca1db953fdd2": "2026-10-17T16:12:57.898281+00:00",
+    "/repos/denoland/deno/git/blobs/d7152dae3209ed2babb51c21dc016d479f4a950d": "2026-10-17T16:12:59.306652+00:00",
+    "/repos/denoland/deno/git/blobs/60dcea057452eddabafff86888ed3c94f525bcf6": "2026-10-17T16:13:00.707413+00:00",
+    "/repos/denoland/deno/git/blobs/6bed607801566c349c840b0fd94d30f3b3c0cb84": "2026-10-17T16:13:03.239611+00:00",
+    "/repos/denoland/deno/git/blobs/cb148dd8cc9387e5748a03b868928ea5c1c4f0b8": "2026-10-17T16:13:04.786567+00:00",
+    "/repos/denoland/deno/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:13:09.432139+00:00",
+    "/repos/denoland/deno/pulls/33683/files?per_page=100": "2026-10-17T16:13:11.127371+00:00",
+    "/repos/denoland/deno/pulls/33683/reviews?per_page=100": "2026-10-17T16:13:12.841337+00:00",
+    "/repos/denoland/deno/actions/runs?head_sha=8c47426fcecfa545251dc5b9217509a4d31e30e6&per_page=10": "2026-10-17T16:13:14.585283+00:00",
+    "/repos/denoland/deno/actions/runs?head_sha=f170752b1566d44f7f0443036aadf8b056e4c5bd&per_page=10": "2026-10-17T16:13:16.378578+00:00",
+    "/repos/denoland/deno/pulls/34984/files?per_page=100": "2026-10-17T16:13:19.264420+00:00",
+    "/repos/denoland/deno/pulls/34984/reviews?per_page=100": "2026-10-17T16:13:20.767966+00:00",
+    "/repos/denoland/deno/actions/runs?head_sha=6a9963a968fb4fe6861c041db65d0608eb03e529&per_page=10": "2026-10-17T16:13:22.414313+00:00",
+    "/repos/denoland/deno/actions/runs?head_sha=a35df3d697937b84003d17762c579b002bb87a6d&per_page=10": "2026-10-17T16:13:24.198164+00:00",
+    "/repos/denoland/deno/pulls/36976/files?per_page=100": "2026-10-17T16:13:25.699115+00:00",
+    "/repos/denoland/deno/pulls/36976/reviews?per_page=100": "2026-10-17T16:13:27.130841+00:00",
+    "/repos/denoland/deno/actions/runs?head_sha=a18ce33715e30cd2b0d99c7e322ef11a65490e4d&per_page=10": "2026-10-17T16:13:29.547096+00:00",
+    "/repos/denoland/deno/actions/runs?head_sha=6a24385ad966fdfd3e977aa666f4544da0441321&per_page=10": "2026-10-17T16:13:31.315332+00:00",
+    "/repos/denoland/deno/releases?per_page=20&page=1": "2026-10-17T16:17:09.245575+00:00",
+    "/repos/denoland/deno/commits/v2.9.7": "2026-10-17T16:13:39.830478+00:00",
+    "/repos/denoland/deno/actions/runs?head_sha=0c071246a412575e07423263404a5d13e7ed6aa2&per_page=10": "2026-10-17T16:13:41.815315+00:00",
+    "/repos/denoland/deno/commits/v2.9.6": "2026-10-17T16:13:44.044146+00:00",
+    "/repos/denoland/deno/actions/runs?head_sha=e518fbd66dda5debcbdefc0beb0b3756b37b64fa&per_page=10": "2026-10-17T16:13:45.840524+00:00",
+    "/repos/denoland/deno/commits/v2.9.5": "2026-10-17T16:13:47.327202+00:00",
+    "/repos/denoland/deno/actions/runs?head_sha=17fadf33a8df3af9488b9f42efd1f2290d6dc7a3&per_page=10": "2026-10-17T16:13:49.395616+00:00",
+    "/repos/denoland/deno/tags?per_page=3": "2026-10-17T16:13:50.781790+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:09.245575+00:00",
+  "status": "collected"
+}

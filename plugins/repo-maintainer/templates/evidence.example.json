@@ -1,0 +1,6 @@
+{
+  "fingerprint": "替换为验证完成且代码未变化时的 snapshot 指纹",
+  "checks": [
+    {"id": "docs", "command": "与任务中的 command 完全相同", "exit_code": 0, "result": "替换为真实检查结果和日志位置"}
+  ]
+}

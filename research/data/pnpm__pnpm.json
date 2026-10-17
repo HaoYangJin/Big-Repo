@@ -1,0 +1,2810 @@
+{
+  "requested_repository": "pnpm/pnpm",
+  "category": "tools",
+  "collected_at": "2026-10-17T16:17:26.759988+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "pnpm/pnpm",
+  "metadata": {
+    "html_url": "https://github.com/pnpm/pnpm",
+    "description": "Fast, disk space efficient package manager",
+    "homepage": "https://pnpm.io",
+    "language": "Rust",
+    "stargazers_count": 36827,
+    "forks_count": 1944,
+    "open_issues_count": 200,
+    "pushed_at": "2026-10-17T16:13:02Z",
+    "created_at": "2016-01-28T07:40:43Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [
+      "dependency-manager",
+      "install",
+      "javascript",
+      "modules",
+      "node",
+      "nodejs",
+      "npm",
+      "package-manager"
+    ],
+    "owner": {
+      "login": "pnpm",
+      "type": "Organization",
+      "html_url": "https://github.com/pnpm"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b",
+      "url": "https://github.com/pnpm/pnpm/commit/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b",
+      "date": "2026-10-17T16:05:14Z",
+      "subject": "fix: run the workspace root's pnpmfile for projects with their own lockfiles (#17047)"
+    },
+    {
+      "sha": "2564674135c42e638442ab34dfa35187a9ccedc4",
+      "url": "https://github.com/pnpm/pnpm/commit/2564674135c42e638442ab34dfa35187a9ccedc4",
+      "date": "2026-10-17T15:05:43Z",
+      "subject": "perf(npm-resolver): revalidate the full document a release-age upgrade already holds (#17044)"
+    },
+    {
+      "sha": "00deeb181bcbb06d7311fcb36171e9e252ebc2ef",
+      "url": "https://github.com/pnpm/pnpm/commit/00deeb181bcbb06d7311fcb36171e9e252ebc2ef",
+      "date": "2026-10-17T15:04:07Z",
+      "subject": "fix(pre-command): read only the settings the pinned pnpm switch decides on (#17045)"
+    },
+    {
+      "sha": "6beecb0bf0bb7bd2ff3e3dec1d86f319def07486",
+      "url": "https://github.com/pnpm/pnpm/commit/6beecb0bf0bb7bd2ff3e3dec1d86f319def07486",
+      "date": "2026-10-17T14:28:13Z",
+      "subject": "docs: rewrite the authentication settings page in plain language (#17043)"
+    },
+    {
+      "sha": "5d03c126be7ada3b98ce5543464b71fc03dbe459",
+      "url": "https://github.com/pnpm/pnpm/commit/5d03c126be7ada3b98ce5543464b71fc03dbe459",
+      "date": "2026-10-17T14:14:42Z",
+      "subject": "fix(package-manager): check an injected publish directory against its project's manifest (#17042)"
+    },
+    {
+      "sha": "0ee3439a0c29c9b0f240dcb10c6e6f4e86083a8e",
+      "url": "https://github.com/pnpm/pnpm/commit/0ee3439a0c29c9b0f240dcb10c6e6f4e86083a8e",
+      "date": "2026-10-17T13:36:45Z",
+      "subject": "feat(pnpr-auth): add database schema migrations, token scopes and kind, and mysql case sensitivity (#17039)"
+    },
+    {
+      "sha": "c8353aedf0ac6a1dbf948b2f7ab4053ef18a581f",
+      "url": "https://github.com/pnpm/pnpm/commit/c8353aedf0ac6a1dbf948b2f7ab4053ef18a581f",
+      "date": "2026-10-17T13:48:14Z",
+      "subject": "perf(resolving-npm-resolver): fetch the release-age upgrade through the cached fetcher (#17041)"
+    },
+    {
+      "sha": "9204d64b8cc9b41e59d6c4e26382e4692423550e",
+      "url": "https://github.com/pnpm/pnpm/commit/9204d64b8cc9b41e59d6c4e26382e4692423550e",
+      "date": "2026-10-17T13:47:47Z",
+      "subject": "fix(deps.status): record which projects each install proved installed (#17034)"
+    },
+    {
+      "sha": "1124edb86378d68f51d1479b5ce55809699a613b",
+      "url": "https://github.com/pnpm/pnpm/commit/1124edb86378d68f51d1479b5ce55809699a613b",
+      "date": "2026-10-17T13:26:35Z",
+      "subject": "fix(package-manager): record which projects each install proved installed (#17030)"
+    },
+    {
+      "sha": "bef1e1a3653b7081ed0747532fc08c4e05dda150",
+      "url": "https://github.com/pnpm/pnpm/commit/bef1e1a3653b7081ed0747532fc08c4e05dda150",
+      "date": "2026-10-17T13:20:16Z",
+      "subject": "fix(directory-fetcher): check the start of a walk confined to a package root (#17040)"
+    },
+    {
+      "sha": "94d5ca68566616ea7ade3fadc4c22c9995146fd3",
+      "url": "https://github.com/pnpm/pnpm/commit/94d5ca68566616ea7ade3fadc4c22c9995146fd3",
+      "date": "2026-10-17T13:00:53Z",
+      "subject": "fix: apply trustPolicy to the pnpm version a project pins (#17038)"
+    },
+    {
+      "sha": "d79f2a7da734838c5f154834f5d3159b34e1e6ac",
+      "url": "https://github.com/pnpm/pnpm/commit/d79f2a7da734838c5f154834f5d3159b34e1e6ac",
+      "date": "2026-10-17T12:49:34Z",
+      "subject": "fix(resolving-npm-resolver): remember the release-age upgrade of a lowest-version mirror pick (#17036)"
+    },
+    {
+      "sha": "a7fb3f069d0072f1bb32d3ee0c16ae70d4693087",
+      "url": "https://github.com/pnpm/pnpm/commit/a7fb3f069d0072f1bb32d3ee0c16ae70d4693087",
+      "date": "2026-10-17T12:48:24Z",
+      "subject": "fix: sync only the package files into injected copies after scripts (#17033)"
+    },
+    {
+      "sha": "2bdf8deca69c8631f79d05cf04a800c3851a3b66",
+      "url": "https://github.com/pnpm/pnpm/commit/2bdf8deca69c8631f79d05cf04a800c3851a3b66",
+      "date": "2026-10-17T12:25:11Z",
+      "subject": "refactor(pre-command): read the bootstrap flags through one clap-derived reader (#17035)"
+    },
+    {
+      "sha": "c79f4757ca490aab571479e6e4bbc8b6898d4695",
+      "url": "https://github.com/pnpm/pnpm/commit/c79f4757ca490aab571479e6e4bbc8b6898d4695",
+      "date": "2026-10-17T12:02:11Z",
+      "subject": "refactor(resolving-npm-resolver): decide the pick's mirror shortcuts in one pure route (#17032)"
+    },
+    {
+      "sha": "198cc7f398515fbd67cf78d47604f149fbcf041d",
+      "url": "https://github.com/pnpm/pnpm/commit/198cc7f398515fbd67cf78d47604f149fbcf041d",
+      "date": "2026-10-17T11:23:18Z",
+      "subject": "feat(pnpr): provide minimal production default configuration and separate test fixtures (#17027)"
+    },
+    {
+      "sha": "8cb643dc425cb00dffc52c8bc474df9494cf50f0",
+      "url": "https://github.com/pnpm/pnpm/commit/8cb643dc425cb00dffc52c8bc474df9494cf50f0",
+      "date": "2026-10-17T11:22:28Z",
+      "subject": "test(package-manager): keep the converging lockfile checks off exact-second mtimes (#17031)"
+    },
+    {
+      "sha": "4255419badc590625af63f70a10e588dfd237709",
+      "url": "https://github.com/pnpm/pnpm/commit/4255419badc590625af63f70a10e588dfd237709",
+      "date": "2026-10-17T11:21:47Z",
+      "subject": "fix(self-update): read the project pin where the pre-command pass reads it (#17026)"
+    },
+    {
+      "sha": "530645517f8d383d724e9cd4061ad1a9448df2b7",
+      "url": "https://github.com/pnpm/pnpm/commit/530645517f8d383d724e9cd4061ad1a9448df2b7",
+      "date": "2026-10-17T10:57:31Z",
+      "subject": "refactor(lockfile-freshness): use the resolver's peer-shadowing rule (#17029)"
+    },
+    {
+      "sha": "474df985bba306d74e486262178c34f3bee8380d",
+      "url": "https://github.com/pnpm/pnpm/commit/474df985bba306d74e486262178c34f3bee8380d",
+      "date": "2026-10-17T10:56:28Z",
+      "subject": "refactor(resolving-npm-resolver): share the metadata response decode across both fetchers (#17028)"
+    }
+  ],
+  "default_sha": "cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b",
+  "root_and_selected_directory_paths": [
+    ".agents",
+    ".cargo",
+    ".changeset",
+    ".claude",
+    ".coderabbit.yaml",
+    ".config",
+    ".devcontainer",
+    ".editorconfig",
+    ".git-wt",
+    ".gitattributes",
+    ".github",
+    ".github/CODEOWNERS",
+    ".github/DISCUSSION_TEMPLATE",
+    ".github/FUNDING.yml",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug-report.yaml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/regression-report.yaml",
+    ".github/actions",
+    ".github/config.yml",
+    ".github/dependabot.yml",
+    ".github/pull_request_template.md",
+    ".github/release-keys",
+    ".github/release-sponsors.md",
+    ".github/scripts",
+    ".github/workflows",
+    ".github/workflows/audit.yml",
+    ".github/workflows/benchmark.yml",
+    ".github/workflows/build-pnpr.yml",
+    ".github/workflows/cancel-unapproved-workflows.yml",
+    ".github/workflows/cargo-equivalence.yml",
+    ".github/workflows/ci-performance-bencher-upload.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/codeql-analysis.yml",
+    ".github/workflows/create-release-pr.yml",
+    ".github/workflows/docker.yml",
+    ".github/workflows/docs.yml",
+    ".github/workflows/ecosystem-e2e.yml",
+    ".github/workflows/notify-regression.yml",
+    ".github/workflows/pacquet-cargo-unused.yml",
+    ".github/workflows/pacquet-ci.yml",
+    ".github/workflows/pacquet-codecov.yml",
+    ".github/workflows/pacquet-integrated-benchmark-comment.yml",
+    ".github/workflows/pacquet-integrated-benchmark.yml",
+    ".github/workflows/pacquet-micro-benchmark.yml",
+    ".github/workflows/pnpm-wasm.yml",
+    ".github/workflows/pr-review-automation-privileged.yml",
+    ".github/workflows/pr-review-automation.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/sync-docs.yml",
+    ".github/workflows/test.yml",
+    ".github/workflows/triage-issues.yml",
+    ".github/workflows/update-latest.yml",
+    ".github/workflows/update-lockfile.yml",
+    ".github/workflows/zizmor.yml",
+    ".gitignore",
+    ".husky",
+    ".meta-updater",
+    ".pnpmfile.cjs",
+    ".pr_agent.toml",
+    ".taplo.toml",
+    ".typos.toml",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "Cargo.lock",
+    "Cargo.toml",
+    "Cross.toml",
+    "DOCUMENTATION.md",
+    "FUNDING.json",
+    "LICENSE",
+    "PHILOSOPHY.md",
+    "README.md",
+    "RELEASING.md",
+    "SECURITY.md",
+    "__patches__",
+    "clippy.toml",
+    "commitlint.config.cjs",
+    "cspell.json",
+    "deny.toml",
+    "docker",
+    "dylint.toml",
+    "eslint.config.mjs",
+    "fixtures",
+    "justfile",
+    "package.json",
+    "pnpm",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "pnpm11",
+    "pnpr",
+    "renovate.json",
+    "rust-toolchain.toml",
+    "rustfmt.toml",
+    "tsconfig.lint.json",
+    "vendor"
+  ],
+  "workflow_paths": [
+    ".github/workflows/ci-performance-bencher-upload.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/create-release-pr.yml",
+    ".github/workflows/pacquet-ci.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/test.yml",
+    ".github/workflows/update-latest.yml",
+    ".github/workflows/audit.yml",
+    ".github/workflows/benchmark.yml",
+    ".github/workflows/build-pnpr.yml",
+    ".github/workflows/cancel-unapproved-workflows.yml",
+    ".github/workflows/cargo-equivalence.yml",
+    ".github/workflows/codeql-analysis.yml",
+    ".github/workflows/docker.yml",
+    ".github/workflows/docs.yml",
+    ".github/workflows/ecosystem-e2e.yml",
+    ".github/workflows/notify-regression.yml",
+    ".github/workflows/pacquet-cargo-unused.yml",
+    ".github/workflows/pacquet-codecov.yml",
+    ".github/workflows/pacquet-integrated-benchmark-comment.yml",
+    ".github/workflows/pacquet-integrated-benchmark.yml",
+    ".github/workflows/pacquet-micro-benchmark.yml",
+    ".github/workflows/pnpm-wasm.yml",
+    ".github/workflows/pr-review-automation-privileged.yml",
+    ".github/workflows/pr-review-automation.yml",
+    ".github/workflows/sync-docs.yml",
+    ".github/workflows/triage-issues.yml",
+    ".github/workflows/update-lockfile.yml",
+    ".github/workflows/zizmor.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "4055dcd9832459e07422b58a591c87ef4dd43cc3",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/AGENTS.md",
+      "lines": 482,
+      "signals": {
+        "tests": [
+          123,
+          282,
+          402,
+          410
+        ],
+        "lint": [
+          379,
+          382,
+          384
+        ],
+        "generated_code": [],
+        "release_automation": [
+          217,
+          221,
+          244,
+          246,
+          285,
+          295,
+          346
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [
+          170
+        ],
+        "security": [
+          449
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          402
+        ],
+        "community": [
+          448
+        ],
+        "story": [
+          311
+        ]
+      }
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha": "47dc3e3d863cfb5727b87d785d09abf9743c0a72",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/CLAUDE.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "ba053ce34f431965ab4a7b4814e134f273001006",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/CODE_OF_CONDUCT.md",
+      "lines": 46,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "fb1b8bc837cb20ac4d9ea61459886365e26a98d3",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/CONTRIBUTING.md",
+      "lines": 447,
+      "signals": {
+        "tests": [
+          36,
+          68,
+          255,
+          264
+        ],
+        "lint": [
+          74,
+          87
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          378,
+          384
+        ],
+        "media": [
+          378,
+          384
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          275,
+          387
+        ]
+      }
+    },
+    {
+      "path": "Cargo.toml",
+      "sha": "ff439ca00e448f2dc56d11ecc519285b96a97cde",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/Cargo.toml",
+      "lines": 404,
+      "signals": {
+        "tests": [],
+        "lint": [
+          309,
+          350
+        ],
+        "generated_code": [
+          384
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "c328abd52604ede5b19054d7f4e0b8dc5c3a17a2",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/README.md",
+      "lines": 270,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          30,
+          31,
+          32,
+          33,
+          34
+        ],
+        "media": [
+          10,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          45,
+          52,
+          57,
+          66,
+          84
+        ],
+        "theme_images": [
+          7,
+          8,
+          9,
+          49,
+          50,
+          51,
+          63,
+          64,
+          65,
+          81,
+          82,
+          83
+        ],
+        "playground": [
+          112,
+          114,
+          115,
+          116
+        ],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "cb917c6e29c7795deb565d795fe58b7b0fd4c53c",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/SECURITY.md",
+      "lines": 116,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          12
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "package.json",
+      "sha": "3dc7534de97f725ede915253c035521dd9a9e395",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/package.json",
+      "lines": 100,
+      "signals": {
+        "tests": [
+          66,
+          70,
+          80
+        ],
+        "lint": [
+          11,
+          53,
+          65,
+          77,
+          78
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [
+          62,
+          63,
+          64
+        ],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha": "c7f6778395d63791c2199d43c3be70889c60883e",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/CODEOWNERS",
+      "lines": 8,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yaml",
+      "sha": "9577b81567850202012adaf23eb0aa2ce0ca679d",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/ISSUE_TEMPLATE/bug-report.yaml",
+      "lines": 93,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          9
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "c6dde250ab75dc94a60fc5be627c251ad80de4ad",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 10,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          4,
+          7,
+          10
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/regression-report.yaml",
+      "sha": "123c884af58a97ee2a024b28a70a4535dbcef408",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/ISSUE_TEMPLATE/regression-report.yaml",
+      "lines": 69,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "824059ad972dbd521e2dce956b9f1926de741bc9",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/dependabot.yml",
+      "lines": 23,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha": "6888a72777382b6b1d8a275dad8149b401fe1aac",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/pull_request_template.md",
+      "lines": 34,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          15
+        ]
+      }
+    },
+    {
+      "path": ".github/release-sponsors.md",
+      "sha": "8ac5ed877ce25528e3347cf18e795457b34310e4",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/release-sponsors.md",
+      "lines": 111,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [
+          9,
+          16,
+          21,
+          30,
+          48,
+          57,
+          62,
+          71,
+          80,
+          89,
+          100,
+          105
+        ],
+        "theme_images": [
+          13,
+          14,
+          15,
+          27,
+          28,
+          29,
+          45,
+          46,
+          47,
+          54,
+          55,
+          56
+        ],
+        "playground": [
+          76,
+          78,
+          79,
+          80
+        ],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci-performance-bencher-upload.yml",
+      "sha": "e197efb613fd3d6a87e5cece6a6d7602b038676a",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/workflows/ci-performance-bencher-upload.yml",
+      "lines": 288,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13
+        ],
+        "pinned_actions": [
+          124
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "26348cefb6feba2ff4972ca250b0b3c7a2006148",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/workflows/ci.yml",
+      "lines": 232,
+      "signals": {
+        "tests": [],
+        "lint": [
+          64
+        ],
+        "generated_code": [],
+        "release_automation": [
+          34,
+          77,
+          87
+        ],
+        "permissions": [
+          18,
+          29,
+          156,
+          194
+        ],
+        "pinned_actions": [
+          45,
+          49,
+          94,
+          102,
+          121
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/create-release-pr.yml",
+      "sha": "3ebe93bd7cb48caa18ff998c42fe9ae744933c0f",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/workflows/create-release-pr.yml",
+      "lines": 240,
+      "signals": {
+        "tests": [],
+        "lint": [
+          46
+        ],
+        "generated_code": [],
+        "release_automation": [
+          11,
+          106,
+          108,
+          137,
+          188,
+          224
+        ],
+        "permissions": [
+          29,
+          30
+        ],
+        "pinned_actions": [
+          52,
+          65
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pacquet-ci.yml",
+      "sha": "3ee60e2e330f488136bf3392dd32f3d59b330986",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/workflows/pacquet-ci.yml",
+      "lines": 740,
+      "signals": {
+        "tests": [],
+        "lint": [
+          355,
+          356,
+          361,
+          377,
+          389,
+          404,
+          405,
+          414,
+          627,
+          730
+        ],
+        "generated_code": [],
+        "release_automation": [
+          33,
+          109,
+          115
+        ],
+        "permissions": [
+          10
+        ],
+        "pinned_actions": [
+          45,
+          50,
+          118,
+          122,
+          169,
+          190,
+          198,
+          211,
+          230,
+          257,
+          268,
+          313
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha": "33246ac068a8abafbf59172cdebf229ce478604b",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/workflows/release.yml",
+      "lines": 1854,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          17,
+          284,
+          354,
+          497,
+          1028,
+          1029,
+          1531,
+          1533,
+          1687
+        ],
+        "permissions": [
+          47,
+          76,
+          138,
+          253,
+          404,
+          405,
+          406,
+          533,
+          576,
+          627,
+          629,
+          806
+        ],
+        "pinned_actions": [
+          80,
+          151,
+          265,
+          268,
+          276,
+          412,
+          430,
+          438,
+          476,
+          499,
+          536,
+          541
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          17
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "sha": "26fa52207e60e1b966bad6e0713f9a4c61ce1390",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/workflows/test.yml",
+      "lines": 286,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          35
+        ],
+        "pinned_actions": [
+          60,
+          64,
+          77,
+          102,
+          140,
+          281
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/update-latest.yml",
+      "sha": "0c2f25fe0a9a12de9f9494ebd00d01c9e6e9338d",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/workflows/update-latest.yml",
+      "lines": 267,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          19,
+          37,
+          97
+        ],
+        "pinned_actions": [
+          40,
+          100,
+          195,
+          199,
+          230,
+          242,
+          259
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/audit.yml",
+      "sha": "987f4b34f9b97ee27823db11797583e675c9bc92",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/workflows/audit.yml",
+      "lines": 33,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [
+          25,
+          29
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "sha": "039ef90281ac8496e5f995446be22a65cf934ca1",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/workflows/benchmark.yml",
+      "lines": 211,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          34
+        ],
+        "pinned_actions": [
+          53,
+          75,
+          97
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build-pnpr.yml",
+      "sha": "e31dccc3558d9f3bc5ffbed6fad401a4c50166c5",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/workflows/build-pnpr.yml",
+      "lines": 90,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          29
+        ],
+        "release_automation": [],
+        "permissions": [
+          20
+        ],
+        "pinned_actions": [
+          38,
+          49,
+          61,
+          78,
+          83
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/cancel-unapproved-workflows.yml",
+      "sha": "ab09bca5cd68a9da408f6f9183a170d0bfd13652",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/workflows/cancel-unapproved-workflows.yml",
+      "lines": 60,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/cargo-equivalence.yml",
+      "sha": "905cc4f2f3ecb10842c011f2535f645cd10def8e",
+      "status": "inspected",
+      "url": "https://github.com/pnpm/pnpm/blob/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b/.github/workflows/cargo-equivalence.yml",
+      "lines": 58,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [
+          32,
+          53
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 17047,
+      "title": "fix: run the workspace root's pnpmfile for projects with their own lockfiles",
+      "url": "https://github.com/pnpm/pnpm/pull/17047",
+      "merged_at": "2026-10-17T16:05:15Z",
+      "merge_commit_sha": "cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b",
+      "files": [
+        ".changeset/global-pnpmfile-own-lockfiles.md",
+        ".changeset/root-pnpmfile-own-lockfiles.md",
+        "pnpm/crates/cli/tests/suite/hooks.rs",
+        "pnpm/crates/hooks/src/finder.rs",
+        "pnpm/crates/hooks/tests/node_hooks/integrity.rs",
+        "pnpm/crates/lockfile/src/injected_deps.rs",
+        "pnpm/crates/lockfile/src/injected_deps/tests.rs",
+        "pnpm/crates/lockfile/src/lib.rs",
+        "pnpm/crates/package-manager/src/install/lockfile_freshness.rs",
+        "pnpm/crates/package-manager/src/install/lockfile_freshness/directory_deps.rs",
+        "pnpm/crates/package-manager/src/install/lockfile_freshness/error.rs",
+        "pnpm/crates/package-manager/src/install/lockfile_freshness/injected_manifests.rs",
+        "pnpm/crates/package-manager/src/install/run/dispatch.rs",
+        "pnpm/crates/package-manager/src/install/run/manifests.rs",
+        "pnpm/crates/package-manager/src/install_with_fresh_lockfile/resolver_setup.rs",
+        "pnpm/crates/package-manager/src/lib.rs",
+        "pnpm/crates/package-manager/src/optimistic_repeat_install.rs",
+        "pnpm/crates/package-manager/src/update/prepare.rs",
+        "pnpm/docs/pnpmfile.md",
+        "pnpm11/docs/pnpmfile.md",
+        "pnpm11/installing/commands/src/recursive/installEachProject.ts",
+        "pnpm11/pnpm/test/hooks.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".changeset/global-pnpmfile-own-lockfiles.md",
+          "status": "added",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/.changeset%2Fglobal-pnpmfile-own-lockfiles.md"
+        },
+        {
+          "filename": ".changeset/root-pnpmfile-own-lockfiles.md",
+          "status": "added",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/.changeset%2Froot-pnpmfile-own-lockfiles.md"
+        },
+        {
+          "filename": "pnpm/crates/cli/tests/suite/hooks.rs",
+          "status": "modified",
+          "additions": 96,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm%2Fcrates%2Fcli%2Ftests%2Fsuite%2Fhooks.rs"
+        },
+        {
+          "filename": "pnpm/crates/hooks/src/finder.rs",
+          "status": "modified",
+          "additions": 65,
+          "deletions": 8,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm%2Fcrates%2Fhooks%2Fsrc%2Ffinder.rs"
+        },
+        {
+          "filename": "pnpm/crates/hooks/tests/node_hooks/integrity.rs",
+          "status": "modified",
+          "additions": 86,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm%2Fcrates%2Fhooks%2Ftests%2Fnode_hooks%2Fintegrity.rs"
+        },
+        {
+          "filename": "pnpm/crates/lockfile/src/injected_deps.rs",
+          "status": "modified",
+          "additions": 17,
+          "deletions": 10,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm%2Fcrates%2Flockfile%2Fsrc%2Finjected_deps.rs"
+        },
+        {
+          "filename": "pnpm/crates/lockfile/src/injected_deps/tests.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm%2Fcrates%2Flockfile%2Fsrc%2Finjected_deps%2Ftests.rs"
+        },
+        {
+          "filename": "pnpm/crates/lockfile/src/lib.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm%2Fcrates%2Flockfile%2Fsrc%2Flib.rs"
+        },
+        {
+          "filename": "pnpm/crates/package-manager/src/install/lockfile_freshness.rs",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 3,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm%2Fcrates%2Fpackage-manager%2Fsrc%2Finstall%2Flockfile_freshness.rs"
+        },
+        {
+          "filename": "pnpm/crates/package-manager/src/install/lockfile_freshness/directory_deps.rs",
+          "status": "modified",
+          "additions": 48,
+          "deletions": 28,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm%2Fcrates%2Fpackage-manager%2Fsrc%2Finstall%2Flockfile_freshness%2Fdirectory_deps.rs"
+        },
+        {
+          "filename": "pnpm/crates/package-manager/src/install/lockfile_freshness/error.rs",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm%2Fcrates%2Fpackage-manager%2Fsrc%2Finstall%2Flockfile_freshness%2Ferror.rs"
+        },
+        {
+          "filename": "pnpm/crates/package-manager/src/install/lockfile_freshness/injected_manifests.rs",
+          "status": "added",
+          "additions": 108,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm%2Fcrates%2Fpackage-manager%2Fsrc%2Finstall%2Flockfile_freshness%2Finjected_manifests.rs"
+        },
+        {
+          "filename": "pnpm/crates/package-manager/src/install/run/dispatch.rs",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm%2Fcrates%2Fpackage-manager%2Fsrc%2Finstall%2Frun%2Fdispatch.rs"
+        },
+        {
+          "filename": "pnpm/crates/package-manager/src/install/run/manifests.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 2,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm%2Fcrates%2Fpackage-manager%2Fsrc%2Finstall%2Frun%2Fmanifests.rs"
+        },
+        {
+          "filename": "pnpm/crates/package-manager/src/install_with_fresh_lockfile/resolver_setup.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm%2Fcrates%2Fpackage-manager%2Fsrc%2Finstall_with_fresh_lockfile%2Fresolver_setup.rs"
+        },
+        {
+          "filename": "pnpm/crates/package-manager/src/lib.rs",
+          "status": "modified",
+          "additions": 53,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm%2Fcrates%2Fpackage-manager%2Fsrc%2Flib.rs"
+        },
+        {
+          "filename": "pnpm/crates/package-manager/src/optimistic_repeat_install.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm%2Fcrates%2Fpackage-manager%2Fsrc%2Foptimistic_repeat_install.rs"
+        },
+        {
+          "filename": "pnpm/crates/package-manager/src/update/prepare.rs",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm%2Fcrates%2Fpackage-manager%2Fsrc%2Fupdate%2Fprepare.rs"
+        },
+        {
+          "filename": "pnpm/docs/pnpmfile.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm%2Fdocs%2Fpnpmfile.md"
+        },
+        {
+          "filename": "pnpm11/docs/pnpmfile.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm11%2Fdocs%2Fpnpmfile.md"
+        },
+        {
+          "filename": "pnpm11/installing/commands/src/recursive/installEachProject.ts",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 1,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm11%2Finstalling%2Fcommands%2Fsrc%2Frecursive%2FinstallEachProject.ts"
+        },
+        {
+          "filename": "pnpm11/pnpm/test/hooks.ts",
+          "status": "modified",
+          "additions": 71,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/84e881b1cc4751911a77761c7d9b985eebbf00f6/pnpm11%2Fpnpm%2Ftest%2Fhooks.ts"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "CHANGES_REQUESTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "CHANGES_REQUESTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39048788189,
+          "name": "CI Performance Bencher Upload",
+          "path": ".github/workflows/ci-performance-bencher-upload.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39048788189",
+          "head_sha": "cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b"
+        },
+        {
+          "id": 39048501710,
+          "name": "CI Performance Bencher Upload",
+          "path": ".github/workflows/ci-performance-bencher-upload.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39048501710",
+          "head_sha": "cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b"
+        },
+        {
+          "id": 39048435525,
+          "name": "Pacquet Integrated-Benchmark Comment",
+          "path": ".github/workflows/pacquet-integrated-benchmark-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39048435525",
+          "head_sha": "cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b"
+        },
+        {
+          "id": 39048099888,
+          "name": "Cancel Unapproved Workflows",
+          "path": ".github/workflows/cancel-unapproved-workflows.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39048099888",
+          "head_sha": "cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b"
+        },
+        {
+          "id": 39047877226,
+          "name": "Benchmarks",
+          "path": ".github/workflows/benchmark.yml",
+          "event": "push",
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39047877226",
+          "head_sha": "cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b"
+        },
+        {
+          "id": 39047877214,
+          "name": "Audit",
+          "path": ".github/workflows/audit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39047877214",
+          "head_sha": "cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b"
+        },
+        {
+          "id": 39047877240,
+          "name": "GitHub Actions Security Analysis with zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39047877240",
+          "head_sha": "cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b"
+        },
+        {
+          "id": 39047877216,
+          "name": "Documentation",
+          "path": ".github/workflows/docs.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39047877216",
+          "head_sha": "cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b"
+        },
+        {
+          "id": 39047877305,
+          "name": "TS CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39047877305",
+          "head_sha": "cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b"
+        },
+        {
+          "id": 39047877190,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39047877190",
+          "head_sha": "cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39047306806,
+          "name": "PR review automation",
+          "path": ".github/workflows/pr-review-automation.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39047306806",
+          "head_sha": "84e881b1cc4751911a77761c7d9b985eebbf00f6"
+        },
+        {
+          "id": 39047094737,
+          "name": "PR review automation",
+          "path": ".github/workflows/pr-review-automation.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39047094737",
+          "head_sha": "84e881b1cc4751911a77761c7d9b985eebbf00f6"
+        },
+        {
+          "id": 39046795762,
+          "name": "PR review automation",
+          "path": ".github/workflows/pr-review-automation.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39046795762",
+          "head_sha": "84e881b1cc4751911a77761c7d9b985eebbf00f6"
+        },
+        {
+          "id": 39046793897,
+          "name": "PR review automation",
+          "path": ".github/workflows/pr-review-automation.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39046793897",
+          "head_sha": "84e881b1cc4751911a77761c7d9b985eebbf00f6"
+        },
+        {
+          "id": 39046791711,
+          "name": "PR review automation",
+          "path": ".github/workflows/pr-review-automation.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39046791711",
+          "head_sha": "84e881b1cc4751911a77761c7d9b985eebbf00f6"
+        },
+        {
+          "id": 39046791878,
+          "name": "PR review automation",
+          "path": ".github/workflows/pr-review-automation.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39046791878",
+          "head_sha": "84e881b1cc4751911a77761c7d9b985eebbf00f6"
+        },
+        {
+          "id": 39046784969,
+          "name": "Audit",
+          "path": ".github/workflows/audit.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39046784969",
+          "head_sha": "84e881b1cc4751911a77761c7d9b985eebbf00f6"
+        },
+        {
+          "id": 39046785067,
+          "name": "GitHub Actions Security Analysis with zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39046785067",
+          "head_sha": "84e881b1cc4751911a77761c7d9b985eebbf00f6"
+        },
+        {
+          "id": 39046784892,
+          "name": "Pacquet Code Coverage",
+          "path": ".github/workflows/pacquet-codecov.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39046784892",
+          "head_sha": "84e881b1cc4751911a77761c7d9b985eebbf00f6"
+        },
+        {
+          "id": 39046784882,
+          "name": "Pacquet Integrated-Benchmark",
+          "path": ".github/workflows/pacquet-integrated-benchmark.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39046784882",
+          "head_sha": "84e881b1cc4751911a77761c7d9b985eebbf00f6"
+        }
+      ]
+    },
+    {
+      "number": 17044,
+      "title": "perf(npm-resolver): revalidate the full document a release-age upgrade already holds",
+      "url": "https://github.com/pnpm/pnpm/pull/17044",
+      "merged_at": "2026-10-17T15:20:39Z",
+      "merge_commit_sha": "2564674135c42e638442ab34dfa35187a9ccedc4",
+      "files": [
+        ".changeset/revalidate-release-age-upgrade.md",
+        "pnpm11/resolving/npm-resolver/src/pickFromRegistry.ts",
+        "pnpm11/resolving/npm-resolver/src/releaseAgeUpgrade.ts",
+        "pnpm11/resolving/npm-resolver/test/publishedBy.test.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".changeset/revalidate-release-age-upgrade.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/251d36929b3d3693606a00fa8d5d5e481143d888/.changeset%2Frevalidate-release-age-upgrade.md"
+        },
+        {
+          "filename": "pnpm11/resolving/npm-resolver/src/pickFromRegistry.ts",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/251d36929b3d3693606a00fa8d5d5e481143d888/pnpm11%2Fresolving%2Fnpm-resolver%2Fsrc%2FpickFromRegistry.ts"
+        },
+        {
+          "filename": "pnpm11/resolving/npm-resolver/src/releaseAgeUpgrade.ts",
+          "status": "modified",
+          "additions": 27,
+          "deletions": 8,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/251d36929b3d3693606a00fa8d5d5e481143d888/pnpm11%2Fresolving%2Fnpm-resolver%2Fsrc%2FreleaseAgeUpgrade.ts"
+        },
+        {
+          "filename": "pnpm11/resolving/npm-resolver/test/publishedBy.test.ts",
+          "status": "modified",
+          "additions": 113,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/251d36929b3d3693606a00fa8d5d5e481143d888/pnpm11%2Fresolving%2Fnpm-resolver%2Ftest%2FpublishedBy.test.ts"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39047777224,
+          "name": "CI Performance Bencher Upload",
+          "path": ".github/workflows/ci-performance-bencher-upload.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39047777224",
+          "head_sha": "2564674135c42e638442ab34dfa35187a9ccedc4"
+        },
+        {
+          "id": 39047656829,
+          "name": "CI Performance Bencher Upload",
+          "path": ".github/workflows/ci-performance-bencher-upload.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39047656829",
+          "head_sha": "2564674135c42e638442ab34dfa35187a9ccedc4"
+        },
+        {
+          "id": 39047462030,
+          "name": "Pacquet Integrated-Benchmark Comment",
+          "path": ".github/workflows/pacquet-integrated-benchmark-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39047462030",
+          "head_sha": "2564674135c42e638442ab34dfa35187a9ccedc4"
+        },
+        {
+          "id": 39047385848,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39047385848",
+          "head_sha": "2564674135c42e638442ab34dfa35187a9ccedc4"
+        },
+        {
+          "id": 39047308510,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39047308510",
+          "head_sha": "2564674135c42e638442ab34dfa35187a9ccedc4"
+        },
+        {
+          "id": 39047096947,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39047096947",
+          "head_sha": "2564674135c42e638442ab34dfa35187a9ccedc4"
+        },
+        {
+          "id": 39047092700,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39047092700",
+          "head_sha": "2564674135c42e638442ab34dfa35187a9ccedc4"
+        },
+        {
+          "id": 39046798599,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39046798599",
+          "head_sha": "2564674135c42e638442ab34dfa35187a9ccedc4"
+        },
+        {
+          "id": 39046796358,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39046796358",
+          "head_sha": "2564674135c42e638442ab34dfa35187a9ccedc4"
+        },
+        {
+          "id": 39046794306,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39046794306",
+          "head_sha": "2564674135c42e638442ab34dfa35187a9ccedc4"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39041446550,
+          "name": "PR review automation",
+          "path": ".github/workflows/pr-review-automation.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39041446550",
+          "head_sha": "251d36929b3d3693606a00fa8d5d5e481143d888"
+        },
+        {
+          "id": 39041438101,
+          "name": "PR review automation",
+          "path": ".github/workflows/pr-review-automation.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39041438101",
+          "head_sha": "251d36929b3d3693606a00fa8d5d5e481143d888"
+        },
+        {
+          "id": 39041433772,
+          "name": "GitHub Actions Security Analysis with zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39041433772",
+          "head_sha": "251d36929b3d3693606a00fa8d5d5e481143d888"
+        },
+        {
+          "id": 39041431296,
+          "name": "Rust CI",
+          "path": ".github/workflows/pacquet-ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39041431296",
+          "head_sha": "251d36929b3d3693606a00fa8d5d5e481143d888"
+        },
+        {
+          "id": 39041431354,
+          "name": "Audit",
+          "path": ".github/workflows/audit.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39041431354",
+          "head_sha": "251d36929b3d3693606a00fa8d5d5e481143d888"
+        },
+        {
+          "id": 39041431320,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39041431320",
+          "head_sha": "251d36929b3d3693606a00fa8d5d5e481143d888"
+        },
+        {
+          "id": 39041431339,
+          "name": "TS CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39041431339",
+          "head_sha": "251d36929b3d3693606a00fa8d5d5e481143d888"
+        },
+        {
+          "id": 39041428571,
+          "name": "Audit",
+          "path": ".github/workflows/audit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39041428571",
+          "head_sha": "251d36929b3d3693606a00fa8d5d5e481143d888"
+        }
+      ]
+    },
+    {
+      "number": 17045,
+      "title": "fix(pre-command): read only the settings the pinned pnpm switch decides on",
+      "url": "https://github.com/pnpm/pnpm/pull/17045",
+      "merged_at": "2026-10-17T15:19:35Z",
+      "merge_commit_sha": "00deeb181bcbb06d7311fcb36171e9e252ebc2ef",
+      "files": [
+        ".changeset/pin-decision-settings.md",
+        "pnpm/crates/cli/src/cli_args/config_warnings.rs",
+        "pnpm/crates/cli/src/cli_args/config_warnings/load_report.rs",
+        "pnpm/crates/cli/src/cli_args/dispatch.rs",
+        "pnpm/crates/cli/src/cli_args/dispatch/configuration.rs",
+        "pnpm/crates/cli/src/cli_args/package_manager.rs",
+        "pnpm/crates/cli/src/cli_args/pre_command.rs",
+        "pnpm/crates/cli/src/cli_args/pre_command/argv_plans.rs",
+        "pnpm/crates/cli/src/cli_args/pre_command/input.rs",
+        "pnpm/crates/cli/src/cli_args/pre_command/load_config.rs",
+        "pnpm/crates/cli/src/cli_args/pre_command/runtime.rs",
+        "pnpm/crates/cli/src/cli_args/pre_command/tests.rs",
+        "pnpm/crates/cli/src/cli_args/pre_command/unreadable_settings.rs",
+        "pnpm/crates/cli/tests/suite/workspace_settings_check.rs",
+        "pnpm/crates/config/src/auth_sources.rs",
+        "pnpm/crates/config/src/lib.rs",
+        "pnpm/crates/config/src/loading.rs",
+        "pnpm/crates/config/src/settings.rs",
+        "pnpm/crates/config/src/settings_read.rs",
+        "pnpm/crates/config/src/workspace_settings.rs",
+        "pnpm/crates/config/src/workspace_yaml.rs",
+        "pnpm/crates/config/src/workspace_yaml/global.rs",
+        "pnpm/crates/config/src/workspace_yaml/includes.rs",
+        "pnpm/crates/config/src/workspace_yaml/readable.rs",
+        "pnpm/crates/config/src/workspace_yaml/settings.rs",
+        "pnpm/crates/config/src/workspace_yaml/tests/readable_settings.rs",
+        "pnpm/crates/config/src/workspace_yaml/validation.rs",
+        "pnpm/crates/deps-restorer/src/install_package_from_registry/tests.rs"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".changeset/pin-decision-settings.md",
+          "status": "added",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/.changeset%2Fpin-decision-settings.md"
+        },
+        {
+          "filename": "pnpm/crates/cli/src/cli_args/config_warnings.rs",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fcli%2Fsrc%2Fcli_args%2Fconfig_warnings.rs"
+        },
+        {
+          "filename": "pnpm/crates/cli/src/cli_args/config_warnings/load_report.rs",
+          "status": "added",
+          "additions": 122,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fcli%2Fsrc%2Fcli_args%2Fconfig_warnings%2Fload_report.rs"
+        },
+        {
+          "filename": "pnpm/crates/cli/src/cli_args/dispatch.rs",
+          "status": "modified",
+          "additions": 43,
+          "deletions": 16,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fcli%2Fsrc%2Fcli_args%2Fdispatch.rs"
+        },
+        {
+          "filename": "pnpm/crates/cli/src/cli_args/dispatch/configuration.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fcli%2Fsrc%2Fcli_args%2Fdispatch%2Fconfiguration.rs"
+        },
+        {
+          "filename": "pnpm/crates/cli/src/cli_args/package_manager.rs",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fcli%2Fsrc%2Fcli_args%2Fpackage_manager.rs"
+        },
+        {
+          "filename": "pnpm/crates/cli/src/cli_args/pre_command.rs",
+          "status": "modified",
+          "additions": 63,
+          "deletions": 63,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fcli%2Fsrc%2Fcli_args%2Fpre_command.rs"
+        },
+        {
+          "filename": "pnpm/crates/cli/src/cli_args/pre_command/argv_plans.rs",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 6,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fcli%2Fsrc%2Fcli_args%2Fpre_command%2Fargv_plans.rs"
+        },
+        {
+          "filename": "pnpm/crates/cli/src/cli_args/pre_command/input.rs",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 35,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fcli%2Fsrc%2Fcli_args%2Fpre_command%2Finput.rs"
+        },
+        {
+          "filename": "pnpm/crates/cli/src/cli_args/pre_command/load_config.rs",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 18,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fcli%2Fsrc%2Fcli_args%2Fpre_command%2Fload_config.rs"
+        },
+        {
+          "filename": "pnpm/crates/cli/src/cli_args/pre_command/runtime.rs",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fcli%2Fsrc%2Fcli_args%2Fpre_command%2Fruntime.rs"
+        },
+        {
+          "filename": "pnpm/crates/cli/src/cli_args/pre_command/tests.rs",
+          "status": "modified",
+          "additions": 76,
+          "deletions": 12,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fcli%2Fsrc%2Fcli_args%2Fpre_command%2Ftests.rs"
+        },
+        {
+          "filename": "pnpm/crates/cli/src/cli_args/pre_command/unreadable_settings.rs",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 25,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/94d5ca68566616ea7ade3fadc4c22c9995146fd3/pnpm%2Fcrates%2Fcli%2Fsrc%2Fcli_args%2Fpre_command%2Funreadable_settings.rs"
+        },
+        {
+          "filename": "pnpm/crates/cli/tests/suite/workspace_settings_check.rs",
+          "status": "modified",
+          "additions": 62,
+          "deletions": 8,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fcli%2Ftests%2Fsuite%2Fworkspace_settings_check.rs"
+        },
+        {
+          "filename": "pnpm/crates/config/src/auth_sources.rs",
+          "status": "modified",
+          "additions": 31,
+          "deletions": 1,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fconfig%2Fsrc%2Fauth_sources.rs"
+        },
+        {
+          "filename": "pnpm/crates/config/src/lib.rs",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fconfig%2Fsrc%2Flib.rs"
+        },
+        {
+          "filename": "pnpm/crates/config/src/loading.rs",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 12,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fconfig%2Fsrc%2Floading.rs"
+        },
+        {
+          "filename": "pnpm/crates/config/src/settings.rs",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 9,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fconfig%2Fsrc%2Fsettings.rs"
+        },
+        {
+          "filename": "pnpm/crates/config/src/settings_read.rs",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fconfig%2Fsrc%2Fsettings_read.rs"
+        },
+        {
+          "filename": "pnpm/crates/config/src/workspace_settings.rs",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 5,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fconfig%2Fsrc%2Fworkspace_settings.rs"
+        },
+        {
+          "filename": "pnpm/crates/config/src/workspace_yaml.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fconfig%2Fsrc%2Fworkspace_yaml.rs"
+        },
+        {
+          "filename": "pnpm/crates/config/src/workspace_yaml/global.rs",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 13,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fconfig%2Fsrc%2Fworkspace_yaml%2Fglobal.rs"
+        },
+        {
+          "filename": "pnpm/crates/config/src/workspace_yaml/includes.rs",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 5,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fconfig%2Fsrc%2Fworkspace_yaml%2Fincludes.rs"
+        },
+        {
+          "filename": "pnpm/crates/config/src/workspace_yaml/readable.rs",
+          "status": "modified",
+          "additions": 73,
+          "deletions": 13,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fconfig%2Fsrc%2Fworkspace_yaml%2Freadable.rs"
+        },
+        {
+          "filename": "pnpm/crates/config/src/workspace_yaml/settings.rs",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 10,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fconfig%2Fsrc%2Fworkspace_yaml%2Fsettings.rs"
+        },
+        {
+          "filename": "pnpm/crates/config/src/workspace_yaml/tests/readable_settings.rs",
+          "status": "modified",
+          "additions": 59,
+          "deletions": 2,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fconfig%2Fsrc%2Fworkspace_yaml%2Ftests%2Freadable_settings.rs"
+        },
+        {
+          "filename": "pnpm/crates/config/src/workspace_yaml/validation.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fconfig%2Fsrc%2Fworkspace_yaml%2Fvalidation.rs"
+        },
+        {
+          "filename": "pnpm/crates/deps-restorer/src/install_package_from_registry/tests.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/pnpm/pnpm/blob/391ad34f3360a1c3bd72b57496548bf18a5b3896/pnpm%2Fcrates%2Fdeps-restorer%2Fsrc%2Finstall_package_from_registry%2Ftests.rs"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "CHANGES_REQUESTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39044593867,
+          "name": "CI Performance Bencher Upload",
+          "path": ".github/workflows/ci-performance-bencher-upload.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39044593867",
+          "head_sha": "00deeb181bcbb06d7311fcb36171e9e252ebc2ef"
+        },
+        {
+          "id": 39044543064,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39044543064",
+          "head_sha": "00deeb181bcbb06d7311fcb36171e9e252ebc2ef"
+        },
+        {
+          "id": 39044543215,
+          "name": "TS CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39044543215",
+          "head_sha": "00deeb181bcbb06d7311fcb36171e9e252ebc2ef"
+        },
+        {
+          "id": 39044543060,
+          "name": "Pacquet Integrated-Benchmark",
+          "path": ".github/workflows/pacquet-integrated-benchmark.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39044543060",
+          "head_sha": "00deeb181bcbb06d7311fcb36171e9e252ebc2ef"
+        },
+        {
+          "id": 39044543144,
+          "name": "Pacquet Code Coverage",
+          "path": ".github/workflows/pacquet-codecov.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39044543144",
+          "head_sha": "00deeb181bcbb06d7311fcb36171e9e252ebc2ef"
+        },
+        {
+          "id": 39044543066,
+          "name": "Rust CI",
+          "path": ".github/workflows/pacquet-ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39044543066",
+          "head_sha": "00deeb181bcbb06d7311fcb36171e9e252ebc2ef"
+        },
+        {
+          "id": 39044543115,
+          "name": "Audit",
+          "path": ".github/workflows/audit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39044543115",
+          "head_sha": "00deeb181bcbb06d7311fcb36171e9e252ebc2ef"
+        },
+        {
+          "id": 39044543156,
+          "name": "GitHub Actions Security Analysis with zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39044543156",
+          "head_sha": "00deeb181bcbb06d7311fcb36171e9e252ebc2ef"
+        },
+        {
+          "id": 39043452484,
+          "name": "Rust CI",
+          "path": ".github/workflows/pacquet-ci.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39043452484",
+          "head_sha": "00deeb181bcbb06d7311fcb36171e9e252ebc2ef"
+        },
+        {
+          "id": 39043452482,
+          "name": "TS CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39043452482",
+          "head_sha": "00deeb181bcbb06d7311fcb36171e9e252ebc2ef"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39043261482,
+          "name": "PR review automation",
+          "path": ".github/workflows/pr-review-automation.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39043261482",
+          "head_sha": "391ad34f3360a1c3bd72b57496548bf18a5b3896"
+        },
+        {
+          "id": 39043037375,
+          "name": "PR review automation",
+          "path": ".github/workflows/pr-review-automation.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39043037375",
+          "head_sha": "391ad34f3360a1c3bd72b57496548bf18a5b3896"
+        },
+        {
+          "id": 39043030852,
+          "name": "PR review automation",
+          "path": ".github/workflows/pr-review-automation.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39043030852",
+          "head_sha": "391ad34f3360a1c3bd72b57496548bf18a5b3896"
+        },
+        {
+          "id": 39042215466,
+          "name": "PR review automation",
+          "path": ".github/workflows/pr-review-automation.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39042215466",
+          "head_sha": "391ad34f3360a1c3bd72b57496548bf18a5b3896"
+        },
+        {
+          "id": 39042213746,
+          "name": "PR review automation",
+          "path": ".github/workflows/pr-review-automation.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39042213746",
+          "head_sha": "391ad34f3360a1c3bd72b57496548bf18a5b3896"
+        },
+        {
+          "id": 39042211812,
+          "name": "PR review automation",
+          "path": ".github/workflows/pr-review-automation.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39042211812",
+          "head_sha": "391ad34f3360a1c3bd72b57496548bf18a5b3896"
+        },
+        {
+          "id": 39042195272,
+          "name": "PR review automation",
+          "path": ".github/workflows/pr-review-automation.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39042195272",
+          "head_sha": "391ad34f3360a1c3bd72b57496548bf18a5b3896"
+        },
+        {
+          "id": 39042188439,
+          "name": "Audit",
+          "path": ".github/workflows/audit.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39042188439",
+          "head_sha": "391ad34f3360a1c3bd72b57496548bf18a5b3896"
+        },
+        {
+          "id": 39042188394,
+          "name": "GitHub Actions Security Analysis with zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39042188394",
+          "head_sha": "391ad34f3360a1c3bd72b57496548bf18a5b3896"
+        },
+        {
+          "id": 39042188458,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/39042188458",
+          "head_sha": "391ad34f3360a1c3bd72b57496548bf18a5b3896"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v12.14.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.14.0",
+      "published_at": "2026-10-15T13:42:33Z",
+      "target_commitish": "main",
+      "commit_sha": "fe4a0c232384289de82be3d502896ca7e070050c",
+      "assets": [
+        "pnpm-android-arm64.tar.gz",
+        "pnpm-android-x64.tar.gz",
+        "pnpm-darwin-arm64.tar.gz",
+        "pnpm-darwin-x64.tar.gz",
+        "pnpm-freebsd-x64.tar.gz",
+        "pnpm-linux-arm64-musl.tar.gz",
+        "pnpm-linux-arm64.tar.gz",
+        "pnpm-linux-ppc64.tar.gz",
+        "pnpm-linux-riscv64.tar.gz",
+        "pnpm-linux-s390x.tar.gz",
+        "pnpm-linux-x64-musl.tar.gz",
+        "pnpm-linux-x64.tar.gz",
+        "pnpm-win32-arm64.zip",
+        "pnpm-win32-x64.zip"
+      ],
+      "workflow_runs": [
+        {
+          "id": 38748962459,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38748962459",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        },
+        {
+          "id": 38748961279,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38748961279",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        },
+        {
+          "id": 38748876159,
+          "name": "Cancel Unapproved Workflows",
+          "path": ".github/workflows/cancel-unapproved-workflows.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38748876159",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        },
+        {
+          "id": 38748624104,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38748624104",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        },
+        {
+          "id": 38748490885,
+          "name": "CI Performance Bencher Upload",
+          "path": ".github/workflows/ci-performance-bencher-upload.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38748490885",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        },
+        {
+          "id": 38747936672,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38747936672",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        },
+        {
+          "id": 38747930014,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38747930014",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        },
+        {
+          "id": 38747922473,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38747922473",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        },
+        {
+          "id": 38747909031,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38747909031",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        },
+        {
+          "id": 38747902265,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38747902265",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        }
+      ]
+    },
+    {
+      "tag": "v11.28.6",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.6",
+      "published_at": "2026-10-15T13:45:17Z",
+      "target_commitish": "main",
+      "commit_sha": "fe4a0c232384289de82be3d502896ca7e070050c",
+      "assets": [
+        "pnpm-darwin-arm64.tar.gz",
+        "pnpm-linux-arm64.tar.gz",
+        "pnpm-linux-x64-musl.tar.gz",
+        "pnpm-linux-x64.tar.gz",
+        "pnpm-win32-arm64.zip",
+        "pnpm-win32-x64.zip",
+        "source-maps.tgz"
+      ],
+      "workflow_runs": [
+        {
+          "id": 38748962459,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38748962459",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        },
+        {
+          "id": 38748961279,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38748961279",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        },
+        {
+          "id": 38748876159,
+          "name": "Cancel Unapproved Workflows",
+          "path": ".github/workflows/cancel-unapproved-workflows.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38748876159",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        },
+        {
+          "id": 38748624104,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38748624104",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        },
+        {
+          "id": 38748490885,
+          "name": "CI Performance Bencher Upload",
+          "path": ".github/workflows/ci-performance-bencher-upload.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38748490885",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        },
+        {
+          "id": 38747936672,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38747936672",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        },
+        {
+          "id": 38747930014,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38747930014",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        },
+        {
+          "id": 38747922473,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38747922473",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        },
+        {
+          "id": 38747909031,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38747909031",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        },
+        {
+          "id": 38747902265,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38747902265",
+          "head_sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+        }
+      ]
+    },
+    {
+      "tag": "v12.13.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.13.0",
+      "published_at": "2026-10-13T08:32:10Z",
+      "target_commitish": "main",
+      "commit_sha": "063bd8d216b1e610e6ae4dcc3eff3bc2786e9c4e",
+      "assets": [
+        "pnpm-android-arm64.tar.gz",
+        "pnpm-android-x64.tar.gz",
+        "pnpm-darwin-arm64.tar.gz",
+        "pnpm-darwin-x64.tar.gz",
+        "pnpm-freebsd-x64.tar.gz",
+        "pnpm-linux-arm64-musl.tar.gz",
+        "pnpm-linux-arm64.tar.gz",
+        "pnpm-linux-ppc64.tar.gz",
+        "pnpm-linux-riscv64.tar.gz",
+        "pnpm-linux-s390x.tar.gz",
+        "pnpm-linux-x64-musl.tar.gz",
+        "pnpm-linux-x64.tar.gz",
+        "pnpm-win32-arm64.zip",
+        "pnpm-win32-x64.zip"
+      ],
+      "workflow_runs": [
+        {
+          "id": 38390206478,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38390206478",
+          "head_sha": "063bd8d216b1e610e6ae4dcc3eff3bc2786e9c4e"
+        },
+        {
+          "id": 38389862703,
+          "name": "CI Performance Bencher Upload",
+          "path": ".github/workflows/ci-performance-bencher-upload.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38389862703",
+          "head_sha": "063bd8d216b1e610e6ae4dcc3eff3bc2786e9c4e"
+        },
+        {
+          "id": 38389805105,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38389805105",
+          "head_sha": "063bd8d216b1e610e6ae4dcc3eff3bc2786e9c4e"
+        },
+        {
+          "id": 38388630219,
+          "name": "Notify Discord on Regression",
+          "path": ".github/workflows/notify-regression.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38388630219",
+          "head_sha": "063bd8d216b1e610e6ae4dcc3eff3bc2786e9c4e"
+        },
+        {
+          "id": 38388629647,
+          "name": "Notify Discord on Regression",
+          "path": ".github/workflows/notify-regression.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38388629647",
+          "head_sha": "063bd8d216b1e610e6ae4dcc3eff3bc2786e9c4e"
+        },
+        {
+          "id": 38388598046,
+          "name": "Triage New Issues",
+          "path": ".github/workflows/triage-issues.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38388598046",
+          "head_sha": "063bd8d216b1e610e6ae4dcc3eff3bc2786e9c4e"
+        },
+        {
+          "id": 38388458055,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38388458055",
+          "head_sha": "063bd8d216b1e610e6ae4dcc3eff3bc2786e9c4e"
+        },
+        {
+          "id": 38388269558,
+          "name": "Cancel Unapproved Workflows",
+          "path": ".github/workflows/cancel-unapproved-workflows.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38388269558",
+          "head_sha": "063bd8d216b1e610e6ae4dcc3eff3bc2786e9c4e"
+        },
+        {
+          "id": 38388122077,
+          "name": "PR review automation (privileged)",
+          "path": ".github/workflows/pr-review-automation-privileged.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38388122077",
+          "head_sha": "063bd8d216b1e610e6ae4dcc3eff3bc2786e9c4e"
+        },
+        {
+          "id": 38387821986,
+          "name": "CI Performance Bencher Upload",
+          "path": ".github/workflows/ci-performance-bencher-upload.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/pnpm/pnpm/actions/runs/38387821986",
+          "head_sha": "063bd8d216b1e610e6ae4dcc3eff3bc2786e9c4e"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v12.14.0",
+      "sha": "fe4a0c232384289de82be3d502896ca7e070050c"
+    },
+    {
+      "name": "v12.13.0",
+      "sha": "063bd8d216b1e610e6ae4dcc3eff3bc2786e9c4e"
+    },
+    {
+      "name": "v12.12.1",
+      "sha": "65f29a55286fafa57dbf2770e8d2304df0091cfd"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:20:34.262012+00:00",
+  "source_times": {
+    "/repos/pnpm/pnpm": "2026-10-17T16:17:26.759988+00:00",
+    "/repos/pnpm/pnpm/commits?sha=main&per_page=20": "2026-10-17T16:17:28.710682+00:00",
+    "/repos/pnpm/pnpm/git/trees/cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b": "2026-10-17T16:17:31.138678+00:00",
+    "/repos/pnpm/pnpm/git/trees/059520e12567e211a02295c33ed45794966a2556": "2026-10-17T16:17:32.643897+00:00",
+    "/repos/pnpm/pnpm/git/trees/97b0ad1edcb54b66c46da49bfa62e5eb3e80f193": "2026-10-17T16:17:35.088241+00:00",
+    "/repos/pnpm/pnpm/git/trees/4cc5c842d87bd081e3ecf94739703e2fb6746714": "2026-10-17T16:17:36.582006+00:00",
+    "/repos/pnpm/pnpm/git/blobs/4055dcd9832459e07422b58a591c87ef4dd43cc3": "2026-10-17T16:17:38.305761+00:00",
+    "/repos/pnpm/pnpm/git/blobs/47dc3e3d863cfb5727b87d785d09abf9743c0a72": "2026-10-17T16:17:39.738703+00:00",
+    "/repos/pnpm/pnpm/git/blobs/ba053ce34f431965ab4a7b4814e134f273001006": "2026-10-17T16:17:41.118720+00:00",
+    "/repos/pnpm/pnpm/git/blobs/fb1b8bc837cb20ac4d9ea61459886365e26a98d3": "2026-10-17T16:17:42.708815+00:00",
+    "/repos/pnpm/pnpm/git/blobs/ff439ca00e448f2dc56d11ecc519285b96a97cde": "2026-10-17T16:17:44.391189+00:00",
+    "/repos/pnpm/pnpm/git/blobs/c328abd52604ede5b19054d7f4e0b8dc5c3a17a2": "2026-10-17T16:17:45.923077+00:00",
+    "/repos/pnpm/pnpm/git/blobs/cb917c6e29c7795deb565d795fe58b7b0fd4c53c": "2026-10-17T16:17:47.289854+00:00",
+    "/repos/pnpm/pnpm/git/blobs/3dc7534de97f725ede915253c035521dd9a9e395": "2026-10-17T16:17:48.763375+00:00",
+    "/repos/pnpm/pnpm/git/blobs/c7f6778395d63791c2199d43c3be70889c60883e": "2026-10-17T16:17:50.144865+00:00",
+    "/repos/pnpm/pnpm/git/blobs/9577b81567850202012adaf23eb0aa2ce0ca679d": "2026-10-17T16:17:51.707520+00:00",
+    "/repos/pnpm/pnpm/git/blobs/c6dde250ab75dc94a60fc5be627c251ad80de4ad": "2026-10-17T16:17:53.112846+00:00",
+    "/repos/pnpm/pnpm/git/blobs/123c884af58a97ee2a024b28a70a4535dbcef408": "2026-10-17T16:17:54.641196+00:00",
+    "/repos/pnpm/pnpm/git/blobs/824059ad972dbd521e2dce956b9f1926de741bc9": "2026-10-17T16:17:56.078384+00:00",
+    "/repos/pnpm/pnpm/git/blobs/6888a72777382b6b1d8a275dad8149b401fe1aac": "2026-10-17T16:17:57.462899+00:00",
+    "/repos/pnpm/pnpm/git/blobs/8ac5ed877ce25528e3347cf18e795457b34310e4": "2026-10-17T16:17:58.898859+00:00",
+    "/repos/pnpm/pnpm/git/blobs/e197efb613fd3d6a87e5cece6a6d7602b038676a": "2026-10-17T16:18:01.408899+00:00",
+    "/repos/pnpm/pnpm/git/blobs/26348cefb6feba2ff4972ca250b0b3c7a2006148": "2026-10-17T16:18:02.945887+00:00",
+    "/repos/pnpm/pnpm/git/blobs/3ebe93bd7cb48caa18ff998c42fe9ae744933c0f": "2026-10-17T16:18:04.506696+00:00",
+    "/repos/pnpm/pnpm/git/blobs/3ee60e2e330f488136bf3392dd32f3d59b330986": "2026-10-17T16:18:06.173305+00:00",
+    "/repos/pnpm/pnpm/git/blobs/33246ac068a8abafbf59172cdebf229ce478604b": "2026-10-17T16:18:09.036527+00:00",
+    "/repos/pnpm/pnpm/git/blobs/26fa52207e60e1b966bad6e0713f9a4c61ce1390": "2026-10-17T16:18:10.577256+00:00",
+    "/repos/pnpm/pnpm/git/blobs/0c2f25fe0a9a12de9f9494ebd00d01c9e6e9338d": "2026-10-17T16:18:12.133288+00:00",
+    "/repos/pnpm/pnpm/git/blobs/987f4b34f9b97ee27823db11797583e675c9bc92": "2026-10-17T16:18:14.114769+00:00",
+    "/repos/pnpm/pnpm/git/blobs/039ef90281ac8496e5f995446be22a65cf934ca1": "2026-10-17T16:18:15.573752+00:00",
+    "/repos/pnpm/pnpm/git/blobs/e31dccc3558d9f3bc5ffbed6fad401a4c50166c5": "2026-10-17T16:18:17.278675+00:00",
+    "/repos/pnpm/pnpm/git/blobs/ab09bca5cd68a9da408f6f9183a170d0bfd13652": "2026-10-17T16:18:18.742558+00:00",
+    "/repos/pnpm/pnpm/git/blobs/905cc4f2f3ecb10842c011f2535f645cd10def8e": "2026-10-17T16:18:20.253680+00:00",
+    "/repos/pnpm/pnpm/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:18:24.131555+00:00",
+    "/repos/pnpm/pnpm/pulls/17047/files?per_page=100": "2026-10-17T16:18:25.980445+00:00",
+    "/repos/pnpm/pnpm/pulls/17047/reviews?per_page=100": "2026-10-17T16:18:28.154198+00:00",
+    "/repos/pnpm/pnpm/actions/runs?head_sha=cf6770e47c1e58aed8509c65ca9ad5d804c3fc4b&per_page=10": "2026-10-17T16:18:30.336150+00:00",
+    "/repos/pnpm/pnpm/actions/runs?head_sha=84e881b1cc4751911a77761c7d9b985eebbf00f6&per_page=10": "2026-10-17T16:18:32.411945+00:00",
+    "/repos/pnpm/pnpm/pulls/17044/files?per_page=100": "2026-10-17T16:18:33.979322+00:00",
+    "/repos/pnpm/pnpm/pulls/17044/reviews?per_page=100": "2026-10-17T16:18:36.527013+00:00",
+    "/repos/pnpm/pnpm/actions/runs?head_sha=2564674135c42e638442ab34dfa35187a9ccedc4&per_page=10": "2026-10-17T16:18:38.818155+00:00",
+    "/repos/pnpm/pnpm/actions/runs?head_sha=251d36929b3d3693606a00fa8d5d5e481143d888&per_page=10": "2026-10-17T16:18:40.909014+00:00",
+    "/repos/pnpm/pnpm/pulls/17045/files?per_page=100": "2026-10-17T16:18:42.875538+00:00",
+    "/repos/pnpm/pnpm/pulls/17045/reviews?per_page=100": "2026-10-17T16:18:44.627099+00:00",
+    "/repos/pnpm/pnpm/actions/runs?head_sha=00deeb181bcbb06d7311fcb36171e9e252ebc2ef&per_page=10": "2026-10-17T16:18:46.975548+00:00",
+    "/repos/pnpm/pnpm/actions/runs?head_sha=391ad34f3360a1c3bd72b57496548bf18a5b3896&per_page=10": "2026-10-17T16:18:49.186607+00:00",
+    "/repos/pnpm/pnpm/releases?per_page=20&page=1": "2026-10-17T16:20:34.256659+00:00",
+    "/repos/pnpm/pnpm/commits/v12.14.0": "2026-10-17T16:18:56.063980+00:00",
+    "/repos/pnpm/pnpm/actions/runs?head_sha=fe4a0c232384289de82be3d502896ca7e070050c&per_page=10": "2026-10-17T16:18:58.231033+00:00",
+    "/repos/pnpm/pnpm/commits/v11.28.6": "2026-10-17T16:19:00.570791+00:00",
+    "/repos/pnpm/pnpm/commits/v12.13.0": "2026-10-17T16:19:02.350921+00:00",
+    "/repos/pnpm/pnpm/actions/runs?head_sha=063bd8d216b1e610e6ae4dcc3eff3bc2786e9c4e&per_page=10": "2026-10-17T16:19:04.479499+00:00",
+    "/repos/pnpm/pnpm/tags?per_page=3": "2026-10-17T16:19:05.909573+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:20:34.256659+00:00",
+  "status": "collected"
+}

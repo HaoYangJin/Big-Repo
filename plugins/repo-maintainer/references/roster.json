@@ -1,0 +1,242 @@
+[
+  {
+    "repository": "openai/openai-python",
+    "category": "sdk"
+  },
+  {
+    "repository": "openai/openai-node",
+    "category": "sdk"
+  },
+  {
+    "repository": "openai/openai-go",
+    "category": "sdk"
+  },
+  {
+    "repository": "openai/openai-java",
+    "category": "sdk"
+  },
+  {
+    "repository": "openai/openai-dotnet",
+    "category": "sdk"
+  },
+  {
+    "repository": "anthropics/anthropic-sdk-python",
+    "category": "sdk"
+  },
+  {
+    "repository": "anthropics/anthropic-sdk-typescript",
+    "category": "sdk"
+  },
+  {
+    "repository": "anthropics/anthropic-sdk-go",
+    "category": "sdk"
+  },
+  {
+    "repository": "anthropics/anthropic-sdk-java",
+    "category": "sdk"
+  },
+  {
+    "repository": "anthropics/anthropic-sdk-ruby",
+    "category": "sdk"
+  },
+  {
+    "repository": "openai/codex",
+    "category": "agents"
+  },
+  {
+    "repository": "openai/openai-agents-python",
+    "category": "agents"
+  },
+  {
+    "repository": "openai/openai-agents-js",
+    "category": "agents"
+  },
+  {
+    "repository": "anthropics/claude-code",
+    "category": "agents"
+  },
+  {
+    "repository": "anthropics/skills",
+    "category": "agents"
+  },
+  {
+    "repository": "anthropics/claude-plugins-official",
+    "category": "agents"
+  },
+  {
+    "repository": "anthropics/anthropic-cookbook",
+    "category": "agents"
+  },
+  {
+    "repository": "modelcontextprotocol/python-sdk",
+    "category": "agents"
+  },
+  {
+    "repository": "modelcontextprotocol/typescript-sdk",
+    "category": "agents"
+  },
+  {
+    "repository": "modelcontextprotocol/servers",
+    "category": "agents"
+  },
+  {
+    "repository": "huggingface/transformers",
+    "category": "ml"
+  },
+  {
+    "repository": "huggingface/diffusers",
+    "category": "ml"
+  },
+  {
+    "repository": "huggingface/datasets",
+    "category": "ml"
+  },
+  {
+    "repository": "huggingface/peft",
+    "category": "ml"
+  },
+  {
+    "repository": "huggingface/accelerate",
+    "category": "ml"
+  },
+  {
+    "repository": "pytorch/pytorch",
+    "category": "ml"
+  },
+  {
+    "repository": "tensorflow/tensorflow",
+    "category": "ml"
+  },
+  {
+    "repository": "google/jax",
+    "category": "ml"
+  },
+  {
+    "repository": "vllm-project/vllm",
+    "category": "ml"
+  },
+  {
+    "repository": "ggml-org/llama.cpp",
+    "category": "ml"
+  },
+  {
+    "repository": "vercel/next.js",
+    "category": "frameworks"
+  },
+  {
+    "repository": "sveltejs/svelte",
+    "category": "frameworks"
+  },
+  {
+    "repository": "vuejs/core",
+    "category": "frameworks"
+  },
+  {
+    "repository": "angular/angular",
+    "category": "frameworks"
+  },
+  {
+    "repository": "facebook/react",
+    "category": "frameworks"
+  },
+  {
+    "repository": "nodejs/node",
+    "category": "frameworks"
+  },
+  {
+    "repository": "denoland/deno",
+    "category": "frameworks"
+  },
+  {
+    "repository": "expressjs/express",
+    "category": "frameworks"
+  },
+  {
+    "repository": "fastapi/fastapi",
+    "category": "frameworks"
+  },
+  {
+    "repository": "django/django",
+    "category": "frameworks"
+  },
+  {
+    "repository": "kubernetes/kubernetes",
+    "category": "infrastructure"
+  },
+  {
+    "repository": "moby/moby",
+    "category": "infrastructure"
+  },
+  {
+    "repository": "containerd/containerd",
+    "category": "infrastructure"
+  },
+  {
+    "repository": "prometheus/prometheus",
+    "category": "infrastructure"
+  },
+  {
+    "repository": "grafana/grafana",
+    "category": "infrastructure"
+  },
+  {
+    "repository": "hashicorp/terraform",
+    "category": "infrastructure"
+  },
+  {
+    "repository": "ansible/ansible",
+    "category": "infrastructure"
+  },
+  {
+    "repository": "helm/helm",
+    "category": "infrastructure"
+  },
+  {
+    "repository": "etcd-io/etcd",
+    "category": "infrastructure"
+  },
+  {
+    "repository": "coredns/coredns",
+    "category": "infrastructure"
+  },
+  {
+    "repository": "rust-lang/rust",
+    "category": "tools"
+  },
+  {
+    "repository": "golang/go",
+    "category": "tools"
+  },
+  {
+    "repository": "microsoft/vscode",
+    "category": "tools"
+  },
+  {
+    "repository": "microsoft/TypeScript",
+    "category": "tools"
+  },
+  {
+    "repository": "astral-sh/uv",
+    "category": "tools"
+  },
+  {
+    "repository": "astral-sh/ruff",
+    "category": "tools"
+  },
+  {
+    "repository": "pnpm/pnpm",
+    "category": "tools"
+  },
+  {
+    "repository": "vitejs/vite",
+    "category": "tools"
+  },
+  {
+    "repository": "neovim/neovim",
+    "category": "tools"
+  },
+  {
+    "repository": "git/git",
+    "category": "tools"
+  }
+]

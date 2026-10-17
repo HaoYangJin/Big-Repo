@@ -1,0 +1,1988 @@
+{
+  "requested_repository": "coredns/coredns",
+  "category": "infrastructure",
+  "collected_at": "2026-10-17T16:15:54.147185+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "coredns/coredns",
+  "metadata": {
+    "html_url": "https://github.com/coredns/coredns",
+    "description": "CoreDNS is a DNS server that chains plugins",
+    "homepage": "https://coredns.io",
+    "language": "Go",
+    "stargazers_count": 14376,
+    "forks_count": 2544,
+    "open_issues_count": 282,
+    "pushed_at": "2026-10-16T21:06:29Z",
+    "created_at": "2016-03-18T20:56:45Z",
+    "archived": false,
+    "default_branch": "master",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [
+      "cncf",
+      "coredns",
+      "dns-server",
+      "go",
+      "plugin",
+      "service-discovery"
+    ],
+    "owner": {
+      "login": "coredns",
+      "type": "Organization",
+      "html_url": "https://github.com/coredns"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "d116ecb98cebc576576a93766ab4c155ecdbe31d",
+      "url": "https://github.com/coredns/coredns/commit/d116ecb98cebc576576a93766ab4c155ecdbe31d",
+      "date": "2026-10-16T21:06:28Z",
+      "subject": "coredns(1): document the -log-format flag (#8646)"
+    },
+    {
+      "sha": "62be0a2f90b4ad1fe9c890c2012b8a24a4abb40c",
+      "url": "https://github.com/coredns/coredns/commit/62be0a2f90b4ad1fe9c890c2012b8a24a4abb40c",
+      "date": "2026-10-16T21:05:50Z",
+      "subject": "plugin/file: test that out-of-zone CNAME targets keep NOERROR (#8569)"
+    },
+    {
+      "sha": "16b53a46c1d891c0463c3f8c88afae9a9b502767",
+      "url": "https://github.com/coredns/coredns/commit/16b53a46c1d891c0463c3f8c88afae9a9b502767",
+      "date": "2026-10-16T02:29:41Z",
+      "subject": "plugin/cache: cache SERVFAIL when the resolver fails without a response (#8629)"
+    },
+    {
+      "sha": "3909cc187c86c6ed321ea1cffbb1b690c216d016",
+      "url": "https://github.com/coredns/coredns/commit/3909cc187c86c6ed321ea1cffbb1b690c216d016",
+      "date": "2026-10-16T02:28:43Z",
+      "subject": "plugin/proxyproto: expose PPv2 TLVs to downstream plugins as metadata (#8641)"
+    },
+    {
+      "sha": "21660a66b518897de4a77c8528227015de080f44",
+      "url": "https://github.com/coredns/coredns/commit/21660a66b518897de4a77c8528227015de080f44",
+      "date": "2026-10-16T02:28:31Z",
+      "subject": "plugin/view: drop a stray closing brace from the split-DNS example (#8643)"
+    },
+    {
+      "sha": "2e2324715bf043b91aae405f953499035608aa41",
+      "url": "https://github.com/coredns/coredns/commit/2e2324715bf043b91aae405f953499035608aa41",
+      "date": "2026-10-15T08:12:29Z",
+      "subject": "plugin/kubernetes: support pods with multiple IPs (#8635)"
+    },
+    {
+      "sha": "25b51bcbd952f4520fe35a6f90fbc80eb31807fb",
+      "url": "https://github.com/coredns/coredns/commit/25b51bcbd952f4520fe35a6f90fbc80eb31807fb",
+      "date": "2026-10-15T08:05:21Z",
+      "subject": "plugin/cache: clarify stale verify behavior (#8579)"
+    },
+    {
+      "sha": "9d1343c54c2526dd6424e46b0f17ca79d9b1a557",
+      "url": "https://github.com/coredns/coredns/commit/9d1343c54c2526dd6424e46b0f17ca79d9b1a557",
+      "date": "2026-10-14T23:59:02Z",
+      "subject": "build(deps): bump google.golang.org/api from 0.299.0 to 0.301.0 (#8640)"
+    },
+    {
+      "sha": "7e4268488c91d4984340941eed9c6d03a6d9472c",
+      "url": "https://github.com/coredns/coredns/commit/7e4268488c91d4984340941eed9c6d03a6d9472c",
+      "date": "2026-10-14T23:36:06Z",
+      "subject": "build(deps): bump actions/upload-artifact from 7.0.1 to 7.0.2 (#8636)"
+    },
+    {
+      "sha": "b23c3f92fa07aea418fd90c8170446ba7412c29d",
+      "url": "https://github.com/coredns/coredns/commit/b23c3f92fa07aea418fd90c8170446ba7412c29d",
+      "date": "2026-10-14T23:35:52Z",
+      "subject": "build(deps): bump github.com/caddyserver/certmagic from 0.25.4 to 0.25.6 (#8637)"
+    },
+    {
+      "sha": "b7c1dca3ef099c5855b28a436b2febe503822ebf",
+      "url": "https://github.com/coredns/coredns/commit/b7c1dca3ef099c5855b28a436b2febe503822ebf",
+      "date": "2026-10-14T23:35:42Z",
+      "subject": "build(deps): bump golang.org/x/sys from 0.48.0 to 0.49.0 (#8638)"
+    },
+    {
+      "sha": "df1fad2ec233ba998d88e892861992809584dd46",
+      "url": "https://github.com/coredns/coredns/commit/df1fad2ec233ba998d88e892861992809584dd46",
+      "date": "2026-10-14T23:35:32Z",
+      "subject": "build(deps): bump the aws group with 4 updates (#8639)"
+    },
+    {
+      "sha": "3580a2996e989a80930391b301453a9c52339fac",
+      "url": "https://github.com/coredns/coredns/commit/3580a2996e989a80930391b301453a9c52339fac",
+      "date": "2026-10-13T11:55:41Z",
+      "subject": "plugin/trace: recognize Zipkin URL schemes by prefix (#8625)"
+    },
+    {
+      "sha": "f0baaf05ddc7e6e51cc15bde76abd247dbf7d557",
+      "url": "https://github.com/coredns/coredns/commit/f0baaf05ddc7e6e51cc15bde76abd247dbf7d557",
+      "date": "2026-10-13T07:45:06Z",
+      "subject": "plugin/pkg/proxy: set IP_RECVERR on upstream UDP sockets (#8628)"
+    },
+    {
+      "sha": "235e7947cb65c52ac5de4983e38eff7ecdb5c0e6",
+      "url": "https://github.com/coredns/coredns/commit/235e7947cb65c52ac5de4983e38eff7ecdb5c0e6",
+      "date": "2026-10-12T05:57:40Z",
+      "subject": "Bump go version to 1.27.2 (#8630)"
+    },
+    {
+      "sha": "13c27392fdb2243223dc69db1806987357b2998c",
+      "url": "https://github.com/coredns/coredns/commit/13c27392fdb2243223dc69db1806987357b2998c",
+      "date": "2026-10-12T04:10:48Z",
+      "subject": "plugin/dns64: preserve A fallback response codes (#8619)"
+    },
+    {
+      "sha": "123829d3b30b7482bd49cc4a6228237fc2a2c51d",
+      "url": "https://github.com/coredns/coredns/commit/123829d3b30b7482bd49cc4a6228237fc2a2c51d",
+      "date": "2026-10-09T08:28:35Z",
+      "subject": "plugin/clouddns: add endpoint directive (#8618)"
+    },
+    {
+      "sha": "ef18404448d397c268a2e8f6cf76dee5f3ae8bdb",
+      "url": "https://github.com/coredns/coredns/commit/ef18404448d397c268a2e8f6cf76dee5f3ae8bdb",
+      "date": "2026-10-09T01:48:10Z",
+      "subject": "plugin/azure: add refresh directive (#8614)"
+    },
+    {
+      "sha": "538c3554bc7e675b1c7cc5024899a86a83a11092",
+      "url": "https://github.com/coredns/coredns/commit/538c3554bc7e675b1c7cc5024899a86a83a11092",
+      "date": "2026-10-09T01:47:32Z",
+      "subject": "plugin/clouddns: add refresh directive (#8616)"
+    },
+    {
+      "sha": "45ac7fe659de9ec7767e3a49a9ec9be07e8a2882",
+      "url": "https://github.com/coredns/coredns/commit/45ac7fe659de9ec7767e3a49a9ec9be07e8a2882",
+      "date": "2026-10-08T12:24:25Z",
+      "subject": "plugin/quic: add max_connections directive (#8610)"
+    }
+  ],
+  "default_sha": "d116ecb98cebc576576a93766ab4c155ecdbe31d",
+  "root_and_selected_directory_paths": [
+    ".circleci",
+    ".dockerignore",
+    ".dreck.yaml",
+    ".gitattributes",
+    ".github",
+    ".github/CODE_OF_CONDUCT.md",
+    ".github/CONTRIBUTING.md",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug-report.md",
+    ".github/ISSUE_TEMPLATE/enhancement.md",
+    ".github/ISSUE_TEMPLATE/question.md",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/SECURITY.md",
+    ".github/dependabot.yml",
+    ".github/fixup_file_mtime.sh",
+    ".github/workflows",
+    ".github/workflows/cifuzz.yml",
+    ".github/workflows/codeql-analysis.yml",
+    ".github/workflows/depsreview.yml",
+    ".github/workflows/docker.yml",
+    ".github/workflows/go.test.yml",
+    ".github/workflows/golangci-lint.yml",
+    ".github/workflows/make.doc.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/scorecards.yml",
+    ".github/workflows/stale.yml",
+    ".github/workflows/verify-make-gen.yml",
+    ".github/workflows/yamllint.yml",
+    ".gitignore",
+    ".go-version",
+    ".golangci.yml",
+    ".stickler.yml",
+    ".yamllint",
+    "ADOPTERS.md",
+    "CODEOWNERS",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "Dockerfile",
+    "GOVERNANCE.md",
+    "LICENSE",
+    "Makefile",
+    "Makefile.doc",
+    "Makefile.docker",
+    "Makefile.release",
+    "README.md",
+    "SECURITY.md",
+    "core",
+    "coredns.1.md",
+    "coredns.go",
+    "corefile.5.md",
+    "coremain",
+    "directives_generate.go",
+    "go.mod",
+    "go.sum",
+    "man",
+    "notes",
+    "owners_generate.go",
+    "pb",
+    "plugin",
+    "plugin.cfg",
+    "plugin.md",
+    "request",
+    "test"
+  ],
+  "workflow_paths": [
+    ".github/workflows/cifuzz.yml",
+    ".github/workflows/go.test.yml",
+    ".github/workflows/golangci-lint.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/codeql-analysis.yml",
+    ".github/workflows/depsreview.yml",
+    ".github/workflows/docker.yml",
+    ".github/workflows/make.doc.yml",
+    ".github/workflows/scorecards.yml",
+    ".github/workflows/stale.yml",
+    ".github/workflows/verify-make-gen.yml",
+    ".github/workflows/yamllint.yml"
+  ],
+  "documents": [
+    {
+      "path": "CODEOWNERS",
+      "sha": "af95cdde66f8d204f01dd0080e09fac4456537e6",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/CODEOWNERS",
+      "lines": 62,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "637237e0964adeb99550f0efc3036c8373c3a7e9",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/CODE_OF_CONDUCT.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "784ef485bfc4471d14ad45e9468b8be6c6f41e9f",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/CONTRIBUTING.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "sha": "51b6e9c0367abed99a6961c1e48e50b234fa52c6",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/GOVERNANCE.md",
+      "lines": 152,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile",
+      "sha": "13947f94deeadbc06f45fb6b11285e4b15aacf40",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/Makefile",
+      "lines": 46,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile.doc",
+      "sha": "10290f6eaf4e0a9cf7e35253a338b73359e3def9",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/Makefile.doc",
+      "lines": 78,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile.docker",
+      "sha": "c5ffd1e76118caf8eac329a5d3d81dac607ad0c2",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/Makefile.docker",
+      "lines": 125,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile.release",
+      "sha": "edbd50aaef0f70b7334ef009601fe7219c82fbf6",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/Makefile.release",
+      "lines": 152,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "ea60b5c32ce2ae1336f6ab62baec0f31befedc94",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/README.md",
+      "lines": 371,
+      "signals": {
+        "tests": [
+          5
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          364,
+          371
+        ],
+        "star_history": [],
+        "badges": [
+          3,
+          4,
+          5,
+          7
+        ],
+        "media": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "22125d94b98af8536e53d11b89de4ebb7644b0ee",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/SECURITY.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "go.mod",
+      "sha": "f07f5091e70b2e7febc0f300aa22d78bc7280ef6",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/go.mod",
+      "lines": 224,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "owners_generate.go",
+      "sha": "ebae010387231c849674567fba4175471e56472b",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/owners_generate.go",
+      "lines": 89,
+      "signals": {
+        "tests": [],
+        "lint": [
+          34
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha": "7d0c3a6ce82a2450879a291fcc50f1a66452f82d",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/CODE_OF_CONDUCT.md",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CONTRIBUTING.md",
+      "sha": "97edaebb4d1d1f8101a8da60a001154712d8fa51",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/CONTRIBUTING.md",
+      "lines": 92,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.md",
+      "sha": "9472683244a20167251448aeebdd8868542cda0f",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/ISSUE_TEMPLATE/bug-report.md",
+      "lines": 27,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/enhancement.md",
+      "sha": "d39c37c010932d5c04f2d8a9ce0864bad1882728",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/ISSUE_TEMPLATE/enhancement.md",
+      "lines": 11,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/question.md",
+      "sha": "2b7c45ff7cabfd1b020454e6e425c68d5fbad6e3",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/ISSUE_TEMPLATE/question.md",
+      "lines": 10,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          9
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "c1101742a1104d34d14b22999ffa528379372915",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/PULL_REQUEST_TEMPLATE.md",
+      "lines": 12,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/SECURITY.md",
+      "sha": "9a09a537db02674cf551dc061f82884d70870cfd",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/SECURITY.md",
+      "lines": 189,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          60,
+          61,
+          93
+        ]
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "c84d21cc0ec7781a95c91b78887950ba2b5b1c60",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/dependabot.yml",
+      "lines": 38,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "sha": "60835cb5d88194d4ff8a149b64823ab2bb3418e5",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/workflows/cifuzz.yml",
+      "lines": 32,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8
+        ],
+        "pinned_actions": [
+          28
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/go.test.yml",
+      "sha": "b3ae049435331e6f475d0eb9f63749190aade310",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/workflows/go.test.yml",
+      "lines": 165,
+      "signals": {
+        "tests": [
+          1,
+          31,
+          32,
+          33,
+          39,
+          62,
+          63,
+          64,
+          70,
+          95,
+          134
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [
+          16,
+          21,
+          46,
+          51,
+          80,
+          85,
+          102,
+          107,
+          141
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "sha": "461dd82ebf37e7f194c1ccd7aa3b594402e17c42",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/workflows/golangci-lint.yml",
+      "lines": 23,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          6
+        ],
+        "pinned_actions": [
+          14,
+          17,
+          21
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha": "306fdc4b2baa4b7c4942dec79d1c1ef5d34ddb59",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/workflows/release.yml",
+      "lines": 70,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10,
+          17,
+          18
+        ],
+        "pinned_actions": [
+          21,
+          59
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "sha": "49fa31c714b31afce81d05059c70c23ba1108f9e",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/workflows/codeql-analysis.yml",
+      "lines": 43,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11,
+          16
+        ],
+        "pinned_actions": [
+          30,
+          35,
+          40,
+          43
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/depsreview.yml",
+      "sha": "cbad6866bdc50db1541c810e5366fabd2fb698c0",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/workflows/depsreview.yml",
+      "lines": 16,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          4
+        ],
+        "pinned_actions": [
+          12,
+          16
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "sha": "0f345e0c2facdafac982fa8403cb673b0d6e3bc8",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/workflows/docker.yml",
+      "lines": 37,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12
+        ],
+        "pinned_actions": [
+          21,
+          29
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/make.doc.yml",
+      "sha": "ffbaa2f6b36063997a705aed419061e77767909e",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/workflows/make.doc.yml",
+      "lines": 39,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7,
+          13,
+          14
+        ],
+        "pinned_actions": [
+          18,
+          21,
+          31
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/scorecards.yml",
+      "sha": "8b3300fc49c18b1a54de63ccbde93c3468e4ac6b",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/workflows/scorecards.yml",
+      "lines": 56,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11,
+          17,
+          22
+        ],
+        "pinned_actions": [
+          26,
+          31,
+          46,
+          54
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "sha": "b1618e653fdacaf9c36789d8de3f0735909cf21c",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/workflows/stale.yml",
+      "lines": 26,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          6,
+          11
+        ],
+        "pinned_actions": [
+          16
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          23
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/verify-make-gen.yml",
+      "sha": "aa3213abd415d6cfda0ccca42cd0ff78ddd635f0",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/workflows/verify-make-gen.yml",
+      "lines": 38,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          1,
+          35
+        ],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [
+          15,
+          18
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/yamllint.yml",
+      "sha": "7b1487b5c50c11793c8688725510bd1a1ac7de5e",
+      "status": "inspected",
+      "url": "https://github.com/coredns/coredns/blob/d116ecb98cebc576576a93766ab4c155ecdbe31d/.github/workflows/yamllint.yml",
+      "lines": 19,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          4
+        ],
+        "pinned_actions": [
+          11,
+          15
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 8569,
+      "title": "plugin/file: test that out-of-zone CNAME targets keep NOERROR",
+      "url": "https://github.com/coredns/coredns/pull/8569",
+      "merged_at": "2026-10-16T21:05:51Z",
+      "merge_commit_sha": "62be0a2f90b4ad1fe9c890c2012b8a24a4abb40c",
+      "files": [
+        "plugin/file/lookup.go",
+        "plugin/file/lookup_test.go",
+        "plugin/file/zone.go"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "plugin/file/lookup.go",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/coredns/coredns/blob/c508fb991af5c99222ac5a1d1ff3eec035a7529a/plugin%2Ffile%2Flookup.go"
+        },
+        {
+          "filename": "plugin/file/lookup_test.go",
+          "status": "modified",
+          "additions": 52,
+          "deletions": 0,
+          "blob_url": "https://github.com/coredns/coredns/blob/c508fb991af5c99222ac5a1d1ff3eec035a7529a/plugin%2Ffile%2Flookup_test.go"
+        },
+        {
+          "filename": "plugin/file/zone.go",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 2,
+          "blob_url": "https://github.com/coredns/coredns/blob/c508fb991af5c99222ac5a1d1ff3eec035a7529a/plugin%2Ffile%2Fzone.go"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38966964845,
+          "name": "Verify Generated Files",
+          "path": ".github/workflows/verify-make-gen.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38966964845",
+          "head_sha": "62be0a2f90b4ad1fe9c890c2012b8a24a4abb40c"
+        },
+        {
+          "id": 38966964999,
+          "name": "Go Tests",
+          "path": ".github/workflows/go.test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38966964999",
+          "head_sha": "62be0a2f90b4ad1fe9c890c2012b8a24a4abb40c"
+        },
+        {
+          "id": 38966964880,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38966964880",
+          "head_sha": "62be0a2f90b4ad1fe9c890c2012b8a24a4abb40c"
+        },
+        {
+          "id": 38966964828,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38966964828",
+          "head_sha": "62be0a2f90b4ad1fe9c890c2012b8a24a4abb40c"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 36054274376,
+          "name": "Dependency Review",
+          "path": ".github/workflows/depsreview.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/36054274376",
+          "head_sha": "c508fb991af5c99222ac5a1d1ff3eec035a7529a"
+        },
+        {
+          "id": 36054274692,
+          "name": "Yamllint GitHub Actions",
+          "path": ".github/workflows/yamllint.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/36054274692",
+          "head_sha": "c508fb991af5c99222ac5a1d1ff3eec035a7529a"
+        },
+        {
+          "id": 36054274684,
+          "name": "Verify Generated Files",
+          "path": ".github/workflows/verify-make-gen.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/36054274684",
+          "head_sha": "c508fb991af5c99222ac5a1d1ff3eec035a7529a"
+        },
+        {
+          "id": 36054274589,
+          "name": "Go Tests",
+          "path": ".github/workflows/go.test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/36054274589",
+          "head_sha": "c508fb991af5c99222ac5a1d1ff3eec035a7529a"
+        },
+        {
+          "id": 36054274476,
+          "name": "golangci-lint",
+          "path": ".github/workflows/golangci-lint.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/36054274476",
+          "head_sha": "c508fb991af5c99222ac5a1d1ff3eec035a7529a"
+        },
+        {
+          "id": 36054274558,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/36054274558",
+          "head_sha": "c508fb991af5c99222ac5a1d1ff3eec035a7529a"
+        }
+      ]
+    },
+    {
+      "number": 8646,
+      "title": "coredns(1): document the -log-format flag",
+      "url": "https://github.com/coredns/coredns/pull/8646",
+      "merged_at": "2026-10-16T21:06:29Z",
+      "merge_commit_sha": "d116ecb98cebc576576a93766ab4c155ecdbe31d",
+      "files": [
+        "coredns.1.md"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "coredns.1.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/coredns/coredns/blob/ef987eaf7e92f57f5b5466b85e91fdbfad8795c3/coredns.1.md"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38991789834,
+          "name": "Close Stale Issues and PRs",
+          "path": ".github/workflows/stale.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38991789834",
+          "head_sha": "d116ecb98cebc576576a93766ab4c155ecdbe31d"
+        },
+        {
+          "id": 38967040404,
+          "name": "Go Tests",
+          "path": ".github/workflows/go.test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38967040404",
+          "head_sha": "d116ecb98cebc576576a93766ab4c155ecdbe31d"
+        },
+        {
+          "id": 38967040426,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38967040426",
+          "head_sha": "d116ecb98cebc576576a93766ab4c155ecdbe31d"
+        },
+        {
+          "id": 38967040610,
+          "name": "Verify Generated Files",
+          "path": ".github/workflows/verify-make-gen.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38967040610",
+          "head_sha": "d116ecb98cebc576576a93766ab4c155ecdbe31d"
+        },
+        {
+          "id": 38967040410,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38967040410",
+          "head_sha": "d116ecb98cebc576576a93766ab4c155ecdbe31d"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38943854603,
+          "name": "Dependency Review",
+          "path": ".github/workflows/depsreview.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38943854603",
+          "head_sha": "ef987eaf7e92f57f5b5466b85e91fdbfad8795c3"
+        },
+        {
+          "id": 38943854530,
+          "name": "Verify Generated Files",
+          "path": ".github/workflows/verify-make-gen.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38943854530",
+          "head_sha": "ef987eaf7e92f57f5b5466b85e91fdbfad8795c3"
+        },
+        {
+          "id": 38943854524,
+          "name": "Yamllint GitHub Actions",
+          "path": ".github/workflows/yamllint.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38943854524",
+          "head_sha": "ef987eaf7e92f57f5b5466b85e91fdbfad8795c3"
+        },
+        {
+          "id": 38943856098,
+          "name": "golangci-lint",
+          "path": ".github/workflows/golangci-lint.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38943856098",
+          "head_sha": "ef987eaf7e92f57f5b5466b85e91fdbfad8795c3"
+        },
+        {
+          "id": 38943854841,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38943854841",
+          "head_sha": "ef987eaf7e92f57f5b5466b85e91fdbfad8795c3"
+        },
+        {
+          "id": 38943854534,
+          "name": "Go Tests",
+          "path": ".github/workflows/go.test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38943854534",
+          "head_sha": "ef987eaf7e92f57f5b5466b85e91fdbfad8795c3"
+        }
+      ]
+    },
+    {
+      "number": 8629,
+      "title": "plugin/cache: cache SERVFAIL when the resolver fails without a response",
+      "url": "https://github.com/coredns/coredns/pull/8629",
+      "merged_at": "2026-10-16T02:29:41Z",
+      "merge_commit_sha": "16b53a46c1d891c0463c3f8c88afae9a9b502767",
+      "files": [
+        "plugin/cache/cache.go",
+        "plugin/cache/cache_test.go",
+        "plugin/cache/handler.go"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "plugin/cache/cache.go",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 0,
+          "blob_url": "https://github.com/coredns/coredns/blob/994aa063d87b3285bfeb145f20bea26602a56584/plugin%2Fcache%2Fcache.go"
+        },
+        {
+          "filename": "plugin/cache/cache_test.go",
+          "status": "modified",
+          "additions": 118,
+          "deletions": 0,
+          "blob_url": "https://github.com/coredns/coredns/blob/994aa063d87b3285bfeb145f20bea26602a56584/plugin%2Fcache%2Fcache_test.go"
+        },
+        {
+          "filename": "plugin/cache/handler.go",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 1,
+          "blob_url": "https://github.com/coredns/coredns/blob/994aa063d87b3285bfeb145f20bea26602a56584/plugin%2Fcache%2Fhandler.go"
+        }
+      ],
+      "review_states": [
+        "CHANGES_REQUESTED",
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38840708960,
+          "name": "Go Tests",
+          "path": ".github/workflows/go.test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38840708960",
+          "head_sha": "16b53a46c1d891c0463c3f8c88afae9a9b502767"
+        },
+        {
+          "id": 38840708799,
+          "name": "Verify Generated Files",
+          "path": ".github/workflows/verify-make-gen.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38840708799",
+          "head_sha": "16b53a46c1d891c0463c3f8c88afae9a9b502767"
+        },
+        {
+          "id": 38840708774,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38840708774",
+          "head_sha": "16b53a46c1d891c0463c3f8c88afae9a9b502767"
+        },
+        {
+          "id": 38840708887,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38840708887",
+          "head_sha": "16b53a46c1d891c0463c3f8c88afae9a9b502767"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38768665567,
+          "name": "Dependency Review",
+          "path": ".github/workflows/depsreview.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38768665567",
+          "head_sha": "994aa063d87b3285bfeb145f20bea26602a56584"
+        },
+        {
+          "id": 38768665784,
+          "name": "Yamllint GitHub Actions",
+          "path": ".github/workflows/yamllint.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38768665784",
+          "head_sha": "994aa063d87b3285bfeb145f20bea26602a56584"
+        },
+        {
+          "id": 38768665557,
+          "name": "Verify Generated Files",
+          "path": ".github/workflows/verify-make-gen.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38768665557",
+          "head_sha": "994aa063d87b3285bfeb145f20bea26602a56584"
+        },
+        {
+          "id": 38768665700,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38768665700",
+          "head_sha": "994aa063d87b3285bfeb145f20bea26602a56584"
+        },
+        {
+          "id": 38768665612,
+          "name": "golangci-lint",
+          "path": ".github/workflows/golangci-lint.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38768665612",
+          "head_sha": "994aa063d87b3285bfeb145f20bea26602a56584"
+        },
+        {
+          "id": 38768665707,
+          "name": "Go Tests",
+          "path": ".github/workflows/go.test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/38768665707",
+          "head_sha": "994aa063d87b3285bfeb145f20bea26602a56584"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v1.14.7",
+      "url": "https://github.com/coredns/coredns/releases/tag/v1.14.7",
+      "published_at": "2026-08-19T01:39:14Z",
+      "target_commitish": "427fc80ed9ca47f354585eb30a3f1332950856c4",
+      "commit_sha": "427fc80ed9ca47f354585eb30a3f1332950856c4",
+      "assets": [
+        "coredns_1.14.7_darwin_amd64.tgz",
+        "coredns_1.14.7_darwin_amd64.tgz.sha256",
+        "coredns_1.14.7_darwin_arm64.tgz",
+        "coredns_1.14.7_darwin_arm64.tgz.sha256",
+        "coredns_1.14.7_linux_amd64.tgz",
+        "coredns_1.14.7_linux_amd64.tgz.sha256",
+        "coredns_1.14.7_linux_arm.tgz",
+        "coredns_1.14.7_linux_arm.tgz.sha256",
+        "coredns_1.14.7_linux_arm64.tgz",
+        "coredns_1.14.7_linux_arm64.tgz.sha256",
+        "coredns_1.14.7_linux_loong64.tgz",
+        "coredns_1.14.7_linux_loong64.tgz.sha256",
+        "coredns_1.14.7_linux_mips.tgz",
+        "coredns_1.14.7_linux_mips.tgz.sha256",
+        "coredns_1.14.7_linux_mips64le.tgz",
+        "coredns_1.14.7_linux_mips64le.tgz.sha256",
+        "coredns_1.14.7_linux_ppc64le.tgz",
+        "coredns_1.14.7_linux_ppc64le.tgz.sha256",
+        "coredns_1.14.7_linux_riscv64.tgz",
+        "coredns_1.14.7_linux_riscv64.tgz.sha256",
+        "coredns_1.14.7_linux_s390x.tgz",
+        "coredns_1.14.7_linux_s390x.tgz.sha256",
+        "coredns_1.14.7_windows_amd64.tgz",
+        "coredns_1.14.7_windows_amd64.tgz.sha256",
+        "coredns_1.14.7_windows_amd64.zip",
+        "coredns_1.14.7_windows_amd64.zip.sha256"
+      ],
+      "workflow_runs": [
+        {
+          "id": 32258610803,
+          "name": "go_modules in / for k8s.io/apimachinery, k8s.io/client-go - Update #1532614571",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/32258610803",
+          "head_sha": "427fc80ed9ca47f354585eb30a3f1332950856c4"
+        },
+        {
+          "id": 32258610730,
+          "name": "go_modules in / for go.etcd.io/etcd/api/v3, go.etcd.io/etcd/client/v3 - Update #1532614590",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/32258610730",
+          "head_sha": "427fc80ed9ca47f354585eb30a3f1332950856c4"
+        },
+        {
+          "id": 32258609922,
+          "name": "github_actions in /. - Update #1532614568",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/32258609922",
+          "head_sha": "427fc80ed9ca47f354585eb30a3f1332950856c4"
+        },
+        {
+          "id": 32258609651,
+          "name": "go_modules in /. - Update #1532614533",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/32258609651",
+          "head_sha": "427fc80ed9ca47f354585eb30a3f1332950856c4"
+        },
+        {
+          "id": 32244394976,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/32244394976",
+          "head_sha": "427fc80ed9ca47f354585eb30a3f1332950856c4"
+        },
+        {
+          "id": 32206922458,
+          "name": "Close Stale Issues and PRs",
+          "path": ".github/workflows/stale.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/32206922458",
+          "head_sha": "427fc80ed9ca47f354585eb30a3f1332950856c4"
+        },
+        {
+          "id": 32205702883,
+          "name": "Docker Release",
+          "path": ".github/workflows/docker.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/32205702883",
+          "head_sha": "427fc80ed9ca47f354585eb30a3f1332950856c4"
+        },
+        {
+          "id": 32204319393,
+          "name": "Release",
+          "path": ".github/workflows/release.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/32204319393",
+          "head_sha": "427fc80ed9ca47f354585eb30a3f1332950856c4"
+        },
+        {
+          "id": 32202055162,
+          "name": "Verify Generated Files",
+          "path": ".github/workflows/verify-make-gen.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/32202055162",
+          "head_sha": "427fc80ed9ca47f354585eb30a3f1332950856c4"
+        },
+        {
+          "id": 32202055203,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/32202055203",
+          "head_sha": "427fc80ed9ca47f354585eb30a3f1332950856c4"
+        }
+      ]
+    },
+    {
+      "tag": "v1.14.6",
+      "url": "https://github.com/coredns/coredns/releases/tag/v1.14.6",
+      "published_at": "2026-07-10T05:51:46Z",
+      "target_commitish": "424d125775cd70fa90dfc80bf0e52cc9a9aeb574",
+      "commit_sha": "424d125775cd70fa90dfc80bf0e52cc9a9aeb574",
+      "assets": [
+        "coredns_1.14.6_darwin_amd64.tgz",
+        "coredns_1.14.6_darwin_amd64.tgz.sha256",
+        "coredns_1.14.6_darwin_arm64.tgz",
+        "coredns_1.14.6_darwin_arm64.tgz.sha256",
+        "coredns_1.14.6_linux_amd64.tgz",
+        "coredns_1.14.6_linux_amd64.tgz.sha256",
+        "coredns_1.14.6_linux_arm.tgz",
+        "coredns_1.14.6_linux_arm.tgz.sha256",
+        "coredns_1.14.6_linux_arm64.tgz",
+        "coredns_1.14.6_linux_arm64.tgz.sha256",
+        "coredns_1.14.6_linux_loong64.tgz",
+        "coredns_1.14.6_linux_loong64.tgz.sha256",
+        "coredns_1.14.6_linux_mips.tgz",
+        "coredns_1.14.6_linux_mips.tgz.sha256",
+        "coredns_1.14.6_linux_mips64le.tgz",
+        "coredns_1.14.6_linux_mips64le.tgz.sha256",
+        "coredns_1.14.6_linux_ppc64le.tgz",
+        "coredns_1.14.6_linux_ppc64le.tgz.sha256",
+        "coredns_1.14.6_linux_riscv64.tgz",
+        "coredns_1.14.6_linux_riscv64.tgz.sha256",
+        "coredns_1.14.6_linux_s390x.tgz",
+        "coredns_1.14.6_linux_s390x.tgz.sha256",
+        "coredns_1.14.6_windows_amd64.tgz",
+        "coredns_1.14.6_windows_amd64.tgz.sha256",
+        "coredns_1.14.6_windows_amd64.zip",
+        "coredns_1.14.6_windows_amd64.zip.sha256"
+      ],
+      "workflow_runs": [
+        {
+          "id": 29072361335,
+          "name": "Docker Release",
+          "path": ".github/workflows/docker.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/29072361335",
+          "head_sha": "424d125775cd70fa90dfc80bf0e52cc9a9aeb574"
+        },
+        {
+          "id": 29071229780,
+          "name": "Release",
+          "path": ".github/workflows/release.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/29071229780",
+          "head_sha": "424d125775cd70fa90dfc80bf0e52cc9a9aeb574"
+        },
+        {
+          "id": 29070504477,
+          "name": "Verify Generated Files",
+          "path": ".github/workflows/verify-make-gen.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/29070504477",
+          "head_sha": "424d125775cd70fa90dfc80bf0e52cc9a9aeb574"
+        },
+        {
+          "id": 29070504419,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/29070504419",
+          "head_sha": "424d125775cd70fa90dfc80bf0e52cc9a9aeb574"
+        },
+        {
+          "id": 29070504414,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/29070504414",
+          "head_sha": "424d125775cd70fa90dfc80bf0e52cc9a9aeb574"
+        },
+        {
+          "id": 29070504460,
+          "name": "Go Tests",
+          "path": ".github/workflows/go.test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/29070504460",
+          "head_sha": "424d125775cd70fa90dfc80bf0e52cc9a9aeb574"
+        }
+      ]
+    },
+    {
+      "tag": "v1.14.5",
+      "url": "https://github.com/coredns/coredns/releases/tag/v1.14.5",
+      "published_at": "2026-07-10T00:35:45Z",
+      "target_commitish": "adba3b3703408ffe80bc03a7be0f6ea9c2372399",
+      "commit_sha": "adba3b3703408ffe80bc03a7be0f6ea9c2372399",
+      "assets": [
+        "coredns_1.14.5_darwin_amd64.tgz",
+        "coredns_1.14.5_darwin_amd64.tgz.sha256",
+        "coredns_1.14.5_darwin_arm64.tgz",
+        "coredns_1.14.5_darwin_arm64.tgz.sha256",
+        "coredns_1.14.5_linux_amd64.tgz",
+        "coredns_1.14.5_linux_amd64.tgz.sha256",
+        "coredns_1.14.5_linux_arm.tgz",
+        "coredns_1.14.5_linux_arm.tgz.sha256",
+        "coredns_1.14.5_linux_arm64.tgz",
+        "coredns_1.14.5_linux_arm64.tgz.sha256",
+        "coredns_1.14.5_linux_loong64.tgz",
+        "coredns_1.14.5_linux_loong64.tgz.sha256",
+        "coredns_1.14.5_linux_mips.tgz",
+        "coredns_1.14.5_linux_mips.tgz.sha256",
+        "coredns_1.14.5_linux_mips64le.tgz",
+        "coredns_1.14.5_linux_mips64le.tgz.sha256",
+        "coredns_1.14.5_linux_ppc64le.tgz",
+        "coredns_1.14.5_linux_ppc64le.tgz.sha256",
+        "coredns_1.14.5_linux_riscv64.tgz",
+        "coredns_1.14.5_linux_riscv64.tgz.sha256",
+        "coredns_1.14.5_linux_s390x.tgz",
+        "coredns_1.14.5_linux_s390x.tgz.sha256",
+        "coredns_1.14.5_windows_amd64.tgz",
+        "coredns_1.14.5_windows_amd64.tgz.sha256",
+        "coredns_1.14.5_windows_amd64.zip",
+        "coredns_1.14.5_windows_amd64.zip.sha256"
+      ],
+      "workflow_runs": [
+        {
+          "id": 29060344283,
+          "name": "Docker Release",
+          "path": ".github/workflows/docker.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/29060344283",
+          "head_sha": "adba3b3703408ffe80bc03a7be0f6ea9c2372399"
+        },
+        {
+          "id": 29058392655,
+          "name": "Release",
+          "path": ".github/workflows/release.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/29058392655",
+          "head_sha": "adba3b3703408ffe80bc03a7be0f6ea9c2372399"
+        },
+        {
+          "id": 29058377572,
+          "name": "Go Tests",
+          "path": ".github/workflows/go.test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/29058377572",
+          "head_sha": "adba3b3703408ffe80bc03a7be0f6ea9c2372399"
+        },
+        {
+          "id": 29058377574,
+          "name": "Verify Generated Files",
+          "path": ".github/workflows/verify-make-gen.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/29058377574",
+          "head_sha": "adba3b3703408ffe80bc03a7be0f6ea9c2372399"
+        },
+        {
+          "id": 29058377590,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/29058377590",
+          "head_sha": "adba3b3703408ffe80bc03a7be0f6ea9c2372399"
+        },
+        {
+          "id": 29058377584,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/coredns/coredns/actions/runs/29058377584",
+          "head_sha": "adba3b3703408ffe80bc03a7be0f6ea9c2372399"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v011",
+      "sha": "1b60688dc8f7e7ed0edcda5fb3fec02b1ddd3e42"
+    },
+    {
+      "name": "v010",
+      "sha": "cf92a66573980386c19d3930cf603b59e27f18de"
+    },
+    {
+      "name": "v009",
+      "sha": "81315b0b3b5dd203c777f0dbc733b62c0050cc2f"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:20:31.377832+00:00",
+  "source_times": {
+    "/repos/coredns/coredns": "2026-10-17T16:15:54.147185+00:00",
+    "/repos/coredns/coredns/commits?sha=master&per_page=20": "2026-10-17T16:15:57.275467+00:00",
+    "/repos/coredns/coredns/git/trees/d116ecb98cebc576576a93766ab4c155ecdbe31d": "2026-10-17T16:15:58.649132+00:00",
+    "/repos/coredns/coredns/git/trees/1490810581e5ebc6ace765a5271cc753a28f0fb0": "2026-10-17T16:16:00.024450+00:00",
+    "/repos/coredns/coredns/git/trees/1dcdd274f70e45e5f4af3d7c9e8ebcbd3084183f": "2026-10-17T16:16:02.398996+00:00",
+    "/repos/coredns/coredns/git/trees/1049d7298fc77f367ce2e1c3a2891000e3a271b1": "2026-10-17T16:16:05.144921+00:00",
+    "/repos/coredns/coredns/git/blobs/af95cdde66f8d204f01dd0080e09fac4456537e6": "2026-10-17T16:16:07.610093+00:00",
+    "/repos/coredns/coredns/git/blobs/637237e0964adeb99550f0efc3036c8373c3a7e9": "2026-10-17T16:16:09.237900+00:00",
+    "/repos/coredns/coredns/git/blobs/784ef485bfc4471d14ad45e9468b8be6c6f41e9f": "2026-10-17T16:16:10.729845+00:00",
+    "/repos/coredns/coredns/git/blobs/51b6e9c0367abed99a6961c1e48e50b234fa52c6": "2026-10-17T16:16:12.144249+00:00",
+    "/repos/coredns/coredns/git/blobs/13947f94deeadbc06f45fb6b11285e4b15aacf40": "2026-10-17T16:16:13.676915+00:00",
+    "/repos/coredns/coredns/git/blobs/10290f6eaf4e0a9cf7e35253a338b73359e3def9": "2026-10-17T16:16:15.049659+00:00",
+    "/repos/coredns/coredns/git/blobs/c5ffd1e76118caf8eac329a5d3d81dac607ad0c2": "2026-10-17T16:16:16.421504+00:00",
+    "/repos/coredns/coredns/git/blobs/edbd50aaef0f70b7334ef009601fe7219c82fbf6": "2026-10-17T16:16:17.812509+00:00",
+    "/repos/coredns/coredns/git/blobs/ea60b5c32ce2ae1336f6ab62baec0f31befedc94": "2026-10-17T16:16:19.415949+00:00",
+    "/repos/coredns/coredns/git/blobs/22125d94b98af8536e53d11b89de4ebb7644b0ee": "2026-10-17T16:16:20.801057+00:00",
+    "/repos/coredns/coredns/git/blobs/f07f5091e70b2e7febc0f300aa22d78bc7280ef6": "2026-10-17T16:16:22.339067+00:00",
+    "/repos/coredns/coredns/git/blobs/ebae010387231c849674567fba4175471e56472b": "2026-10-17T16:16:23.724494+00:00",
+    "/repos/coredns/coredns/git/blobs/7d0c3a6ce82a2450879a291fcc50f1a66452f82d": "2026-10-17T16:16:25.142352+00:00",
+    "/repos/coredns/coredns/git/blobs/97edaebb4d1d1f8101a8da60a001154712d8fa51": "2026-10-17T16:16:26.537083+00:00",
+    "/repos/coredns/coredns/git/blobs/9472683244a20167251448aeebdd8868542cda0f": "2026-10-17T16:16:28.828775+00:00",
+    "/repos/coredns/coredns/git/blobs/d39c37c010932d5c04f2d8a9ce0864bad1882728": "2026-10-17T16:16:30.245320+00:00",
+    "/repos/coredns/coredns/git/blobs/2b7c45ff7cabfd1b020454e6e425c68d5fbad6e3": "2026-10-17T16:16:31.616912+00:00",
+    "/repos/coredns/coredns/git/blobs/c1101742a1104d34d14b22999ffa528379372915": "2026-10-17T16:16:32.954296+00:00",
+    "/repos/coredns/coredns/git/blobs/9a09a537db02674cf551dc061f82884d70870cfd": "2026-10-17T16:16:34.350481+00:00",
+    "/repos/coredns/coredns/git/blobs/c84d21cc0ec7781a95c91b78887950ba2b5b1c60": "2026-10-17T16:16:35.710662+00:00",
+    "/repos/coredns/coredns/git/blobs/60835cb5d88194d4ff8a149b64823ab2bb3418e5": "2026-10-17T16:16:37.110821+00:00",
+    "/repos/coredns/coredns/git/blobs/b3ae049435331e6f475d0eb9f63749190aade310": "2026-10-17T16:16:38.492425+00:00",
+    "/repos/coredns/coredns/git/blobs/461dd82ebf37e7f194c1ccd7aa3b594402e17c42": "2026-10-17T16:16:39.959447+00:00",
+    "/repos/coredns/coredns/git/blobs/306fdc4b2baa4b7c4942dec79d1c1ef5d34ddb59": "2026-10-17T16:16:41.520416+00:00",
+    "/repos/coredns/coredns/git/blobs/49fa31c714b31afce81d05059c70c23ba1108f9e": "2026-10-17T16:16:42.861565+00:00",
+    "/repos/coredns/coredns/git/blobs/cbad6866bdc50db1541c810e5366fabd2fb698c0": "2026-10-17T16:16:45.226471+00:00",
+    "/repos/coredns/coredns/git/blobs/0f345e0c2facdafac982fa8403cb673b0d6e3bc8": "2026-10-17T16:16:46.616792+00:00",
+    "/repos/coredns/coredns/git/blobs/ffbaa2f6b36063997a705aed419061e77767909e": "2026-10-17T16:16:48.997042+00:00",
+    "/repos/coredns/coredns/git/blobs/8b3300fc49c18b1a54de63ccbde93c3468e4ac6b": "2026-10-17T16:16:50.351290+00:00",
+    "/repos/coredns/coredns/git/blobs/b1618e653fdacaf9c36789d8de3f0735909cf21c": "2026-10-17T16:16:51.770992+00:00",
+    "/repos/coredns/coredns/git/blobs/aa3213abd415d6cfda0ccca42cd0ff78ddd635f0": "2026-10-17T16:16:53.249289+00:00",
+    "/repos/coredns/coredns/git/blobs/7b1487b5c50c11793c8688725510bd1a1ac7de5e": "2026-10-17T16:16:56.002411+00:00",
+    "/repos/coredns/coredns/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:17:04.958830+00:00",
+    "/repos/coredns/coredns/pulls/8569/files?per_page=100": "2026-10-17T16:17:06.499295+00:00",
+    "/repos/coredns/coredns/pulls/8569/reviews?per_page=100": "2026-10-17T16:17:08.073556+00:00",
+    "/repos/coredns/coredns/actions/runs?head_sha=62be0a2f90b4ad1fe9c890c2012b8a24a4abb40c&per_page=10": "2026-10-17T16:17:11.245373+00:00",
+    "/repos/coredns/coredns/actions/runs?head_sha=c508fb991af5c99222ac5a1d1ff3eec035a7529a&per_page=10": "2026-10-17T16:17:13.285999+00:00",
+    "/repos/coredns/coredns/pulls/8646/files?per_page=100": "2026-10-17T16:17:14.770420+00:00",
+    "/repos/coredns/coredns/pulls/8646/reviews?per_page=100": "2026-10-17T16:17:16.182719+00:00",
+    "/repos/coredns/coredns/actions/runs?head_sha=d116ecb98cebc576576a93766ab4c155ecdbe31d&per_page=10": "2026-10-17T16:17:18.455931+00:00",
+    "/repos/coredns/coredns/actions/runs?head_sha=ef987eaf7e92f57f5b5466b85e91fdbfad8795c3&per_page=10": "2026-10-17T16:17:20.311662+00:00",
+    "/repos/coredns/coredns/pulls/8629/files?per_page=100": "2026-10-17T16:17:21.850706+00:00",
+    "/repos/coredns/coredns/pulls/8629/reviews?per_page=100": "2026-10-17T16:17:23.404883+00:00",
+    "/repos/coredns/coredns/actions/runs?head_sha=16b53a46c1d891c0463c3f8c88afae9a9b502767&per_page=10": "2026-10-17T16:17:25.418235+00:00",
+    "/repos/coredns/coredns/actions/runs?head_sha=994aa063d87b3285bfeb145f20bea26602a56584&per_page=10": "2026-10-17T16:17:28.561536+00:00",
+    "/repos/coredns/coredns/releases?per_page=20&page=1": "2026-10-17T16:20:31.374088+00:00",
+    "/repos/coredns/coredns/commits/v1.14.7": "2026-10-17T16:17:34.030764+00:00",
+    "/repos/coredns/coredns/actions/runs?head_sha=427fc80ed9ca47f354585eb30a3f1332950856c4&per_page=10": "2026-10-17T16:17:36.425438+00:00",
+    "/repos/coredns/coredns/commits/v1.14.6": "2026-10-17T16:17:37.889555+00:00",
+    "/repos/coredns/coredns/actions/runs?head_sha=424d125775cd70fa90dfc80bf0e52cc9a9aeb574&per_page=10": "2026-10-17T16:17:40.026078+00:00",
+    "/repos/coredns/coredns/commits/v1.14.5": "2026-10-17T16:17:41.461247+00:00",
+    "/repos/coredns/coredns/actions/runs?head_sha=adba3b3703408ffe80bc03a7be0f6ea9c2372399&per_page=10": "2026-10-17T16:17:43.563771+00:00",
+    "/repos/coredns/coredns/tags?per_page=3": "2026-10-17T16:17:44.977513+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:20:31.374088+00:00",
+  "status": "collected"
+}

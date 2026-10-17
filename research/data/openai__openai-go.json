@@ -1,0 +1,2620 @@
+{
+  "requested_repository": "openai/openai-go",
+  "category": "sdk",
+  "collected_at": "2026-10-17T16:03:36.968964+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "openai/openai-go",
+  "metadata": {
+    "html_url": "https://github.com/openai/openai-go",
+    "description": "The official Go library for the OpenAI API",
+    "homepage": null,
+    "language": "Go",
+    "stargazers_count": 3496,
+    "forks_count": 356,
+    "open_issues_count": 89,
+    "pushed_at": "2026-10-17T07:08:51Z",
+    "created_at": "2024-07-22T19:29:26Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [],
+    "owner": {
+      "login": "openai",
+      "type": "Organization",
+      "html_url": "https://github.com/openai"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "d417996c970cd28e7e2cdc3ae11438c4425160c7",
+      "url": "https://github.com/openai/openai-go/commit/d417996c970cd28e7e2cdc3ae11438c4425160c7",
+      "date": "2026-10-17T06:07:54Z",
+      "subject": "chore(api): add Assistants model shutdown notices (#1084)"
+    },
+    {
+      "sha": "cbaf5991a056186314e104f90d73fe0ed034f85b",
+      "url": "https://github.com/openai/openai-go/commit/cbaf5991a056186314e104f90d73fe0ed034f85b",
+      "date": "2026-10-17T04:59:32Z",
+      "subject": "chore(api): add shutdown notices for GPT-4 model aliases (#1082)"
+    },
+    {
+      "sha": "b50536cfe66964cd0a168235e184799504509b68",
+      "url": "https://github.com/openai/openai-go/commit/b50536cfe66964cd0a168235e184799504509b68",
+      "date": "2026-10-17T02:48:30Z",
+      "subject": "chore(api): clarify the Live startup history token limit (#1071)"
+    },
+    {
+      "sha": "f64d1d05b1df7c20d45e972e27d6a3d1787dd215",
+      "url": "https://github.com/openai/openai-go/commit/f64d1d05b1df7c20d45e972e27d6a3d1787dd215",
+      "date": "2026-10-16T23:58:19Z",
+      "subject": "feat(api): add Decisions prompt caching options (#1080)"
+    },
+    {
+      "sha": "2cdebd8de09a0b5931eb2fa84c2a6217ed18fa51",
+      "url": "https://github.com/openai/openai-go/commit/2cdebd8de09a0b5931eb2fa84c2a6217ed18fa51",
+      "date": "2026-10-16T23:19:29Z",
+      "subject": "release: 3.79.0 (#1058)"
+    },
+    {
+      "sha": "52769832c19273db16e2185479be11278a157dff",
+      "url": "https://github.com/openai/openai-go/commit/52769832c19273db16e2185479be11278a157dff",
+      "date": "2026-10-16T23:08:17Z",
+      "subject": "feat(api): add prompt-based voice creation (#1078)"
+    },
+    {
+      "sha": "35b78d9bcaf4358887b38dd877e015407efbe6fd",
+      "url": "https://github.com/openai/openai-go/commit/35b78d9bcaf4358887b38dd877e015407efbe6fd",
+      "date": "2026-10-16T22:38:37Z",
+      "subject": "feat(api): add safety identifiers to image requests and responses (#1079)"
+    },
+    {
+      "sha": "b56ecc0c84a4fd3b2b7f1b0d518889084245d871",
+      "url": "https://github.com/openai/openai-go/commit/b56ecc0c84a4fd3b2b7f1b0d518889084245d871",
+      "date": "2026-10-16T21:43:57Z",
+      "subject": "feat(live): group transcript deltas without owning the connection (#1077)"
+    },
+    {
+      "sha": "23625e1fed621c98bbcf54a187046a395254b7d8",
+      "url": "https://github.com/openai/openai-go/commit/23625e1fed621c98bbcf54a187046a395254b7d8",
+      "date": "2026-10-16T15:43:35Z",
+      "subject": "feat: configure vector batch uploads and cancel on failure (#1034)"
+    },
+    {
+      "sha": "d0e67ec297429c72e79ae3e871fdd02a66b337c3",
+      "url": "https://github.com/openai/openai-go/commit/d0e67ec297429c72e79ae3e871fdd02a66b337c3",
+      "date": "2026-10-16T08:07:21Z",
+      "subject": "refactor: use generated WebSocket request bindings (#1076)"
+    },
+    {
+      "sha": "35c659814a66f7ae7a6cc99ed4ca30c8687f7ca7",
+      "url": "https://github.com/openai/openai-go/commit/35c659814a66f7ae7a6cc99ed4ca30c8687f7ca7",
+      "date": "2026-10-15T22:39:18Z",
+      "subject": "feat(api): add Live audio fixture playback event constants (#1068)"
+    },
+    {
+      "sha": "5bbf3e525e5ecd85b4eb352a2bfe761e1f80a10d",
+      "url": "https://github.com/openai/openai-go/commit/5bbf3e525e5ecd85b4eb352a2bfe761e1f80a10d",
+      "date": "2026-10-15T22:16:48Z",
+      "subject": "test: cover OCI storage request and response contracts (#1075)"
+    },
+    {
+      "sha": "60e1cfe7627f7963987a03f2a5ceda4ee7138b71",
+      "url": "https://github.com/openai/openai-go/commit/60e1cfe7627f7963987a03f2a5ceda4ee7138b71",
+      "date": "2026-10-15T22:11:37Z",
+      "subject": "test: cover prewarmed environment attachment (#1074)"
+    },
+    {
+      "sha": "6f8864c96d592cf7eb21f7ba7a92a01626dd8236",
+      "url": "https://github.com/openai/openai-go/commit/6f8864c96d592cf7eb21f7ba7a92a01626dd8236",
+      "date": "2026-10-15T22:05:04Z",
+      "subject": "test: cover vault update clearing semantics (#1073)"
+    },
+    {
+      "sha": "c027cfbdb0f13b4cb5d3285dc85c8221081c4da3",
+      "url": "https://github.com/openai/openai-go/commit/c027cfbdb0f13b4cb5d3285dc85c8221081c4da3",
+      "date": "2026-10-15T21:54:22Z",
+      "subject": "test: cover session spend-control clearing and consumption (#1072)"
+    },
+    {
+      "sha": "427af28a8426b0b72ed92ec28d52681bbe5cfcfa",
+      "url": "https://github.com/openai/openai-go/commit/427af28a8426b0b72ed92ec28d52681bbe5cfcfa",
+      "date": "2026-10-15T20:02:19Z",
+      "subject": "fix(uploads): avoid repeated destination ancestor scans (#1070)"
+    },
+    {
+      "sha": "7f17b88cf779caaad941cfb441b830da6aa8f875",
+      "url": "https://github.com/openai/openai-go/commit/7f17b88cf779caaad941cfb441b830da6aa8f875",
+      "date": "2026-10-15T16:51:28Z",
+      "subject": "fix(streaming): cache pending action handler checks (#1064)"
+    },
+    {
+      "sha": "036df078239cbc51259a7f4e4015e340d4790fb3",
+      "url": "https://github.com/openai/openai-go/commit/036df078239cbc51259a7f4e4015e340d4790fb3",
+      "date": "2026-10-15T07:01:07Z",
+      "subject": "feat(api): add response error diagnostics and model notices (#1069)"
+    },
+    {
+      "sha": "b5aa5a0c36d7741d47d0e03616e7a53b1107cb54",
+      "url": "https://github.com/openai/openai-go/commit/b5aa5a0c36d7741d47d0e03616e7a53b1107cb54",
+      "date": "2026-10-15T04:39:51Z",
+      "subject": "feat(api): support project API key scope updates (#1066)"
+    },
+    {
+      "sha": "5da8f6d96b829a20e207f9b6099515a99f7f17df",
+      "url": "https://github.com/openai/openai-go/commit/5da8f6d96b829a20e207f9b6099515a99f7f17df",
+      "date": "2026-10-15T00:31:54Z",
+      "subject": "chore(api): document Realtime response error messages (#1067)"
+    }
+  ],
+  "default_sha": "d417996c970cd28e7e2cdc3ae11438c4425160c7",
+  "root_and_selected_directory_paths": [
+    ".agents",
+    ".castiron-ratchet.json",
+    ".castiron.stats.yml",
+    ".devcontainer",
+    ".github",
+    ".github/CODEOWNERS",
+    ".github/codex",
+    ".github/dependabot.yml",
+    ".github/workflows",
+    ".github/workflows/castiron-custom-code-comment.yml",
+    ".github/workflows/castiron-custom-code.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/create-releases.yml",
+    ".github/workflows/detect-breaking-changes.yml",
+    ".github/workflows/go-version-review.yml",
+    ".gitignore",
+    ".golangci.yml",
+    ".release-please-manifest.json",
+    "AGENTS.md",
+    "Brewfile",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "GO_CODE_QUALITY_POLICY.md",
+    "GO_VERSION_POLICY.md",
+    "LICENSE",
+    "MIGRATION.md",
+    "README.md",
+    "SECURITY.md",
+    "admin.go",
+    "adminorganization.go",
+    "adminorganizationadminapikey.go",
+    "adminorganizationadminapikey_test.go",
+    "adminorganizationauditlog.go",
+    "adminorganizationauditlog_test.go",
+    "adminorganizationcertificate.go",
+    "adminorganizationcertificate_test.go",
+    "adminorganizationdataretention.go",
+    "adminorganizationdataretention_test.go",
+    "adminorganizationexternalstorage.go",
+    "adminorganizationexternalstorage_test.go",
+    "adminorganizationgroup.go",
+    "adminorganizationgroup_test.go",
+    "adminorganizationgrouprole.go",
+    "adminorganizationgrouprole_test.go",
+    "adminorganizationgroupuser.go",
+    "adminorganizationgroupuser_test.go",
+    "adminorganizationinvite.go",
+    "adminorganizationinvite_test.go",
+    "adminorganizationproject.go",
+    "adminorganizationproject_test.go",
+    "adminorganizationprojectapikey.go",
+    "adminorganizationprojectapikey_scopes_test.go",
+    "adminorganizationprojectapikey_test.go",
+    "adminorganizationprojectcertificate.go",
+    "adminorganizationprojectcertificate_test.go",
+    "adminorganizationprojectdataretention.go",
+    "adminorganizationprojectdataretention_test.go",
+    "adminorganizationprojectgroup.go",
+    "adminorganizationprojectgroup_test.go",
+    "adminorganizationprojectgrouprole.go",
+    "adminorganizationprojectgrouprole_test.go",
+    "adminorganizationprojecthostedtoolpermission.go",
+    "adminorganizationprojecthostedtoolpermission_test.go",
+    "adminorganizationprojectmodelpermission.go",
+    "adminorganizationprojectmodelpermission_test.go",
+    "adminorganizationprojectratelimit.go",
+    "adminorganizationprojectratelimit_test.go",
+    "adminorganizationprojectrole.go",
+    "adminorganizationprojectrole_test.go",
+    "adminorganizationprojectserviceaccount.go",
+    "adminorganizationprojectserviceaccount_test.go",
+    "adminorganizationprojectserviceaccountapikey.go",
+    "adminorganizationprojectserviceaccountapikey_test.go",
+    "adminorganizationprojectspendalert.go",
+    "adminorganizationprojectspendalert_test.go",
+    "adminorganizationprojectspendlimit.go",
+    "adminorganizationprojectspendlimit_test.go",
+    "adminorganizationprojectuser.go",
+    "adminorganizationprojectuser_test.go",
+    "adminorganizationprojectuserrole.go",
+    "adminorganizationprojectuserrole_test.go",
+    "adminorganizationrole.go",
+    "adminorganizationrole_test.go",
+    "adminorganizationspendalert.go",
+    "adminorganizationspendalert_test.go",
+    "adminorganizationspendlimit.go",
+    "adminorganizationspendlimit_test.go",
+    "adminorganizationusage.go",
+    "adminorganizationusage_test.go",
+    "adminorganizationuser.go",
+    "adminorganizationuser_test.go",
+    "adminorganizationuserrole.go",
+    "adminorganizationuserrole_test.go",
+    "agent_session_environment_reset_test.go",
+    "agents_contract_test.go",
+    "agents_environment_token_page_test.go",
+    "agents_helpers_example_test.go",
+    "agents_helpers_test.go",
+    "agents_message.go",
+    "agents_prewarmed_contract_test.go",
+    "agents_spend_control_contract_test.go",
+    "agents_stream.go",
+    "agents_tools.go",
+    "agents_vault_clearing_contract_test.go",
+    "aliases.go",
+    "api.md",
+    "api_reference",
+    "apierror_security_test.go",
+    "audio.go",
+    "audiospeech.go",
+    "audiospeech_test.go",
+    "audiotranscription.go",
+    "audiotranscription_test.go",
+    "audiotranslation.go",
+    "audiotranslation_test.go",
+    "audiovoice.go",
+    "audiovoice_decode_test.go",
+    "audiovoice_metadata_test.go",
+    "audiovoice_test.go",
+    "auth",
+    "auth_test.go",
+    "azure",
+    "batch.go",
+    "batch_test.go",
+    "bedrock",
+    "beta.go",
+    "beta_agent_turn_items_pagination_test.go",
+    "beta_agents_creation_stream.go",
+    "beta_agents_creation_stream_test.go",
+    "beta_agents_files.go",
+    "beta_agents_files_test.go",
+    "beta_agents_output.go",
+    "beta_agents_output_test.go",
+    "beta_agents_result.go",
+    "beta_agents_result_internal_test.go",
+    "beta_agents_result_test.go",
+    "beta_agents_tool_error.go",
+    "betaagent.go",
+    "betaagent_test.go",
+    "betaagentenvironment.go",
+    "betaagentenvironment_request_test.go",
+    "betaagentenvironment_test.go",
+    "betaagentenvironmentfile.go",
+    "betaagentenvironmentfile_test.go",
+    "betaagentenvironmenttemplate.go",
+    "betaagentenvironmenttemplate_test.go",
+    "betaagentsession.go",
+    "betaagentsession_test.go",
+    "betaagentsession_update_serialization_test.go",
+    "betaagentsessionartifact.go",
+    "betaagentsessionartifact_test.go",
+    "betaagentsessionevent.go",
+    "betaagentsessionevent_test.go",
+    "betaagentsessionitem.go",
+    "betaagentsessionitem_test.go",
+    "betaagentsessionsubagent.go",
+    "betaagentsessionsubagent_test.go",
+    "betaagentsessionsubagentitem.go",
+    "betaagentsessionsubagentitem_test.go",
+    "betaagentsessionsubagentturn.go",
+    "betaagentsessionsubagentturn_test.go",
+    "betaagentsessionsubagentturnitem.go",
+    "betaagentsessionsubagentturnitem_test.go",
+    "betaagentsessiontrace.go",
+    "betaagentsessiontrace_test.go",
+    "betaagentsessionturn.go",
+    "betaagentsessionturn_test.go",
+    "betaagentsessionturnitem.go",
+    "betaagentsessionturnitem_test.go",
+    "betaagentvault.go",
+    "betaagentvault_test.go",
+    "betaagentvaultcredential.go",
+    "betaagentvaultcredential_environment_test.go",
+    "betaagentvaultcredential_metadata_test.go",
+    "betaagentvaultcredential_test.go",
+    "betaassistant.go",
+    "betaassistant_test.go",
+    "betachatkit.go",
+    "betachatkitsession.go",
+    "betachatkitsession_test.go",
+    "betachatkitthread.go",
+    "betachatkitthread_test.go",
+    "betaresponse.go",
+    "betaresponse_options_test.go",
+    "betaresponse_stream_event_test.go",
+    "betaresponse_test.go",
+    "betaresponseinputitem.go",
+    "betaresponseinputitem_test.go",
+    "betaresponseinputtoken.go",
+    "betaresponseinputtoken_test.go",
+    "betathread.go",
+    "betathread_test.go",
+    "betathreadmessage.go",
+    "betathreadmessage_test.go",
+    "betathreadrun.go",
+    "betathreadrun_test.go",
+    "betathreadrunstep.go",
+    "betathreadrunstep_test.go",
+    "chat.go",
+    "chat_completion_choice_compatibility_test.go",
+    "chatcompletion.go",
+    "chatcompletion_constructors_test.go",
+    "chatcompletion_helpers.go",
+    "chatcompletion_helpers_test.go",
+    "chatcompletion_test.go",
+    "chatcompletion_unknown_content_test.go",
+    "chatcompletion_unmarshal_test.go",
+    "chatcompletionmessage.go",
+    "chatcompletionmessage_test.go",
+    "client.go",
+    "client_test.go",
+    "compaction_progress_stream_test.go",
+    "completion.go",
+    "completion_test.go",
+    "container.go",
+    "container_test.go",
+    "containerfile.go",
+    "containerfile_test.go",
+    "containerfilecontent.go",
+    "containerfilecontent_test.go",
+    "contentprovenancecheck.go",
+    "contentprovenancecheck_test.go",
+    "conversations",
+    "data_residency_contract_test.go",
+    "debuglog_test.go",
+    "decision.go",
+    "decision_prompt_cache_contract_test.go",
+    "decision_test.go",
+    "default_http_client.go",
+    "deferred_tools_test.go",
+    "docs",
+    "docs/architecture",
+    "embedding.go",
+    "embedding_test.go",
+    "error_diagnostics_transport_test.go",
+    "examples",
+    "external_storage_contract_test.go",
+    "external_storage_oci_contract_test.go",
+    "field.go",
+    "file.go",
+    "file_test.go",
+    "finetuning.go",
+    "finetuningalpha.go",
+    "finetuningalphagrader.go",
+    "finetuningalphagrader_test.go",
+    "finetuningcheckpoint.go",
+    "finetuningcheckpointpermission.go",
+    "finetuningcheckpointpermission_test.go",
+    "finetuningjob.go",
+    "finetuningjob_test.go",
+    "finetuningjobcheckpoint.go",
+    "finetuningjobcheckpoint_test.go",
+    "finetuningmethod.go",
+    "go.mod",
+    "go.sum",
+    "grader.go",
+    "gradergradermodel.go",
+    "image.go",
+    "image_error_transport_test.go",
+    "image_generation_union_test.go",
+    "image_safety_identifier_request_test.go",
+    "image_safety_identifier_transport_test.go",
+    "image_test.go",
+    "internal",
+    "lib",
+    "live",
+    "model.go",
+    "model_test.go",
+    "moderation.go",
+    "moderation_test.go",
+    "multipart_inferred_filename_test.go",
+    "multipart_metadata_test.go",
+    "multipart_scalar_test.go",
+    "option",
+    "packages",
+    "pagination_streaming_body_test.go",
+    "pagination_transport_test.go",
+    "paginationauto_test.go",
+    "paginationmanual_test.go",
+    "pathparam_static_test.go",
+    "pathparam_test.go",
+    "plaintext_endpoint_test.go",
+    "polling.go",
+    "polling_internal_test.go",
+    "polling_test.go",
+    "realtime",
+    "release-please-config.json",
+    "request_origin_helpers_test.go",
+    "responses",
+    "retry_delay_test.go",
+    "safety.go",
+    "safety_cases_contract_test.go",
+    "safetyalert.go",
+    "safetyalert_test.go",
+    "safetycase.go",
+    "safetycase_test.go",
+    "scripts",
+    "shared",
+    "skill.go",
+    "skill_test.go",
+    "skillcontent.go",
+    "skillcontent_test.go",
+    "skillversion.go",
+    "skillversion_test.go",
+    "skillversioncontent.go",
+    "skillversioncontent_test.go",
+    "streamaccumulator.go",
+    "streamaccumulator_compatibility_test.go",
+    "streamaccumulator_copy_test.go",
+    "streamaccumulator_index_test.go",
+    "streamaccumulator_lifetime_test.go",
+    "streamaccumulator_limits.go",
+    "streamaccumulator_limits_test.go",
+    "streamaccumulator_logprob.go",
+    "streamaccumulator_logprob_test.go",
+    "streamaccumulator_ownership.go",
+    "streamaccumulator_reconciliation.go",
+    "streamaccumulator_reconciliation_test.go",
+    "streamaccumulator_state_test.go",
+    "streamaccumulator_storage_test.go",
+    "streamaccumulator_test.go",
+    "tools",
+    "unknown_union_list_root.go",
+    "unknown_union_list_root_test.go",
+    "upload.go",
+    "upload_test.go",
+    "uploadpart.go",
+    "uploadpart_test.go",
+    "usage_test.go",
+    "vectorstore.go",
+    "vectorstore_test.go",
+    "vectorstorefile.go",
+    "vectorstorefile_helpers.go",
+    "vectorstorefile_helpers_test.go",
+    "vectorstorefile_test.go",
+    "vectorstorefilebatch.go",
+    "vectorstorefilebatch_helpers.go",
+    "vectorstorefilebatch_helpers_test.go",
+    "vectorstorefilebatch_test.go",
+    "video.go",
+    "video_test.go",
+    "webhooks",
+    "workload_identity_hardening_test.go",
+    "x509_transport_conformance_test.go",
+    "x509_websocket_integration_test.go",
+    "x509_workload_identity_integration_test.go",
+    "x509_workload_identity_lifecycle_test.go",
+    "x509_workload_identity_nobody_pagination_test.go",
+    "x509_workload_identity_nobody_test.go",
+    "x509_workload_identity_provider_replay_test.go",
+    "x509_workload_identity_response_test.go"
+  ],
+  "workflow_paths": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/create-releases.yml",
+    ".github/workflows/castiron-custom-code-comment.yml",
+    ".github/workflows/castiron-custom-code.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/detect-breaking-changes.yml",
+    ".github/workflows/go-version-review.yml"
+  ],
+  "documents": [
+    {
+      "path": ".release-please-manifest.json",
+      "sha": "c36ba298d8bf88dc752d724a83b88dcf270239b6",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/.release-please-manifest.json",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "AGENTS.md",
+      "sha": "c805ddbec0b087ca60acd608076861ca596f5aac",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/AGENTS.md",
+      "lines": 211,
+      "signals": {
+        "tests": [
+          180,
+          181,
+          182
+        ],
+        "lint": [],
+        "generated_code": [
+          6,
+          40,
+          48,
+          72
+        ],
+        "release_automation": [
+          120
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          54
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "3e2ba80fd6b2f87b463ac8b0cb26103dfffa132e",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/CHANGELOG.md",
+      "lines": 2086,
+      "signals": {
+        "tests": [],
+        "lint": [
+          547
+        ],
+        "generated_code": [
+          548,
+          716,
+          726,
+          753,
+          980,
+          981,
+          982,
+          983,
+          1012,
+          1013,
+          1152,
+          1171
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "16cf95af0e65cde717b13789ed4d6dd612a25277",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/CONTRIBUTING.md",
+      "lines": 173,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          44,
+          87,
+          95
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          14,
+          15,
+          99
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "298b7e6685a32ccd25daefc967623e935b6e3f9b",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/README.md",
+      "lines": 1727,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          3,
+          7,
+          18,
+          26,
+          30,
+          36
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1727
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [
+          5
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          977,
+          988
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "d6c92aa0cbdae3e50f6a73ee77af58a2b5697dae",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/SECURITY.md",
+      "lines": 45,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          3,
+          8
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "agents_contract_test.go",
+      "sha": "57d08da9557887728d52f74b454e7429b268003d",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/agents_contract_test.go",
+      "lines": 122,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "agents_environment_token_page_test.go",
+      "sha": "c375cc4c65624dc9791ad4562fdf7f3b2b3f7ef7",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/agents_environment_token_page_test.go",
+      "lines": 72,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "agents_helpers_example_test.go",
+      "sha": "fe50d923d6ccef5059fce161e965039d11e5ba23",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/agents_helpers_example_test.go",
+      "lines": 59,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "agents_helpers_test.go",
+      "sha": "001bfc6da067a78ae120461c6bbd5c903ff285a1",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/agents_helpers_test.go",
+      "lines": 638,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "agents_message.go",
+      "sha": "b1849eedef8a21d437dbe6f43c17984a8e038fa7",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/agents_message.go",
+      "lines": 15,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "agents_prewarmed_contract_test.go",
+      "sha": "d92d06faed5b51d35d579ad44447812e7d7ae96f",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/agents_prewarmed_contract_test.go",
+      "lines": 54,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "agents_spend_control_contract_test.go",
+      "sha": "e71f304f8cf1f8706709111c1d75f2c6ccfac616",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/agents_spend_control_contract_test.go",
+      "lines": 94,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "agents_stream.go",
+      "sha": "4cea97255c240716dda264e7cdb09566c58003eb",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/agents_stream.go",
+      "lines": 328,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "agents_tools.go",
+      "sha": "7162b2180690a402c11bf3b8b60a43055b606a5c",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/agents_tools.go",
+      "lines": 79,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "agents_vault_clearing_contract_test.go",
+      "sha": "9f310dbdb7018db529f1fab849bc802b22e9b46e",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/agents_vault_clearing_contract_test.go",
+      "lines": 56,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "go.mod",
+      "sha": "6bb049240e6095cb4f8332e8715751147d1678c6",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/go.mod",
+      "lines": 41,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "release-please-config.json",
+      "sha": "7c4b0b060fda973b49b0629c93bb1483e454ca0f",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/release-please-config.json",
+      "lines": 65,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          5
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha": "0dab85bee2357b9a9611f095e63dd019c4f93a47",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/.github/CODEOWNERS",
+      "lines": 15,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "6d2464edca4f34e5b1d4d9615c601a74341314e1",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/.github/dependabot.yml",
+      "lines": 75,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "91bcdd82767ca48cebc385fa9ac6ad7c86921e9f",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/.github/workflows/ci.yml",
+      "lines": 243,
+      "signals": {
+        "tests": [
+          5,
+          172,
+          180
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          10
+        ],
+        "permissions": [
+          26
+        ],
+        "pinned_actions": [
+          55,
+          61,
+          84,
+          147,
+          152,
+          196,
+          201
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/create-releases.yml",
+      "sha": "2175d20c88382a0012a59bb6465e0ba4452681db",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/.github/workflows/create-releases.yml",
+      "lines": 57,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          30,
+          35,
+          36,
+          53
+        ],
+        "permissions": [
+          7,
+          15,
+          26,
+          43
+        ],
+        "pinned_actions": [
+          22,
+          30,
+          47
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/castiron-custom-code-comment.yml",
+      "sha": "43f3a1da2adab96f2f0bc4acc3d16f6ba60336f8",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/.github/workflows/castiron-custom-code-comment.yml",
+      "lines": 304,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9,
+          22,
+          128,
+          244
+        ],
+        "pinned_actions": [
+          40,
+          73,
+          115,
+          136,
+          250,
+          257,
+          283
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/castiron-custom-code.yml",
+      "sha": "0fb4c3c759d0ea1387be7e5d1eb5b69df48258b5",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/.github/workflows/castiron-custom-code.yml",
+      "lines": 96,
+      "signals": {
+        "tests": [
+          60
+        ],
+        "lint": [],
+        "generated_code": [
+          62
+        ],
+        "release_automation": [],
+        "permissions": [
+          11,
+          26
+        ],
+        "pinned_actions": [
+          50,
+          91
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "sha": "7e238f4087c35e500ac16a141af2278f8321211f",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/.github/workflows/codeql.yml",
+      "lines": 72,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          19,
+          27,
+          63
+        ],
+        "pinned_actions": [
+          42,
+          47,
+          53
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/detect-breaking-changes.yml",
+      "sha": "d6f64a74aef9e10ca90f70446a4bfeeed9d0d0d2",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/.github/workflows/detect-breaking-changes.yml",
+      "lines": 50,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          20
+        ],
+        "pinned_actions": [
+          29,
+          36
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/go-version-review.yml",
+      "sha": "a351ffdb5fae5ba2f2bcd8d0ad5796a9aa8b3413",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-go/blob/d417996c970cd28e7e2cdc3ae11438c4425160c7/.github/workflows/go-version-review.yml",
+      "lines": 411,
+      "signals": {
+        "tests": [
+          130,
+          131,
+          312,
+          313
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          16,
+          200,
+          201,
+          394
+        ],
+        "pinned_actions": [
+          47,
+          75,
+          143,
+          183,
+          205,
+          211,
+          220,
+          226
+        ],
+        "conventional_commits": [
+          363,
+          383
+        ],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 1084,
+      "title": "chore(api): add Assistants model shutdown notices",
+      "url": "https://github.com/openai/openai-go/pull/1084",
+      "merged_at": "2026-10-17T06:11:38Z",
+      "merge_commit_sha": "d417996c970cd28e7e2cdc3ae11438c4425160c7",
+      "files": [
+        ".castiron.stats.yml",
+        "api_reference/openapi.transformed.yml",
+        "betaassistant.go",
+        "scripts/castiron/generated-files.json"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".castiron.stats.yml",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 6,
+          "blob_url": "https://github.com/openai/openai-go/blob/17a77d70b699793df6a75742792cc211de04ee34/.castiron.stats.yml"
+        },
+        {
+          "filename": "api_reference/openapi.transformed.yml",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-go/blob/17a77d70b699793df6a75742792cc211de04ee34/api_reference%2Fopenapi.transformed.yml"
+        },
+        {
+          "filename": "betaassistant.go",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 20,
+          "blob_url": "https://github.com/openai/openai-go/blob/17a77d70b699793df6a75742792cc211de04ee34/betaassistant.go"
+        },
+        {
+          "filename": "scripts/castiron/generated-files.json",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-go/blob/17a77d70b699793df6a75742792cc211de04ee34/scripts%2Fcastiron%2Fgenerated-files.json"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "APPROVED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39025090846,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39025090846",
+          "head_sha": "d417996c970cd28e7e2cdc3ae11438c4425160c7"
+        },
+        {
+          "id": 39012957250,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39012957250",
+          "head_sha": "d417996c970cd28e7e2cdc3ae11438c4425160c7"
+        },
+        {
+          "id": 39012606399,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39012606399",
+          "head_sha": "d417996c970cd28e7e2cdc3ae11438c4425160c7"
+        },
+        {
+          "id": 39012582373,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39012582373",
+          "head_sha": "d417996c970cd28e7e2cdc3ae11438c4425160c7"
+        },
+        {
+          "id": 39012413894,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39012413894",
+          "head_sha": "d417996c970cd28e7e2cdc3ae11438c4425160c7"
+        },
+        {
+          "id": 39012384418,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39012384418",
+          "head_sha": "d417996c970cd28e7e2cdc3ae11438c4425160c7"
+        },
+        {
+          "id": 39011042363,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39011042363",
+          "head_sha": "d417996c970cd28e7e2cdc3ae11438c4425160c7"
+        },
+        {
+          "id": 39009090872,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39009090872",
+          "head_sha": "d417996c970cd28e7e2cdc3ae11438c4425160c7"
+        },
+        {
+          "id": 39009064433,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39009064433",
+          "head_sha": "d417996c970cd28e7e2cdc3ae11438c4425160c7"
+        },
+        {
+          "id": 39009000221,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39009000221",
+          "head_sha": "d417996c970cd28e7e2cdc3ae11438c4425160c7"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39007974781,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39007974781",
+          "head_sha": "17a77d70b699793df6a75742792cc211de04ee34"
+        },
+        {
+          "id": 39007702284,
+          "name": "CI",
+          "path": ".github/workflows/detect-breaking-changes.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39007702284",
+          "head_sha": "17a77d70b699793df6a75742792cc211de04ee34"
+        },
+        {
+          "id": 39007702256,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39007702256",
+          "head_sha": "17a77d70b699793df6a75742792cc211de04ee34"
+        },
+        {
+          "id": 39007702239,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39007702239",
+          "head_sha": "17a77d70b699793df6a75742792cc211de04ee34"
+        },
+        {
+          "id": 39007702254,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39007702254",
+          "head_sha": "17a77d70b699793df6a75742792cc211de04ee34"
+        },
+        {
+          "id": 39007700940,
+          "name": "Code Quality: PR #1084",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39007700940",
+          "head_sha": "17a77d70b699793df6a75742792cc211de04ee34"
+        }
+      ]
+    },
+    {
+      "number": 1082,
+      "title": "chore(api): add shutdown notices for GPT-4 model aliases",
+      "url": "https://github.com/openai/openai-go/pull/1082",
+      "merged_at": "2026-10-17T05:04:19Z",
+      "merge_commit_sha": "cbaf5991a056186314e104f90d73fe0ed034f85b",
+      "files": [
+        ".castiron.stats.yml",
+        "README.md",
+        "aliases.go",
+        "api_reference/openapi.transformed.yml",
+        "auth_test.go",
+        "betaassistant_test.go",
+        "betaresponse.go",
+        "betathread_test.go",
+        "betathreadrun_test.go",
+        "client_test.go",
+        "conversations/aliases.go",
+        "examples/chat-completion-accumulating/main.go",
+        "examples/chat-completion-streaming-tool-calling/main.go",
+        "examples/chat-completion-streaming/main.go",
+        "examples/chat-completion-tool-calling/main.go",
+        "examples/chat-completion/main.go",
+        "examples/responses-streaming/main.go",
+        "examples/responses-websocket/main.go",
+        "examples/responses/main.go",
+        "internal/testdata/consumer/consumer_test.go",
+        "live/aliases.go",
+        "realtime/aliases.go",
+        "responses/aliases.go",
+        "responses/response.go",
+        "retry_delay_test.go",
+        "scripts/castiron/generated-files.json",
+        "shared/shared.go",
+        "usage_test.go",
+        "webhooks/aliases.go"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".castiron.stats.yml",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 6,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/.castiron.stats.yml"
+        },
+        {
+          "filename": "README.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/README.md"
+        },
+        {
+          "filename": "aliases.go",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/aliases.go"
+        },
+        {
+          "filename": "api_reference/openapi.transformed.yml",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/api_reference%2Fopenapi.transformed.yml"
+        },
+        {
+          "filename": "auth_test.go",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 5,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/auth_test.go"
+        },
+        {
+          "filename": "betaassistant_test.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/betaassistant_test.go"
+        },
+        {
+          "filename": "betaresponse.go",
+          "status": "modified",
+          "additions": 48,
+          "deletions": 12,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/betaresponse.go"
+        },
+        {
+          "filename": "betathread_test.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/betathread_test.go"
+        },
+        {
+          "filename": "betathreadrun_test.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/betathreadrun_test.go"
+        },
+        {
+          "filename": "client_test.go",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 8,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/client_test.go"
+        },
+        {
+          "filename": "conversations/aliases.go",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/conversations%2Faliases.go"
+        },
+        {
+          "filename": "examples/chat-completion-accumulating/main.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/examples%2Fchat-completion-accumulating%2Fmain.go"
+        },
+        {
+          "filename": "examples/chat-completion-streaming-tool-calling/main.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/examples%2Fchat-completion-streaming-tool-calling%2Fmain.go"
+        },
+        {
+          "filename": "examples/chat-completion-streaming/main.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/examples%2Fchat-completion-streaming%2Fmain.go"
+        },
+        {
+          "filename": "examples/chat-completion-tool-calling/main.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/examples%2Fchat-completion-tool-calling%2Fmain.go"
+        },
+        {
+          "filename": "examples/chat-completion/main.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/examples%2Fchat-completion%2Fmain.go"
+        },
+        {
+          "filename": "examples/responses-streaming/main.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/examples%2Fresponses-streaming%2Fmain.go"
+        },
+        {
+          "filename": "examples/responses-websocket/main.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/examples%2Fresponses-websocket%2Fmain.go"
+        },
+        {
+          "filename": "examples/responses/main.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/examples%2Fresponses%2Fmain.go"
+        },
+        {
+          "filename": "internal/testdata/consumer/consumer_test.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/internal%2Ftestdata%2Fconsumer%2Fconsumer_test.go"
+        },
+        {
+          "filename": "live/aliases.go",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/live%2Faliases.go"
+        },
+        {
+          "filename": "realtime/aliases.go",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/realtime%2Faliases.go"
+        },
+        {
+          "filename": "responses/aliases.go",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/responses%2Faliases.go"
+        },
+        {
+          "filename": "responses/response.go",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 4,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/responses%2Fresponse.go"
+        },
+        {
+          "filename": "retry_delay_test.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/retry_delay_test.go"
+        },
+        {
+          "filename": "scripts/castiron/generated-files.json",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 14,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/scripts%2Fcastiron%2Fgenerated-files.json"
+        },
+        {
+          "filename": "shared/shared.go",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 4,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/shared%2Fshared.go"
+        },
+        {
+          "filename": "usage_test.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/usage_test.go"
+        },
+        {
+          "filename": "webhooks/aliases.go",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-go/blob/a6e63acad7e816d4f61245873f38b75cefff890f/webhooks%2Faliases.go"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "APPROVED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39008798706,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39008798706",
+          "head_sha": "cbaf5991a056186314e104f90d73fe0ed034f85b"
+        },
+        {
+          "id": 39007999672,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39007999672",
+          "head_sha": "cbaf5991a056186314e104f90d73fe0ed034f85b"
+        },
+        {
+          "id": 39007729937,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39007729937",
+          "head_sha": "cbaf5991a056186314e104f90d73fe0ed034f85b"
+        },
+        {
+          "id": 39006605781,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39006605781",
+          "head_sha": "cbaf5991a056186314e104f90d73fe0ed034f85b"
+        },
+        {
+          "id": 39005832739,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39005832739",
+          "head_sha": "cbaf5991a056186314e104f90d73fe0ed034f85b"
+        },
+        {
+          "id": 39005806947,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39005806947",
+          "head_sha": "cbaf5991a056186314e104f90d73fe0ed034f85b"
+        },
+        {
+          "id": 39005497827,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39005497827",
+          "head_sha": "cbaf5991a056186314e104f90d73fe0ed034f85b"
+        },
+        {
+          "id": 39005468303,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39005468303",
+          "head_sha": "cbaf5991a056186314e104f90d73fe0ed034f85b"
+        },
+        {
+          "id": 39005181995,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39005181995",
+          "head_sha": "cbaf5991a056186314e104f90d73fe0ed034f85b"
+        },
+        {
+          "id": 39005155874,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39005155874",
+          "head_sha": "cbaf5991a056186314e104f90d73fe0ed034f85b"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39004333227,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39004333227",
+          "head_sha": "a6e63acad7e816d4f61245873f38b75cefff890f"
+        },
+        {
+          "id": 39004333200,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39004333200",
+          "head_sha": "a6e63acad7e816d4f61245873f38b75cefff890f"
+        },
+        {
+          "id": 39004300752,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39004300752",
+          "head_sha": "a6e63acad7e816d4f61245873f38b75cefff890f"
+        },
+        {
+          "id": 39004300742,
+          "name": "CI",
+          "path": ".github/workflows/detect-breaking-changes.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39004300742",
+          "head_sha": "a6e63acad7e816d4f61245873f38b75cefff890f"
+        },
+        {
+          "id": 39004300768,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39004300768",
+          "head_sha": "a6e63acad7e816d4f61245873f38b75cefff890f"
+        },
+        {
+          "id": 39004300818,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39004300818",
+          "head_sha": "a6e63acad7e816d4f61245873f38b75cefff890f"
+        },
+        {
+          "id": 39004299968,
+          "name": "Code Quality: PR #1082",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39004299968",
+          "head_sha": "a6e63acad7e816d4f61245873f38b75cefff890f"
+        }
+      ]
+    },
+    {
+      "number": 1071,
+      "title": "chore(api): clarify the Live startup history token limit",
+      "url": "https://github.com/openai/openai-go/pull/1071",
+      "merged_at": "2026-10-17T02:53:08Z",
+      "merge_commit_sha": "b50536cfe66964cd0a168235e184799504509b68",
+      "files": [
+        ".castiron.stats.yml",
+        "api_reference/openapi.transformed.yml",
+        "live/live.go",
+        "live/session.go",
+        "scripts/castiron/custom_code_budget.py",
+        "scripts/castiron/generated-files.json",
+        "scripts/castiron/test_custom_code_report.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".castiron.stats.yml",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 7,
+          "blob_url": "https://github.com/openai/openai-go/blob/a217d315b90d91ab8f2ea44d090450d90af47ab5/.castiron.stats.yml"
+        },
+        {
+          "filename": "api_reference/openapi.transformed.yml",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-go/blob/a217d315b90d91ab8f2ea44d090450d90af47ab5/api_reference%2Fopenapi.transformed.yml"
+        },
+        {
+          "filename": "live/live.go",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 6,
+          "blob_url": "https://github.com/openai/openai-go/blob/a217d315b90d91ab8f2ea44d090450d90af47ab5/live%2Flive.go"
+        },
+        {
+          "filename": "live/session.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-go/blob/a217d315b90d91ab8f2ea44d090450d90af47ab5/live%2Fsession.go"
+        },
+        {
+          "filename": "scripts/castiron/custom_code_budget.py",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 5,
+          "blob_url": "https://github.com/openai/openai-go/blob/a217d315b90d91ab8f2ea44d090450d90af47ab5/scripts%2Fcastiron%2Fcustom_code_budget.py"
+        },
+        {
+          "filename": "scripts/castiron/generated-files.json",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 11,
+          "blob_url": "https://github.com/openai/openai-go/blob/a217d315b90d91ab8f2ea44d090450d90af47ab5/scripts%2Fcastiron%2Fgenerated-files.json"
+        },
+        {
+          "filename": "scripts/castiron/test_custom_code_report.py",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-go/blob/a217d315b90d91ab8f2ea44d090450d90af47ab5/scripts%2Fcastiron%2Ftest_custom_code_report.py"
+        }
+      ],
+      "review_states": [
+        "APPROVED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39004628662,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39004628662",
+          "head_sha": "b50536cfe66964cd0a168235e184799504509b68"
+        },
+        {
+          "id": 39004583092,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39004583092",
+          "head_sha": "b50536cfe66964cd0a168235e184799504509b68"
+        },
+        {
+          "id": 39004365765,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39004365765",
+          "head_sha": "b50536cfe66964cd0a168235e184799504509b68"
+        },
+        {
+          "id": 39004332509,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39004332509",
+          "head_sha": "b50536cfe66964cd0a168235e184799504509b68"
+        },
+        {
+          "id": 39004237126,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39004237126",
+          "head_sha": "b50536cfe66964cd0a168235e184799504509b68"
+        },
+        {
+          "id": 39003512810,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39003512810",
+          "head_sha": "b50536cfe66964cd0a168235e184799504509b68"
+        },
+        {
+          "id": 39003127083,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39003127083",
+          "head_sha": "b50536cfe66964cd0a168235e184799504509b68"
+        },
+        {
+          "id": 39002914235,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39002914235",
+          "head_sha": "b50536cfe66964cd0a168235e184799504509b68"
+        },
+        {
+          "id": 39001460571,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39001460571",
+          "head_sha": "b50536cfe66964cd0a168235e184799504509b68"
+        },
+        {
+          "id": 39001437605,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/39001437605",
+          "head_sha": "b50536cfe66964cd0a168235e184799504509b68"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38996944676,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38996944676",
+          "head_sha": "a217d315b90d91ab8f2ea44d090450d90af47ab5"
+        },
+        {
+          "id": 38996944763,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38996944763",
+          "head_sha": "a217d315b90d91ab8f2ea44d090450d90af47ab5"
+        },
+        {
+          "id": 38995736495,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38995736495",
+          "head_sha": "a217d315b90d91ab8f2ea44d090450d90af47ab5"
+        },
+        {
+          "id": 38995680339,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38995680339",
+          "head_sha": "a217d315b90d91ab8f2ea44d090450d90af47ab5"
+        },
+        {
+          "id": 38995680180,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38995680180",
+          "head_sha": "a217d315b90d91ab8f2ea44d090450d90af47ab5"
+        },
+        {
+          "id": 38995680188,
+          "name": "CI",
+          "path": ".github/workflows/detect-breaking-changes.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38995680188",
+          "head_sha": "a217d315b90d91ab8f2ea44d090450d90af47ab5"
+        },
+        {
+          "id": 38995680186,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38995680186",
+          "head_sha": "a217d315b90d91ab8f2ea44d090450d90af47ab5"
+        },
+        {
+          "id": 38995678955,
+          "name": "Code Quality: PR #1071",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38995678955",
+          "head_sha": "a217d315b90d91ab8f2ea44d090450d90af47ab5"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v3.79.0",
+      "url": "https://github.com/openai/openai-go/releases/tag/v3.79.0",
+      "published_at": "2026-10-16T23:23:16Z",
+      "target_commitish": "2cdebd8de09a0b5931eb2fa84c2a6217ed18fa51",
+      "commit_sha": "2cdebd8de09a0b5931eb2fa84c2a6217ed18fa51",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38984177678,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38984177678",
+          "head_sha": "2cdebd8de09a0b5931eb2fa84c2a6217ed18fa51"
+        },
+        {
+          "id": 38982933012,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38982933012",
+          "head_sha": "2cdebd8de09a0b5931eb2fa84c2a6217ed18fa51"
+        },
+        {
+          "id": 38982857830,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38982857830",
+          "head_sha": "2cdebd8de09a0b5931eb2fa84c2a6217ed18fa51"
+        },
+        {
+          "id": 38981137952,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38981137952",
+          "head_sha": "2cdebd8de09a0b5931eb2fa84c2a6217ed18fa51"
+        },
+        {
+          "id": 38981137816,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38981137816",
+          "head_sha": "2cdebd8de09a0b5931eb2fa84c2a6217ed18fa51"
+        },
+        {
+          "id": 38981137959,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38981137959",
+          "head_sha": "2cdebd8de09a0b5931eb2fa84c2a6217ed18fa51"
+        },
+        {
+          "id": 38981137123,
+          "name": "Code Quality: Push on main",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38981137123",
+          "head_sha": "2cdebd8de09a0b5931eb2fa84c2a6217ed18fa51"
+        },
+        {
+          "id": 38980834093,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38980834093",
+          "head_sha": "2cdebd8de09a0b5931eb2fa84c2a6217ed18fa51"
+        },
+        {
+          "id": 38980834048,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38980834048",
+          "head_sha": "2cdebd8de09a0b5931eb2fa84c2a6217ed18fa51"
+        },
+        {
+          "id": 38980834096,
+          "name": "CI",
+          "path": ".github/workflows/detect-breaking-changes.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38980834096",
+          "head_sha": "2cdebd8de09a0b5931eb2fa84c2a6217ed18fa51"
+        }
+      ]
+    },
+    {
+      "tag": "v3.78.0",
+      "url": "https://github.com/openai/openai-go/releases/tag/v3.78.0",
+      "published_at": "2026-10-13T18:38:42Z",
+      "target_commitish": "d78ccb75ac6cda34212d23ce87a261633629582a",
+      "commit_sha": "d78ccb75ac6cda34212d23ce87a261633629582a",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38459249516,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38459249516",
+          "head_sha": "d78ccb75ac6cda34212d23ce87a261633629582a"
+        },
+        {
+          "id": 38448384820,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38448384820",
+          "head_sha": "d78ccb75ac6cda34212d23ce87a261633629582a"
+        },
+        {
+          "id": 38448384759,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38448384759",
+          "head_sha": "d78ccb75ac6cda34212d23ce87a261633629582a"
+        },
+        {
+          "id": 38448384733,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38448384733",
+          "head_sha": "d78ccb75ac6cda34212d23ce87a261633629582a"
+        },
+        {
+          "id": 38448383741,
+          "name": "Code Quality: Push on main",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38448383741",
+          "head_sha": "d78ccb75ac6cda34212d23ce87a261633629582a"
+        },
+        {
+          "id": 38447867295,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38447867295",
+          "head_sha": "d78ccb75ac6cda34212d23ce87a261633629582a"
+        },
+        {
+          "id": 38447867334,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38447867334",
+          "head_sha": "d78ccb75ac6cda34212d23ce87a261633629582a"
+        },
+        {
+          "id": 38447867431,
+          "name": "CI",
+          "path": ".github/workflows/detect-breaking-changes.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38447867431",
+          "head_sha": "d78ccb75ac6cda34212d23ce87a261633629582a"
+        },
+        {
+          "id": 38447867292,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38447867292",
+          "head_sha": "d78ccb75ac6cda34212d23ce87a261633629582a"
+        }
+      ]
+    },
+    {
+      "tag": "v3.77.0",
+      "url": "https://github.com/openai/openai-go/releases/tag/v3.77.0",
+      "published_at": "2026-10-12T05:27:15Z",
+      "target_commitish": "98ea7997e1827da8365d0aa751683c3380cfc56d",
+      "commit_sha": "98ea7997e1827da8365d0aa751683c3380cfc56d",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38337269302,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38337269302",
+          "head_sha": "98ea7997e1827da8365d0aa751683c3380cfc56d"
+        },
+        {
+          "id": 38336659147,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38336659147",
+          "head_sha": "98ea7997e1827da8365d0aa751683c3380cfc56d"
+        },
+        {
+          "id": 38336654377,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38336654377",
+          "head_sha": "98ea7997e1827da8365d0aa751683c3380cfc56d"
+        },
+        {
+          "id": 38336551074,
+          "name": "go_modules in /., /examples, /internal/testdata/consumer - Update #1623984982",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38336551074",
+          "head_sha": "98ea7997e1827da8365d0aa751683c3380cfc56d"
+        },
+        {
+          "id": 38335736323,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38335736323",
+          "head_sha": "98ea7997e1827da8365d0aa751683c3380cfc56d"
+        },
+        {
+          "id": 38335579179,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38335579179",
+          "head_sha": "98ea7997e1827da8365d0aa751683c3380cfc56d"
+        },
+        {
+          "id": 38331358119,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38331358119",
+          "head_sha": "98ea7997e1827da8365d0aa751683c3380cfc56d"
+        },
+        {
+          "id": 38312248749,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38312248749",
+          "head_sha": "98ea7997e1827da8365d0aa751683c3380cfc56d"
+        },
+        {
+          "id": 38307510301,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38307510301",
+          "head_sha": "98ea7997e1827da8365d0aa751683c3380cfc56d"
+        },
+        {
+          "id": 38304276118,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-go/actions/runs/38304276118",
+          "head_sha": "98ea7997e1827da8365d0aa751683c3380cfc56d"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v3.79.0",
+      "sha": "2cdebd8de09a0b5931eb2fa84c2a6217ed18fa51"
+    },
+    {
+      "name": "v3.78.0",
+      "sha": "d78ccb75ac6cda34212d23ce87a261633629582a"
+    },
+    {
+      "name": "v3.77.0",
+      "sha": "98ea7997e1827da8365d0aa751683c3380cfc56d"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:16:41.257821+00:00",
+  "source_times": {
+    "/repos/openai/openai-go": "2026-10-17T16:03:36.968964+00:00",
+    "/repos/openai/openai-go/commits?sha=main&per_page=20": "2026-10-17T16:03:40.466332+00:00",
+    "/repos/openai/openai-go/git/trees/d417996c970cd28e7e2cdc3ae11438c4425160c7": "2026-10-17T16:03:42.310551+00:00",
+    "/repos/openai/openai-go/git/trees/28aac7b1aa2c1f8863aa4366be70caea7a8676fe": "2026-10-17T16:03:44.707808+00:00",
+    "/repos/openai/openai-go/git/trees/bb97fb90b4bd15f9d0035987806c1724b31d99b5": "2026-10-17T16:03:47.749469+00:00",
+    "/repos/openai/openai-go/git/trees/7101b2a294a98aaf5e78f64cc00707a0c6a05815": "2026-10-17T16:03:50.642612+00:00",
+    "/repos/openai/openai-go/git/blobs/c36ba298d8bf88dc752d724a83b88dcf270239b6": "2026-10-17T16:03:53.592187+00:00",
+    "/repos/openai/openai-go/git/blobs/c805ddbec0b087ca60acd608076861ca596f5aac": "2026-10-17T16:03:55.132148+00:00",
+    "/repos/openai/openai-go/git/blobs/3e2ba80fd6b2f87b463ac8b0cb26103dfffa132e": "2026-10-17T16:03:57.221622+00:00",
+    "/repos/openai/openai-go/git/blobs/16cf95af0e65cde717b13789ed4d6dd612a25277": "2026-10-17T16:03:58.684513+00:00",
+    "/repos/openai/openai-go/git/blobs/298b7e6685a32ccd25daefc967623e935b6e3f9b": "2026-10-17T16:04:00.560126+00:00",
+    "/repos/openai/openai-go/git/blobs/d6c92aa0cbdae3e50f6a73ee77af58a2b5697dae": "2026-10-17T16:04:02.876166+00:00",
+    "/repos/openai/openai-go/git/blobs/57d08da9557887728d52f74b454e7429b268003d": "2026-10-17T16:04:04.293546+00:00",
+    "/repos/openai/openai-go/git/blobs/c375cc4c65624dc9791ad4562fdf7f3b2b3f7ef7": "2026-10-17T16:04:05.701669+00:00",
+    "/repos/openai/openai-go/git/blobs/fe50d923d6ccef5059fce161e965039d11e5ba23": "2026-10-17T16:04:07.120553+00:00",
+    "/repos/openai/openai-go/git/blobs/001bfc6da067a78ae120461c6bbd5c903ff285a1": "2026-10-17T16:04:08.862532+00:00",
+    "/repos/openai/openai-go/git/blobs/b1849eedef8a21d437dbe6f43c17984a8e038fa7": "2026-10-17T16:04:10.358533+00:00",
+    "/repos/openai/openai-go/git/blobs/d92d06faed5b51d35d579ad44447812e7d7ae96f": "2026-10-17T16:04:11.853415+00:00",
+    "/repos/openai/openai-go/git/blobs/e71f304f8cf1f8706709111c1d75f2c6ccfac616": "2026-10-17T16:04:14.823238+00:00",
+    "/repos/openai/openai-go/git/blobs/4cea97255c240716dda264e7cdb09566c58003eb": "2026-10-17T16:04:16.510423+00:00",
+    "/repos/openai/openai-go/git/blobs/7162b2180690a402c11bf3b8b60a43055b606a5c": "2026-10-17T16:04:18.017111+00:00",
+    "/repos/openai/openai-go/git/blobs/9f310dbdb7018db529f1fab849bc802b22e9b46e": "2026-10-17T16:04:19.417325+00:00",
+    "/repos/openai/openai-go/git/blobs/6bb049240e6095cb4f8332e8715751147d1678c6": "2026-10-17T16:04:20.797857+00:00",
+    "/repos/openai/openai-go/git/blobs/7c4b0b060fda973b49b0629c93bb1483e454ca0f": "2026-10-17T16:04:22.156187+00:00",
+    "/repos/openai/openai-go/git/blobs/0dab85bee2357b9a9611f095e63dd019c4f93a47": "2026-10-17T16:04:24.338820+00:00",
+    "/repos/openai/openai-go/git/blobs/6d2464edca4f34e5b1d4d9615c601a74341314e1": "2026-10-17T16:04:25.743073+00:00",
+    "/repos/openai/openai-go/git/blobs/91bcdd82767ca48cebc385fa9ac6ad7c86921e9f": "2026-10-17T16:04:29.809370+00:00",
+    "/repos/openai/openai-go/git/blobs/2175d20c88382a0012a59bb6465e0ba4452681db": "2026-10-17T16:04:31.176364+00:00",
+    "/repos/openai/openai-go/git/blobs/43f3a1da2adab96f2f0bc4acc3d16f6ba60336f8": "2026-10-17T16:04:32.826315+00:00",
+    "/repos/openai/openai-go/git/blobs/0fb4c3c759d0ea1387be7e5d1eb5b69df48258b5": "2026-10-17T16:04:34.230851+00:00",
+    "/repos/openai/openai-go/git/blobs/7e238f4087c35e500ac16a141af2278f8321211f": "2026-10-17T16:04:35.670987+00:00",
+    "/repos/openai/openai-go/git/blobs/d6f64a74aef9e10ca90f70446a4bfeeed9d0d0d2": "2026-10-17T16:04:38.123065+00:00",
+    "/repos/openai/openai-go/git/blobs/a351ffdb5fae5ba2f2bcd8d0ad5796a9aa8b3413": "2026-10-17T16:04:39.701661+00:00",
+    "/repos/openai/openai-go/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:04:43.302852+00:00",
+    "/repos/openai/openai-go/pulls/1084/files?per_page=100": "2026-10-17T16:04:45.645766+00:00",
+    "/repos/openai/openai-go/pulls/1084/reviews?per_page=100": "2026-10-17T16:04:48.282781+00:00",
+    "/repos/openai/openai-go/actions/runs?head_sha=d417996c970cd28e7e2cdc3ae11438c4425160c7&per_page=10": "2026-10-17T16:04:50.395283+00:00",
+    "/repos/openai/openai-go/actions/runs?head_sha=17a77d70b699793df6a75742792cc211de04ee34&per_page=10": "2026-10-17T16:04:52.449786+00:00",
+    "/repos/openai/openai-go/pulls/1082/files?per_page=100": "2026-10-17T16:04:54.536416+00:00",
+    "/repos/openai/openai-go/pulls/1082/reviews?per_page=100": "2026-10-17T16:04:58.717500+00:00",
+    "/repos/openai/openai-go/actions/runs?head_sha=cbaf5991a056186314e104f90d73fe0ed034f85b&per_page=10": "2026-10-17T16:05:01.957243+00:00",
+    "/repos/openai/openai-go/actions/runs?head_sha=a6e63acad7e816d4f61245873f38b75cefff890f&per_page=10": "2026-10-17T16:05:03.855563+00:00",
+    "/repos/openai/openai-go/pulls/1071/files?per_page=100": "2026-10-17T16:05:05.684630+00:00",
+    "/repos/openai/openai-go/pulls/1071/reviews?per_page=100": "2026-10-17T16:05:07.218199+00:00",
+    "/repos/openai/openai-go/actions/runs?head_sha=b50536cfe66964cd0a168235e184799504509b68&per_page=10": "2026-10-17T16:05:09.381744+00:00",
+    "/repos/openai/openai-go/actions/runs?head_sha=a217d315b90d91ab8f2ea44d090450d90af47ab5&per_page=10": "2026-10-17T16:05:11.482309+00:00",
+    "/repos/openai/openai-go/releases?per_page=20&page=1": "2026-10-17T16:16:41.134155+00:00",
+    "/repos/openai/openai-go/commits/v3.79.0": "2026-10-17T16:05:15.927419+00:00",
+    "/repos/openai/openai-go/actions/runs?head_sha=2cdebd8de09a0b5931eb2fa84c2a6217ed18fa51&per_page=10": "2026-10-17T16:05:18.251556+00:00",
+    "/repos/openai/openai-go/commits/v3.78.0": "2026-10-17T16:05:19.785593+00:00",
+    "/repos/openai/openai-go/actions/runs?head_sha=d78ccb75ac6cda34212d23ce87a261633629582a&per_page=10": "2026-10-17T16:05:21.931110+00:00",
+    "/repos/openai/openai-go/commits/v3.77.0": "2026-10-17T16:05:23.497306+00:00",
+    "/repos/openai/openai-go/actions/runs?head_sha=98ea7997e1827da8365d0aa751683c3380cfc56d&per_page=10": "2026-10-17T16:05:25.673552+00:00",
+    "/repos/openai/openai-go/tags?per_page=3": "2026-10-17T16:05:27.595463+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:16:41.134155+00:00",
+  "status": "collected"
+}

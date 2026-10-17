@@ -1,0 +1,2167 @@
+{
+  "requested_repository": "neovim/neovim",
+  "category": "tools",
+  "collected_at": "2026-10-17T16:18:00.230824+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "neovim/neovim",
+  "metadata": {
+    "html_url": "https://github.com/neovim/neovim",
+    "description": "Vim-fork focused on extensibility and usability",
+    "homepage": "https://neovim.io",
+    "language": "Vim Script",
+    "stargazers_count": 103029,
+    "forks_count": 7189,
+    "open_issues_count": 1979,
+    "pushed_at": "2026-10-17T15:34:02Z",
+    "created_at": "2014-01-31T13:39:22Z",
+    "archived": false,
+    "default_branch": "master",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "topics": [
+      "api",
+      "c",
+      "lua",
+      "neovim",
+      "nvim",
+      "text-editor",
+      "vim"
+    ],
+    "owner": {
+      "login": "neovim",
+      "type": "Organization",
+      "html_url": "https://github.com/neovim"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "0851e7dabed9fc9c019e22088029f36e9f3ec3e3",
+      "url": "https://github.com/neovim/neovim/commit/0851e7dabed9fc9c019e22088029f36e9f3ec3e3",
+      "date": "2026-10-17T15:34:02Z",
+      "subject": "docs(help): specify h4 \"function signature\" format #42434"
+    },
+    {
+      "sha": "f8b704e019ed8194a5e873773670b263abd3dedf",
+      "url": "https://github.com/neovim/neovim/commit/f8b704e019ed8194a5e873773670b263abd3dedf",
+      "date": "2026-10-17T14:15:28Z",
+      "subject": "feat(defaults): drop TAB from 'termpastefilter' #42433"
+    },
+    {
+      "sha": "360fcf170c7c7361650e0b7453b3f248e6cfecc9",
+      "url": "https://github.com/neovim/neovim/commit/360fcf170c7c7361650e0b7453b3f248e6cfecc9",
+      "date": "2026-10-17T12:13:30Z",
+      "subject": "docs: update version.c #42344"
+    },
+    {
+      "sha": "9b7ec59580fddf671f7bf922f66ef114a59a51ee",
+      "url": "https://github.com/neovim/neovim/commit/9b7ec59580fddf671f7bf922f66ef114a59a51ee",
+      "date": "2026-10-16T23:33:11Z",
+      "subject": "fix(options): out-of-range number in 'iskeyword' aborts Nvim (#42410)"
+    },
+    {
+      "sha": "a411dc2388839b27b3094dd0687f06c4951205c2",
+      "url": "https://github.com/neovim/neovim/commit/a411dc2388839b27b3094dd0687f06c4951205c2",
+      "date": "2026-10-16T23:02:40Z",
+      "subject": "vim-patch:4eae1d0: runtime(gitrevlist): prevent interpreting keywords as options (#42403)"
+    },
+    {
+      "sha": "23c4872afa1291632c2b29fa67b5614b0fbe3791",
+      "url": "https://github.com/neovim/neovim/commit/23c4872afa1291632c2b29fa67b5614b0fbe3791",
+      "date": "2026-10-16T22:18:03Z",
+      "subject": "fix(snippet): preserve the full TM_DIRECTORY path (#42408)"
+    },
+    {
+      "sha": "d2c8b216198968ae810e54716296065f1945b0ca",
+      "url": "https://github.com/neovim/neovim/commit/d2c8b216198968ae810e54716296065f1945b0ca",
+      "date": "2026-10-16T18:29:39Z",
+      "subject": "refactor(watch): extract watchdirs into a class"
+    },
+    {
+      "sha": "c390fe813ae622d511ed8b5fa3883b70128dea3a",
+      "url": "https://github.com/neovim/neovim/commit/c390fe813ae622d511ed8b5fa3883b70128dea3a",
+      "date": "2026-10-16T18:21:00Z",
+      "subject": "docs: vimdoc specification #42412"
+    },
+    {
+      "sha": "8ad261b25a68a2424e68051ffcd4b4db3923548e",
+      "url": "https://github.com/neovim/neovim/commit/8ad261b25a68a2424e68051ffcd4b4db3923548e",
+      "date": "2026-10-16T17:52:45Z",
+      "subject": "Merge #42411 from justinmk/doc3"
+    },
+    {
+      "sha": "b83273aefdd9a8bec89210bc76bdd79bafba88f4",
+      "url": "https://github.com/neovim/neovim/commit/b83273aefdd9a8bec89210bc76bdd79bafba88f4",
+      "date": "2026-10-16T17:02:23Z",
+      "subject": "docs: flow layout"
+    },
+    {
+      "sha": "d65f9daf45f8ba1f9a92ab33d59301bff17f4039",
+      "url": "https://github.com/neovim/neovim/commit/d65f9daf45f8ba1f9a92ab33d59301bff17f4039",
+      "date": "2026-10-16T17:02:23Z",
+      "subject": "docs: cleanup invalid help source"
+    },
+    {
+      "sha": "d1cdc1db60800f4a46f228b558d92d65ae52a0c7",
+      "url": "https://github.com/neovim/neovim/commit/d1cdc1db60800f4a46f228b558d92d65ae52a0c7",
+      "date": "2026-10-16T15:59:07Z",
+      "subject": "vim-patch:9.2.1198: memory leak with 'quickfixtextfunc' #42405"
+    },
+    {
+      "sha": "19cde384d4749c37ed8384f07f648a0afacfdceb",
+      "url": "https://github.com/neovim/neovim/commit/19cde384d4749c37ed8384f07f648a0afacfdceb",
+      "date": "2026-10-16T15:58:45Z",
+      "subject": "Merge pull request #42404 from zeertzjq/vim-9.2.1196"
+    },
+    {
+      "sha": "29ecd1644429aed0b4fb2ef77da350094c2515f2",
+      "url": "https://github.com/neovim/neovim/commit/29ecd1644429aed0b4fb2ef77da350094c2515f2",
+      "date": "2026-10-16T15:17:32Z",
+      "subject": "vim-patch:9.2.1201: [security]: code injection via cargo quickfix plugin #42406"
+    },
+    {
+      "sha": "4bbc08553f035911e591913f4253163c4e5c0985",
+      "url": "https://github.com/neovim/neovim/commit/4bbc08553f035911e591913f4253163c4e5c0985",
+      "date": "2026-10-16T15:16:20Z",
+      "subject": "fix(diagnostic): use logical positions for counted jumps #42394"
+    },
+    {
+      "sha": "69fcfed4a47160cbf28e828d2c15aa6abb2834ca",
+      "url": "https://github.com/neovim/neovim/commit/69fcfed4a47160cbf28e828d2c15aa6abb2834ca",
+      "date": "2026-10-16T15:14:52Z",
+      "subject": "fix(lsp): ignore completion items without LSP metadata #42401"
+    },
+    {
+      "sha": "8d5395ed790b90849d7cac836f63ca7d2fb292b3",
+      "url": "https://github.com/neovim/neovim/commit/8d5395ed790b90849d7cac836f63ca7d2fb292b3",
+      "date": "2026-10-16T15:13:36Z",
+      "subject": "fix(lsp): keep label fallback for empty snippet insertText #42402"
+    },
+    {
+      "sha": "36f9bccedc278b8c2bf6e2b3a92f10373f511927",
+      "url": "https://github.com/neovim/neovim/commit/36f9bccedc278b8c2bf6e2b3a92f10373f511927",
+      "date": "2026-10-16T14:54:56Z",
+      "subject": "fix(lsp): preserve explicit completion edit ranges #42399"
+    },
+    {
+      "sha": "28a17adbb9943c920c4e6600bb47f48328e58617",
+      "url": "https://github.com/neovim/neovim/commit/28a17adbb9943c920c4e6600bb47f48328e58617",
+      "date": "2026-10-16T14:35:03Z",
+      "subject": "fix(lsp): prefer textEdit for snippet completion text #42400"
+    },
+    {
+      "sha": "ca05480e0df6810beef0b16c34f3835ad519a431",
+      "url": "https://github.com/neovim/neovim/commit/ca05480e0df6810beef0b16c34f3835ad519a431",
+      "date": "2026-10-16T14:23:33Z",
+      "subject": "docs: cleanup #42395"
+    }
+  ],
+  "default_sha": "0851e7dabed9fc9c019e22088029f36e9f3ec3e3",
+  "root_and_selected_directory_paths": [
+    ".clang-format",
+    ".clang-tidy",
+    ".clangd",
+    ".editorconfig",
+    ".emmyrc.json",
+    ".git-blame-ignore-revs",
+    ".gitattributes",
+    ".github",
+    ".github/FUNDING.yml",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug_report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/feature_request.yml",
+    ".github/ISSUE_TEMPLATE/lsp_bug_report.yml",
+    ".github/SECURITY.md",
+    ".github/actions",
+    ".github/dependabot.yml",
+    ".github/pull_request_template.md",
+    ".github/scripts",
+    ".github/workflows",
+    ".github/workflows/backport.yml",
+    ".github/workflows/build.yml",
+    ".github/workflows/build_dummy.yml",
+    ".github/workflows/build_wasm.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/coverity.yml",
+    ".github/workflows/docs.yml",
+    ".github/workflows/labeler_issue.yml",
+    ".github/workflows/labeler_pr.yml",
+    ".github/workflows/lintcommit.yml",
+    ".github/workflows/lintcommit_dummy.yml",
+    ".github/workflows/lintdocurls.yml",
+    ".github/workflows/news.yml",
+    ".github/workflows/notes.md",
+    ".github/workflows/optional.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/response.yml",
+    ".github/workflows/reviewers_add.yml",
+    ".github/workflows/reviewers_remove.yml",
+    ".github/workflows/test.yml",
+    ".github/workflows/test_bsd.yml",
+    ".github/workflows/test_wasm.yml",
+    ".github/workflows/test_windows.yml",
+    ".github/workflows/vim_patches.yml",
+    ".github/workflows/zizmor.yml",
+    ".github/zizmor.yml",
+    ".gitignore",
+    ".luacheckrc",
+    ".luacov",
+    ".luarc.json",
+    ".mailmap",
+    ".stylua.toml",
+    ".stylua2.toml",
+    ".styluaignore",
+    "AGENTS.md",
+    "BSDmakefile",
+    "BUILD.md",
+    "CMakeLists.txt",
+    "CMakePresets.json",
+    "CONTRIBUTING.md",
+    "INSTALL.md",
+    "LICENSE.txt",
+    "MAINTAIN.md",
+    "Makefile",
+    "README.md",
+    "build.zig",
+    "build.zig.zon",
+    "cmake",
+    "cmake.config",
+    "cmake.deps",
+    "cmake.packaging",
+    "contrib",
+    "runtime",
+    "scripts",
+    "src",
+    "test"
+  ],
+  "workflow_paths": [
+    ".github/workflows/release.yml",
+    ".github/workflows/test.yml",
+    ".github/workflows/test_bsd.yml",
+    ".github/workflows/test_wasm.yml",
+    ".github/workflows/test_windows.yml",
+    ".github/workflows/backport.yml",
+    ".github/workflows/build.yml",
+    ".github/workflows/build_dummy.yml",
+    ".github/workflows/build_wasm.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/coverity.yml",
+    ".github/workflows/docs.yml",
+    ".github/workflows/labeler_issue.yml",
+    ".github/workflows/labeler_pr.yml",
+    ".github/workflows/lintcommit.yml",
+    ".github/workflows/lintcommit_dummy.yml",
+    ".github/workflows/lintdocurls.yml",
+    ".github/workflows/news.yml",
+    ".github/workflows/notes.md",
+    ".github/workflows/optional.yml",
+    ".github/workflows/response.yml",
+    ".github/workflows/reviewers_add.yml",
+    ".github/workflows/reviewers_remove.yml",
+    ".github/workflows/vim_patches.yml",
+    ".github/workflows/zizmor.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "5e0d684cb86afce7b62662c9b7ef233fbfa1a75f",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/AGENTS.md",
+      "lines": 7,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "fe72f2c81e3f5ffda0ff55c773e20352a313a510",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/CONTRIBUTING.md",
+      "lines": 374,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          265
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [
+          105,
+          111,
+          169,
+          356
+        ],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          171,
+          343,
+          365
+        ]
+      }
+    },
+    {
+      "path": "MAINTAIN.md",
+      "sha": "504af83b65c25078550a298d90caa772396d934a",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/MAINTAIN.md",
+      "lines": 280,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          19,
+          33,
+          35
+        ]
+      }
+    },
+    {
+      "path": "Makefile",
+      "sha": "46c2bdb3de773b302b78d9e029fe491f022e0852",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/Makefile",
+      "lines": 196,
+      "signals": {
+        "tests": [
+          151
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "e92d0961d7307a7e539b68d5b5ba840727000e00",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/README.md",
+      "lines": 115,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          86
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          8,
+          11
+        ],
+        "media": [
+          2,
+          8,
+          9,
+          10,
+          11
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          20,
+          104
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha": "8ec8ba904904e9c7a29bc8d803f710c127ca4edf",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "lines": 81,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          14
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "a7d569514b0f9d86f80fc109f9e96433ea8e6d26",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 5,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          4
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "sha": "042edfcb9bef1cf024fe5e8542cdc7db5e70e2ef",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/ISSUE_TEMPLATE/feature_request.yml",
+      "lines": 24,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/lsp_bug_report.yml",
+      "sha": "fd4ea9423bb43181e07aaedb6e61cbc2e7bd4208",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/ISSUE_TEMPLATE/lsp_bug_report.yml",
+      "lines": 88,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/SECURITY.md",
+      "sha": "a376d8791272396538ffc7c91048746a49ab1d69",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/SECURITY.md",
+      "lines": 2,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "2f78c9338b8d9ba562b68eeabc29e5b64b65fa3c",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/dependabot.yml",
+      "lines": 16,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha": "d2701265d0c8cd146cdca1f6a7d0285f4ab6804c",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/pull_request_template.md",
+      "lines": 9,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha": "9c47287b4c0a8af7c15fd36a90d37de8f6f33013",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/workflows/release.yml",
+      "lines": 292,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          290,
+          292
+        ],
+        "permissions": [
+          15,
+          242,
+          243
+        ],
+        "pinned_actions": [
+          204
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "sha": "8b0f9de1b41ead95332b7feeca72763099f7d46c",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/workflows/test.yml",
+      "lines": 384,
+      "signals": {
+        "tests": [
+          157,
+          159,
+          161,
+          190,
+          220,
+          221,
+          223,
+          297
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13
+        ],
+        "pinned_actions": [
+          46,
+          288,
+          316,
+          335
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test_bsd.yml",
+      "sha": "c47d67e24d2d38f7dc4f3b59e4ddbf4195609c2b",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/workflows/test_bsd.yml",
+      "lines": 64,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          14
+        ],
+        "pinned_actions": [
+          32,
+          54
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test_wasm.yml",
+      "sha": "08e5e4cb59119750d255e5ef1f62b96d74e168e7",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/workflows/test_wasm.yml",
+      "lines": 53,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test_windows.yml",
+      "sha": "b6a4bc96fec0263d25b3bc2e787b2daefa4b794a",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/workflows/test_windows.yml",
+      "lines": 92,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12
+        ],
+        "pinned_actions": [
+          77
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "sha": "d6c679d208538199a52355f92b9b5b570e611113",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/workflows/backport.yml",
+      "lines": 47,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          6,
+          10,
+          11
+        ],
+        "pinned_actions": [
+          35
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "sha": "14e0c7276917a32a3cd9bfea32ebdcd2af76a10a",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/workflows/build.yml",
+      "lines": 92,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          15
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build_dummy.yml",
+      "sha": "c29a3a7800ebc3680b77d00d11345133d55c9110",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/workflows/build_dummy.yml",
+      "lines": 35,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          17
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build_wasm.yml",
+      "sha": "92d974693c4b67c63c1dde48a544c7fde70cf9bc",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/workflows/build_wasm.yml",
+      "lines": 62,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          15
+        ],
+        "pinned_actions": [
+          31
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "sha": "e3f86a61a3445be203429704138f2c673bbb5efc",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/workflows/codeql.yml",
+      "lines": 41,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          15,
+          21
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/coverity.yml",
+      "sha": "2d23c06c287727c51209f60f2c6b8e8617c9ba30",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/workflows/coverity.yml",
+      "lines": 61,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "sha": "b6820572330cd4b2f79b6bf82f9a2c669d5bbfea",
+      "status": "inspected",
+      "url": "https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/.github/workflows/docs.yml",
+      "lines": 34,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          6,
+          12,
+          13
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 42434,
+      "title": "docs(help): specify h4 \"function signature\" format",
+      "url": "https://github.com/neovim/neovim/pull/42434",
+      "merged_at": "2026-10-17T15:34:03Z",
+      "merge_commit_sha": "0851e7dabed9fc9c019e22088029f36e9f3ec3e3",
+      "files": [
+        "runtime/doc/api.txt",
+        "runtime/doc/autocmd.txt",
+        "runtime/doc/change.txt",
+        "runtime/doc/cmdline.txt",
+        "runtime/doc/credits.txt",
+        "runtime/doc/diagnostic.txt",
+        "runtime/doc/diff.txt",
+        "runtime/doc/digraph.txt",
+        "runtime/doc/editing.txt",
+        "runtime/doc/fold.txt",
+        "runtime/doc/ft_ada.txt",
+        "runtime/doc/gui.txt",
+        "runtime/doc/helphelp.txt",
+        "runtime/doc/if_perl.txt",
+        "runtime/doc/if_pyth.txt",
+        "runtime/doc/if_ruby.txt",
+        "runtime/doc/insert.txt",
+        "runtime/doc/l10n-arabic.txt",
+        "runtime/doc/lsp.txt",
+        "runtime/doc/lua-async.txt",
+        "runtime/doc/lua.txt",
+        "runtime/doc/map.txt",
+        "runtime/doc/mlang.txt",
+        "runtime/doc/motion.txt",
+        "runtime/doc/options.txt",
+        "runtime/doc/pack.txt",
+        "runtime/doc/pattern.txt",
+        "runtime/doc/pi_tutor.txt",
+        "runtime/doc/plugins.txt",
+        "runtime/doc/quickfix.txt",
+        "runtime/doc/recover.txt",
+        "runtime/doc/repeat.txt",
+        "runtime/doc/scroll.txt",
+        "runtime/doc/sign.txt",
+        "runtime/doc/spell.txt",
+        "runtime/doc/starting.txt",
+        "runtime/doc/syntax.txt",
+        "runtime/doc/tabpage.txt",
+        "runtime/doc/tagsrch.txt",
+        "runtime/doc/treesitter.txt",
+        "runtime/doc/undo.txt",
+        "runtime/doc/userfunc.txt",
+        "runtime/doc/various.txt",
+        "runtime/doc/vimeval.txt",
+        "runtime/doc/vimfn.txt",
+        "runtime/doc/vimscript.txt",
+        "runtime/doc/visual.txt",
+        "runtime/doc/vvars.txt",
+        "runtime/doc/windows.txt",
+        "src/gen/gen_eval_files.lua",
+        "src/gen/gen_help_html.lua",
+        "src/gen/gen_vimdoc.lua"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "runtime/doc/api.txt",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 50,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fapi.txt"
+        },
+        {
+          "filename": "runtime/doc/autocmd.txt",
+          "status": "modified",
+          "additions": 276,
+          "deletions": 276,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fautocmd.txt"
+        },
+        {
+          "filename": "runtime/doc/change.txt",
+          "status": "modified",
+          "additions": 210,
+          "deletions": 199,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fchange.txt"
+        },
+        {
+          "filename": "runtime/doc/cmdline.txt",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 32,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fcmdline.txt"
+        },
+        {
+          "filename": "runtime/doc/credits.txt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fcredits.txt"
+        },
+        {
+          "filename": "runtime/doc/diagnostic.txt",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 15,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fdiagnostic.txt"
+        },
+        {
+          "filename": "runtime/doc/diff.txt",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 14,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fdiff.txt"
+        },
+        {
+          "filename": "runtime/doc/digraph.txt",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 6,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fdigraph.txt"
+        },
+        {
+          "filename": "runtime/doc/editing.txt",
+          "status": "modified",
+          "additions": 114,
+          "deletions": 130,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fediting.txt"
+        },
+        {
+          "filename": "runtime/doc/fold.txt",
+          "status": "modified",
+          "additions": 51,
+          "deletions": 53,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Ffold.txt"
+        },
+        {
+          "filename": "runtime/doc/ft_ada.txt",
+          "status": "modified",
+          "additions": 38,
+          "deletions": 77,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fft_ada.txt"
+        },
+        {
+          "filename": "runtime/doc/gui.txt",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 8,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fgui.txt"
+        },
+        {
+          "filename": "runtime/doc/helphelp.txt",
+          "status": "modified",
+          "additions": 33,
+          "deletions": 27,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fhelphelp.txt"
+        },
+        {
+          "filename": "runtime/doc/if_perl.txt",
+          "status": "modified",
+          "additions": 29,
+          "deletions": 38,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fif_perl.txt"
+        },
+        {
+          "filename": "runtime/doc/if_pyth.txt",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 11,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fif_pyth.txt"
+        },
+        {
+          "filename": "runtime/doc/if_ruby.txt",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 12,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fif_ruby.txt"
+        },
+        {
+          "filename": "runtime/doc/insert.txt",
+          "status": "modified",
+          "additions": 91,
+          "deletions": 93,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Finsert.txt"
+        },
+        {
+          "filename": "runtime/doc/l10n-arabic.txt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fl10n-arabic.txt"
+        },
+        {
+          "filename": "runtime/doc/lsp.txt",
+          "status": "modified",
+          "additions": 43,
+          "deletions": 78,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Flsp.txt"
+        },
+        {
+          "filename": "runtime/doc/lua-async.txt",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Flua-async.txt"
+        },
+        {
+          "filename": "runtime/doc/lua.txt",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 35,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Flua.txt"
+        },
+        {
+          "filename": "runtime/doc/map.txt",
+          "status": "modified",
+          "additions": 19,
+          "deletions": 28,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fmap.txt"
+        },
+        {
+          "filename": "runtime/doc/mlang.txt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 4,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fmlang.txt"
+        },
+        {
+          "filename": "runtime/doc/motion.txt",
+          "status": "modified",
+          "additions": 269,
+          "deletions": 250,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fmotion.txt"
+        },
+        {
+          "filename": "runtime/doc/options.txt",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 21,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Foptions.txt"
+        },
+        {
+          "filename": "runtime/doc/pack.txt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fpack.txt"
+        },
+        {
+          "filename": "runtime/doc/pattern.txt",
+          "status": "modified",
+          "additions": 85,
+          "deletions": 86,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fpattern.txt"
+        },
+        {
+          "filename": "runtime/doc/pi_tutor.txt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fpi_tutor.txt"
+        },
+        {
+          "filename": "runtime/doc/plugins.txt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fplugins.txt"
+        },
+        {
+          "filename": "runtime/doc/quickfix.txt",
+          "status": "modified",
+          "additions": 162,
+          "deletions": 167,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fquickfix.txt"
+        },
+        {
+          "filename": "runtime/doc/recover.txt",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 7,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Frecover.txt"
+        },
+        {
+          "filename": "runtime/doc/repeat.txt",
+          "status": "modified",
+          "additions": 40,
+          "deletions": 40,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Frepeat.txt"
+        },
+        {
+          "filename": "runtime/doc/scroll.txt",
+          "status": "modified",
+          "additions": 53,
+          "deletions": 49,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fscroll.txt"
+        },
+        {
+          "filename": "runtime/doc/sign.txt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 2,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fsign.txt"
+        },
+        {
+          "filename": "runtime/doc/spell.txt",
+          "status": "modified",
+          "additions": 36,
+          "deletions": 38,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fspell.txt"
+        },
+        {
+          "filename": "runtime/doc/starting.txt",
+          "status": "modified",
+          "additions": 29,
+          "deletions": 23,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fstarting.txt"
+        },
+        {
+          "filename": "runtime/doc/syntax.txt",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 12,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fsyntax.txt"
+        },
+        {
+          "filename": "runtime/doc/tabpage.txt",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 22,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Ftabpage.txt"
+        },
+        {
+          "filename": "runtime/doc/tagsrch.txt",
+          "status": "modified",
+          "additions": 112,
+          "deletions": 117,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Ftagsrch.txt"
+        },
+        {
+          "filename": "runtime/doc/treesitter.txt",
+          "status": "modified",
+          "additions": 135,
+          "deletions": 152,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Ftreesitter.txt"
+        },
+        {
+          "filename": "runtime/doc/undo.txt",
+          "status": "modified",
+          "additions": 21,
+          "deletions": 20,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fundo.txt"
+        },
+        {
+          "filename": "runtime/doc/userfunc.txt",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 6,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fuserfunc.txt"
+        },
+        {
+          "filename": "runtime/doc/various.txt",
+          "status": "modified",
+          "additions": 74,
+          "deletions": 78,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fvarious.txt"
+        },
+        {
+          "filename": "runtime/doc/vimeval.txt",
+          "status": "modified",
+          "additions": 45,
+          "deletions": 44,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fvimeval.txt"
+        },
+        {
+          "filename": "runtime/doc/vimfn.txt",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 13,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fvimfn.txt"
+        },
+        {
+          "filename": "runtime/doc/vimscript.txt",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 16,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fvimscript.txt"
+        },
+        {
+          "filename": "runtime/doc/visual.txt",
+          "status": "modified",
+          "additions": 26,
+          "deletions": 26,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fvisual.txt"
+        },
+        {
+          "filename": "runtime/doc/vvars.txt",
+          "status": "modified",
+          "additions": 110,
+          "deletions": 198,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fvvars.txt"
+        },
+        {
+          "filename": "runtime/doc/windows.txt",
+          "status": "modified",
+          "additions": 129,
+          "deletions": 129,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/runtime%2Fdoc%2Fwindows.txt"
+        },
+        {
+          "filename": "src/gen/gen_eval_files.lua",
+          "status": "modified",
+          "additions": 22,
+          "deletions": 36,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/src%2Fgen%2Fgen_eval_files.lua"
+        },
+        {
+          "filename": "src/gen/gen_help_html.lua",
+          "status": "modified",
+          "additions": 35,
+          "deletions": 21,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/src%2Fgen%2Fgen_help_html.lua"
+        },
+        {
+          "filename": "src/gen/gen_vimdoc.lua",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 24,
+          "blob_url": "https://github.com/neovim/neovim/blob/befc3a7d8f0776ed764ba39cf524132b735726ae/src%2Fgen%2Fgen_vimdoc.lua"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39045614880,
+          "name": "security: zizmor GHA analyzer",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39045614880",
+          "head_sha": "0851e7dabed9fc9c019e22088029f36e9f3ec3e3"
+        },
+        {
+          "id": 39045614899,
+          "name": "codeql",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39045614899",
+          "head_sha": "0851e7dabed9fc9c019e22088029f36e9f3ec3e3"
+        },
+        {
+          "id": 39045614878,
+          "name": "wasm",
+          "path": ".github/workflows/test_wasm.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39045614878",
+          "head_sha": "0851e7dabed9fc9c019e22088029f36e9f3ec3e3"
+        },
+        {
+          "id": 39045614892,
+          "name": "test-bsd",
+          "path": ".github/workflows/test_bsd.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39045614892",
+          "head_sha": "0851e7dabed9fc9c019e22088029f36e9f3ec3e3"
+        },
+        {
+          "id": 39045614954,
+          "name": "test",
+          "path": ".github/workflows/test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39045614954",
+          "head_sha": "0851e7dabed9fc9c019e22088029f36e9f3ec3e3"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39045615058,
+          "name": "reviewers: remove",
+          "path": ".github/workflows/reviewers_remove.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39045615058",
+          "head_sha": "befc3a7d8f0776ed764ba39cf524132b735726ae"
+        },
+        {
+          "id": 39045615060,
+          "name": "backport",
+          "path": ".github/workflows/backport.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39045615060",
+          "head_sha": "befc3a7d8f0776ed764ba39cf524132b735726ae"
+        },
+        {
+          "id": 39043624554,
+          "name": "build_dummy",
+          "path": ".github/workflows/build_dummy.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39043624554",
+          "head_sha": "befc3a7d8f0776ed764ba39cf524132b735726ae"
+        },
+        {
+          "id": 39043624650,
+          "name": "optional",
+          "path": ".github/workflows/optional.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39043624650",
+          "head_sha": "befc3a7d8f0776ed764ba39cf524132b735726ae"
+        },
+        {
+          "id": 39043624643,
+          "name": "security: zizmor GHA analyzer",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39043624643",
+          "head_sha": "befc3a7d8f0776ed764ba39cf524132b735726ae"
+        },
+        {
+          "id": 39043624615,
+          "name": "docs",
+          "path": ".github/workflows/docs.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39043624615",
+          "head_sha": "befc3a7d8f0776ed764ba39cf524132b735726ae"
+        },
+        {
+          "id": 39043624594,
+          "name": "news.txt",
+          "path": ".github/workflows/news.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39043624594",
+          "head_sha": "befc3a7d8f0776ed764ba39cf524132b735726ae"
+        },
+        {
+          "id": 39043624555,
+          "name": "wasm",
+          "path": ".github/workflows/test_wasm.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39043624555",
+          "head_sha": "befc3a7d8f0776ed764ba39cf524132b735726ae"
+        },
+        {
+          "id": 39043624585,
+          "name": "lintcommit",
+          "path": ".github/workflows/lintcommit.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39043624585",
+          "head_sha": "befc3a7d8f0776ed764ba39cf524132b735726ae"
+        },
+        {
+          "id": 39043624578,
+          "name": "test-bsd",
+          "path": ".github/workflows/test_bsd.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39043624578",
+          "head_sha": "befc3a7d8f0776ed764ba39cf524132b735726ae"
+        }
+      ]
+    },
+    {
+      "number": 42433,
+      "title": "feat(defaults): drop TAB from 'termpastefilter'",
+      "url": "https://github.com/neovim/neovim/pull/42433",
+      "merged_at": "2026-10-17T14:15:29Z",
+      "merge_commit_sha": "f8b704e019ed8194a5e873773670b263abd3dedf",
+      "files": [
+        "runtime/doc/news.txt",
+        "runtime/doc/options.txt",
+        "runtime/lua/vim/_meta/options.gen.lua",
+        "src/nvim/options.lua",
+        "test/functional/terminal/tui_spec.lua"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "runtime/doc/news.txt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/neovim/neovim/blob/adaee91c4503d1182a64cb24cafb0bde9f9667ea/runtime%2Fdoc%2Fnews.txt"
+        },
+        {
+          "filename": "runtime/doc/options.txt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/neovim/neovim/blob/adaee91c4503d1182a64cb24cafb0bde9f9667ea/runtime%2Fdoc%2Foptions.txt"
+        },
+        {
+          "filename": "runtime/lua/vim/_meta/options.gen.lua",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/neovim/neovim/blob/adaee91c4503d1182a64cb24cafb0bde9f9667ea/runtime%2Flua%2Fvim%2F_meta%2Foptions.gen.lua"
+        },
+        {
+          "filename": "src/nvim/options.lua",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/neovim/neovim/blob/adaee91c4503d1182a64cb24cafb0bde9f9667ea/src%2Fnvim%2Foptions.lua"
+        },
+        {
+          "filename": "test/functional/terminal/tui_spec.lua",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 0,
+          "blob_url": "https://github.com/neovim/neovim/blob/adaee91c4503d1182a64cb24cafb0bde9f9667ea/test%2Ffunctional%2Fterminal%2Ftui_spec.lua"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39043475060,
+          "name": "no_response",
+          "path": ".github/workflows/response.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39043475060",
+          "head_sha": "f8b704e019ed8194a5e873773670b263abd3dedf"
+        },
+        {
+          "id": 39043471310,
+          "name": "no_response",
+          "path": ".github/workflows/response.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39043471310",
+          "head_sha": "f8b704e019ed8194a5e873773670b263abd3dedf"
+        },
+        {
+          "id": 39039975518,
+          "name": "test",
+          "path": ".github/workflows/test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39039975518",
+          "head_sha": "f8b704e019ed8194a5e873773670b263abd3dedf"
+        },
+        {
+          "id": 39039975487,
+          "name": "codeql",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39039975487",
+          "head_sha": "f8b704e019ed8194a5e873773670b263abd3dedf"
+        },
+        {
+          "id": 39039975490,
+          "name": "security: zizmor GHA analyzer",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39039975490",
+          "head_sha": "f8b704e019ed8194a5e873773670b263abd3dedf"
+        },
+        {
+          "id": 39039975486,
+          "name": "wasm",
+          "path": ".github/workflows/test_wasm.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39039975486",
+          "head_sha": "f8b704e019ed8194a5e873773670b263abd3dedf"
+        },
+        {
+          "id": 39039975489,
+          "name": "test-bsd",
+          "path": ".github/workflows/test_bsd.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39039975489",
+          "head_sha": "f8b704e019ed8194a5e873773670b263abd3dedf"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39039975947,
+          "name": "reviewers: remove",
+          "path": ".github/workflows/reviewers_remove.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39039975947",
+          "head_sha": "adaee91c4503d1182a64cb24cafb0bde9f9667ea"
+        },
+        {
+          "id": 39039975823,
+          "name": "backport",
+          "path": ".github/workflows/backport.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39039975823",
+          "head_sha": "adaee91c4503d1182a64cb24cafb0bde9f9667ea"
+        },
+        {
+          "id": 39033978815,
+          "name": "test",
+          "path": ".github/workflows/test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39033978815",
+          "head_sha": "adaee91c4503d1182a64cb24cafb0bde9f9667ea"
+        },
+        {
+          "id": 39033978889,
+          "name": "security: zizmor GHA analyzer",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39033978889",
+          "head_sha": "adaee91c4503d1182a64cb24cafb0bde9f9667ea"
+        },
+        {
+          "id": 39033978882,
+          "name": "optional",
+          "path": ".github/workflows/optional.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39033978882",
+          "head_sha": "adaee91c4503d1182a64cb24cafb0bde9f9667ea"
+        },
+        {
+          "id": 39033978780,
+          "name": "news.txt",
+          "path": ".github/workflows/news.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39033978780",
+          "head_sha": "adaee91c4503d1182a64cb24cafb0bde9f9667ea"
+        },
+        {
+          "id": 39033978797,
+          "name": "lintcommit",
+          "path": ".github/workflows/lintcommit.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39033978797",
+          "head_sha": "adaee91c4503d1182a64cb24cafb0bde9f9667ea"
+        },
+        {
+          "id": 39033978795,
+          "name": "build_dummy",
+          "path": ".github/workflows/build_dummy.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39033978795",
+          "head_sha": "adaee91c4503d1182a64cb24cafb0bde9f9667ea"
+        },
+        {
+          "id": 39033978788,
+          "name": "wasm",
+          "path": ".github/workflows/test_wasm.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39033978788",
+          "head_sha": "adaee91c4503d1182a64cb24cafb0bde9f9667ea"
+        },
+        {
+          "id": 39033978832,
+          "name": "docs",
+          "path": ".github/workflows/docs.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39033978832",
+          "head_sha": "adaee91c4503d1182a64cb24cafb0bde9f9667ea"
+        }
+      ]
+    },
+    {
+      "number": 42344,
+      "title": "docs: update version.c",
+      "url": "https://github.com/neovim/neovim/pull/42344",
+      "merged_at": "2026-10-17T12:13:31Z",
+      "merge_commit_sha": "360fcf170c7c7361650e0b7453b3f248e6cfecc9",
+      "files": [
+        "src/nvim/version.c"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "src/nvim/version.c",
+          "status": "modified",
+          "additions": 23,
+          "deletions": 13,
+          "blob_url": "https://github.com/neovim/neovim/blob/080c248fa4695830debc8b65c26c4a30e1ebf1a2/src%2Fnvim%2Fversion.c"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39034017365,
+          "name": "no_response",
+          "path": ".github/workflows/response.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39034017365",
+          "head_sha": "360fcf170c7c7361650e0b7453b3f248e6cfecc9"
+        },
+        {
+          "id": 39033634537,
+          "name": "no_response",
+          "path": ".github/workflows/response.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39033634537",
+          "head_sha": "360fcf170c7c7361650e0b7453b3f248e6cfecc9"
+        },
+        {
+          "id": 39033499041,
+          "name": "no_response",
+          "path": ".github/workflows/response.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39033499041",
+          "head_sha": "360fcf170c7c7361650e0b7453b3f248e6cfecc9"
+        },
+        {
+          "id": 39032133310,
+          "name": "no_response",
+          "path": ".github/workflows/response.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39032133310",
+          "head_sha": "360fcf170c7c7361650e0b7453b3f248e6cfecc9"
+        },
+        {
+          "id": 39031694003,
+          "name": "vim-patches",
+          "path": ".github/workflows/vim_patches.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39031694003",
+          "head_sha": "360fcf170c7c7361650e0b7453b3f248e6cfecc9"
+        },
+        {
+          "id": 39031683920,
+          "name": "security: zizmor GHA analyzer",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39031683920",
+          "head_sha": "360fcf170c7c7361650e0b7453b3f248e6cfecc9"
+        },
+        {
+          "id": 39031683869,
+          "name": "wasm",
+          "path": ".github/workflows/test_wasm.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39031683869",
+          "head_sha": "360fcf170c7c7361650e0b7453b3f248e6cfecc9"
+        },
+        {
+          "id": 39031683851,
+          "name": "codeql",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39031683851",
+          "head_sha": "360fcf170c7c7361650e0b7453b3f248e6cfecc9"
+        },
+        {
+          "id": 39031683939,
+          "name": "test",
+          "path": ".github/workflows/test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39031683939",
+          "head_sha": "360fcf170c7c7361650e0b7453b3f248e6cfecc9"
+        },
+        {
+          "id": 39031683873,
+          "name": "test-bsd",
+          "path": ".github/workflows/test_bsd.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39031683873",
+          "head_sha": "360fcf170c7c7361650e0b7453b3f248e6cfecc9"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39031684025,
+          "name": "reviewers: remove",
+          "path": ".github/workflows/reviewers_remove.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39031684025",
+          "head_sha": "080c248fa4695830debc8b65c26c4a30e1ebf1a2"
+        },
+        {
+          "id": 39031684091,
+          "name": "backport",
+          "path": ".github/workflows/backport.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39031684091",
+          "head_sha": "080c248fa4695830debc8b65c26c4a30e1ebf1a2"
+        },
+        {
+          "id": 39031653463,
+          "name": "reviewers: add",
+          "path": ".github/workflows/reviewers_add.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39031653463",
+          "head_sha": "080c248fa4695830debc8b65c26c4a30e1ebf1a2"
+        },
+        {
+          "id": 39031653664,
+          "name": "label-pr",
+          "path": ".github/workflows/labeler_pr.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39031653664",
+          "head_sha": "080c248fa4695830debc8b65c26c4a30e1ebf1a2"
+        },
+        {
+          "id": 39031653224,
+          "name": "news.txt",
+          "path": ".github/workflows/news.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39031653224",
+          "head_sha": "080c248fa4695830debc8b65c26c4a30e1ebf1a2"
+        },
+        {
+          "id": 39031653219,
+          "name": "docs",
+          "path": ".github/workflows/docs.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39031653219",
+          "head_sha": "080c248fa4695830debc8b65c26c4a30e1ebf1a2"
+        },
+        {
+          "id": 39031653149,
+          "name": "lintcommit",
+          "path": ".github/workflows/lintcommit.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/39031653149",
+          "head_sha": "080c248fa4695830debc8b65c26c4a30e1ebf1a2"
+        },
+        {
+          "id": 38998524358,
+          "name": "security: zizmor GHA analyzer",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/38998524358",
+          "head_sha": "080c248fa4695830debc8b65c26c4a30e1ebf1a2"
+        },
+        {
+          "id": 38998524449,
+          "name": "lintcommit",
+          "path": ".github/workflows/lintcommit.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/38998524449",
+          "head_sha": "080c248fa4695830debc8b65c26c4a30e1ebf1a2"
+        },
+        {
+          "id": 38998524366,
+          "name": "build_dummy",
+          "path": ".github/workflows/build_dummy.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/38998524366",
+          "head_sha": "080c248fa4695830debc8b65c26c4a30e1ebf1a2"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v0.12.6",
+      "url": "https://github.com/neovim/neovim/releases/tag/v0.12.6",
+      "published_at": "2026-10-09T15:43:25Z",
+      "target_commitish": "779c36969e31080503be2dfccbcc3f999e289606",
+      "commit_sha": "779c36969e31080503be2dfccbcc3f999e289606",
+      "assets": [
+        "nvim-linux-arm64.appimage",
+        "nvim-linux-arm64.appimage.zsync",
+        "nvim-linux-arm64.tar.gz",
+        "nvim-linux-x86_64.appimage",
+        "nvim-linux-x86_64.appimage.zsync",
+        "nvim-linux-x86_64.tar.gz",
+        "nvim-macos-arm64.tar.gz",
+        "nvim-macos-x86_64.tar.gz",
+        "nvim-win-arm64.msi",
+        "nvim-win-arm64.zip",
+        "nvim-win64.msi",
+        "nvim-win64.zip"
+      ],
+      "workflow_runs": [
+        {
+          "id": 37952187080,
+          "name": "release",
+          "path": ".github/workflows/release.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/37952187080",
+          "head_sha": "779c36969e31080503be2dfccbcc3f999e289606"
+        }
+      ]
+    },
+    {
+      "tag": "stable",
+      "url": "https://github.com/neovim/neovim/releases/tag/stable",
+      "published_at": "2026-10-09T15:43:20Z",
+      "target_commitish": "779c36969e31080503be2dfccbcc3f999e289606",
+      "commit_sha": "779c36969e31080503be2dfccbcc3f999e289606",
+      "assets": [
+        "nvim-linux-arm64.appimage",
+        "nvim-linux-arm64.appimage.zsync",
+        "nvim-linux-arm64.tar.gz",
+        "nvim-linux-x86_64.appimage",
+        "nvim-linux-x86_64.appimage.zsync",
+        "nvim-linux-x86_64.tar.gz",
+        "nvim-macos-arm64.tar.gz",
+        "nvim-macos-x86_64.tar.gz",
+        "nvim-win-arm64.msi",
+        "nvim-win-arm64.zip",
+        "nvim-win64.msi",
+        "nvim-win64.zip"
+      ],
+      "workflow_runs": [
+        {
+          "id": 37952187080,
+          "name": "release",
+          "path": ".github/workflows/release.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/37952187080",
+          "head_sha": "779c36969e31080503be2dfccbcc3f999e289606"
+        }
+      ]
+    },
+    {
+      "tag": "v0.12.5",
+      "url": "https://github.com/neovim/neovim/releases/tag/v0.12.5",
+      "published_at": "2026-08-23T18:27:13Z",
+      "target_commitish": "5885a30e1e1225349079e7a1c4a3848aa8e43e42",
+      "commit_sha": "5885a30e1e1225349079e7a1c4a3848aa8e43e42",
+      "assets": [
+        "nvim-linux-arm64.appimage",
+        "nvim-linux-arm64.appimage.zsync",
+        "nvim-linux-arm64.tar.gz",
+        "nvim-linux-x86_64.appimage",
+        "nvim-linux-x86_64.appimage.zsync",
+        "nvim-linux-x86_64.tar.gz",
+        "nvim-macos-arm64.tar.gz",
+        "nvim-macos-x86_64.tar.gz",
+        "nvim-win-arm64.msi",
+        "nvim-win-arm64.zip",
+        "nvim-win64.msi",
+        "nvim-win64.zip"
+      ],
+      "workflow_runs": [
+        {
+          "id": 32656995669,
+          "name": "release",
+          "path": ".github/workflows/release.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/neovim/neovim/actions/runs/32656995669",
+          "head_sha": "5885a30e1e1225349079e7a1c4a3848aa8e43e42"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v0.12.6",
+      "sha": "779c36969e31080503be2dfccbcc3f999e289606"
+    },
+    {
+      "name": "v0.12.5",
+      "sha": "5885a30e1e1225349079e7a1c4a3848aa8e43e42"
+    },
+    {
+      "name": "v0.12.4",
+      "sha": "68ea43cd0c28af25cd47731308c94fedfcfd1b0b"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:20:36.325120+00:00",
+  "source_times": {
+    "/repos/neovim/neovim": "2026-10-17T16:18:00.230824+00:00",
+    "/repos/neovim/neovim/commits?sha=master&per_page=20": "2026-10-17T16:18:02.180336+00:00",
+    "/repos/neovim/neovim/git/trees/0851e7dabed9fc9c019e22088029f36e9f3ec3e3": "2026-10-17T16:18:04.602933+00:00",
+    "/repos/neovim/neovim/git/trees/9380b4f6111a2dda7df0740cf95baf53144aefe1": "2026-10-17T16:18:06.081347+00:00",
+    "/repos/neovim/neovim/git/trees/b60b6d37e8104cb220674b9f948af79974ab71a2": "2026-10-17T16:18:07.478247+00:00",
+    "/repos/neovim/neovim/git/trees/5b05677588f302e7dfa8d0b727242e8150ed57c1": "2026-10-17T16:18:08.919443+00:00",
+    "/repos/neovim/neovim/git/blobs/5e0d684cb86afce7b62662c9b7ef233fbfa1a75f": "2026-10-17T16:18:10.320368+00:00",
+    "/repos/neovim/neovim/git/blobs/fe72f2c81e3f5ffda0ff55c773e20352a313a510": "2026-10-17T16:18:11.857861+00:00",
+    "/repos/neovim/neovim/git/blobs/504af83b65c25078550a298d90caa772396d934a": "2026-10-17T16:18:14.306234+00:00",
+    "/repos/neovim/neovim/git/blobs/46c2bdb3de773b302b78d9e029fe491f022e0852": "2026-10-17T16:18:15.734143+00:00",
+    "/repos/neovim/neovim/git/blobs/e92d0961d7307a7e539b68d5b5ba840727000e00": "2026-10-17T16:18:17.120085+00:00",
+    "/repos/neovim/neovim/git/blobs/8ec8ba904904e9c7a29bc8d803f710c127ca4edf": "2026-10-17T16:18:18.590330+00:00",
+    "/repos/neovim/neovim/git/blobs/a7d569514b0f9d86f80fc109f9e96433ea8e6d26": "2026-10-17T16:18:21.091203+00:00",
+    "/repos/neovim/neovim/git/blobs/042edfcb9bef1cf024fe5e8542cdc7db5e70e2ef": "2026-10-17T16:18:22.441428+00:00",
+    "/repos/neovim/neovim/git/blobs/fd4ea9423bb43181e07aaedb6e61cbc2e7bd4208": "2026-10-17T16:18:23.814839+00:00",
+    "/repos/neovim/neovim/git/blobs/a376d8791272396538ffc7c91048746a49ab1d69": "2026-10-17T16:18:25.209308+00:00",
+    "/repos/neovim/neovim/git/blobs/2f78c9338b8d9ba562b68eeabc29e5b64b65fa3c": "2026-10-17T16:18:26.611538+00:00",
+    "/repos/neovim/neovim/git/blobs/d2701265d0c8cd146cdca1f6a7d0285f4ab6804c": "2026-10-17T16:18:28.014707+00:00",
+    "/repos/neovim/neovim/git/blobs/9c47287b4c0a8af7c15fd36a90d37de8f6f33013": "2026-10-17T16:18:29.525144+00:00",
+    "/repos/neovim/neovim/git/blobs/8b0f9de1b41ead95332b7feeca72763099f7d46c": "2026-10-17T16:18:31.126668+00:00",
+    "/repos/neovim/neovim/git/blobs/c47d67e24d2d38f7dc4f3b59e4ddbf4195609c2b": "2026-10-17T16:18:32.529521+00:00",
+    "/repos/neovim/neovim/git/blobs/08e5e4cb59119750d255e5ef1f62b96d74e168e7": "2026-10-17T16:18:33.904437+00:00",
+    "/repos/neovim/neovim/git/blobs/b6a4bc96fec0263d25b3bc2e787b2daefa4b794a": "2026-10-17T16:18:35.971013+00:00",
+    "/repos/neovim/neovim/git/blobs/d6c679d208538199a52355f92b9b5b570e611113": "2026-10-17T16:18:37.322251+00:00",
+    "/repos/neovim/neovim/git/blobs/14e0c7276917a32a3cd9bfea32ebdcd2af76a10a": "2026-10-17T16:18:38.645481+00:00",
+    "/repos/neovim/neovim/git/blobs/c29a3a7800ebc3680b77d00d11345133d55c9110": "2026-10-17T16:18:40.056305+00:00",
+    "/repos/neovim/neovim/git/blobs/92d974693c4b67c63c1dde48a544c7fde70cf9bc": "2026-10-17T16:18:41.377719+00:00",
+    "/repos/neovim/neovim/git/blobs/e3f86a61a3445be203429704138f2c673bbb5efc": "2026-10-17T16:18:43.753891+00:00",
+    "/repos/neovim/neovim/git/blobs/2d23c06c287727c51209f60f2c6b8e8617c9ba30": "2026-10-17T16:18:45.277757+00:00",
+    "/repos/neovim/neovim/git/blobs/b6820572330cd4b2f79b6bf82f9a2c669d5bbfea": "2026-10-17T16:18:47.630793+00:00",
+    "/repos/neovim/neovim/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:18:55.985045+00:00",
+    "/repos/neovim/neovim/pulls/42434/files?per_page=100": "2026-10-17T16:18:59.056421+00:00",
+    "/repos/neovim/neovim/pulls/42434/reviews?per_page=100": "2026-10-17T16:19:00.572383+00:00",
+    "/repos/neovim/neovim/actions/runs?head_sha=0851e7dabed9fc9c019e22088029f36e9f3ec3e3&per_page=10": "2026-10-17T16:19:02.767523+00:00",
+    "/repos/neovim/neovim/actions/runs?head_sha=befc3a7d8f0776ed764ba39cf524132b735726ae&per_page=10": "2026-10-17T16:19:04.742630+00:00",
+    "/repos/neovim/neovim/pulls/42433/files?per_page=100": "2026-10-17T16:19:06.246171+00:00",
+    "/repos/neovim/neovim/pulls/42433/reviews?per_page=100": "2026-10-17T16:19:07.635151+00:00",
+    "/repos/neovim/neovim/actions/runs?head_sha=f8b704e019ed8194a5e873773670b263abd3dedf&per_page=10": "2026-10-17T16:19:09.701886+00:00",
+    "/repos/neovim/neovim/actions/runs?head_sha=adaee91c4503d1182a64cb24cafb0bde9f9667ea&per_page=10": "2026-10-17T16:19:11.906232+00:00",
+    "/repos/neovim/neovim/pulls/42344/files?per_page=100": "2026-10-17T16:19:13.427141+00:00",
+    "/repos/neovim/neovim/pulls/42344/reviews?per_page=100": "2026-10-17T16:19:14.801903+00:00",
+    "/repos/neovim/neovim/actions/runs?head_sha=360fcf170c7c7361650e0b7453b3f248e6cfecc9&per_page=10": "2026-10-17T16:19:17.236408+00:00",
+    "/repos/neovim/neovim/actions/runs?head_sha=080c248fa4695830debc8b65c26c4a30e1ebf1a2&per_page=10": "2026-10-17T16:19:19.357693+00:00",
+    "/repos/neovim/neovim/releases?per_page=20&page=1": "2026-10-17T16:20:36.321881+00:00",
+    "/repos/neovim/neovim/commits/v0.12.6": "2026-10-17T16:19:24.019363+00:00",
+    "/repos/neovim/neovim/actions/runs?head_sha=779c36969e31080503be2dfccbcc3f999e289606&per_page=10": "2026-10-17T16:19:25.617157+00:00",
+    "/repos/neovim/neovim/commits/stable": "2026-10-17T16:19:27.046832+00:00",
+    "/repos/neovim/neovim/commits/v0.12.5": "2026-10-17T16:19:28.660741+00:00",
+    "/repos/neovim/neovim/actions/runs?head_sha=5885a30e1e1225349079e7a1c4a3848aa8e43e42&per_page=10": "2026-10-17T16:19:30.256557+00:00",
+    "/repos/neovim/neovim/tags?per_page=3": "2026-10-17T16:19:31.626934+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:20:36.321881+00:00",
+  "status": "collected"
+}

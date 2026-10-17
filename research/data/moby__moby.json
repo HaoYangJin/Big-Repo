@@ -1,0 +1,2820 @@
+{
+  "requested_repository": "moby/moby",
+  "category": "infrastructure",
+  "collected_at": "2026-10-17T16:13:42.242919+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "moby/moby",
+  "metadata": {
+    "html_url": "https://github.com/moby/moby",
+    "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+    "homepage": "https://mobyproject.org/",
+    "language": "Go",
+    "stargazers_count": 72196,
+    "forks_count": 19235,
+    "open_issues_count": 3939,
+    "pushed_at": "2026-10-16T14:15:57Z",
+    "created_at": "2013-01-18T18:10:57Z",
+    "archived": false,
+    "default_branch": "master",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [
+      "containers",
+      "docker",
+      "go",
+      "golang"
+    ],
+    "owner": {
+      "login": "moby",
+      "type": "Organization",
+      "html_url": "https://github.com/moby"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "3f38b15147b14ce0ce7b11558a1aa9e9f14db103",
+      "url": "https://github.com/moby/moby/commit/3f38b15147b14ce0ce7b11558a1aa9e9f14db103",
+      "date": "2026-10-16T14:15:57Z",
+      "subject": "Merge pull request #53970 from renovate-bot/renovate/github.com-prometheus-client_golang-1.x"
+    },
+    {
+      "sha": "63ab5f4521a1a48302c300816839b6652a50b57d",
+      "url": "https://github.com/moby/moby/commit/63ab5f4521a1a48302c300816839b6652a50b57d",
+      "date": "2026-10-16T10:18:45Z",
+      "subject": "Merge pull request #53903 from crazy-max/fix-client-tls-dial-cancellation"
+    },
+    {
+      "sha": "f8773a7cd889d1474464527ee67131ce84997729",
+      "url": "https://github.com/moby/moby/commit/f8773a7cd889d1474464527ee67131ce84997729",
+      "date": "2026-10-16T08:25:12Z",
+      "subject": "client: honor context cancellation when dialing TLS"
+    },
+    {
+      "sha": "c5c09961ba9aa3db0aacae52b6a54fd7aee3dee4",
+      "url": "https://github.com/moby/moby/commit/c5c09961ba9aa3db0aacae52b6a54fd7aee3dee4",
+      "date": "2026-10-15T21:47:26Z",
+      "subject": "Merge pull request #53972 from vvoland/bump-api"
+    },
+    {
+      "sha": "6d8a30ebb3b39689fd06de95fd9c2c340297d259",
+      "url": "https://github.com/moby/moby/commit/6d8a30ebb3b39689fd06de95fd9c2c340297d259",
+      "date": "2026-10-15T21:17:44Z",
+      "subject": "Bump API to 1.57"
+    },
+    {
+      "sha": "818bfebc9c1c138171b92ecf460e0cca6f7fed55",
+      "url": "https://github.com/moby/moby/commit/818bfebc9c1c138171b92ecf460e0cca6f7fed55",
+      "date": "2026-10-15T21:17:44Z",
+      "subject": "Add replace rules"
+    },
+    {
+      "sha": "06cd4a813d76a06f1c0f24b0b079e7cb8773824e",
+      "url": "https://github.com/moby/moby/commit/06cd4a813d76a06f1c0f24b0b079e7cb8773824e",
+      "date": "2026-10-15T20:43:43Z",
+      "subject": "Merge pull request #53950 from vvoland/state-removalerror"
+    },
+    {
+      "sha": "1d3c1901a5a14911d0caba69e59926929b10e963",
+      "url": "https://github.com/moby/moby/commit/1d3c1901a5a14911d0caba69e59926929b10e963",
+      "date": "2026-10-15T20:01:55Z",
+      "subject": "fix(deps): update module github.com/prometheus/client_golang to v1.25.0"
+    },
+    {
+      "sha": "2c78eb06fa8edfcff7d11a5bc6c17ca9d194b36b",
+      "url": "https://github.com/moby/moby/commit/2c78eb06fa8edfcff7d11a5bc6c17ca9d194b36b",
+      "date": "2026-10-15T19:56:32Z",
+      "subject": "Merge pull request #53873 from thaJeztah/bump_otels"
+    },
+    {
+      "sha": "78c7964d626db02337d146c1ff2a47b4f52e8fd5",
+      "url": "https://github.com/moby/moby/commit/78c7964d626db02337d146c1ff2a47b4f52e8fd5",
+      "date": "2026-10-15T18:32:23Z",
+      "subject": "daemon/container: Fix a data race on the error after a container removal"
+    },
+    {
+      "sha": "fdc9eb2cca0c7861dc3a5cf2c0ff86f47d134035",
+      "url": "https://github.com/moby/moby/commit/fdc9eb2cca0c7861dc3a5cf2c0ff86f47d134035",
+      "date": "2026-10-15T17:17:56Z",
+      "subject": "Merge pull request #53714 from renovate-bot/renovate/aws-sdk-go-v2-monorepo"
+    },
+    {
+      "sha": "c212b15c640ec1e7240d18360f9f0e24785006cb",
+      "url": "https://github.com/moby/moby/commit/c212b15c640ec1e7240d18360f9f0e24785006cb",
+      "date": "2026-10-15T15:37:23Z",
+      "subject": "fix(deps): update aws-sdk-go-v2 monorepo"
+    },
+    {
+      "sha": "20b6b386cb508bab7e0463fe602ae54b81c99c45",
+      "url": "https://github.com/moby/moby/commit/20b6b386cb508bab7e0463fe602ae54b81c99c45",
+      "date": "2026-10-15T15:19:17Z",
+      "subject": "Merge pull request #53967 from renovate-bot/renovate/github.com-aws-smithy-go-1.x"
+    },
+    {
+      "sha": "4b8e1b111a52d91a9c18acaff13036c497ccf0df",
+      "url": "https://github.com/moby/moby/commit/4b8e1b111a52d91a9c18acaff13036c497ccf0df",
+      "date": "2026-10-15T15:18:25Z",
+      "subject": "Merge pull request #53964 from TanvirTian/docs/fix-cnm-diagram"
+    },
+    {
+      "sha": "0351b2428f7ebb306dd0c229891d394cc29782b0",
+      "url": "https://github.com/moby/moby/commit/0351b2428f7ebb306dd0c229891d394cc29782b0",
+      "date": "2026-10-15T14:58:29Z",
+      "subject": "Merge pull request #53965 from renovate-bot/renovate/github.com-tonistiigi-fsutil-digest"
+    },
+    {
+      "sha": "ab0adc462c806aac58225e035128d4e10de7befa",
+      "url": "https://github.com/moby/moby/commit/ab0adc462c806aac58225e035128d4e10de7befa",
+      "date": "2026-10-15T13:37:58Z",
+      "subject": "fix(deps): update module github.com/aws/smithy-go to v1.28.5"
+    },
+    {
+      "sha": "df9adbfaf592ada44e91e2a3ed06542b4e693cc0",
+      "url": "https://github.com/moby/moby/commit/df9adbfaf592ada44e91e2a3ed06542b4e693cc0",
+      "date": "2026-10-15T13:33:08Z",
+      "subject": "Merge pull request #53956 from renovate-bot/renovate/docker-cli-29.x"
+    },
+    {
+      "sha": "e55748c43bf7a84d042f902b55bf0ed0c73d5e73",
+      "url": "https://github.com/moby/moby/commit/e55748c43bf7a84d042f902b55bf0ed0c73d5e73",
+      "date": "2026-10-15T12:52:48Z",
+      "subject": "vendor: go.opentelemetry.io/otel v1.47.0, contrib v0.72.0"
+    },
+    {
+      "sha": "ca90affbdcf677a2597900cb98d4d52ef07a1bf5",
+      "url": "https://github.com/moby/moby/commit/ca90affbdcf677a2597900cb98d4d52ef07a1bf5",
+      "date": "2026-10-15T12:48:53Z",
+      "subject": "Merge pull request #53958 from renovate-bot/renovate/docker-buildx-bin-0.x"
+    },
+    {
+      "sha": "8d504058bfc9db02335e5f3ec4753dae5c3d4156",
+      "url": "https://github.com/moby/moby/commit/8d504058bfc9db02335e5f3ec4753dae5c3d4156",
+      "date": "2026-10-15T12:48:29Z",
+      "subject": "Merge pull request #53957 from renovate-bot/renovate/docker-actions"
+    }
+  ],
+  "default_sha": "3f38b15147b14ce0ce7b11558a1aa9e9f14db103",
+  "root_and_selected_directory_paths": [
+    ".codecov.yml",
+    ".devcontainer",
+    ".dockerignore",
+    ".gitattributes",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug_report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/feature_request.yml",
+    ".github/ISSUE_TEMPLATE/flaky_test.yml",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/actions",
+    ".github/copilot-instructions.md",
+    ".github/instructions",
+    ".github/labeler.yml",
+    ".github/renovate.json5",
+    ".github/scripts",
+    ".github/workflows",
+    ".github/workflows/.dco.yml",
+    ".github/workflows/.test-unit.yml",
+    ".github/workflows/.test.yml",
+    ".github/workflows/.vm.yml",
+    ".github/workflows/.windows.yml",
+    ".github/workflows/bin-image.yml",
+    ".github/workflows/buildkit.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/labeler.yml",
+    ".github/workflows/merge-queue.yml",
+    ".github/workflows/pr-review-trigger.yml",
+    ".github/workflows/pr-review.yml",
+    ".github/workflows/test.yml",
+    ".github/workflows/validate-milestone.yml",
+    ".github/workflows/validate-pr.yml",
+    ".github/workflows/vm.yml",
+    ".github/workflows/windows-2022.yml",
+    ".github/workflows/windows-2025.yml",
+    ".github/workflows/windows-integration-flaky.yml",
+    ".github/workflows/zizmor.yml",
+    ".gitignore",
+    ".golangci.yml",
+    ".mailmap",
+    "AGENTS.md",
+    "AUTHORS",
+    "CLAUDE.md",
+    "CONTRIBUTING.md",
+    "Dockerfile",
+    "Dockerfile.simple",
+    "Dockerfile.windows",
+    "LICENSE",
+    "MAINTAINERS",
+    "Makefile",
+    "NOTICE",
+    "README.md",
+    "ROADMAP.md",
+    "SECURITY.md",
+    "TESTING.md",
+    "api",
+    "client",
+    "cmd",
+    "contrib",
+    "daemon",
+    "docker-bake.hcl",
+    "dockerversion",
+    "docs",
+    "docs/api",
+    "docs/cluster_volumes.md",
+    "docs/contributing",
+    "docs/static_files",
+    "errdefs",
+    "extpoints",
+    "go.mod",
+    "go.sum",
+    "hack",
+    "integration",
+    "integration-cli",
+    "internal",
+    "man",
+    "otelcol-ci-config.yml",
+    "pkg",
+    "project",
+    "releases",
+    "vendor"
+  ],
+  "workflow_paths": [
+    ".github/workflows/.test-unit.yml",
+    ".github/workflows/.test.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/test.yml",
+    ".github/workflows/.dco.yml",
+    ".github/workflows/.vm.yml",
+    ".github/workflows/.windows.yml",
+    ".github/workflows/bin-image.yml",
+    ".github/workflows/buildkit.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/labeler.yml",
+    ".github/workflows/merge-queue.yml",
+    ".github/workflows/pr-review-trigger.yml",
+    ".github/workflows/pr-review.yml",
+    ".github/workflows/validate-milestone.yml",
+    ".github/workflows/validate-pr.yml",
+    ".github/workflows/vm.yml",
+    ".github/workflows/windows-2022.yml",
+    ".github/workflows/windows-2025.yml",
+    ".github/workflows/windows-integration-flaky.yml",
+    ".github/workflows/zizmor.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "c90ea029d79b841c0c3f41f6fdd53920c2470529",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/AGENTS.md",
+      "lines": 12,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha": "47dc3e3d863cfb5727b87d785d09abf9743c0a72",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/CLAUDE.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "02e1a42d7226a018c8237cb366715da720aaf507",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/CONTRIBUTING.md",
+      "lines": 142,
+      "signals": {
+        "tests": [],
+        "lint": [
+          135
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          10,
+          11
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          57
+        ]
+      }
+    },
+    {
+      "path": "MAINTAINERS",
+      "sha": "d02b31dd852d99ca512a4fc3bcf67d21d274ddc4",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/MAINTAINERS",
+      "lines": 32,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile",
+      "sha": "c023ae1961ec110c1fc324d9fd671b05542924c9",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/Makefile",
+      "lines": 288,
+      "signals": {
+        "tests": [],
+        "lint": [
+          245
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "fae3ea838fb6d1034d0e6ebf3ee39491d1812438",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/README.md",
+      "lines": 101,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          5
+        ],
+        "media": [
+          4,
+          5,
+          6,
+          7,
+          10
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "d54e15e11732451224f1c97aedeed6fe39036c60",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/SECURITY.md",
+      "lines": 42,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          6
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          11
+        ],
+        "story": [
+          25,
+          28
+        ]
+      }
+    },
+    {
+      "path": "go.mod",
+      "sha": "13aa31641c7f3960a7d4752fc616b890f860c6cd",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/go.mod",
+      "lines": 314,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha": "7d9e640137d6ac62fe85723f0e8f1defd2ea695c",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "lines": 146,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "27edddbe72e672a1d3c3878cf6053c559c94ff58",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 8,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          4,
+          5
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          7
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "sha": "7494abb1e2ab374443f87e434635da2eed3bf898",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/.github/ISSUE_TEMPLATE/feature_request.yml",
+      "lines": 13,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/flaky_test.yml",
+      "sha": "d3574a4bd8e56c12dec68f566874c85dd4b6c59e",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/.github/ISSUE_TEMPLATE/flaky_test.yml",
+      "lines": 22,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "c2e6f72a5aae9f6d1efe9816d0a1142a8695f5cf",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/.github/PULL_REQUEST_TEMPLATE.md",
+      "lines": 47,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/.test-unit.yml",
+      "sha": "a857905ecba2d3ad5d20500eb5e1e59a13ed86ff",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/.github/workflows/.test-unit.yml",
+      "lines": 135,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          6
+        ],
+        "pinned_actions": [
+          45,
+          63,
+          70,
+          91,
+          100,
+          116,
+          122
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          4
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/.test.yml",
+      "sha": "b2a3ebee04686f3c3b73ac25d39d95a25409009e",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/.github/workflows/.test.yml",
+      "lines": 554,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          6
+        ],
+        "pinned_actions": [
+          51,
+          60,
+          67,
+          94,
+          107,
+          116,
+          123,
+          149,
+          187,
+          237,
+          244,
+          280
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          4
+        ],
+        "story": [
+          109
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "23d6ba140332b8741e3e331e5c37078042197120",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/.github/workflows/ci.yml",
+      "lines": 218,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9,
+          28,
+          136
+        ],
+        "pinned_actions": [
+          52,
+          59,
+          82,
+          86,
+          111,
+          118,
+          142,
+          149,
+          157,
+          170,
+          177
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "sha": "4c67ea5b16623d7a3b1dd19745564973414a4fa6",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/.github/workflows/test.yml",
+      "lines": 281,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9,
+          30
+        ],
+        "pinned_actions": [
+          60,
+          67,
+          77,
+          144,
+          167,
+          175,
+          183,
+          197,
+          221,
+          239,
+          243,
+          267
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/.dco.yml",
+      "sha": "479791c28f1a80e4a802bee80e911c22bcd4f1e4",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/.github/workflows/.dco.yml",
+      "lines": 79,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7,
+          14
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          4
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/.vm.yml",
+      "sha": "80a32f02d6a2f3a599f2a70e657ccbf28f4861b0",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/.github/workflows/.vm.yml",
+      "lines": 231,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          6
+        ],
+        "pinned_actions": [
+          42,
+          45,
+          48,
+          53,
+          59,
+          188,
+          204,
+          217
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          4
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/.windows.yml",
+      "sha": "a9b89db7b2b8691129468e4530d054f039da6f58",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/.github/workflows/.windows.yml",
+      "lines": 462,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          6
+        ],
+        "pinned_actions": [
+          54,
+          100,
+          116,
+          154,
+          163,
+          178,
+          184,
+          207,
+          210,
+          257,
+          260,
+          287
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          4
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/bin-image.yml",
+      "sha": "64f349546f0bec5e6403ca69510340e0cd5e76cc",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/.github/workflows/bin-image.yml",
+      "lines": 75,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9,
+          27,
+          36,
+          38
+        ],
+        "pinned_actions": [
+          33
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/buildkit.yml",
+      "sha": "88d419bad3f8605a9da7c950a6fe99fb90aa00d5",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/.github/workflows/buildkit.yml",
+      "lines": 372,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9,
+          29
+        ],
+        "pinned_actions": [
+          42,
+          49,
+          54,
+          98,
+          101,
+          106,
+          119,
+          126,
+          129,
+          136,
+          149,
+          185
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "sha": "5366ba4ff8d3865838f3e7e947d83c0b8d0206f5",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/.github/workflows/codeql.yml",
+      "lines": 71,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9,
+          44
+        ],
+        "pinned_actions": [
+          50,
+          55,
+          61,
+          66,
+          69
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "sha": "09f698bba6ef35b3c1bb9b1ffc5753597c19ccd5",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/.github/workflows/labeler.yml",
+      "lines": 26,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7,
+          16
+        ],
+        "pinned_actions": [
+          24
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/merge-queue.yml",
+      "sha": "d4150fe82c5a584cc32726af5882aed900932aeb",
+      "status": "inspected",
+      "url": "https://github.com/moby/moby/blob/3f38b15147b14ce0ce7b11558a1aa9e9f14db103/.github/workflows/merge-queue.yml",
+      "lines": 94,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          3
+        ],
+        "pinned_actions": [
+          22,
+          25,
+          30,
+          55,
+          60
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          66,
+          68,
+          74
+        ]
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 53970,
+      "title": "fix(deps): update module github.com/prometheus/client_golang to v1.25.0",
+      "url": "https://github.com/moby/moby/pull/53970",
+      "merged_at": "2026-10-16T14:15:57Z",
+      "merge_commit_sha": "3f38b15147b14ce0ce7b11558a1aa9e9f14db103",
+      "files": [
+        "go.mod",
+        "go.sum",
+        "vendor/github.com/prometheus/client_golang/internal/github.com/golang/gddo/httputil/header/header.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/build_info_collector.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/desc.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/get_pid.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/get_pid_gopherjs.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/go_collector.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/go_collector_latest.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/histogram.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/internal/go_runtime_metrics.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/metric.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/num_threads.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/num_threads_gopherjs.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/process_collector_darwin.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/process_collector_not_supported.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/process_collector_procfsenabled.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/promhttp/http.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/promhttp/option.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/registry.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/summary.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/value.go",
+        "vendor/github.com/prometheus/client_golang/prometheus/wrap.go",
+        "vendor/github.com/prometheus/procfs/.golangci.yml",
+        "vendor/github.com/prometheus/procfs/CONTRIBUTING.md",
+        "vendor/github.com/prometheus/procfs/Makefile.common",
+        "vendor/github.com/prometheus/procfs/cmdline.go",
+        "vendor/github.com/prometheus/procfs/cpuinfo.go",
+        "vendor/github.com/prometheus/procfs/crypto.go",
+        "vendor/github.com/prometheus/procfs/fs_statfs_notype.go",
+        "vendor/github.com/prometheus/procfs/fscache.go",
+        "vendor/github.com/prometheus/procfs/internal/fs/fs.go",
+        "vendor/github.com/prometheus/procfs/internal/parsers/parse.go",
+        "vendor/github.com/prometheus/procfs/internal/parsers/readfile.go",
+        "vendor/github.com/prometheus/procfs/internal/parsers/sysreadfile.go",
+        "vendor/github.com/prometheus/procfs/internal/parsers/sysreadfile_compat.go",
+        "vendor/github.com/prometheus/procfs/internal/parsers/valueparser.go",
+        "vendor/github.com/prometheus/procfs/ipvs.go",
+        "vendor/github.com/prometheus/procfs/kernel_random.go",
+        "vendor/github.com/prometheus/procfs/kernel_tainted.go",
+        "vendor/github.com/prometheus/procfs/loadavg.go",
+        "vendor/github.com/prometheus/procfs/mdstat.go",
+        "vendor/github.com/prometheus/procfs/meminfo.go",
+        "vendor/github.com/prometheus/procfs/mountinfo.go",
+        "vendor/github.com/prometheus/procfs/net_conntrackstat.go",
+        "vendor/github.com/prometheus/procfs/net_ip_socket.go",
+        "vendor/github.com/prometheus/procfs/net_protocols.go",
+        "vendor/github.com/prometheus/procfs/net_route.go",
+        "vendor/github.com/prometheus/procfs/net_sockstat.go",
+        "vendor/github.com/prometheus/procfs/net_softnet.go",
+        "vendor/github.com/prometheus/procfs/net_wireless.go",
+        "vendor/github.com/prometheus/procfs/nfnetlink_queue.go",
+        "vendor/github.com/prometheus/procfs/proc.go",
+        "vendor/github.com/prometheus/procfs/proc_cgroup.go",
+        "vendor/github.com/prometheus/procfs/proc_cgroups.go",
+        "vendor/github.com/prometheus/procfs/proc_environ.go",
+        "vendor/github.com/prometheus/procfs/proc_fdinfo.go",
+        "vendor/github.com/prometheus/procfs/proc_interrupts.go",
+        "vendor/github.com/prometheus/procfs/proc_io.go",
+        "vendor/github.com/prometheus/procfs/proc_netstat.go",
+        "vendor/github.com/prometheus/procfs/proc_psi.go",
+        "vendor/github.com/prometheus/procfs/proc_smaps.go",
+        "vendor/github.com/prometheus/procfs/proc_snmp.go",
+        "vendor/github.com/prometheus/procfs/proc_snmp6.go",
+        "vendor/github.com/prometheus/procfs/proc_stat.go",
+        "vendor/github.com/prometheus/procfs/proc_statm.go",
+        "vendor/github.com/prometheus/procfs/proc_status.go",
+        "vendor/github.com/prometheus/procfs/proc_sys.go",
+        "vendor/github.com/prometheus/procfs/slab.go",
+        "vendor/github.com/prometheus/procfs/softirqs.go",
+        "vendor/github.com/prometheus/procfs/stat.go",
+        "vendor/github.com/prometheus/procfs/swaps.go",
+        "vendor/github.com/prometheus/procfs/vm.go",
+        "vendor/github.com/prometheus/procfs/zoneinfo.go",
+        "vendor/modules.txt"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "go.mod",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/go.mod"
+        },
+        {
+          "filename": "go.sum",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/go.sum"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/internal/github.com/golang/gddo/httputil/header/header.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Finternal%2Fgithub.com%2Fgolang%2Fgddo%2Fhttputil%2Fheader%2Fheader.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/build_info_collector.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fbuild_info_collector.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/desc.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fdesc.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/get_pid.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fget_pid.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/get_pid_gopherjs.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fget_pid_gopherjs.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/go_collector.go",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 5,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fgo_collector.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/go_collector_latest.go",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 8,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fgo_collector_latest.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/histogram.go",
+          "status": "modified",
+          "additions": 21,
+          "deletions": 21,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fhistogram.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/internal/go_runtime_metrics.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 3,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Finternal%2Fgo_runtime_metrics.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/metric.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 4,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fmetric.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/num_threads.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fnum_threads.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/num_threads_gopherjs.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fnum_threads_gopherjs.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/process_collector_darwin.go",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 12,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fprocess_collector_darwin.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/process_collector_not_supported.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fprocess_collector_not_supported.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/process_collector_procfsenabled.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fprocess_collector_procfsenabled.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/promhttp/http.go",
+          "status": "modified",
+          "additions": 31,
+          "deletions": 7,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fpromhttp%2Fhttp.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/promhttp/option.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fpromhttp%2Foption.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/registry.go",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 11,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fregistry.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/summary.go",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 11,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fsummary.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/value.go",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 9,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fvalue.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/client_golang/prometheus/wrap.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fclient_golang%2Fprometheus%2Fwrap.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/.golangci.yml",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 8,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2F.golangci.yml"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/CONTRIBUTING.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2FCONTRIBUTING.md"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/Makefile.common",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2FMakefile.common"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/cmdline.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fcmdline.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/cpuinfo.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fcpuinfo.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/crypto.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fcrypto.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/fs_statfs_notype.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Ffs_statfs_notype.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/fscache.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Ffscache.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/internal/fs/fs.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Finternal%2Ffs%2Ffs.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/internal/parsers/parse.go",
+          "status": "renamed",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Finternal%2Fparsers%2Fparse.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/internal/parsers/readfile.go",
+          "status": "renamed",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Finternal%2Fparsers%2Freadfile.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/internal/parsers/sysreadfile.go",
+          "status": "renamed",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Finternal%2Fparsers%2Fsysreadfile.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/internal/parsers/sysreadfile_compat.go",
+          "status": "renamed",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Finternal%2Fparsers%2Fsysreadfile_compat.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/internal/parsers/valueparser.go",
+          "status": "renamed",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Finternal%2Fparsers%2Fvalueparser.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/ipvs.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fipvs.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/kernel_random.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fkernel_random.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/kernel_tainted.go",
+          "status": "added",
+          "additions": 95,
+          "deletions": 0,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fkernel_tainted.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/loadavg.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Floadavg.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/mdstat.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fmdstat.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/meminfo.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fmeminfo.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/mountinfo.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fmountinfo.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/net_conntrackstat.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fnet_conntrackstat.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/net_ip_socket.go",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 9,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fnet_ip_socket.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/net_protocols.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fnet_protocols.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/net_route.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fnet_route.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/net_sockstat.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fnet_sockstat.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/net_softnet.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fnet_softnet.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/net_wireless.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fnet_wireless.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/nfnetlink_queue.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fnfnetlink_queue.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/proc.go",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fproc.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/proc_cgroup.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fproc_cgroup.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/proc_cgroups.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fproc_cgroups.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/proc_environ.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fproc_environ.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/proc_fdinfo.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fproc_fdinfo.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/proc_interrupts.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fproc_interrupts.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/proc_io.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fproc_io.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/proc_netstat.go",
+          "status": "modified",
+          "additions": 36,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fproc_netstat.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/proc_psi.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fproc_psi.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/proc_smaps.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fproc_smaps.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/proc_snmp.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fproc_snmp.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/proc_snmp6.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fproc_snmp6.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/proc_stat.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fproc_stat.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/proc_statm.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fproc_statm.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/proc_status.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fproc_status.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/proc_sys.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fproc_sys.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/slab.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fslab.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/softirqs.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fsoftirqs.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/stat.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fstat.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/swaps.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fswaps.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/vm.go",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fvm.go"
+        },
+        {
+          "filename": "vendor/github.com/prometheus/procfs/zoneinfo.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fgithub.com%2Fprometheus%2Fprocfs%2Fzoneinfo.go"
+        },
+        {
+          "filename": "vendor/modules.txt",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/moby/moby/blob/1d3c1901a5a14911d0caba69e59926929b10e963/vendor%2Fmodules.txt"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39023424587,
+          "name": "windows-2022",
+          "path": ".github/workflows/windows-2022.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/moby/moby/actions/runs/39023424587",
+          "head_sha": "3f38b15147b14ce0ce7b11558a1aa9e9f14db103"
+        },
+        {
+          "id": 38957481563,
+          "name": "PR Review",
+          "path": ".github/workflows/pr-review.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/moby/moby/actions/runs/38957481563",
+          "head_sha": "3f38b15147b14ce0ce7b11558a1aa9e9f14db103"
+        },
+        {
+          "id": 38914382606,
+          "name": "Graph Update: go_modules in /. #1631597364",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38914382606",
+          "head_sha": "3f38b15147b14ce0ce7b11558a1aa9e9f14db103"
+        },
+        {
+          "id": 38914374898,
+          "name": "zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38914374898",
+          "head_sha": "3f38b15147b14ce0ce7b11558a1aa9e9f14db103"
+        },
+        {
+          "id": 38914375755,
+          "name": "bin-image",
+          "path": ".github/workflows/bin-image.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38914375755",
+          "head_sha": "3f38b15147b14ce0ce7b11558a1aa9e9f14db103"
+        },
+        {
+          "id": 38914375001,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38914375001",
+          "head_sha": "3f38b15147b14ce0ce7b11558a1aa9e9f14db103"
+        },
+        {
+          "id": 38914374434,
+          "name": "codeql",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38914374434",
+          "head_sha": "3f38b15147b14ce0ce7b11558a1aa9e9f14db103"
+        },
+        {
+          "id": 38914374633,
+          "name": "vm",
+          "path": ".github/workflows/vm.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/moby/moby/actions/runs/38914374633",
+          "head_sha": "3f38b15147b14ce0ce7b11558a1aa9e9f14db103"
+        },
+        {
+          "id": 38914374697,
+          "name": "windows-2025",
+          "path": ".github/workflows/windows-2025.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38914374697",
+          "head_sha": "3f38b15147b14ce0ce7b11558a1aa9e9f14db103"
+        },
+        {
+          "id": 38914374804,
+          "name": "buildkit",
+          "path": ".github/workflows/buildkit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38914374804",
+          "head_sha": "3f38b15147b14ce0ce7b11558a1aa9e9f14db103"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38799260108,
+          "name": "validate-milestone",
+          "path": ".github/workflows/validate-milestone.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38799260108",
+          "head_sha": "1d3c1901a5a14911d0caba69e59926929b10e963"
+        },
+        {
+          "id": 38798668540,
+          "name": "vm",
+          "path": ".github/workflows/vm.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38798668540",
+          "head_sha": "1d3c1901a5a14911d0caba69e59926929b10e963"
+        },
+        {
+          "id": 38798668669,
+          "name": "validate-milestone",
+          "path": ".github/workflows/validate-milestone.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/moby/moby/actions/runs/38798668669",
+          "head_sha": "1d3c1901a5a14911d0caba69e59926929b10e963"
+        },
+        {
+          "id": 38798668714,
+          "name": "validate-pr",
+          "path": ".github/workflows/validate-pr.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38798668714",
+          "head_sha": "1d3c1901a5a14911d0caba69e59926929b10e963"
+        },
+        {
+          "id": 38798668771,
+          "name": "windows-integration-flaky",
+          "path": ".github/workflows/windows-integration-flaky.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38798668771",
+          "head_sha": "1d3c1901a5a14911d0caba69e59926929b10e963"
+        },
+        {
+          "id": 38798669294,
+          "name": "zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38798669294",
+          "head_sha": "1d3c1901a5a14911d0caba69e59926929b10e963"
+        },
+        {
+          "id": 38798668594,
+          "name": "codeql",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38798668594",
+          "head_sha": "1d3c1901a5a14911d0caba69e59926929b10e963"
+        },
+        {
+          "id": 38798670078,
+          "name": "bin-image",
+          "path": ".github/workflows/bin-image.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38798670078",
+          "head_sha": "1d3c1901a5a14911d0caba69e59926929b10e963"
+        },
+        {
+          "id": 38798668595,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38798668595",
+          "head_sha": "1d3c1901a5a14911d0caba69e59926929b10e963"
+        },
+        {
+          "id": 38798668640,
+          "name": "test",
+          "path": ".github/workflows/test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/moby/moby/actions/runs/38798668640",
+          "head_sha": "1d3c1901a5a14911d0caba69e59926929b10e963"
+        }
+      ]
+    },
+    {
+      "number": 53903,
+      "title": "client: honor context cancellation when dialing TLS",
+      "url": "https://github.com/moby/moby/pull/53903",
+      "merged_at": "2026-10-16T10:18:46Z",
+      "merge_commit_sha": "63ab5f4521a1a48302c300816839b6652a50b57d",
+      "files": [
+        "client/client.go",
+        "client/client_test.go",
+        "vendor/github.com/moby/moby/client/client.go"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "client/client.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/f8773a7cd889d1474464527ee67131ce84997729/client%2Fclient.go"
+        },
+        {
+          "filename": "client/client_test.go",
+          "status": "modified",
+          "additions": 104,
+          "deletions": 0,
+          "blob_url": "https://github.com/moby/moby/blob/f8773a7cd889d1474464527ee67131ce84997729/client%2Fclient_test.go"
+        },
+        {
+          "filename": "vendor/github.com/moby/moby/client/client.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/f8773a7cd889d1474464527ee67131ce84997729/vendor%2Fgithub.com%2Fmoby%2Fmoby%2Fclient%2Fclient.go"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38886391767,
+          "name": "buildkit",
+          "path": ".github/workflows/buildkit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38886391767",
+          "head_sha": "63ab5f4521a1a48302c300816839b6652a50b57d"
+        },
+        {
+          "id": 38886391616,
+          "name": "test",
+          "path": ".github/workflows/test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38886391616",
+          "head_sha": "63ab5f4521a1a48302c300816839b6652a50b57d"
+        },
+        {
+          "id": 38886391798,
+          "name": "windows-2025",
+          "path": ".github/workflows/windows-2025.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38886391798",
+          "head_sha": "63ab5f4521a1a48302c300816839b6652a50b57d"
+        },
+        {
+          "id": 38886392268,
+          "name": "zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38886392268",
+          "head_sha": "63ab5f4521a1a48302c300816839b6652a50b57d"
+        },
+        {
+          "id": 38886391403,
+          "name": "Code Quality: Push on master",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38886391403",
+          "head_sha": "63ab5f4521a1a48302c300816839b6652a50b57d"
+        },
+        {
+          "id": 38886391553,
+          "name": "codeql",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38886391553",
+          "head_sha": "63ab5f4521a1a48302c300816839b6652a50b57d"
+        },
+        {
+          "id": 38886392102,
+          "name": "bin-image",
+          "path": ".github/workflows/bin-image.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38886392102",
+          "head_sha": "63ab5f4521a1a48302c300816839b6652a50b57d"
+        },
+        {
+          "id": 38886391750,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38886391750",
+          "head_sha": "63ab5f4521a1a48302c300816839b6652a50b57d"
+        },
+        {
+          "id": 38886392018,
+          "name": "vm",
+          "path": ".github/workflows/vm.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38886392018",
+          "head_sha": "63ab5f4521a1a48302c300816839b6652a50b57d"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38873669967,
+          "name": "test",
+          "path": ".github/workflows/test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38873669967",
+          "head_sha": "f8773a7cd889d1474464527ee67131ce84997729"
+        },
+        {
+          "id": 38873670680,
+          "name": "bin-image",
+          "path": ".github/workflows/bin-image.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38873670680",
+          "head_sha": "f8773a7cd889d1474464527ee67131ce84997729"
+        },
+        {
+          "id": 38873669716,
+          "name": "validate-pr",
+          "path": ".github/workflows/validate-pr.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38873669716",
+          "head_sha": "f8773a7cd889d1474464527ee67131ce84997729"
+        },
+        {
+          "id": 38873669878,
+          "name": "validate-milestone",
+          "path": ".github/workflows/validate-milestone.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38873669878",
+          "head_sha": "f8773a7cd889d1474464527ee67131ce84997729"
+        },
+        {
+          "id": 38873669852,
+          "name": "windows-2025",
+          "path": ".github/workflows/windows-2025.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38873669852",
+          "head_sha": "f8773a7cd889d1474464527ee67131ce84997729"
+        },
+        {
+          "id": 38873669964,
+          "name": "vm",
+          "path": ".github/workflows/vm.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38873669964",
+          "head_sha": "f8773a7cd889d1474464527ee67131ce84997729"
+        },
+        {
+          "id": 38873670508,
+          "name": "zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38873670508",
+          "head_sha": "f8773a7cd889d1474464527ee67131ce84997729"
+        },
+        {
+          "id": 38873669819,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38873669819",
+          "head_sha": "f8773a7cd889d1474464527ee67131ce84997729"
+        },
+        {
+          "id": 38873669730,
+          "name": "codeql",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38873669730",
+          "head_sha": "f8773a7cd889d1474464527ee67131ce84997729"
+        },
+        {
+          "id": 38873669780,
+          "name": "windows-integration-flaky",
+          "path": ".github/workflows/windows-integration-flaky.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/moby/moby/actions/runs/38873669780",
+          "head_sha": "f8773a7cd889d1474464527ee67131ce84997729"
+        }
+      ]
+    },
+    {
+      "number": 53972,
+      "title": "Bump API to 1.57",
+      "url": "https://github.com/moby/moby/pull/53972",
+      "merged_at": "2026-10-15T21:47:27Z",
+      "merge_commit_sha": "c5c09961ba9aa3db0aacae52b6a54fd7aee3dee4",
+      "files": [
+        "api/docs/CHANGELOG.md",
+        "api/swagger.yaml",
+        "client/client.go",
+        "client/go.mod",
+        "client/go.sum",
+        "daemon/config/config.go",
+        "go.mod",
+        "go.sum",
+        "vendor/github.com/moby/moby/client/client.go",
+        "vendor/modules.txt"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "api/docs/CHANGELOG.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/moby/moby/blob/6d8a30ebb3b39689fd06de95fd9c2c340297d259/api%2Fdocs%2FCHANGELOG.md"
+        },
+        {
+          "filename": "api/swagger.yaml",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/moby/moby/blob/6d8a30ebb3b39689fd06de95fd9c2c340297d259/api%2Fswagger.yaml"
+        },
+        {
+          "filename": "client/client.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/6d8a30ebb3b39689fd06de95fd9c2c340297d259/client%2Fclient.go"
+        },
+        {
+          "filename": "client/go.mod",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/moby/moby/blob/6d8a30ebb3b39689fd06de95fd9c2c340297d259/client%2Fgo.mod"
+        },
+        {
+          "filename": "client/go.sum",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/6d8a30ebb3b39689fd06de95fd9c2c340297d259/client%2Fgo.sum"
+        },
+        {
+          "filename": "daemon/config/config.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/6d8a30ebb3b39689fd06de95fd9c2c340297d259/daemon%2Fconfig%2Fconfig.go"
+        },
+        {
+          "filename": "go.mod",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/moby/moby/blob/6d8a30ebb3b39689fd06de95fd9c2c340297d259/go.mod"
+        },
+        {
+          "filename": "go.sum",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 4,
+          "blob_url": "https://github.com/moby/moby/blob/6d8a30ebb3b39689fd06de95fd9c2c340297d259/go.sum"
+        },
+        {
+          "filename": "vendor/github.com/moby/moby/client/client.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/moby/moby/blob/6d8a30ebb3b39689fd06de95fd9c2c340297d259/vendor%2Fgithub.com%2Fmoby%2Fmoby%2Fclient%2Fclient.go"
+        },
+        {
+          "filename": "vendor/modules.txt",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 2,
+          "blob_url": "https://github.com/moby/moby/blob/6d8a30ebb3b39689fd06de95fd9c2c340297d259/vendor%2Fmodules.txt"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38884677966,
+          "name": "windows-2022",
+          "path": ".github/workflows/windows-2022.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38884677966",
+          "head_sha": "c5c09961ba9aa3db0aacae52b6a54fd7aee3dee4"
+        },
+        {
+          "id": 38870469695,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38870469695",
+          "head_sha": "c5c09961ba9aa3db0aacae52b6a54fd7aee3dee4"
+        },
+        {
+          "id": 38870460130,
+          "name": "PR Review",
+          "path": ".github/workflows/pr-review.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/moby/moby/actions/runs/38870460130",
+          "head_sha": "c5c09961ba9aa3db0aacae52b6a54fd7aee3dee4"
+        },
+        {
+          "id": 38831415179,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38831415179",
+          "head_sha": "c5c09961ba9aa3db0aacae52b6a54fd7aee3dee4"
+        },
+        {
+          "id": 38831406483,
+          "name": "PR Review",
+          "path": ".github/workflows/pr-review.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/moby/moby/actions/runs/38831406483",
+          "head_sha": "c5c09961ba9aa3db0aacae52b6a54fd7aee3dee4"
+        },
+        {
+          "id": 38829100544,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38829100544",
+          "head_sha": "c5c09961ba9aa3db0aacae52b6a54fd7aee3dee4"
+        },
+        {
+          "id": 38829094780,
+          "name": "PR Review",
+          "path": ".github/workflows/pr-review.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/moby/moby/actions/runs/38829094780",
+          "head_sha": "c5c09961ba9aa3db0aacae52b6a54fd7aee3dee4"
+        },
+        {
+          "id": 38826915262,
+          "name": "PR Review",
+          "path": ".github/workflows/pr-review.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/moby/moby/actions/runs/38826915262",
+          "head_sha": "c5c09961ba9aa3db0aacae52b6a54fd7aee3dee4"
+        },
+        {
+          "id": 38826908659,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38826908659",
+          "head_sha": "c5c09961ba9aa3db0aacae52b6a54fd7aee3dee4"
+        },
+        {
+          "id": 38818712266,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38818712266",
+          "head_sha": "c5c09961ba9aa3db0aacae52b6a54fd7aee3dee4"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38870001725,
+          "name": "validate-pr",
+          "path": ".github/workflows/validate-pr.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/moby/moby/actions/runs/38870001725",
+          "head_sha": "6d8a30ebb3b39689fd06de95fd9c2c340297d259"
+        },
+        {
+          "id": 38870000310,
+          "name": "validate-pr",
+          "path": ".github/workflows/validate-pr.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/moby/moby/actions/runs/38870000310",
+          "head_sha": "6d8a30ebb3b39689fd06de95fd9c2c340297d259"
+        },
+        {
+          "id": 38870000494,
+          "name": "validate-pr",
+          "path": ".github/workflows/validate-pr.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/moby/moby/actions/runs/38870000494",
+          "head_sha": "6d8a30ebb3b39689fd06de95fd9c2c340297d259"
+        },
+        {
+          "id": 38869951924,
+          "name": "validate-milestone",
+          "path": ".github/workflows/validate-milestone.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/moby/moby/actions/runs/38869951924",
+          "head_sha": "6d8a30ebb3b39689fd06de95fd9c2c340297d259"
+        },
+        {
+          "id": 38869952117,
+          "name": "validate-pr",
+          "path": ".github/workflows/validate-pr.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/moby/moby/actions/runs/38869952117",
+          "head_sha": "6d8a30ebb3b39689fd06de95fd9c2c340297d259"
+        },
+        {
+          "id": 38812451991,
+          "name": "validate-pr",
+          "path": ".github/workflows/validate-pr.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38812451991",
+          "head_sha": "6d8a30ebb3b39689fd06de95fd9c2c340297d259"
+        },
+        {
+          "id": 38812450419,
+          "name": "validate-pr",
+          "path": ".github/workflows/validate-pr.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/moby/moby/actions/runs/38812450419",
+          "head_sha": "6d8a30ebb3b39689fd06de95fd9c2c340297d259"
+        },
+        {
+          "id": 38812450870,
+          "name": "validate-pr",
+          "path": ".github/workflows/validate-pr.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/moby/moby/actions/runs/38812450870",
+          "head_sha": "6d8a30ebb3b39689fd06de95fd9c2c340297d259"
+        },
+        {
+          "id": 38812443136,
+          "name": "validate-pr",
+          "path": ".github/workflows/validate-pr.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/moby/moby/actions/runs/38812443136",
+          "head_sha": "6d8a30ebb3b39689fd06de95fd9c2c340297d259"
+        },
+        {
+          "id": 38808781162,
+          "name": "test",
+          "path": ".github/workflows/test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38808781162",
+          "head_sha": "6d8a30ebb3b39689fd06de95fd9c2c340297d259"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "docker-v29.9.1",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.9.1",
+      "published_at": "2026-10-14T19:28:37Z",
+      "target_commitish": "master",
+      "commit_sha": "b26fb77d3e7b01f9d21b89539c1ab428f5ca431f",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38717487321,
+          "name": "windows-2022",
+          "path": ".github/workflows/windows-2022.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/moby/moby/actions/runs/38717487321",
+          "head_sha": "b26fb77d3e7b01f9d21b89539c1ab428f5ca431f"
+        },
+        {
+          "id": 38713661629,
+          "name": "PR Review",
+          "path": ".github/workflows/pr-review.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/moby/moby/actions/runs/38713661629",
+          "head_sha": "b26fb77d3e7b01f9d21b89539c1ab428f5ca431f"
+        },
+        {
+          "id": 38711793298,
+          "name": "codeql",
+          "path": ".github/workflows/codeql.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38711793298",
+          "head_sha": "b26fb77d3e7b01f9d21b89539c1ab428f5ca431f"
+        },
+        {
+          "id": 38627898660,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38627898660",
+          "head_sha": "b26fb77d3e7b01f9d21b89539c1ab428f5ca431f"
+        },
+        {
+          "id": 38627893972,
+          "name": "PR Review",
+          "path": ".github/workflows/pr-review.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/moby/moby/actions/runs/38627893972",
+          "head_sha": "b26fb77d3e7b01f9d21b89539c1ab428f5ca431f"
+        },
+        {
+          "id": 38627859419,
+          "name": "PR Review",
+          "path": ".github/workflows/pr-review.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/moby/moby/actions/runs/38627859419",
+          "head_sha": "b26fb77d3e7b01f9d21b89539c1ab428f5ca431f"
+        },
+        {
+          "id": 38627860558,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38627860558",
+          "head_sha": "b26fb77d3e7b01f9d21b89539c1ab428f5ca431f"
+        },
+        {
+          "id": 38625481468,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38625481468",
+          "head_sha": "b26fb77d3e7b01f9d21b89539c1ab428f5ca431f"
+        },
+        {
+          "id": 38625473802,
+          "name": "PR Review",
+          "path": ".github/workflows/pr-review.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/moby/moby/actions/runs/38625473802",
+          "head_sha": "b26fb77d3e7b01f9d21b89539c1ab428f5ca431f"
+        },
+        {
+          "id": 38623189728,
+          "name": "zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/38623189728",
+          "head_sha": "b26fb77d3e7b01f9d21b89539c1ab428f5ca431f"
+        }
+      ]
+    },
+    {
+      "tag": "docker-v29.9.0",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.9.0",
+      "published_at": "2026-10-08T21:34:57Z",
+      "target_commitish": "master",
+      "commit_sha": "a5b58c94d334674eae3a3207d4f05417643a90d0",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37915263527,
+          "name": "windows-2022",
+          "path": ".github/workflows/windows-2022.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/37915263527",
+          "head_sha": "a5b58c94d334674eae3a3207d4f05417643a90d0"
+        },
+        {
+          "id": 37907208766,
+          "name": "PR Review",
+          "path": ".github/workflows/pr-review.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/moby/moby/actions/runs/37907208766",
+          "head_sha": "a5b58c94d334674eae3a3207d4f05417643a90d0"
+        },
+        {
+          "id": 37907200109,
+          "name": "PR Review",
+          "path": ".github/workflows/pr-review.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/moby/moby/actions/runs/37907200109",
+          "head_sha": "a5b58c94d334674eae3a3207d4f05417643a90d0"
+        },
+        {
+          "id": 37847749195,
+          "name": "zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/37847749195",
+          "head_sha": "a5b58c94d334674eae3a3207d4f05417643a90d0"
+        },
+        {
+          "id": 37847749679,
+          "name": "bin-image",
+          "path": ".github/workflows/bin-image.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/37847749679",
+          "head_sha": "a5b58c94d334674eae3a3207d4f05417643a90d0"
+        },
+        {
+          "id": 37847748561,
+          "name": "codeql",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/37847748561",
+          "head_sha": "a5b58c94d334674eae3a3207d4f05417643a90d0"
+        },
+        {
+          "id": 37841672168,
+          "name": "zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/37841672168",
+          "head_sha": "a5b58c94d334674eae3a3207d4f05417643a90d0"
+        },
+        {
+          "id": 37841672580,
+          "name": "bin-image",
+          "path": ".github/workflows/bin-image.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/37841672580",
+          "head_sha": "a5b58c94d334674eae3a3207d4f05417643a90d0"
+        },
+        {
+          "id": 37841670982,
+          "name": "codeql",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/37841670982",
+          "head_sha": "a5b58c94d334674eae3a3207d4f05417643a90d0"
+        },
+        {
+          "id": 37839627380,
+          "name": "Graph Update: go_modules in /. #1618032095",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/37839627380",
+          "head_sha": "a5b58c94d334674eae3a3207d4f05417643a90d0"
+        }
+      ]
+    },
+    {
+      "tag": "client/v0.6.2",
+      "url": "https://github.com/moby/moby/releases/tag/client/v0.6.2",
+      "published_at": "2026-10-08T20:06:34Z",
+      "target_commitish": "master",
+      "commit_sha": "21a2258cf01135bdd0f2b06f3e2de538f00dc29f",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37838277159,
+          "name": "PR Review",
+          "path": ".github/workflows/pr-review.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/moby/moby/actions/runs/37838277159",
+          "head_sha": "21a2258cf01135bdd0f2b06f3e2de538f00dc29f"
+        },
+        {
+          "id": 37836856718,
+          "name": "zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/37836856718",
+          "head_sha": "21a2258cf01135bdd0f2b06f3e2de538f00dc29f"
+        },
+        {
+          "id": 37836854269,
+          "name": "codeql",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/37836854269",
+          "head_sha": "21a2258cf01135bdd0f2b06f3e2de538f00dc29f"
+        },
+        {
+          "id": 37836378709,
+          "name": "Graph Update: go_modules in /., /client #1617989202",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/37836378709",
+          "head_sha": "21a2258cf01135bdd0f2b06f3e2de538f00dc29f"
+        },
+        {
+          "id": 37836369944,
+          "name": "windows-2025",
+          "path": ".github/workflows/windows-2025.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/37836369944",
+          "head_sha": "21a2258cf01135bdd0f2b06f3e2de538f00dc29f"
+        },
+        {
+          "id": 37836369508,
+          "name": "buildkit",
+          "path": ".github/workflows/buildkit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/moby/moby/actions/runs/37836369508",
+          "head_sha": "21a2258cf01135bdd0f2b06f3e2de538f00dc29f"
+        },
+        {
+          "id": 37836369904,
+          "name": "zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/37836369904",
+          "head_sha": "21a2258cf01135bdd0f2b06f3e2de538f00dc29f"
+        },
+        {
+          "id": 37836369827,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/37836369827",
+          "head_sha": "21a2258cf01135bdd0f2b06f3e2de538f00dc29f"
+        },
+        {
+          "id": 37836370928,
+          "name": "bin-image",
+          "path": ".github/workflows/bin-image.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/37836370928",
+          "head_sha": "21a2258cf01135bdd0f2b06f3e2de538f00dc29f"
+        },
+        {
+          "id": 37836369691,
+          "name": "vm",
+          "path": ".github/workflows/vm.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/moby/moby/actions/runs/37836369691",
+          "head_sha": "21a2258cf01135bdd0f2b06f3e2de538f00dc29f"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "xdocs-v1.10-28-mar-2016",
+      "sha": "0e63b073ac8f33335a4d4df3f2aa22120e0b7f43"
+    },
+    {
+      "name": "xdocs-v1.10-09-05-2016",
+      "sha": "2d51863b706537b988785d03d0f983242948e328"
+    },
+    {
+      "name": "v28.5.2",
+      "sha": "89c5e8fd66634b6128fc4c0e6f1236e2540e46e0"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:11.902958+00:00",
+  "source_times": {
+    "/repos/moby/moby": "2026-10-17T16:13:42.242919+00:00",
+    "/repos/moby/moby/commits?sha=master&per_page=20": "2026-10-17T16:13:44.116949+00:00",
+    "/repos/moby/moby/git/trees/3f38b15147b14ce0ce7b11558a1aa9e9f14db103": "2026-10-17T16:13:45.493110+00:00",
+    "/repos/moby/moby/git/trees/40ce6d33852c097dad258866c0e8de50d90d6a8a": "2026-10-17T16:13:46.925916+00:00",
+    "/repos/moby/moby/git/trees/cde7e3f13db8fcb110d019eee75f91f936931de3": "2026-10-17T16:13:48.273588+00:00",
+    "/repos/moby/moby/git/trees/1cda27b2a1fa8e169853fae902c5fee0a0a47388": "2026-10-17T16:13:49.685299+00:00",
+    "/repos/moby/moby/git/trees/a64d11cf44b650195801281b4d8abe6cb5e21ddb": "2026-10-17T16:13:51.035544+00:00",
+    "/repos/moby/moby/git/blobs/c90ea029d79b841c0c3f41f6fdd53920c2470529": "2026-10-17T16:13:52.397368+00:00",
+    "/repos/moby/moby/git/blobs/47dc3e3d863cfb5727b87d785d09abf9743c0a72": "2026-10-17T16:13:53.753627+00:00",
+    "/repos/moby/moby/git/blobs/02e1a42d7226a018c8237cb366715da720aaf507": "2026-10-17T16:13:55.202540+00:00",
+    "/repos/moby/moby/git/blobs/d02b31dd852d99ca512a4fc3bcf67d21d274ddc4": "2026-10-17T16:13:56.671493+00:00",
+    "/repos/moby/moby/git/blobs/c023ae1961ec110c1fc324d9fd671b05542924c9": "2026-10-17T16:13:58.113217+00:00",
+    "/repos/moby/moby/git/blobs/fae3ea838fb6d1034d0e6ebf3ee39491d1812438": "2026-10-17T16:14:00.171870+00:00",
+    "/repos/moby/moby/git/blobs/d54e15e11732451224f1c97aedeed6fe39036c60": "2026-10-17T16:14:01.546333+00:00",
+    "/repos/moby/moby/git/blobs/13aa31641c7f3960a7d4752fc616b890f860c6cd": "2026-10-17T16:14:04.076612+00:00",
+    "/repos/moby/moby/git/blobs/7d9e640137d6ac62fe85723f0e8f1defd2ea695c": "2026-10-17T16:14:05.511399+00:00",
+    "/repos/moby/moby/git/blobs/27edddbe72e672a1d3c3878cf6053c559c94ff58": "2026-10-17T16:14:07.013788+00:00",
+    "/repos/moby/moby/git/blobs/7494abb1e2ab374443f87e434635da2eed3bf898": "2026-10-17T16:14:09.402391+00:00",
+    "/repos/moby/moby/git/blobs/d3574a4bd8e56c12dec68f566874c85dd4b6c59e": "2026-10-17T16:14:11.754955+00:00",
+    "/repos/moby/moby/git/blobs/c2e6f72a5aae9f6d1efe9816d0a1142a8695f5cf": "2026-10-17T16:14:13.140870+00:00",
+    "/repos/moby/moby/git/blobs/a857905ecba2d3ad5d20500eb5e1e59a13ed86ff": "2026-10-17T16:14:14.526986+00:00",
+    "/repos/moby/moby/git/blobs/b2a3ebee04686f3c3b73ac25d39d95a25409009e": "2026-10-17T16:14:16.096091+00:00",
+    "/repos/moby/moby/git/blobs/23d6ba140332b8741e3e331e5c37078042197120": "2026-10-17T16:14:17.463795+00:00",
+    "/repos/moby/moby/git/blobs/4c67ea5b16623d7a3b1dd19745564973414a4fa6": "2026-10-17T16:14:18.867011+00:00",
+    "/repos/moby/moby/git/blobs/479791c28f1a80e4a802bee80e911c22bcd4f1e4": "2026-10-17T16:14:21.247682+00:00",
+    "/repos/moby/moby/git/blobs/80a32f02d6a2f3a599f2a70e657ccbf28f4861b0": "2026-10-17T16:14:22.933473+00:00",
+    "/repos/moby/moby/git/blobs/a9b89db7b2b8691129468e4530d054f039da6f58": "2026-10-17T16:14:24.596739+00:00",
+    "/repos/moby/moby/git/blobs/64f349546f0bec5e6403ca69510340e0cd5e76cc": "2026-10-17T16:14:26.041037+00:00",
+    "/repos/moby/moby/git/blobs/88d419bad3f8605a9da7c950a6fe99fb90aa00d5": "2026-10-17T16:14:27.677377+00:00",
+    "/repos/moby/moby/git/blobs/5366ba4ff8d3865838f3e7e947d83c0b8d0206f5": "2026-10-17T16:14:30.104696+00:00",
+    "/repos/moby/moby/git/blobs/09f698bba6ef35b3c1bb9b1ffc5753597c19ccd5": "2026-10-17T16:14:31.521410+00:00",
+    "/repos/moby/moby/git/blobs/d4150fe82c5a584cc32726af5882aed900932aeb": "2026-10-17T16:14:32.894544+00:00",
+    "/repos/moby/moby/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:14:37.698545+00:00",
+    "/repos/moby/moby/pulls/53970/files?per_page=100": "2026-10-17T16:14:39.765581+00:00",
+    "/repos/moby/moby/pulls/53970/reviews?per_page=100": "2026-10-17T16:14:41.266921+00:00",
+    "/repos/moby/moby/actions/runs?head_sha=3f38b15147b14ce0ce7b11558a1aa9e9f14db103&per_page=10": "2026-10-17T16:14:43.958377+00:00",
+    "/repos/moby/moby/actions/runs?head_sha=1d3c1901a5a14911d0caba69e59926929b10e963&per_page=10": "2026-10-17T16:14:46.161043+00:00",
+    "/repos/moby/moby/pulls/53903/files?per_page=100": "2026-10-17T16:14:47.689248+00:00",
+    "/repos/moby/moby/pulls/53903/reviews?per_page=100": "2026-10-17T16:14:49.269874+00:00",
+    "/repos/moby/moby/actions/runs?head_sha=63ab5f4521a1a48302c300816839b6652a50b57d&per_page=10": "2026-10-17T16:14:51.532749+00:00",
+    "/repos/moby/moby/actions/runs?head_sha=f8773a7cd889d1474464527ee67131ce84997729&per_page=10": "2026-10-17T16:14:54.573188+00:00",
+    "/repos/moby/moby/pulls/53972/files?per_page=100": "2026-10-17T16:14:57.110095+00:00",
+    "/repos/moby/moby/pulls/53972/reviews?per_page=100": "2026-10-17T16:14:58.672805+00:00",
+    "/repos/moby/moby/actions/runs?head_sha=c5c09961ba9aa3db0aacae52b6a54fd7aee3dee4&per_page=10": "2026-10-17T16:15:01.974657+00:00",
+    "/repos/moby/moby/actions/runs?head_sha=6d8a30ebb3b39689fd06de95fd9c2c340297d259&per_page=10": "2026-10-17T16:15:06.073555+00:00",
+    "/repos/moby/moby/releases?per_page=20&page=1": "2026-10-17T16:17:11.898813+00:00",
+    "/repos/moby/moby/commits/docker-v29.9.1": "2026-10-17T16:15:11.799124+00:00",
+    "/repos/moby/moby/actions/runs?head_sha=b26fb77d3e7b01f9d21b89539c1ab428f5ca431f&per_page=10": "2026-10-17T16:15:14.336618+00:00",
+    "/repos/moby/moby/commits/docker-v29.9.0": "2026-10-17T16:15:16.923143+00:00",
+    "/repos/moby/moby/actions/runs?head_sha=a5b58c94d334674eae3a3207d4f05417643a90d0&per_page=10": "2026-10-17T16:15:19.333267+00:00",
+    "/repos/moby/moby/commits/client%2Fv0.6.2": "2026-10-17T16:15:20.776298+00:00",
+    "/repos/moby/moby/actions/runs?head_sha=21a2258cf01135bdd0f2b06f3e2de538f00dc29f&per_page=10": "2026-10-17T16:15:23.142333+00:00",
+    "/repos/moby/moby/tags?per_page=3": "2026-10-17T16:15:25.495507+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:11.898813+00:00",
+  "status": "collected"
+}

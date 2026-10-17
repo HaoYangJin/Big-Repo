@@ -1,0 +1,632 @@
+{
+  "requested_repository": "golang/go",
+  "category": "tools",
+  "collected_at": "2026-10-17T16:16:12.143249+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "golang/go",
+  "metadata": {
+    "html_url": "https://github.com/golang/go",
+    "description": "The Go programming language",
+    "homepage": "https://go.dev",
+    "language": "Go",
+    "stargazers_count": 139283,
+    "forks_count": 22571,
+    "open_issues_count": 10374,
+    "pushed_at": "2026-10-17T01:15:20Z",
+    "created_at": "2014-08-19T04:33:40Z",
+    "archived": false,
+    "default_branch": "master",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "topics": [
+      "go",
+      "golang",
+      "language",
+      "programming-language"
+    ],
+    "owner": {
+      "login": "golang",
+      "type": "Organization",
+      "html_url": "https://github.com/golang"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f",
+      "url": "https://github.com/golang/go/commit/dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f",
+      "date": "2026-10-17T01:14:08Z",
+      "subject": "cmd/compile: save and restore base.Pos some places where it's set"
+    },
+    {
+      "sha": "29ceccda777f02095dc314d66464ba2a22492d12",
+      "url": "https://github.com/golang/go/commit/29ceccda777f02095dc314d66464ba2a22492d12",
+      "date": "2026-10-17T00:58:27Z",
+      "subject": "cmd/internal/obj/loong64: optimize WORD instruction implementation"
+    },
+    {
+      "sha": "c3a068eec992b5ae783abce1a9d03f617b671ea2",
+      "url": "https://github.com/golang/go/commit/c3a068eec992b5ae783abce1a9d03f617b671ea2",
+      "date": "2026-10-16T21:47:22Z",
+      "subject": "Revert \"internal/poll, runtime: isolate synchronous pipe I/O on Windows\""
+    },
+    {
+      "sha": "8dfdca7cf2802057554f48c9d53ace41e3dc8a55",
+      "url": "https://github.com/golang/go/commit/8dfdca7cf2802057554f48c9d53ace41e3dc8a55",
+      "date": "2026-10-16T21:05:50Z",
+      "subject": "cmd/compile, simd/archsimd: add SVE mask FromCount constructors"
+    },
+    {
+      "sha": "c72492ee6dbb94a8e890be74b07f40d0a5acfd20",
+      "url": "https://github.com/golang/go/commit/c72492ee6dbb94a8e890be74b07f40d0a5acfd20",
+      "date": "2026-10-16T20:59:45Z",
+      "subject": "cmd/compile, simd/archsimd: add SVE ShiftAllLeft"
+    },
+    {
+      "sha": "3b3ca4b7e6b99bdafdc0a9fee89e9bd616a2afa0",
+      "url": "https://github.com/golang/go/commit/3b3ca4b7e6b99bdafdc0a9fee89e9bd616a2afa0",
+      "date": "2026-10-16T20:54:55Z",
+      "subject": "cmd/go: don't let shared flags influence analyzer selection in std"
+    },
+    {
+      "sha": "61f71547c919363251dbc7bff10dac3565bc6b5a",
+      "url": "https://github.com/golang/go/commit/61f71547c919363251dbc7bff10dac3565bc6b5a",
+      "date": "2026-10-16T20:50:01Z",
+      "subject": "cmd/dist: add -artifacts-dir flag to dist test"
+    },
+    {
+      "sha": "b89302fe749fbb4ccf559b51975434ab830427bd",
+      "url": "https://github.com/golang/go/commit/b89302fe749fbb4ccf559b51975434ab830427bd",
+      "date": "2026-10-16T20:47:18Z",
+      "subject": "cmd/link: add a test for large symbol table in TestLargeReloc"
+    },
+    {
+      "sha": "8d781f9969c2c43286cdcaf0e237ca0abcc53e47",
+      "url": "https://github.com/golang/go/commit/8d781f9969c2c43286cdcaf0e237ca0abcc53e47",
+      "date": "2026-10-16T20:45:50Z",
+      "subject": "simd/archsimd/_gen: give SVE immediates a width and a range"
+    },
+    {
+      "sha": "a40a16659edabfbd059d450f078f58b3fa3e9b2f",
+      "url": "https://github.com/golang/go/commit/a40a16659edabfbd059d450f078f58b3fa3e9b2f",
+      "date": "2026-10-16T20:45:42Z",
+      "subject": "simd/archsimd/_gen: key SVE arrangement rows by all their fields"
+    },
+    {
+      "sha": "efb714d031a7f59445aa6243f15eb00c79d11c8e",
+      "url": "https://github.com/golang/go/commit/efb714d031a7f59445aa6243f15eb00c79d11c8e",
+      "date": "2026-10-16T20:45:27Z",
+      "subject": "simd/archsimd: add SVE Float32s.ConvertToInt32"
+    },
+    {
+      "sha": "7eca4e7ce3d3cbf1080997245fb4754b341571a8",
+      "url": "https://github.com/golang/go/commit/7eca4e7ce3d3cbf1080997245fb4754b341571a8",
+      "date": "2026-10-16T20:42:25Z",
+      "subject": "simd/archsimd/_gen: fold SVE predicated-only encodings per element width"
+    },
+    {
+      "sha": "387be2596257b51a0395bab693face5898824957",
+      "url": "https://github.com/golang/go/commit/387be2596257b51a0395bab693face5898824957",
+      "date": "2026-10-16T20:42:12Z",
+      "subject": "simd/archsimd: add SVE float ReduceMax"
+    },
+    {
+      "sha": "072b45cb3fcb255fdf9f7853c4435e39dede80f0",
+      "url": "https://github.com/golang/go/commit/072b45cb3fcb255fdf9f7853c4435e39dede80f0",
+      "date": "2026-10-16T20:39:06Z",
+      "subject": "simd/internal/spec: add ReduceMax"
+    },
+    {
+      "sha": "dbd397ac6d88e1e67b7cf7349f43688dcc22dcbc",
+      "url": "https://github.com/golang/go/commit/dbd397ac6d88e1e67b7cf7349f43688dcc22dcbc",
+      "date": "2026-10-16T20:36:20Z",
+      "subject": "cmd/compile, simd/archsimd: add SVE float ReduceSum"
+    },
+    {
+      "sha": "73c5f6f1827f4709e9e01336fb03d4fcd07b6445",
+      "url": "https://github.com/golang/go/commit/73c5f6f1827f4709e9e01336fb03d4fcd07b6445",
+      "date": "2026-10-16T20:17:51Z",
+      "subject": "cmd/go: keep go vet's own tool flags in std packages"
+    },
+    {
+      "sha": "0564ffd5f2e77883d39d369bd52fff66a253e8dd",
+      "url": "https://github.com/golang/go/commit/0564ffd5f2e77883d39d369bd52fff66a253e8dd",
+      "date": "2026-10-16T20:00:55Z",
+      "subject": "cmd/compile: fix ICE on range over unsigned constant >= 2^63 in clear loop"
+    },
+    {
+      "sha": "91d55590e660b77c3f2b099a8cb15a2f166fa68b",
+      "url": "https://github.com/golang/go/commit/91d55590e660b77c3f2b099a8cb15a2f166fa68b",
+      "date": "2026-10-16T20:00:38Z",
+      "subject": "cmd/compile: optimise bit tests with register shift values on riscv64"
+    },
+    {
+      "sha": "16d46baf6f96b0bd0c8fc1f4a32074f79966a6ed",
+      "url": "https://github.com/golang/go/commit/16d46baf6f96b0bd0c8fc1f4a32074f79966a6ed",
+      "date": "2026-10-16T19:56:52Z",
+      "subject": "runtime, testing: use a precise monotonic clock on Windows"
+    },
+    {
+      "sha": "53360921161c76348a30fe1cdb701e313710dc88",
+      "url": "https://github.com/golang/go/commit/53360921161c76348a30fe1cdb701e313710dc88",
+      "date": "2026-10-16T19:56:35Z",
+      "subject": "runtime: handle safe-point requests before executing goroutines"
+    }
+  ],
+  "default_sha": "dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f",
+  "root_and_selected_directory_paths": [
+    ".gitattributes",
+    ".github",
+    ".github/CODE_OF_CONDUCT.md",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/00-bug.yml",
+    ".github/ISSUE_TEMPLATE/01-pkgsite.yml",
+    ".github/ISSUE_TEMPLATE/02-pkgsite-removal.yml",
+    ".github/ISSUE_TEMPLATE/03-gopls.yml",
+    ".github/ISSUE_TEMPLATE/04-vuln.yml",
+    ".github/ISSUE_TEMPLATE/10-proposal.yml",
+    ".github/ISSUE_TEMPLATE/11-language-change.yml",
+    ".github/ISSUE_TEMPLATE/12-telemetry.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/PULL_REQUEST_TEMPLATE",
+    ".github/SUPPORT.md",
+    ".gitignore",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "PATENTS",
+    "README.md",
+    "SECURITY.md",
+    "api",
+    "codereview.cfg",
+    "doc",
+    "doc/README.md",
+    "doc/asm.html",
+    "doc/go_mem.html",
+    "doc/go_spec.html",
+    "doc/godebug.md",
+    "doc/initial",
+    "doc/next",
+    "go.env",
+    "lib",
+    "misc",
+    "src",
+    "test"
+  ],
+  "workflow_paths": [],
+  "documents": [
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "4cd76c29503d5dcee45240cd4de94e4f25c78d28",
+      "status": "inspected",
+      "url": "https://github.com/golang/go/blob/dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f/CONTRIBUTING.md",
+      "lines": 35,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          16
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "71c9d1dc2993880f38d227085d1b48c4070d1e85",
+      "status": "inspected",
+      "url": "https://github.com/golang/go/blob/dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f/README.md",
+      "lines": 42,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [
+          6
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "e1718f0b012f7cea592027ae7574a6878f05f3fc",
+      "status": "inspected",
+      "url": "https://github.com/golang/go/blob/dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f/SECURITY.md",
+      "lines": 13,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          11,
+          13
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha": "2b4a5fccdaf12f98cf8e255affa28cfd7e6a784d",
+      "status": "inspected",
+      "url": "https://github.com/golang/go/blob/dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f/.github/CODE_OF_CONDUCT.md",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/00-bug.yml",
+      "sha": "5b0fda4950eb2e2cd8207635b1ac4ad88ce148b8",
+      "status": "inspected",
+      "url": "https://github.com/golang/go/blob/dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f/.github/ISSUE_TEMPLATE/00-bug.yml",
+      "lines": 94,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/01-pkgsite.yml",
+      "sha": "aaf39b2928b32e721668e05e14b93dd19a45c764",
+      "status": "inspected",
+      "url": "https://github.com/golang/go/blob/dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f/.github/ISSUE_TEMPLATE/01-pkgsite.yml",
+      "lines": 47,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/02-pkgsite-removal.yml",
+      "sha": "693f4999dcd47ae85938ffc363b72415ee74f5c9",
+      "status": "inspected",
+      "url": "https://github.com/golang/go/blob/dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f/.github/ISSUE_TEMPLATE/02-pkgsite-removal.yml",
+      "lines": 42,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/03-gopls.yml",
+      "sha": "fd4c186cb89a47f7ff32d973f45e144c7e654421",
+      "status": "inspected",
+      "url": "https://github.com/golang/go/blob/dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f/.github/ISSUE_TEMPLATE/03-gopls.yml",
+      "lines": 71,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/04-vuln.yml",
+      "sha": "dd40af99c69eb22a0986dd4cb0d51a31446692d8",
+      "status": "inspected",
+      "url": "https://github.com/golang/go/blob/dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f/.github/ISSUE_TEMPLATE/04-vuln.yml",
+      "lines": 52,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/10-proposal.yml",
+      "sha": "d2a256c5aebfce203792a225d771a26370f84dba",
+      "status": "inspected",
+      "url": "https://github.com/golang/go/blob/dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f/.github/ISSUE_TEMPLATE/10-proposal.yml",
+      "lines": 15,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/11-language-change.yml",
+      "sha": "ac26ef6cb445bca0f6aff3e32ac8e3258198f787",
+      "status": "inspected",
+      "url": "https://github.com/golang/go/blob/dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f/.github/ISSUE_TEMPLATE/11-language-change.yml",
+      "lines": 165,
+      "signals": {
+        "tests": [],
+        "lint": [
+          146
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/12-telemetry.yml",
+      "sha": "e072df260aaf634d490c178bca095d4e8429a6a4",
+      "status": "inspected",
+      "url": "https://github.com/golang/go/blob/dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f/.github/ISSUE_TEMPLATE/12-telemetry.yml",
+      "lines": 30,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "d6257daf2fa05f39872c49de51bb10763ba8fae7",
+      "status": "inspected",
+      "url": "https://github.com/golang/go/blob/dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 5,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/SUPPORT.md",
+      "sha": "d1fb277bc211da43ca59d9cff130d3f72a920bef",
+      "status": "inspected",
+      "url": "https://github.com/golang/go/blob/dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f/.github/SUPPORT.md",
+      "lines": 14,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "doc/README.md",
+      "sha": "b7aefc8d2c1e7badc95666dbdc0f3efab9364f0d",
+      "status": "inspected",
+      "url": "https://github.com/golang/go/blob/dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f/doc/README.md",
+      "lines": 75,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "weekly.2012-03-27",
+      "sha": "3895b5051df256b442d0b0af50debfffd8d75164"
+    },
+    {
+      "name": "weekly.2012-03-22",
+      "sha": "da7959d5dd1a230868d8eca9dbf11b4d54e8915a"
+    },
+    {
+      "name": "weekly.2012-03-13",
+      "sha": "9ef03fdf7778f23aa304a03888e4e0f698a3ef84"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:20:29.684170+00:00",
+  "source_times": {
+    "/repos/golang/go": "2026-10-17T16:16:12.143249+00:00",
+    "/repos/golang/go/commits?sha=master&per_page=20": "2026-10-17T16:16:14.078284+00:00",
+    "/repos/golang/go/git/trees/dfc6f7db9bd75868ffb5cbc9501a2f4899122d2f": "2026-10-17T16:16:15.441565+00:00",
+    "/repos/golang/go/git/trees/e61abc0fbec367ad5158792c7f93d4ae0ecc73fc": "2026-10-17T16:16:16.882569+00:00",
+    "/repos/golang/go/git/trees/9eac0859faa9e35cb323b7a0f1ae7ba340d6a3b9": "2026-10-17T16:16:18.325106+00:00",
+    "/repos/golang/go/git/trees/33a766c06c4c36228f0898c69d389b907ae452dc": "2026-10-17T16:16:19.798974+00:00",
+    "/repos/golang/go/git/blobs/4cd76c29503d5dcee45240cd4de94e4f25c78d28": "2026-10-17T16:16:21.168437+00:00",
+    "/repos/golang/go/git/blobs/71c9d1dc2993880f38d227085d1b48c4070d1e85": "2026-10-17T16:16:22.569428+00:00",
+    "/repos/golang/go/git/blobs/e1718f0b012f7cea592027ae7574a6878f05f3fc": "2026-10-17T16:16:23.955875+00:00",
+    "/repos/golang/go/git/blobs/2b4a5fccdaf12f98cf8e255affa28cfd7e6a784d": "2026-10-17T16:16:25.367874+00:00",
+    "/repos/golang/go/git/blobs/5b0fda4950eb2e2cd8207635b1ac4ad88ce148b8": "2026-10-17T16:16:26.787492+00:00",
+    "/repos/golang/go/git/blobs/aaf39b2928b32e721668e05e14b93dd19a45c764": "2026-10-17T16:16:29.845308+00:00",
+    "/repos/golang/go/git/blobs/693f4999dcd47ae85938ffc363b72415ee74f5c9": "2026-10-17T16:16:31.289579+00:00",
+    "/repos/golang/go/git/blobs/fd4c186cb89a47f7ff32d973f45e144c7e654421": "2026-10-17T16:16:32.661360+00:00",
+    "/repos/golang/go/git/blobs/dd40af99c69eb22a0986dd4cb0d51a31446692d8": "2026-10-17T16:16:34.053988+00:00",
+    "/repos/golang/go/git/blobs/d2a256c5aebfce203792a225d771a26370f84dba": "2026-10-17T16:16:35.466212+00:00",
+    "/repos/golang/go/git/blobs/ac26ef6cb445bca0f6aff3e32ac8e3258198f787": "2026-10-17T16:16:37.894654+00:00",
+    "/repos/golang/go/git/blobs/e072df260aaf634d490c178bca095d4e8429a6a4": "2026-10-17T16:16:39.274885+00:00",
+    "/repos/golang/go/git/blobs/d6257daf2fa05f39872c49de51bb10763ba8fae7": "2026-10-17T16:16:40.675920+00:00",
+    "/repos/golang/go/git/blobs/d1fb277bc211da43ca59d9cff130d3f72a920bef": "2026-10-17T16:16:42.084007+00:00",
+    "/repos/golang/go/git/blobs/b7aefc8d2c1e7badc95666dbdc0f3efab9364f0d": "2026-10-17T16:16:43.496305+00:00",
+    "/repos/golang/go/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:16:47.783761+00:00",
+    "/repos/golang/go/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=2": "2026-10-17T16:16:53.824502+00:00",
+    "/repos/golang/go/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=3": "2026-10-17T16:16:58.405011+00:00",
+    "/repos/golang/go/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=4": "2026-10-17T16:17:02.371584+00:00",
+    "/repos/golang/go/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=5": "2026-10-17T16:17:07.577079+00:00",
+    "/repos/golang/go/releases?per_page=20&page=1": "2026-10-17T16:20:29.682664+00:00",
+    "/repos/golang/go/tags?per_page=3": "2026-10-17T16:17:11.390717+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:20:29.682664+00:00",
+  "status": "collected"
+}

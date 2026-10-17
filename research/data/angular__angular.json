@@ -1,0 +1,2230 @@
+{
+  "requested_repository": "angular/angular",
+  "category": "frameworks",
+  "collected_at": "2026-10-17T16:11:13.844613+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "angular/angular",
+  "metadata": {
+    "html_url": "https://github.com/angular/angular",
+    "description": "Deliver web apps with confidence 🚀",
+    "homepage": "https://angular.dev",
+    "language": "TypeScript",
+    "stargazers_count": 101068,
+    "forks_count": 30597,
+    "open_issues_count": 1168,
+    "pushed_at": "2026-10-17T15:26:01Z",
+    "created_at": "2014-09-18T16:12:01Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [
+      "angular",
+      "javascript",
+      "pwa",
+      "typescript",
+      "web",
+      "web-framework",
+      "web-performance"
+    ],
+    "owner": {
+      "login": "angular",
+      "type": "Organization",
+      "html_url": "https://github.com/angular"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "29bfe100d5870cb29efe822d713345b2a8a9a671",
+      "url": "https://github.com/angular/angular/commit/29bfe100d5870cb29efe822d713345b2a8a9a671",
+      "date": "2026-10-17T15:26:00Z",
+      "subject": "fix(compiler-cli): resolve project-relative paths across rootDirs in ngp"
+    },
+    {
+      "sha": "30d0e8f44373fec29c9854d46b01679c57837a9b",
+      "url": "https://github.com/angular/angular/commit/30d0e8f44373fec29c9854d46b01679c57837a9b",
+      "date": "2026-10-17T15:26:00Z",
+      "subject": "test(compiler-cli): expand root_dirs golden with nested rootDirs and source locations"
+    },
+    {
+      "sha": "d9a271a73b14cac9f8907f86e92d2fe3ae76a9ae",
+      "url": "https://github.com/angular/angular/commit/d9a271a73b14cac9f8907f86e92d2fe3ae76a9ae",
+      "date": "2026-10-17T14:49:58Z",
+      "subject": "fix(compiler-cli): preserve signal debugName insertions in sliced decorator args"
+    },
+    {
+      "sha": "4fb035cd2ebee6f9b70027175bbe6b2bca589bd3",
+      "url": "https://github.com/angular/angular/commit/4fb035cd2ebee6f9b70027175bbe6b2bca589bd3",
+      "date": "2026-10-17T14:49:58Z",
+      "subject": "test(compiler-cli): add decorator metadata signal cases to signal_debug_names golden"
+    },
+    {
+      "sha": "16d0968e275f8dc4f2926b90d2b1a9702e255557",
+      "url": "https://github.com/angular/angular/commit/16d0968e275f8dc4f2926b90d2b1a9702e255557",
+      "date": "2026-10-17T14:46:02Z",
+      "subject": "fix(compiler-cli): revert breaking ngp change"
+    },
+    {
+      "sha": "4f26011189ec200c05075bc000cce05ae0898237",
+      "url": "https://github.com/angular/angular/commit/4f26011189ec200c05075bc000cce05ae0898237",
+      "date": "2026-10-17T09:21:19Z",
+      "subject": "fix(compiler-cli): avoid spurious forwardRef closure for re-exported NgModule deps"
+    },
+    {
+      "sha": "80475f71e4e4a2f02b2752a87393f67de4f1d85e",
+      "url": "https://github.com/angular/angular/commit/80475f71e4e4a2f02b2752a87393f67de4f1d85e",
+      "date": "2026-10-17T09:21:19Z",
+      "subject": "test(compiler-cli): add same-file forward declaration case to ngmodule_reexports golden"
+    },
+    {
+      "sha": "8c918999c73703c7a419100f17422e004efd2036",
+      "url": "https://github.com/angular/angular/commit/8c918999c73703c7a419100f17422e004efd2036",
+      "date": "2026-10-17T09:20:46Z",
+      "subject": "fix(compiler-cli): place standalone self-reference at index 0 and preserve forwardRef closure"
+    },
+    {
+      "sha": "5216539a234d5c08f3119a13470eaa36650fe1ab",
+      "url": "https://github.com/angular/angular/commit/5216539a234d5c08f3119a13470eaa36650fe1ab",
+      "date": "2026-10-17T09:20:46Z",
+      "subject": "test(compiler-cli): expand recursive_standalone_components golden with forwardRef and aliased imports"
+    },
+    {
+      "sha": "ce30bb0889018ad9da521d6ad729294e1aa3b5ff",
+      "url": "https://github.com/angular/angular/commit/ce30bb0889018ad9da521d6ad729294e1aa3b5ff",
+      "date": "2026-10-17T00:48:35Z",
+      "subject": "fix(compiler-cli): align preprocessor debug name output with ngtsc"
+    },
+    {
+      "sha": "a1586ac62213fa4782b7c5d20c01ab59465c64e9",
+      "url": "https://github.com/angular/angular/commit/a1586ac62213fa4782b7c5d20c01ab59465c64e9",
+      "date": "2026-10-17T00:48:35Z",
+      "subject": "fix(compiler-cli): accurate spans for host bindings in preprocessor"
+    },
+    {
+      "sha": "aa48892e48ee50855d6f4a2d75b59eb0da7f1293",
+      "url": "https://github.com/angular/angular/commit/aa48892e48ee50855d6f4a2d75b59eb0da7f1293",
+      "date": "2026-10-17T00:48:35Z",
+      "subject": "fix(compiler-cli): resolve host directives on directives in preprocessor"
+    },
+    {
+      "sha": "a802ab6bfa51cf96dbb17c39a20e74d34d760a18",
+      "url": "https://github.com/angular/angular/commit/a802ab6bfa51cf96dbb17c39a20e74d34d760a18",
+      "date": "2026-10-17T00:48:35Z",
+      "subject": "fix(compiler-cli): add guides and correct error codes in diagnostics"
+    },
+    {
+      "sha": "07a7a2668ed483b46ca906c8aa215e9ef5bec037",
+      "url": "https://github.com/angular/angular/commit/07a7a2668ed483b46ca906c8aa215e9ef5bec037",
+      "date": "2026-10-17T00:48:35Z",
+      "subject": "build: enable more passing tests"
+    },
+    {
+      "sha": "401bed819f57b7a8f88f2d8b00ef1e09ab8a3feb",
+      "url": "https://github.com/angular/angular/commit/401bed819f57b7a8f88f2d8b00ef1e09ab8a3feb",
+      "date": "2026-10-17T00:48:35Z",
+      "subject": "build: enable more source map tests for ngp"
+    },
+    {
+      "sha": "89843cddfc058da45c9aa4160d832112fc3b3300",
+      "url": "https://github.com/angular/angular/commit/89843cddfc058da45c9aa4160d832112fc3b3300",
+      "date": "2026-10-17T00:48:35Z",
+      "subject": "fix(compiler-cli): source map generated code in preprocessor"
+    },
+    {
+      "sha": "92e5aa8f154096a756757d0e295cde4299788650",
+      "url": "https://github.com/angular/angular/commit/92e5aa8f154096a756757d0e295cde4299788650",
+      "date": "2026-10-14T23:40:55Z",
+      "subject": "docs: release notes for the v22.2.3 release"
+    },
+    {
+      "sha": "19fcb95eb9c6c848060f1d314324abb065de5043",
+      "url": "https://github.com/angular/angular/commit/19fcb95eb9c6c848060f1d314324abb065de5043",
+      "date": "2026-10-14T23:30:04Z",
+      "subject": "release: cut the v22.3.0-next.2 release"
+    },
+    {
+      "sha": "c0ac72bca4cb1f0d5763e27f78fe1ac4bcf88cba",
+      "url": "https://github.com/angular/angular/commit/c0ac72bca4cb1f0d5763e27f78fe1ac4bcf88cba",
+      "date": "2026-10-14T23:20:46Z",
+      "subject": "docs: release notes for the v20.3.34 release"
+    },
+    {
+      "sha": "644d691ac4f4f4c9f6aa60346b023f24e34bb2ab",
+      "url": "https://github.com/angular/angular/commit/644d691ac4f4f4c9f6aa60346b023f24e34bb2ab",
+      "date": "2026-10-14T22:16:42Z",
+      "subject": "test(compiler-cli): mark @boundary content projection diagnostic as known ngp failure"
+    }
+  ],
+  "default_sha": "29bfe100d5870cb29efe822d713345b2a8a9a671",
+  "root_and_selected_directory_paths": [
+    ".agent",
+    ".bazelrc",
+    ".bazelversion",
+    ".devcontainer",
+    ".editorconfig",
+    ".gemini",
+    ".git-blame-ignore-revs",
+    ".gitattributes",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE.md",
+    ".github/ISSUE_TEMPLATE/1-bug-report.yaml",
+    ".github/ISSUE_TEMPLATE/2-feature-request.yaml",
+    ".github/ISSUE_TEMPLATE/3-docs-bug.yaml",
+    ".github/ISSUE_TEMPLATE/4-devtools.yaml",
+    ".github/ISSUE_TEMPLATE/5-vscode.yaml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/actions",
+    ".github/angular-robot.yml",
+    ".github/workflows",
+    ".github/workflows/adev-preview-build.yml",
+    ".github/workflows/adev-preview-deploy.yml",
+    ".github/workflows/assistant-to-the-branch-manager.yml",
+    ".github/workflows/benchmark-compare.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/cross-repo-adev-docs.yml",
+    ".github/workflows/dev-infra.yml",
+    ".github/workflows/google-internal-tests.yml",
+    ".github/workflows/perf.yml",
+    ".github/workflows/pr.yml",
+    ".github/workflows/release.yml",
+    ".gitignore",
+    ".gitmessage",
+    ".husky",
+    ".mailmap",
+    ".ng-dev",
+    ".nvmrc",
+    ".pnpmfile.cjs",
+    ".prettierignore",
+    ".prettierrc",
+    ".pullapprove.yml",
+    ".vscode",
+    "AGENTS.md",
+    "BUILD.bazel",
+    "CHANGELOG.md",
+    "CHANGELOG_ARCHIVE.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "Cargo.lock",
+    "Cargo.toml",
+    "LICENSE",
+    "MODULE.bazel",
+    "MODULE.bazel.lock",
+    "README.md",
+    "REPO.bazel",
+    "SECURITY.md",
+    "adev",
+    "context7.json",
+    "contributing-docs",
+    "dev-app",
+    "devtools",
+    "goldens",
+    "gulpfile.js",
+    "integration",
+    "modules",
+    "ngp-vscode-ng-language-service",
+    "package.json",
+    "packages",
+    "packages.bzl",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "renovate.json",
+    "scripts",
+    "skills",
+    "third_party",
+    "tools",
+    "tsconfig-tslint.json",
+    "tslint.json",
+    "vscode-ng-language-service"
+  ],
+  "workflow_paths": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/google-internal-tests.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/adev-preview-build.yml",
+    ".github/workflows/adev-preview-deploy.yml",
+    ".github/workflows/assistant-to-the-branch-manager.yml",
+    ".github/workflows/benchmark-compare.yml",
+    ".github/workflows/cross-repo-adev-docs.yml",
+    ".github/workflows/dev-infra.yml",
+    ".github/workflows/perf.yml",
+    ".github/workflows/pr.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "d120951b52cb938e44433568cebdd6f4cb7fd308",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/AGENTS.md",
+      "lines": 39,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CHANGELOG.md",
+      "status": "skipped-size",
+      "sha": "c835c01c641e44924c5fb89b9b80862e479daf16"
+    },
+    {
+      "path": "CHANGELOG_ARCHIVE.md",
+      "status": "skipped-size",
+      "sha": "af4c6fb7ff5669cfba1aa0c7fc6bf6688213f176"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "cf2a3fe1ff672d25f22ba1fde9ef78cfa17fe987",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/CODE_OF_CONDUCT.md",
+      "lines": 79,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "77bce4cca3c90d40083f2daf7882415600315b58",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/CONTRIBUTING.md",
+      "lines": 257,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Cargo.toml",
+      "sha": "e6ca63fd5c5ed02833a95fed66a0c455d9573377",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/Cargo.toml",
+      "lines": 5,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "c1528944d08b5be8e2997e46a842b35fd998a11f",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/README.md",
+      "lines": 159,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          28,
+          131
+        ],
+        "media": [
+          4,
+          28,
+          92,
+          131
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          114
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "0361308689abd47cda5595ca78f2a4a3cb1d6be0",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/SECURITY.md",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          3
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "package.json",
+      "sha": "0fd616a65564d0ac1a146bf24b5eb145fe6a6267",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/package.json",
+      "lines": 169,
+      "signals": {
+        "tests": [],
+        "lint": [
+          159
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE.md",
+      "sha": "fb923c51a35e355ee6bf5a5ffcd9b121d39f4393",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/ISSUE_TEMPLATE.md",
+      "lines": 6,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/1-bug-report.yaml",
+      "sha": "32ab0a5890b15359c06623c41515ff23ec30da9f",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/ISSUE_TEMPLATE/1-bug-report.yaml",
+      "lines": 86,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/2-feature-request.yaml",
+      "sha": "ce558b62992422491f12f28f2fc25a979fb64cae",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/ISSUE_TEMPLATE/2-feature-request.yaml",
+      "lines": 47,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/3-docs-bug.yaml",
+      "sha": "45c8d27187a87b34c35e60b5ce79469c04dcd145",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/ISSUE_TEMPLATE/3-docs-bug.yaml",
+      "lines": 58,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/4-devtools.yaml",
+      "sha": "7157c6d1ff35f35915f8d058247e57474bd6607d",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/ISSUE_TEMPLATE/4-devtools.yaml",
+      "lines": 54,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/5-vscode.yaml",
+      "sha": "9711998d7a57da1b8315ec04dbe63bd6035bd9b5",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/ISSUE_TEMPLATE/5-vscode.yaml",
+      "lines": 48,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "fa12e442c08509e519adc1a940a58bf513a2f17d",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 14,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "a1e4a6b7b66febbf59e411bfe0f9af4eca3c7b5e",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/PULL_REQUEST_TEMPLATE.md",
+      "lines": 40,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "40dfdeb5bd0edc862328a4c1ccecaa655e547480",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/workflows/ci.yml",
+      "lines": 221,
+      "signals": {
+        "tests": [
+          82,
+          188,
+          189,
+          190,
+          191
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13
+        ],
+        "pinned_actions": [
+          24,
+          44,
+          48,
+          50,
+          60,
+          72,
+          74,
+          76,
+          88,
+          90,
+          92,
+          105
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/google-internal-tests.yml",
+      "sha": "c801b7e218d388f3b0e02932cc3767fd4f49d38b",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/workflows/google-internal-tests.yml",
+      "lines": 22,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8,
+          12
+        ],
+        "pinned_actions": [
+          17,
+          18
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha": "6b924e97c3f495f2cf7d7606c864b9c5cff59eea",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/workflows/release.yml",
+      "lines": 24,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          15,
+          17
+        ],
+        "pinned_actions": [
+          21
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/adev-preview-build.yml",
+      "sha": "33b632e5877950135187833010efa6d5b654eddb",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/workflows/adev-preview-build.yml",
+      "lines": 39,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          14
+        ],
+        "pinned_actions": [
+          24,
+          26,
+          28,
+          34
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/adev-preview-deploy.yml",
+      "sha": "9694088444aed38928080144e15a848d8e8e93cd",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/workflows/adev-preview-deploy.yml",
+      "lines": 56,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          16
+        ],
+        "pinned_actions": [
+          33,
+          37,
+          49
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+      "sha": "42d0b0da541889176efa3fcf9dc508228fecc9a3",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/workflows/assistant-to-the-branch-manager.yml",
+      "lines": 23,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10
+        ],
+        "pinned_actions": [
+          18,
+          21
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/benchmark-compare.yml",
+      "sha": "b48b8e9b1d9f5818e8d39ec1e7619ae1f75e0420",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/workflows/benchmark-compare.yml",
+      "lines": 85,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [
+          14,
+          22,
+          28,
+          31,
+          43,
+          48,
+          53,
+          55,
+          73
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/cross-repo-adev-docs.yml",
+      "sha": "eecfceb78c1de12ca9cd58a5a8ea9078396f6833",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/workflows/cross-repo-adev-docs.yml",
+      "lines": 59,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12
+        ],
+        "pinned_actions": [
+          27,
+          40
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/dev-infra.yml",
+      "sha": "b2833875109e8d01cf71652e74a4d0e97723f5d5",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/workflows/dev-infra.yml",
+      "lines": 37,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [
+          19,
+          27,
+          34
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/perf.yml",
+      "sha": "047e11f95455f95c6783badafaee5431728fcd99",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/workflows/perf.yml",
+      "lines": 58,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8,
+          33,
+          35
+        ],
+        "pinned_actions": [
+          23,
+          41,
+          43,
+          50
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "sha": "ba688ea6be7c455a457c7c638fe3325e7cddde44",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/.github/workflows/pr.yml",
+      "lines": 179,
+      "signals": {
+        "tests": [
+          84,
+          174,
+          175,
+          176,
+          177
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [
+          22,
+          42,
+          50,
+          54,
+          56,
+          64,
+          76,
+          78,
+          80,
+          91,
+          100,
+          102
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "skills/dev-skills/README.md",
+      "sha": "579fbae8421011248c6ad801627d94600d4f1db4",
+      "status": "inspected",
+      "url": "https://github.com/angular/angular/blob/29bfe100d5870cb29efe822d713345b2a8a9a671/skills/dev-skills/README.md",
+      "lines": 34,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 71401,
+      "title": "fix(compiler-cli): resolve project-relative paths across rootDirs in ngp",
+      "url": "https://github.com/angular/angular/pull/71401",
+      "merged_at": "2026-10-17T15:26:01Z",
+      "merge_commit_sha": "29bfe100d5870cb29efe822d713345b2a8a9a671",
+      "files": [
+        "packages/compiler-cli/preprocessor/src/hybrid_compiler.ts",
+        "packages/compiler-cli/preprocessor/src/processor.ts",
+        "packages/compiler-cli/preprocessor/test/golden/prefix_import_generic_type_params/golden.md",
+        "packages/compiler-cli/preprocessor/test/golden/prefix_import_generic_type_params/golden.opt.md",
+        "packages/compiler-cli/preprocessor/test/golden/prefix_imports/golden.md",
+        "packages/compiler-cli/preprocessor/test/golden/prefix_imports/golden.opt.md",
+        "packages/compiler-cli/preprocessor/test/golden/root_dirs/golden.md",
+        "packages/compiler-cli/preprocessor/test/golden/root_dirs/golden.opt.md",
+        "packages/compiler-cli/preprocessor/test/golden/root_dirs/source.md",
+        "packages/compiler-cli/preprocessor/test/project_relative_path_spec.ts",
+        "packages/compiler-cli/src/ngtsc/file_system/testing/src/ngp_known_failures.ts",
+        "packages/compiler-cli/src/ngtsc/testing/src/ngp_test_driver.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "packages/compiler-cli/preprocessor/src/hybrid_compiler.ts",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 1,
+          "blob_url": "https://github.com/angular/angular/blob/ea976951f34c3bc96d7bb1b164c40a6f1219ff30/packages%2Fcompiler-cli%2Fpreprocessor%2Fsrc%2Fhybrid_compiler.ts"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/src/processor.ts",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 16,
+          "blob_url": "https://github.com/angular/angular/blob/ea976951f34c3bc96d7bb1b164c40a6f1219ff30/packages%2Fcompiler-cli%2Fpreprocessor%2Fsrc%2Fprocessor.ts"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/prefix_import_generic_type_params/golden.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/angular/angular/blob/ea976951f34c3bc96d7bb1b164c40a6f1219ff30/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fprefix_import_generic_type_params%2Fgolden.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/prefix_import_generic_type_params/golden.opt.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/angular/angular/blob/ea976951f34c3bc96d7bb1b164c40a6f1219ff30/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fprefix_import_generic_type_params%2Fgolden.opt.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/prefix_imports/golden.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/angular/angular/blob/ea976951f34c3bc96d7bb1b164c40a6f1219ff30/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fprefix_imports%2Fgolden.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/prefix_imports/golden.opt.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/angular/angular/blob/ea976951f34c3bc96d7bb1b164c40a6f1219ff30/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fprefix_imports%2Fgolden.opt.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/root_dirs/golden.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1,
+          "blob_url": "https://github.com/angular/angular/blob/ea976951f34c3bc96d7bb1b164c40a6f1219ff30/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Froot_dirs%2Fgolden.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/root_dirs/golden.opt.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1,
+          "blob_url": "https://github.com/angular/angular/blob/ea976951f34c3bc96d7bb1b164c40a6f1219ff30/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Froot_dirs%2Fgolden.opt.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/root_dirs/source.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 1,
+          "blob_url": "https://github.com/angular/angular/blob/ea976951f34c3bc96d7bb1b164c40a6f1219ff30/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Froot_dirs%2Fsource.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/project_relative_path_spec.ts",
+          "status": "added",
+          "additions": 114,
+          "deletions": 0,
+          "blob_url": "https://github.com/angular/angular/blob/ea976951f34c3bc96d7bb1b164c40a6f1219ff30/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fproject_relative_path_spec.ts"
+        },
+        {
+          "filename": "packages/compiler-cli/src/ngtsc/file_system/testing/src/ngp_known_failures.ts",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/angular/angular/blob/ea976951f34c3bc96d7bb1b164c40a6f1219ff30/packages%2Fcompiler-cli%2Fsrc%2Fngtsc%2Ffile_system%2Ftesting%2Fsrc%2Fngp_known_failures.ts"
+        },
+        {
+          "filename": "packages/compiler-cli/src/ngtsc/testing/src/ngp_test_driver.ts",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 1,
+          "blob_url": "https://github.com/angular/angular/blob/ea976951f34c3bc96d7bb1b164c40a6f1219ff30/packages%2Fcompiler-cli%2Fsrc%2Fngtsc%2Ftesting%2Fsrc%2Fngp_test_driver.ts"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39047753697,
+          "name": "Deploying adev preview to Firebase",
+          "path": ".github/workflows/adev-preview-deploy.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39047753697",
+          "head_sha": "29bfe100d5870cb29efe822d713345b2a8a9a671"
+        },
+        {
+          "id": 39047572637,
+          "name": "Deploying adev preview to Firebase",
+          "path": ".github/workflows/adev-preview-deploy.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39047572637",
+          "head_sha": "29bfe100d5870cb29efe822d713345b2a8a9a671"
+        },
+        {
+          "id": 39047287819,
+          "name": "Deploying adev preview to Firebase",
+          "path": ".github/workflows/adev-preview-deploy.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39047287819",
+          "head_sha": "29bfe100d5870cb29efe822d713345b2a8a9a671"
+        },
+        {
+          "id": 39047104467,
+          "name": "Deploying adev preview to Firebase",
+          "path": ".github/workflows/adev-preview-deploy.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39047104467",
+          "head_sha": "29bfe100d5870cb29efe822d713345b2a8a9a671"
+        },
+        {
+          "id": 39046004352,
+          "name": "Deploying adev preview to Firebase",
+          "path": ".github/workflows/adev-preview-deploy.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39046004352",
+          "head_sha": "29bfe100d5870cb29efe822d713345b2a8a9a671"
+        },
+        {
+          "id": 39045421996,
+          "name": "Deploying adev preview to Firebase",
+          "path": ".github/workflows/adev-preview-deploy.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39045421996",
+          "head_sha": "29bfe100d5870cb29efe822d713345b2a8a9a671"
+        },
+        {
+          "id": 39045105413,
+          "name": "Deploying adev preview to Firebase",
+          "path": ".github/workflows/adev-preview-deploy.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39045105413",
+          "head_sha": "29bfe100d5870cb29efe822d713345b2a8a9a671"
+        },
+        {
+          "id": 39045026005,
+          "name": "Run benchmark comparison",
+          "path": ".github/workflows/benchmark-compare.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39045026005",
+          "head_sha": "29bfe100d5870cb29efe822d713345b2a8a9a671"
+        },
+        {
+          "id": 39045022313,
+          "name": "Update ADEV Cross Repo Docs",
+          "path": ".github/workflows/cross-repo-adev-docs.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/angular/angular/actions/runs/39045022313",
+          "head_sha": "29bfe100d5870cb29efe822d713345b2a8a9a671"
+        },
+        {
+          "id": 39045022324,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39045022324",
+          "head_sha": "29bfe100d5870cb29efe822d713345b2a8a9a671"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39044989672,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39044989672",
+          "head_sha": "ea976951f34c3bc96d7bb1b164c40a6f1219ff30"
+        },
+        {
+          "id": 39044989384,
+          "name": "Build adev for preview deployment",
+          "path": ".github/workflows/adev-preview-build.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39044989384",
+          "head_sha": "ea976951f34c3bc96d7bb1b164c40a6f1219ff30"
+        },
+        {
+          "id": 39043559953,
+          "name": "Build adev for preview deployment",
+          "path": ".github/workflows/adev-preview-build.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39043559953",
+          "head_sha": "ea976951f34c3bc96d7bb1b164c40a6f1219ff30"
+        },
+        {
+          "id": 39043560279,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39043560279",
+          "head_sha": "ea976951f34c3bc96d7bb1b164c40a6f1219ff30"
+        },
+        {
+          "id": 39043414583,
+          "name": "Build adev for preview deployment",
+          "path": ".github/workflows/adev-preview-build.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39043414583",
+          "head_sha": "ea976951f34c3bc96d7bb1b164c40a6f1219ff30"
+        },
+        {
+          "id": 39043414597,
+          "name": "Pull Request",
+          "path": ".github/workflows/pr.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39043414597",
+          "head_sha": "ea976951f34c3bc96d7bb1b164c40a6f1219ff30"
+        },
+        {
+          "id": 39043413055,
+          "name": "Google Internal Tests Enforcement",
+          "path": ".github/workflows/google-internal-tests.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39043413055",
+          "head_sha": "ea976951f34c3bc96d7bb1b164c40a6f1219ff30"
+        },
+        {
+          "id": 39043413070,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39043413070",
+          "head_sha": "ea976951f34c3bc96d7bb1b164c40a6f1219ff30"
+        },
+        {
+          "id": 39043413090,
+          "name": "DevInfra",
+          "path": ".github/workflows/dev-infra.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39043413090",
+          "head_sha": "ea976951f34c3bc96d7bb1b164c40a6f1219ff30"
+        },
+        {
+          "id": 39043413063,
+          "name": "GitHub Actions Scan",
+          "path": ".github/workflows/github_actions_scan.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39043413063",
+          "head_sha": "ea976951f34c3bc96d7bb1b164c40a6f1219ff30"
+        }
+      ]
+    },
+    {
+      "number": 71402,
+      "title": "fix(compiler-cli): preserve signal debugName insertions in sliced decorator args",
+      "url": "https://github.com/angular/angular/pull/71402",
+      "merged_at": "2026-10-17T14:49:59Z",
+      "merge_commit_sha": "d9a271a73b14cac9f8907f86e92d2fe3ae76a9ae",
+      "files": [
+        "packages/compiler-cli/preprocessor/src/compiler-utils.ts",
+        "packages/compiler-cli/preprocessor/src/processor.ts",
+        "packages/compiler-cli/preprocessor/test/golden/signal_debug_names/golden.md",
+        "packages/compiler-cli/preprocessor/test/golden/signal_debug_names/source.md"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "packages/compiler-cli/preprocessor/src/compiler-utils.ts",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 1,
+          "blob_url": "https://github.com/angular/angular/blob/64b976ce013bfe23a5d9592c3a5300b863821139/packages%2Fcompiler-cli%2Fpreprocessor%2Fsrc%2Fcompiler-utils.ts"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/src/processor.ts",
+          "status": "modified",
+          "additions": 65,
+          "deletions": 32,
+          "blob_url": "https://github.com/angular/angular/blob/64b976ce013bfe23a5d9592c3a5300b863821139/packages%2Fcompiler-cli%2Fpreprocessor%2Fsrc%2Fprocessor.ts"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/signal_debug_names/golden.md",
+          "status": "modified",
+          "additions": 194,
+          "deletions": 1,
+          "blob_url": "https://github.com/angular/angular/blob/64b976ce013bfe23a5d9592c3a5300b863821139/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fsignal_debug_names%2Fgolden.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/signal_debug_names/source.md",
+          "status": "modified",
+          "additions": 50,
+          "deletions": 0,
+          "blob_url": "https://github.com/angular/angular/blob/64b976ce013bfe23a5d9592c3a5300b863821139/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fsignal_debug_names%2Fsource.md"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39044992897,
+          "name": "Deploying adev preview to Firebase",
+          "path": ".github/workflows/adev-preview-deploy.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39044992897",
+          "head_sha": "d9a271a73b14cac9f8907f86e92d2fe3ae76a9ae"
+        },
+        {
+          "id": 39043696238,
+          "name": "Deploying adev preview to Firebase",
+          "path": ".github/workflows/adev-preview-deploy.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39043696238",
+          "head_sha": "d9a271a73b14cac9f8907f86e92d2fe3ae76a9ae"
+        },
+        {
+          "id": 39043563790,
+          "name": "Deploying adev preview to Firebase",
+          "path": ".github/workflows/adev-preview-deploy.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39043563790",
+          "head_sha": "d9a271a73b14cac9f8907f86e92d2fe3ae76a9ae"
+        },
+        {
+          "id": 39043552009,
+          "name": "Run benchmark comparison",
+          "path": ".github/workflows/benchmark-compare.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39043552009",
+          "head_sha": "d9a271a73b14cac9f8907f86e92d2fe3ae76a9ae"
+        },
+        {
+          "id": 39043418467,
+          "name": "Deploying adev preview to Firebase",
+          "path": ".github/workflows/adev-preview-deploy.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39043418467",
+          "head_sha": "d9a271a73b14cac9f8907f86e92d2fe3ae76a9ae"
+        },
+        {
+          "id": 39042465721,
+          "name": "Deploying adev preview to Firebase",
+          "path": ".github/workflows/adev-preview-deploy.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042465721",
+          "head_sha": "d9a271a73b14cac9f8907f86e92d2fe3ae76a9ae"
+        },
+        {
+          "id": 39042428465,
+          "name": "Run benchmark comparison",
+          "path": ".github/workflows/benchmark-compare.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042428465",
+          "head_sha": "d9a271a73b14cac9f8907f86e92d2fe3ae76a9ae"
+        },
+        {
+          "id": 39042424035,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042424035",
+          "head_sha": "d9a271a73b14cac9f8907f86e92d2fe3ae76a9ae"
+        },
+        {
+          "id": 39042423957,
+          "name": "Update ADEV Cross Repo Docs",
+          "path": ".github/workflows/cross-repo-adev-docs.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042423957",
+          "head_sha": "d9a271a73b14cac9f8907f86e92d2fe3ae76a9ae"
+        },
+        {
+          "id": 39042424097,
+          "name": "CI (push)",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042424097",
+          "head_sha": "d9a271a73b14cac9f8907f86e92d2fe3ae76a9ae"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39042365892,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042365892",
+          "head_sha": "64b976ce013bfe23a5d9592c3a5300b863821139"
+        },
+        {
+          "id": 39042365883,
+          "name": "Build adev for preview deployment",
+          "path": ".github/workflows/adev-preview-build.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042365883",
+          "head_sha": "64b976ce013bfe23a5d9592c3a5300b863821139"
+        },
+        {
+          "id": 39042366293,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042366293",
+          "head_sha": "64b976ce013bfe23a5d9592c3a5300b863821139"
+        },
+        {
+          "id": 39042365309,
+          "name": "Build adev for preview deployment",
+          "path": ".github/workflows/adev-preview-build.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042365309",
+          "head_sha": "64b976ce013bfe23a5d9592c3a5300b863821139"
+        },
+        {
+          "id": 38951429347,
+          "name": "Build adev for preview deployment",
+          "path": ".github/workflows/adev-preview-build.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/38951429347",
+          "head_sha": "64b976ce013bfe23a5d9592c3a5300b863821139"
+        },
+        {
+          "id": 38951429968,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/38951429968",
+          "head_sha": "64b976ce013bfe23a5d9592c3a5300b863821139"
+        },
+        {
+          "id": 38951392729,
+          "name": "Pull Request",
+          "path": ".github/workflows/pr.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/38951392729",
+          "head_sha": "64b976ce013bfe23a5d9592c3a5300b863821139"
+        },
+        {
+          "id": 38951392953,
+          "name": "GitHub Actions Scan",
+          "path": ".github/workflows/github_actions_scan.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/38951392953",
+          "head_sha": "64b976ce013bfe23a5d9592c3a5300b863821139"
+        },
+        {
+          "id": 38951392627,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/38951392627",
+          "head_sha": "64b976ce013bfe23a5d9592c3a5300b863821139"
+        },
+        {
+          "id": 38951393294,
+          "name": "DevInfra",
+          "path": ".github/workflows/dev-infra.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/38951393294",
+          "head_sha": "64b976ce013bfe23a5d9592c3a5300b863821139"
+        }
+      ]
+    },
+    {
+      "number": 71411,
+      "title": "fix(compiler-cli): revert breaking ngp change",
+      "url": "https://github.com/angular/angular/pull/71411",
+      "merged_at": "2026-10-17T14:46:03Z",
+      "merge_commit_sha": "16d0968e275f8dc4f2926b90d2b1a9702e255557",
+      "files": [
+        "packages/compiler-cli/preprocessor/ng-analyze/src/compiler/decorators/component.rs",
+        "packages/compiler-cli/preprocessor/src/output_ast_printer.ts",
+        "packages/compiler-cli/preprocessor/src/processor.ts",
+        "packages/compiler-cli/preprocessor/test/golden/advanced_signals/golden.md",
+        "packages/compiler-cli/preprocessor/test/golden/chain-expression/golden.md",
+        "packages/compiler-cli/preprocessor/test/golden/component_inputs_outputs/golden.md",
+        "packages/compiler-cli/preprocessor/test/golden/component_inputs_outputs/golden.opt.md",
+        "packages/compiler-cli/preprocessor/test/golden/host_binding_accessor_type_check/golden.md",
+        "packages/compiler-cli/preprocessor/test/golden/host_binding_accessor_type_check/golden.opt.md",
+        "packages/compiler-cli/preprocessor/test/golden/jit_signal_transforms/golden.md",
+        "packages/compiler-cli/preprocessor/test/golden/model_inheritance/golden.md",
+        "packages/compiler-cli/preprocessor/test/golden/queries/golden.md",
+        "packages/compiler-cli/preprocessor/test/golden/query_predicate_evaluation/golden.md",
+        "packages/compiler-cli/preprocessor/test/golden/query_predicate_evaluation/golden.opt.md",
+        "packages/compiler-cli/preprocessor/test/golden/query_predicates/golden.md",
+        "packages/compiler-cli/preprocessor/test/golden/signal_debug_names/golden.md",
+        "packages/compiler-cli/preprocessor/test/golden/signals/golden.md",
+        "packages/compiler-cli/src/ngtsc/file_system/testing/src/ngp_known_failures.ts",
+        "packages/compiler-cli/src/ngtsc/testing/fake_common/http/BUILD.bazel",
+        "packages/compiler-cli/src/ngtsc/testing/fake_common/http/index.ts",
+        "packages/compiler-cli/src/ngtsc/testing/src/ngp_emit_normalizer.ts",
+        "packages/compiler-cli/test/ngtsc/debug_transform_spec.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "packages/compiler-cli/preprocessor/ng-analyze/src/compiler/decorators/component.rs",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fpreprocessor%2Fng-analyze%2Fsrc%2Fcompiler%2Fdecorators%2Fcomponent.rs"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/src/output_ast_printer.ts",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 4,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fpreprocessor%2Fsrc%2Foutput_ast_printer.ts"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/src/processor.ts",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 5,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fpreprocessor%2Fsrc%2Fprocessor.ts"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/advanced_signals/golden.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 8,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fadvanced_signals%2Fgolden.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/chain-expression/golden.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 2,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fchain-expression%2Fgolden.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/component_inputs_outputs/golden.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 8,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fcomponent_inputs_outputs%2Fgolden.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/component_inputs_outputs/golden.opt.md",
+          "status": "modified",
+          "additions": 27,
+          "deletions": 31,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fcomponent_inputs_outputs%2Fgolden.opt.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/host_binding_accessor_type_check/golden.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 2,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fhost_binding_accessor_type_check%2Fgolden.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/host_binding_accessor_type_check/golden.opt.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 2,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fhost_binding_accessor_type_check%2Fgolden.opt.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/jit_signal_transforms/golden.md",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 20,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fjit_signal_transforms%2Fgolden.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/model_inheritance/golden.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 2,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fmodel_inheritance%2Fgolden.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/queries/golden.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 6,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fqueries%2Fgolden.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/query_predicate_evaluation/golden.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 10,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fquery_predicate_evaluation%2Fgolden.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/query_predicate_evaluation/golden.opt.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 10,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fquery_predicate_evaluation%2Fgolden.opt.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/query_predicates/golden.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 2,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fquery_predicates%2Fgolden.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/signal_debug_names/golden.md",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 28,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fsignal_debug_names%2Fgolden.md"
+        },
+        {
+          "filename": "packages/compiler-cli/preprocessor/test/golden/signals/golden.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 5,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fpreprocessor%2Ftest%2Fgolden%2Fsignals%2Fgolden.md"
+        },
+        {
+          "filename": "packages/compiler-cli/src/ngtsc/file_system/testing/src/ngp_known_failures.ts",
+          "status": "modified",
+          "additions": 67,
+          "deletions": 5,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fsrc%2Fngtsc%2Ffile_system%2Ftesting%2Fsrc%2Fngp_known_failures.ts"
+        },
+        {
+          "filename": "packages/compiler-cli/src/ngtsc/testing/fake_common/http/BUILD.bazel",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 3,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fsrc%2Fngtsc%2Ftesting%2Ffake_common%2Fhttp%2FBUILD.bazel"
+        },
+        {
+          "filename": "packages/compiler-cli/src/ngtsc/testing/fake_common/http/index.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 3,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fsrc%2Fngtsc%2Ftesting%2Ffake_common%2Fhttp%2Findex.ts"
+        },
+        {
+          "filename": "packages/compiler-cli/src/ngtsc/testing/src/ngp_emit_normalizer.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 2,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Fsrc%2Fngtsc%2Ftesting%2Fsrc%2Fngp_emit_normalizer.ts"
+        },
+        {
+          "filename": "packages/compiler-cli/test/ngtsc/debug_transform_spec.ts",
+          "status": "modified",
+          "additions": 46,
+          "deletions": 0,
+          "blob_url": "https://github.com/angular/angular/blob/926da42abac133bce9f021c0cb8fcf51cc1b0330/packages%2Fcompiler-cli%2Ftest%2Fngtsc%2Fdebug_transform_spec.ts"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39042369514,
+          "name": "Deploying adev preview to Firebase",
+          "path": ".github/workflows/adev-preview-deploy.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042369514",
+          "head_sha": "16d0968e275f8dc4f2926b90d2b1a9702e255557"
+        },
+        {
+          "id": 39042369271,
+          "name": "Deploying adev preview to Firebase",
+          "path": ".github/workflows/adev-preview-deploy.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042369271",
+          "head_sha": "16d0968e275f8dc4f2926b90d2b1a9702e255557"
+        },
+        {
+          "id": 39042346276,
+          "name": "Run benchmark comparison",
+          "path": ".github/workflows/benchmark-compare.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042346276",
+          "head_sha": "16d0968e275f8dc4f2926b90d2b1a9702e255557"
+        },
+        {
+          "id": 39042186931,
+          "name": "Deploying adev preview to Firebase",
+          "path": ".github/workflows/adev-preview-deploy.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042186931",
+          "head_sha": "16d0968e275f8dc4f2926b90d2b1a9702e255557"
+        },
+        {
+          "id": 39042151640,
+          "name": "Run benchmark comparison",
+          "path": ".github/workflows/benchmark-compare.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042151640",
+          "head_sha": "16d0968e275f8dc4f2926b90d2b1a9702e255557"
+        },
+        {
+          "id": 39042147451,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042147451",
+          "head_sha": "16d0968e275f8dc4f2926b90d2b1a9702e255557"
+        },
+        {
+          "id": 39042147793,
+          "name": "CI (push)",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042147793",
+          "head_sha": "16d0968e275f8dc4f2926b90d2b1a9702e255557"
+        },
+        {
+          "id": 39042147676,
+          "name": "Update ADEV Cross Repo Docs",
+          "path": ".github/workflows/cross-repo-adev-docs.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042147676",
+          "head_sha": "16d0968e275f8dc4f2926b90d2b1a9702e255557"
+        },
+        {
+          "id": 39042147624,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042147624",
+          "head_sha": "16d0968e275f8dc4f2926b90d2b1a9702e255557"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39042051142,
+          "name": "Build adev for preview deployment",
+          "path": ".github/workflows/adev-preview-build.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042051142",
+          "head_sha": "926da42abac133bce9f021c0cb8fcf51cc1b0330"
+        },
+        {
+          "id": 39042051574,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39042051574",
+          "head_sha": "926da42abac133bce9f021c0cb8fcf51cc1b0330"
+        },
+        {
+          "id": 39030654635,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39030654635",
+          "head_sha": "926da42abac133bce9f021c0cb8fcf51cc1b0330"
+        },
+        {
+          "id": 39030652381,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39030652381",
+          "head_sha": "926da42abac133bce9f021c0cb8fcf51cc1b0330"
+        },
+        {
+          "id": 39030652683,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39030652683",
+          "head_sha": "926da42abac133bce9f021c0cb8fcf51cc1b0330"
+        },
+        {
+          "id": 39030651916,
+          "name": "Build adev for preview deployment",
+          "path": ".github/workflows/adev-preview-build.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39030651916",
+          "head_sha": "926da42abac133bce9f021c0cb8fcf51cc1b0330"
+        },
+        {
+          "id": 39030652059,
+          "name": "Build adev for preview deployment",
+          "path": ".github/workflows/adev-preview-build.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39030652059",
+          "head_sha": "926da42abac133bce9f021c0cb8fcf51cc1b0330"
+        },
+        {
+          "id": 39030574090,
+          "name": "Pull Request",
+          "path": ".github/workflows/pr.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39030574090",
+          "head_sha": "926da42abac133bce9f021c0cb8fcf51cc1b0330"
+        },
+        {
+          "id": 39030574089,
+          "name": "Build adev for preview deployment",
+          "path": ".github/workflows/adev-preview-build.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/angular/angular/actions/runs/39030574089",
+          "head_sha": "926da42abac133bce9f021c0cb8fcf51cc1b0330"
+        },
+        {
+          "id": 39030574152,
+          "name": "Google Internal Tests Enforcement",
+          "path": ".github/workflows/google-internal-tests.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/39030574152",
+          "head_sha": "926da42abac133bce9f021c0cb8fcf51cc1b0330"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v22.2.3",
+      "url": "https://github.com/angular/angular/releases/tag/v22.2.3",
+      "published_at": "2026-10-14T23:38:58Z",
+      "target_commitish": "main",
+      "commit_sha": "d9514bbe66f86f4799cbeadac896c39488bf7cae",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38655371815,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/38655371815",
+          "head_sha": "d9514bbe66f86f4799cbeadac896c39488bf7cae"
+        },
+        {
+          "id": 38655368441,
+          "name": "CI (push)",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/38655368441",
+          "head_sha": "d9514bbe66f86f4799cbeadac896c39488bf7cae"
+        },
+        {
+          "id": 38655368449,
+          "name": "Update ADEV Cross Repo Docs",
+          "path": ".github/workflows/cross-repo-adev-docs.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/38655368449",
+          "head_sha": "d9514bbe66f86f4799cbeadac896c39488bf7cae"
+        },
+        {
+          "id": 38655368473,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/38655368473",
+          "head_sha": "d9514bbe66f86f4799cbeadac896c39488bf7cae"
+        }
+      ]
+    },
+    {
+      "tag": "v20.3.34",
+      "url": "https://github.com/angular/angular/releases/tag/v20.3.34",
+      "published_at": "2026-10-14T23:19:08Z",
+      "target_commitish": "main",
+      "commit_sha": "329172858b99ab3910b15c1e79bd49b0d5094b30",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38653323329,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/38653323329",
+          "head_sha": "329172858b99ab3910b15c1e79bd49b0d5094b30"
+        },
+        {
+          "id": 38653321262,
+          "name": "CI (push)",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/38653321262",
+          "head_sha": "329172858b99ab3910b15c1e79bd49b0d5094b30"
+        },
+        {
+          "id": 38653321307,
+          "name": "Update ADEV Angular CDK APIs and CLI Help",
+          "path": ".github/workflows/update-cdk-apis-and-cli-help.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/38653321307",
+          "head_sha": "329172858b99ab3910b15c1e79bd49b0d5094b30"
+        },
+        {
+          "id": 38653321317,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/38653321317",
+          "head_sha": "329172858b99ab3910b15c1e79bd49b0d5094b30"
+        }
+      ]
+    },
+    {
+      "tag": "v22.2.2",
+      "url": "https://github.com/angular/angular/releases/tag/v22.2.2",
+      "published_at": "2026-10-08T17:50:06Z",
+      "target_commitish": "main",
+      "commit_sha": "2da8b0b41da0b91cc57eacb329aabc194f01943d",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37819617356,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/37819617356",
+          "head_sha": "2da8b0b41da0b91cc57eacb329aabc194f01943d"
+        },
+        {
+          "id": 37819613795,
+          "name": "Update ADEV Cross Repo Docs",
+          "path": ".github/workflows/cross-repo-adev-docs.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/37819613795",
+          "head_sha": "2da8b0b41da0b91cc57eacb329aabc194f01943d"
+        },
+        {
+          "id": 37819613659,
+          "name": "DevInfra",
+          "path": ".github/workflows/assistant-to-the-branch-manager.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/37819613659",
+          "head_sha": "2da8b0b41da0b91cc57eacb329aabc194f01943d"
+        },
+        {
+          "id": 37819613606,
+          "name": "CI (push)",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/angular/angular/actions/runs/37819613606",
+          "head_sha": "2da8b0b41da0b91cc57eacb329aabc194f01943d"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "zone.js-0.16.3",
+      "sha": "124bf448091d0b2314275ca9bed12d82b3b7ef7e"
+    },
+    {
+      "name": "zone.js-0.16.2",
+      "sha": "e3dc87cbd8ceb3b0353033eedef95e931a087799"
+    },
+    {
+      "name": "zone.js-0.16.1",
+      "sha": "ac8b5ff9382ee92761c414098a3295cd8d1cd519"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:09.862856+00:00",
+  "source_times": {
+    "/repos/angular/angular": "2026-10-17T16:11:13.844613+00:00",
+    "/repos/angular/angular/commits?sha=main&per_page=20": "2026-10-17T16:11:16.091589+00:00",
+    "/repos/angular/angular/git/trees/29bfe100d5870cb29efe822d713345b2a8a9a671": "2026-10-17T16:11:18.526072+00:00",
+    "/repos/angular/angular/git/trees/7100f96a55d8e811113da63e3711885656b9719b": "2026-10-17T16:11:19.920958+00:00",
+    "/repos/angular/angular/git/trees/cd0051faf531da925a6ea58e65284c10ff5a62eb": "2026-10-17T16:11:21.325507+00:00",
+    "/repos/angular/angular/git/trees/ec422bdd582fda006d2ba8fe1e9d6e27cd066369": "2026-10-17T16:11:22.716873+00:00",
+    "/repos/angular/angular/git/trees/19ced3f8dcb754fec88d4266b327c23e11f9b9f9": "2026-10-17T16:17:05.030129+00:00",
+    "/repos/angular/angular/git/trees/8b8eb29425a47675447f05be1bbdc16db179c12e": "2026-10-17T16:17:06.449026+00:00",
+    "/repos/angular/angular/git/blobs/d120951b52cb938e44433568cebdd6f4cb7fd308": "2026-10-17T16:11:24.103056+00:00",
+    "/repos/angular/angular/git/blobs/cf2a3fe1ff672d25f22ba1fde9ef78cfa17fe987": "2026-10-17T16:11:26.476162+00:00",
+    "/repos/angular/angular/git/blobs/77bce4cca3c90d40083f2daf7882415600315b58": "2026-10-17T16:11:28.075624+00:00",
+    "/repos/angular/angular/git/blobs/e6ca63fd5c5ed02833a95fed66a0c455d9573377": "2026-10-17T16:11:29.510607+00:00",
+    "/repos/angular/angular/git/blobs/c1528944d08b5be8e2997e46a842b35fd998a11f": "2026-10-17T16:11:34.605307+00:00",
+    "/repos/angular/angular/git/blobs/0361308689abd47cda5595ca78f2a4a3cb1d6be0": "2026-10-17T16:11:35.992689+00:00",
+    "/repos/angular/angular/git/blobs/0fd616a65564d0ac1a146bf24b5eb145fe6a6267": "2026-10-17T16:11:37.379333+00:00",
+    "/repos/angular/angular/git/blobs/fb923c51a35e355ee6bf5a5ffcd9b121d39f4393": "2026-10-17T16:11:38.750823+00:00",
+    "/repos/angular/angular/git/blobs/32ab0a5890b15359c06623c41515ff23ec30da9f": "2026-10-17T16:11:40.162746+00:00",
+    "/repos/angular/angular/git/blobs/ce558b62992422491f12f28f2fc25a979fb64cae": "2026-10-17T16:11:42.569303+00:00",
+    "/repos/angular/angular/git/blobs/45c8d27187a87b34c35e60b5ce79469c04dcd145": "2026-10-17T16:11:45.330789+00:00",
+    "/repos/angular/angular/git/blobs/7157c6d1ff35f35915f8d058247e57474bd6607d": "2026-10-17T16:11:46.699119+00:00",
+    "/repos/angular/angular/git/blobs/9711998d7a57da1b8315ec04dbe63bd6035bd9b5": "2026-10-17T16:11:48.065033+00:00",
+    "/repos/angular/angular/git/blobs/fa12e442c08509e519adc1a940a58bf513a2f17d": "2026-10-17T16:11:49.442573+00:00",
+    "/repos/angular/angular/git/blobs/a1e4a6b7b66febbf59e411bfe0f9af4eca3c7b5e": "2026-10-17T16:11:50.872810+00:00",
+    "/repos/angular/angular/git/blobs/40dfdeb5bd0edc862328a4c1ccecaa655e547480": "2026-10-17T16:11:52.645416+00:00",
+    "/repos/angular/angular/git/blobs/c801b7e218d388f3b0e02932cc3767fd4f49d38b": "2026-10-17T16:11:53.996347+00:00",
+    "/repos/angular/angular/git/blobs/6b924e97c3f495f2cf7d7606c864b9c5cff59eea": "2026-10-17T16:11:56.382538+00:00",
+    "/repos/angular/angular/git/blobs/33b632e5877950135187833010efa6d5b654eddb": "2026-10-17T16:11:57.730695+00:00",
+    "/repos/angular/angular/git/blobs/9694088444aed38928080144e15a848d8e8e93cd": "2026-10-17T16:11:59.094343+00:00",
+    "/repos/angular/angular/git/blobs/42d0b0da541889176efa3fcf9dc508228fecc9a3": "2026-10-17T16:12:00.521321+00:00",
+    "/repos/angular/angular/git/blobs/b48b8e9b1d9f5818e8d39ec1e7619ae1f75e0420": "2026-10-17T16:12:02.901255+00:00",
+    "/repos/angular/angular/git/blobs/eecfceb78c1de12ca9cd58a5a8ea9078396f6833": "2026-10-17T16:12:04.269254+00:00",
+    "/repos/angular/angular/git/blobs/b2833875109e8d01cf71652e74a4d0e97723f5d5": "2026-10-17T16:12:05.622708+00:00",
+    "/repos/angular/angular/git/blobs/047e11f95455f95c6783badafaee5431728fcd99": "2026-10-17T16:12:06.997051+00:00",
+    "/repos/angular/angular/git/blobs/ba688ea6be7c455a457c7c638fe3325e7cddde44": "2026-10-17T16:12:08.755414+00:00",
+    "/repos/angular/angular/git/blobs/579fbae8421011248c6ad801627d94600d4f1db4": "2026-10-17T16:17:07.880088+00:00",
+    "/repos/angular/angular/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:12:12.312071+00:00",
+    "/repos/angular/angular/pulls/71401/files?per_page=100": "2026-10-17T16:12:14.698846+00:00",
+    "/repos/angular/angular/pulls/71401/reviews?per_page=100": "2026-10-17T16:12:16.312989+00:00",
+    "/repos/angular/angular/actions/runs?head_sha=29bfe100d5870cb29efe822d713345b2a8a9a671&per_page=10": "2026-10-17T16:12:18.558453+00:00",
+    "/repos/angular/angular/actions/runs?head_sha=ea976951f34c3bc96d7bb1b164c40a6f1219ff30&per_page=10": "2026-10-17T16:12:20.654534+00:00",
+    "/repos/angular/angular/pulls/71402/files?per_page=100": "2026-10-17T16:12:22.319151+00:00",
+    "/repos/angular/angular/pulls/71402/reviews?per_page=100": "2026-10-17T16:12:23.901851+00:00",
+    "/repos/angular/angular/actions/runs?head_sha=d9a271a73b14cac9f8907f86e92d2fe3ae76a9ae&per_page=10": "2026-10-17T16:12:26.060622+00:00",
+    "/repos/angular/angular/actions/runs?head_sha=64b976ce013bfe23a5d9592c3a5300b863821139&per_page=10": "2026-10-17T16:12:28.093280+00:00",
+    "/repos/angular/angular/pulls/71411/files?per_page=100": "2026-10-17T16:12:29.888604+00:00",
+    "/repos/angular/angular/pulls/71411/reviews?per_page=100": "2026-10-17T16:12:31.397204+00:00",
+    "/repos/angular/angular/actions/runs?head_sha=16d0968e275f8dc4f2926b90d2b1a9702e255557&per_page=10": "2026-10-17T16:12:33.664807+00:00",
+    "/repos/angular/angular/actions/runs?head_sha=926da42abac133bce9f021c0cb8fcf51cc1b0330&per_page=10": "2026-10-17T16:12:36.583116+00:00",
+    "/repos/angular/angular/releases?per_page=20&page=1": "2026-10-17T16:17:09.860417+00:00",
+    "/repos/angular/angular/commits/v22.2.3": "2026-10-17T16:12:41.809539+00:00",
+    "/repos/angular/angular/actions/runs?head_sha=d9514bbe66f86f4799cbeadac896c39488bf7cae&per_page=10": "2026-10-17T16:12:44.883721+00:00",
+    "/repos/angular/angular/commits/v20.3.34": "2026-10-17T16:12:46.398790+00:00",
+    "/repos/angular/angular/actions/runs?head_sha=329172858b99ab3910b15c1e79bd49b0d5094b30&per_page=10": "2026-10-17T16:12:49.244016+00:00",
+    "/repos/angular/angular/commits/v22.2.2": "2026-10-17T16:12:50.719974+00:00",
+    "/repos/angular/angular/actions/runs?head_sha=2da8b0b41da0b91cc57eacb329aabc194f01943d&per_page=10": "2026-10-17T16:12:52.575731+00:00",
+    "/repos/angular/angular/tags?per_page=3": "2026-10-17T16:12:53.939879+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:09.860417+00:00",
+  "status": "collected"
+}

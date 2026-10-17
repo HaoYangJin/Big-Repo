@@ -1,0 +1,1669 @@
+{
+  "requested_repository": "sveltejs/svelte",
+  "category": "frameworks",
+  "collected_at": "2026-10-17T16:10:59.875569+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "sveltejs/svelte",
+  "metadata": {
+    "html_url": "https://github.com/sveltejs/svelte",
+    "description": "web development for the rest of us",
+    "homepage": "https://svelte.dev",
+    "language": "JavaScript",
+    "stargazers_count": 88389,
+    "forks_count": 8438,
+    "open_issues_count": 1181,
+    "pushed_at": "2026-10-17T00:52:36Z",
+    "created_at": "2016-11-20T18:13:05Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [
+      "compiler",
+      "template",
+      "ui"
+    ],
+    "owner": {
+      "login": "sveltejs",
+      "type": "Organization",
+      "html_url": "https://github.com/sveltejs"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "40bb08482f4857d91221638dec544a532bc35389",
+      "url": "https://github.com/sveltejs/svelte/commit/40bb08482f4857d91221638dec544a532bc35389",
+      "date": "2026-10-15T11:29:50Z",
+      "subject": "chore: more passing async tests (#19014)"
+    },
+    {
+      "sha": "a841a29407e0892bcecb8b814d4f0e864cae635d",
+      "url": "https://github.com/sveltejs/svelte/commit/a841a29407e0892bcecb8b814d4f0e864cae635d",
+      "date": "2026-10-15T10:37:33Z",
+      "subject": "chore: bring over passing async-eager tests (#19011)"
+    },
+    {
+      "sha": "44738572645ec47c9fcdb2637d64498b96858dcf",
+      "url": "https://github.com/sveltejs/svelte/commit/44738572645ec47c9fcdb2637d64498b96858dcf",
+      "date": "2026-10-15T01:55:55Z",
+      "subject": "chore: bring over more tests that already pass on main (#19007)"
+    },
+    {
+      "sha": "34079beb4a8d03073f599885f78e212191d4c878",
+      "url": "https://github.com/sveltejs/svelte/commit/34079beb4a8d03073f599885f78e212191d4c878",
+      "date": "2026-10-14T23:47:35Z",
+      "subject": "chore: add more async fork tests (#19004)"
+    },
+    {
+      "sha": "522f832aec0447fff12df0c2815c13093f3f79aa",
+      "url": "https://github.com/sveltejs/svelte/commit/522f832aec0447fff12df0c2815c13093f3f79aa",
+      "date": "2026-10-14T23:46:56Z",
+      "subject": "chore: fix test timeouts (#19005)"
+    },
+    {
+      "sha": "79e7c3bd346bec0c683ef3bde4334778e5ef94e3",
+      "url": "https://github.com/sveltejs/svelte/commit/79e7c3bd346bec0c683ef3bde4334778e5ef94e3",
+      "date": "2026-10-14T20:32:05Z",
+      "subject": "fix: `devalue` link in `hydratable_serialization_failed` error (#18999)"
+    },
+    {
+      "sha": "86eb09b76ef9c81e8b34adf7eaaf63974a66aaa9",
+      "url": "https://github.com/sveltejs/svelte/commit/86eb09b76ef9c81e8b34adf7eaaf63974a66aaa9",
+      "date": "2026-10-13T17:40:24Z",
+      "subject": "chore: even more async tests (#18990)"
+    },
+    {
+      "sha": "4d2ad8a189ac89c4bede7ed6c3d6aec6065701f4",
+      "url": "https://github.com/sveltejs/svelte/commit/4d2ad8a189ac89c4bede7ed6c3d6aec6065701f4",
+      "date": "2026-10-13T15:35:22Z",
+      "subject": "chore: add async-merge-blocking-pending test from #18983 (#18989)"
+    },
+    {
+      "sha": "d9acd2da90d1e0c23185c140cb29935937dd3ada",
+      "url": "https://github.com/sveltejs/svelte/commit/d9acd2da90d1e0c23185c140cb29935937dd3ada",
+      "date": "2026-10-13T08:52:05Z",
+      "subject": "test: add async tests that already pass on main, unskip async-overlap-multiple-2 (#18981)"
+    },
+    {
+      "sha": "6480a9737f0ccc610cb8692b637c5f86ad141646",
+      "url": "https://github.com/sveltejs/svelte/commit/6480a9737f0ccc610cb8692b637c5f86ad141646",
+      "date": "2026-10-13T00:38:31Z",
+      "subject": "chore: make Batch prev/next/started public (#18982)"
+    },
+    {
+      "sha": "e22a67c432d18fa9647cdfd7b936fce4b7cb39e5",
+      "url": "https://github.com/sveltejs/svelte/commit/e22a67c432d18fa9647cdfd7b936fce4b7cb39e5",
+      "date": "2026-10-13T00:20:45Z",
+      "subject": "chore: tidy up comments and types in batch.js and sources.js (#18980)"
+    },
+    {
+      "sha": "0c61f1bb765683b8c01ced97e39900b85215114b",
+      "url": "https://github.com/sveltejs/svelte/commit/0c61f1bb765683b8c01ced97e39900b85215114b",
+      "date": "2026-10-12T23:51:48Z",
+      "subject": "chore: merge #dirty_effects and #maybe_dirty_effects into #dirty_reactions (#18979)"
+    },
+    {
+      "sha": "707c28146b0f0a6d5404a1bd4769874c3c24851a",
+      "url": "https://github.com/sveltejs/svelte/commit/707c28146b0f0a6d5404a1bd4769874c3c24851a",
+      "date": "2026-10-07T14:50:37Z",
+      "subject": "fix: keep creating state sources for property checks during component init (#18949)"
+    },
+    {
+      "sha": "c85120fb9fb4ff500bef189368f31b680421c4ba",
+      "url": "https://github.com/sveltejs/svelte/commit/c85120fb9fb4ff500bef189368f31b680421c4ba",
+      "date": "2026-10-07T09:44:42Z",
+      "subject": "fix: track missing proxy keys in unowned deriveds (#18944)"
+    },
+    {
+      "sha": "10fdca7d705081cae17bf7d609d46ee6eb237d17",
+      "url": "https://github.com/sveltejs/svelte/commit/10fdca7d705081cae17bf7d609d46ee6eb237d17",
+      "date": "2026-10-06T14:15:14Z",
+      "subject": "Version Packages (#18858)"
+    },
+    {
+      "sha": "c580b381f78ebf8d92bf04ca999bfc2b28516ead",
+      "url": "https://github.com/sveltejs/svelte/commit/c580b381f78ebf8d92bf04ca999bfc2b28516ead",
+      "date": "2026-10-06T13:36:21Z",
+      "subject": "fix: prevent duplicate derived subscriptions on reconnect (#18899)"
+    },
+    {
+      "sha": "3f885e30161bebd61939fb02065d539c76369398",
+      "url": "https://github.com/sveltejs/svelte/commit/3f885e30161bebd61939fb02065d539c76369398",
+      "date": "2026-10-06T11:57:31Z",
+      "subject": "fix: don't throw state_unsafe_mutation when the focused element is removed with bind:activeElement (#18921)"
+    },
+    {
+      "sha": "fe4fb460b1b0bb1373684541c7cbc107b582e789",
+      "url": "https://github.com/sveltejs/svelte/commit/fe4fb460b1b0bb1373684541c7cbc107b582e789",
+      "date": "2026-10-06T10:01:44Z",
+      "subject": "fix: error if `{:else}` is followed by another `{:else}` or `{:else if ...}` (#18900)"
+    },
+    {
+      "sha": "179f66b297a1cfd943ad31dcd575587d629c412c",
+      "url": "https://github.com/sveltejs/svelte/commit/179f66b297a1cfd943ad31dcd575587d629c412c",
+      "date": "2026-10-06T09:50:59Z",
+      "subject": "fix: don't create async deriveds for a component destroyed while waiting for its top-level `await` (#18931)"
+    },
+    {
+      "sha": "79a0c0d4d8faf305a1c1c536712139f569c9e431",
+      "url": "https://github.com/sveltejs/svelte/commit/79a0c0d4d8faf305a1c1c536712139f569c9e431",
+      "date": "2026-10-06T09:30:52Z",
+      "subject": "fix: attach event handlers that are assigned after a top-level `await` in production (#18933)"
+    }
+  ],
+  "default_sha": "40bb08482f4857d91221638dec544a532bc35389",
+  "root_and_selected_directory_paths": [
+    ".agents",
+    ".changeset",
+    ".editorconfig",
+    ".gitattributes",
+    ".github",
+    ".github/FUNDING.yml",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE.md",
+    ".github/ISSUE_TEMPLATE/bug_report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/feature_request.yml",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/workflows",
+    ".github/workflows/autofix.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/ecosystem-ci-trigger.yml",
+    ".github/workflows/release.yml",
+    ".gitignore",
+    ".npmrc",
+    ".prettierignore",
+    ".prettierrc",
+    ".vscode",
+    ".well-known",
+    "AGENTS.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "FUNDING.json",
+    "LICENSE.md",
+    "README.md",
+    "assets",
+    "benchmarking",
+    "documentation",
+    "eslint.config.js",
+    "package.json",
+    "packages",
+    "playgrounds",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "svelte.config.js",
+    "vitest-xhtml-environment.ts",
+    "vitest.config.js"
+  ],
+  "workflow_paths": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/ecosystem-ci-trigger.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/autofix.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "7f143248aaff1ef2b811f206b0e6277a8e72a9b2",
+      "status": "inspected",
+      "url": "https://github.com/sveltejs/svelte/blob/40bb08482f4857d91221638dec544a532bc35389/AGENTS.md",
+      "lines": 11,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "65d86fe76ab7cd6a60221b8c4a6bdf8304ccd6a5",
+      "status": "inspected",
+      "url": "https://github.com/sveltejs/svelte/blob/40bb08482f4857d91221638dec544a532bc35389/CODE_OF_CONDUCT.md",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "586c6fe6aed39419aa11734f0f25238297066459",
+      "status": "inspected",
+      "url": "https://github.com/sveltejs/svelte/blob/40bb08482f4857d91221638dec544a532bc35389/CONTRIBUTING.md",
+      "lines": 171,
+      "signals": {
+        "tests": [
+          101,
+          102,
+          105,
+          108,
+          111,
+          114,
+          119,
+          144
+        ],
+        "lint": [
+          127
+        ],
+        "generated_code": [
+          136
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          15,
+          36,
+          38,
+          42,
+          46
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "7ea71647521ae850fd0933665f94760806ac5b29",
+      "status": "inspected",
+      "url": "https://github.com/sveltejs/svelte/blob/40bb08482f4857d91221638dec544a532bc35389/README.md",
+      "lines": 38,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          8
+        ],
+        "media": [
+          4,
+          8
+        ],
+        "theme_images": [
+          2,
+          3
+        ],
+        "playground": [],
+        "community": [
+          24,
+          26
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "package.json",
+      "sha": "41f93d526ca474f7c487e00b02ce6e940776f16e",
+      "status": "inspected",
+      "url": "https://github.com/sveltejs/svelte/blob/40bb08482f4857d91221638dec544a532bc35389/package.json",
+      "lines": 50,
+      "signals": {
+        "tests": [
+          21,
+          36,
+          48
+        ],
+        "lint": [
+          19,
+          20,
+          32,
+          33,
+          37,
+          38,
+          39,
+          42,
+          43,
+          46
+        ],
+        "generated_code": [],
+        "release_automation": [
+          30,
+          31
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE.md",
+      "sha": "220af118345ef95946e0ebbf985f4499f2d2b7cc",
+      "status": "inspected",
+      "url": "https://github.com/sveltejs/svelte/blob/40bb08482f4857d91221638dec544a532bc35389/.github/ISSUE_TEMPLATE.md",
+      "lines": 28,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha": "2e484e5ca26d8e05d7f9bc6962dcb78acc378489",
+      "status": "inspected",
+      "url": "https://github.com/sveltejs/svelte/blob/40bb08482f4857d91221638dec544a532bc35389/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "lines": 50,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "ee3e5a41b9827c1fe04df398769fd16d821b40de",
+      "status": "inspected",
+      "url": "https://github.com/sveltejs/svelte/blob/40bb08482f4857d91221638dec544a532bc35389/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 5,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "sha": "d79e8b2e21f3fc42de95418f47618a07a508572d",
+      "status": "inspected",
+      "url": "https://github.com/sveltejs/svelte/blob/40bb08482f4857d91221638dec544a532bc35389/.github/ISSUE_TEMPLATE/feature_request.yml",
+      "lines": 35,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "aa5f9732b6d351bc444bbb60ccbb592a57a3ec53",
+      "status": "inspected",
+      "url": "https://github.com/sveltejs/svelte/blob/40bb08482f4857d91221638dec544a532bc35389/.github/PULL_REQUEST_TEMPLATE.md",
+      "lines": 11,
+      "signals": {
+        "tests": [
+          11
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "3846690135201dcef620ae1c4f8fc31d00b12637",
+      "status": "inspected",
+      "url": "https://github.com/sveltejs/svelte/blob/40bb08482f4857d91221638dec544a532bc35389/.github/workflows/ci.yml",
+      "lines": 117,
+      "signals": {
+        "tests": [
+          21,
+          43,
+          59
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          6,
+          15,
+          47,
+          64,
+          81,
+          104
+        ],
+        "pinned_actions": [
+          35,
+          36,
+          37,
+          51,
+          52,
+          53,
+          68,
+          69,
+          70,
+          85,
+          86,
+          87
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ecosystem-ci-trigger.yml",
+      "sha": "8691a64ca44442900fa49255141cffd2ae591b41",
+      "status": "inspected",
+      "url": "https://github.com/sveltejs/svelte/blob/40bb08482f4857d91221638dec544a532bc35389/.github/workflows/ecosystem-ci-trigger.yml",
+      "lines": 143,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7,
+          13
+        ],
+        "pinned_actions": [
+          20,
+          59,
+          109,
+          118
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha": "12fe17582e156606b3c7e9cbb9f765c801f1ee9b",
+      "status": "inspected",
+      "url": "https://github.com/sveltejs/svelte/blob/40bb08482f4857d91221638dec544a532bc35389/.github/workflows/release.yml",
+      "lines": 51,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          19,
+          21,
+          28,
+          44,
+          45
+        ],
+        "permissions": [
+          13,
+          18,
+          19,
+          20
+        ],
+        "pinned_actions": [
+          26,
+          30,
+          32,
+          45
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          28
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/autofix.yml",
+      "sha": "5cdbd34e5b826aa56a1af4a25aee152d943bd630",
+      "status": "inspected",
+      "url": "https://github.com/sveltejs/svelte/blob/40bb08482f4857d91221638dec544a532bc35389/.github/workflows/autofix.yml",
+      "lines": 69,
+      "signals": {
+        "tests": [],
+        "lint": [
+          61
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8,
+          12,
+          13
+        ],
+        "pinned_actions": [
+          31,
+          49,
+          53,
+          54
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 19014,
+      "title": "chore: more passing async tests",
+      "url": "https://github.com/sveltejs/svelte/pull/19014",
+      "merged_at": "2026-10-15T11:29:51Z",
+      "merge_commit_sha": "40bb08482f4857d91221638dec544a532bc35389",
+      "files": [
+        "packages/svelte/tests/runtime-runes/samples/async-commit-stale-reader-dropped-dep/_config.js",
+        "packages/svelte/tests/runtime-runes/samples/async-commit-stale-reader-dropped-dep/main.svelte",
+        "packages/svelte/tests/runtime-runes/samples/async-overlap-multiple-3/_config.js",
+        "packages/svelte/tests/runtime-runes/samples/async-overlap-multiple-4/_config.js",
+        "packages/svelte/tests/runtime-runes/samples/async-overlap-multiple-fork-3/_config.js",
+        "packages/svelte/tests/runtime-runes/samples/async-state-new-branch-5/_config.js",
+        "packages/svelte/tests/runtime-runes/samples/async-state-new-branch-5/main.svelte",
+        "packages/svelte/tests/runtime-runes/samples/async-state-new-branch-fork-4/_config.js",
+        "packages/svelte/tests/runtime-runes/samples/async-state-read-new-dependency/_config.js",
+        "packages/svelte/tests/runtime-runes/samples/async-state-read-new-dependency/main.svelte",
+        "packages/svelte/tests/runtime-runes/samples/error-boundary-29/_config.js",
+        "packages/svelte/tests/runtime-runes/samples/error-boundary-29/main.svelte"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-commit-stale-reader-dropped-dep/_config.js",
+          "status": "added",
+          "additions": 37,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/e9c954336cc0d2168a7247592aba7ca722c0e990/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-commit-stale-reader-dropped-dep%2F_config.js"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-commit-stale-reader-dropped-dep/main.svelte",
+          "status": "added",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/e9c954336cc0d2168a7247592aba7ca722c0e990/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-commit-stale-reader-dropped-dep%2Fmain.svelte"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-overlap-multiple-3/_config.js",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 15,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/e9c954336cc0d2168a7247592aba7ca722c0e990/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-overlap-multiple-3%2F_config.js"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-overlap-multiple-4/_config.js",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 19,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/e9c954336cc0d2168a7247592aba7ca722c0e990/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-overlap-multiple-4%2F_config.js"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-overlap-multiple-fork-3/_config.js",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/e9c954336cc0d2168a7247592aba7ca722c0e990/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-overlap-multiple-fork-3%2F_config.js"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-state-new-branch-5/_config.js",
+          "status": "added",
+          "additions": 52,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/e9c954336cc0d2168a7247592aba7ca722c0e990/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-state-new-branch-5%2F_config.js"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-state-new-branch-5/main.svelte",
+          "status": "added",
+          "additions": 29,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/e9c954336cc0d2168a7247592aba7ca722c0e990/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-state-new-branch-5%2Fmain.svelte"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-state-new-branch-fork-4/_config.js",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/e9c954336cc0d2168a7247592aba7ca722c0e990/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-state-new-branch-fork-4%2F_config.js"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-state-read-new-dependency/_config.js",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/e9c954336cc0d2168a7247592aba7ca722c0e990/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-state-read-new-dependency%2F_config.js"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-state-read-new-dependency/main.svelte",
+          "status": "added",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/e9c954336cc0d2168a7247592aba7ca722c0e990/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-state-read-new-dependency%2Fmain.svelte"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/error-boundary-29/_config.js",
+          "status": "added",
+          "additions": 14,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/e9c954336cc0d2168a7247592aba7ca722c0e990/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Ferror-boundary-29%2F_config.js"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/error-boundary-29/main.svelte",
+          "status": "added",
+          "additions": 16,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/e9c954336cc0d2168a7247592aba7ca722c0e990/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Ferror-boundary-29%2Fmain.svelte"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39048283707,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/39048283707",
+          "head_sha": "40bb08482f4857d91221638dec544a532bc35389"
+        },
+        {
+          "id": 39048283702,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/39048283702",
+          "head_sha": "40bb08482f4857d91221638dec544a532bc35389"
+        },
+        {
+          "id": 39048284150,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/39048284150",
+          "head_sha": "40bb08482f4857d91221638dec544a532bc35389"
+        },
+        {
+          "id": 39048284134,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/39048284134",
+          "head_sha": "40bb08482f4857d91221638dec544a532bc35389"
+        },
+        {
+          "id": 39006939304,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/39006939304",
+          "head_sha": "40bb08482f4857d91221638dec544a532bc35389"
+        },
+        {
+          "id": 39006939279,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/39006939279",
+          "head_sha": "40bb08482f4857d91221638dec544a532bc35389"
+        },
+        {
+          "id": 39006936611,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/39006936611",
+          "head_sha": "40bb08482f4857d91221638dec544a532bc35389"
+        },
+        {
+          "id": 39006936462,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/39006936462",
+          "head_sha": "40bb08482f4857d91221638dec544a532bc35389"
+        },
+        {
+          "id": 38977549247,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38977549247",
+          "head_sha": "40bb08482f4857d91221638dec544a532bc35389"
+        },
+        {
+          "id": 38977549145,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38977549145",
+          "head_sha": "40bb08482f4857d91221638dec544a532bc35389"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38725483020,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38725483020",
+          "head_sha": "e9c954336cc0d2168a7247592aba7ca722c0e990"
+        },
+        {
+          "id": 38725476198,
+          "name": "PR #19014",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38725476198",
+          "head_sha": "e9c954336cc0d2168a7247592aba7ca722c0e990"
+        }
+      ]
+    },
+    {
+      "number": 19011,
+      "title": "chore: bring over passing async-eager tests",
+      "url": "https://github.com/sveltejs/svelte/pull/19011",
+      "merged_at": "2026-10-15T10:37:33Z",
+      "merge_commit_sha": "a841a29407e0892bcecb8b814d4f0e864cae635d",
+      "files": [
+        "packages/svelte/tests/runtime-runes/samples/async-eager-new-in-earlier-batch/_config.js",
+        "packages/svelte/tests/runtime-runes/samples/async-eager-new-in-earlier-batch/main.svelte",
+        "packages/svelte/tests/runtime-runes/samples/async-state-eager-not-connected/_config.js",
+        "packages/svelte/tests/runtime-runes/samples/async-state-eager-not-connected/main.svelte"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-eager-new-in-earlier-batch/_config.js",
+          "status": "added",
+          "additions": 33,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/4032c7c0f8e4877d60a1de03ea38d209706bcd92/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-eager-new-in-earlier-batch%2F_config.js"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-eager-new-in-earlier-batch/main.svelte",
+          "status": "added",
+          "additions": 26,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/4032c7c0f8e4877d60a1de03ea38d209706bcd92/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-eager-new-in-earlier-batch%2Fmain.svelte"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-state-eager-not-connected/_config.js",
+          "status": "added",
+          "additions": 34,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/4032c7c0f8e4877d60a1de03ea38d209706bcd92/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-state-eager-not-connected%2F_config.js"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-state-eager-not-connected/main.svelte",
+          "status": "added",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/4032c7c0f8e4877d60a1de03ea38d209706bcd92/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-state-eager-not-connected%2Fmain.svelte"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38725813134,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38725813134",
+          "head_sha": "a841a29407e0892bcecb8b814d4f0e864cae635d"
+        },
+        {
+          "id": 38725813223,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38725813223",
+          "head_sha": "a841a29407e0892bcecb8b814d4f0e864cae635d"
+        },
+        {
+          "id": 38725485531,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38725485531",
+          "head_sha": "a841a29407e0892bcecb8b814d4f0e864cae635d"
+        },
+        {
+          "id": 38725485545,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38725485545",
+          "head_sha": "a841a29407e0892bcecb8b814d4f0e864cae635d"
+        },
+        {
+          "id": 38722826751,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38722826751",
+          "head_sha": "a841a29407e0892bcecb8b814d4f0e864cae635d"
+        },
+        {
+          "id": 38722826700,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38722826700",
+          "head_sha": "a841a29407e0892bcecb8b814d4f0e864cae635d"
+        },
+        {
+          "id": 38722823870,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38722823870",
+          "head_sha": "a841a29407e0892bcecb8b814d4f0e864cae635d"
+        },
+        {
+          "id": 38722823818,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38722823818",
+          "head_sha": "a841a29407e0892bcecb8b814d4f0e864cae635d"
+        },
+        {
+          "id": 38721600865,
+          "name": "Release",
+          "path": ".github/workflows/release.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38721600865",
+          "head_sha": "a841a29407e0892bcecb8b814d4f0e864cae635d"
+        },
+        {
+          "id": 38721600214,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38721600214",
+          "head_sha": "a841a29407e0892bcecb8b814d4f0e864cae635d"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38720557765,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38720557765",
+          "head_sha": "4032c7c0f8e4877d60a1de03ea38d209706bcd92"
+        },
+        {
+          "id": 38720551173,
+          "name": "PR #19011",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38720551173",
+          "head_sha": "4032c7c0f8e4877d60a1de03ea38d209706bcd92"
+        }
+      ]
+    },
+    {
+      "number": 19007,
+      "title": "chore: bring over more tests that already pass on main",
+      "url": "https://github.com/sveltejs/svelte/pull/19007",
+      "merged_at": "2026-10-15T01:55:56Z",
+      "merge_commit_sha": "44738572645ec47c9fcdb2637d64498b96858dcf",
+      "files": [
+        "packages/svelte/tests/runtime-runes/samples/async-fork-await-block-static/_config.js",
+        "packages/svelte/tests/runtime-runes/samples/async-fork-await-block-static/main.svelte",
+        "packages/svelte/tests/runtime-runes/samples/async-fork-branch-async-adopted/_config.js",
+        "packages/svelte/tests/runtime-runes/samples/async-fork-branch-async-adopted/main.svelte",
+        "packages/svelte/tests/runtime-runes/samples/async-fork-equal-result-dropped/_config.js",
+        "packages/svelte/tests/runtime-runes/samples/async-fork-equal-result-dropped/main.svelte",
+        "packages/svelte/tests/runtime-runes/samples/async-overlapping-batches-stale-derived/_config.js",
+        "packages/svelte/tests/runtime-runes/samples/async-overlapping-batches-stale-derived/main.svelte"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-fork-await-block-static/_config.js",
+          "status": "added",
+          "additions": 28,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/a585ce5b1b0648de9fde07d06ea25ce6f17d0b98/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-fork-await-block-static%2F_config.js"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-fork-await-block-static/main.svelte",
+          "status": "added",
+          "additions": 18,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/a585ce5b1b0648de9fde07d06ea25ce6f17d0b98/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-fork-await-block-static%2Fmain.svelte"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-fork-branch-async-adopted/_config.js",
+          "status": "added",
+          "additions": 33,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/a585ce5b1b0648de9fde07d06ea25ce6f17d0b98/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-fork-branch-async-adopted%2F_config.js"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-fork-branch-async-adopted/main.svelte",
+          "status": "added",
+          "additions": 23,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/a585ce5b1b0648de9fde07d06ea25ce6f17d0b98/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-fork-branch-async-adopted%2Fmain.svelte"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-fork-equal-result-dropped/_config.js",
+          "status": "added",
+          "additions": 49,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/a585ce5b1b0648de9fde07d06ea25ce6f17d0b98/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-fork-equal-result-dropped%2F_config.js"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-fork-equal-result-dropped/main.svelte",
+          "status": "added",
+          "additions": 28,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/a585ce5b1b0648de9fde07d06ea25ce6f17d0b98/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-fork-equal-result-dropped%2Fmain.svelte"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-overlapping-batches-stale-derived/_config.js",
+          "status": "added",
+          "additions": 34,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/a585ce5b1b0648de9fde07d06ea25ce6f17d0b98/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-overlapping-batches-stale-derived%2F_config.js"
+        },
+        {
+          "filename": "packages/svelte/tests/runtime-runes/samples/async-overlapping-batches-stale-derived/main.svelte",
+          "status": "added",
+          "additions": 38,
+          "deletions": 0,
+          "blob_url": "https://github.com/sveltejs/svelte/blob/a585ce5b1b0648de9fde07d06ea25ce6f17d0b98/packages%2Fsvelte%2Ftests%2Fruntime-runes%2Fsamples%2Fasync-overlapping-batches-stale-derived%2Fmain.svelte"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38721096023,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38721096023",
+          "head_sha": "44738572645ec47c9fcdb2637d64498b96858dcf"
+        },
+        {
+          "id": 38721095987,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38721095987",
+          "head_sha": "44738572645ec47c9fcdb2637d64498b96858dcf"
+        },
+        {
+          "id": 38720862169,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38720862169",
+          "head_sha": "44738572645ec47c9fcdb2637d64498b96858dcf"
+        },
+        {
+          "id": 38720862153,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38720862153",
+          "head_sha": "44738572645ec47c9fcdb2637d64498b96858dcf"
+        },
+        {
+          "id": 38720767952,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38720767952",
+          "head_sha": "44738572645ec47c9fcdb2637d64498b96858dcf"
+        },
+        {
+          "id": 38720768074,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38720768074",
+          "head_sha": "44738572645ec47c9fcdb2637d64498b96858dcf"
+        },
+        {
+          "id": 38720761912,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38720761912",
+          "head_sha": "44738572645ec47c9fcdb2637d64498b96858dcf"
+        },
+        {
+          "id": 38720761414,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38720761414",
+          "head_sha": "44738572645ec47c9fcdb2637d64498b96858dcf"
+        },
+        {
+          "id": 38720577220,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38720577220",
+          "head_sha": "44738572645ec47c9fcdb2637d64498b96858dcf"
+        },
+        {
+          "id": 38720577263,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38720577263",
+          "head_sha": "44738572645ec47c9fcdb2637d64498b96858dcf"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38667307682,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38667307682",
+          "head_sha": "a585ce5b1b0648de9fde07d06ea25ce6f17d0b98"
+        },
+        {
+          "id": 38667303696,
+          "name": "PR #19007",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/38667303696",
+          "head_sha": "a585ce5b1b0648de9fde07d06ea25ce6f17d0b98"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "svelte@5.57.2",
+      "url": "https://github.com/sveltejs/svelte/releases/tag/svelte%405.57.2",
+      "published_at": "2026-10-06T14:20:22Z",
+      "target_commitish": "main",
+      "commit_sha": "10fdca7d705081cae17bf7d609d46ee6eb237d17",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37599050756,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/37599050756",
+          "head_sha": "10fdca7d705081cae17bf7d609d46ee6eb237d17"
+        },
+        {
+          "id": 37599050813,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/37599050813",
+          "head_sha": "10fdca7d705081cae17bf7d609d46ee6eb237d17"
+        },
+        {
+          "id": 37599046023,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/37599046023",
+          "head_sha": "10fdca7d705081cae17bf7d609d46ee6eb237d17"
+        },
+        {
+          "id": 37599045969,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/37599045969",
+          "head_sha": "10fdca7d705081cae17bf7d609d46ee6eb237d17"
+        },
+        {
+          "id": 37598256296,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/37598256296",
+          "head_sha": "10fdca7d705081cae17bf7d609d46ee6eb237d17"
+        },
+        {
+          "id": 37598255198,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/37598255198",
+          "head_sha": "10fdca7d705081cae17bf7d609d46ee6eb237d17"
+        },
+        {
+          "id": 37598256152,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/37598256152",
+          "head_sha": "10fdca7d705081cae17bf7d609d46ee6eb237d17"
+        },
+        {
+          "id": 37598255004,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/37598255004",
+          "head_sha": "10fdca7d705081cae17bf7d609d46ee6eb237d17"
+        },
+        {
+          "id": 37597001701,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/37597001701",
+          "head_sha": "10fdca7d705081cae17bf7d609d46ee6eb237d17"
+        },
+        {
+          "id": 37597001758,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/37597001758",
+          "head_sha": "10fdca7d705081cae17bf7d609d46ee6eb237d17"
+        }
+      ]
+    },
+    {
+      "tag": "svelte@5.57.1",
+      "url": "https://github.com/sveltejs/svelte/releases/tag/svelte%405.57.1",
+      "published_at": "2026-09-18T23:51:13Z",
+      "target_commitish": "main",
+      "commit_sha": "636eaaaa6f064b55072e7d192bb76dc9d8c4516e",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 35736019992,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/35736019992",
+          "head_sha": "636eaaaa6f064b55072e7d192bb76dc9d8c4516e"
+        },
+        {
+          "id": 35736020039,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/35736020039",
+          "head_sha": "636eaaaa6f064b55072e7d192bb76dc9d8c4516e"
+        },
+        {
+          "id": 35726708935,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/35726708935",
+          "head_sha": "636eaaaa6f064b55072e7d192bb76dc9d8c4516e"
+        },
+        {
+          "id": 35726709065,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/35726709065",
+          "head_sha": "636eaaaa6f064b55072e7d192bb76dc9d8c4516e"
+        },
+        {
+          "id": 35726705328,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/35726705328",
+          "head_sha": "636eaaaa6f064b55072e7d192bb76dc9d8c4516e"
+        },
+        {
+          "id": 35726705264,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/35726705264",
+          "head_sha": "636eaaaa6f064b55072e7d192bb76dc9d8c4516e"
+        },
+        {
+          "id": 35723087767,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/35723087767",
+          "head_sha": "636eaaaa6f064b55072e7d192bb76dc9d8c4516e"
+        },
+        {
+          "id": 35723087541,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/35723087541",
+          "head_sha": "636eaaaa6f064b55072e7d192bb76dc9d8c4516e"
+        },
+        {
+          "id": 35722712117,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/35722712117",
+          "head_sha": "636eaaaa6f064b55072e7d192bb76dc9d8c4516e"
+        },
+        {
+          "id": 35722712097,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/35722712097",
+          "head_sha": "636eaaaa6f064b55072e7d192bb76dc9d8c4516e"
+        }
+      ]
+    },
+    {
+      "tag": "svelte@5.57.0",
+      "url": "https://github.com/sveltejs/svelte/releases/tag/svelte%405.57.0",
+      "published_at": "2026-08-28T23:31:40Z",
+      "target_commitish": "main",
+      "commit_sha": "7bc0a70fe64dbb3fa3848b741963f31d1e10a8dc",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 33354563713,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/33354563713",
+          "head_sha": "7bc0a70fe64dbb3fa3848b741963f31d1e10a8dc"
+        },
+        {
+          "id": 33354563756,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/33354563756",
+          "head_sha": "7bc0a70fe64dbb3fa3848b741963f31d1e10a8dc"
+        },
+        {
+          "id": 33354561986,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/33354561986",
+          "head_sha": "7bc0a70fe64dbb3fa3848b741963f31d1e10a8dc"
+        },
+        {
+          "id": 33354561995,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/33354561995",
+          "head_sha": "7bc0a70fe64dbb3fa3848b741963f31d1e10a8dc"
+        },
+        {
+          "id": 33341669400,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/33341669400",
+          "head_sha": "7bc0a70fe64dbb3fa3848b741963f31d1e10a8dc"
+        },
+        {
+          "id": 33341669398,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/33341669398",
+          "head_sha": "7bc0a70fe64dbb3fa3848b741963f31d1e10a8dc"
+        },
+        {
+          "id": 33341667810,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/33341667810",
+          "head_sha": "7bc0a70fe64dbb3fa3848b741963f31d1e10a8dc"
+        },
+        {
+          "id": 33341667830,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/33341667830",
+          "head_sha": "7bc0a70fe64dbb3fa3848b741963f31d1e10a8dc"
+        },
+        {
+          "id": 33301798528,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/33301798528",
+          "head_sha": "7bc0a70fe64dbb3fa3848b741963f31d1e10a8dc"
+        },
+        {
+          "id": 33301798525,
+          "name": "Autofix Lint",
+          "path": ".github/workflows/autofix.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/sveltejs/svelte/actions/runs/33301798525",
+          "head_sha": "7bc0a70fe64dbb3fa3848b741963f31d1e10a8dc"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v3.59.2",
+      "sha": "06553d9b0927bcd9016842abef749a226b86dd9e"
+    },
+    {
+      "name": "v3.59.1",
+      "sha": "64b8c8b33c52cdb1ae9ee8b0148809237c5cb997"
+    },
+    {
+      "name": "v3.59.0",
+      "sha": "4537eb77bbb71d092327af7f3f22406dbfdd91c6"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:04.065009+00:00",
+  "source_times": {
+    "/repos/sveltejs/svelte": "2026-10-17T16:10:59.875569+00:00",
+    "/repos/sveltejs/svelte/commits?sha=main&per_page=20": "2026-10-17T16:11:01.840057+00:00",
+    "/repos/sveltejs/svelte/git/trees/40bb08482f4857d91221638dec544a532bc35389": "2026-10-17T16:11:04.493671+00:00",
+    "/repos/sveltejs/svelte/git/trees/10b6e150eafb08d8ac38e81af72a6b0de218ab8f": "2026-10-17T16:11:09.277838+00:00",
+    "/repos/sveltejs/svelte/git/trees/a401e9167eb7141e7b331e29b1d4623cd6d0a253": "2026-10-17T16:11:10.680043+00:00",
+    "/repos/sveltejs/svelte/git/trees/2afa8695b20135d47ea36e2c3096dd777a8376d6": "2026-10-17T16:11:12.094908+00:00",
+    "/repos/sveltejs/svelte/git/blobs/7f143248aaff1ef2b811f206b0e6277a8e72a9b2": "2026-10-17T16:11:13.455082+00:00",
+    "/repos/sveltejs/svelte/git/blobs/65d86fe76ab7cd6a60221b8c4a6bdf8304ccd6a5": "2026-10-17T16:11:15.826449+00:00",
+    "/repos/sveltejs/svelte/git/blobs/586c6fe6aed39419aa11734f0f25238297066459": "2026-10-17T16:11:18.374938+00:00",
+    "/repos/sveltejs/svelte/git/blobs/7ea71647521ae850fd0933665f94760806ac5b29": "2026-10-17T16:11:19.780638+00:00",
+    "/repos/sveltejs/svelte/git/blobs/41f93d526ca474f7c487e00b02ce6e940776f16e": "2026-10-17T16:11:22.173322+00:00",
+    "/repos/sveltejs/svelte/git/blobs/220af118345ef95946e0ebbf985f4499f2d2b7cc": "2026-10-17T16:11:23.542921+00:00",
+    "/repos/sveltejs/svelte/git/blobs/2e484e5ca26d8e05d7f9bc6962dcb78acc378489": "2026-10-17T16:11:24.908141+00:00",
+    "/repos/sveltejs/svelte/git/blobs/ee3e5a41b9827c1fe04df398769fd16d821b40de": "2026-10-17T16:11:27.299758+00:00",
+    "/repos/sveltejs/svelte/git/blobs/d79e8b2e21f3fc42de95418f47618a07a508572d": "2026-10-17T16:11:28.643503+00:00",
+    "/repos/sveltejs/svelte/git/blobs/aa5f9732b6d351bc444bbb60ccbb592a57a3ec53": "2026-10-17T16:11:30.005224+00:00",
+    "/repos/sveltejs/svelte/git/blobs/3846690135201dcef620ae1c4f8fc31d00b12637": "2026-10-17T16:11:31.384942+00:00",
+    "/repos/sveltejs/svelte/git/blobs/8691a64ca44442900fa49255141cffd2ae591b41": "2026-10-17T16:11:32.745891+00:00",
+    "/repos/sveltejs/svelte/git/blobs/12fe17582e156606b3c7e9cbb9f765c801f1ee9b": "2026-10-17T16:11:34.246144+00:00",
+    "/repos/sveltejs/svelte/git/blobs/5cdbd34e5b826aa56a1af4a25aee152d943bd630": "2026-10-17T16:11:35.581472+00:00",
+    "/repos/sveltejs/svelte/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:11:39.390863+00:00",
+    "/repos/sveltejs/svelte/pulls/19014/files?per_page=100": "2026-10-17T16:11:41.988595+00:00",
+    "/repos/sveltejs/svelte/pulls/19014/reviews?per_page=100": "2026-10-17T16:11:43.379701+00:00",
+    "/repos/sveltejs/svelte/actions/runs?head_sha=40bb08482f4857d91221638dec544a532bc35389&per_page=10": "2026-10-17T16:11:45.587286+00:00",
+    "/repos/sveltejs/svelte/actions/runs?head_sha=e9c954336cc0d2168a7247592aba7ca722c0e990&per_page=10": "2026-10-17T16:11:47.379303+00:00",
+    "/repos/sveltejs/svelte/pulls/19011/files?per_page=100": "2026-10-17T16:11:48.849723+00:00",
+    "/repos/sveltejs/svelte/pulls/19011/reviews?per_page=100": "2026-10-17T16:11:50.272558+00:00",
+    "/repos/sveltejs/svelte/actions/runs?head_sha=a841a29407e0892bcecb8b814d4f0e864cae635d&per_page=10": "2026-10-17T16:11:53.338655+00:00",
+    "/repos/sveltejs/svelte/actions/runs?head_sha=4032c7c0f8e4877d60a1de03ea38d209706bcd92&per_page=10": "2026-10-17T16:11:54.955598+00:00",
+    "/repos/sveltejs/svelte/pulls/19007/files?per_page=100": "2026-10-17T16:11:56.657574+00:00",
+    "/repos/sveltejs/svelte/pulls/19007/reviews?per_page=100": "2026-10-17T16:11:58.078391+00:00",
+    "/repos/sveltejs/svelte/actions/runs?head_sha=44738572645ec47c9fcdb2637d64498b96858dcf&per_page=10": "2026-10-17T16:12:00.185191+00:00",
+    "/repos/sveltejs/svelte/actions/runs?head_sha=a585ce5b1b0648de9fde07d06ea25ce6f17d0b98&per_page=10": "2026-10-17T16:12:01.786193+00:00",
+    "/repos/sveltejs/svelte/releases?per_page=20&page=1": "2026-10-17T16:17:04.021562+00:00",
+    "/repos/sveltejs/svelte/commits/svelte%405.57.2": "2026-10-17T16:12:07.243696+00:00",
+    "/repos/sveltejs/svelte/actions/runs?head_sha=10fdca7d705081cae17bf7d609d46ee6eb237d17&per_page=10": "2026-10-17T16:12:09.452609+00:00",
+    "/repos/sveltejs/svelte/commits/svelte%405.57.1": "2026-10-17T16:12:11.109857+00:00",
+    "/repos/sveltejs/svelte/actions/runs?head_sha=636eaaaa6f064b55072e7d192bb76dc9d8c4516e&per_page=10": "2026-10-17T16:12:14.609584+00:00",
+    "/repos/sveltejs/svelte/commits/svelte%405.57.0": "2026-10-17T16:12:16.520032+00:00",
+    "/repos/sveltejs/svelte/actions/runs?head_sha=7bc0a70fe64dbb3fa3848b741963f31d1e10a8dc&per_page=10": "2026-10-17T16:12:18.911920+00:00",
+    "/repos/sveltejs/svelte/tags?per_page=3": "2026-10-17T16:12:20.299700+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:04.021562+00:00",
+  "status": "collected"
+}

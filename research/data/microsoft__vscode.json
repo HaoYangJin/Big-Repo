@@ -1,0 +1,1733 @@
+{
+  "requested_repository": "microsoft/vscode",
+  "category": "tools",
+  "collected_at": "2026-10-17T16:16:27.257765+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "microsoft/vscode",
+  "metadata": {
+    "html_url": "https://github.com/microsoft/vscode",
+    "description": "Visual Studio Code",
+    "homepage": "https://code.visualstudio.com",
+    "language": "TypeScript",
+    "stargazers_count": 193785,
+    "forks_count": 45747,
+    "open_issues_count": 21872,
+    "pushed_at": "2026-10-17T16:12:36Z",
+    "created_at": "2015-09-03T20:23:38Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [
+      "editor",
+      "electron",
+      "microsoft",
+      "typescript",
+      "visual-studio-code"
+    ],
+    "owner": {
+      "login": "microsoft",
+      "type": "Organization",
+      "html_url": "https://github.com/microsoft"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "bc981cb296f12a2919e43b33a3a0444878a600cd",
+      "url": "https://github.com/microsoft/vscode/commit/bc981cb296f12a2919e43b33a3a0444878a600cd",
+      "date": "2026-10-17T16:11:32Z",
+      "subject": "configuration: deregister the settings that configuration service tests register (#342280)"
+    },
+    {
+      "sha": "fb0e4c601bed105b7fbf8209f8cf2fd691aec4db",
+      "url": "https://github.com/microsoft/vscode/commit/fb0e4c601bed105b7fbf8209f8cf2fd691aec4db",
+      "date": "2026-10-17T16:00:02Z",
+      "subject": "Agents - implement discard changes for Session Changes (#342260)"
+    },
+    {
+      "sha": "a40b36c17d7ebe40690461b90a1fada9eaf98175",
+      "url": "https://github.com/microsoft/vscode/commit/a40b36c17d7ebe40690461b90a1fada9eaf98175",
+      "date": "2026-10-17T15:59:52Z",
+      "subject": "test: wait for canvas restoration after Copilot SDK resume (#342288)"
+    },
+    {
+      "sha": "e83bc2f5ca7715331a7ab51e7ff0a4de1742814a",
+      "url": "https://github.com/microsoft/vscode/commit/e83bc2f5ca7715331a7ab51e7ff0a4de1742814a",
+      "date": "2026-10-17T15:56:37Z",
+      "subject": "agentHost: make the concurrent first listings test independent of timing (#342284)"
+    },
+    {
+      "sha": "9e2b1be4f7cd063d6b5475392aafc3e178092d78",
+      "url": "https://github.com/microsoft/vscode/commit/9e2b1be4f7cd063d6b5475392aafc3e178092d78",
+      "date": "2026-10-17T15:51:10Z",
+      "subject": "agentHost: run subagent completion timing tests on virtual time (#342283)"
+    },
+    {
+      "sha": "adc0418ce4a7f286dfe5d7067080a02439c6024e",
+      "url": "https://github.com/microsoft/vscode/commit/adc0418ce4a7f286dfe5d7067080a02439c6024e",
+      "date": "2026-10-17T15:48:30Z",
+      "subject": "agentHost: wait for the renamed default chat title in a side effects test (#342282)"
+    },
+    {
+      "sha": "30ca50fe7a70c1a23fc6005241b2c5ee43813383",
+      "url": "https://github.com/microsoft/vscode/commit/30ca50fe7a70c1a23fc6005241b2c5ee43813383",
+      "date": "2026-10-17T15:36:10Z",
+      "subject": "accounts: run DefaultAccountProvider session lookup retry tests in virtual time (#342248)"
+    },
+    {
+      "sha": "08bfa02bb3c2d2e237b7543cd5c5b581b5721477",
+      "url": "https://github.com/microsoft/vscode/commit/08bfa02bb3c2d2e237b7543cd5c5b581b5721477",
+      "date": "2026-10-17T15:35:21Z",
+      "subject": "agentHost: settle previous hosts before a restart in the chat-order restore test (#342287)"
+    },
+    {
+      "sha": "d21d951984a53a6b2458a0939fdac03fab299353",
+      "url": "https://github.com/microsoft/vscode/commit/d21d951984a53a6b2458a0939fdac03fab299353",
+      "date": "2026-10-17T15:35:10Z",
+      "subject": "agentHost: poll for the mirror retry instead of sleeping in an AgentService test (#342246)"
+    },
+    {
+      "sha": "c1499e15dae1cb4bc07281da230ae776850143de",
+      "url": "https://github.com/microsoft/vscode/commit/c1499e15dae1cb4bc07281da230ae776850143de",
+      "date": "2026-10-17T15:35:05Z",
+      "subject": "terminal: shorten the idle poll in chat agent tool execution tests (#342244)"
+    },
+    {
+      "sha": "60541952313cbc2728cab30dacddf4154e5b10c9",
+      "url": "https://github.com/microsoft/vscode/commit/60541952313cbc2728cab30dacddf4154e5b10c9",
+      "date": "2026-10-17T15:28:02Z",
+      "subject": "Update timeline UI (#342295)"
+    },
+    {
+      "sha": "624362540d17f39ae20b2781a44cf8d676a22bfb",
+      "url": "https://github.com/microsoft/vscode/commit/624362540d17f39ae20b2781a44cf8d676a22bfb",
+      "date": "2026-10-17T14:54:13Z",
+      "subject": "Fix HydraFusion visibility when signed out of GitHub (#342049)"
+    },
+    {
+      "sha": "5b23ab39bef800e5c4dad4e544671ef20617e660",
+      "url": "https://github.com/microsoft/vscode/commit/5b23ab39bef800e5c4dad4e544671ef20617e660",
+      "date": "2026-10-17T14:08:36Z",
+      "subject": "test: stop auto-hiding scrollbars from flashing in fixture screenshots (#342275)"
+    },
+    {
+      "sha": "230f18f395ecb2af893170a91b741e6f859ce971",
+      "url": "https://github.com/microsoft/vscode/commit/230f18f395ecb2af893170a91b741e6f859ce971",
+      "date": "2026-10-17T13:18:10Z",
+      "subject": "agentHost: stop the Copilot runtime before deleting quick chat test homes (#342267)"
+    },
+    {
+      "sha": "15dcc3f85f4db625260ff8b74ef6f83adc6447d9",
+      "url": "https://github.com/microsoft/vscode/commit/15dcc3f85f4db625260ff8b74ef6f83adc6447d9",
+      "date": "2026-10-17T13:02:18Z",
+      "subject": "agentHost: fix mis-nested tests in agentHostGitStateService.test.ts (#342262)"
+    },
+    {
+      "sha": "5ffbd1a07dad12eec87a3192c37329a32bc5024b",
+      "url": "https://github.com/microsoft/vscode/commit/5ffbd1a07dad12eec87a3192c37329a32bc5024b",
+      "date": "2026-10-17T12:41:27Z",
+      "subject": "terminal: clarify Copilot CLI installation completion (#342224)"
+    },
+    {
+      "sha": "065609095f6f68bc91bfc00c8f8f200fa29539a4",
+      "url": "https://github.com/microsoft/vscode/commit/065609095f6f68bc91bfc00c8f8f200fa29539a4",
+      "date": "2026-10-17T10:28:52Z",
+      "subject": "ci: skip chat-lib tests when pull requests do not touch Copilot (#342257)"
+    },
+    {
+      "sha": "d7466d36490f76514fd4f92ac8ec5e79197731a7",
+      "url": "https://github.com/microsoft/vscode/commit/d7466d36490f76514fd4f92ac8ec5e79197731a7",
+      "date": "2026-10-17T10:16:16Z",
+      "subject": "button: clear hover style when a focused button is disabled (fixes screenshot flake) (#342255)"
+    },
+    {
+      "sha": "d6fba83248b8e49a802bf60200a60bae19555ee2",
+      "url": "https://github.com/microsoft/vscode/commit/d6fba83248b8e49a802bf60200a60bae19555ee2",
+      "date": "2026-10-17T10:15:13Z",
+      "subject": "agentHost: avoid real-time exit waits in test server cleanup tests (#342245)"
+    },
+    {
+      "sha": "15c7b0af839dcdda4d0f53d01804dbaba2c392e2",
+      "url": "https://github.com/microsoft/vscode/commit/15c7b0af839dcdda4d0f53d01804dbaba2c392e2",
+      "date": "2026-10-17T10:14:49Z",
+      "subject": "chat: finish image reveal tests without waiting for the real-time deadline (#342242)"
+    }
+  ],
+  "default_sha": "bc981cb296f12a2919e43b33a3a0444878a600cd",
+  "root_and_selected_directory_paths": [
+    ".agents",
+    ".config",
+    ".devcontainer",
+    ".editorconfig",
+    ".eslint-allowed-bracket-notation-files",
+    ".eslint-allowed-javascript-files",
+    ".eslint-ignore",
+    ".eslint-plugin-local",
+    ".git-blame-ignore-revs",
+    ".gitattributes",
+    ".github",
+    ".github/CODENOTIFY",
+    ".github/CODEOWNERS",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug_report.md",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/copilot_bug_report.md",
+    ".github/ISSUE_TEMPLATE/feature_request.md",
+    ".github/actions",
+    ".github/agents",
+    ".github/classifier.json",
+    ".github/codeql",
+    ".github/commands",
+    ".github/commands.json",
+    ".github/copilot-instructions.md",
+    ".github/dependabot.yml",
+    ".github/endgame",
+    ".github/hooks",
+    ".github/insiders.yml",
+    ".github/instructions",
+    ".github/learnings",
+    ".github/pull_request_template.md",
+    ".github/sandbox.yml",
+    ".github/similarity.yml",
+    ".github/skills",
+    ".github/workflows",
+    ".github/workflows/chat-lib-package.yml",
+    ".github/workflows/chat-perf.yml",
+    ".github/workflows/check-clean-git-state.sh",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/component-fixtures.yml",
+    ".github/workflows/copilot-setup-steps.yml",
+    ".github/workflows/css-order-scan.yml",
+    ".github/workflows/monaco-editor.yml",
+    ".github/workflows/node_modules_cache",
+    ".github/workflows/pr-darwin-test.yml",
+    ".github/workflows/pr-linux-cli-test.yml",
+    ".github/workflows/pr-linux-test.yml",
+    ".github/workflows/pr-node-modules.yml",
+    ".github/workflows/pr-win32-test.yml",
+    ".github/workflows/pr.yml",
+    ".github/workflows/sessions-e2e.yml",
+    ".github/workflows/telemetry.yml",
+    ".gitignore",
+    ".lsifrc.json",
+    ".mailmap",
+    ".mcp.json",
+    ".mention-bot",
+    ".npmrc",
+    ".nvmrc",
+    ".vscode",
+    ".vscode-test.js",
+    "AGENTS.md",
+    "CONTRIBUTING.md",
+    "LICENSE.txt",
+    "README.md",
+    "SECURITY.md",
+    "ThirdPartyNotices.txt",
+    "build",
+    "cglicenses.json",
+    "cgmanifest.json",
+    "cli",
+    "copilot_shim",
+    "eslint.config.js",
+    "extensions",
+    "gulpfile.mjs",
+    "package-lock.json",
+    "package.json",
+    "product.json",
+    "remote",
+    "resources",
+    "scripts",
+    "src",
+    "test",
+    "tsfmt.json"
+  ],
+  "workflow_paths": [
+    ".github/workflows/pr-darwin-test.yml",
+    ".github/workflows/pr-linux-cli-test.yml",
+    ".github/workflows/pr-linux-test.yml",
+    ".github/workflows/pr-win32-test.yml",
+    ".github/workflows/chat-lib-package.yml",
+    ".github/workflows/chat-perf.yml",
+    ".github/workflows/check-clean-git-state.sh",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/component-fixtures.yml",
+    ".github/workflows/copilot-setup-steps.yml",
+    ".github/workflows/css-order-scan.yml",
+    ".github/workflows/monaco-editor.yml",
+    ".github/workflows/pr-node-modules.yml",
+    ".github/workflows/pr.yml",
+    ".github/workflows/sessions-e2e.yml",
+    ".github/workflows/telemetry.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "d6abb76ab8384fb7b391b551b159002657c218c1",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/AGENTS.md",
+      "lines": 5,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "aaabf35fa32e0754555b1d4249688ab1a653c78c",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/CONTRIBUTING.md",
+      "lines": 99,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [
+          62
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "b7770cecdd10433d6e7f072a3e2adf2f41bbedc2",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/README.md",
+      "lines": 76,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          2,
+          3
+        ],
+        "media": [
+          2,
+          3,
+          12
+        ],
+        "theme_images": [],
+        "playground": [
+          59,
+          64
+        ],
+        "community": [
+          7,
+          44
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "656f79188d699a791511a7591ca22179d4f43c78",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/SECURITY.md",
+      "lines": 14,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          8,
+          12,
+          14
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "package.json",
+      "sha": "1dc7612f395f499cbefbd322aec2ea2b4ae27638",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/package.json",
+      "lines": 330,
+      "signals": {
+        "tests": [],
+        "lint": [
+          83,
+          176,
+          180,
+          184,
+          203,
+          223,
+          224,
+          225,
+          226,
+          227,
+          273,
+          279
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha": "9598b45a749365fbab5304194d694cbfe97c42c3",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/CODEOWNERS",
+      "lines": 25,
+      "signals": {
+        "tests": [],
+        "lint": [
+          20,
+          25
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha": "ad1f2b23812363e9523c9c0fa9fc9bfdcff39eb0",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/ISSUE_TEMPLATE/bug_report.md",
+      "lines": 27,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "fe1125240068580c5684dc6583552bc4d98387f4",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 8,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          7
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/copilot_bug_report.md",
+      "sha": "03fb55a99752bdceebea11516ba7bdf874d414d2",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/ISSUE_TEMPLATE/copilot_bug_report.md",
+      "lines": 22,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha": "4e2639b9c6f6b6eb49b96abd2df1933809bcb05a",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/ISSUE_TEMPLATE/feature_request.md",
+      "lines": 14,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "a2aa2419434320bd1fb9565828c50642745b1550",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/dependabot.yml",
+      "lines": 20,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha": "5335e645320c86692b084251480e8af18cb1e5c6",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/pull_request_template.md",
+      "lines": 7,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pr-darwin-test.yml",
+      "sha": "15b2dea52d485360869f9a13ca96c471500e6a11",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/workflows/pr-darwin-test.yml",
+      "lines": 297,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          45,
+          57,
+          104,
+          271,
+          282,
+          291
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pr-linux-cli-test.yml",
+      "sha": "b266f440049fee1131db93012932f745d111853e",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/workflows/pr-linux-cli-test.yml",
+      "lines": 98,
+      "signals": {
+        "tests": [
+          95
+        ],
+        "lint": [
+          55,
+          72,
+          82
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          42
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pr-linux-test.yml",
+      "sha": "63642a961b2e2f312ab5307fd2e43403390cb7be",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/workflows/pr-linux-test.yml",
+      "lines": 479,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          45,
+          57,
+          137,
+          453,
+          464,
+          473
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pr-win32-test.yml",
+      "sha": "c50247897d0f3b6f90b46fa94e21b586de4623c8",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/workflows/pr-win32-test.yml",
+      "lines": 360,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          46,
+          60,
+          85,
+          139,
+          334,
+          345,
+          354
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/chat-lib-package.yml",
+      "sha": "a8e98b3b11552d43055433ccb3890cd05354c153",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/workflows/chat-lib-package.yml",
+      "lines": 31,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8
+        ],
+        "pinned_actions": [
+          28
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/chat-perf.yml",
+      "sha": "ba94b89cf1965c830820cc3768bdd24b76abaa37",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/workflows/chat-perf.yml",
+      "lines": 563,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          44
+        ],
+        "pinned_actions": [
+          96,
+          101,
+          159,
+          168,
+          196,
+          215,
+          220,
+          253,
+          258,
+          267,
+          359,
+          370
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/check-clean-git-state.sh",
+      "sha": "e52d45648dd36d4c597b5dbabdc6da611aacde49",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/workflows/check-clean-git-state.sh",
+      "lines": 10,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "sha": "b662810c09cf71a1bbb19a8efe8798586be94e3d",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/workflows/codeql.yml",
+      "lines": 51,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          15,
+          21
+        ],
+        "pinned_actions": [
+          38,
+          41,
+          49
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/component-fixtures.yml",
+      "sha": "d258f06d765c5f6cc8f93477d1691b0993179fdf",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/workflows/component-fixtures.yml",
+      "lines": 491,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13,
+          17
+        ],
+        "pinned_actions": [
+          29,
+          34,
+          82,
+          92,
+          100,
+          144,
+          216,
+          360
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [
+          196
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          94,
+          233
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "sha": "2e4c5c356c40ce213504f837a5ac82724c7a1cae",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/workflows/copilot-setup-steps.yml",
+      "lines": 141,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          24
+        ],
+        "pinned_actions": [
+          32,
+          35,
+          110
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/css-order-scan.yml",
+      "sha": "0d7194143abb782fbbc79825f31437c86b3aa2a5",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/workflows/css-order-scan.yml",
+      "lines": 242,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9,
+          11
+        ],
+        "pinned_actions": [
+          23,
+          28,
+          222,
+          229
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/monaco-editor.yml",
+      "sha": "4d699d716990a06ff9b15a5754789a4baa81f14c",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/vscode/blob/bc981cb296f12a2919e43b33a3a0444878a600cd/.github/workflows/monaco-editor.yml",
+      "lines": 103,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12
+        ],
+        "pinned_actions": [
+          22,
+          26,
+          35,
+          46
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 342280,
+      "title": "configuration: deregister the settings that configuration service tests register",
+      "url": "https://github.com/microsoft/vscode/pull/342280",
+      "merged_at": "2026-10-17T16:11:33Z",
+      "merge_commit_sha": "bc981cb296f12a2919e43b33a3a0444878a600cd",
+      "files": [
+        "src/vs/platform/configuration/test/common/configurationService.test.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "src/vs/platform/configuration/test/common/configurationService.test.ts",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/microsoft/vscode/blob/639295d044566bb02ee83cdb4a43e4b24f830a45/src%2Fvs%2Fplatform%2Fconfiguration%2Ftest%2Fcommon%2FconfigurationService.test.ts"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39048334793,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39048334793",
+          "head_sha": "bc981cb296f12a2919e43b33a3a0444878a600cd"
+        },
+        {
+          "id": 39048334811,
+          "name": "Code OSS (node_modules)",
+          "path": ".github/workflows/pr-node-modules.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39048334811",
+          "head_sha": "bc981cb296f12a2919e43b33a3a0444878a600cd"
+        },
+        {
+          "id": 39048334833,
+          "name": "Monaco Editor checks",
+          "path": ".github/workflows/monaco-editor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39048334833",
+          "head_sha": "bc981cb296f12a2919e43b33a3a0444878a600cd"
+        },
+        {
+          "id": 39048334989,
+          "name": "Component Fixtures",
+          "path": ".github/workflows/component-fixtures.yml",
+          "event": "push",
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39048334989",
+          "head_sha": "bc981cb296f12a2919e43b33a3a0444878a600cd"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39038111848,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39038111848",
+          "head_sha": "639295d044566bb02ee83cdb4a43e4b24f830a45"
+        },
+        {
+          "id": 39038099292,
+          "name": "Monaco Editor checks",
+          "path": ".github/workflows/monaco-editor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39038099292",
+          "head_sha": "639295d044566bb02ee83cdb4a43e4b24f830a45"
+        },
+        {
+          "id": 39038099263,
+          "name": "Telemetry",
+          "path": ".github/workflows/telemetry.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39038099263",
+          "head_sha": "639295d044566bb02ee83cdb4a43e4b24f830a45"
+        },
+        {
+          "id": 39038099266,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39038099266",
+          "head_sha": "639295d044566bb02ee83cdb4a43e4b24f830a45"
+        },
+        {
+          "id": 39038099289,
+          "name": "Code OSS",
+          "path": ".github/workflows/pr.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39038099289",
+          "head_sha": "639295d044566bb02ee83cdb4a43e4b24f830a45"
+        },
+        {
+          "id": 39038099220,
+          "name": "Component Fixtures",
+          "path": ".github/workflows/component-fixtures.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39038099220",
+          "head_sha": "639295d044566bb02ee83cdb4a43e4b24f830a45"
+        }
+      ]
+    },
+    {
+      "number": 342267,
+      "title": "agentHost: stop the Copilot runtime before deleting quick chat test homes",
+      "url": "https://github.com/microsoft/vscode/pull/342267",
+      "merged_at": "2026-10-17T13:18:11Z",
+      "merge_commit_sha": "230f18f395ecb2af893170a91b741e6f859ce971",
+      "files": [
+        "src/vs/platform/agentHost/test/node/copilotAgent.test.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "src/vs/platform/agentHost/test/node/copilotAgent.test.ts",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 5,
+          "blob_url": "https://github.com/microsoft/vscode/blob/84d8b3f172d051a95ce7a83ed8c7a2784f502b50/src%2Fvs%2Fplatform%2FagentHost%2Ftest%2Fnode%2FcopilotAgent.test.ts"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39036003429,
+          "name": "Component Fixtures",
+          "path": ".github/workflows/component-fixtures.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39036003429",
+          "head_sha": "230f18f395ecb2af893170a91b741e6f859ce971"
+        },
+        {
+          "id": 39036003455,
+          "name": "Code OSS (node_modules)",
+          "path": ".github/workflows/pr-node-modules.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39036003455",
+          "head_sha": "230f18f395ecb2af893170a91b741e6f859ce971"
+        },
+        {
+          "id": 39036003422,
+          "name": "Monaco Editor checks",
+          "path": ".github/workflows/monaco-editor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39036003422",
+          "head_sha": "230f18f395ecb2af893170a91b741e6f859ce971"
+        },
+        {
+          "id": 39036003364,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39036003364",
+          "head_sha": "230f18f395ecb2af893170a91b741e6f859ce971"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39033134152,
+          "name": "Telemetry",
+          "path": ".github/workflows/telemetry.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39033134152",
+          "head_sha": "84d8b3f172d051a95ce7a83ed8c7a2784f502b50"
+        },
+        {
+          "id": 39033134157,
+          "name": "Monaco Editor checks",
+          "path": ".github/workflows/monaco-editor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39033134157",
+          "head_sha": "84d8b3f172d051a95ce7a83ed8c7a2784f502b50"
+        },
+        {
+          "id": 39033134131,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39033134131",
+          "head_sha": "84d8b3f172d051a95ce7a83ed8c7a2784f502b50"
+        },
+        {
+          "id": 39033134136,
+          "name": "Component Fixtures",
+          "path": ".github/workflows/component-fixtures.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39033134136",
+          "head_sha": "84d8b3f172d051a95ce7a83ed8c7a2784f502b50"
+        },
+        {
+          "id": 39033134232,
+          "name": "Code OSS",
+          "path": ".github/workflows/pr.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39033134232",
+          "head_sha": "84d8b3f172d051a95ce7a83ed8c7a2784f502b50"
+        }
+      ]
+    },
+    {
+      "number": 342260,
+      "title": "Agents - implement discard changes for Session Changes",
+      "url": "https://github.com/microsoft/vscode/pull/342260",
+      "merged_at": "2026-10-17T16:00:03Z",
+      "merge_commit_sha": "fb0e4c601bed105b7fbf8209f8cf2fd691aec4db",
+      "files": [
+        "src/vs/platform/agentHost/common/agentHostChangesetService.ts",
+        "src/vs/platform/agentHost/node/agentConfigurationService.ts",
+        "src/vs/platform/agentHost/node/agentHostChangesetOperationService.ts",
+        "src/vs/platform/agentHost/node/agentHostChangesetService.ts",
+        "src/vs/platform/agentHost/node/agentHostDiscardChangesOperationHandler.ts",
+        "src/vs/platform/agentHost/node/agentHostDiscardChangesOperationProvider.ts",
+        "src/vs/platform/agentHost/node/fileEditDiscard.ts",
+        "src/vs/platform/agentHost/test/common/sessionTestHelpers.ts",
+        "src/vs/platform/agentHost/test/node/agentHostChangesetCoordinator.test.ts",
+        "src/vs/platform/agentHost/test/node/agentHostChangesetOperationService.test.ts",
+        "src/vs/platform/agentHost/test/node/agentHostChangesetService.test.ts",
+        "src/vs/platform/agentHost/test/node/agentHostCommitOperationHandler.test.ts",
+        "src/vs/platform/agentHost/test/node/agentHostDiscardChangesOperationHandler.test.ts",
+        "src/vs/platform/agentHost/test/node/agentHostDiscardChangesOperationProvider.test.ts",
+        "src/vs/platform/agentHost/test/node/agentHostToolCallTelemetry.test.ts",
+        "src/vs/platform/agentHost/test/node/agentHostTurnHangTelemetry.test.ts",
+        "src/vs/platform/agentHost/test/node/agentHostTurnTelemetry.test.ts",
+        "src/vs/platform/agentHost/test/node/agentSideEffects.test.ts",
+        "src/vs/platform/agentHost/test/node/fileEditDiscard.test.ts",
+        "src/vs/sessions/contrib/providers/agentHost/AGENT_HOST_SESSIONS_PROVIDER.md"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "src/vs/platform/agentHost/common/agentHostChangesetService.ts",
+          "status": "modified",
+          "additions": 37,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Fcommon%2FagentHostChangesetService.ts"
+        },
+        {
+          "filename": "src/vs/platform/agentHost/node/agentConfigurationService.ts",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Fnode%2FagentConfigurationService.ts"
+        },
+        {
+          "filename": "src/vs/platform/agentHost/node/agentHostChangesetOperationService.ts",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Fnode%2FagentHostChangesetOperationService.ts"
+        },
+        {
+          "filename": "src/vs/platform/agentHost/node/agentHostChangesetService.ts",
+          "status": "modified",
+          "additions": 48,
+          "deletions": 22,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Fnode%2FagentHostChangesetService.ts"
+        },
+        {
+          "filename": "src/vs/platform/agentHost/node/agentHostDiscardChangesOperationHandler.ts",
+          "status": "modified",
+          "additions": 168,
+          "deletions": 34,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Fnode%2FagentHostDiscardChangesOperationHandler.ts"
+        },
+        {
+          "filename": "src/vs/platform/agentHost/node/agentHostDiscardChangesOperationProvider.ts",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 1,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Fnode%2FagentHostDiscardChangesOperationProvider.ts"
+        },
+        {
+          "filename": "src/vs/platform/agentHost/node/fileEditDiscard.ts",
+          "status": "modified",
+          "additions": 44,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Fnode%2FfileEditDiscard.ts"
+        },
+        {
+          "filename": "src/vs/platform/agentHost/test/common/sessionTestHelpers.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Ftest%2Fcommon%2FsessionTestHelpers.ts"
+        },
+        {
+          "filename": "src/vs/platform/agentHost/test/node/agentHostChangesetCoordinator.test.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Ftest%2Fnode%2FagentHostChangesetCoordinator.test.ts"
+        },
+        {
+          "filename": "src/vs/platform/agentHost/test/node/agentHostChangesetOperationService.test.ts",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 5,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Ftest%2Fnode%2FagentHostChangesetOperationService.test.ts"
+        },
+        {
+          "filename": "src/vs/platform/agentHost/test/node/agentHostChangesetService.test.ts",
+          "status": "modified",
+          "additions": 44,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Ftest%2Fnode%2FagentHostChangesetService.test.ts"
+        },
+        {
+          "filename": "src/vs/platform/agentHost/test/node/agentHostCommitOperationHandler.test.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Ftest%2Fnode%2FagentHostCommitOperationHandler.test.ts"
+        },
+        {
+          "filename": "src/vs/platform/agentHost/test/node/agentHostDiscardChangesOperationHandler.test.ts",
+          "status": "modified",
+          "additions": 330,
+          "deletions": 5,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Ftest%2Fnode%2FagentHostDiscardChangesOperationHandler.test.ts"
+        },
+        {
+          "filename": "src/vs/platform/agentHost/test/node/agentHostDiscardChangesOperationProvider.test.ts",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 2,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Ftest%2Fnode%2FagentHostDiscardChangesOperationProvider.test.ts"
+        },
+        {
+          "filename": "src/vs/platform/agentHost/test/node/agentHostToolCallTelemetry.test.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Ftest%2Fnode%2FagentHostToolCallTelemetry.test.ts"
+        },
+        {
+          "filename": "src/vs/platform/agentHost/test/node/agentHostTurnHangTelemetry.test.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Ftest%2Fnode%2FagentHostTurnHangTelemetry.test.ts"
+        },
+        {
+          "filename": "src/vs/platform/agentHost/test/node/agentHostTurnTelemetry.test.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Ftest%2Fnode%2FagentHostTurnTelemetry.test.ts"
+        },
+        {
+          "filename": "src/vs/platform/agentHost/test/node/agentSideEffects.test.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Ftest%2Fnode%2FagentSideEffects.test.ts"
+        },
+        {
+          "filename": "src/vs/platform/agentHost/test/node/fileEditDiscard.test.ts",
+          "status": "modified",
+          "additions": 94,
+          "deletions": 3,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fplatform%2FagentHost%2Ftest%2Fnode%2FfileEditDiscard.test.ts"
+        },
+        {
+          "filename": "src/vs/sessions/contrib/providers/agentHost/AGENT_HOST_SESSIONS_PROVIDER.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1,
+          "blob_url": "https://github.com/microsoft/vscode/blob/b252833bc6c0fdfb7a10c2a347e21e8053c80aaa/src%2Fvs%2Fsessions%2Fcontrib%2Fproviders%2FagentHost%2FAGENT_HOST_SESSIONS_PROVIDER.md"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "APPROVED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39047492954,
+          "name": "Component Fixtures",
+          "path": ".github/workflows/component-fixtures.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39047492954",
+          "head_sha": "fb0e4c601bed105b7fbf8209f8cf2fd691aec4db"
+        },
+        {
+          "id": 39047492889,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39047492889",
+          "head_sha": "fb0e4c601bed105b7fbf8209f8cf2fd691aec4db"
+        },
+        {
+          "id": 39047492854,
+          "name": "Code OSS (node_modules)",
+          "path": ".github/workflows/pr-node-modules.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39047492854",
+          "head_sha": "fb0e4c601bed105b7fbf8209f8cf2fd691aec4db"
+        },
+        {
+          "id": 39047492894,
+          "name": "Monaco Editor checks",
+          "path": ".github/workflows/monaco-editor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39047492894",
+          "head_sha": "fb0e4c601bed105b7fbf8209f8cf2fd691aec4db"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39034352829,
+          "name": "Monaco Editor checks",
+          "path": ".github/workflows/monaco-editor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39034352829",
+          "head_sha": "b252833bc6c0fdfb7a10c2a347e21e8053c80aaa"
+        },
+        {
+          "id": 39034352674,
+          "name": "Component Fixtures",
+          "path": ".github/workflows/component-fixtures.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39034352674",
+          "head_sha": "b252833bc6c0fdfb7a10c2a347e21e8053c80aaa"
+        },
+        {
+          "id": 39034352814,
+          "name": "Telemetry",
+          "path": ".github/workflows/telemetry.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39034352814",
+          "head_sha": "b252833bc6c0fdfb7a10c2a347e21e8053c80aaa"
+        },
+        {
+          "id": 39034352618,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39034352618",
+          "head_sha": "b252833bc6c0fdfb7a10c2a347e21e8053c80aaa"
+        },
+        {
+          "id": 39034352643,
+          "name": "Code OSS",
+          "path": ".github/workflows/pr.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/39034352643",
+          "head_sha": "b252833bc6c0fdfb7a10c2a347e21e8053c80aaa"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "1.142.0",
+      "url": "https://github.com/microsoft/vscode/releases/tag/1.142.0",
+      "published_at": "2026-10-14T19:46:12Z",
+      "target_commitish": "main",
+      "commit_sha": "d956e8a6ac5d904486557eea07e1d6bd62a4d36f",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38626162496,
+          "name": "Copilot Setup Steps",
+          "path": ".github/workflows/copilot-setup-steps.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/38626162496",
+          "head_sha": "d956e8a6ac5d904486557eea07e1d6bd62a4d36f"
+        },
+        {
+          "id": 38545492042,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/38545492042",
+          "head_sha": "d956e8a6ac5d904486557eea07e1d6bd62a4d36f"
+        },
+        {
+          "id": 38545492105,
+          "name": "Component Fixtures",
+          "path": ".github/workflows/component-fixtures.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/38545492105",
+          "head_sha": "d956e8a6ac5d904486557eea07e1d6bd62a4d36f"
+        },
+        {
+          "id": 38545492137,
+          "name": "Monaco Editor checks",
+          "path": ".github/workflows/monaco-editor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/38545492137",
+          "head_sha": "d956e8a6ac5d904486557eea07e1d6bd62a4d36f"
+        }
+      ]
+    },
+    {
+      "tag": "1.141.2",
+      "url": "https://github.com/microsoft/vscode/releases/tag/1.141.2",
+      "published_at": "2026-10-14T14:32:33Z",
+      "target_commitish": "main",
+      "commit_sha": "16507d91be0dc1ce4f94c04d4d0430210b8685d9",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38581086489,
+          "name": "Copilot Setup Steps",
+          "path": ".github/workflows/copilot-setup-steps.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/38581086489",
+          "head_sha": "16507d91be0dc1ce4f94c04d4d0430210b8685d9"
+        },
+        {
+          "id": 38554364457,
+          "name": "Monaco Editor checks",
+          "path": ".github/workflows/monaco-editor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/38554364457",
+          "head_sha": "16507d91be0dc1ce4f94c04d4d0430210b8685d9"
+        },
+        {
+          "id": 38554364456,
+          "name": "Component Fixtures",
+          "path": ".github/workflows/component-fixtures.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/38554364456",
+          "head_sha": "16507d91be0dc1ce4f94c04d4d0430210b8685d9"
+        },
+        {
+          "id": 38554364433,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/38554364433",
+          "head_sha": "16507d91be0dc1ce4f94c04d4d0430210b8685d9"
+        }
+      ]
+    },
+    {
+      "tag": "1.141.1",
+      "url": "https://github.com/microsoft/vscode/releases/tag/1.141.1",
+      "published_at": "2026-10-13T21:53:53Z",
+      "target_commitish": "release/1.141",
+      "commit_sha": "7baac39ec3ca969dab74ac12c097f6a486e46593",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38473975093,
+          "name": "Copilot Setup Steps",
+          "path": ".github/workflows/copilot-setup-steps.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/38473975093",
+          "head_sha": "7baac39ec3ca969dab74ac12c097f6a486e46593"
+        },
+        {
+          "id": 38437558211,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/38437558211",
+          "head_sha": "7baac39ec3ca969dab74ac12c097f6a486e46593"
+        },
+        {
+          "id": 38437558359,
+          "name": "Component Fixtures",
+          "path": ".github/workflows/component-fixtures.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/38437558359",
+          "head_sha": "7baac39ec3ca969dab74ac12c097f6a486e46593"
+        },
+        {
+          "id": 38437558334,
+          "name": "Monaco Editor checks",
+          "path": ".github/workflows/monaco-editor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/vscode/actions/runs/38437558334",
+          "head_sha": "7baac39ec3ca969dab74ac12c097f6a486e46593"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "vsda-v1.39.1",
+      "sha": "2cbf51458e5d74f39c4f19fb69c5c75f6a27529b"
+    },
+    {
+      "name": "v14",
+      "sha": "25875a16e80c5bf877b21faea9de2cf816b0428c"
+    },
+    {
+      "name": "v1.19.3",
+      "sha": "554a9c6dcd8b0636ace6f1c64e13e12adf0fcd1d"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:20:31.081859+00:00",
+  "source_times": {
+    "/repos/microsoft/vscode": "2026-10-17T16:16:27.257765+00:00",
+    "/repos/microsoft/vscode/commits?sha=main&per_page=20": "2026-10-17T16:16:29.469415+00:00",
+    "/repos/microsoft/vscode/git/trees/bc981cb296f12a2919e43b33a3a0444878a600cd": "2026-10-17T16:16:31.017711+00:00",
+    "/repos/microsoft/vscode/git/trees/6d1d4c1906915555ae6349d75b70bd5429bb2c7a": "2026-10-17T16:16:32.446174+00:00",
+    "/repos/microsoft/vscode/git/trees/332d68fe58b3c5730547f82c2445c6b396055b0e": "2026-10-17T16:16:33.950146+00:00",
+    "/repos/microsoft/vscode/git/trees/c379d6934f4605af582fc3196bbf5b47df760313": "2026-10-17T16:16:35.396358+00:00",
+    "/repos/microsoft/vscode/git/blobs/d6abb76ab8384fb7b391b551b159002657c218c1": "2026-10-17T16:16:36.823396+00:00",
+    "/repos/microsoft/vscode/git/blobs/aaabf35fa32e0754555b1d4249688ab1a653c78c": "2026-10-17T16:16:38.328197+00:00",
+    "/repos/microsoft/vscode/git/blobs/b7770cecdd10433d6e7f072a3e2adf2f41bbedc2": "2026-10-17T16:16:39.776237+00:00",
+    "/repos/microsoft/vscode/git/blobs/656f79188d699a791511a7591ca22179d4f43c78": "2026-10-17T16:16:41.353887+00:00",
+    "/repos/microsoft/vscode/git/blobs/1dc7612f395f499cbefbd322aec2ea2b4ae27638": "2026-10-17T16:16:43.058467+00:00",
+    "/repos/microsoft/vscode/git/blobs/9598b45a749365fbab5304194d694cbfe97c42c3": "2026-10-17T16:16:44.462210+00:00",
+    "/repos/microsoft/vscode/git/blobs/ad1f2b23812363e9523c9c0fa9fc9bfdcff39eb0": "2026-10-17T16:16:46.044802+00:00",
+    "/repos/microsoft/vscode/git/blobs/fe1125240068580c5684dc6583552bc4d98387f4": "2026-10-17T16:16:47.449386+00:00",
+    "/repos/microsoft/vscode/git/blobs/03fb55a99752bdceebea11516ba7bdf874d414d2": "2026-10-17T16:16:49.850509+00:00",
+    "/repos/microsoft/vscode/git/blobs/4e2639b9c6f6b6eb49b96abd2df1933809bcb05a": "2026-10-17T16:16:51.261790+00:00",
+    "/repos/microsoft/vscode/git/blobs/a2aa2419434320bd1fb9565828c50642745b1550": "2026-10-17T16:16:52.671809+00:00",
+    "/repos/microsoft/vscode/git/blobs/5335e645320c86692b084251480e8af18cb1e5c6": "2026-10-17T16:16:54.070170+00:00",
+    "/repos/microsoft/vscode/git/blobs/15b2dea52d485360869f9a13ca96c471500e6a11": "2026-10-17T16:16:55.658196+00:00",
+    "/repos/microsoft/vscode/git/blobs/b266f440049fee1131db93012932f745d111853e": "2026-10-17T16:16:57.116538+00:00",
+    "/repos/microsoft/vscode/git/blobs/63642a961b2e2f312ab5307fd2e43403390cb7be": "2026-10-17T16:16:58.694415+00:00",
+    "/repos/microsoft/vscode/git/blobs/c50247897d0f3b6f90b46fa94e21b586de4623c8": "2026-10-17T16:17:00.332175+00:00",
+    "/repos/microsoft/vscode/git/blobs/a8e98b3b11552d43055433ccb3890cd05354c153": "2026-10-17T16:17:01.782731+00:00",
+    "/repos/microsoft/vscode/git/blobs/ba94b89cf1965c830820cc3768bdd24b76abaa37": "2026-10-17T16:17:03.410162+00:00",
+    "/repos/microsoft/vscode/git/blobs/e52d45648dd36d4c597b5dbabdc6da611aacde49": "2026-10-17T16:17:04.845679+00:00",
+    "/repos/microsoft/vscode/git/blobs/b662810c09cf71a1bbb19a8efe8798586be94e3d": "2026-10-17T16:17:06.357839+00:00",
+    "/repos/microsoft/vscode/git/blobs/d258f06d765c5f6cc8f93477d1691b0993179fdf": "2026-10-17T16:17:07.992679+00:00",
+    "/repos/microsoft/vscode/git/blobs/2e4c5c356c40ce213504f837a5ac82724c7a1cae": "2026-10-17T16:17:09.414278+00:00",
+    "/repos/microsoft/vscode/git/blobs/0d7194143abb782fbbc79825f31437c86b3aa2a5": "2026-10-17T16:17:11.050041+00:00",
+    "/repos/microsoft/vscode/git/blobs/4d699d716990a06ff9b15a5754789a4baa81f14c": "2026-10-17T16:17:12.489973+00:00",
+    "/repos/microsoft/vscode/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:17:17.116919+00:00",
+    "/repos/microsoft/vscode/pulls/342280/files?per_page=100": "2026-10-17T16:17:18.638556+00:00",
+    "/repos/microsoft/vscode/pulls/342280/reviews?per_page=100": "2026-10-17T16:17:21.343044+00:00",
+    "/repos/microsoft/vscode/actions/runs?head_sha=bc981cb296f12a2919e43b33a3a0444878a600cd&per_page=10": "2026-10-17T16:17:23.514831+00:00",
+    "/repos/microsoft/vscode/actions/runs?head_sha=639295d044566bb02ee83cdb4a43e4b24f830a45&per_page=10": "2026-10-17T16:17:25.491973+00:00",
+    "/repos/microsoft/vscode/pulls/342267/files?per_page=100": "2026-10-17T16:17:27.007009+00:00",
+    "/repos/microsoft/vscode/pulls/342267/reviews?per_page=100": "2026-10-17T16:17:28.781655+00:00",
+    "/repos/microsoft/vscode/actions/runs?head_sha=230f18f395ecb2af893170a91b741e6f859ce971&per_page=10": "2026-10-17T16:17:31.056921+00:00",
+    "/repos/microsoft/vscode/actions/runs?head_sha=84d8b3f172d051a95ce7a83ed8c7a2784f502b50&per_page=10": "2026-10-17T16:17:32.899423+00:00",
+    "/repos/microsoft/vscode/pulls/342260/files?per_page=100": "2026-10-17T16:17:34.869275+00:00",
+    "/repos/microsoft/vscode/pulls/342260/reviews?per_page=100": "2026-10-17T16:17:36.619698+00:00",
+    "/repos/microsoft/vscode/actions/runs?head_sha=fb0e4c601bed105b7fbf8209f8cf2fd691aec4db&per_page=10": "2026-10-17T16:17:39.148587+00:00",
+    "/repos/microsoft/vscode/actions/runs?head_sha=b252833bc6c0fdfb7a10c2a347e21e8053c80aaa&per_page=10": "2026-10-17T16:17:42.039124+00:00",
+    "/repos/microsoft/vscode/releases?per_page=20&page=1": "2026-10-17T16:20:31.078458+00:00",
+    "/repos/microsoft/vscode/commits/1.142.0": "2026-10-17T16:17:47.129707+00:00",
+    "/repos/microsoft/vscode/actions/runs?head_sha=d956e8a6ac5d904486557eea07e1d6bd62a4d36f&per_page=10": "2026-10-17T16:17:49.018182+00:00",
+    "/repos/microsoft/vscode/commits/1.141.2": "2026-10-17T16:17:50.631118+00:00",
+    "/repos/microsoft/vscode/actions/runs?head_sha=16507d91be0dc1ce4f94c04d4d0430210b8685d9&per_page=10": "2026-10-17T16:17:53.593427+00:00",
+    "/repos/microsoft/vscode/commits/1.141.1": "2026-10-17T16:17:55.475146+00:00",
+    "/repos/microsoft/vscode/actions/runs?head_sha=7baac39ec3ca969dab74ac12c097f6a486e46593&per_page=10": "2026-10-17T16:17:57.302871+00:00",
+    "/repos/microsoft/vscode/tags?per_page=3": "2026-10-17T16:17:58.740555+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:20:31.078458+00:00",
+  "status": "collected"
+}

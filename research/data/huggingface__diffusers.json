@@ -1,0 +1,2229 @@
+{
+  "requested_repository": "huggingface/diffusers",
+  "category": "ml",
+  "collected_at": "2026-10-17T16:07:54.026951+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "huggingface/diffusers",
+  "metadata": {
+    "html_url": "https://github.com/huggingface/diffusers",
+    "description": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+    "homepage": "https://huggingface.co/docs/diffusers",
+    "language": "Python",
+    "stargazers_count": 34744,
+    "forks_count": 7403,
+    "open_issues_count": 1501,
+    "pushed_at": "2026-10-16T23:34:13Z",
+    "created_at": "2022-05-30T16:04:02Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [
+      "deep-learning",
+      "diffusion",
+      "flux",
+      "image-generation",
+      "image2image",
+      "image2video",
+      "latent-diffusion-models",
+      "pytorch",
+      "qwen-image",
+      "score-based-generative-modeling",
+      "stable-diffusion",
+      "stable-diffusion-diffusers",
+      "text2image",
+      "text2video",
+      "video2video"
+    ],
+    "owner": {
+      "login": "huggingface",
+      "type": "Organization",
+      "html_url": "https://github.com/huggingface"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "b800f828f3951c4d206e154411bcbfa693cd322e",
+      "url": "https://github.com/huggingface/diffusers/commit/b800f828f3951c4d206e154411bcbfa693cd322e",
+      "date": "2026-10-16T23:34:11Z",
+      "subject": "[docs] FLUX.3: modular-only notes, lazy loading, callbacks (#15069)"
+    },
+    {
+      "sha": "d42ebf9c6e0b46103b74283f5324357a67acaa04",
+      "url": "https://github.com/huggingface/diffusers/commit/d42ebf9c6e0b46103b74283f5324357a67acaa04",
+      "date": "2026-10-16T03:25:27Z",
+      "subject": " FLUX.3 prompt upsampler block (#15058)"
+    },
+    {
+      "sha": "af4271c3e18f14d2e8a21a0480d3a89e7bf5cdba",
+      "url": "https://github.com/huggingface/diffusers/commit/af4271c3e18f14d2e8a21a0480d3a89e7bf5cdba",
+      "date": "2026-10-16T01:56:38Z",
+      "subject": "[docs] FLUX.3: prompt upsampler required, ours or any LLM (#15059)"
+    },
+    {
+      "sha": "7ecb1e1b4fe500be7fb7381a7bb79a24d7fa3941",
+      "url": "https://github.com/huggingface/diffusers/commit/7ecb1e1b4fe500be7fb7381a7bb79a24d7fa3941",
+      "date": "2026-10-15T16:30:50Z",
+      "subject": "Flux3 image (#15046)"
+    },
+    {
+      "sha": "62cde2b0115d57492d2f5ecefab54994797df2e3",
+      "url": "https://github.com/huggingface/diffusers/commit/62cde2b0115d57492d2f5ecefab54994797df2e3",
+      "date": "2026-10-15T12:22:16Z",
+      "subject": "add modular pipeline for qwen-image 2.1 (#14976)"
+    },
+    {
+      "sha": "4113984327a4c96c57df4eceb6ccb02fafb527d3",
+      "url": "https://github.com/huggingface/diffusers/commit/4113984327a4c96c57df4eceb6ccb02fafb527d3",
+      "date": "2026-10-15T12:04:32Z",
+      "subject": "refactor: drop the Neuron RoPE path in Qwen Image (#15042)"
+    },
+    {
+      "sha": "ee849197ce45360e4f13b5c6bf6bf2e8e0b0ee78",
+      "url": "https://github.com/huggingface/diffusers/commit/ee849197ce45360e4f13b5c6bf6bf2e8e0b0ee78",
+      "date": "2026-10-15T11:37:50Z",
+      "subject": "[core] Tensor parallelism for Qwen-Image-2.1 (#14865)"
+    },
+    {
+      "sha": "efe46a5b177af67c64b3666da8ddddac7ee12163",
+      "url": "https://github.com/huggingface/diffusers/commit/efe46a5b177af67c64b3666da8ddddac7ee12163",
+      "date": "2026-10-14T14:41:45Z",
+      "subject": "ci: move to python 3.11. (#15030)"
+    },
+    {
+      "sha": "ea981b8b7d80f10deaff369bcda8cbf2c90428dd",
+      "url": "https://github.com/huggingface/diffusers/commit/ea981b8b7d80f10deaff369bcda8cbf2c90428dd",
+      "date": "2026-10-14T11:18:28Z",
+      "subject": "[CI] Clean up `test_modeling_common.py` (#14988)"
+    },
+    {
+      "sha": "40f63690da440e8c382ab53e67508835deb1ed2f",
+      "url": "https://github.com/huggingface/diffusers/commit/40f63690da440e8c382ab53e67508835deb1ed2f",
+      "date": "2026-10-14T10:55:44Z",
+      "subject": "🔒 Pin GitHub Actions to commit SHAs (#15028)"
+    },
+    {
+      "sha": "7c6eb783060f82cd912fb5f51eb204810cf71f66",
+      "url": "https://github.com/huggingface/diffusers/commit/7c6eb783060f82cd912fb5f51eb204810cf71f66",
+      "date": "2026-10-14T09:51:38Z",
+      "subject": "[hooks] Support Flux2 in MagCache (#14756)"
+    },
+    {
+      "sha": "839af3a04357551ee5a4db84985a0dbb04dbe6d5",
+      "url": "https://github.com/huggingface/diffusers/commit/839af3a04357551ee5a4db84985a0dbb04dbe6d5",
+      "date": "2026-10-14T08:35:19Z",
+      "subject": "Update FlashAttention Hub integration and guard CUDA-only tests (#15024)"
+    },
+    {
+      "sha": "08d69774f08f19ae903f97bc393a8abdeafc98aa",
+      "url": "https://github.com/huggingface/diffusers/commit/08d69774f08f19ae903f97bc393a8abdeafc98aa",
+      "date": "2026-10-14T03:34:11Z",
+      "subject": "[utils] preserve method metadata in apply_forward_hook (#13803)"
+    },
+    {
+      "sha": "916a5791ed5f29d966200d2eee53f06862ec4434",
+      "url": "https://github.com/huggingface/diffusers/commit/916a5791ed5f29d966200d2eee53f06862ec4434",
+      "date": "2026-10-13T03:14:36Z",
+      "subject": "[Z-Image] Apply the LoRA scale passed via joint_attention_kwargs (#15015)"
+    },
+    {
+      "sha": "1628cb1c331741b64f67c97209ab49018e71ac70",
+      "url": "https://github.com/huggingface/diffusers/commit/1628cb1c331741b64f67c97209ab49018e71ac70",
+      "date": "2026-10-13T02:30:58Z",
+      "subject": "Add SANA-WM camera-controlled image-to-video pipeline (#13881)"
+    },
+    {
+      "sha": "1e004eb6ec9435349c4a6dd6d1c44c7e0fec6b40",
+      "url": "https://github.com/huggingface/diffusers/commit/1e004eb6ec9435349c4a6dd6d1c44c7e0fec6b40",
+      "date": "2026-10-12T09:09:49Z",
+      "subject": "xpu supports TP as well (#15013)"
+    },
+    {
+      "sha": "883d51ef02cd7972eeaf158c652d229f3459f419",
+      "url": "https://github.com/huggingface/diffusers/commit/883d51ef02cd7972eeaf158c652d229f3459f419",
+      "date": "2026-10-12T04:29:44Z",
+      "subject": "Make Stable Diffusion device-map comparisons deterministic (#15010)"
+    },
+    {
+      "sha": "b1f6cde2ac8396ae5bed19c84f381ccbc041a961",
+      "url": "https://github.com/huggingface/diffusers/commit/b1f6cde2ac8396ae5bed19c84f381ccbc041a961",
+      "date": "2026-10-12T04:03:32Z",
+      "subject": "Bump huggingface_hub upper bound to <3.0 (diffusers) (#14863)"
+    },
+    {
+      "sha": "e1a6c67dc724e7c1a5ae8eb0c1964c9f47325217",
+      "url": "https://github.com/huggingface/diffusers/commit/e1a6c67dc724e7c1a5ae8eb0c1964c9f47325217",
+      "date": "2026-10-11T21:41:19Z",
+      "subject": "Fix Anima text encoder exports and standalone core denoising (#14943)"
+    },
+    {
+      "sha": "85c9fa4caee33d1c5b473395784471d2d7957c1b",
+      "url": "https://github.com/huggingface/diffusers/commit/85c9fa4caee33d1c5b473395784471d2d7957c1b",
+      "date": "2026-10-10T18:40:11Z",
+      "subject": "[cli] detect composite block classes in `custom_blocks` (#15001)"
+    }
+  ],
+  "default_sha": "b800f828f3951c4d206e154411bcbfa693cd322e",
+  "root_and_selected_directory_paths": [
+    ".ai",
+    ".claude-plugin",
+    ".claude-plugin/marketplace.json",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug-report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/feature_request.md",
+    ".github/ISSUE_TEMPLATE/feedback.md",
+    ".github/ISSUE_TEMPLATE/new-model-addition.yml",
+    ".github/ISSUE_TEMPLATE/remote-vae-pilot-feedback.yml",
+    ".github/ISSUE_TEMPLATE/translate.md",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/actions",
+    ".github/dependabot.yml",
+    ".github/labeler.yml",
+    ".github/workflows",
+    ".github/workflows/benchmark.yml",
+    ".github/workflows/bot_pytest.yml",
+    ".github/workflows/bot_review.yml",
+    ".github/workflows/bot_style.yml",
+    ".github/workflows/build_docker_images.yml",
+    ".github/workflows/build_documentation.yml",
+    ".github/workflows/build_pr_documentation.yml",
+    ".github/workflows/claude_review.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/diffusers_bot.yml",
+    ".github/workflows/issue_labeler.yml",
+    ".github/workflows/mirror_community_pipeline.yml",
+    ".github/workflows/new_model_request_reply.yml",
+    ".github/workflows/nightly_tests.yml",
+    ".github/workflows/notify_slack_about_release.yml",
+    ".github/workflows/pr_dependency_test.yml",
+    ".github/workflows/pr_labeler.yml",
+    ".github/workflows/pr_link_issue_reminder.yml",
+    ".github/workflows/pr_modular_tests.yml",
+    ".github/workflows/pr_test_fetcher.yml",
+    ".github/workflows/pr_tests.yml",
+    ".github/workflows/pr_tests_gpu.yml",
+    ".github/workflows/pr_torch_dependency_test.yml",
+    ".github/workflows/push_tests.yml",
+    ".github/workflows/push_tests_fast.yml",
+    ".github/workflows/push_tests_mps.yml",
+    ".github/workflows/pypi_publish.yaml",
+    ".github/workflows/release_tests_fast.yml",
+    ".github/workflows/ssh-pr-runner.yml",
+    ".github/workflows/ssh-runner.yml",
+    ".github/workflows/stale.yml",
+    ".github/workflows/trufflehog.yml",
+    ".github/workflows/typos.yml",
+    ".github/workflows/update_metadata.yml",
+    ".github/workflows/upload_pr_documentation.yml",
+    ".gitignore",
+    "AGENTS.md",
+    "CITATION.cff",
+    "CLAUDE.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "MANIFEST.in",
+    "Makefile",
+    "PHILOSOPHY.md",
+    "README.md",
+    "SECURITY.md",
+    "_typos.toml",
+    "benchmarks",
+    "docker",
+    "docs",
+    "docs/README.md",
+    "docs/TRANSLATING.md",
+    "docs/source",
+    "examples",
+    "pyproject.toml",
+    "scripts",
+    "setup.py",
+    "src",
+    "tests",
+    "utils"
+  ],
+  "workflow_paths": [
+    ".github/workflows/bot_pytest.yml",
+    ".github/workflows/nightly_tests.yml",
+    ".github/workflows/notify_slack_about_release.yml",
+    ".github/workflows/pr_dependency_test.yml",
+    ".github/workflows/pr_modular_tests.yml",
+    ".github/workflows/pr_test_fetcher.yml",
+    ".github/workflows/pr_tests.yml",
+    ".github/workflows/pr_tests_gpu.yml",
+    ".github/workflows/pr_torch_dependency_test.yml",
+    ".github/workflows/push_tests.yml",
+    ".github/workflows/push_tests_fast.yml",
+    ".github/workflows/push_tests_mps.yml",
+    ".github/workflows/pypi_publish.yaml",
+    ".github/workflows/release_tests_fast.yml",
+    ".github/workflows/benchmark.yml",
+    ".github/workflows/bot_review.yml",
+    ".github/workflows/bot_style.yml",
+    ".github/workflows/build_docker_images.yml",
+    ".github/workflows/build_documentation.yml",
+    ".github/workflows/build_pr_documentation.yml",
+    ".github/workflows/claude_review.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/diffusers_bot.yml",
+    ".github/workflows/issue_labeler.yml",
+    ".github/workflows/mirror_community_pipeline.yml",
+    ".github/workflows/new_model_request_reply.yml",
+    ".github/workflows/pr_labeler.yml",
+    ".github/workflows/pr_link_issue_reminder.yml",
+    ".github/workflows/ssh-pr-runner.yml",
+    ".github/workflows/ssh-runner.yml",
+    ".github/workflows/stale.yml",
+    ".github/workflows/trufflehog.yml",
+    ".github/workflows/typos.yml",
+    ".github/workflows/update_metadata.yml",
+    ".github/workflows/upload_pr_documentation.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "b28461c924a4217b9478062bea99d2306d7d4d05",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/AGENTS.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha": "b28461c924a4217b9478062bea99d2306d7d4d05",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/CLAUDE.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "2139079964fbd53692380985e60ef90e2fa05dad",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/CODE_OF_CONDUCT.md",
+      "lines": 130,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "53de38ca21e31642bddee9c55c2cb8d398b5418d",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/CONTRIBUTING.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile",
+      "sha": "01dcc65448bc32d2e154d4e6a7900cbc6a020590",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/Makefile",
+      "lines": 112,
+      "signals": {
+        "tests": [
+          91,
+          96
+        ],
+        "lint": [
+          12,
+          13,
+          45,
+          46,
+          60,
+          61
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "aaf5c97e09c3b12c3dc1a92756382df882ec5425",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/README.md",
+      "lines": 232,
+      "signals": {
+        "tests": [],
+        "lint": [
+          132,
+          137,
+          157,
+          172,
+          177,
+          182
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          23,
+          24,
+          26,
+          27,
+          121
+        ],
+        "media": [
+          19,
+          23,
+          24,
+          25,
+          26,
+          27,
+          121
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          117
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "43da3814ed704541ace34854e362c0b2e7f23009",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/SECURITY.md",
+      "lines": 106,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          67,
+          101
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          7,
+          9,
+          11
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          14
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "fdda8a6977bed24c032133a50ccc6c65a6ecaaab",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/pyproject.toml",
+      "lines": 32,
+      "signals": {
+        "tests": [],
+        "lint": [
+          1,
+          7,
+          13,
+          17,
+          21,
+          22,
+          25,
+          28,
+          31
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
+      "sha": "7f741180fa3da4fbdf05aeb4f3ef9d8fa4dfec5f",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/ISSUE_TEMPLATE/bug-report.yml",
+      "lines": 110,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "e81992fe3c69b65f58f627252ffa6569d1cd67e2",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 4,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          3
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha": "42f93232c1de7c73dcd90cdb6b0733bbb4461508",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/ISSUE_TEMPLATE/feature_request.md",
+      "lines": 20,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feedback.md",
+      "sha": "25808b6575a405694f64dbf1b5a0ece8e0fcd2e2",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/ISSUE_TEMPLATE/feedback.md",
+      "lines": 12,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/new-model-addition.yml",
+      "sha": "432e287dd3348965466a696ee5e01a187f179ee5",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/ISSUE_TEMPLATE/new-model-addition.yml",
+      "lines": 31,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/remote-vae-pilot-feedback.yml",
+      "sha": "c94d3bed97380f475a5a71c47f0f4a0870753620",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/ISSUE_TEMPLATE/remote-vae-pilot-feedback.yml",
+      "lines": 38,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/translate.md",
+      "sha": "3471ec9640d727e7cdf223852d2012834660e88a",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/ISSUE_TEMPLATE/translate.md",
+      "lines": 29,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "e28a3cb965633fc3a554b5c505bdd99b2cf1c17c",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/PULL_REQUEST_TEMPLATE.md",
+      "lines": 66,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "15f7bdd7916ac5fca2274ad5d1239bafe0f0f5a2",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/dependabot.yml",
+      "lines": 11,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/README.md",
+      "sha": "147875f372e88b5bf84ecbd89be77a5cedd7d919",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/docs/README.md",
+      "lines": 268,
+      "signals": {
+        "tests": [],
+        "lint": [
+          264
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/bot_pytest.yml",
+      "sha": "bd4a159335db6eb2d9e3ac98eb9ed1397899ff17",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/workflows/bot_pytest.yml",
+      "lines": 150,
+      "signals": {
+        "tests": [
+          1,
+          3,
+          4,
+          9,
+          37,
+          40,
+          47,
+          52,
+          68,
+          98,
+          100,
+          107
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          17,
+          61,
+          131
+        ],
+        "pinned_actions": [
+          78,
+          119
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          15,
+          22
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/nightly_tests.yml",
+      "sha": "5a6cf75a952db13f63a89b2857136a22c0c401fe",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/workflows/nightly_tests.yml",
+      "lines": 643,
+      "signals": {
+        "tests": [
+          14,
+          90,
+          100,
+          146,
+          157,
+          170,
+          221,
+          259,
+          270,
+          323,
+          386,
+          398
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          26,
+          30,
+          63,
+          117,
+          189,
+          234,
+          288,
+          346,
+          418,
+          471
+        ],
+        "pinned_actions": [
+          41,
+          57,
+          79,
+          111,
+          135,
+          183,
+          202,
+          228,
+          247,
+          282,
+          301,
+          340
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/notify_slack_about_release.yml",
+      "sha": "c7f35bd6fcd5265354cd18c0f023250503890b01",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/workflows/notify_slack_about_release.yml",
+      "lines": 28,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9,
+          13
+        ],
+        "pinned_actions": [
+          18,
+          21
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pr_dependency_test.yml",
+      "sha": "44653458e3ea78ac6f5801cd6cb80364e0498843",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/workflows/pr_dependency_test.yml",
+      "lines": 38,
+      "signals": {
+        "tests": [
+          35,
+          38
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          19,
+          23
+        ],
+        "pinned_actions": [
+          27,
+          29
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pr_modular_tests.yml",
+      "sha": "117a6321e568428bbeebb5ae8787305d23ee0b87",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/workflows/pr_modular_tests.yml",
+      "lines": 166,
+      "signals": {
+        "tests": [
+          34,
+          153
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          41,
+          45,
+          66,
+          93,
+          116
+        ],
+        "pinned_actions": [
+          49,
+          51,
+          71,
+          73,
+          102,
+          134,
+          163
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pr_test_fetcher.yml",
+      "sha": "b247aee41ea6ca42995bbdc0373ce3186852c446",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/workflows/pr_test_fetcher.yml",
+      "lines": 179,
+      "signals": {
+        "tests": [
+          10,
+          108,
+          165
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          16,
+          20,
+          73,
+          125
+        ],
+        "pinned_actions": [
+          36,
+          50,
+          93,
+          119,
+          150,
+          176
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pr_tests.yml",
+      "sha": "b25907d3432090884641c3d9472fe08c1e9afbd1",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/workflows/pr_tests.yml",
+      "lines": 308,
+      "signals": {
+        "tests": [
+          29,
+          147,
+          154,
+          163,
+          224,
+          282,
+          286,
+          290
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          36,
+          40,
+          61,
+          89,
+          179,
+          241
+        ],
+        "pinned_actions": [
+          44,
+          46,
+          66,
+          68,
+          129,
+          173,
+          207,
+          235,
+          263,
+          304
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pr_tests_gpu.yml",
+      "sha": "1e9c2d0effc45d829b4b872ff0fb4df09d5b0b89",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/workflows/pr_tests_gpu.yml",
+      "lines": 317,
+      "signals": {
+        "tests": [
+          30,
+          174,
+          179,
+          248,
+          251,
+          303
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          38,
+          42,
+          63,
+          91,
+          127,
+          198,
+          269
+        ],
+        "pinned_actions": [
+          46,
+          48,
+          68,
+          70,
+          103,
+          121,
+          143,
+          192,
+          217,
+          263,
+          281,
+          313
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pr_torch_dependency_test.yml",
+      "sha": "b8454009f7639f8a1bbdc11cb0d2f5d5ec2c3466",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/workflows/pr_torch_dependency_test.yml",
+      "lines": 38,
+      "signals": {
+        "tests": [
+          35,
+          38
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          19,
+          23
+        ],
+        "pinned_actions": [
+          27,
+          29
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/push_tests.yml",
+      "sha": "d93ca5dbc2ee646b2b82a038391f35aee6f340d2",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/workflows/push_tests.yml",
+      "lines": 313,
+      "signals": {
+        "tests": [
+          19,
+          103,
+          159,
+          210,
+          254,
+          300
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          27,
+          31,
+          66,
+          119,
+          178,
+          223,
+          267
+        ],
+        "pinned_actions": [
+          42,
+          60,
+          82,
+          113,
+          137,
+          172,
+          191,
+          217,
+          236,
+          261,
+          279,
+          310
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/push_tests_fast.yml",
+      "sha": "5a0dbcd2c8b7211c8b7f0a29daaaae235d58369e",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/workflows/push_tests_fast.yml",
+      "lines": 101,
+      "signals": {
+        "tests": [
+          23,
+          80,
+          88
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          26,
+          30
+        ],
+        "pinned_actions": [
+          65,
+          98
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/push_tests_mps.yml",
+      "sha": "a0e9d7f13d7b3531299006c48cc526dd920f8c76",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/diffusers/blob/b800f828f3951c4d206e154411bcbfa693cd322e/.github/workflows/push_tests_mps.yml",
+      "lines": 76,
+      "signals": {
+        "tests": [
+          13,
+          65
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          20,
+          24
+        ],
+        "pinned_actions": [
+          31,
+          73
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 15058,
+      "title": " FLUX.3 prompt upsampler block",
+      "url": "https://github.com/huggingface/diffusers/pull/15058",
+      "merged_at": "2026-10-16T03:25:28Z",
+      "merge_commit_sha": "d42ebf9c6e0b46103b74283f5324357a67acaa04",
+      "files": [
+        "docs/source/en/api/pipelines/flux3.md",
+        "src/diffusers/modular_pipelines/flux3/modular_blocks_flux3.py",
+        "src/diffusers/modular_pipelines/flux3/modular_blocks_flux3_distilled.py",
+        "src/diffusers/modular_pipelines/flux3/prompt_upsampler.py",
+        "tests/modular_pipelines/flux3/test_modular_pipeline_flux3.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "docs/source/en/api/pipelines/flux3.md",
+          "status": "modified",
+          "additions": 61,
+          "deletions": 68,
+          "blob_url": "https://github.com/huggingface/diffusers/blob/449c345d36041e6618ae7ff8c229a796c794ce9c/docs%2Fsource%2Fen%2Fapi%2Fpipelines%2Fflux3.md"
+        },
+        {
+          "filename": "src/diffusers/modular_pipelines/flux3/modular_blocks_flux3.py",
+          "status": "modified",
+          "additions": 21,
+          "deletions": 9,
+          "blob_url": "https://github.com/huggingface/diffusers/blob/449c345d36041e6618ae7ff8c229a796c794ce9c/src%2Fdiffusers%2Fmodular_pipelines%2Fflux3%2Fmodular_blocks_flux3.py"
+        },
+        {
+          "filename": "src/diffusers/modular_pipelines/flux3/modular_blocks_flux3_distilled.py",
+          "status": "modified",
+          "additions": 19,
+          "deletions": 9,
+          "blob_url": "https://github.com/huggingface/diffusers/blob/449c345d36041e6618ae7ff8c229a796c794ce9c/src%2Fdiffusers%2Fmodular_pipelines%2Fflux3%2Fmodular_blocks_flux3_distilled.py"
+        },
+        {
+          "filename": "src/diffusers/modular_pipelines/flux3/prompt_upsampler.py",
+          "status": "added",
+          "additions": 616,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/diffusers/blob/449c345d36041e6618ae7ff8c229a796c794ce9c/src%2Fdiffusers%2Fmodular_pipelines%2Fflux3%2Fprompt_upsampler.py"
+        },
+        {
+          "filename": "tests/modular_pipelines/flux3/test_modular_pipeline_flux3.py",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/diffusers/blob/449c345d36041e6618ae7ff8c229a796c794ce9c/tests%2Fmodular_pipelines%2Fflux3%2Ftest_modular_pipeline_flux3.py"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38981709445,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38981709445",
+          "head_sha": "d42ebf9c6e0b46103b74283f5324357a67acaa04"
+        },
+        {
+          "id": 38980691120,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38980691120",
+          "head_sha": "d42ebf9c6e0b46103b74283f5324357a67acaa04"
+        },
+        {
+          "id": 38980075163,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38980075163",
+          "head_sha": "d42ebf9c6e0b46103b74283f5324357a67acaa04"
+        },
+        {
+          "id": 38974679918,
+          "name": "Diffusers Bot",
+          "path": ".github/workflows/diffusers_bot.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38974679918",
+          "head_sha": "d42ebf9c6e0b46103b74283f5324357a67acaa04"
+        },
+        {
+          "id": 38974679895,
+          "name": "Claude PR Review",
+          "path": ".github/workflows/claude_review.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38974679895",
+          "head_sha": "d42ebf9c6e0b46103b74283f5324357a67acaa04"
+        },
+        {
+          "id": 38973722440,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38973722440",
+          "head_sha": "d42ebf9c6e0b46103b74283f5324357a67acaa04"
+        },
+        {
+          "id": 38971867777,
+          "name": "Diffusers Bot",
+          "path": ".github/workflows/diffusers_bot.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38971867777",
+          "head_sha": "d42ebf9c6e0b46103b74283f5324357a67acaa04"
+        },
+        {
+          "id": 38971867604,
+          "name": "Claude PR Review",
+          "path": ".github/workflows/claude_review.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38971867604",
+          "head_sha": "d42ebf9c6e0b46103b74283f5324357a67acaa04"
+        },
+        {
+          "id": 38971806677,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38971806677",
+          "head_sha": "d42ebf9c6e0b46103b74283f5324357a67acaa04"
+        },
+        {
+          "id": 38959852993,
+          "name": "Claude PR Review",
+          "path": ".github/workflows/claude_review.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38959852993",
+          "head_sha": "d42ebf9c6e0b46103b74283f5324357a67acaa04"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38843490076,
+          "name": "Build PR Documentation",
+          "path": ".github/workflows/build_pr_documentation.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38843490076",
+          "head_sha": "449c345d36041e6618ae7ff8c229a796c794ce9c"
+        },
+        {
+          "id": 38843489546,
+          "name": "Run dependency tests",
+          "path": ".github/workflows/pr_dependency_test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38843489546",
+          "head_sha": "449c345d36041e6618ae7ff8c229a796c794ce9c"
+        },
+        {
+          "id": 38843489462,
+          "name": "Run Torch dependency tests",
+          "path": ".github/workflows/pr_torch_dependency_test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38843489462",
+          "head_sha": "449c345d36041e6618ae7ff8c229a796c794ce9c"
+        },
+        {
+          "id": 38843489606,
+          "name": "Fast PR tests for Modular",
+          "path": ".github/workflows/pr_modular_tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38843489606",
+          "head_sha": "449c345d36041e6618ae7ff8c229a796c794ce9c"
+        },
+        {
+          "id": 38843489608,
+          "name": "Fast tests for PRs",
+          "path": ".github/workflows/pr_tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38843489608",
+          "head_sha": "449c345d36041e6618ae7ff8c229a796c794ce9c"
+        },
+        {
+          "id": 38843485953,
+          "name": "PR Labeler",
+          "path": ".github/workflows/pr_labeler.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38843485953",
+          "head_sha": "449c345d36041e6618ae7ff8c229a796c794ce9c"
+        },
+        {
+          "id": 38843483065,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38843483065",
+          "head_sha": "449c345d36041e6618ae7ff8c229a796c794ce9c"
+        }
+      ]
+    },
+    {
+      "number": 15069,
+      "title": "[docs] FLUX.3: modular-only notes, lazy loading, callbacks",
+      "url": "https://github.com/huggingface/diffusers/pull/15069",
+      "merged_at": "2026-10-16T23:34:11Z",
+      "merge_commit_sha": "b800f828f3951c4d206e154411bcbfa693cd322e",
+      "files": [
+        "docs/source/en/_toctree.yml",
+        "docs/source/en/api/pipelines/flux3.md",
+        "docs/source/en/modular_diffusers/coming_from_diffusion_pipeline.md",
+        "docs/source/en/modular_diffusers/loop_sequential_pipeline_blocks.md",
+        "docs/source/en/modular_diffusers/overview.md",
+        "docs/source/en/modular_diffusers/quickstart.md",
+        "docs/source/en/using-diffusers/callback.md"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "docs/source/en/_toctree.yml",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/diffusers/blob/42e79f7a0f5da5cf7d160ce7dd8a311d4728db19/docs%2Fsource%2Fen%2F_toctree.yml"
+        },
+        {
+          "filename": "docs/source/en/api/pipelines/flux3.md",
+          "status": "modified",
+          "additions": 72,
+          "deletions": 18,
+          "blob_url": "https://github.com/huggingface/diffusers/blob/42e79f7a0f5da5cf7d160ce7dd8a311d4728db19/docs%2Fsource%2Fen%2Fapi%2Fpipelines%2Fflux3.md"
+        },
+        {
+          "filename": "docs/source/en/modular_diffusers/coming_from_diffusion_pipeline.md",
+          "status": "added",
+          "additions": 23,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/diffusers/blob/42e79f7a0f5da5cf7d160ce7dd8a311d4728db19/docs%2Fsource%2Fen%2Fmodular_diffusers%2Fcoming_from_diffusion_pipeline.md"
+        },
+        {
+          "filename": "docs/source/en/modular_diffusers/loop_sequential_pipeline_blocks.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/diffusers/blob/42e79f7a0f5da5cf7d160ce7dd8a311d4728db19/docs%2Fsource%2Fen%2Fmodular_diffusers%2Floop_sequential_pipeline_blocks.md"
+        },
+        {
+          "filename": "docs/source/en/modular_diffusers/overview.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/diffusers/blob/42e79f7a0f5da5cf7d160ce7dd8a311d4728db19/docs%2Fsource%2Fen%2Fmodular_diffusers%2Foverview.md"
+        },
+        {
+          "filename": "docs/source/en/modular_diffusers/quickstart.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/huggingface/diffusers/blob/42e79f7a0f5da5cf7d160ce7dd8a311d4728db19/docs%2Fsource%2Fen%2Fmodular_diffusers%2Fquickstart.md"
+        },
+        {
+          "filename": "docs/source/en/using-diffusers/callback.md",
+          "status": "modified",
+          "additions": 64,
+          "deletions": 1,
+          "blob_url": "https://github.com/huggingface/diffusers/blob/42e79f7a0f5da5cf7d160ce7dd8a311d4728db19/docs%2Fsource%2Fen%2Fusing-diffusers%2Fcallback.md"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39043378331,
+          "name": "Stale Bot",
+          "path": ".github/workflows/stale.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/39043378331",
+          "head_sha": "b800f828f3951c4d206e154411bcbfa693cd322e"
+        },
+        {
+          "id": 39041148181,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/39041148181",
+          "head_sha": "b800f828f3951c4d206e154411bcbfa693cd322e"
+        },
+        {
+          "id": 39032907875,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/39032907875",
+          "head_sha": "b800f828f3951c4d206e154411bcbfa693cd322e"
+        },
+        {
+          "id": 39024862078,
+          "name": "Claude PR Review",
+          "path": ".github/workflows/claude_review.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/39024862078",
+          "head_sha": "b800f828f3951c4d206e154411bcbfa693cd322e"
+        },
+        {
+          "id": 39024862216,
+          "name": "Diffusers Bot",
+          "path": ".github/workflows/diffusers_bot.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/39024862216",
+          "head_sha": "b800f828f3951c4d206e154411bcbfa693cd322e"
+        },
+        {
+          "id": 39024828338,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/39024828338",
+          "head_sha": "b800f828f3951c4d206e154411bcbfa693cd322e"
+        },
+        {
+          "id": 39023610053,
+          "name": "Diffusers Bot",
+          "path": ".github/workflows/diffusers_bot.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/39023610053",
+          "head_sha": "b800f828f3951c4d206e154411bcbfa693cd322e"
+        },
+        {
+          "id": 39023609976,
+          "name": "Claude PR Review",
+          "path": ".github/workflows/claude_review.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/39023609976",
+          "head_sha": "b800f828f3951c4d206e154411bcbfa693cd322e"
+        },
+        {
+          "id": 39017562710,
+          "name": "Diffusers Bot",
+          "path": ".github/workflows/diffusers_bot.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/39017562710",
+          "head_sha": "b800f828f3951c4d206e154411bcbfa693cd322e"
+        },
+        {
+          "id": 39017562636,
+          "name": "Claude PR Review",
+          "path": ".github/workflows/claude_review.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/39017562636",
+          "head_sha": "b800f828f3951c4d206e154411bcbfa693cd322e"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38981327750,
+          "name": "Build PR Documentation",
+          "path": ".github/workflows/build_pr_documentation.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38981327750",
+          "head_sha": "42e79f7a0f5da5cf7d160ce7dd8a311d4728db19"
+        },
+        {
+          "id": 38981325718,
+          "name": "PR Labeler",
+          "path": ".github/workflows/pr_labeler.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38981325718",
+          "head_sha": "42e79f7a0f5da5cf7d160ce7dd8a311d4728db19"
+        },
+        {
+          "id": 38981323959,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38981323959",
+          "head_sha": "42e79f7a0f5da5cf7d160ce7dd8a311d4728db19"
+        }
+      ]
+    },
+    {
+      "number": 15059,
+      "title": "[docs] FLUX.3: prompt upsampler required, ours or any LLM",
+      "url": "https://github.com/huggingface/diffusers/pull/15059",
+      "merged_at": "2026-10-16T01:56:38Z",
+      "merge_commit_sha": "af4271c3e18f14d2e8a21a0480d3a89e7bf5cdba",
+      "files": [
+        "docs/source/en/api/pipelines/flux3.md"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "docs/source/en/api/pipelines/flux3.md",
+          "status": "modified",
+          "additions": 29,
+          "deletions": 49,
+          "blob_url": "https://github.com/huggingface/diffusers/blob/2020b5cf1c44a8f48bfbd9df445e29fa83fc8e16/docs%2Fsource%2Fen%2Fapi%2Fpipelines%2Fflux3.md"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38843929754,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38843929754",
+          "head_sha": "af4271c3e18f14d2e8a21a0480d3a89e7bf5cdba"
+        },
+        {
+          "id": 38840124190,
+          "name": "Diffusers Bot",
+          "path": ".github/workflows/diffusers_bot.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38840124190",
+          "head_sha": "af4271c3e18f14d2e8a21a0480d3a89e7bf5cdba"
+        },
+        {
+          "id": 38840124216,
+          "name": "Claude PR Review",
+          "path": ".github/workflows/claude_review.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38840124216",
+          "head_sha": "af4271c3e18f14d2e8a21a0480d3a89e7bf5cdba"
+        },
+        {
+          "id": 38839310864,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38839310864",
+          "head_sha": "af4271c3e18f14d2e8a21a0480d3a89e7bf5cdba"
+        },
+        {
+          "id": 38837825622,
+          "name": "CodeQL Security Analysis For Github Actions",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38837825622",
+          "head_sha": "af4271c3e18f14d2e8a21a0480d3a89e7bf5cdba"
+        },
+        {
+          "id": 38837825543,
+          "name": "Build documentation",
+          "path": ".github/workflows/build_documentation.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38837825543",
+          "head_sha": "af4271c3e18f14d2e8a21a0480d3a89e7bf5cdba"
+        },
+        {
+          "id": 38837825264,
+          "name": "Update Diffusers metadata",
+          "path": ".github/workflows/update_metadata.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38837825264",
+          "head_sha": "af4271c3e18f14d2e8a21a0480d3a89e7bf5cdba"
+        },
+        {
+          "id": 38837825266,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38837825266",
+          "head_sha": "af4271c3e18f14d2e8a21a0480d3a89e7bf5cdba"
+        },
+        {
+          "id": 38837826532,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38837826532",
+          "head_sha": "af4271c3e18f14d2e8a21a0480d3a89e7bf5cdba"
+        },
+        {
+          "id": 38837825209,
+          "name": "Run dependency tests",
+          "path": ".github/workflows/pr_dependency_test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38837825209",
+          "head_sha": "af4271c3e18f14d2e8a21a0480d3a89e7bf5cdba"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38828015597,
+          "name": "Build PR Documentation",
+          "path": ".github/workflows/build_pr_documentation.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38828015597",
+          "head_sha": "2020b5cf1c44a8f48bfbd9df445e29fa83fc8e16"
+        },
+        {
+          "id": 38828011811,
+          "name": "PR Labeler",
+          "path": ".github/workflows/pr_labeler.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/38828011811",
+          "head_sha": "2020b5cf1c44a8f48bfbd9df445e29fa83fc8e16"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v0.41.0",
+      "url": "https://github.com/huggingface/diffusers/releases/tag/v0.41.0",
+      "published_at": "2026-10-06T06:43:25Z",
+      "target_commitish": "main",
+      "commit_sha": "086bf9578c0f4acbc66e48cd1e7cc26befd9e10f",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37425350203,
+          "name": "Notify Slack about a release",
+          "path": ".github/workflows/notify_slack_about_release.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/37425350203",
+          "head_sha": "086bf9578c0f4acbc66e48cd1e7cc26befd9e10f"
+        },
+        {
+          "id": 37423255479,
+          "name": "PyPI release",
+          "path": ".github/workflows/pypi_publish.yaml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/37423255479",
+          "head_sha": "086bf9578c0f4acbc66e48cd1e7cc26befd9e10f"
+        },
+        {
+          "id": 37423255696,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/37423255696",
+          "head_sha": "086bf9578c0f4acbc66e48cd1e7cc26befd9e10f"
+        },
+        {
+          "id": 37423255593,
+          "name": "Mirror Community Pipeline",
+          "path": ".github/workflows/mirror_community_pipeline.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/37423255593",
+          "head_sha": "086bf9578c0f4acbc66e48cd1e7cc26befd9e10f"
+        },
+        {
+          "id": 37423209623,
+          "name": "Build documentation",
+          "path": ".github/workflows/build_documentation.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/37423209623",
+          "head_sha": "086bf9578c0f4acbc66e48cd1e7cc26befd9e10f"
+        },
+        {
+          "id": 37423209206,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/37423209206",
+          "head_sha": "086bf9578c0f4acbc66e48cd1e7cc26befd9e10f"
+        },
+        {
+          "id": 37423209203,
+          "name": "PyPI release",
+          "path": ".github/workflows/pypi_publish.yaml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/37423209203",
+          "head_sha": "086bf9578c0f4acbc66e48cd1e7cc26befd9e10f"
+        },
+        {
+          "id": 37423209221,
+          "name": "(Release) Fast GPU Tests on main",
+          "path": ".github/workflows/release_tests_fast.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/37423209221",
+          "head_sha": "086bf9578c0f4acbc66e48cd1e7cc26befd9e10f"
+        }
+      ]
+    },
+    {
+      "tag": "v0.40.0",
+      "url": "https://github.com/huggingface/diffusers/releases/tag/v0.40.0",
+      "published_at": "2026-08-20T14:53:43Z",
+      "target_commitish": "main",
+      "commit_sha": "d035dcd7cc7c88e0a154609b62887d50bba9fdc2",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 32382877750,
+          "name": "Notify Slack about a release",
+          "path": ".github/workflows/notify_slack_about_release.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/32382877750",
+          "head_sha": "d035dcd7cc7c88e0a154609b62887d50bba9fdc2"
+        },
+        {
+          "id": 32380246760,
+          "name": "PyPI release",
+          "path": ".github/workflows/pypi_publish.yaml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/32380246760",
+          "head_sha": "d035dcd7cc7c88e0a154609b62887d50bba9fdc2"
+        },
+        {
+          "id": 32380246689,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/32380246689",
+          "head_sha": "d035dcd7cc7c88e0a154609b62887d50bba9fdc2"
+        },
+        {
+          "id": 32380246646,
+          "name": "Mirror Community Pipeline",
+          "path": ".github/workflows/mirror_community_pipeline.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/32380246646",
+          "head_sha": "d035dcd7cc7c88e0a154609b62887d50bba9fdc2"
+        },
+        {
+          "id": 32379919083,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/32379919083",
+          "head_sha": "d035dcd7cc7c88e0a154609b62887d50bba9fdc2"
+        },
+        {
+          "id": 32379919032,
+          "name": "PyPI release",
+          "path": ".github/workflows/pypi_publish.yaml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/32379919032",
+          "head_sha": "d035dcd7cc7c88e0a154609b62887d50bba9fdc2"
+        },
+        {
+          "id": 32379919456,
+          "name": "Build documentation",
+          "path": ".github/workflows/build_documentation.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/32379919456",
+          "head_sha": "d035dcd7cc7c88e0a154609b62887d50bba9fdc2"
+        },
+        {
+          "id": 32379919068,
+          "name": "(Release) Fast GPU Tests on main",
+          "path": ".github/workflows/release_tests_fast.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/32379919068",
+          "head_sha": "d035dcd7cc7c88e0a154609b62887d50bba9fdc2"
+        }
+      ]
+    },
+    {
+      "tag": "v0.39.0",
+      "url": "https://github.com/huggingface/diffusers/releases/tag/v0.39.0",
+      "published_at": "2026-07-03T08:55:32Z",
+      "target_commitish": "main",
+      "commit_sha": "a3608b512ed7248499a44c61d954965ed9bdae4d",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 28649812401,
+          "name": "Notify Slack about a release",
+          "path": ".github/workflows/notify_slack_about_release.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/28649812401",
+          "head_sha": "a3608b512ed7248499a44c61d954965ed9bdae4d"
+        },
+        {
+          "id": 28649314792,
+          "name": "PyPI release",
+          "path": ".github/workflows/pypi_publish.yaml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/28649314792",
+          "head_sha": "a3608b512ed7248499a44c61d954965ed9bdae4d"
+        },
+        {
+          "id": 28649314810,
+          "name": "Mirror Community Pipeline",
+          "path": ".github/workflows/mirror_community_pipeline.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/28649314810",
+          "head_sha": "a3608b512ed7248499a44c61d954965ed9bdae4d"
+        },
+        {
+          "id": 28649314793,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/28649314793",
+          "head_sha": "a3608b512ed7248499a44c61d954965ed9bdae4d"
+        },
+        {
+          "id": 28649281668,
+          "name": "Build documentation",
+          "path": ".github/workflows/build_documentation.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/28649281668",
+          "head_sha": "a3608b512ed7248499a44c61d954965ed9bdae4d"
+        },
+        {
+          "id": 28649281175,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/28649281175",
+          "head_sha": "a3608b512ed7248499a44c61d954965ed9bdae4d"
+        },
+        {
+          "id": 28649281171,
+          "name": "PyPI release",
+          "path": ".github/workflows/pypi_publish.yaml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/28649281171",
+          "head_sha": "a3608b512ed7248499a44c61d954965ed9bdae4d"
+        },
+        {
+          "id": 28649281183,
+          "name": "(Release) Fast GPU Tests on main",
+          "path": ".github/workflows/release_tests_fast.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/diffusers/actions/runs/28649281183",
+          "head_sha": "a3608b512ed7248499a44c61d954965ed9bdae4d"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v0.41.0",
+      "sha": "086bf9578c0f4acbc66e48cd1e7cc26befd9e10f"
+    },
+    {
+      "name": "v0.40.0",
+      "sha": "d035dcd7cc7c88e0a154609b62887d50bba9fdc2"
+    },
+    {
+      "name": "v0.39.0",
+      "sha": "a3608b512ed7248499a44c61d954965ed9bdae4d"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:16:59.796967+00:00",
+  "source_times": {
+    "/repos/huggingface/diffusers": "2026-10-17T16:07:54.026951+00:00",
+    "/repos/huggingface/diffusers/commits?sha=main&per_page=20": "2026-10-17T16:07:58.226914+00:00",
+    "/repos/huggingface/diffusers/git/trees/b800f828f3951c4d206e154411bcbfa693cd322e": "2026-10-17T16:07:59.596025+00:00",
+    "/repos/huggingface/diffusers/git/trees/9dbef25d0618d7c967d12654b80b077560aee770": "2026-10-17T16:08:02.403786+00:00",
+    "/repos/huggingface/diffusers/git/trees/7084143e79938de3fa6e10fdbd366f0c2ebbda01": "2026-10-17T16:08:06.255311+00:00",
+    "/repos/huggingface/diffusers/git/trees/42a37f465fd15b3ccacb514ca99408dc4be3aa11": "2026-10-17T16:08:09.278126+00:00",
+    "/repos/huggingface/diffusers/git/trees/fa99c3df2ed87625f8d37d6ceeaa2758adbbe05b": "2026-10-17T16:08:14.073276+00:00",
+    "/repos/huggingface/diffusers/git/trees/534799f89d78c0744c1bf6000a6fda99e870ce74": "2026-10-17T16:08:15.439807+00:00",
+    "/repos/huggingface/diffusers/git/blobs/b28461c924a4217b9478062bea99d2306d7d4d05": "2026-10-17T16:08:16.831138+00:00",
+    "/repos/huggingface/diffusers/git/blobs/2139079964fbd53692380985e60ef90e2fa05dad": "2026-10-17T16:08:18.255127+00:00",
+    "/repos/huggingface/diffusers/git/blobs/53de38ca21e31642bddee9c55c2cb8d398b5418d": "2026-10-17T16:08:19.669652+00:00",
+    "/repos/huggingface/diffusers/git/blobs/01dcc65448bc32d2e154d4e6a7900cbc6a020590": "2026-10-17T16:08:21.185581+00:00",
+    "/repos/huggingface/diffusers/git/blobs/aaf5c97e09c3b12c3dc1a92756382df882ec5425": "2026-10-17T16:08:24.201295+00:00",
+    "/repos/huggingface/diffusers/git/blobs/43da3814ed704541ace34854e362c0b2e7f23009": "2026-10-17T16:08:25.593403+00:00",
+    "/repos/huggingface/diffusers/git/blobs/fdda8a6977bed24c032133a50ccc6c65a6ecaaab": "2026-10-17T16:08:26.987947+00:00",
+    "/repos/huggingface/diffusers/git/blobs/7f741180fa3da4fbdf05aeb4f3ef9d8fa4dfec5f": "2026-10-17T16:08:29.440935+00:00",
+    "/repos/huggingface/diffusers/git/blobs/e81992fe3c69b65f58f627252ffa6569d1cd67e2": "2026-10-17T16:08:31.077887+00:00",
+    "/repos/huggingface/diffusers/git/blobs/42f93232c1de7c73dcd90cdb6b0733bbb4461508": "2026-10-17T16:08:32.630542+00:00",
+    "/repos/huggingface/diffusers/git/blobs/25808b6575a405694f64dbf1b5a0ece8e0fcd2e2": "2026-10-17T16:08:34.970971+00:00",
+    "/repos/huggingface/diffusers/git/blobs/432e287dd3348965466a696ee5e01a187f179ee5": "2026-10-17T16:08:37.324352+00:00",
+    "/repos/huggingface/diffusers/git/blobs/c94d3bed97380f475a5a71c47f0f4a0870753620": "2026-10-17T16:08:39.711265+00:00",
+    "/repos/huggingface/diffusers/git/blobs/3471ec9640d727e7cdf223852d2012834660e88a": "2026-10-17T16:08:41.070524+00:00",
+    "/repos/huggingface/diffusers/git/blobs/e28a3cb965633fc3a554b5c505bdd99b2cf1c17c": "2026-10-17T16:08:42.443533+00:00",
+    "/repos/huggingface/diffusers/git/blobs/15f7bdd7916ac5fca2274ad5d1239bafe0f0f5a2": "2026-10-17T16:08:43.824469+00:00",
+    "/repos/huggingface/diffusers/git/blobs/147875f372e88b5bf84ecbd89be77a5cedd7d919": "2026-10-17T16:08:46.401593+00:00",
+    "/repos/huggingface/diffusers/git/blobs/bd4a159335db6eb2d9e3ac98eb9ed1397899ff17": "2026-10-17T16:08:47.793458+00:00",
+    "/repos/huggingface/diffusers/git/blobs/5a6cf75a952db13f63a89b2857136a22c0c401fe": "2026-10-17T16:08:50.391012+00:00",
+    "/repos/huggingface/diffusers/git/blobs/c7f35bd6fcd5265354cd18c0f023250503890b01": "2026-10-17T16:08:53.179216+00:00",
+    "/repos/huggingface/diffusers/git/blobs/44653458e3ea78ac6f5801cd6cb80364e0498843": "2026-10-17T16:08:54.588552+00:00",
+    "/repos/huggingface/diffusers/git/blobs/117a6321e568428bbeebb5ae8787305d23ee0b87": "2026-10-17T16:08:56.213599+00:00",
+    "/repos/huggingface/diffusers/git/blobs/b247aee41ea6ca42995bbdc0373ce3186852c446": "2026-10-17T16:08:57.610844+00:00",
+    "/repos/huggingface/diffusers/git/blobs/b25907d3432090884641c3d9472fe08c1e9afbd1": "2026-10-17T16:08:59.027334+00:00",
+    "/repos/huggingface/diffusers/git/blobs/1e9c2d0effc45d829b4b872ff0fb4df09d5b0b89": "2026-10-17T16:09:00.558686+00:00",
+    "/repos/huggingface/diffusers/git/blobs/b8454009f7639f8a1bbdc11cb0d2f5d5ec2c3466": "2026-10-17T16:09:01.957845+00:00",
+    "/repos/huggingface/diffusers/git/blobs/d93ca5dbc2ee646b2b82a038391f35aee6f340d2": "2026-10-17T16:09:03.468915+00:00",
+    "/repos/huggingface/diffusers/git/blobs/5a0dbcd2c8b7211c8b7f0a29daaaae235d58369e": "2026-10-17T16:09:05.965694+00:00",
+    "/repos/huggingface/diffusers/git/blobs/a0e9d7f13d7b3531299006c48cc526dd920f8c76": "2026-10-17T16:09:07.362272+00:00",
+    "/repos/huggingface/diffusers/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:09:11.154794+00:00",
+    "/repos/huggingface/diffusers/pulls/15058/files?per_page=100": "2026-10-17T16:09:14.012046+00:00",
+    "/repos/huggingface/diffusers/pulls/15058/reviews?per_page=100": "2026-10-17T16:09:15.607632+00:00",
+    "/repos/huggingface/diffusers/actions/runs?head_sha=d42ebf9c6e0b46103b74283f5324357a67acaa04&per_page=10": "2026-10-17T16:09:18.329305+00:00",
+    "/repos/huggingface/diffusers/actions/runs?head_sha=449c345d36041e6618ae7ff8c229a796c794ce9c&per_page=10": "2026-10-17T16:09:22.408152+00:00",
+    "/repos/huggingface/diffusers/pulls/15069/files?per_page=100": "2026-10-17T16:09:25.671588+00:00",
+    "/repos/huggingface/diffusers/pulls/15069/reviews?per_page=100": "2026-10-17T16:09:27.096717+00:00",
+    "/repos/huggingface/diffusers/actions/runs?head_sha=b800f828f3951c4d206e154411bcbfa693cd322e&per_page=10": "2026-10-17T16:09:30.372106+00:00",
+    "/repos/huggingface/diffusers/actions/runs?head_sha=42e79f7a0f5da5cf7d160ce7dd8a311d4728db19&per_page=10": "2026-10-17T16:09:32.080687+00:00",
+    "/repos/huggingface/diffusers/pulls/15059/files?per_page=100": "2026-10-17T16:09:33.664748+00:00",
+    "/repos/huggingface/diffusers/pulls/15059/reviews?per_page=100": "2026-10-17T16:09:35.217431+00:00",
+    "/repos/huggingface/diffusers/actions/runs?head_sha=af4271c3e18f14d2e8a21a0480d3a89e7bf5cdba&per_page=10": "2026-10-17T16:09:37.502172+00:00",
+    "/repos/huggingface/diffusers/actions/runs?head_sha=2020b5cf1c44a8f48bfbd9df445e29fa83fc8e16&per_page=10": "2026-10-17T16:09:39.277751+00:00",
+    "/repos/huggingface/diffusers/releases?per_page=20&page=1": "2026-10-17T16:16:59.762871+00:00",
+    "/repos/huggingface/diffusers/commits/v0.41.0": "2026-10-17T16:09:46.642915+00:00",
+    "/repos/huggingface/diffusers/actions/runs?head_sha=086bf9578c0f4acbc66e48cd1e7cc26befd9e10f&per_page=10": "2026-10-17T16:09:48.733072+00:00",
+    "/repos/huggingface/diffusers/commits/v0.40.0": "2026-10-17T16:09:50.528404+00:00",
+    "/repos/huggingface/diffusers/actions/runs?head_sha=d035dcd7cc7c88e0a154609b62887d50bba9fdc2&per_page=10": "2026-10-17T16:09:52.572119+00:00",
+    "/repos/huggingface/diffusers/commits/v0.39.0": "2026-10-17T16:09:54.465359+00:00",
+    "/repos/huggingface/diffusers/actions/runs?head_sha=a3608b512ed7248499a44c61d954965ed9bdae4d&per_page=10": "2026-10-17T16:09:56.490293+00:00",
+    "/repos/huggingface/diffusers/tags?per_page=3": "2026-10-17T16:09:57.865758+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:16:59.762871+00:00",
+  "status": "collected"
+}

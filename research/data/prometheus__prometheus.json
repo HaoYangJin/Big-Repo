@@ -1,0 +1,1934 @@
+{
+  "requested_repository": "prometheus/prometheus",
+  "category": "infrastructure",
+  "collected_at": "2026-10-17T16:13:53.266137+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "prometheus/prometheus",
+  "metadata": {
+    "html_url": "https://github.com/prometheus/prometheus",
+    "description": "The Prometheus monitoring system and time series database.",
+    "homepage": "https://prometheus.io/",
+    "language": "Go",
+    "stargazers_count": 66603,
+    "forks_count": 10920,
+    "open_issues_count": 985,
+    "pushed_at": "2026-10-16T19:11:18Z",
+    "created_at": "2012-11-24T11:14:12Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [
+      "alerting",
+      "graphing",
+      "hacktoberfest",
+      "metrics",
+      "monitoring",
+      "prometheus",
+      "time-series"
+    ],
+    "owner": {
+      "login": "prometheus",
+      "type": "Organization",
+      "html_url": "https://github.com/prometheus"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "c052a79dc7fd0f2df2219ffe336f510b0d149b72",
+      "url": "https://github.com/prometheus/prometheus/commit/c052a79dc7fd0f2df2219ffe336f510b0d149b72",
+      "date": "2026-10-16T19:07:13Z",
+      "subject": "Fix renovate not updating go.mod in documentation/examples/remote_storage (#20043)"
+    },
+    {
+      "sha": "93f088d90a29ef51e268d35569c5506cfa270dd6",
+      "url": "https://github.com/prometheus/prometheus/commit/93f088d90a29ef51e268d35569c5506cfa270dd6",
+      "date": "2026-10-16T17:34:45Z",
+      "subject": "fix(deps): update google.golang.org/genproto/googleapis/api digest to 4341edf (#19949)"
+    },
+    {
+      "sha": "930ee31a6ea0cddaf1875cda185e46438ecfa906",
+      "url": "https://github.com/prometheus/prometheus/commit/930ee31a6ea0cddaf1875cda185e46438ecfa906",
+      "date": "2026-10-16T16:50:11Z",
+      "subject": "chore(deps): update dependency prettier to v3.9.10 (#19954)"
+    },
+    {
+      "sha": "ad462225fff8fb3ed122a5423d194903843b734a",
+      "url": "https://github.com/prometheus/prometheus/commit/ad462225fff8fb3ed122a5423d194903843b734a",
+      "date": "2026-10-16T12:50:16Z",
+      "subject": "Merge pull request #19996 from aknuds1/arve/test-remote-read-gate-wait-duration"
+    },
+    {
+      "sha": "9aee60fd0d7f19b8786f05e279feabd00dca5fcd",
+      "url": "https://github.com/prometheus/prometheus/commit/9aee60fd0d7f19b8786f05e279feabd00dca5fcd",
+      "date": "2026-10-16T12:25:08Z",
+      "subject": "Merge pull request #19902 from prometheus/bwplotka/om2-accept-escaping"
+    },
+    {
+      "sha": "59464710169146987ddd50b2a25a54c9c662ef2f",
+      "url": "https://github.com/prometheus/prometheus/commit/59464710169146987ddd50b2a25a54c9c662ef2f",
+      "date": "2026-10-16T12:23:53Z",
+      "subject": "Merge pull request #20011 from prometheus/bwplotka/migrate-non-tsdb-to-appender-v2"
+    },
+    {
+      "sha": "76ee90d2ce7e90d4d250fc6844ee78870eea57c5",
+      "url": "https://github.com/prometheus/prometheus/commit/76ee90d2ce7e90d4d250fc6844ee78870eea57c5",
+      "date": "2026-10-16T12:08:13Z",
+      "subject": "Apply batched suggestions from code review"
+    },
+    {
+      "sha": "29946d1eb06e296eb19f35f0aa7c62677abb6522",
+      "url": "https://github.com/prometheus/prometheus/commit/29946d1eb06e296eb19f35f0aa7c62677abb6522",
+      "date": "2026-10-16T12:06:40Z",
+      "subject": "Merge branch 'main' into bwplotka/migrate-non-tsdb-to-appender-v2"
+    },
+    {
+      "sha": "26b3ee772d031a380b4a82072f444e7256889aff",
+      "url": "https://github.com/prometheus/prometheus/commit/26b3ee772d031a380b4a82072f444e7256889aff",
+      "date": "2026-10-16T08:06:41Z",
+      "subject": "Merge pull request #20004 from prometheus/krajo/otlp-exemplar-trace-context-precedence"
+    },
+    {
+      "sha": "ee295d6fe2796d468ab9590a5a8feabaf47f222e",
+      "url": "https://github.com/prometheus/prometheus/commit/ee295d6fe2796d468ab9590a5a8feabaf47f222e",
+      "date": "2026-10-16T07:51:07Z",
+      "subject": "Merge pull request #20024 from linasm/fix-histogram-equality-skip-buckets"
+    },
+    {
+      "sha": "b50814fd7d2d079ff3a5fdc10a50cda7925a29ba",
+      "url": "https://github.com/prometheus/prometheus/commit/b50814fd7d2d079ff3a5fdc10a50cda7925a29ba",
+      "date": "2026-10-16T07:44:06Z",
+      "subject": "tsdb: test and document DeletedIterator reuse (#19855)"
+    },
+    {
+      "sha": "1ef2a2952c2f8f17ac724ae36ce082aab513e895",
+      "url": "https://github.com/prometheus/prometheus/commit/1ef2a2952c2f8f17ac724ae36ce082aab513e895",
+      "date": "2026-10-16T07:26:57Z",
+      "subject": "Merge pull request #19877 from nikhilsaxena04/fix-alerts-19870"
+    },
+    {
+      "sha": "7d9f8fa7bffb7216d241c0ed1783802351bb56a8",
+      "url": "https://github.com/prometheus/prometheus/commit/7d9f8fa7bffb7216d241c0ed1783802351bb56a8",
+      "date": "2026-10-16T06:57:45Z",
+      "subject": "Merge pull request #20020 from dashpole/om2-histogram-exemplars"
+    },
+    {
+      "sha": "8750eb5462d4c161dbe288428e92742efb526247",
+      "url": "https://github.com/prometheus/prometheus/commit/8750eb5462d4c161dbe288428e92742efb526247",
+      "date": "2026-10-16T06:40:14Z",
+      "subject": "otlp: sort exemplars by timestamp before appending (#20029)"
+    },
+    {
+      "sha": "d1fbd814cd77030c2d8428bc485d23c252484b13",
+      "url": "https://github.com/prometheus/prometheus/commit/d1fbd814cd77030c2d8428bc485d23c252484b13",
+      "date": "2026-10-16T06:38:12Z",
+      "subject": "promql: preserve quantile bucket for histograms with NaN sum (#19973)"
+    },
+    {
+      "sha": "466be3beb37099c28804608966f894b0dbad9993",
+      "url": "https://github.com/prometheus/prometheus/commit/466be3beb37099c28804608966f894b0dbad9993",
+      "date": "2026-10-15T19:27:31Z",
+      "subject": "otlp: count only out-of-order exemplars in the out-of-order counter (#20030)"
+    },
+    {
+      "sha": "81e74054db40f26bc59a43d8734c6cd022a97d8d",
+      "url": "https://github.com/prometheus/prometheus/commit/81e74054db40f26bc59a43d8734c6cd022a97d8d",
+      "date": "2026-10-15T17:08:48Z",
+      "subject": "Update module github.com/vultr/govultr/v3 to v3.33.2 (#19968)"
+    },
+    {
+      "sha": "d3cc56d9b698f1d55bd031beaa7c90ed8df2261d",
+      "url": "https://github.com/prometheus/prometheus/commit/d3cc56d9b698f1d55bd031beaa7c90ed8df2261d",
+      "date": "2026-10-15T12:31:08Z",
+      "subject": "storage: report which exemplars failed in AppendPartialError (#20026)"
+    },
+    {
+      "sha": "9993b5063da6c363bc8ebcf43792af90c1c23386",
+      "url": "https://github.com/prometheus/prometheus/commit/9993b5063da6c363bc8ebcf43792af90c1c23386",
+      "date": "2026-10-15T11:25:06Z",
+      "subject": "tsdb: test that stale AppenderV2 samples skip metadata (#20025)"
+    },
+    {
+      "sha": "5dda14f5d7d6975f2cc888b41b25be06402a0f53",
+      "url": "https://github.com/prometheus/prometheus/commit/5dda14f5d7d6975f2cc888b41b25be06402a0f53",
+      "date": "2026-10-15T09:28:15Z",
+      "subject": "Merge pull request #19725 from prometheus/roidelapluie/query-cost-backend"
+    }
+  ],
+  "default_sha": "c052a79dc7fd0f2df2219ffe336f510b0d149b72",
+  "root_and_selected_directory_paths": [
+    ".dockerignore",
+    ".gitattributes",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug_report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/feature_request.yml",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/workflows",
+    ".github/workflows/approve-workflows.yml",
+    ".github/workflows/automerge-dependabot.yml",
+    ".github/workflows/buf-lint.yml",
+    ".github/workflows/buf.yml",
+    ".github/workflows/check_release_notes.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/codeql-analysis.yml",
+    ".github/workflows/container_description.yml",
+    ".github/workflows/fuzzing.yml",
+    ".github/workflows/govulncheck.yml",
+    ".github/workflows/lock.yml",
+    ".github/workflows/prombench.yml",
+    ".github/workflows/repo_sync.yml",
+    ".github/workflows/scorecards.yml",
+    ".github/workflows/stale.yml",
+    ".gitignore",
+    ".golangci.yml",
+    ".promu.yml",
+    ".yamllint",
+    "AGENTS.md",
+    "CHANGELOG.md",
+    "CLAUDE.md",
+    "CODEOWNERS",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "Dockerfile",
+    "Dockerfile.distroless",
+    "LICENSE",
+    "MAINTAINERS.md",
+    "Makefile",
+    "Makefile.common",
+    "NOTICE",
+    "README.md",
+    "RELEASE.md",
+    "SECURITY-INSIGHTS.yml",
+    "SECURITY.md",
+    "VERSION",
+    "cmd",
+    "compliance",
+    "config",
+    "discovery",
+    "docs",
+    "docs/command-line",
+    "docs/configuration",
+    "docs/feature_flags.md",
+    "docs/federation.md",
+    "docs/getting_started.md",
+    "docs/http_sd.md",
+    "docs/images",
+    "docs/index.md",
+    "docs/installation.md",
+    "docs/management_api.md",
+    "docs/migration.md",
+    "docs/prometheus_agent.md",
+    "docs/querying",
+    "docs/stability.md",
+    "docs/storage.md",
+    "documentation",
+    "go.mod",
+    "go.sum",
+    "go.work",
+    "internal",
+    "model",
+    "notifier",
+    "plugins",
+    "prompb",
+    "promql",
+    "renovate.json",
+    "rules",
+    "schema",
+    "scrape",
+    "scripts",
+    "storage",
+    "template",
+    "tracing",
+    "tsdb",
+    "util",
+    "web"
+  ],
+  "workflow_paths": [
+    ".github/workflows/automerge-dependabot.yml",
+    ".github/workflows/check_release_notes.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/approve-workflows.yml",
+    ".github/workflows/buf-lint.yml",
+    ".github/workflows/buf.yml",
+    ".github/workflows/codeql-analysis.yml",
+    ".github/workflows/container_description.yml",
+    ".github/workflows/fuzzing.yml",
+    ".github/workflows/govulncheck.yml",
+    ".github/workflows/lock.yml",
+    ".github/workflows/prombench.yml",
+    ".github/workflows/repo_sync.yml",
+    ".github/workflows/scorecards.yml",
+    ".github/workflows/stale.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "71f743633bf1cddd9b23d1a0633a143c8d482afe",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/AGENTS.md",
+      "lines": 176,
+      "signals": {
+        "tests": [
+          114
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [
+          16,
+          17
+        ],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "e22524383047991b4b83d808e3773ef6689247aa",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/CHANGELOG.md",
+      "lines": 3516,
+      "signals": {
+        "tests": [
+          473,
+          975
+        ],
+        "lint": [
+          1209
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          165
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          1968,
+          2035,
+          2071,
+          2210,
+          2212
+        ]
+      }
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha": "43c994c2d3617f947bcb5adf1933e21dabe46bb5",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/CLAUDE.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CODEOWNERS",
+      "sha": "d2415a01d5f9280b60fb7e3075ae7ddff8647cd8",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/CODEOWNERS",
+      "lines": 33,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "d325872bdfad8d09e1d8c638f914f655f738c77f",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/CODE_OF_CONDUCT.md",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "092e49670152cebff3fdaf400f10cf6c66cbb8a8",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/CONTRIBUTING.md",
+      "lines": 101,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          30
+        ],
+        "community": [
+          28
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "sha": "dc531f73348b1bd3bc4ed42e7bdfdcd9b74c3228",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/MAINTAINERS.md",
+      "lines": 49,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile",
+      "sha": "fb92ce87bc12328d9644a0aa7be86e8218af9618",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/Makefile",
+      "lines": 247,
+      "signals": {
+        "tests": [],
+        "lint": [
+          105
+        ],
+        "generated_code": [
+          104
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile.common",
+      "sha": "efc2730c16d52f038310ae9898e2562210bebec2",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/Makefile.common",
+      "lines": 441,
+      "signals": {
+        "tests": [],
+        "lint": [
+          29,
+          136,
+          138
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "0465897e5cc16963a84fa6ba56b64b5dfa764009",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/README.md",
+      "lines": 231,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          10,
+          12,
+          14,
+          16
+        ],
+        "media": [
+          2,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          38
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "RELEASE.md",
+      "sha": "9d8e5facc9de6248e2f9da12b53a8bbbc26abd3e",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/RELEASE.md",
+      "lines": 193,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          133
+        ]
+      }
+    },
+    {
+      "path": "SECURITY-INSIGHTS.yml",
+      "sha": "009b3562148a0eaa6458c03778cb288d62c84a0a",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/SECURITY-INSIGHTS.yml",
+      "lines": 48,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "5e6f976dbff3ac7dd867f0a5d225f04fe3db3f4c",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/SECURITY.md",
+      "lines": 6,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          3
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "go.mod",
+      "sha": "10eca03ba3d2ef38a811a6b7fa0679181e5b1974",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/go.mod",
+      "lines": 264,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha": "90773a63ef00568137f36963c4cd5b9856213a9a",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "lines": 74,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "bb4e2d24c9983db0f322200f2a7018dc6bf8bb62",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 8,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "sha": "40f6f1388c8c31f3bb82ef549a82654278eb6a8b",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/.github/ISSUE_TEMPLATE/feature_request.yml",
+      "lines": 23,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "58641d17d8ac8b2b8c8c63243e850775d485d6b1",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/.github/PULL_REQUEST_TEMPLATE.md",
+      "lines": 41,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/automerge-dependabot.yml",
+      "sha": "c6f6fbbad6175a7c1375666ee4ae5bb6b39d2848",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/.github/workflows/automerge-dependabot.yml",
+      "lines": 30,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9,
+          14,
+          15
+        ],
+        "pinned_actions": [
+          22
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/check_release_notes.yml",
+      "sha": "fde5ac4cd1cd1be64354459fed389cc33c87f2e0",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/.github/workflows/check_release_notes.yml",
+      "lines": 28,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10
+        ],
+        "pinned_actions": [
+          22
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "b5381eb43dba90beb65b236f066656e3c67e5f1d",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/.github/workflows/ci.yml",
+      "lines": 486,
+      "signals": {
+        "tests": [
+          14,
+          29,
+          34,
+          45,
+          46,
+          47,
+          53,
+          67,
+          83,
+          100,
+          118,
+          144
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9,
+          394,
+          401,
+          416,
+          417,
+          437,
+          440
+        ],
+        "pinned_actions": [
+          21,
+          24,
+          39,
+          42,
+          58,
+          61,
+          94,
+          97,
+          130,
+          133,
+          165,
+          168
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          308
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/approve-workflows.yml",
+      "sha": "697118dfc1cd6511a6a73a61af909a1492434aba",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/.github/workflows/approve-workflows.yml",
+      "lines": 27,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11,
+          20
+        ],
+        "pinned_actions": [
+          25
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/buf-lint.yml",
+      "sha": "0c89c9e09b56723482b239a86a8932cd8d63aa5c",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/.github/workflows/buf-lint.yml",
+      "lines": 30,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [
+          15,
+          18
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/buf.yml",
+      "sha": "292f5254d9314462504c6507b9adbf3997a5e576",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/.github/workflows/buf.yml",
+      "lines": 34,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          6
+        ],
+        "pinned_actions": [
+          15,
+          18
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "sha": "4de215c5bb594c0a3bc585d0a93a7d970295623c",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/.github/workflows/codeql-analysis.yml",
+      "lines": 39,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9,
+          15
+        ],
+        "pinned_actions": [
+          26,
+          31,
+          36,
+          39
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/container_description.yml",
+      "sha": "ed4ada556dfe36468c91a8609eaad191c7f77a7c",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/.github/workflows/container_description.yml",
+      "lines": 64,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          14
+        ],
+        "pinned_actions": [
+          24,
+          30,
+          48,
+          56
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/fuzzing.yml",
+      "sha": "0a555f58e698d1bf7b118701952cde22b6d0bf24",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/.github/workflows/fuzzing.yml",
+      "lines": 49,
+      "signals": {
+        "tests": [
+          26
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          4
+        ],
+        "pinned_actions": [
+          16,
+          20,
+          30
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/govulncheck.yml",
+      "sha": "8c4deff9f808b0687ff9e1a47b04ff70e91e0be2",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/.github/workflows/govulncheck.yml",
+      "lines": 33,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          18
+        ],
+        "pinned_actions": [
+          31
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/lock.yml",
+      "sha": "de63095305633e8d12ae2f654992517c312cda7d",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/.github/workflows/lock.yml",
+      "lines": 23,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8
+        ],
+        "pinned_actions": [
+          19
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/prombench.yml",
+      "sha": "34bea41d5460328cd81cf45570bb90debfc2f5af",
+      "status": "inspected",
+      "url": "https://github.com/prometheus/prometheus/blob/c052a79dc7fd0f2df2219ffe336f510b0d149b72/.github/workflows/prombench.yml",
+      "lines": 136,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          5,
+          27,
+          64,
+          101
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 20043,
+      "title": "ci(renovate): Fix renovate not updating go.mod in documentation/examples/remote_storage",
+      "url": "https://github.com/prometheus/prometheus/pull/20043",
+      "merged_at": "2026-10-16T19:07:14Z",
+      "merge_commit_sha": "c052a79dc7fd0f2df2219ffe336f510b0d149b72",
+      "files": [
+        "renovate.json"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "renovate.json",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 0,
+          "blob_url": "https://github.com/prometheus/prometheus/blob/1e2cacfa83453825ef9a572599f7a7aa5247dd68/renovate.json"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39040393921,
+          "name": "Approve pending workflows",
+          "path": ".github/workflows/approve-workflows.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/39040393921",
+          "head_sha": "c052a79dc7fd0f2df2219ffe336f510b0d149b72"
+        },
+        {
+          "id": 39012056972,
+          "name": "Approve pending workflows",
+          "path": ".github/workflows/approve-workflows.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/39012056972",
+          "head_sha": "c052a79dc7fd0f2df2219ffe336f510b0d149b72"
+        },
+        {
+          "id": 38996190930,
+          "name": "govulncheck",
+          "path": ".github/workflows/govulncheck.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38996190930",
+          "head_sha": "c052a79dc7fd0f2df2219ffe336f510b0d149b72"
+        },
+        {
+          "id": 38983126349,
+          "name": "Approve pending workflows",
+          "path": ".github/workflows/approve-workflows.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38983126349",
+          "head_sha": "c052a79dc7fd0f2df2219ffe336f510b0d149b72"
+        },
+        {
+          "id": 38980934188,
+          "name": "Lock Threads",
+          "path": ".github/workflows/lock.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38980934188",
+          "head_sha": "c052a79dc7fd0f2df2219ffe336f510b0d149b72"
+        },
+        {
+          "id": 38975435831,
+          "name": "Stale Check",
+          "path": ".github/workflows/stale.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38975435831",
+          "head_sha": "c052a79dc7fd0f2df2219ffe336f510b0d149b72"
+        },
+        {
+          "id": 38966415110,
+          "name": "Approve pending workflows",
+          "path": ".github/workflows/approve-workflows.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38966415110",
+          "head_sha": "c052a79dc7fd0f2df2219ffe336f510b0d149b72"
+        },
+        {
+          "id": 38953002673,
+          "name": "Approve pending workflows",
+          "path": ".github/workflows/approve-workflows.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38953002673",
+          "head_sha": "c052a79dc7fd0f2df2219ffe336f510b0d149b72"
+        },
+        {
+          "id": 38952540019,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38952540019",
+          "head_sha": "c052a79dc7fd0f2df2219ffe336f510b0d149b72"
+        },
+        {
+          "id": 38952540020,
+          "name": "buf.build",
+          "path": ".github/workflows/buf.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38952540020",
+          "head_sha": "c052a79dc7fd0f2df2219ffe336f510b0d149b72"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38945843172,
+          "name": "Check release notes",
+          "path": ".github/workflows/check_release_notes.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38945843172",
+          "head_sha": "1e2cacfa83453825ef9a572599f7a7aa5247dd68"
+        },
+        {
+          "id": 38945842854,
+          "name": "Dependabot auto-merge",
+          "path": ".github/workflows/automerge-dependabot.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38945842854",
+          "head_sha": "1e2cacfa83453825ef9a572599f7a7aa5247dd68"
+        },
+        {
+          "id": 38945842771,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38945842771",
+          "head_sha": "1e2cacfa83453825ef9a572599f7a7aa5247dd68"
+        },
+        {
+          "id": 38945842926,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38945842926",
+          "head_sha": "1e2cacfa83453825ef9a572599f7a7aa5247dd68"
+        }
+      ]
+    },
+    {
+      "number": 19949,
+      "title": "fix(deps): update google.golang.org/genproto/googleapis/api digest to 4341edf",
+      "url": "https://github.com/prometheus/prometheus/pull/19949",
+      "merged_at": "2026-10-16T17:34:46Z",
+      "merge_commit_sha": "93f088d90a29ef51e268d35569c5506cfa270dd6",
+      "files": [
+        "documentation/examples/remote_storage/go.mod",
+        "documentation/examples/remote_storage/go.sum",
+        "go.mod",
+        "go.sum"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "documentation/examples/remote_storage/go.mod",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/prometheus/prometheus/blob/eb60efcf7349a95ffecdeb9d17cf62fff726d430/documentation%2Fexamples%2Fremote_storage%2Fgo.mod"
+        },
+        {
+          "filename": "documentation/examples/remote_storage/go.sum",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/prometheus/prometheus/blob/eb60efcf7349a95ffecdeb9d17cf62fff726d430/documentation%2Fexamples%2Fremote_storage%2Fgo.sum"
+        },
+        {
+          "filename": "go.mod",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/prometheus/prometheus/blob/eb60efcf7349a95ffecdeb9d17cf62fff726d430/go.mod"
+        },
+        {
+          "filename": "go.sum",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/prometheus/prometheus/blob/eb60efcf7349a95ffecdeb9d17cf62fff726d430/go.sum"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38952527193,
+          "name": "Approve pending workflows",
+          "path": ".github/workflows/approve-workflows.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38952527193",
+          "head_sha": "93f088d90a29ef51e268d35569c5506cfa270dd6"
+        },
+        {
+          "id": 38946323015,
+          "name": "Approve pending workflows",
+          "path": ".github/workflows/approve-workflows.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38946323015",
+          "head_sha": "93f088d90a29ef51e268d35569c5506cfa270dd6"
+        },
+        {
+          "id": 38942310554,
+          "name": "Sync repo files",
+          "path": ".github/workflows/repo_sync.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38942310554",
+          "head_sha": "93f088d90a29ef51e268d35569c5506cfa270dd6"
+        },
+        {
+          "id": 38940782582,
+          "name": "Graph Update: go_modules in /., /documentation/examples/remote_storage #1631893451",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38940782582",
+          "head_sha": "93f088d90a29ef51e268d35569c5506cfa270dd6"
+        },
+        {
+          "id": 38940772488,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38940772488",
+          "head_sha": "93f088d90a29ef51e268d35569c5506cfa270dd6"
+        },
+        {
+          "id": 38940772172,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38940772172",
+          "head_sha": "93f088d90a29ef51e268d35569c5506cfa270dd6"
+        },
+        {
+          "id": 38940772158,
+          "name": "buf.build",
+          "path": ".github/workflows/buf.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38940772158",
+          "head_sha": "93f088d90a29ef51e268d35569c5506cfa270dd6"
+        },
+        {
+          "id": 38940772148,
+          "name": "govulncheck",
+          "path": ".github/workflows/govulncheck.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38940772148",
+          "head_sha": "93f088d90a29ef51e268d35569c5506cfa270dd6"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38931596003,
+          "name": "Dependabot auto-merge",
+          "path": ".github/workflows/automerge-dependabot.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38931596003",
+          "head_sha": "eb60efcf7349a95ffecdeb9d17cf62fff726d430"
+        },
+        {
+          "id": 38931595986,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38931595986",
+          "head_sha": "eb60efcf7349a95ffecdeb9d17cf62fff726d430"
+        },
+        {
+          "id": 38931595766,
+          "name": "Check release notes",
+          "path": ".github/workflows/check_release_notes.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38931595766",
+          "head_sha": "eb60efcf7349a95ffecdeb9d17cf62fff726d430"
+        },
+        {
+          "id": 38931596140,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38931596140",
+          "head_sha": "eb60efcf7349a95ffecdeb9d17cf62fff726d430"
+        }
+      ]
+    },
+    {
+      "number": 19954,
+      "title": "chore(deps): update dependency prettier to v3.9.10",
+      "url": "https://github.com/prometheus/prometheus/pull/19954",
+      "merged_at": "2026-10-16T16:50:12Z",
+      "merge_commit_sha": "930ee31a6ea0cddaf1875cda185e46438ecfa906",
+      "files": [
+        "web/ui/pnpm-lock.yaml"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "web/ui/pnpm-lock.yaml",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 7,
+          "blob_url": "https://github.com/prometheus/prometheus/blob/702a9c40073c33f5d119b3c7d9b26771360a7ac6/web%2Fui%2Fpnpm-lock.yaml"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38935036984,
+          "name": "buf.build",
+          "path": ".github/workflows/buf.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38935036984",
+          "head_sha": "930ee31a6ea0cddaf1875cda185e46438ecfa906"
+        },
+        {
+          "id": 38935037144,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38935037144",
+          "head_sha": "930ee31a6ea0cddaf1875cda185e46438ecfa906"
+        },
+        {
+          "id": 38935036906,
+          "name": "govulncheck",
+          "path": ".github/workflows/govulncheck.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38935036906",
+          "head_sha": "930ee31a6ea0cddaf1875cda185e46438ecfa906"
+        },
+        {
+          "id": 38935036903,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38935036903",
+          "head_sha": "930ee31a6ea0cddaf1875cda185e46438ecfa906"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38869292545,
+          "name": "Check release notes",
+          "path": ".github/workflows/check_release_notes.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38869292545",
+          "head_sha": "702a9c40073c33f5d119b3c7d9b26771360a7ac6"
+        },
+        {
+          "id": 38558061651,
+          "name": "Check release notes",
+          "path": ".github/workflows/check_release_notes.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38558061651",
+          "head_sha": "702a9c40073c33f5d119b3c7d9b26771360a7ac6"
+        },
+        {
+          "id": 38389526911,
+          "name": "Check release notes",
+          "path": ".github/workflows/check_release_notes.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38389526911",
+          "head_sha": "702a9c40073c33f5d119b3c7d9b26771360a7ac6"
+        },
+        {
+          "id": 38389527103,
+          "name": "Dependabot auto-merge",
+          "path": ".github/workflows/automerge-dependabot.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38389527103",
+          "head_sha": "702a9c40073c33f5d119b3c7d9b26771360a7ac6"
+        },
+        {
+          "id": 38389526733,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38389526733",
+          "head_sha": "702a9c40073c33f5d119b3c7d9b26771360a7ac6"
+        },
+        {
+          "id": 38389526665,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/38389526665",
+          "head_sha": "702a9c40073c33f5d119b3c7d9b26771360a7ac6"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v3.13.4",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.13.4",
+      "published_at": "2026-10-02T14:46:21Z",
+      "target_commitish": "007a9e9ba628f815ce83e1ba9f29b97981996c3c",
+      "commit_sha": "007a9e9ba628f815ce83e1ba9f29b97981996c3c",
+      "assets": [
+        "prometheus-3.13.4.aix-ppc64.tar.gz",
+        "prometheus-3.13.4.darwin-amd64.tar.gz",
+        "prometheus-3.13.4.darwin-arm64.tar.gz",
+        "prometheus-3.13.4.dragonfly-amd64.tar.gz",
+        "prometheus-3.13.4.freebsd-386.tar.gz",
+        "prometheus-3.13.4.freebsd-amd64.tar.gz",
+        "prometheus-3.13.4.freebsd-arm64.tar.gz",
+        "prometheus-3.13.4.freebsd-armv6.tar.gz",
+        "prometheus-3.13.4.freebsd-armv7.tar.gz",
+        "prometheus-3.13.4.illumos-amd64.tar.gz",
+        "prometheus-3.13.4.linux-386.tar.gz",
+        "prometheus-3.13.4.linux-amd64.tar.gz",
+        "prometheus-3.13.4.linux-arm64.tar.gz",
+        "prometheus-3.13.4.linux-armv5.tar.gz",
+        "prometheus-3.13.4.linux-armv6.tar.gz",
+        "prometheus-3.13.4.linux-armv7.tar.gz",
+        "prometheus-3.13.4.linux-mips.tar.gz",
+        "prometheus-3.13.4.linux-mips64.tar.gz",
+        "prometheus-3.13.4.linux-mips64le.tar.gz",
+        "prometheus-3.13.4.linux-mipsle.tar.gz",
+        "prometheus-3.13.4.linux-ppc64.tar.gz",
+        "prometheus-3.13.4.linux-ppc64le.tar.gz",
+        "prometheus-3.13.4.linux-riscv64.tar.gz",
+        "prometheus-3.13.4.linux-s390x.tar.gz",
+        "prometheus-3.13.4.netbsd-386.tar.gz",
+        "prometheus-3.13.4.netbsd-amd64.tar.gz",
+        "prometheus-3.13.4.netbsd-arm64.tar.gz",
+        "prometheus-3.13.4.netbsd-armv6.tar.gz",
+        "prometheus-3.13.4.netbsd-armv7.tar.gz",
+        "prometheus-3.13.4.windows-386.tar.gz",
+        "prometheus-3.13.4.windows-386.zip",
+        "prometheus-3.13.4.windows-amd64.tar.gz",
+        "prometheus-3.13.4.windows-amd64.zip",
+        "prometheus-3.13.4.windows-arm64.tar.gz",
+        "prometheus-3.13.4.windows-arm64.zip",
+        "prometheus-web-ui-3.13.4.tar.gz",
+        "sha256sums.txt"
+      ],
+      "workflow_runs": [
+        {
+          "id": 36574430193,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/36574430193",
+          "head_sha": "007a9e9ba628f815ce83e1ba9f29b97981996c3c"
+        },
+        {
+          "id": 36574402692,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/36574402692",
+          "head_sha": "007a9e9ba628f815ce83e1ba9f29b97981996c3c"
+        },
+        {
+          "id": 36574279566,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/36574279566",
+          "head_sha": "007a9e9ba628f815ce83e1ba9f29b97981996c3c"
+        }
+      ]
+    },
+    {
+      "tag": "v3.15.0",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.15.0",
+      "published_at": "2026-09-25T08:56:22Z",
+      "target_commitish": "5241a27fe3c6983549fccc32f6e65917408c63cd",
+      "commit_sha": "5241a27fe3c6983549fccc32f6e65917408c63cd",
+      "assets": [
+        "prometheus-3.15.0.aix-ppc64.tar.gz",
+        "prometheus-3.15.0.darwin-amd64.tar.gz",
+        "prometheus-3.15.0.darwin-arm64.tar.gz",
+        "prometheus-3.15.0.dragonfly-amd64.tar.gz",
+        "prometheus-3.15.0.freebsd-386.tar.gz",
+        "prometheus-3.15.0.freebsd-amd64.tar.gz",
+        "prometheus-3.15.0.freebsd-arm64.tar.gz",
+        "prometheus-3.15.0.freebsd-armv6.tar.gz",
+        "prometheus-3.15.0.freebsd-armv7.tar.gz",
+        "prometheus-3.15.0.illumos-amd64.tar.gz",
+        "prometheus-3.15.0.linux-386.tar.gz",
+        "prometheus-3.15.0.linux-amd64.tar.gz",
+        "prometheus-3.15.0.linux-arm64.tar.gz",
+        "prometheus-3.15.0.linux-armv5.tar.gz",
+        "prometheus-3.15.0.linux-armv6.tar.gz",
+        "prometheus-3.15.0.linux-armv7.tar.gz",
+        "prometheus-3.15.0.linux-mips.tar.gz",
+        "prometheus-3.15.0.linux-mips64.tar.gz",
+        "prometheus-3.15.0.linux-mips64le.tar.gz",
+        "prometheus-3.15.0.linux-mipsle.tar.gz",
+        "prometheus-3.15.0.linux-ppc64.tar.gz",
+        "prometheus-3.15.0.linux-ppc64le.tar.gz",
+        "prometheus-3.15.0.linux-riscv64.tar.gz",
+        "prometheus-3.15.0.linux-s390x.tar.gz",
+        "prometheus-3.15.0.netbsd-386.tar.gz",
+        "prometheus-3.15.0.netbsd-amd64.tar.gz",
+        "prometheus-3.15.0.netbsd-arm64.tar.gz",
+        "prometheus-3.15.0.netbsd-armv6.tar.gz",
+        "prometheus-3.15.0.netbsd-armv7.tar.gz",
+        "prometheus-3.15.0.windows-386.tar.gz",
+        "prometheus-3.15.0.windows-386.zip",
+        "prometheus-3.15.0.windows-amd64.tar.gz",
+        "prometheus-3.15.0.windows-amd64.zip",
+        "prometheus-3.15.0.windows-arm64.tar.gz",
+        "prometheus-3.15.0.windows-arm64.zip",
+        "prometheus-web-ui-3.15.0.tar.gz",
+        "sha256sums.txt"
+      ],
+      "workflow_runs": [
+        {
+          "id": 36110866318,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/36110866318",
+          "head_sha": "5241a27fe3c6983549fccc32f6e65917408c63cd"
+        },
+        {
+          "id": 36107676657,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/36107676657",
+          "head_sha": "5241a27fe3c6983549fccc32f6e65917408c63cd"
+        },
+        {
+          "id": 36107576777,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/36107576777",
+          "head_sha": "5241a27fe3c6983549fccc32f6e65917408c63cd"
+        }
+      ]
+    },
+    {
+      "tag": "v3.13.3",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.13.3",
+      "published_at": "2026-09-07T14:18:03Z",
+      "target_commitish": "b273ae3adeb64ad630d65ef7f16440df95658410",
+      "commit_sha": "b273ae3adeb64ad630d65ef7f16440df95658410",
+      "assets": [
+        "prometheus-3.13.3.aix-ppc64.tar.gz",
+        "prometheus-3.13.3.darwin-amd64.tar.gz",
+        "prometheus-3.13.3.darwin-arm64.tar.gz",
+        "prometheus-3.13.3.dragonfly-amd64.tar.gz",
+        "prometheus-3.13.3.freebsd-386.tar.gz",
+        "prometheus-3.13.3.freebsd-amd64.tar.gz",
+        "prometheus-3.13.3.freebsd-arm64.tar.gz",
+        "prometheus-3.13.3.freebsd-armv6.tar.gz",
+        "prometheus-3.13.3.freebsd-armv7.tar.gz",
+        "prometheus-3.13.3.illumos-amd64.tar.gz",
+        "prometheus-3.13.3.linux-386.tar.gz",
+        "prometheus-3.13.3.linux-amd64.tar.gz",
+        "prometheus-3.13.3.linux-arm64.tar.gz",
+        "prometheus-3.13.3.linux-armv5.tar.gz",
+        "prometheus-3.13.3.linux-armv6.tar.gz",
+        "prometheus-3.13.3.linux-armv7.tar.gz",
+        "prometheus-3.13.3.linux-mips.tar.gz",
+        "prometheus-3.13.3.linux-mips64.tar.gz",
+        "prometheus-3.13.3.linux-mips64le.tar.gz",
+        "prometheus-3.13.3.linux-mipsle.tar.gz",
+        "prometheus-3.13.3.linux-ppc64.tar.gz",
+        "prometheus-3.13.3.linux-ppc64le.tar.gz",
+        "prometheus-3.13.3.linux-riscv64.tar.gz",
+        "prometheus-3.13.3.linux-s390x.tar.gz",
+        "prometheus-3.13.3.netbsd-386.tar.gz",
+        "prometheus-3.13.3.netbsd-amd64.tar.gz",
+        "prometheus-3.13.3.netbsd-arm64.tar.gz",
+        "prometheus-3.13.3.netbsd-armv6.tar.gz",
+        "prometheus-3.13.3.netbsd-armv7.tar.gz",
+        "prometheus-3.13.3.windows-386.tar.gz",
+        "prometheus-3.13.3.windows-386.zip",
+        "prometheus-3.13.3.windows-amd64.tar.gz",
+        "prometheus-3.13.3.windows-amd64.zip",
+        "prometheus-3.13.3.windows-arm64.tar.gz",
+        "prometheus-3.13.3.windows-arm64.zip",
+        "prometheus-web-ui-3.13.3.tar.gz",
+        "sha256sums.txt"
+      ],
+      "workflow_runs": [
+        {
+          "id": 34114095005,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/34114095005",
+          "head_sha": "b273ae3adeb64ad630d65ef7f16440df95658410"
+        },
+        {
+          "id": 34114076764,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/34114076764",
+          "head_sha": "b273ae3adeb64ad630d65ef7f16440df95658410"
+        },
+        {
+          "id": 34111400181,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/prometheus/prometheus/actions/runs/34111400181",
+          "head_sha": "b273ae3adeb64ad630d65ef7f16440df95658410"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v3.15.0",
+      "sha": "5241a27fe3c6983549fccc32f6e65917408c63cd"
+    },
+    {
+      "name": "v3.15.0-rc.1",
+      "sha": "a5268444426db30dcc677ba87b308492152a1136"
+    },
+    {
+      "name": "v3.15.0-rc.0",
+      "sha": "856521ec3aa15068a8654acd17b9dbbe88e80789"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:15.973937+00:00",
+  "source_times": {
+    "/repos/prometheus/prometheus": "2026-10-17T16:13:53.266137+00:00",
+    "/repos/prometheus/prometheus/commits?sha=main&per_page=20": "2026-10-17T16:13:57.918576+00:00",
+    "/repos/prometheus/prometheus/git/trees/c052a79dc7fd0f2df2219ffe336f510b0d149b72": "2026-10-17T16:14:01.236965+00:00",
+    "/repos/prometheus/prometheus/git/trees/4a9371f4086f894c42478253520f61b351fafd37": "2026-10-17T16:14:02.711656+00:00",
+    "/repos/prometheus/prometheus/git/trees/87188faf231719109c681eb1acc0c135b28ab961": "2026-10-17T16:14:05.101625+00:00",
+    "/repos/prometheus/prometheus/git/trees/d642d07c2602bcb6987ffee7bd58fa8bb31c890d": "2026-10-17T16:14:06.604687+00:00",
+    "/repos/prometheus/prometheus/git/trees/ff57ff50d95d38753c7daa76220fe2154f852b0e": "2026-10-17T16:14:09.023164+00:00",
+    "/repos/prometheus/prometheus/git/trees/29782dbf0f98c43b7516e1e074a2e0de77c672f9": "2026-10-17T16:17:12.334431+00:00",
+    "/repos/prometheus/prometheus/git/blobs/71f743633bf1cddd9b23d1a0633a143c8d482afe": "2026-10-17T16:14:10.438443+00:00",
+    "/repos/prometheus/prometheus/git/blobs/e22524383047991b4b83d808e3773ef6689247aa": "2026-10-17T16:14:12.702125+00:00",
+    "/repos/prometheus/prometheus/git/blobs/43c994c2d3617f947bcb5adf1933e21dabe46bb5": "2026-10-17T16:14:14.335913+00:00",
+    "/repos/prometheus/prometheus/git/blobs/d2415a01d5f9280b60fb7e3075ae7ddff8647cd8": "2026-10-17T16:14:15.695884+00:00",
+    "/repos/prometheus/prometheus/git/blobs/d325872bdfad8d09e1d8c638f914f655f738c77f": "2026-10-17T16:14:17.064828+00:00",
+    "/repos/prometheus/prometheus/git/blobs/092e49670152cebff3fdaf400f10cf6c66cbb8a8": "2026-10-17T16:14:19.546513+00:00",
+    "/repos/prometheus/prometheus/git/blobs/dc531f73348b1bd3bc4ed42e7bdfdcd9b74c3228": "2026-10-17T16:14:21.252794+00:00",
+    "/repos/prometheus/prometheus/git/blobs/fb92ce87bc12328d9644a0aa7be86e8218af9618": "2026-10-17T16:14:22.898914+00:00",
+    "/repos/prometheus/prometheus/git/blobs/efc2730c16d52f038310ae9898e2562210bebec2": "2026-10-17T16:14:24.516191+00:00",
+    "/repos/prometheus/prometheus/git/blobs/0465897e5cc16963a84fa6ba56b64b5dfa764009": "2026-10-17T16:14:25.964885+00:00",
+    "/repos/prometheus/prometheus/git/blobs/9d8e5facc9de6248e2f9da12b53a8bbbc26abd3e": "2026-10-17T16:14:28.577714+00:00",
+    "/repos/prometheus/prometheus/git/blobs/009b3562148a0eaa6458c03778cb288d62c84a0a": "2026-10-17T16:14:29.970916+00:00",
+    "/repos/prometheus/prometheus/git/blobs/5e6f976dbff3ac7dd867f0a5d225f04fe3db3f4c": "2026-10-17T16:14:31.354999+00:00",
+    "/repos/prometheus/prometheus/git/blobs/10eca03ba3d2ef38a811a6b7fa0679181e5b1974": "2026-10-17T16:14:33.944527+00:00",
+    "/repos/prometheus/prometheus/git/blobs/90773a63ef00568137f36963c4cd5b9856213a9a": "2026-10-17T16:14:35.529295+00:00",
+    "/repos/prometheus/prometheus/git/blobs/bb4e2d24c9983db0f322200f2a7018dc6bf8bb62": "2026-10-17T16:14:36.926093+00:00",
+    "/repos/prometheus/prometheus/git/blobs/40f6f1388c8c31f3bb82ef549a82654278eb6a8b": "2026-10-17T16:14:38.347705+00:00",
+    "/repos/prometheus/prometheus/git/blobs/58641d17d8ac8b2b8c8c63243e850775d485d6b1": "2026-10-17T16:14:39.690422+00:00",
+    "/repos/prometheus/prometheus/git/blobs/c6f6fbbad6175a7c1375666ee4ae5bb6b39d2848": "2026-10-17T16:14:41.051610+00:00",
+    "/repos/prometheus/prometheus/git/blobs/fde5ac4cd1cd1be64354459fed389cc33c87f2e0": "2026-10-17T16:14:42.880409+00:00",
+    "/repos/prometheus/prometheus/git/blobs/b5381eb43dba90beb65b236f066656e3c67e5f1d": "2026-10-17T16:14:44.440959+00:00",
+    "/repos/prometheus/prometheus/git/blobs/697118dfc1cd6511a6a73a61af909a1492434aba": "2026-10-17T16:14:46.059382+00:00",
+    "/repos/prometheus/prometheus/git/blobs/0c89c9e09b56723482b239a86a8932cd8d63aa5c": "2026-10-17T16:14:47.396448+00:00",
+    "/repos/prometheus/prometheus/git/blobs/292f5254d9314462504c6507b9adbf3997a5e576": "2026-10-17T16:14:48.852851+00:00",
+    "/repos/prometheus/prometheus/git/blobs/4de215c5bb594c0a3bc585d0a93a7d970295623c": "2026-10-17T16:14:51.237592+00:00",
+    "/repos/prometheus/prometheus/git/blobs/ed4ada556dfe36468c91a8609eaad191c7f77a7c": "2026-10-17T16:14:52.570213+00:00",
+    "/repos/prometheus/prometheus/git/blobs/0a555f58e698d1bf7b118701952cde22b6d0bf24": "2026-10-17T16:14:53.983145+00:00",
+    "/repos/prometheus/prometheus/git/blobs/8c4deff9f808b0687ff9e1a47b04ff70e91e0be2": "2026-10-17T16:14:55.490754+00:00",
+    "/repos/prometheus/prometheus/git/blobs/de63095305633e8d12ae2f654992517c312cda7d": "2026-10-17T16:14:56.843587+00:00",
+    "/repos/prometheus/prometheus/git/blobs/34bea41d5460328cd81cf45570bb90debfc2f5af": "2026-10-17T16:14:58.208022+00:00",
+    "/repos/prometheus/prometheus/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:15:05.650360+00:00",
+    "/repos/prometheus/prometheus/pulls/20043/files?per_page=100": "2026-10-17T16:15:07.213304+00:00",
+    "/repos/prometheus/prometheus/pulls/20043/reviews?per_page=100": "2026-10-17T16:15:09.731725+00:00",
+    "/repos/prometheus/prometheus/actions/runs?head_sha=c052a79dc7fd0f2df2219ffe336f510b0d149b72&per_page=10": "2026-10-17T16:15:11.991639+00:00",
+    "/repos/prometheus/prometheus/actions/runs?head_sha=1e2cacfa83453825ef9a572599f7a7aa5247dd68&per_page=10": "2026-10-17T16:15:13.769967+00:00",
+    "/repos/prometheus/prometheus/pulls/19949/files?per_page=100": "2026-10-17T16:15:15.301662+00:00",
+    "/repos/prometheus/prometheus/pulls/19949/reviews?per_page=100": "2026-10-17T16:15:16.774994+00:00",
+    "/repos/prometheus/prometheus/actions/runs?head_sha=93f088d90a29ef51e268d35569c5506cfa270dd6&per_page=10": "2026-10-17T16:15:19.117790+00:00",
+    "/repos/prometheus/prometheus/actions/runs?head_sha=eb60efcf7349a95ffecdeb9d17cf62fff726d430&per_page=10": "2026-10-17T16:15:21.061330+00:00",
+    "/repos/prometheus/prometheus/pulls/19954/files?per_page=100": "2026-10-17T16:15:22.586572+00:00",
+    "/repos/prometheus/prometheus/pulls/19954/reviews?per_page=100": "2026-10-17T16:15:24.121214+00:00",
+    "/repos/prometheus/prometheus/actions/runs?head_sha=930ee31a6ea0cddaf1875cda185e46438ecfa906&per_page=10": "2026-10-17T16:15:25.982949+00:00",
+    "/repos/prometheus/prometheus/actions/runs?head_sha=702a9c40073c33f5d119b3c7d9b26771360a7ac6&per_page=10": "2026-10-17T16:15:27.877002+00:00",
+    "/repos/prometheus/prometheus/releases?per_page=20&page=1": "2026-10-17T16:17:15.971136+00:00",
+    "/repos/prometheus/prometheus/commits/v3.13.4": "2026-10-17T16:15:40.697361+00:00",
+    "/repos/prometheus/prometheus/actions/runs?head_sha=007a9e9ba628f815ce83e1ba9f29b97981996c3c&per_page=10": "2026-10-17T16:15:42.633039+00:00",
+    "/repos/prometheus/prometheus/commits/v3.15.0": "2026-10-17T16:15:44.226218+00:00",
+    "/repos/prometheus/prometheus/actions/runs?head_sha=5241a27fe3c6983549fccc32f6e65917408c63cd&per_page=10": "2026-10-17T16:15:46.959502+00:00",
+    "/repos/prometheus/prometheus/commits/v3.13.3": "2026-10-17T16:15:49.783876+00:00",
+    "/repos/prometheus/prometheus/actions/runs?head_sha=b273ae3adeb64ad630d65ef7f16440df95658410&per_page=10": "2026-10-17T16:15:51.876843+00:00",
+    "/repos/prometheus/prometheus/tags?per_page=3": "2026-10-17T16:15:53.254208+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:15.971136+00:00",
+  "status": "collected"
+}

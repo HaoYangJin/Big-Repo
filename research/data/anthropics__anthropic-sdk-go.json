@@ -1,0 +1,2783 @@
+{
+  "requested_repository": "anthropics/anthropic-sdk-go",
+  "category": "sdk",
+  "collected_at": "2026-10-17T16:05:10.247375+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "anthropics/anthropic-sdk-go",
+  "metadata": {
+    "html_url": "https://github.com/anthropics/anthropic-sdk-go",
+    "description": "Access to Anthropic's safety-first language model APIs via Go",
+    "homepage": null,
+    "language": "Go",
+    "stargazers_count": 1223,
+    "forks_count": 216,
+    "open_issues_count": 48,
+    "pushed_at": "2026-10-15T19:42:44Z",
+    "created_at": "2024-07-30T01:13:26Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [],
+    "owner": {
+      "login": "anthropics",
+      "type": "Organization",
+      "html_url": "https://github.com/anthropics"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "543d266ce81a4487281e084b013fef807dbb5f18",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/543d266ce81a4487281e084b013fef807dbb5f18",
+      "date": "2026-10-15T19:41:18Z",
+      "subject": "release: 1.82.0"
+    },
+    {
+      "sha": "7553b5fa02cb3df865bab9e0db2f4286f940a65f",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/7553b5fa02cb3df865bab9e0db2f4286f940a65f",
+      "date": "2026-10-15T19:33:56Z",
+      "subject": "Merge pull request #473 from anthropics/synced/published"
+    },
+    {
+      "sha": "b748883c1c933a4cef0e021e3ac3f0d9c38133b4",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/b748883c1c933a4cef0e021e3ac3f0d9c38133b4",
+      "date": "2026-10-15T18:45:12Z",
+      "subject": "feat(helpers): retry a rate-limited fast fallback at standard speed (#479)"
+    },
+    {
+      "sha": "c98d162fc236f4345660c500ea11f0cb4be90560",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/c98d162fc236f4345660c500ea11f0cb4be90560",
+      "date": "2026-10-15T17:30:32Z",
+      "subject": "chore(tests): add tests for custom HTTP clients and trace propagation"
+    },
+    {
+      "sha": "4e8df93fb5b391dc6a2c97d4fe622b7e5b5edc3e",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/4e8df93fb5b391dc6a2c97d4fe622b7e5b5edc3e",
+      "date": "2026-10-15T16:06:03Z",
+      "subject": "feat(api): add between_tools to thinking types in model capabilities"
+    },
+    {
+      "sha": "9edba4470774f44dbdb5a592f3f1527fec9db014",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/9edba4470774f44dbdb5a592f3f1527fec9db014",
+      "date": "2026-10-15T15:39:52Z",
+      "subject": "chore(docs): describe headers on Managed Agents and telemetry endpoints"
+    },
+    {
+      "sha": "2397ac4a34b0144a62c11afe27437b751c2e644d",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/2397ac4a34b0144a62c11afe27437b751c2e644d",
+      "date": "2026-10-15T15:21:39Z",
+      "subject": "docs(api): note that some models need a beta header to use speed"
+    },
+    {
+      "sha": "9b51bcb6c94eeffe3ed791bf0cc2f0d47d654936",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/9b51bcb6c94eeffe3ed791bf0cc2f0d47d654936",
+      "date": "2026-10-15T09:42:38Z",
+      "subject": "docs(changelog): shorten the OpenTelemetry tracing note (#478)"
+    },
+    {
+      "sha": "907de5fd3e3b499c63a208ebf8f4c874736cda54",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/907de5fd3e3b499c63a208ebf8f4c874736cda54",
+      "date": "2026-10-14T23:18:07Z",
+      "subject": "feat(api): add the speed parameter and usage.speed to Messages"
+    },
+    {
+      "sha": "b7fd9bcc899ef38042b1b05e17c860ad25a307e7",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/b7fd9bcc899ef38042b1b05e17c860ad25a307e7",
+      "date": "2026-10-14T22:13:16Z",
+      "subject": "codegen metadata"
+    },
+    {
+      "sha": "41017932e8af6ca34b651267365817180fac1c63",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/41017932e8af6ca34b651267365817180fac1c63",
+      "date": "2026-10-14T21:34:12Z",
+      "subject": "chore(ci): speed up breaking change detection"
+    },
+    {
+      "sha": "080f3675677429b9bbf838ba12ec6df8861413d0",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/080f3675677429b9bbf838ba12ec6df8861413d0",
+      "date": "2026-10-14T18:06:58Z",
+      "subject": "feat(api): return a Console organization's usage-tier spend cap as a read-only spend limit"
+    },
+    {
+      "sha": "e7cd276403a6930e3aaea569bf58be24101ff92e",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/e7cd276403a6930e3aaea569bf58be24101ff92e",
+      "date": "2026-10-14T17:09:57Z",
+      "subject": "Merge branch 'main'"
+    },
+    {
+      "sha": "8c86847d7e72e0da28ff0d2ad401865397bd0e6f",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/8c86847d7e72e0da28ff0d2ad401865397bd0e6f",
+      "date": "2026-10-14T17:03:47Z",
+      "subject": "release: 1.81.0"
+    },
+    {
+      "sha": "73d49bd9a1b9974d5647b6b3bcaf805d4567f1b1",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/73d49bd9a1b9974d5647b6b3bcaf805d4567f1b1",
+      "date": "2026-10-14T16:56:37Z",
+      "subject": "Merge pull request #462 from anthropics/synced/published"
+    },
+    {
+      "sha": "7f3c66c7d1ebf30f04acca62cec8ffa74e5ac5b2",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/7f3c66c7d1ebf30f04acca62cec8ffa74e5ac5b2",
+      "date": "2026-10-14T13:29:44Z",
+      "subject": "fix(api): rename telemetry destination test response model"
+    },
+    {
+      "sha": "337e2588001f4dd334b6c60cc4d79c2d6d1fb5c0",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/337e2588001f4dd334b6c60cc4d79c2d6d1fb5c0",
+      "date": "2026-10-14T05:31:38Z",
+      "subject": "feat(api): add telemetry destination test endpoint"
+    },
+    {
+      "sha": "fe97ebd922867970eeee6fec341fabeb2e94f985",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/fe97ebd922867970eeee6fec341fabeb2e94f985",
+      "date": "2026-10-14T02:51:35Z",
+      "subject": "feat(api): add telemetry destinations to the Admin API"
+    },
+    {
+      "sha": "fe1fdc6a525ab435b09ab10b9ecdef2e9ef6ad27",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/fe1fdc6a525ab435b09ab10b9ecdef2e9ef6ad27",
+      "date": "2026-10-14T01:45:55Z",
+      "subject": "feat(client): OpenTelemetry tracing for API calls and the tool runners (#360)"
+    },
+    {
+      "sha": "72bfa351cb444d3c092eb8906b50b82b9182cf39",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/commit/72bfa351cb444d3c092eb8906b50b82b9182cf39",
+      "date": "2026-10-14T01:26:46Z",
+      "subject": "feat(client): add OpenTelemetry spans for API calls"
+    }
+  ],
+  "default_sha": "543d266ce81a4487281e084b013fef807dbb5f18",
+  "root_and_selected_directory_paths": [
+    ".devcontainer",
+    ".github",
+    ".github/CODEOWNERS",
+    ".github/workflows",
+    ".github/workflows/changelog.yml",
+    ".github/workflows/ci.yml",
+    ".gitignore",
+    ".release-please-manifest.json",
+    ".stats.yml",
+    "Brewfile",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "README.md",
+    "REVIEW.md",
+    "SECURITY.md",
+    "aliases.go",
+    "api.md",
+    "aws",
+    "bedrock",
+    "beta.go",
+    "betaagent.go",
+    "betaagent_test.go",
+    "betaagentversion.go",
+    "betaagentversion_test.go",
+    "betadeployment.go",
+    "betadeployment_test.go",
+    "betadeploymentrun.go",
+    "betadeploymentrun_test.go",
+    "betadream.go",
+    "betadream_test.go",
+    "betaenvironment.go",
+    "betaenvironment_test.go",
+    "betaenvironmentwork.go",
+    "betaenvironmentwork_test.go",
+    "betafile.go",
+    "betafile_test.go",
+    "betamemorystore.go",
+    "betamemorystore_test.go",
+    "betamemorystorememory.go",
+    "betamemorystorememory_test.go",
+    "betamemorystorememoryversion.go",
+    "betamemorystorememoryversion_test.go",
+    "betamessage.go",
+    "betamessage_test.go",
+    "betamessagebatch.go",
+    "betamessagebatch_test.go",
+    "betamessageutil.go",
+    "betamessageutil_test.go",
+    "betamodel.go",
+    "betamodel_test.go",
+    "betaorganization.go",
+    "betaorganization_test.go",
+    "betaorganizationanalytics.go",
+    "betaorganizationanalytics_actor_union_test.go",
+    "betaorganizationanalyticsapp.go",
+    "betaorganizationanalyticsappchat.go",
+    "betaorganizationanalyticsappchatproject.go",
+    "betaorganizationanalyticsappchatproject_test.go",
+    "betaorganizationanalyticsartifact.go",
+    "betaorganizationanalyticsartifact_test.go",
+    "betaorganizationanalyticsconnector.go",
+    "betaorganizationanalyticsconnector_test.go",
+    "betaorganizationanalyticscostreport.go",
+    "betaorganizationanalyticscostreport_test.go",
+    "betaorganizationanalyticsplugin.go",
+    "betaorganizationanalyticsplugin_test.go",
+    "betaorganizationanalyticsskill.go",
+    "betaorganizationanalyticsskill_test.go",
+    "betaorganizationanalyticssummary.go",
+    "betaorganizationanalyticssummary_test.go",
+    "betaorganizationanalyticsusagereport.go",
+    "betaorganizationanalyticsusagereport_test.go",
+    "betaorganizationanalyticsuser.go",
+    "betaorganizationanalyticsuser_test.go",
+    "betaorganizationanalyticsusercostreport.go",
+    "betaorganizationanalyticsusercostreport_test.go",
+    "betaorganizationanalyticsuserusagereport.go",
+    "betaorganizationanalyticsuserusagereport_test.go",
+    "betaorganizationapikey.go",
+    "betaorganizationapikey_test.go",
+    "betaorganizationcompliancesetting.go",
+    "betaorganizationcompliancesetting_test.go",
+    "betaorganizationexternalkey.go",
+    "betaorganizationexternalkey_test.go",
+    "betaorganizationfederation.go",
+    "betaorganizationfederationissuer.go",
+    "betaorganizationfederationissuer_test.go",
+    "betaorganizationfederationrule.go",
+    "betaorganizationfederationrule_test.go",
+    "betaorganizationfederationruleworkspace.go",
+    "betaorganizationfederationruleworkspace_test.go",
+    "betaorganizationinvite.go",
+    "betaorganizationinvite_test.go",
+    "betaorganizationplugin.go",
+    "betaorganizationplugin_test.go",
+    "betaorganizationplugininstallationsetting.go",
+    "betaorganizationplugininstallationsetting_test.go",
+    "betaorganizationpluginmarketplace.go",
+    "betaorganizationpluginmarketplace_test.go",
+    "betaorganizationpluginshare.go",
+    "betaorganizationpluginshare_test.go",
+    "betaorganizationpluginversion.go",
+    "betaorganizationpluginversion_test.go",
+    "betaorganizationratelimit.go",
+    "betaorganizationratelimit_test.go",
+    "betaorganizationrbacgroup.go",
+    "betaorganizationrbacgroup_test.go",
+    "betaorganizationrbacgroupmember.go",
+    "betaorganizationrbacgroupmember_test.go",
+    "betaorganizationrbacrole.go",
+    "betaorganizationrbacrole_test.go",
+    "betaorganizationrbacrolepermission.go",
+    "betaorganizationrbacrolepermission_test.go",
+    "betaorganizationserviceaccount.go",
+    "betaorganizationserviceaccount_test.go",
+    "betaorganizationserviceaccountworkspace.go",
+    "betaorganizationserviceaccountworkspace_test.go",
+    "betaorganizationspendlimit.go",
+    "betaorganizationspendlimit_test.go",
+    "betaorganizationspendlimiteffective.go",
+    "betaorganizationspendlimiteffective_test.go",
+    "betaorganizationspendlimitincreaserequest.go",
+    "betaorganizationspendlimitincreaserequest_test.go",
+    "betaorganizationtelemetrydestination.go",
+    "betaorganizationtelemetrydestination_test.go",
+    "betaorganizationtelemetrydestinationworkspace.go",
+    "betaorganizationtelemetrydestinationworkspace_test.go",
+    "betaorganizationuser.go",
+    "betaorganizationuser_test.go",
+    "betaorganizationworkspace.go",
+    "betaorganizationworkspace_test.go",
+    "betaorganizationworkspacemember.go",
+    "betaorganizationworkspacemember_test.go",
+    "betaorganizationworkspaceratelimit.go",
+    "betaorganizationworkspaceratelimit_test.go",
+    "betaorganizationworkspaceserviceaccount.go",
+    "betaorganizationworkspaceserviceaccount_test.go",
+    "betaparse.go",
+    "betaparse_test.go",
+    "betasession.go",
+    "betasession_test.go",
+    "betasessionevent.go",
+    "betasessionevent_test.go",
+    "betasessionresource.go",
+    "betasessionresource_test.go",
+    "betasessiontelemetry.go",
+    "betasessionthread.go",
+    "betasessionthread_test.go",
+    "betasessionthreadevent.go",
+    "betasessionthreadevent_test.go",
+    "betasessiontoolrunner.go",
+    "betasessiontoolrunner_test.go",
+    "betasessionutil.go",
+    "betasessionutil_test.go",
+    "betaskill.go",
+    "betaskill_test.go",
+    "betaskillversion.go",
+    "betaskillversion_test.go",
+    "betatoolrunner.go",
+    "betatoolrunner_test.go",
+    "betatunnel.go",
+    "betatunnel_test.go",
+    "betatunnelcertificate.go",
+    "betatunnelcertificate_test.go",
+    "betauserprofile.go",
+    "betauserprofile_test.go",
+    "betavault.go",
+    "betavault_test.go",
+    "betavaultcredential.go",
+    "betavaultcredential_test.go",
+    "betawebhook.go",
+    "betawebhook_test.go",
+    "client.go",
+    "client_test.go",
+    "completion.go",
+    "completion_test.go",
+    "config",
+    "error_type_test.go",
+    "examples",
+    "field.go",
+    "file.go",
+    "file_test.go",
+    "foundry",
+    "go.mod",
+    "go.sum",
+    "googlecloud",
+    "internal",
+    "lib",
+    "mcp",
+    "message.go",
+    "message_test.go",
+    "messagebatch.go",
+    "messagebatch_test.go",
+    "messagetelemetry.go",
+    "messageutil.go",
+    "messageutil_test.go",
+    "model.go",
+    "model_test.go",
+    "opentelemetry_content_test.go",
+    "opentelemetry_http_test.go",
+    "opentelemetry_propagation_test.go",
+    "opentelemetry_providers_test.go",
+    "opentelemetry_resource_ids_map_test.go",
+    "opentelemetry_resource_ids_test.go",
+    "opentelemetry_stream_test.go",
+    "opentelemetry_test.go",
+    "opentelemetry_toolrunner_test.go",
+    "option",
+    "organization.go",
+    "organization_test.go",
+    "organizationapikey.go",
+    "organizationapikey_test.go",
+    "organizationcompliancesetting.go",
+    "organizationcompliancesetting_test.go",
+    "organizationexternalkey.go",
+    "organizationexternalkey_test.go",
+    "organizationfederation.go",
+    "organizationfederationissuer.go",
+    "organizationfederationissuer_test.go",
+    "organizationfederationrule.go",
+    "organizationfederationrule_test.go",
+    "organizationfederationruleworkspace.go",
+    "organizationfederationruleworkspace_test.go",
+    "organizationinvite.go",
+    "organizationinvite_test.go",
+    "organizationratelimit.go",
+    "organizationratelimit_test.go",
+    "organizationserviceaccount.go",
+    "organizationserviceaccount_test.go",
+    "organizationserviceaccountworkspace.go",
+    "organizationserviceaccountworkspace_test.go",
+    "organizationuser.go",
+    "organizationuser_test.go",
+    "organizationworkspace.go",
+    "organizationworkspace_test.go",
+    "organizationworkspacemember.go",
+    "organizationworkspacemember_test.go",
+    "organizationworkspaceratelimit.go",
+    "organizationworkspaceratelimit_test.go",
+    "organizationworkspaceserviceaccount.go",
+    "organizationworkspaceserviceaccount_test.go",
+    "packages",
+    "paginationauto_test.go",
+    "paginationmanual_test.go",
+    "paramunmarshal_test.go",
+    "schemautil.go",
+    "schemautil_test.go",
+    "scripts",
+    "shared",
+    "skill.go",
+    "skill_test.go",
+    "skillversion.go",
+    "skillversion_test.go",
+    "thinking_warn.go",
+    "toolrunner",
+    "tools",
+    "tools.md",
+    "unmarshalcompat.go",
+    "usage_test.go",
+    "vertex"
+  ],
+  "workflow_paths": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/changelog.yml"
+  ],
+  "documents": [
+    {
+      "path": ".release-please-manifest.json",
+      "sha": "232c22b3da8af87e3d17a451c41f728a46f100a5",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/blob/543d266ce81a4487281e084b013fef807dbb5f18/.release-please-manifest.json",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "317e8408cb9734ec550c01c1976d05e36786371b",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/blob/543d266ce81a4487281e084b013fef807dbb5f18/CHANGELOG.md",
+      "lines": 1742,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          314,
+          400,
+          584,
+          686,
+          858,
+          859,
+          860,
+          1090,
+          1091,
+          1092,
+          1093,
+          1094
+        ],
+        "release_automation": [
+          837
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          114
+        ]
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "604abdd739177520be51e46f0b048d775af2b1a5",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/blob/543d266ce81a4487281e084b013fef807dbb5f18/CONTRIBUTING.md",
+      "lines": 69,
+      "signals": {
+        "tests": [],
+        "lint": [
+          65
+        ],
+        "generated_code": [
+          20
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "c1ec50c695f053253b7dba8e835dd9e7d743a7a2",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/blob/543d266ce81a4487281e084b013fef807dbb5f18/README.md",
+      "lines": 96,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          3,
+          7,
+          17,
+          25,
+          29,
+          35
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [
+          5
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "95b204aa321dcfadcde28fb2b77048b2e123315a",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/blob/543d266ce81a4487281e084b013fef807dbb5f18/SECURITY.md",
+      "lines": 15,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          9
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "go.mod",
+      "sha": "fe1dfd8dcebab13d9fd449e47e33db36994f6c12",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/blob/543d266ce81a4487281e084b013fef807dbb5f18/go.mod",
+      "lines": 77,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha": "1227adaa47421898f8038667ade1c0563002ac49",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/blob/543d266ce81a4487281e084b013fef807dbb5f18/.github/CODEOWNERS",
+      "lines": 4,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "5beeac391292d74ed6313373fa573dbaafa6016d",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/blob/543d266ce81a4487281e084b013fef807dbb5f18/.github/workflows/ci.yml",
+      "lines": 152,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          10,
+          11,
+          49
+        ],
+        "release_automation": [
+          94
+        ],
+        "permissions": [
+          25,
+          27
+        ],
+        "pinned_actions": [
+          33,
+          40,
+          60,
+          63,
+          75,
+          78,
+          102,
+          108
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          97
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "sha": "451bf284ed50d6b37d9b2d035d2c54685debe1f4",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/blob/543d266ce81a4487281e084b013fef807dbb5f18/.github/workflows/changelog.yml",
+      "lines": 30,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8
+        ],
+        "pinned_actions": [
+          20
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 476,
+      "title": "release: 1.79.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/pull/476",
+      "merged_at": "2026-10-07T17:54:33Z",
+      "merge_commit_sha": "a45273ba392fc9868c6c6961f33c21387c1e4314",
+      "files": [
+        ".release-please-manifest.json",
+        "CHANGELOG.md",
+        "CONTRIBUTING.md",
+        "README.md",
+        "REVIEW.md",
+        "api.md",
+        "betaagent.go",
+        "betaagent_test.go",
+        "betaagentversion.go",
+        "betaagentversion_test.go",
+        "betadeployment.go",
+        "betadeployment_test.go",
+        "betadeploymentrun.go",
+        "betadeploymentrun_test.go",
+        "betadream.go",
+        "betaenvironment.go",
+        "betaenvironmentwork.go",
+        "betaenvironmentwork_test.go",
+        "betafile.go",
+        "betamemorystore.go",
+        "betamemorystore_test.go",
+        "betamemorystorememory.go",
+        "betamemorystorememory_test.go",
+        "betamemorystorememoryversion.go",
+        "betamemorystorememoryversion_test.go",
+        "betamessage.go",
+        "betamessagebatch.go",
+        "betamessageutil.go",
+        "betamessageutil_test.go",
+        "betamodel.go",
+        "betamodel_test.go",
+        "betaorganizationanalyticssummary.go",
+        "betaorganizationapikey.go",
+        "betaorganizationexternalkey.go",
+        "betaorganizationfederationissuer.go",
+        "betaorganizationfederationrule.go",
+        "betaorganizationfederationruleworkspace.go",
+        "betaorganizationinvite.go",
+        "betaorganizationplugin.go",
+        "betaorganizationplugininstallationsetting.go",
+        "betaorganizationpluginmarketplace.go",
+        "betaorganizationpluginshare.go",
+        "betaorganizationpluginversion.go",
+        "betaorganizationratelimit.go",
+        "betaorganizationrbacgroup.go",
+        "betaorganizationrbacgroupmember.go",
+        "betaorganizationrbacrole.go",
+        "betaorganizationrbacrolepermission.go",
+        "betaorganizationserviceaccount.go",
+        "betaorganizationserviceaccountworkspace.go",
+        "betaorganizationspendlimit.go",
+        "betaorganizationspendlimit_test.go",
+        "betaorganizationspendlimitincreaserequest.go",
+        "betaorganizationuser.go",
+        "betaorganizationworkspace.go",
+        "betaorganizationworkspace_test.go",
+        "betaorganizationworkspacemember.go",
+        "betaorganizationworkspaceratelimit.go",
+        "betaorganizationworkspaceserviceaccount.go",
+        "betaparse.go",
+        "betaparse_test.go",
+        "betasession.go",
+        "betasession_test.go",
+        "betasessionevent.go",
+        "betasessionevent_test.go",
+        "betasessionresource.go",
+        "betasessionresource_test.go",
+        "betasessionthread.go",
+        "betasessionthread_test.go",
+        "betasessionthreadevent.go",
+        "betasessionthreadevent_test.go",
+        "betaskill.go",
+        "betaskillversion.go",
+        "betatunnel.go",
+        "betatunnel_test.go",
+        "betatunnelcertificate.go",
+        "betatunnelcertificate_test.go",
+        "betauserprofile.go",
+        "betavault.go",
+        "betavault_test.go",
+        "betavaultcredential.go",
+        "betavaultcredential_test.go",
+        "client.go",
+        "completion.go",
+        "completion_test.go",
+        "config/federation.go",
+        "config/https.go",
+        "config/https_test.go",
+        "examples/structured-outputs-raw/main.go",
+        "examples/structured-outputs-streaming/main.go",
+        "examples/structured-outputs/main.go",
+        "file.go",
+        "internal/apijson/decodecustom_test.go",
+        "internal/apijson/decodeparam_test.go",
+        "internal/apijson/union.go",
+        "internal/auth/credentials_file.go",
+        "internal/auth/https.go",
+        "internal/auth/middleware.go",
+        "internal/auth/middleware_test.go",
+        "internal/auth/workload.go"
+      ],
+      "files_may_be_truncated": true,
+      "file_changes": [
+        {
+          "filename": ".release-please-manifest.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/.release-please-manifest.json"
+        },
+        {
+          "filename": "CHANGELOG.md",
+          "status": "modified",
+          "additions": 54,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/CHANGELOG.md"
+        },
+        {
+          "filename": "CONTRIBUTING.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/CONTRIBUTING.md"
+        },
+        {
+          "filename": "README.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/README.md"
+        },
+        {
+          "filename": "REVIEW.md",
+          "status": "added",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/REVIEW.md"
+        },
+        {
+          "filename": "api.md",
+          "status": "modified",
+          "additions": 242,
+          "deletions": 5,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/api.md"
+        },
+        {
+          "filename": "betaagent.go",
+          "status": "modified",
+          "additions": 773,
+          "deletions": 23,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaagent.go"
+        },
+        {
+          "filename": "betaagent_test.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaagent_test.go"
+        },
+        {
+          "filename": "betaagentversion.go",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaagentversion.go"
+        },
+        {
+          "filename": "betaagentversion_test.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaagentversion_test.go"
+        },
+        {
+          "filename": "betadeployment.go",
+          "status": "modified",
+          "additions": 79,
+          "deletions": 22,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betadeployment.go"
+        },
+        {
+          "filename": "betadeployment_test.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betadeployment_test.go"
+        },
+        {
+          "filename": "betadeploymentrun.go",
+          "status": "modified",
+          "additions": 20,
+          "deletions": 5,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betadeploymentrun.go"
+        },
+        {
+          "filename": "betadeploymentrun_test.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betadeploymentrun_test.go"
+        },
+        {
+          "filename": "betadream.go",
+          "status": "modified",
+          "additions": 49,
+          "deletions": 13,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betadream.go"
+        },
+        {
+          "filename": "betaenvironment.go",
+          "status": "modified",
+          "additions": 59,
+          "deletions": 16,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaenvironment.go"
+        },
+        {
+          "filename": "betaenvironmentwork.go",
+          "status": "modified",
+          "additions": 81,
+          "deletions": 24,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaenvironmentwork.go"
+        },
+        {
+          "filename": "betaenvironmentwork_test.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaenvironmentwork_test.go"
+        },
+        {
+          "filename": "betafile.go",
+          "status": "modified",
+          "additions": 49,
+          "deletions": 13,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betafile.go"
+        },
+        {
+          "filename": "betamemorystore.go",
+          "status": "modified",
+          "additions": 59,
+          "deletions": 16,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betamemorystore.go"
+        },
+        {
+          "filename": "betamemorystore_test.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betamemorystore_test.go"
+        },
+        {
+          "filename": "betamemorystorememory.go",
+          "status": "modified",
+          "additions": 51,
+          "deletions": 15,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betamemorystorememory.go"
+        },
+        {
+          "filename": "betamemorystorememory_test.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betamemorystorememory_test.go"
+        },
+        {
+          "filename": "betamemorystorememoryversion.go",
+          "status": "modified",
+          "additions": 31,
+          "deletions": 9,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betamemorystorememoryversion.go"
+        },
+        {
+          "filename": "betamemorystorememoryversion_test.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betamemorystorememoryversion_test.go"
+        },
+        {
+          "filename": "betamessage.go",
+          "status": "modified",
+          "additions": 3953,
+          "deletions": 254,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betamessage.go"
+        },
+        {
+          "filename": "betamessagebatch.go",
+          "status": "modified",
+          "additions": 97,
+          "deletions": 64,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betamessagebatch.go"
+        },
+        {
+          "filename": "betamessageutil.go",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betamessageutil.go"
+        },
+        {
+          "filename": "betamessageutil_test.go",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 9,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betamessageutil_test.go"
+        },
+        {
+          "filename": "betamodel.go",
+          "status": "modified",
+          "additions": 135,
+          "deletions": 9,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betamodel.go"
+        },
+        {
+          "filename": "betamodel_test.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betamodel_test.go"
+        },
+        {
+          "filename": "betaorganizationanalyticssummary.go",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 14,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationanalyticssummary.go"
+        },
+        {
+          "filename": "betaorganizationapikey.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationapikey.go"
+        },
+        {
+          "filename": "betaorganizationexternalkey.go",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationexternalkey.go"
+        },
+        {
+          "filename": "betaorganizationfederationissuer.go",
+          "status": "modified",
+          "additions": 49,
+          "deletions": 13,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationfederationissuer.go"
+        },
+        {
+          "filename": "betaorganizationfederationrule.go",
+          "status": "modified",
+          "additions": 52,
+          "deletions": 15,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationfederationrule.go"
+        },
+        {
+          "filename": "betaorganizationfederationruleworkspace.go",
+          "status": "modified",
+          "additions": 31,
+          "deletions": 9,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationfederationruleworkspace.go"
+        },
+        {
+          "filename": "betaorganizationinvite.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationinvite.go"
+        },
+        {
+          "filename": "betaorganizationplugin.go",
+          "status": "modified",
+          "additions": 49,
+          "deletions": 13,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationplugin.go"
+        },
+        {
+          "filename": "betaorganizationplugininstallationsetting.go",
+          "status": "modified",
+          "additions": 31,
+          "deletions": 9,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationplugininstallationsetting.go"
+        },
+        {
+          "filename": "betaorganizationpluginmarketplace.go",
+          "status": "modified",
+          "additions": 48,
+          "deletions": 12,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationpluginmarketplace.go"
+        },
+        {
+          "filename": "betaorganizationpluginshare.go",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationpluginshare.go"
+        },
+        {
+          "filename": "betaorganizationpluginversion.go",
+          "status": "modified",
+          "additions": 41,
+          "deletions": 12,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationpluginversion.go"
+        },
+        {
+          "filename": "betaorganizationratelimit.go",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationratelimit.go"
+        },
+        {
+          "filename": "betaorganizationrbacgroup.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationrbacgroup.go"
+        },
+        {
+          "filename": "betaorganizationrbacgroupmember.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationrbacgroupmember.go"
+        },
+        {
+          "filename": "betaorganizationrbacrole.go",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationrbacrole.go"
+        },
+        {
+          "filename": "betaorganizationrbacrolepermission.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationrbacrolepermission.go"
+        },
+        {
+          "filename": "betaorganizationserviceaccount.go",
+          "status": "modified",
+          "additions": 49,
+          "deletions": 13,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationserviceaccount.go"
+        },
+        {
+          "filename": "betaorganizationserviceaccountworkspace.go",
+          "status": "modified",
+          "additions": 31,
+          "deletions": 9,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationserviceaccountworkspace.go"
+        },
+        {
+          "filename": "betaorganizationspendlimit.go",
+          "status": "modified",
+          "additions": 27,
+          "deletions": 7,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationspendlimit.go"
+        },
+        {
+          "filename": "betaorganizationspendlimit_test.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationspendlimit_test.go"
+        },
+        {
+          "filename": "betaorganizationspendlimitincreaserequest.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationspendlimitincreaserequest.go"
+        },
+        {
+          "filename": "betaorganizationuser.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationuser.go"
+        },
+        {
+          "filename": "betaorganizationworkspace.go",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 5,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationworkspace.go"
+        },
+        {
+          "filename": "betaorganizationworkspace_test.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationworkspace_test.go"
+        },
+        {
+          "filename": "betaorganizationworkspacemember.go",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 5,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationworkspacemember.go"
+        },
+        {
+          "filename": "betaorganizationworkspaceratelimit.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationworkspaceratelimit.go"
+        },
+        {
+          "filename": "betaorganizationworkspaceserviceaccount.go",
+          "status": "modified",
+          "additions": 51,
+          "deletions": 15,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaorganizationworkspaceserviceaccount.go"
+        },
+        {
+          "filename": "betaparse.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaparse.go"
+        },
+        {
+          "filename": "betaparse_test.go",
+          "status": "modified",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaparse_test.go"
+        },
+        {
+          "filename": "betasession.go",
+          "status": "modified",
+          "additions": 61,
+          "deletions": 19,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betasession.go"
+        },
+        {
+          "filename": "betasession_test.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betasession_test.go"
+        },
+        {
+          "filename": "betasessionevent.go",
+          "status": "modified",
+          "additions": 33,
+          "deletions": 11,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betasessionevent.go"
+        },
+        {
+          "filename": "betasessionevent_test.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betasessionevent_test.go"
+        },
+        {
+          "filename": "betasessionresource.go",
+          "status": "modified",
+          "additions": 51,
+          "deletions": 15,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betasessionresource.go"
+        },
+        {
+          "filename": "betasessionresource_test.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 5,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betasessionresource_test.go"
+        },
+        {
+          "filename": "betasessionthread.go",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 10,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betasessionthread.go"
+        },
+        {
+          "filename": "betasessionthread_test.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betasessionthread_test.go"
+        },
+        {
+          "filename": "betasessionthreadevent.go",
+          "status": "modified",
+          "additions": 21,
+          "deletions": 6,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betasessionthreadevent.go"
+        },
+        {
+          "filename": "betasessionthreadevent_test.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betasessionthreadevent_test.go"
+        },
+        {
+          "filename": "betaskill.go",
+          "status": "modified",
+          "additions": 39,
+          "deletions": 10,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaskill.go"
+        },
+        {
+          "filename": "betaskillversion.go",
+          "status": "modified",
+          "additions": 51,
+          "deletions": 15,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betaskillversion.go"
+        },
+        {
+          "filename": "betatunnel.go",
+          "status": "modified",
+          "additions": 59,
+          "deletions": 16,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betatunnel.go"
+        },
+        {
+          "filename": "betatunnel_test.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betatunnel_test.go"
+        },
+        {
+          "filename": "betatunnelcertificate.go",
+          "status": "modified",
+          "additions": 41,
+          "deletions": 12,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betatunnelcertificate.go"
+        },
+        {
+          "filename": "betatunnelcertificate_test.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betatunnelcertificate_test.go"
+        },
+        {
+          "filename": "betauserprofile.go",
+          "status": "modified",
+          "additions": 49,
+          "deletions": 13,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betauserprofile.go"
+        },
+        {
+          "filename": "betavault.go",
+          "status": "modified",
+          "additions": 59,
+          "deletions": 16,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betavault.go"
+        },
+        {
+          "filename": "betavault_test.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betavault_test.go"
+        },
+        {
+          "filename": "betavaultcredential.go",
+          "status": "modified",
+          "additions": 71,
+          "deletions": 21,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betavaultcredential.go"
+        },
+        {
+          "filename": "betavaultcredential_test.go",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 7,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/betavaultcredential_test.go"
+        },
+        {
+          "filename": "client.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 4,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/client.go"
+        },
+        {
+          "filename": "completion.go",
+          "status": "modified",
+          "additions": 28,
+          "deletions": 7,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/completion.go"
+        },
+        {
+          "filename": "completion_test.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/completion_test.go"
+        },
+        {
+          "filename": "config/federation.go",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/config%2Ffederation.go"
+        },
+        {
+          "filename": "config/https.go",
+          "status": "added",
+          "additions": 50,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/config%2Fhttps.go"
+        },
+        {
+          "filename": "config/https_test.go",
+          "status": "added",
+          "additions": 104,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/config%2Fhttps_test.go"
+        },
+        {
+          "filename": "examples/structured-outputs-raw/main.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/examples%2Fstructured-outputs-raw%2Fmain.go"
+        },
+        {
+          "filename": "examples/structured-outputs-streaming/main.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/examples%2Fstructured-outputs-streaming%2Fmain.go"
+        },
+        {
+          "filename": "examples/structured-outputs/main.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/examples%2Fstructured-outputs%2Fmain.go"
+        },
+        {
+          "filename": "file.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/file.go"
+        },
+        {
+          "filename": "internal/apijson/decodecustom_test.go",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 39,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/c9ebe447ac92c91748af817c265398e5d81ca49f/internal%2Fapijson%2Fdecodecustom_test.go"
+        },
+        {
+          "filename": "internal/apijson/decodeparam_test.go",
+          "status": "modified",
+          "additions": 31,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/internal%2Fapijson%2Fdecodeparam_test.go"
+        },
+        {
+          "filename": "internal/apijson/union.go",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 7,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/internal%2Fapijson%2Funion.go"
+        },
+        {
+          "filename": "internal/auth/credentials_file.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/internal%2Fauth%2Fcredentials_file.go"
+        },
+        {
+          "filename": "internal/auth/https.go",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 32,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/c9ebe447ac92c91748af817c265398e5d81ca49f/internal%2Fauth%2Fhttps.go"
+        },
+        {
+          "filename": "internal/auth/middleware.go",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 5,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/internal%2Fauth%2Fmiddleware.go"
+        },
+        {
+          "filename": "internal/auth/middleware_test.go",
+          "status": "modified",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/internal%2Fauth%2Fmiddleware_test.go"
+        },
+        {
+          "filename": "internal/auth/workload.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59/internal%2Fauth%2Fworkload.go"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 37662717576,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/37662717576",
+          "head_sha": "a45273ba392fc9868c6c6961f33c21387c1e4314"
+        },
+        {
+          "id": 37662717594,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/37662717594",
+          "head_sha": "a45273ba392fc9868c6c6961f33c21387c1e4314"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 37662069766,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/37662069766",
+          "head_sha": "e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59"
+        },
+        {
+          "id": 37662063807,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/37662063807",
+          "head_sha": "e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59"
+        }
+      ]
+    },
+    {
+      "number": 448,
+      "title": "release: 1.78.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/pull/448",
+      "merged_at": "2026-09-30T22:58:51Z",
+      "merge_commit_sha": "c9ebe447ac92c91748af817c265398e5d81ca49f",
+      "files": [
+        ".release-please-manifest.json",
+        ".stats.yml",
+        "CHANGELOG.md",
+        "README.md",
+        "api.md",
+        "beta.go",
+        "betaagent.go",
+        "betaorganizationspendlimit.go",
+        "betaorganizationspendlimit_test.go",
+        "internal/version.go",
+        "message.go",
+        "scripts/mock-spec.json.gz"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".release-please-manifest.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/1e8c4aaf7daaf36d6474ac5f408223a1a0b43ba6/.release-please-manifest.json"
+        },
+        {
+          "filename": ".stats.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/1e8c4aaf7daaf36d6474ac5f408223a1a0b43ba6/.stats.yml"
+        },
+        {
+          "filename": "CHANGELOG.md",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/1e8c4aaf7daaf36d6474ac5f408223a1a0b43ba6/CHANGELOG.md"
+        },
+        {
+          "filename": "README.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/1e8c4aaf7daaf36d6474ac5f408223a1a0b43ba6/README.md"
+        },
+        {
+          "filename": "api.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/1e8c4aaf7daaf36d6474ac5f408223a1a0b43ba6/api.md"
+        },
+        {
+          "filename": "beta.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/1e8c4aaf7daaf36d6474ac5f408223a1a0b43ba6/beta.go"
+        },
+        {
+          "filename": "betaagent.go",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/1e8c4aaf7daaf36d6474ac5f408223a1a0b43ba6/betaagent.go"
+        },
+        {
+          "filename": "betaorganizationspendlimit.go",
+          "status": "modified",
+          "additions": 72,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/1e8c4aaf7daaf36d6474ac5f408223a1a0b43ba6/betaorganizationspendlimit.go"
+        },
+        {
+          "filename": "betaorganizationspendlimit_test.go",
+          "status": "modified",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/1e8c4aaf7daaf36d6474ac5f408223a1a0b43ba6/betaorganizationspendlimit_test.go"
+        },
+        {
+          "filename": "internal/version.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/1e8c4aaf7daaf36d6474ac5f408223a1a0b43ba6/internal%2Fversion.go"
+        },
+        {
+          "filename": "message.go",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/1e8c4aaf7daaf36d6474ac5f408223a1a0b43ba6/message.go"
+        },
+        {
+          "filename": "scripts/mock-spec.json.gz",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/1e8c4aaf7daaf36d6474ac5f408223a1a0b43ba6/scripts%2Fmock-spec.json.gz"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 37574713898,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/37574713898",
+          "head_sha": "c9ebe447ac92c91748af817c265398e5d81ca49f"
+        },
+        {
+          "id": 37416870399,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/37416870399",
+          "head_sha": "c9ebe447ac92c91748af817c265398e5d81ca49f"
+        },
+        {
+          "id": 37267509532,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/37267509532",
+          "head_sha": "c9ebe447ac92c91748af817c265398e5d81ca49f"
+        },
+        {
+          "id": 37184050709,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/37184050709",
+          "head_sha": "c9ebe447ac92c91748af817c265398e5d81ca49f"
+        },
+        {
+          "id": 37098707116,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/37098707116",
+          "head_sha": "c9ebe447ac92c91748af817c265398e5d81ca49f"
+        },
+        {
+          "id": 36967445139,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/36967445139",
+          "head_sha": "c9ebe447ac92c91748af817c265398e5d81ca49f"
+        },
+        {
+          "id": 36818199043,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/36818199043",
+          "head_sha": "c9ebe447ac92c91748af817c265398e5d81ca49f"
+        },
+        {
+          "id": 36788617723,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/36788617723",
+          "head_sha": "c9ebe447ac92c91748af817c265398e5d81ca49f"
+        },
+        {
+          "id": 36788617738,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/36788617738",
+          "head_sha": "c9ebe447ac92c91748af817c265398e5d81ca49f"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 36787727999,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/36787727999",
+          "head_sha": "1e8c4aaf7daaf36d6474ac5f408223a1a0b43ba6"
+        },
+        {
+          "id": 36787721765,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/36787721765",
+          "head_sha": "1e8c4aaf7daaf36d6474ac5f408223a1a0b43ba6"
+        }
+      ]
+    },
+    {
+      "number": 447,
+      "title": "release: 1.77.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/pull/447",
+      "merged_at": "2026-09-30T18:28:50Z",
+      "merge_commit_sha": "ccc5e06dc45b4e88a672c9ff962dbd888f1d1b00",
+      "files": [
+        ".release-please-manifest.json",
+        ".stats.yml",
+        "CHANGELOG.md",
+        "README.md",
+        "api.md",
+        "aws/aws_test.go",
+        "beta.go",
+        "betamemorystore.go",
+        "betaorganization.go",
+        "betaorganizationanalytics.go",
+        "betaorganizationanalytics_actor_union_test.go",
+        "betaorganizationanalyticsapp.go",
+        "betaorganizationanalyticsappchat.go",
+        "betaorganizationanalyticsappchatproject.go",
+        "betaorganizationanalyticsappchatproject_test.go",
+        "betaorganizationanalyticsartifact.go",
+        "betaorganizationanalyticsartifact_test.go",
+        "betaorganizationanalyticsconnector.go",
+        "betaorganizationanalyticsconnector_test.go",
+        "betaorganizationanalyticscostreport.go",
+        "betaorganizationanalyticscostreport_test.go",
+        "betaorganizationanalyticsplugin.go",
+        "betaorganizationanalyticsplugin_test.go",
+        "betaorganizationanalyticsskill.go",
+        "betaorganizationanalyticsskill_test.go",
+        "betaorganizationanalyticssummary.go",
+        "betaorganizationanalyticssummary_test.go",
+        "betaorganizationanalyticsusagereport.go",
+        "betaorganizationanalyticsusagereport_test.go",
+        "betaorganizationanalyticsuser.go",
+        "betaorganizationanalyticsuser_test.go",
+        "betaorganizationanalyticsusercostreport.go",
+        "betaorganizationanalyticsusercostreport_test.go",
+        "betaorganizationanalyticsuserusagereport.go",
+        "betaorganizationanalyticsuserusagereport_test.go",
+        "betaorganizationplugin.go",
+        "betaorganizationplugin_test.go",
+        "betaorganizationplugininstallationsetting.go",
+        "betaorganizationplugininstallationsetting_test.go",
+        "betaorganizationpluginmarketplace.go",
+        "betaorganizationpluginmarketplace_test.go",
+        "betaorganizationpluginshare.go",
+        "betaorganizationpluginshare_test.go",
+        "betaorganizationpluginversion.go",
+        "betaorganizationpluginversion_test.go",
+        "betaorganizationrbacgroup.go",
+        "betaorganizationrbacgroup_test.go",
+        "betaorganizationrbacgroupmember.go",
+        "betaorganizationrbacgroupmember_test.go",
+        "betaorganizationrbacrole.go",
+        "betaorganizationrbacrole_test.go",
+        "betaorganizationrbacrolepermission.go",
+        "betaorganizationrbacrolepermission_test.go",
+        "betaorganizationspendlimit.go",
+        "betaorganizationspendlimit_test.go",
+        "betaorganizationspendlimiteffective.go",
+        "betaorganizationspendlimiteffective_test.go",
+        "betaorganizationspendlimitincreaserequest.go",
+        "betaorganizationspendlimitincreaserequest_test.go",
+        "betasession.go",
+        "betasessionevent.go",
+        "betasessionthread.go",
+        "betasessiontoolrunner.go",
+        "betasessiontoolrunner_test.go",
+        "client.go",
+        "client_test.go",
+        "examples/agents-comprehensive/main.go",
+        "examples/managed-agents-observe-tool-calls/main.go",
+        "examples/managed-agents-streaming-deltas/main.go",
+        "foundry/foundry_test.go",
+        "googlecloud/googlecloud_test.go",
+        "internal/apierror/apierror.go",
+        "internal/version.go",
+        "option/middleware.go",
+        "organization.go",
+        "organization_test.go",
+        "organizationapikey.go",
+        "organizationapikey_test.go",
+        "organizationcompliancesetting.go",
+        "organizationcompliancesetting_test.go",
+        "organizationexternalkey.go",
+        "organizationexternalkey_test.go",
+        "organizationfederation.go",
+        "organizationfederationissuer.go",
+        "organizationfederationissuer_test.go",
+        "organizationfederationrule.go",
+        "organizationfederationrule_test.go",
+        "organizationfederationruleworkspace.go",
+        "organizationfederationruleworkspace_test.go",
+        "organizationinvite.go",
+        "organizationinvite_test.go",
+        "organizationratelimit.go",
+        "organizationratelimit_test.go",
+        "organizationserviceaccount.go",
+        "organizationserviceaccount_test.go",
+        "organizationserviceaccountworkspace.go",
+        "organizationserviceaccountworkspace_test.go",
+        "organizationuser.go",
+        "organizationuser_test.go",
+        "organizationworkspace.go"
+      ],
+      "files_may_be_truncated": true,
+      "file_changes": [
+        {
+          "filename": ".release-please-manifest.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/.release-please-manifest.json"
+        },
+        {
+          "filename": ".stats.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/.stats.yml"
+        },
+        {
+          "filename": "CHANGELOG.md",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/CHANGELOG.md"
+        },
+        {
+          "filename": "README.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/README.md"
+        },
+        {
+          "filename": "api.md",
+          "status": "modified",
+          "additions": 594,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/api.md"
+        },
+        {
+          "filename": "aws/aws_test.go",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/aws%2Faws_test.go"
+        },
+        {
+          "filename": "beta.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/beta.go"
+        },
+        {
+          "filename": "betamemorystore.go",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 15,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betamemorystore.go"
+        },
+        {
+          "filename": "betaorganization.go",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganization.go"
+        },
+        {
+          "filename": "betaorganizationanalytics.go",
+          "status": "added",
+          "additions": 2339,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalytics.go"
+        },
+        {
+          "filename": "betaorganizationanalytics_actor_union_test.go",
+          "status": "added",
+          "additions": 47,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalytics_actor_union_test.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsapp.go",
+          "status": "added",
+          "additions": 26,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsapp.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsappchat.go",
+          "status": "added",
+          "additions": 26,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsappchat.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsappchatproject.go",
+          "status": "added",
+          "additions": 153,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsappchatproject.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsappchatproject_test.go",
+          "status": "added",
+          "additions": 45,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsappchatproject_test.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsartifact.go",
+          "status": "added",
+          "additions": 114,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsartifact.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsartifact_test.go",
+          "status": "added",
+          "additions": 41,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsartifact_test.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsconnector.go",
+          "status": "added",
+          "additions": 161,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsconnector.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsconnector_test.go",
+          "status": "added",
+          "additions": 45,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsconnector_test.go"
+        },
+        {
+          "filename": "betaorganizationanalyticscostreport.go",
+          "status": "added",
+          "additions": 153,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticscostreport.go"
+        },
+        {
+          "filename": "betaorganizationanalyticscostreport_test.go",
+          "status": "added",
+          "additions": 52,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticscostreport_test.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsplugin.go",
+          "status": "added",
+          "additions": 164,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsplugin.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsplugin_test.go",
+          "status": "added",
+          "additions": 45,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsplugin_test.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsskill.go",
+          "status": "added",
+          "additions": 154,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsskill.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsskill_test.go",
+          "status": "added",
+          "additions": 45,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsskill_test.go"
+        },
+        {
+          "filename": "betaorganizationanalyticssummary.go",
+          "status": "added",
+          "additions": 119,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticssummary.go"
+        },
+        {
+          "filename": "betaorganizationanalyticssummary_test.go",
+          "status": "added",
+          "additions": 41,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticssummary_test.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsusagereport.go",
+          "status": "added",
+          "additions": 153,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsusagereport.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsusagereport_test.go",
+          "status": "added",
+          "additions": 52,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsusagereport_test.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsuser.go",
+          "status": "added",
+          "additions": 155,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsuser.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsuser_test.go",
+          "status": "added",
+          "additions": 45,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsuser_test.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsusercostreport.go",
+          "status": "added",
+          "additions": 200,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsusercostreport.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsusercostreport_test.go",
+          "status": "added",
+          "additions": 55,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsusercostreport_test.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsuserusagereport.go",
+          "status": "added",
+          "additions": 197,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsuserusagereport.go"
+        },
+        {
+          "filename": "betaorganizationanalyticsuserusagereport_test.go",
+          "status": "added",
+          "additions": 55,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationanalyticsuserusagereport_test.go"
+        },
+        {
+          "filename": "betaorganizationplugin.go",
+          "status": "added",
+          "additions": 907,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationplugin.go"
+        },
+        {
+          "filename": "betaorganizationplugin_test.go",
+          "status": "added",
+          "additions": 162,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationplugin_test.go"
+        },
+        {
+          "filename": "betaorganizationplugininstallationsetting.go",
+          "status": "added",
+          "additions": 507,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationplugininstallationsetting.go"
+        },
+        {
+          "filename": "betaorganizationplugininstallationsetting_test.go",
+          "status": "added",
+          "additions": 103,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationplugininstallationsetting_test.go"
+        },
+        {
+          "filename": "betaorganizationpluginmarketplace.go",
+          "status": "added",
+          "additions": 714,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationpluginmarketplace.go"
+        },
+        {
+          "filename": "betaorganizationpluginmarketplace_test.go",
+          "status": "added",
+          "additions": 152,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationpluginmarketplace_test.go"
+        },
+        {
+          "filename": "betaorganizationpluginshare.go",
+          "status": "added",
+          "additions": 258,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationpluginshare.go"
+        },
+        {
+          "filename": "betaorganizationpluginshare_test.go",
+          "status": "added",
+          "additions": 44,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationpluginshare_test.go"
+        },
+        {
+          "filename": "betaorganizationpluginversion.go",
+          "status": "added",
+          "additions": 474,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationpluginversion.go"
+        },
+        {
+          "filename": "betaorganizationpluginversion_test.go",
+          "status": "added",
+          "additions": 149,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationpluginversion_test.go"
+        },
+        {
+          "filename": "betaorganizationrbacgroup.go",
+          "status": "added",
+          "additions": 247,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationrbacgroup.go"
+        },
+        {
+          "filename": "betaorganizationrbacgroup_test.go",
+          "status": "added",
+          "additions": 133,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationrbacgroup_test.go"
+        },
+        {
+          "filename": "betaorganizationrbacgroupmember.go",
+          "status": "added",
+          "additions": 200,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationrbacgroupmember.go"
+        },
+        {
+          "filename": "betaorganizationrbacgroupmember_test.go",
+          "status": "added",
+          "additions": 97,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationrbacgroupmember_test.go"
+        },
+        {
+          "filename": "betaorganizationrbacrole.go",
+          "status": "added",
+          "additions": 132,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationrbacrole.go"
+        },
+        {
+          "filename": "betaorganizationrbacrole_test.go",
+          "status": "added",
+          "additions": 59,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationrbacrole_test.go"
+        },
+        {
+          "filename": "betaorganizationrbacrolepermission.go",
+          "status": "added",
+          "additions": 351,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationrbacrolepermission.go"
+        },
+        {
+          "filename": "betaorganizationrbacrolepermission_test.go",
+          "status": "added",
+          "additions": 41,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationrbacrolepermission_test.go"
+        },
+        {
+          "filename": "betaorganizationspendlimit.go",
+          "status": "added",
+          "additions": 966,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationspendlimit.go"
+        },
+        {
+          "filename": "betaorganizationspendlimit_test.go",
+          "status": "added",
+          "additions": 86,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationspendlimit_test.go"
+        },
+        {
+          "filename": "betaorganizationspendlimiteffective.go",
+          "status": "added",
+          "additions": 91,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationspendlimiteffective.go"
+        },
+        {
+          "filename": "betaorganizationspendlimiteffective_test.go",
+          "status": "added",
+          "additions": 39,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationspendlimiteffective_test.go"
+        },
+        {
+          "filename": "betaorganizationspendlimitincreaserequest.go",
+          "status": "added",
+          "additions": 567,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationspendlimitincreaserequest.go"
+        },
+        {
+          "filename": "betaorganizationspendlimitincreaserequest_test.go",
+          "status": "added",
+          "additions": 119,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betaorganizationspendlimitincreaserequest_test.go"
+        },
+        {
+          "filename": "betasession.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 4,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betasession.go"
+        },
+        {
+          "filename": "betasessionevent.go",
+          "status": "modified",
+          "additions": 684,
+          "deletions": 13,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betasessionevent.go"
+        },
+        {
+          "filename": "betasessionthread.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betasessionthread.go"
+        },
+        {
+          "filename": "betasessiontoolrunner.go",
+          "status": "modified",
+          "additions": 61,
+          "deletions": 30,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betasessiontoolrunner.go"
+        },
+        {
+          "filename": "betasessiontoolrunner_test.go",
+          "status": "modified",
+          "additions": 299,
+          "deletions": 58,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/betasessiontoolrunner_test.go"
+        },
+        {
+          "filename": "client.go",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 7,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/client.go"
+        },
+        {
+          "filename": "client_test.go",
+          "status": "modified",
+          "additions": 48,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/client_test.go"
+        },
+        {
+          "filename": "examples/agents-comprehensive/main.go",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 6,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/examples%2Fagents-comprehensive%2Fmain.go"
+        },
+        {
+          "filename": "examples/managed-agents-observe-tool-calls/main.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/examples%2Fmanaged-agents-observe-tool-calls%2Fmain.go"
+        },
+        {
+          "filename": "examples/managed-agents-streaming-deltas/main.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/examples%2Fmanaged-agents-streaming-deltas%2Fmain.go"
+        },
+        {
+          "filename": "foundry/foundry_test.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/foundry%2Ffoundry_test.go"
+        },
+        {
+          "filename": "googlecloud/googlecloud_test.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/googlecloud%2Fgooglecloud_test.go"
+        },
+        {
+          "filename": "internal/apierror/apierror.go",
+          "status": "modified",
+          "additions": 40,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/internal%2Fapierror%2Fapierror.go"
+        },
+        {
+          "filename": "internal/version.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/internal%2Fversion.go"
+        },
+        {
+          "filename": "option/middleware.go",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 27,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/option%2Fmiddleware.go"
+        },
+        {
+          "filename": "organization.go",
+          "status": "added",
+          "additions": 98,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organization.go"
+        },
+        {
+          "filename": "organization_test.go",
+          "status": "added",
+          "additions": 34,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organization_test.go"
+        },
+        {
+          "filename": "organizationapikey.go",
+          "status": "added",
+          "additions": 458,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationapikey.go"
+        },
+        {
+          "filename": "organizationapikey_test.go",
+          "status": "added",
+          "additions": 92,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationapikey_test.go"
+        },
+        {
+          "filename": "organizationcompliancesetting.go",
+          "status": "added",
+          "additions": 278,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationcompliancesetting.go"
+        },
+        {
+          "filename": "organizationcompliancesetting_test.go",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationcompliancesetting_test.go"
+        },
+        {
+          "filename": "organizationexternalkey.go",
+          "status": "added",
+          "additions": 843,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationexternalkey.go"
+        },
+        {
+          "filename": "organizationexternalkey_test.go",
+          "status": "added",
+          "additions": 169,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationexternalkey_test.go"
+        },
+        {
+          "filename": "organizationfederation.go",
+          "status": "added",
+          "additions": 28,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationfederation.go"
+        },
+        {
+          "filename": "organizationfederationissuer.go",
+          "status": "added",
+          "additions": 743,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationfederationissuer.go"
+        },
+        {
+          "filename": "organizationfederationissuer_test.go",
+          "status": "added",
+          "additions": 153,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationfederationissuer_test.go"
+        },
+        {
+          "filename": "organizationfederationrule.go",
+          "status": "added",
+          "additions": 527,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationfederationrule.go"
+        },
+        {
+          "filename": "organizationfederationrule_test.go",
+          "status": "added",
+          "additions": 170,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationfederationrule_test.go"
+        },
+        {
+          "filename": "organizationfederationruleworkspace.go",
+          "status": "added",
+          "additions": 197,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationfederationruleworkspace.go"
+        },
+        {
+          "filename": "organizationfederationruleworkspace_test.go",
+          "status": "added",
+          "additions": 97,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationfederationruleworkspace_test.go"
+        },
+        {
+          "filename": "organizationinvite.go",
+          "status": "added",
+          "additions": 262,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationinvite.go"
+        },
+        {
+          "filename": "organizationinvite_test.go",
+          "status": "added",
+          "additions": 111,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationinvite_test.go"
+        },
+        {
+          "filename": "organizationratelimit.go",
+          "status": "added",
+          "additions": 406,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationratelimit.go"
+        },
+        {
+          "filename": "organizationratelimit_test.go",
+          "status": "added",
+          "additions": 39,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationratelimit_test.go"
+        },
+        {
+          "filename": "organizationserviceaccount.go",
+          "status": "added",
+          "additions": 341,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationserviceaccount.go"
+        },
+        {
+          "filename": "organizationserviceaccount_test.go",
+          "status": "added",
+          "additions": 137,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationserviceaccount_test.go"
+        },
+        {
+          "filename": "organizationserviceaccountworkspace.go",
+          "status": "added",
+          "additions": 217,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationserviceaccountworkspace.go"
+        },
+        {
+          "filename": "organizationserviceaccountworkspace_test.go",
+          "status": "added",
+          "additions": 98,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationserviceaccountworkspace_test.go"
+        },
+        {
+          "filename": "organizationuser.go",
+          "status": "added",
+          "additions": 227,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationuser.go"
+        },
+        {
+          "filename": "organizationuser_test.go",
+          "status": "added",
+          "additions": 112,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationuser_test.go"
+        },
+        {
+          "filename": "organizationworkspace.go",
+          "status": "added",
+          "additions": 537,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-go/blob/617823db37e6e90adef651cd1a56339b7ec82770/organizationworkspace.go"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 36758888548,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/36758888548",
+          "head_sha": "ccc5e06dc45b4e88a672c9ff962dbd888f1d1b00"
+        },
+        {
+          "id": 36758888611,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/36758888611",
+          "head_sha": "ccc5e06dc45b4e88a672c9ff962dbd888f1d1b00"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 36758587613,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/36758587613",
+          "head_sha": "617823db37e6e90adef651cd1a56339b7ec82770"
+        },
+        {
+          "id": 36758374925,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/36758374925",
+          "head_sha": "617823db37e6e90adef651cd1a56339b7ec82770"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v1.82.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.82.0",
+      "published_at": "2026-10-15T19:42:45Z",
+      "target_commitish": "main",
+      "commit_sha": "543d266ce81a4487281e084b013fef807dbb5f18",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38796113398,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/38796113398",
+          "head_sha": "543d266ce81a4487281e084b013fef807dbb5f18"
+        }
+      ]
+    },
+    {
+      "tag": "v1.81.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.81.0",
+      "published_at": "2026-10-14T17:05:34Z",
+      "target_commitish": "main",
+      "commit_sha": "8c86847d7e72e0da28ff0d2ad401865397bd0e6f",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38603688401,
+          "name": "Graph Update: go_modules in /., /examples #1627297449",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/38603688401",
+          "head_sha": "8c86847d7e72e0da28ff0d2ad401865397bd0e6f"
+        },
+        {
+          "id": 38603675743,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/38603675743",
+          "head_sha": "8c86847d7e72e0da28ff0d2ad401865397bd0e6f"
+        }
+      ]
+    },
+    {
+      "tag": "v1.80.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.80.0",
+      "published_at": "2026-10-09T15:27:48Z",
+      "target_commitish": "main",
+      "commit_sha": "bdcae90baad7d21949fc694f779377f62ff68631",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37951913264,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-go/actions/runs/37951913264",
+          "head_sha": "bdcae90baad7d21949fc694f779377f62ff68631"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v1.82.0",
+      "sha": "543d266ce81a4487281e084b013fef807dbb5f18"
+    },
+    {
+      "name": "v1.81.0",
+      "sha": "8c86847d7e72e0da28ff0d2ad401865397bd0e6f"
+    },
+    {
+      "name": "v1.80.0",
+      "sha": "bdcae90baad7d21949fc694f779377f62ff68631"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:16:43.329821+00:00",
+  "source_times": {
+    "/repos/anthropics/anthropic-sdk-go": "2026-10-17T16:05:10.247375+00:00",
+    "/repos/anthropics/anthropic-sdk-go/commits?sha=main&per_page=20": "2026-10-17T16:05:13.167195+00:00",
+    "/repos/anthropics/anthropic-sdk-go/git/trees/543d266ce81a4487281e084b013fef807dbb5f18": "2026-10-17T16:05:14.959119+00:00",
+    "/repos/anthropics/anthropic-sdk-go/git/trees/fd180878e119b10378f6c9d2678606acb763af5a": "2026-10-17T16:05:16.406554+00:00",
+    "/repos/anthropics/anthropic-sdk-go/git/trees/1e00c901b3f91e5b05b88f59173e29dac80be81f": "2026-10-17T16:05:17.855420+00:00",
+    "/repos/anthropics/anthropic-sdk-go/git/blobs/232c22b3da8af87e3d17a451c41f728a46f100a5": "2026-10-17T16:05:19.271782+00:00",
+    "/repos/anthropics/anthropic-sdk-go/git/blobs/317e8408cb9734ec550c01c1976d05e36786371b": "2026-10-17T16:05:21.314364+00:00",
+    "/repos/anthropics/anthropic-sdk-go/git/blobs/604abdd739177520be51e46f0b048d775af2b1a5": "2026-10-17T16:05:22.716408+00:00",
+    "/repos/anthropics/anthropic-sdk-go/git/blobs/c1ec50c695f053253b7dba8e835dd9e7d743a7a2": "2026-10-17T16:05:24.121814+00:00",
+    "/repos/anthropics/anthropic-sdk-go/git/blobs/95b204aa321dcfadcde28fb2b77048b2e123315a": "2026-10-17T16:05:25.506828+00:00",
+    "/repos/anthropics/anthropic-sdk-go/git/blobs/fe1dfd8dcebab13d9fd449e47e33db36994f6c12": "2026-10-17T16:05:27.669462+00:00",
+    "/repos/anthropics/anthropic-sdk-go/git/blobs/1227adaa47421898f8038667ade1c0563002ac49": "2026-10-17T16:05:29.299496+00:00",
+    "/repos/anthropics/anthropic-sdk-go/git/blobs/5beeac391292d74ed6313373fa573dbaafa6016d": "2026-10-17T16:05:33.447179+00:00",
+    "/repos/anthropics/anthropic-sdk-go/git/blobs/451bf284ed50d6b37d9b2d035d2c54685debe1f4": "2026-10-17T16:05:34.940384+00:00",
+    "/repos/anthropics/anthropic-sdk-go/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:05:40.071359+00:00",
+    "/repos/anthropics/anthropic-sdk-go/pulls/476/files?per_page=100": "2026-10-17T16:05:42.447835+00:00",
+    "/repos/anthropics/anthropic-sdk-go/pulls/476/reviews?per_page=100": "2026-10-17T16:05:45.371714+00:00",
+    "/repos/anthropics/anthropic-sdk-go/actions/runs?head_sha=a45273ba392fc9868c6c6961f33c21387c1e4314&per_page=10": "2026-10-17T16:05:47.002219+00:00",
+    "/repos/anthropics/anthropic-sdk-go/actions/runs?head_sha=e41c58ecbb3ee7e070cf36ad66ade593b4fa1c59&per_page=10": "2026-10-17T16:05:50.589981+00:00",
+    "/repos/anthropics/anthropic-sdk-go/pulls/448/files?per_page=100": "2026-10-17T16:05:53.126206+00:00",
+    "/repos/anthropics/anthropic-sdk-go/pulls/448/reviews?per_page=100": "2026-10-17T16:05:54.666908+00:00",
+    "/repos/anthropics/anthropic-sdk-go/actions/runs?head_sha=c9ebe447ac92c91748af817c265398e5d81ca49f&per_page=10": "2026-10-17T16:05:57.803643+00:00",
+    "/repos/anthropics/anthropic-sdk-go/actions/runs?head_sha=1e8c4aaf7daaf36d6474ac5f408223a1a0b43ba6&per_page=10": "2026-10-17T16:05:59.492752+00:00",
+    "/repos/anthropics/anthropic-sdk-go/pulls/447/files?per_page=100": "2026-10-17T16:06:02.459335+00:00",
+    "/repos/anthropics/anthropic-sdk-go/pulls/447/reviews?per_page=100": "2026-10-17T16:06:03.934053+00:00",
+    "/repos/anthropics/anthropic-sdk-go/actions/runs?head_sha=ccc5e06dc45b4e88a672c9ff962dbd888f1d1b00&per_page=10": "2026-10-17T16:06:05.670835+00:00",
+    "/repos/anthropics/anthropic-sdk-go/actions/runs?head_sha=617823db37e6e90adef651cd1a56339b7ec82770&per_page=10": "2026-10-17T16:06:10.103513+00:00",
+    "/repos/anthropics/anthropic-sdk-go/releases?per_page=20&page=1": "2026-10-17T16:16:43.310133+00:00",
+    "/repos/anthropics/anthropic-sdk-go/commits/v1.82.0": "2026-10-17T16:06:13.950940+00:00",
+    "/repos/anthropics/anthropic-sdk-go/actions/runs?head_sha=543d266ce81a4487281e084b013fef807dbb5f18&per_page=10": "2026-10-17T16:06:15.620233+00:00",
+    "/repos/anthropics/anthropic-sdk-go/commits/v1.81.0": "2026-10-17T16:06:17.154172+00:00",
+    "/repos/anthropics/anthropic-sdk-go/actions/runs?head_sha=8c86847d7e72e0da28ff0d2ad401865397bd0e6f&per_page=10": "2026-10-17T16:06:18.849775+00:00",
+    "/repos/anthropics/anthropic-sdk-go/commits/v1.80.0": "2026-10-17T16:06:20.314857+00:00",
+    "/repos/anthropics/anthropic-sdk-go/actions/runs?head_sha=bdcae90baad7d21949fc694f779377f62ff68631&per_page=10": "2026-10-17T16:06:21.786796+00:00",
+    "/repos/anthropics/anthropic-sdk-go/tags?per_page=3": "2026-10-17T16:06:23.155094+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:16:43.310133+00:00",
+  "status": "collected"
+}

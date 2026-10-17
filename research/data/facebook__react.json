@@ -1,0 +1,1636 @@
+{
+  "requested_repository": "facebook/react",
+  "category": "frameworks",
+  "collected_at": "2026-10-17T16:11:51.061325+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "react/react",
+  "metadata": {
+    "html_url": "https://github.com/react/react",
+    "description": "The library for web and native user interfaces.",
+    "homepage": "https://react.dev",
+    "language": "JavaScript",
+    "stargazers_count": 251207,
+    "forks_count": 51512,
+    "open_issues_count": 1454,
+    "pushed_at": "2026-10-15T08:14:36Z",
+    "created_at": "2013-05-24T16:15:54Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [
+      "declarative",
+      "frontend",
+      "javascript",
+      "library",
+      "react",
+      "ui"
+    ],
+    "owner": {
+      "login": "react",
+      "type": "Organization",
+      "html_url": "https://github.com/react"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "098d2e87a1f7142947418d15f63f975b58c4685b",
+      "url": "https://github.com/react/react/commit/098d2e87a1f7142947418d15f63f975b58c4685b",
+      "date": "2026-10-15T08:14:35Z",
+      "subject": "[release] Await gh availability check before verifying artifacts (#37855)"
+    },
+    {
+      "sha": "99c106c43439ad7af05d42f66582d8d05190e9ff",
+      "url": "https://github.com/react/react/commit/99c106c43439ad7af05d42f66582d8d05190e9ff",
+      "date": "2026-10-14T22:15:50Z",
+      "subject": "Revert sync abort replay restoration pending a complete fix (#37852)"
+    },
+    {
+      "sha": "e25b4a4c40d6e02cc6615b763cd4b820a4dec01c",
+      "url": "https://github.com/react/react/commit/e25b4a4c40d6e02cc6615b763cd4b820a4dec01c",
+      "date": "2026-10-14T21:06:54Z",
+      "subject": "Fix overlapping replay slots after a prerender abort (#37850)"
+    },
+    {
+      "sha": "0c9913ae87283f96e868a8f1c20a3389827632d0",
+      "url": "https://github.com/react/react/commit/0c9913ae87283f96e868a8f1c20a3389827632d0",
+      "date": "2026-10-14T16:31:25Z",
+      "subject": "[Flight] Improve transport protocol (#37846)"
+    },
+    {
+      "sha": "efa3189556def56c2825c85d6c525d980ea32417",
+      "url": "https://github.com/react/react/commit/efa3189556def56c2825c85d6c525d980ea32417",
+      "date": "2026-10-14T10:53:36Z",
+      "subject": "[compiler] Fix refs false positive for IntersectionObserver callbacks (#37764)"
+    },
+    {
+      "sha": "07dde64da1abd1525120b9ae49672386486e33c3",
+      "url": "https://github.com/react/react/commit/07dde64da1abd1525120b9ae49672386486e33c3",
+      "date": "2026-10-13T06:51:18Z",
+      "subject": "[Fizz] Postpone a task aborted while rendering from where it started (#37710)"
+    },
+    {
+      "sha": "9f2e1f888e5675e0feb12b4e58ecfae36b14cd4d",
+      "url": "https://github.com/react/react/commit/9f2e1f888e5675e0feb12b4e58ecfae36b14cd4d",
+      "date": "2026-10-12T13:55:54Z",
+      "subject": "[DOM] Stop hiding siblings after a dehydrated Activity (#37814)"
+    },
+    {
+      "sha": "e8738f0c628b4c321c5ce8077390ba48a8208341",
+      "url": "https://github.com/react/react/commit/e8738f0c628b4c321c5ce8077390ba48a8208341",
+      "date": "2026-10-12T12:11:46Z",
+      "subject": "Migrate all remaining `facebook/react` mentions (#37778)"
+    },
+    {
+      "sha": "2f5370a81170cda42424b10e45a200c341cd54ea",
+      "url": "https://github.com/react/react/commit/2f5370a81170cda42424b10e45a200c341cd54ea",
+      "date": "2026-10-12T11:59:30Z",
+      "subject": "[compiler] Don't treat comparing a ref-reading function as a ref access (#37688)"
+    },
+    {
+      "sha": "259980d2435e6cb70d1a13f5a121d8897d72188a",
+      "url": "https://github.com/react/react/commit/259980d2435e6cb70d1a13f5a121d8897d72188a",
+      "date": "2026-10-12T10:25:17Z",
+      "subject": "[Fiber] Fix DEV crash when use() is passed a non-extensible thenable (#37796)"
+    },
+    {
+      "sha": "b618bbb4422693bbb8d387180687b3f510300f42",
+      "url": "https://github.com/react/react/commit/b618bbb4422693bbb8d387180687b3f510300f42",
+      "date": "2026-10-07T20:08:07Z",
+      "subject": "[flags] land enableTrustedTypesIntegration (#37782)"
+    },
+    {
+      "sha": "5efc6eda70dd9ec6a9d6d6c7131c279d524f38df",
+      "url": "https://github.com/react/react/commit/5efc6eda70dd9ec6a9d6d6c7131c279d524f38df",
+      "date": "2026-10-07T20:08:07Z",
+      "subject": "[flags] rm stray enableFastAddPropertiesInDiffing (#37781)"
+    },
+    {
+      "sha": "924dbea9b5391e238d035c46f42cac8a9bbea32b",
+      "url": "https://github.com/react/react/commit/924dbea9b5391e238d035c46f42cac8a9bbea32b",
+      "date": "2026-10-07T20:08:07Z",
+      "subject": "[flags] land enableEffectEventMutationPhase (#37777)"
+    },
+    {
+      "sha": "791476cb6215613957cdac1073facc06db32f9ee",
+      "url": "https://github.com/react/react/commit/791476cb6215613957cdac1073facc06db32f9ee",
+      "date": "2026-10-07T20:08:06Z",
+      "subject": "[flags] turn on enableComponentPerformanceTrack in www tests (#37775)"
+    },
+    {
+      "sha": "e94402049c6b941b0c772fb01f792d844e8c7498",
+      "url": "https://github.com/react/react/commit/e94402049c6b941b0c772fb01f792d844e8c7498",
+      "date": "2026-10-07T20:08:06Z",
+      "subject": "[flags] clean up enableBrowserAPI (#37774)"
+    },
+    {
+      "sha": "3915aeb18cda79d2853c6f5360cf23b19456ea04",
+      "url": "https://github.com/react/react/commit/3915aeb18cda79d2853c6f5360cf23b19456ea04",
+      "date": "2026-10-07T20:08:05Z",
+      "subject": "[flags] clean up enableAsyncDebugInfo (#37772)"
+    },
+    {
+      "sha": "72fdf5cf0ac0ea54a611ab15ecf39066ac970f33",
+      "url": "https://github.com/react/react/commit/72fdf5cf0ac0ea54a611ab15ecf39066ac970f33",
+      "date": "2026-10-07T20:08:05Z",
+      "subject": "[flags] clean up enableParallelTransitions (#37771)"
+    },
+    {
+      "sha": "3c9e637e01e71813555a789a3db5777cfde9de1c",
+      "url": "https://github.com/react/react/commit/3c9e637e01e71813555a789a3db5777cfde9de1c",
+      "date": "2026-10-07T19:18:35Z",
+      "subject": "Type host config capability flags as boolean (#37740)"
+    },
+    {
+      "sha": "312e1af1c7e0b71466fa2998599dde105b4384a0",
+      "url": "https://github.com/react/react/commit/312e1af1c7e0b71466fa2998599dde105b4384a0",
+      "date": "2026-10-07T17:38:04Z",
+      "subject": "[DevTools] Don't remount the extension on same-document navigations (#37780)"
+    },
+    {
+      "sha": "d75b0697a605e874fc1af56d7e1bf6c4b41a4f78",
+      "url": "https://github.com/react/react/commit/d75b0697a605e874fc1af56d7e1bf6c4b41a4f78",
+      "date": "2026-10-06T17:23:46Z",
+      "subject": "[flags] Cleanup enableFragmentRefsInstanceHandles and enableFragmentRefsTextNodes feature flags (#37732)"
+    }
+  ],
+  "default_sha": "098d2e87a1f7142947418d15f63f975b58c4685b",
+  "root_and_selected_directory_paths": [
+    ".claude",
+    ".codesandbox",
+    ".editorconfig",
+    ".eslintignore",
+    ".eslintrc.js",
+    ".git-blame-ignore-revs",
+    ".gitattributes",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug_report.md",
+    ".github/ISSUE_TEMPLATE/compiler_bug_report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/devtools_bug_report.yml",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/dependabot.yml",
+    ".github/workflows",
+    ".github/workflows/compiler_discord_notify.yml",
+    ".github/workflows/compiler_playground.yml",
+    ".github/workflows/compiler_prereleases.yml",
+    ".github/workflows/compiler_prereleases_manual.yml",
+    ".github/workflows/compiler_prereleases_nightly.yml",
+    ".github/workflows/compiler_rust.yml",
+    ".github/workflows/compiler_rust_publish.yml",
+    ".github/workflows/compiler_rust_version.yml",
+    ".github/workflows/compiler_typescript.yml",
+    ".github/workflows/devtools_cdt_mcp_publish.yml",
+    ".github/workflows/devtools_discord_notify.yml",
+    ".github/workflows/devtools_regression_tests.yml",
+    ".github/workflows/runtime_build_and_test.yml",
+    ".github/workflows/runtime_commit_artifacts.yml",
+    ".github/workflows/runtime_discord_notify.yml",
+    ".github/workflows/runtime_eslint_plugin_e2e.yml",
+    ".github/workflows/runtime_fuzz_tests.yml",
+    ".github/workflows/runtime_release_from_ci.yml",
+    ".github/workflows/runtime_sizebot_comment.yml",
+    ".github/workflows/shared_check_maintainer.yml",
+    ".github/workflows/shared_cleanup_merged_branch_caches.yml",
+    ".github/workflows/shared_cleanup_stale_branch_caches.yml",
+    ".github/workflows/shared_close_direct_sync_branch_prs.yml",
+    ".github/workflows/shared_label_core_team_prs.yml",
+    ".github/workflows/shared_lint.yml",
+    ".github/workflows/shared_stale.yml",
+    ".gitignore",
+    ".mailmap",
+    ".nvmrc",
+    ".prettierignore",
+    ".prettierrc.js",
+    ".watchmanconfig",
+    "CHANGELOG.md",
+    "CLAUDE.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "MAINTAINERS",
+    "README.md",
+    "ReactVersions.js",
+    "SECURITY.md",
+    "babel.config-react-compiler.js",
+    "babel.config-ts.js",
+    "babel.config.js",
+    "compiler",
+    "fixtures",
+    "flow-typed",
+    "flow-typed.config.json",
+    "package.json",
+    "packages",
+    "react.code-workspace",
+    "scripts",
+    "yarn.lock"
+  ],
+  "workflow_paths": [
+    ".github/workflows/compiler_prereleases.yml",
+    ".github/workflows/compiler_prereleases_manual.yml",
+    ".github/workflows/compiler_prereleases_nightly.yml",
+    ".github/workflows/compiler_rust_publish.yml",
+    ".github/workflows/devtools_cdt_mcp_publish.yml",
+    ".github/workflows/devtools_regression_tests.yml",
+    ".github/workflows/runtime_build_and_test.yml",
+    ".github/workflows/runtime_fuzz_tests.yml",
+    ".github/workflows/runtime_release_from_ci.yml",
+    ".github/workflows/compiler_discord_notify.yml",
+    ".github/workflows/compiler_playground.yml",
+    ".github/workflows/compiler_rust.yml",
+    ".github/workflows/compiler_rust_version.yml",
+    ".github/workflows/compiler_typescript.yml",
+    ".github/workflows/devtools_discord_notify.yml",
+    ".github/workflows/runtime_commit_artifacts.yml",
+    ".github/workflows/runtime_discord_notify.yml",
+    ".github/workflows/runtime_eslint_plugin_e2e.yml",
+    ".github/workflows/runtime_sizebot_comment.yml",
+    ".github/workflows/shared_check_maintainer.yml",
+    ".github/workflows/shared_cleanup_merged_branch_caches.yml",
+    ".github/workflows/shared_cleanup_stale_branch_caches.yml",
+    ".github/workflows/shared_close_direct_sync_branch_prs.yml",
+    ".github/workflows/shared_label_core_team_prs.yml",
+    ".github/workflows/shared_lint.yml",
+    ".github/workflows/shared_stale.yml"
+  ],
+  "documents": [
+    {
+      "path": "CHANGELOG.md",
+      "sha": "2898ced3eb4d91b9804637bc0131c9ff8d5d57f9",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/CHANGELOG.md",
+      "lines": 3043,
+      "signals": {
+        "tests": [
+          1447
+        ],
+        "lint": [
+          782,
+          1172,
+          1219,
+          1271,
+          1273
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          2948
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [
+          293,
+          615,
+          625,
+          1149,
+          2780,
+          2819,
+          2833,
+          2885
+        ],
+        "theme_images": [
+          2689,
+          2695
+        ],
+        "playground": [],
+        "community": [
+          836,
+          853
+        ],
+        "story": [
+          244,
+          1979
+        ]
+      }
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha": "863aaab66c523299eae4a1781169929701ed67c6",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/CLAUDE.md",
+      "lines": 13,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "08b500a221857ec3f451338e80b4a9ab1173a1af",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/CODE_OF_CONDUCT.md",
+      "lines": 80,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "589af800fdc36dd1658ea6e96ad88a60572ca523",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/CONTRIBUTING.md",
+      "lines": 5,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "MAINTAINERS",
+      "sha": "aaa7c52fd6c9db76f06e5ee93686ba06bd0baa39",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/MAINTAINERS",
+      "lines": 24,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "6dd74794143a0ebfb6c6f094d3f2632d87ad628a",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/README.md",
+      "lines": 78,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          1
+        ],
+        "media": [
+          1
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          72,
+          74
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "655dfeaec0e67a9c448bf08a5f32d1f73aaa9611",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/SECURITY.md",
+      "lines": 7,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          5
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "package.json",
+      "sha": "898638f74ab5a7558d8157b7f7ebd09c4acbe6a5",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/package.json",
+      "lines": 163,
+      "signals": {
+        "tests": [
+          52,
+          69,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          120,
+          121,
+          138,
+          139
+        ],
+        "lint": [
+          49,
+          50,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          153
+        ],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha": "e561f9d26154a9b6ab064f7c8cca17f7e7c89a31",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/.github/ISSUE_TEMPLATE/bug_report.md",
+      "lines": 41,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          31
+        ],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/compiler_bug_report.yml",
+      "sha": "a2c0e3d7aa388bf17e0a94ac795bfb2577b23a27",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/.github/ISSUE_TEMPLATE/compiler_bug_report.yml",
+      "lines": 64,
+      "signals": {
+        "tests": [],
+        "lint": [
+          14
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          20,
+          22
+        ],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "2b1404175e698467387d9960f7402029ace447c6",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 8,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/devtools_bug_report.yml",
+      "sha": "f90209764681b7a9f38afaa3af75595a8f952839",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/.github/ISSUE_TEMPLATE/devtools_bug_report.yml",
+      "lines": 81,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          48,
+          54,
+          60,
+          66,
+          73,
+          80
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "0b83ce742cf7901f4502337e4860b332376c26dd",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/.github/PULL_REQUEST_TEMPLATE.md",
+      "lines": 33,
+      "signals": {
+        "tests": [],
+        "lint": [
+          13
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "11800ad757595347459435fa1c8b34747709c905",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/.github/dependabot.yml",
+      "lines": 10,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/compiler_prereleases.yml",
+      "sha": "e4b44832feffc8bddbaf1b3434ccbc8fa00a1416",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/.github/workflows/compiler_prereleases.yml",
+      "lines": 68,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          29
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/compiler_prereleases_manual.yml",
+      "sha": "5d138d82ed71d0e17487d8b2f147f6e6c2927f3d",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/.github/workflows/compiler_prereleases_manual.yml",
+      "lines": 41,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          24
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/compiler_prereleases_nightly.yml",
+      "sha": "813cfa0c7cd76a3a9b7988da058ac4569c2423ed",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/.github/workflows/compiler_prereleases_nightly.yml",
+      "lines": 24,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/compiler_rust_publish.yml",
+      "sha": "057f425e717822671686a92a967eee4ed4112a03",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/.github/workflows/compiler_rust_publish.yml",
+      "lines": 48,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12,
+          26,
+          28
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/devtools_cdt_mcp_publish.yml",
+      "sha": "34037f60f459f58b55893612c65d1f8b29c0f610",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/.github/workflows/devtools_cdt_mcp_publish.yml",
+      "lines": 103,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          54,
+          86
+        ],
+        "permissions": [
+          22,
+          56,
+          57
+        ],
+        "pinned_actions": [
+          38,
+          95
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/devtools_regression_tests.yml",
+      "sha": "add860717d2fed60a23804f7e26368b22390fe0b",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/.github/workflows/devtools_regression_tests.yml",
+      "lines": 197,
+      "signals": {
+        "tests": [
+          140
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12,
+          23
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/runtime_build_and_test.yml",
+      "sha": "f08bfc4509680eec3fc5367c79298c76fb2f50f4",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/.github/workflows/runtime_build_and_test.yml",
+      "lines": 1094,
+      "signals": {
+        "tests": [],
+        "lint": [
+          276,
+          299
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          22,
+          504,
+          506,
+          999
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/runtime_fuzz_tests.yml",
+      "sha": "a88ce523a62f62b7c94f7e9dad9c5270433ce828",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/.github/workflows/runtime_fuzz_tests.yml",
+      "lines": 33,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/runtime_release_from_ci.yml",
+      "sha": "4ba50d2b5768509bb1c5e6c3810fe46d293f29dd",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/.github/workflows/runtime_release_from_ci.yml",
+      "lines": 219,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          47,
+          116,
+          117
+        ],
+        "pinned_actions": [
+          95,
+          210
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/compiler_discord_notify.yml",
+      "sha": "8d0a698c24f00b713f6c0e44f2951e4b4ac104a9",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/.github/workflows/compiler_discord_notify.yml",
+      "lines": 49,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10,
+          29
+        ],
+        "pinned_actions": [
+          41
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/compiler_playground.yml",
+      "sha": "c7a802c9b969927eeb373c6933c34609739e400c",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/.github/workflows/compiler_playground.yml",
+      "lines": 67,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          1,
+          9,
+          24,
+          27,
+          28,
+          41,
+          66
+        ],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/compiler_rust.yml",
+      "sha": "0fd373c08c0bc0c88168b8fb4fb427da510c5840",
+      "status": "inspected",
+      "url": "https://github.com/react/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/.github/workflows/compiler_rust.yml",
+      "lines": 68,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 37757,
+      "title": "[ci] Reject focused Playwright tests in Flight fixture",
+      "url": "https://github.com/react/react/pull/37757",
+      "merged_at": "2026-10-06T13:30:52Z",
+      "merge_commit_sha": "ac35e9957bde50444b2d4c742622c950aa2abd41",
+      "files": [
+        "fixtures/flight/playwright.config.js"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "fixtures/flight/playwright.config.js",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/react/react/blob/b08fd79b83846b8964deb26db4a86cf06b33fb0c/fixtures%2Fflight%2Fplaywright.config.js"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 37472435456,
+          "name": "(Runtime) Sizebot Comment",
+          "path": ".github/workflows/runtime_sizebot_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/37472435456",
+          "head_sha": "ac35e9957bde50444b2d4c742622c950aa2abd41"
+        },
+        {
+          "id": 37472019478,
+          "name": "(Runtime) Sizebot Comment",
+          "path": ".github/workflows/runtime_sizebot_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/react/react/actions/runs/37472019478",
+          "head_sha": "ac35e9957bde50444b2d4c742622c950aa2abd41"
+        },
+        {
+          "id": 37472019657,
+          "name": "(Runtime) Commit Artifacts for Meta WWW and fbsource V2",
+          "path": ".github/workflows/runtime_commit_artifacts.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/37472019657",
+          "head_sha": "ac35e9957bde50444b2d4c742622c950aa2abd41"
+        },
+        {
+          "id": 37471782436,
+          "name": "(Runtime) Sizebot Comment",
+          "path": ".github/workflows/runtime_sizebot_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/37471782436",
+          "head_sha": "ac35e9957bde50444b2d4c742622c950aa2abd41"
+        },
+        {
+          "id": 37471408987,
+          "name": "(Runtime) Sizebot Comment",
+          "path": ".github/workflows/runtime_sizebot_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/react/react/actions/runs/37471408987",
+          "head_sha": "ac35e9957bde50444b2d4c742622c950aa2abd41"
+        },
+        {
+          "id": 37471403044,
+          "name": "(Runtime) Build and Test",
+          "path": ".github/workflows/runtime_build_and_test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/37471403044",
+          "head_sha": "ac35e9957bde50444b2d4c742622c950aa2abd41"
+        },
+        {
+          "id": 37471403321,
+          "name": "(Runtime) ESLint Plugin E2E",
+          "path": ".github/workflows/runtime_eslint_plugin_e2e.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/37471403321",
+          "head_sha": "ac35e9957bde50444b2d4c742622c950aa2abd41"
+        },
+        {
+          "id": 37471403267,
+          "name": "(Runtime) Fuzz tests",
+          "path": ".github/workflows/runtime_fuzz_tests.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/37471403267",
+          "head_sha": "ac35e9957bde50444b2d4c742622c950aa2abd41"
+        },
+        {
+          "id": 37471403087,
+          "name": "(Shared) Lint",
+          "path": ".github/workflows/shared_lint.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/37471403087",
+          "head_sha": "ac35e9957bde50444b2d4c742622c950aa2abd41"
+        },
+        {
+          "id": 37471403050,
+          "name": "(Compiler) TypeScript",
+          "path": ".github/workflows/compiler_typescript.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/37471403050",
+          "head_sha": "ac35e9957bde50444b2d4c742622c950aa2abd41"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 37471403617,
+          "name": "(Shared) Cleanup Merged Branch Caches",
+          "path": ".github/workflows/shared_cleanup_merged_branch_caches.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/37471403617",
+          "head_sha": "b08fd79b83846b8964deb26db4a86cf06b33fb0c"
+        },
+        {
+          "id": 37296762818,
+          "name": "(Shared) Lint",
+          "path": ".github/workflows/shared_lint.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/37296762818",
+          "head_sha": "b08fd79b83846b8964deb26db4a86cf06b33fb0c"
+        },
+        {
+          "id": 37296762864,
+          "name": "(Runtime) Build and Test",
+          "path": ".github/workflows/runtime_build_and_test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/37296762864",
+          "head_sha": "b08fd79b83846b8964deb26db4a86cf06b33fb0c"
+        },
+        {
+          "id": 37296762850,
+          "name": "(Runtime) ESLint Plugin E2E",
+          "path": ".github/workflows/runtime_eslint_plugin_e2e.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/37296762850",
+          "head_sha": "b08fd79b83846b8964deb26db4a86cf06b33fb0c"
+        },
+        {
+          "id": 37296761447,
+          "name": "(Runtime) Discord Notify",
+          "path": ".github/workflows/runtime_discord_notify.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/37296761447",
+          "head_sha": "b08fd79b83846b8964deb26db4a86cf06b33fb0c"
+        },
+        {
+          "id": 37296761423,
+          "name": "(Shared) Label Core Team PRs",
+          "path": ".github/workflows/shared_label_core_team_prs.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/37296761423",
+          "head_sha": "b08fd79b83846b8964deb26db4a86cf06b33fb0c"
+        }
+      ]
+    },
+    {
+      "number": 37855,
+      "title": "[release] Await gh availability check before verifying artifacts",
+      "url": "https://github.com/react/react/pull/37855",
+      "merged_at": "2026-10-15T08:14:36Z",
+      "merge_commit_sha": "098d2e87a1f7142947418d15f63f975b58c4685b",
+      "files": [
+        "scripts/release/shared-commands/download-build-artifacts.js"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "scripts/release/shared-commands/download-build-artifacts.js",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/react/react/blob/2e1141b376bea31ffb334932b2b9e191c9ad02e7/scripts%2Frelease%2Fshared-commands%2Fdownload-build-artifacts.js"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39048299716,
+          "name": "(Shared) Manage stale issues and PRs",
+          "path": ".github/workflows/shared_stale.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/39048299716",
+          "head_sha": "098d2e87a1f7142947418d15f63f975b58c4685b"
+        },
+        {
+          "id": 39043981877,
+          "name": "(Runtime) Fuzz tests",
+          "path": ".github/workflows/runtime_fuzz_tests.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/39043981877",
+          "head_sha": "098d2e87a1f7142947418d15f63f975b58c4685b"
+        },
+        {
+          "id": 39043811122,
+          "name": "(Shared) Manage stale issues and PRs",
+          "path": ".github/workflows/shared_stale.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/39043811122",
+          "head_sha": "098d2e87a1f7142947418d15f63f975b58c4685b"
+        },
+        {
+          "id": 39039759859,
+          "name": "(Runtime) Fuzz tests",
+          "path": ".github/workflows/runtime_fuzz_tests.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/39039759859",
+          "head_sha": "098d2e87a1f7142947418d15f63f975b58c4685b"
+        },
+        {
+          "id": 39039592567,
+          "name": "(Shared) Manage stale issues and PRs",
+          "path": ".github/workflows/shared_stale.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/39039592567",
+          "head_sha": "098d2e87a1f7142947418d15f63f975b58c4685b"
+        },
+        {
+          "id": 39036437463,
+          "name": "(Runtime) Sizebot Comment",
+          "path": ".github/workflows/runtime_sizebot_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/39036437463",
+          "head_sha": "098d2e87a1f7142947418d15f63f975b58c4685b"
+        },
+        {
+          "id": 39036090898,
+          "name": "(Runtime) Sizebot Comment",
+          "path": ".github/workflows/runtime_sizebot_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/39036090898",
+          "head_sha": "098d2e87a1f7142947418d15f63f975b58c4685b"
+        },
+        {
+          "id": 39035579318,
+          "name": "(Runtime) Fuzz tests",
+          "path": ".github/workflows/runtime_fuzz_tests.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/39035579318",
+          "head_sha": "098d2e87a1f7142947418d15f63f975b58c4685b"
+        },
+        {
+          "id": 39035404750,
+          "name": "(Shared) Manage stale issues and PRs",
+          "path": ".github/workflows/shared_stale.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/39035404750",
+          "head_sha": "098d2e87a1f7142947418d15f63f975b58c4685b"
+        },
+        {
+          "id": 39032072248,
+          "name": "(Runtime) Fuzz tests",
+          "path": ".github/workflows/runtime_fuzz_tests.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/39032072248",
+          "head_sha": "098d2e87a1f7142947418d15f63f975b58c4685b"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38704274362,
+          "name": "(Shared) Cleanup Merged Branch Caches",
+          "path": ".github/workflows/shared_cleanup_merged_branch_caches.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/38704274362",
+          "head_sha": "2e1141b376bea31ffb334932b2b9e191c9ad02e7"
+        },
+        {
+          "id": 38657254228,
+          "name": "(Runtime) Discord Notify",
+          "path": ".github/workflows/runtime_discord_notify.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/38657254228",
+          "head_sha": "2e1141b376bea31ffb334932b2b9e191c9ad02e7"
+        },
+        {
+          "id": 38657254227,
+          "name": "(Shared) Label Core Team PRs",
+          "path": ".github/workflows/shared_label_core_team_prs.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/38657254227",
+          "head_sha": "2e1141b376bea31ffb334932b2b9e191c9ad02e7"
+        },
+        {
+          "id": 38657254099,
+          "name": "(Shared) Lint",
+          "path": ".github/workflows/shared_lint.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/38657254099",
+          "head_sha": "2e1141b376bea31ffb334932b2b9e191c9ad02e7"
+        },
+        {
+          "id": 38657254172,
+          "name": "(Runtime) ESLint Plugin E2E",
+          "path": ".github/workflows/runtime_eslint_plugin_e2e.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/38657254172",
+          "head_sha": "2e1141b376bea31ffb334932b2b9e191c9ad02e7"
+        },
+        {
+          "id": 38657254279,
+          "name": "(Runtime) Build and Test",
+          "path": ".github/workflows/runtime_build_and_test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/38657254279",
+          "head_sha": "2e1141b376bea31ffb334932b2b9e191c9ad02e7"
+        }
+      ]
+    },
+    {
+      "number": 33059,
+      "title": "Add test for multiple form submissions",
+      "url": "https://github.com/react/react/pull/33059",
+      "merged_at": "2025-05-05T21:47:47Z",
+      "merge_commit_sha": "79586c7eb626c6b9362c308a54c9ee5b66e640e5",
+      "files": [
+        "packages/react-dom/src/__tests__/ReactDOMForm-test.js"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "packages/react-dom/src/__tests__/ReactDOMForm-test.js",
+          "status": "modified",
+          "additions": 31,
+          "deletions": 0,
+          "blob_url": "https://github.com/react/react/blob/48c5c131c6efbb131003b69abc41309a92da663e/packages%2Freact-dom%2Fsrc%2F__tests__%2FReactDOMForm-test.js"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [],
+      "head_commit_workflow_runs": []
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v19.3.1",
+      "url": "https://github.com/react/react/releases/tag/v19.3.1",
+      "published_at": "2026-10-14T17:06:15Z",
+      "target_commitish": "main",
+      "commit_sha": "61aa00df822d0eb76d0362eb8b6fdd3527693efe",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38600808943,
+          "name": "(Runtime) Release From CI",
+          "path": ".github/workflows/runtime_release_from_ci.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/38600808943",
+          "head_sha": "61aa00df822d0eb76d0362eb8b6fdd3527693efe"
+        },
+        {
+          "id": 38600602957,
+          "name": "(Runtime) Release From CI",
+          "path": ".github/workflows/runtime_release_from_ci.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/38600602957",
+          "head_sha": "61aa00df822d0eb76d0362eb8b6fdd3527693efe"
+        },
+        {
+          "id": 38598825052,
+          "name": "(Runtime) Build and Test",
+          "path": ".github/workflows/runtime_build_and_test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/38598825052",
+          "head_sha": "61aa00df822d0eb76d0362eb8b6fdd3527693efe"
+        }
+      ]
+    },
+    {
+      "tag": "v19.2.9",
+      "url": "https://github.com/react/react/releases/tag/v19.2.9",
+      "published_at": "2026-10-14T17:06:10Z",
+      "target_commitish": "main",
+      "commit_sha": "3d06b4005ac0cf9dec37267f26174adfe6d83611",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38600841602,
+          "name": "(Runtime) Release From CI",
+          "path": ".github/workflows/runtime_release_from_ci.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/38600841602",
+          "head_sha": "3d06b4005ac0cf9dec37267f26174adfe6d83611"
+        },
+        {
+          "id": 38600651795,
+          "name": "(Runtime) Release From CI",
+          "path": ".github/workflows/runtime_release_from_ci.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/38600651795",
+          "head_sha": "3d06b4005ac0cf9dec37267f26174adfe6d83611"
+        },
+        {
+          "id": 38598976009,
+          "name": "(Runtime) Build and Test",
+          "path": ".github/workflows/runtime_build_and_test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/38598976009",
+          "head_sha": "3d06b4005ac0cf9dec37267f26174adfe6d83611"
+        }
+      ]
+    },
+    {
+      "tag": "v19.1.10",
+      "url": "https://github.com/react/react/releases/tag/v19.1.10",
+      "published_at": "2026-10-14T17:06:06Z",
+      "target_commitish": "main",
+      "commit_sha": "249ac87b0dadea4ba024d1393e5cb60cf1186080",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38601895262,
+          "name": "(Runtime) Release From CI",
+          "path": ".github/workflows/runtime_release_from_ci.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/38601895262",
+          "head_sha": "249ac87b0dadea4ba024d1393e5cb60cf1186080"
+        },
+        {
+          "id": 38600271923,
+          "name": "(Runtime) Build and Test",
+          "path": ".github/workflows/runtime_build_and_test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/react/react/actions/runs/38600271923",
+          "head_sha": "249ac87b0dadea4ba024d1393e5cb60cf1186080"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v19.3.1",
+      "sha": "61aa00df822d0eb76d0362eb8b6fdd3527693efe"
+    },
+    {
+      "name": "v19.3.0",
+      "sha": "1d34f91dfde6bba84d08b683aaba164c7194dacb"
+    },
+    {
+      "name": "v19.2.9",
+      "sha": "3d06b4005ac0cf9dec37267f26174adfe6d83611"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:06.166779+00:00",
+  "source_times": {
+    "/repos/facebook/react": "2026-10-17T16:11:51.061325+00:00",
+    "/repos/react/react/commits?sha=main&per_page=20": "2026-10-17T16:11:53.134994+00:00",
+    "/repos/react/react/git/trees/098d2e87a1f7142947418d15f63f975b58c4685b": "2026-10-17T16:11:54.523640+00:00",
+    "/repos/react/react/git/trees/ef8cb08b274e085acb495923589c1c1c50ec3ad1": "2026-10-17T16:11:57.293479+00:00",
+    "/repos/react/react/git/trees/d58a5b4e109efa3b08d2a22ad2afd82dfcf5ab8a": "2026-10-17T16:11:58.672260+00:00",
+    "/repos/react/react/git/trees/ee3f217103eadbe062947cfcf1a832db71f3237e": "2026-10-17T16:12:00.110941+00:00",
+    "/repos/react/react/git/blobs/2898ced3eb4d91b9804637bc0131c9ff8d5d57f9": "2026-10-17T16:12:03.954002+00:00",
+    "/repos/react/react/git/blobs/863aaab66c523299eae4a1781169929701ed67c6": "2026-10-17T16:12:05.513331+00:00",
+    "/repos/react/react/git/blobs/08b500a221857ec3f451338e80b4a9ab1173a1af": "2026-10-17T16:12:06.845300+00:00",
+    "/repos/react/react/git/blobs/589af800fdc36dd1658ea6e96ad88a60572ca523": "2026-10-17T16:12:09.274925+00:00",
+    "/repos/react/react/git/blobs/aaa7c52fd6c9db76f06e5ee93686ba06bd0baa39": "2026-10-17T16:12:10.652920+00:00",
+    "/repos/react/react/git/blobs/6dd74794143a0ebfb6c6f094d3f2632d87ad628a": "2026-10-17T16:12:12.045510+00:00",
+    "/repos/react/react/git/blobs/655dfeaec0e67a9c448bf08a5f32d1f73aaa9611": "2026-10-17T16:12:14.416382+00:00",
+    "/repos/react/react/git/blobs/898638f74ab5a7558d8157b7f7ebd09c4acbe6a5": "2026-10-17T16:12:15.870367+00:00",
+    "/repos/react/react/git/blobs/e561f9d26154a9b6ab064f7c8cca17f7e7c89a31": "2026-10-17T16:12:17.260518+00:00",
+    "/repos/react/react/git/blobs/a2c0e3d7aa388bf17e0a94ac795bfb2577b23a27": "2026-10-17T16:12:18.692799+00:00",
+    "/repos/react/react/git/blobs/2b1404175e698467387d9960f7402029ace447c6": "2026-10-17T16:12:20.071389+00:00",
+    "/repos/react/react/git/blobs/f90209764681b7a9f38afaa3af75595a8f952839": "2026-10-17T16:12:21.417091+00:00",
+    "/repos/react/react/git/blobs/0b83ce742cf7901f4502337e4860b332376c26dd": "2026-10-17T16:12:22.793209+00:00",
+    "/repos/react/react/git/blobs/11800ad757595347459435fa1c8b34747709c905": "2026-10-17T16:12:24.220886+00:00",
+    "/repos/react/react/git/blobs/e4b44832feffc8bddbaf1b3434ccbc8fa00a1416": "2026-10-17T16:12:26.648997+00:00",
+    "/repos/react/react/git/blobs/5d138d82ed71d0e17487d8b2f147f6e6c2927f3d": "2026-10-17T16:12:28.021328+00:00",
+    "/repos/react/react/git/blobs/813cfa0c7cd76a3a9b7988da058ac4569c2423ed": "2026-10-17T16:12:30.990429+00:00",
+    "/repos/react/react/git/blobs/057f425e717822671686a92a967eee4ed4112a03": "2026-10-17T16:12:33.359030+00:00",
+    "/repos/react/react/git/blobs/34037f60f459f58b55893612c65d1f8b29c0f610": "2026-10-17T16:12:35.775150+00:00",
+    "/repos/react/react/git/blobs/add860717d2fed60a23804f7e26368b22390fe0b": "2026-10-17T16:12:38.264587+00:00",
+    "/repos/react/react/git/blobs/f08bfc4509680eec3fc5367c79298c76fb2f50f4": "2026-10-17T16:12:40.078800+00:00",
+    "/repos/react/react/git/blobs/a88ce523a62f62b7c94f7e9dad9c5270433ce828": "2026-10-17T16:12:41.664706+00:00",
+    "/repos/react/react/git/blobs/4ba50d2b5768509bb1c5e6c3810fe46d293f29dd": "2026-10-17T16:12:43.243072+00:00",
+    "/repos/react/react/git/blobs/8d0a698c24f00b713f6c0e44f2951e4b4ac104a9": "2026-10-17T16:12:44.620040+00:00",
+    "/repos/react/react/git/blobs/c7a802c9b969927eeb373c6933c34609739e400c": "2026-10-17T16:12:46.986740+00:00",
+    "/repos/react/react/git/blobs/0fd373c08c0bc0c88168b8fb4fb427da510c5840": "2026-10-17T16:12:49.354268+00:00",
+    "/repos/react/react/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:12:54.511079+00:00",
+    "/repos/react/react/pulls/37757/files?per_page=100": "2026-10-17T16:12:57.828950+00:00",
+    "/repos/react/react/pulls/37757/reviews?per_page=100": "2026-10-17T16:12:59.377866+00:00",
+    "/repos/react/react/actions/runs?head_sha=ac35e9957bde50444b2d4c742622c950aa2abd41&per_page=10": "2026-10-17T16:13:01.745506+00:00",
+    "/repos/react/react/actions/runs?head_sha=b08fd79b83846b8964deb26db4a86cf06b33fb0c&per_page=10": "2026-10-17T16:13:04.670196+00:00",
+    "/repos/react/react/pulls/37855/files?per_page=100": "2026-10-17T16:13:06.231958+00:00",
+    "/repos/react/react/pulls/37855/reviews?per_page=100": "2026-10-17T16:13:08.001089+00:00",
+    "/repos/react/react/actions/runs?head_sha=098d2e87a1f7142947418d15f63f975b58c4685b&per_page=10": "2026-10-17T16:13:10.312186+00:00",
+    "/repos/react/react/actions/runs?head_sha=2e1141b376bea31ffb334932b2b9e191c9ad02e7&per_page=10": "2026-10-17T16:13:12.221590+00:00",
+    "/repos/react/react/pulls/33059/files?per_page=100": "2026-10-17T16:13:13.740377+00:00",
+    "/repos/react/react/pulls/33059/reviews?per_page=100": "2026-10-17T16:13:15.546752+00:00",
+    "/repos/react/react/actions/runs?head_sha=79586c7eb626c6b9362c308a54c9ee5b66e640e5&per_page=10": "2026-10-17T16:13:17.924795+00:00",
+    "/repos/react/react/actions/runs?head_sha=48c5c131c6efbb131003b69abc41309a92da663e&per_page=10": "2026-10-17T16:13:19.332423+00:00",
+    "/repos/react/react/releases?per_page=20&page=1": "2026-10-17T16:17:06.163656+00:00",
+    "/repos/react/react/commits/v19.3.1": "2026-10-17T16:13:26.659873+00:00",
+    "/repos/react/react/actions/runs?head_sha=61aa00df822d0eb76d0362eb8b6fdd3527693efe&per_page=10": "2026-10-17T16:13:28.336795+00:00",
+    "/repos/react/react/commits/v19.2.9": "2026-10-17T16:13:32.804324+00:00",
+    "/repos/react/react/actions/runs?head_sha=3d06b4005ac0cf9dec37267f26174adfe6d83611&per_page=10": "2026-10-17T16:13:34.554752+00:00",
+    "/repos/react/react/commits/v19.1.10": "2026-10-17T16:13:36.725157+00:00",
+    "/repos/react/react/actions/runs?head_sha=249ac87b0dadea4ba024d1393e5cb60cf1186080&per_page=10": "2026-10-17T16:13:39.323709+00:00",
+    "/repos/react/react/tags?per_page=3": "2026-10-17T16:13:40.678642+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:06.163656+00:00",
+  "status": "collected"
+}

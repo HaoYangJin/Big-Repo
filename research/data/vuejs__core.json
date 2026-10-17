@@ -1,0 +1,1458 @@
+{
+  "requested_repository": "vuejs/core",
+  "category": "frameworks",
+  "collected_at": "2026-10-17T16:11:04.985368+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "vuejs/core",
+  "metadata": {
+    "html_url": "https://github.com/vuejs/core",
+    "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+    "homepage": "https://vuejs.org/",
+    "language": "TypeScript",
+    "stargazers_count": 54654,
+    "forks_count": 9259,
+    "open_issues_count": 899,
+    "pushed_at": "2026-10-17T09:48:49Z",
+    "created_at": "2018-06-12T13:49:36Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [],
+    "owner": {
+      "login": "vuejs",
+      "type": "Organization",
+      "html_url": "https://github.com/vuejs"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c",
+      "url": "https://github.com/vuejs/core/commit/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c",
+      "date": "2026-10-13T07:39:42Z",
+      "subject": "release: v3.5.44"
+    },
+    {
+      "sha": "693037486f38b3d3acf4cdf7b9850917c44cf9cb",
+      "url": "https://github.com/vuejs/core/commit/693037486f38b3d3acf4cdf7b9850917c44cf9cb",
+      "date": "2026-10-13T07:35:44Z",
+      "subject": "fix(server-renderer): propagate async setup errors (#15857)"
+    },
+    {
+      "sha": "8e8c54756f057a47d46ad4bfe32cf1409476ed3c",
+      "url": "https://github.com/vuejs/core/commit/8e8c54756f057a47d46ad4bfe32cf1409476ed3c",
+      "date": "2026-10-13T07:15:54Z",
+      "subject": "chore(deps): update all non-major dependencies (#15585)"
+    },
+    {
+      "sha": "4cb0ca8e207fa1c7fe029fe15e75bb518cc912a7",
+      "url": "https://github.com/vuejs/core/commit/4cb0ca8e207fa1c7fe029fe15e75bb518cc912a7",
+      "date": "2026-10-13T07:12:55Z",
+      "subject": "chore(deps): update playground (#15685)"
+    },
+    {
+      "sha": "e38478f5b36a377d2a465fb40c882a61b1910df2",
+      "url": "https://github.com/vuejs/core/commit/e38478f5b36a377d2a465fb40c882a61b1910df2",
+      "date": "2026-10-13T07:12:28Z",
+      "subject": "chore(deps): update dawidd6/action-download-artifact action to v27 (#15768)"
+    },
+    {
+      "sha": "1caed5ab1b8e9821926402621f7364205b44e559",
+      "url": "https://github.com/vuejs/core/commit/1caed5ab1b8e9821926402621f7364205b44e559",
+      "date": "2026-10-13T07:12:04Z",
+      "subject": "chore(deps): update compiler (#15586)"
+    },
+    {
+      "sha": "a49f451851d4ec4be1a5353960c4e328afd13367",
+      "url": "https://github.com/vuejs/core/commit/a49f451851d4ec4be1a5353960c4e328afd13367",
+      "date": "2026-10-13T07:11:36Z",
+      "subject": "chore(deps): update lint (#15680)"
+    },
+    {
+      "sha": "219b85809996bc57e275ba2d4a2b2c4da025da96",
+      "url": "https://github.com/vuejs/core/commit/219b85809996bc57e275ba2d4a2b2c4da025da96",
+      "date": "2026-10-13T07:11:00Z",
+      "subject": "chore(deps): update build (#15679)"
+    },
+    {
+      "sha": "ff3501429d4970c37194708b055492a56d9e5be5",
+      "url": "https://github.com/vuejs/core/commit/ff3501429d4970c37194708b055492a56d9e5be5",
+      "date": "2026-10-13T02:51:01Z",
+      "subject": "fix(transition): handle comment-wrapped component roots (#15853)"
+    },
+    {
+      "sha": "d084b904903a7710ea19b7256b7c681e838eb63e",
+      "url": "https://github.com/vuejs/core/commit/d084b904903a7710ea19b7256b7c681e838eb63e",
+      "date": "2026-10-13T01:17:02Z",
+      "subject": "fix(compiler-core): parenthesise v-for key in v-memo cache guard (#15724)"
+    },
+    {
+      "sha": "db00fe9819eb17f0a5bde7e1fcfafe5984e267a3",
+      "url": "https://github.com/vuejs/core/commit/db00fe9819eb17f0a5bde7e1fcfafe5984e267a3",
+      "date": "2026-10-13T00:30:37Z",
+      "subject": "fix(reactivity): do not track deps in watcher callbacks run inside another effect (#15782)"
+    },
+    {
+      "sha": "9f3b4377c4bb5ff32b35ff08ce7670f6be6f5dbb",
+      "url": "https://github.com/vuejs/core/commit/9f3b4377c4bb5ff32b35ff08ce7670f6be6f5dbb",
+      "date": "2026-10-13T00:22:20Z",
+      "subject": "fix(compiler-dom): correctly stringify `0` and `false` in `v-html` (#15571)"
+    },
+    {
+      "sha": "c0a6d3f2bbf80cf930f4c837409dbee95a149271",
+      "url": "https://github.com/vuejs/core/commit/c0a6d3f2bbf80cf930f4c837409dbee95a149271",
+      "date": "2026-10-13T00:21:14Z",
+      "subject": "fix(runtime-dom): preserve v-show display for unchanged style strings (#15794)"
+    },
+    {
+      "sha": "7f688e84745558d95b836c0aac25c3ca3257e943",
+      "url": "https://github.com/vuejs/core/commit/7f688e84745558d95b836c0aac25c3ca3257e943",
+      "date": "2026-10-12T09:20:45Z",
+      "subject": "fix(hydration): observe children of a display: contents root in hydrateOnVisible (#15773)"
+    },
+    {
+      "sha": "b600466135e0910d142d14f56ffec933c1c420a2",
+      "url": "https://github.com/vuejs/core/commit/b600466135e0910d142d14f56ffec933c1c420a2",
+      "date": "2026-10-12T09:17:07Z",
+      "subject": "fix(reactivity): preserve shallow collection semantics (#15793)"
+    },
+    {
+      "sha": "7f9d45d15bd10b6b9b136eb2b3a8879b449fec0d",
+      "url": "https://github.com/vuejs/core/commit/7f9d45d15bd10b6b9b136eb2b3a8879b449fec0d",
+      "date": "2026-10-12T09:09:41Z",
+      "subject": "fix(reactivity): avoid mutating native array iterators (#15703)"
+    },
+    {
+      "sha": "702fa61be9344852989bcd178681adec13264469",
+      "url": "https://github.com/vuejs/core/commit/702fa61be9344852989bcd178681adec13264469",
+      "date": "2026-10-12T09:06:43Z",
+      "subject": "fix(runtime-core): detect new prop keys when comparing full props (#15634)"
+    },
+    {
+      "sha": "c11c5c8f07c8527b537b9ce6d801f80bbdd12129",
+      "url": "https://github.com/vuejs/core/commit/c11c5c8f07c8527b537b9ce6d801f80bbdd12129",
+      "date": "2026-10-12T09:01:14Z",
+      "subject": "fix(ssr): honor falsy vnode content overrides (#15769)"
+    },
+    {
+      "sha": "89cb2724bf3423fc38dca68af3139d736e6b4833",
+      "url": "https://github.com/vuejs/core/commit/89cb2724bf3423fc38dca68af3139d736e6b4833",
+      "date": "2026-10-12T08:58:12Z",
+      "subject": "fix(compiler-dom): inject transition persisted for v-show in production (#15783)"
+    },
+    {
+      "sha": "d3c6e02e7405b9dafa75b1007ca45fb376d45729",
+      "url": "https://github.com/vuejs/core/commit/d3c6e02e7405b9dafa75b1007ca45fb376d45729",
+      "date": "2026-10-12T08:57:34Z",
+      "subject": "fix(teleport): move targetStart and keep children before targetAnchor (#15818)"
+    }
+  ],
+  "default_sha": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c",
+  "root_and_selected_directory_paths": [
+    ".git-blame-ignore-revs",
+    ".github",
+    ".github/FUNDING.yml",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug_report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/bug-repro-guidelines.md",
+    ".github/commit-convention.md",
+    ".github/contributing.md",
+    ".github/git-branch-workflow.excalidraw",
+    ".github/git-branch-workflow.png",
+    ".github/issue-workflow.png",
+    ".github/maintenance.md",
+    ".github/renovate.json5",
+    ".github/workflows",
+    ".github/workflows/autofix.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/ecosystem-ci-trigger.yml",
+    ".github/workflows/lock-closed-issues.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/size-data.yml",
+    ".github/workflows/size-report.yml",
+    ".github/workflows/test.yml",
+    ".gitignore",
+    ".node-version",
+    ".prettierignore",
+    ".prettierrc",
+    ".vscode",
+    ".well-known",
+    "BACKERS.md",
+    "CHANGELOG.md",
+    "FUNDING.json",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "changelogs",
+    "eslint.config.js",
+    "netlify.toml",
+    "package.json",
+    "packages",
+    "packages-private",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "rollup.config.js",
+    "rollup.dts.config.js",
+    "scripts",
+    "tsconfig.build.json",
+    "tsconfig.json",
+    "vitest.config.ts"
+  ],
+  "workflow_paths": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/ecosystem-ci-trigger.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/test.yml",
+    ".github/workflows/autofix.yml",
+    ".github/workflows/lock-closed-issues.yml",
+    ".github/workflows/size-data.yml",
+    ".github/workflows/size-report.yml"
+  ],
+  "documents": [
+    {
+      "path": "CHANGELOG.md",
+      "sha": "a75009b42423d5a765b8e7e4a69935ff7a25492d",
+      "status": "inspected",
+      "url": "https://github.com/vuejs/core/blob/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c/CHANGELOG.md",
+      "lines": 1076,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [
+          195,
+          325,
+          381,
+          487,
+          488,
+          734,
+          751
+        ],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "1a2519dcbff3b5abdb98171b5684c61e986eef9d",
+      "status": "inspected",
+      "url": "https://github.com/vuejs/core/blob/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c/README.md",
+      "lines": 56,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          1
+        ],
+        "media": [
+          1,
+          17,
+          23,
+          48
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          48
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "4b1db5a20c6e2a8adceec8bb8ea4c5478ed872ba",
+      "status": "inspected",
+      "url": "https://github.com/vuejs/core/blob/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c/SECURITY.md",
+      "lines": 16,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          3
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "package.json",
+      "sha": "0526786fe1bec386b709c785c698f3bc890d0fd3",
+      "status": "inspected",
+      "url": "https://github.com/vuejs/core/blob/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c/package.json",
+      "lines": 118,
+      "signals": {
+        "tests": [
+          19,
+          20,
+          21,
+          24,
+          27,
+          28,
+          77,
+          78,
+          79,
+          116
+        ],
+        "lint": [
+          16,
+          17,
+          18,
+          49,
+          54,
+          57,
+          58,
+          79,
+          86,
+          87,
+          98,
+          114
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          35,
+          39,
+          44
+        ],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha": "95e0ca79c077abdb8f00e940c55c6c478240b395",
+      "status": "inspected",
+      "url": "https://github.com/vuejs/core/blob/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "lines": 74,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          31,
+          32
+        ],
+        "community": [
+          14
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "02f99c6bfbb53b5f6d040287dd4fb42e813ab23a",
+      "status": "inspected",
+      "url": "https://github.com/vuejs/core/blob/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 17,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          4,
+          10
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/contributing.md",
+      "sha": "960f171c6f7696a2c3e1682964c2a984ead72004",
+      "status": "inspected",
+      "url": "https://github.com/vuejs/core/blob/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c/.github/contributing.md",
+      "lines": 349,
+      "signals": {
+        "tests": [
+          94,
+          211,
+          217,
+          280,
+          320
+        ],
+        "lint": [
+          62,
+          95,
+          96,
+          103
+        ],
+        "generated_code": [
+          187
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [
+          349
+        ],
+        "theme_images": [],
+        "playground": [
+          199,
+          265
+        ],
+        "community": [
+          28,
+          349
+        ],
+        "story": [
+          36
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "ad1ec36f5d78b5a7d13f0c4b235897248cb5f2e6",
+      "status": "inspected",
+      "url": "https://github.com/vuejs/core/blob/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c/.github/workflows/ci.yml",
+      "lines": 51,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          17
+        ],
+        "pinned_actions": [
+          30,
+          35,
+          38
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ecosystem-ci-trigger.yml",
+      "sha": "70feed1463aeb1a2fa7987773d8a7e7d34dbef9a",
+      "status": "inspected",
+      "url": "https://github.com/vuejs/core/blob/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c/.github/workflows/ecosystem-ci-trigger.yml",
+      "lines": 95,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [
+          18,
+          53,
+          70
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha": "c43d7cdf6596f9f2ef32fdfee9cd7ae1e437a437",
+      "status": "inspected",
+      "url": "https://github.com/vuejs/core/blob/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c/.github/workflows/release.yml",
+      "lines": 57,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          17,
+          18,
+          19
+        ],
+        "pinned_actions": [
+          24,
+          29,
+          32,
+          50
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "sha": "10399410106b4b410c41be3c7f0dd2c65b304938",
+      "status": "inspected",
+      "url": "https://github.com/vuejs/core/blob/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c/.github/workflows/test.yml",
+      "lines": 128,
+      "signals": {
+        "tests": [],
+        "lint": [
+          118,
+          121
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          5
+        ],
+        "pinned_actions": [
+          14,
+          19,
+          22,
+          37,
+          42,
+          45,
+          62,
+          67,
+          73,
+          79,
+          82,
+          102
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/autofix.yml",
+      "sha": "59e876d8b7f2b145fe5a0c91ac5da0c46c0c7124",
+      "status": "inspected",
+      "url": "https://github.com/vuejs/core/blob/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c/.github/workflows/autofix.yml",
+      "lines": 41,
+      "signals": {
+        "tests": [],
+        "lint": [
+          35,
+          38
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10
+        ],
+        "pinned_actions": [
+          19,
+          24,
+          27,
+          41
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/lock-closed-issues.yml",
+      "sha": "3334cfe67d4f44ab159abf808145b8a35b2b1945",
+      "status": "inspected",
+      "url": "https://github.com/vuejs/core/blob/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c/.github/workflows/lock-closed-issues.yml",
+      "lines": 20,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [
+          15
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/size-data.yml",
+      "sha": "61edeb0072584320bf85a540a2e6b8b26cc44af8",
+      "status": "inspected",
+      "url": "https://github.com/vuejs/core/blob/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c/.github/workflows/size-data.yml",
+      "lines": 57,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          17
+        ],
+        "pinned_actions": [
+          29,
+          34,
+          37,
+          54
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/size-report.yml",
+      "sha": "66b4e5d62716ded66e16783d8f99cbd5144df43d",
+      "status": "inspected",
+      "url": "https://github.com/vuejs/core/blob/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c/.github/workflows/size-report.yml",
+      "lines": 89,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9
+        ],
+        "pinned_actions": [
+          25,
+          30,
+          33,
+          42,
+          51,
+          57,
+          62,
+          76,
+          82
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 15724,
+      "title": "fix(compiler-core): parenthesise v-for key in v-memo cache guard",
+      "url": "https://github.com/vuejs/core/pull/15724",
+      "merged_at": "2026-10-13T01:17:02Z",
+      "merge_commit_sha": "d084b904903a7710ea19b7256b7c681e838eb63e",
+      "files": [
+        "packages/compiler-core/__tests__/transforms/__snapshots__/vMemo.spec.ts.snap",
+        "packages/compiler-core/__tests__/transforms/vMemo.spec.ts",
+        "packages/compiler-core/src/transforms/vFor.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "packages/compiler-core/__tests__/transforms/__snapshots__/vMemo.spec.ts.snap",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/vuejs/core/blob/2bbeeccade9b0e250b98eb63b70a11803512cf25/packages%2Fcompiler-core%2F__tests__%2Ftransforms%2F__snapshots__%2FvMemo.spec.ts.snap"
+        },
+        {
+          "filename": "packages/compiler-core/__tests__/transforms/vMemo.spec.ts",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 0,
+          "blob_url": "https://github.com/vuejs/core/blob/2bbeeccade9b0e250b98eb63b70a11803512cf25/packages%2Fcompiler-core%2F__tests__%2Ftransforms%2FvMemo.spec.ts"
+        },
+        {
+          "filename": "packages/compiler-core/src/transforms/vFor.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/vuejs/core/blob/2bbeeccade9b0e250b98eb63b70a11803512cf25/packages%2Fcompiler-core%2Fsrc%2Ftransforms%2FvFor.ts"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38338552612,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/38338552612",
+          "head_sha": "d084b904903a7710ea19b7256b7c681e838eb63e"
+        },
+        {
+          "id": 38337423578,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/38337423578",
+          "head_sha": "d084b904903a7710ea19b7256b7c681e838eb63e"
+        },
+        {
+          "id": 38333748796,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/38333748796",
+          "head_sha": "d084b904903a7710ea19b7256b7c681e838eb63e"
+        },
+        {
+          "id": 38333709817,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/38333709817",
+          "head_sha": "d084b904903a7710ea19b7256b7c681e838eb63e"
+        },
+        {
+          "id": 38333599356,
+          "name": "size report",
+          "path": ".github/workflows/size-report.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/38333599356",
+          "head_sha": "d084b904903a7710ea19b7256b7c681e838eb63e"
+        },
+        {
+          "id": 38333539327,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/38333539327",
+          "head_sha": "d084b904903a7710ea19b7256b7c681e838eb63e"
+        },
+        {
+          "id": 38333539392,
+          "name": "size report",
+          "path": ".github/workflows/size-report.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/38333539392",
+          "head_sha": "d084b904903a7710ea19b7256b7c681e838eb63e"
+        },
+        {
+          "id": 38333037139,
+          "name": "size report",
+          "path": ".github/workflows/size-report.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/38333037139",
+          "head_sha": "d084b904903a7710ea19b7256b7c681e838eb63e"
+        },
+        {
+          "id": 38331434269,
+          "name": "size report",
+          "path": ".github/workflows/size-report.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/38331434269",
+          "head_sha": "d084b904903a7710ea19b7256b7c681e838eb63e"
+        },
+        {
+          "id": 38331401892,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/38331401892",
+          "head_sha": "d084b904903a7710ea19b7256b7c681e838eb63e"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 36689612332,
+          "name": "size data",
+          "path": ".github/workflows/size-data.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/36689612332",
+          "head_sha": "2bbeeccade9b0e250b98eb63b70a11803512cf25"
+        },
+        {
+          "id": 36689612395,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/36689612395",
+          "head_sha": "2bbeeccade9b0e250b98eb63b70a11803512cf25"
+        },
+        {
+          "id": 36689612566,
+          "name": "autofix.ci",
+          "path": ".github/workflows/autofix.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/36689612566",
+          "head_sha": "2bbeeccade9b0e250b98eb63b70a11803512cf25"
+        }
+      ]
+    },
+    {
+      "number": 10011,
+      "title": "fix: avoid hydration mismatch warning for styles with different order",
+      "url": "https://github.com/vuejs/core/pull/10011",
+      "merged_at": "2024-01-08T08:36:27Z",
+      "merge_commit_sha": "2701355e8eb07ab664e398d9fc05d6c4e2e9b20e",
+      "files": [
+        "packages/runtime-core/__tests__/hydration.spec.ts",
+        "packages/runtime-core/src/hydration.ts",
+        "packages/runtime-dom/src/directives/vShow.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "packages/runtime-core/__tests__/hydration.spec.ts",
+          "status": "modified",
+          "additions": 31,
+          "deletions": 1,
+          "blob_url": "https://github.com/vuejs/core/blob/bac2365c8505f061dc4fd9fa34ee18da36bc0f9a/packages%2Fruntime-core%2F__tests__%2Fhydration.spec.ts"
+        },
+        {
+          "filename": "packages/runtime-core/src/hydration.ts",
+          "status": "modified",
+          "additions": 56,
+          "deletions": 9,
+          "blob_url": "https://github.com/vuejs/core/blob/bac2365c8505f061dc4fd9fa34ee18da36bc0f9a/packages%2Fruntime-core%2Fsrc%2Fhydration.ts"
+        },
+        {
+          "filename": "packages/runtime-dom/src/directives/vShow.ts",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 1,
+          "blob_url": "https://github.com/vuejs/core/blob/bac2365c8505f061dc4fd9fa34ee18da36bc0f9a/packages%2Fruntime-dom%2Fsrc%2Fdirectives%2FvShow.ts"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [],
+      "head_commit_workflow_runs": []
+    },
+    {
+      "number": 15857,
+      "title": "fix(server-renderer): propagate async setup errors",
+      "url": "https://github.com/vuejs/core/pull/15857",
+      "merged_at": "2026-10-13T07:35:45Z",
+      "merge_commit_sha": "693037486f38b3d3acf4cdf7b9850917c44cf9cb",
+      "files": [
+        "packages/server-renderer/__tests__/render.spec.ts",
+        "packages/server-renderer/src/render.ts",
+        "packages/server-renderer/src/renderToStream.ts",
+        "packages/server-renderer/src/renderToString.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "packages/server-renderer/__tests__/render.spec.ts",
+          "status": "modified",
+          "additions": 254,
+          "deletions": 3,
+          "blob_url": "https://github.com/vuejs/core/blob/dc3833e963ab48bd627609fc62c60f13d447a0a2/packages%2Fserver-renderer%2F__tests__%2Frender.spec.ts"
+        },
+        {
+          "filename": "packages/server-renderer/src/render.ts",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 8,
+          "blob_url": "https://github.com/vuejs/core/blob/dc3833e963ab48bd627609fc62c60f13d447a0a2/packages%2Fserver-renderer%2Fsrc%2Frender.ts"
+        },
+        {
+          "filename": "packages/server-renderer/src/renderToStream.ts",
+          "status": "modified",
+          "additions": 17,
+          "deletions": 10,
+          "blob_url": "https://github.com/vuejs/core/blob/dc3833e963ab48bd627609fc62c60f13d447a0a2/packages%2Fserver-renderer%2Fsrc%2FrenderToStream.ts"
+        },
+        {
+          "filename": "packages/server-renderer/src/renderToString.ts",
+          "status": "modified",
+          "additions": 51,
+          "deletions": 10,
+          "blob_url": "https://github.com/vuejs/core/blob/dc3833e963ab48bd627609fc62c60f13d447a0a2/packages%2Fserver-renderer%2Fsrc%2FrenderToString.ts"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38363709537,
+          "name": "size report",
+          "path": ".github/workflows/size-report.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/38363709537",
+          "head_sha": "693037486f38b3d3acf4cdf7b9850917c44cf9cb"
+        },
+        {
+          "id": 38363654151,
+          "name": "size data",
+          "path": ".github/workflows/size-data.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/38363654151",
+          "head_sha": "693037486f38b3d3acf4cdf7b9850917c44cf9cb"
+        },
+        {
+          "id": 38363654389,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/38363654389",
+          "head_sha": "693037486f38b3d3acf4cdf7b9850917c44cf9cb"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38359226694,
+          "name": "size data",
+          "path": ".github/workflows/size-data.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/38359226694",
+          "head_sha": "dc3833e963ab48bd627609fc62c60f13d447a0a2"
+        },
+        {
+          "id": 38359226595,
+          "name": "autofix.ci",
+          "path": ".github/workflows/autofix.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/38359226595",
+          "head_sha": "dc3833e963ab48bd627609fc62c60f13d447a0a2"
+        },
+        {
+          "id": 38359226707,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/38359226707",
+          "head_sha": "dc3833e963ab48bd627609fc62c60f13d447a0a2"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v3.5.44",
+      "url": "https://github.com/vuejs/core/releases/tag/v3.5.44",
+      "published_at": "2026-10-13T07:43:25Z",
+      "target_commitish": "main",
+      "commit_sha": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 39036997590,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/39036997590",
+          "head_sha": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c"
+        },
+        {
+          "id": 39036981215,
+          "name": "size report",
+          "path": ".github/workflows/size-report.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/39036981215",
+          "head_sha": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c"
+        },
+        {
+          "id": 39036961247,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/39036961247",
+          "head_sha": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c"
+        },
+        {
+          "id": 39027545780,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/39027545780",
+          "head_sha": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c"
+        },
+        {
+          "id": 39022738150,
+          "name": "size report",
+          "path": ".github/workflows/size-report.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/39022738150",
+          "head_sha": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c"
+        },
+        {
+          "id": 39022672593,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/39022672593",
+          "head_sha": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c"
+        },
+        {
+          "id": 39022629863,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/39022629863",
+          "head_sha": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c"
+        },
+        {
+          "id": 39011570767,
+          "name": "size report",
+          "path": ".github/workflows/size-report.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/39011570767",
+          "head_sha": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c"
+        },
+        {
+          "id": 39010840316,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/39010840316",
+          "head_sha": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c"
+        },
+        {
+          "id": 39010832454,
+          "name": "size report",
+          "path": ".github/workflows/size-report.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/39010832454",
+          "head_sha": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c"
+        }
+      ]
+    },
+    {
+      "tag": "v3.5.43",
+      "url": "https://github.com/vuejs/core/releases/tag/v3.5.43",
+      "published_at": "2026-09-17T08:36:57Z",
+      "target_commitish": "main",
+      "commit_sha": "5be58b4c475c1d14b4abacbfeda610394a0ee4e5",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 35292441542,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/35292441542",
+          "head_sha": "5be58b4c475c1d14b4abacbfeda610394a0ee4e5"
+        },
+        {
+          "id": 35292439664,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/35292439664",
+          "head_sha": "5be58b4c475c1d14b4abacbfeda610394a0ee4e5"
+        },
+        {
+          "id": 35292348107,
+          "name": "Lock Closed Issues",
+          "path": ".github/workflows/lock-closed-issues.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/35292348107",
+          "head_sha": "5be58b4c475c1d14b4abacbfeda610394a0ee4e5"
+        },
+        {
+          "id": 35292304606,
+          "name": "size report",
+          "path": ".github/workflows/size-report.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/35292304606",
+          "head_sha": "5be58b4c475c1d14b4abacbfeda610394a0ee4e5"
+        },
+        {
+          "id": 35292020238,
+          "name": "size report",
+          "path": ".github/workflows/size-report.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/35292020238",
+          "head_sha": "5be58b4c475c1d14b4abacbfeda610394a0ee4e5"
+        },
+        {
+          "id": 35291765558,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/35291765558",
+          "head_sha": "5be58b4c475c1d14b4abacbfeda610394a0ee4e5"
+        },
+        {
+          "id": 35291727340,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/35291727340",
+          "head_sha": "5be58b4c475c1d14b4abacbfeda610394a0ee4e5"
+        },
+        {
+          "id": 35290805065,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/35290805065",
+          "head_sha": "5be58b4c475c1d14b4abacbfeda610394a0ee4e5"
+        },
+        {
+          "id": 35290438481,
+          "name": "Auto close issues with \"can't reproduce\" label",
+          "path": ".github/workflows/close-cant-reproduce-issues.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/35290438481",
+          "head_sha": "5be58b4c475c1d14b4abacbfeda610394a0ee4e5"
+        },
+        {
+          "id": 35288378985,
+          "name": "size report",
+          "path": ".github/workflows/size-report.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/35288378985",
+          "head_sha": "5be58b4c475c1d14b4abacbfeda610394a0ee4e5"
+        }
+      ]
+    },
+    {
+      "tag": "v3.5.42",
+      "url": "https://github.com/vuejs/core/releases/tag/v3.5.42",
+      "published_at": "2026-08-27T05:47:42Z",
+      "target_commitish": "main",
+      "commit_sha": "d63616ca17de965ed32dcb449a4c5cd9982f15d2",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 33700326164,
+          "name": "size report",
+          "path": ".github/workflows/size-report.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/33700326164",
+          "head_sha": "d63616ca17de965ed32dcb449a4c5cd9982f15d2"
+        },
+        {
+          "id": 33698821837,
+          "name": "Auto close issues with \"can't reproduce\" label",
+          "path": ".github/workflows/close-cant-reproduce-issues.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/vuejs/core/actions/runs/33698821837",
+          "head_sha": "d63616ca17de965ed32dcb449a4c5cd9982f15d2"
+        },
+        {
+          "id": 33695349409,
+          "name": "size report",
+          "path": ".github/workflows/size-report.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/33695349409",
+          "head_sha": "d63616ca17de965ed32dcb449a4c5cd9982f15d2"
+        },
+        {
+          "id": 33695292259,
+          "name": "size report",
+          "path": ".github/workflows/size-report.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/33695292259",
+          "head_sha": "d63616ca17de965ed32dcb449a4c5cd9982f15d2"
+        },
+        {
+          "id": 33695259496,
+          "name": "size report",
+          "path": ".github/workflows/size-report.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/33695259496",
+          "head_sha": "d63616ca17de965ed32dcb449a4c5cd9982f15d2"
+        },
+        {
+          "id": 33674545668,
+          "name": "npm_and_yarn in /. for @humanfs/node - Update #1552933971",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/vuejs/core/actions/runs/33674545668",
+          "head_sha": "d63616ca17de965ed32dcb449a4c5cd9982f15d2"
+        },
+        {
+          "id": 33662430043,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/33662430043",
+          "head_sha": "d63616ca17de965ed32dcb449a4c5cd9982f15d2"
+        },
+        {
+          "id": 33662380315,
+          "name": "size report",
+          "path": ".github/workflows/size-report.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vuejs/core/actions/runs/33662380315",
+          "head_sha": "d63616ca17de965ed32dcb449a4c5cd9982f15d2"
+        },
+        {
+          "id": 33662313317,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/33662313317",
+          "head_sha": "d63616ca17de965ed32dcb449a4c5cd9982f15d2"
+        },
+        {
+          "id": 33625055408,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vuejs/core/actions/runs/33625055408",
+          "head_sha": "d63616ca17de965ed32dcb449a4c5cd9982f15d2"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v3.6.0-rc.12",
+      "sha": "20029bc7dc57b17563ac0318586faf409f8c6bb3"
+    },
+    {
+      "name": "v3.6.0-rc.11",
+      "sha": "b55f3b92a185e87680ca7f69252451964be08b00"
+    },
+    {
+      "name": "v3.6.0-rc.10",
+      "sha": "444eef4bcba979eab7b7460fc92abdc6c93bef4f"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:05.576323+00:00",
+  "source_times": {
+    "/repos/vuejs/core": "2026-10-17T16:11:04.985368+00:00",
+    "/repos/vuejs/core/commits?sha=main&per_page=20": "2026-10-17T16:11:06.841099+00:00",
+    "/repos/vuejs/core/git/trees/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c": "2026-10-17T16:11:08.191105+00:00",
+    "/repos/vuejs/core/git/trees/4a69b5aef7017d93e467e2525799a1fd974b137e": "2026-10-17T16:11:10.081844+00:00",
+    "/repos/vuejs/core/git/trees/eca32794f8b6da7bb0e192a23cd0e5d4bfc8ff52": "2026-10-17T16:11:11.564577+00:00",
+    "/repos/vuejs/core/git/trees/cbf86329ca4789343ef943b02b494134a7b88905": "2026-10-17T16:11:12.947011+00:00",
+    "/repos/vuejs/core/git/blobs/a75009b42423d5a765b8e7e4a69935ff7a25492d": "2026-10-17T16:11:15.180987+00:00",
+    "/repos/vuejs/core/git/blobs/1a2519dcbff3b5abdb98171b5684c61e986eef9d": "2026-10-17T16:11:16.720279+00:00",
+    "/repos/vuejs/core/git/blobs/4b1db5a20c6e2a8adceec8bb8ea4c5478ed872ba": "2026-10-17T16:11:19.461171+00:00",
+    "/repos/vuejs/core/git/blobs/0526786fe1bec386b709c785c698f3bc890d0fd3": "2026-10-17T16:11:20.854071+00:00",
+    "/repos/vuejs/core/git/blobs/95e0ca79c077abdb8f00e940c55c6c478240b395": "2026-10-17T16:11:22.242843+00:00",
+    "/repos/vuejs/core/git/blobs/02f99c6bfbb53b5f6d040287dd4fb42e813ab23a": "2026-10-17T16:11:23.617687+00:00",
+    "/repos/vuejs/core/git/blobs/960f171c6f7696a2c3e1682964c2a984ead72004": "2026-10-17T16:11:25.217717+00:00",
+    "/repos/vuejs/core/git/blobs/ad1ec36f5d78b5a7d13f0c4b235897248cb5f2e6": "2026-10-17T16:11:26.552496+00:00",
+    "/repos/vuejs/core/git/blobs/70feed1463aeb1a2fa7987773d8a7e7d34dbef9a": "2026-10-17T16:11:27.889454+00:00",
+    "/repos/vuejs/core/git/blobs/c43d7cdf6596f9f2ef32fdfee9cd7ae1e437a437": "2026-10-17T16:11:29.327711+00:00",
+    "/repos/vuejs/core/git/blobs/10399410106b4b410c41be3c7f0dd2c65b304938": "2026-10-17T16:11:31.085025+00:00",
+    "/repos/vuejs/core/git/blobs/59e876d8b7f2b145fe5a0c91ac5da0c46c0c7124": "2026-10-17T16:11:32.425852+00:00",
+    "/repos/vuejs/core/git/blobs/3334cfe67d4f44ab159abf808145b8a35b2b1945": "2026-10-17T16:11:33.780658+00:00",
+    "/repos/vuejs/core/git/blobs/61edeb0072584320bf85a540a2e6b8b26cc44af8": "2026-10-17T16:11:35.193588+00:00",
+    "/repos/vuejs/core/git/blobs/66b4e5d62716ded66e16783d8f99cbd5144df43d": "2026-10-17T16:11:36.580639+00:00",
+    "/repos/vuejs/core/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:11:40.091378+00:00",
+    "/repos/vuejs/core/pulls/15724/files?per_page=100": "2026-10-17T16:11:41.622319+00:00",
+    "/repos/vuejs/core/pulls/15724/reviews?per_page=100": "2026-10-17T16:11:43.040152+00:00",
+    "/repos/vuejs/core/actions/runs?head_sha=d084b904903a7710ea19b7256b7c681e838eb63e&per_page=10": "2026-10-17T16:11:46.185277+00:00",
+    "/repos/vuejs/core/actions/runs?head_sha=2bbeeccade9b0e250b98eb63b70a11803512cf25&per_page=10": "2026-10-17T16:11:47.849826+00:00",
+    "/repos/vuejs/core/pulls/10011/files?per_page=100": "2026-10-17T16:11:49.354496+00:00",
+    "/repos/vuejs/core/pulls/10011/reviews?per_page=100": "2026-10-17T16:11:50.872810+00:00",
+    "/repos/vuejs/core/actions/runs?head_sha=2701355e8eb07ab664e398d9fc05d6c4e2e9b20e&per_page=10": "2026-10-17T16:11:53.572748+00:00",
+    "/repos/vuejs/core/actions/runs?head_sha=bac2365c8505f061dc4fd9fa34ee18da36bc0f9a&per_page=10": "2026-10-17T16:11:55.021215+00:00",
+    "/repos/vuejs/core/pulls/15857/files?per_page=100": "2026-10-17T16:11:56.777411+00:00",
+    "/repos/vuejs/core/pulls/15857/reviews?per_page=100": "2026-10-17T16:11:58.216107+00:00",
+    "/repos/vuejs/core/actions/runs?head_sha=693037486f38b3d3acf4cdf7b9850917c44cf9cb&per_page=10": "2026-10-17T16:12:00.042894+00:00",
+    "/repos/vuejs/core/actions/runs?head_sha=dc3833e963ab48bd627609fc62c60f13d447a0a2&per_page=10": "2026-10-17T16:12:01.857616+00:00",
+    "/repos/vuejs/core/releases?per_page=20&page=1": "2026-10-17T16:17:05.571592+00:00",
+    "/repos/vuejs/core/commits/v3.5.44": "2026-10-17T16:12:05.956389+00:00",
+    "/repos/vuejs/core/actions/runs?head_sha=bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c&per_page=10": "2026-10-17T16:12:08.270381+00:00",
+    "/repos/vuejs/core/commits/v3.5.43": "2026-10-17T16:12:09.921680+00:00",
+    "/repos/vuejs/core/actions/runs?head_sha=5be58b4c475c1d14b4abacbfeda610394a0ee4e5&per_page=10": "2026-10-17T16:12:12.162634+00:00",
+    "/repos/vuejs/core/commits/v3.5.42": "2026-10-17T16:12:14.698342+00:00",
+    "/repos/vuejs/core/actions/runs?head_sha=d63616ca17de965ed32dcb449a4c5cd9982f15d2&per_page=10": "2026-10-17T16:12:18.770047+00:00",
+    "/repos/vuejs/core/tags?per_page=3": "2026-10-17T16:12:20.226708+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:05.571592+00:00",
+  "status": "collected"
+}

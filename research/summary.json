@@ -1,0 +1,150 @@
+{
+  "records": 60,
+  "categories": {
+    "sdk": {
+      "n": 10,
+      "features": {
+        "tests": 6,
+        "lint": 8,
+        "generated_code": 10,
+        "release_automation": 9,
+        "permissions": 10,
+        "pinned_actions": 10,
+        "conventional_commits": 4,
+        "security": 10,
+        "star_history": 0,
+        "badges": 8,
+        "media": 10,
+        "theme_images": 0,
+        "playground": 1,
+        "community": 3,
+        "story": 9
+      }
+    },
+    "agents": {
+      "n": 10,
+      "features": {
+        "tests": 7,
+        "lint": 7,
+        "generated_code": 3,
+        "release_automation": 6,
+        "permissions": 9,
+        "pinned_actions": 9,
+        "conventional_commits": 2,
+        "security": 7,
+        "star_history": 0,
+        "badges": 5,
+        "media": 7,
+        "theme_images": 0,
+        "playground": 1,
+        "community": 6,
+        "story": 5
+      }
+    },
+    "ml": {
+      "n": 10,
+      "features": {
+        "tests": 9,
+        "lint": 8,
+        "generated_code": 7,
+        "release_automation": 3,
+        "permissions": 10,
+        "pinned_actions": 10,
+        "conventional_commits": 0,
+        "security": 9,
+        "star_history": 0,
+        "badges": 7,
+        "media": 9,
+        "theme_images": 4,
+        "playground": 4,
+        "community": 9,
+        "story": 5
+      }
+    },
+    "frameworks": {
+      "n": 10,
+      "features": {
+        "tests": 10,
+        "lint": 10,
+        "generated_code": 7,
+        "release_automation": 6,
+        "permissions": 10,
+        "pinned_actions": 10,
+        "conventional_commits": 2,
+        "security": 6,
+        "star_history": 0,
+        "badges": 7,
+        "media": 7,
+        "theme_images": 3,
+        "playground": 3,
+        "community": 8,
+        "story": 6
+      }
+    },
+    "infrastructure": {
+      "n": 10,
+      "features": {
+        "tests": 7,
+        "lint": 4,
+        "generated_code": 7,
+        "release_automation": 2,
+        "permissions": 8,
+        "pinned_actions": 8,
+        "conventional_commits": 1,
+        "security": 9,
+        "star_history": 0,
+        "badges": 9,
+        "media": 10,
+        "theme_images": 3,
+        "playground": 3,
+        "community": 10,
+        "story": 9
+      }
+    },
+    "tools": {
+      "n": 10,
+      "features": {
+        "tests": 8,
+        "lint": 8,
+        "generated_code": 8,
+        "release_automation": 5,
+        "permissions": 9,
+        "pinned_actions": 8,
+        "conventional_commits": 2,
+        "security": 8,
+        "star_history": 0,
+        "badges": 8,
+        "media": 10,
+        "theme_images": 5,
+        "playground": 5,
+        "community": 7,
+        "story": 9
+      }
+    }
+  },
+  "features": {
+    "tests": 47,
+    "lint": 45,
+    "generated_code": 42,
+    "release_automation": 31,
+    "permissions": 56,
+    "pinned_actions": 55,
+    "conventional_commits": 11,
+    "security": 49,
+    "star_history": 0,
+    "badges": 44,
+    "media": 53,
+    "theme_images": 15,
+    "playground": 17,
+    "community": 43,
+    "story": 43
+  },
+  "coverage": {
+    "documents": 1333,
+    "commits": 1200,
+    "pull_requests": 172,
+    "releases": 160,
+    "errors": 0,
+    "workflow_runs": 3033
+  }
+}

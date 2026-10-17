@@ -1,0 +1,1880 @@
+{
+  "requested_repository": "openai/openai-agents-js",
+  "category": "agents",
+  "collected_at": "2026-10-17T16:06:09.035237+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "openai/openai-agents-js",
+  "metadata": {
+    "html_url": "https://github.com/openai/openai-agents-js",
+    "description": "A lightweight, powerful framework for multi-agent workflows and voice agents",
+    "homepage": "https://openai.github.io/openai-agents-js/",
+    "language": "TypeScript",
+    "stargazers_count": 3923,
+    "forks_count": 987,
+    "open_issues_count": 12,
+    "pushed_at": "2026-10-16T01:08:12Z",
+    "created_at": "2025-05-31T00:08:49Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [
+      "agents",
+      "openai",
+      "openai-api",
+      "realtime-api",
+      "typescript"
+    ],
+    "owner": {
+      "login": "openai",
+      "type": "Organization",
+      "html_url": "https://github.com/openai"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "9687b544c8c873080e6ff7e7d294c0b353cd9ab6",
+      "url": "https://github.com/openai/openai-agents-js/commit/9687b544c8c873080e6ff7e7d294c0b353cd9ab6",
+      "date": "2026-10-16T01:08:09Z",
+      "subject": "fix(realtime): reject WebRTC startup on server errors (#2076)"
+    },
+    {
+      "sha": "976579eb0785337b4d433afb944781f3901738a8",
+      "url": "https://github.com/openai/openai-agents-js/commit/976579eb0785337b4d433afb944781f3901738a8",
+      "date": "2026-10-15T19:20:43Z",
+      "subject": "fix: recognize GPT-6 models in sandbox compaction thresholds (#2074)"
+    },
+    {
+      "sha": "980423f3d90d2b1bd8e4b875330e719061c9bfa2",
+      "url": "https://github.com/openai/openai-agents-js/commit/980423f3d90d2b1bd8e4b875330e719061c9bfa2",
+      "date": "2026-10-15T17:34:45Z",
+      "subject": "fix: preserve Twilio session audio defaults (#2073)"
+    },
+    {
+      "sha": "ef6985ac38b70b5c2191feb9a28ecd954bb3aee9",
+      "url": "https://github.com/openai/openai-agents-js/commit/ef6985ac38b70b5c2191feb9a28ecd954bb3aee9",
+      "date": "2026-10-15T17:26:13Z",
+      "subject": "docs(sandbox): remove Runloop provider guidance (#2069)"
+    },
+    {
+      "sha": "7b054701821ff71854d9f7fecaf39578d7e0a448",
+      "url": "https://github.com/openai/openai-agents-js/commit/7b054701821ff71854d9f7fecaf39578d7e0a448",
+      "date": "2026-10-15T17:18:47Z",
+      "subject": "feat(sandbox): remove Runloop provider (#2070)"
+    },
+    {
+      "sha": "89a9ddf1e241e75f2e0ad4c15d89de9e215ebac6",
+      "url": "https://github.com/openai/openai-agents-js/commit/89a9ddf1e241e75f2e0ad4c15d89de9e215ebac6",
+      "date": "2026-10-09T23:59:42Z",
+      "subject": "fix: prevent Dependabot from adopting the parent pnpm workspace (#2060)"
+    },
+    {
+      "sha": "b4370e20d2c905dd9a581ad90dd0dd6d673c6fa8",
+      "url": "https://github.com/openai/openai-agents-js/commit/b4370e20d2c905dd9a581ad90dd0dd6d673c6fa8",
+      "date": "2026-10-09T23:34:20Z",
+      "subject": "ci: prefetch the Docker test image from ECR Public (#2062)"
+    },
+    {
+      "sha": "4521cf545ce9f66ac1dd92a1b61ad91be1ca7d08",
+      "url": "https://github.com/openai/openai-agents-js/commit/4521cf545ce9f66ac1dd92a1b61ad91be1ca7d08",
+      "date": "2026-10-09T22:41:08Z",
+      "subject": "fix(deps): refresh 13 compatible workspace dependencies (#2054)"
+    },
+    {
+      "sha": "283f6e78c249d35e8b49302ec747e7e9e65a57b3",
+      "url": "https://github.com/openai/openai-agents-js/commit/283f6e78c249d35e8b49302ec747e7e9e65a57b3",
+      "date": "2026-10-09T22:31:21Z",
+      "subject": "fix(deps): bump the integration-minor-patch group across 8 directories with 14 updates (#2059)"
+    },
+    {
+      "sha": "0712e8e8ee40aa00a80f5ebf782e7cc85394d494",
+      "url": "https://github.com/openai/openai-agents-js/commit/0712e8e8ee40aa00a80f5ebf782e7cc85394d494",
+      "date": "2026-10-09T22:15:55Z",
+      "subject": "fix(deps): bump @ai-sdk/openai from 3.0.109 to 4.0.83 (#2057)"
+    },
+    {
+      "sha": "0dd1ef89470c5ec3a98275c5a1f154a332c24b72",
+      "url": "https://github.com/openai/openai-agents-js/commit/0dd1ef89470c5ec3a98275c5a1f154a332c24b72",
+      "date": "2026-10-09T22:15:51Z",
+      "subject": "fix(deps-dev): bump vite from 6.4.3 to 8.3.2 (#2055)"
+    },
+    {
+      "sha": "988f2b92421b3eeee2513dba9282b2380102e301",
+      "url": "https://github.com/openai/openai-agents-js/commit/988f2b92421b3eeee2513dba9282b2380102e301",
+      "date": "2026-10-09T20:50:13Z",
+      "subject": "fix(deps): bump lucide-react from 0.515.0 to 1.50.0 (#2058)"
+    },
+    {
+      "sha": "9d63cf0bdf53e8795c2cbeaa40a0b0c1120eeed9",
+      "url": "https://github.com/openai/openai-agents-js/commit/9d63cf0bdf53e8795c2cbeaa40a0b0c1120eeed9",
+      "date": "2026-10-09T20:48:08Z",
+      "subject": "fix(deps): bump fastify-raw-body from 5.0.0 to 6.0.1 (#2056)"
+    },
+    {
+      "sha": "ffcba52172f6d28211f3440144815d09bf352d09",
+      "url": "https://github.com/openai/openai-agents-js/commit/ffcba52172f6d28211f3440144815d09bf352d09",
+      "date": "2026-10-09T20:31:21Z",
+      "subject": "fix: keep Dependabot registry configuration credential-free (#2053)"
+    },
+    {
+      "sha": "12e251c6dbe6e1fce663d8086dc4f06764b5b9d2",
+      "url": "https://github.com/openai/openai-agents-js/commit/12e251c6dbe6e1fce663d8086dc4f06764b5b9d2",
+      "date": "2026-10-09T19:12:35Z",
+      "subject": "ci: cover independent integration fixtures with Dependabot (#2052)"
+    },
+    {
+      "sha": "b3d09bf7666a45550fa13a7e79c4d6507b983fa3",
+      "url": "https://github.com/openai/openai-agents-js/commit/b3d09bf7666a45550fa13a7e79c4d6507b983fa3",
+      "date": "2026-10-09T18:57:02Z",
+      "subject": "ci: use the SDK app for Changesets release PRs (#2051)"
+    },
+    {
+      "sha": "e854978a77ba84e64e4c2a85dd857f7f7534c2f7",
+      "url": "https://github.com/openai/openai-agents-js/commit/e854978a77ba84e64e4c2a85dd857f7f7534c2f7",
+      "date": "2026-10-09T14:55:04Z",
+      "subject": "fix(deps): bump the npm_and_yarn group across 3 directories with 1 update (#2050)"
+    },
+    {
+      "sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607",
+      "url": "https://github.com/openai/openai-agents-js/commit/33e2741be9bb52c1d96a8b4dac0c68e46297b607",
+      "date": "2026-10-08T22:54:04Z",
+      "subject": "chore: update versions (#2033)"
+    },
+    {
+      "sha": "05241c7aa3d5629acc7407dd8ee1105637fe0369",
+      "url": "https://github.com/openai/openai-agents-js/commit/05241c7aa3d5629acc7407dd8ee1105637fe0369",
+      "date": "2026-10-07T21:22:57Z",
+      "subject": "fix: separate hosted MCP discovery from user namespaces (#2046)"
+    },
+    {
+      "sha": "413768062fcee835becc2565ffa15323aab418e8",
+      "url": "https://github.com/openai/openai-agents-js/commit/413768062fcee835becc2565ffa15323aab418e8",
+      "date": "2026-10-07T16:30:32Z",
+      "subject": "fix: recognize namespace-shaped hosted MCP discovery (#2045)"
+    }
+  ],
+  "default_sha": "9687b544c8c873080e6ff7e7d294c0b353cd9ab6",
+  "root_and_selected_directory_paths": [
+    ".agents",
+    ".changeset",
+    ".gitattributes",
+    ".github",
+    ".github/CODEOWNERS",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug_report.md",
+    ".github/ISSUE_TEMPLATE/feature_request.md",
+    ".github/ISSUE_TEMPLATE/model_provider.md",
+    ".github/ISSUE_TEMPLATE/question.md",
+    ".github/PULL_REQUEST_TEMPLATE",
+    ".github/PULL_REQUEST_TEMPLATE/pull_request_template.md",
+    ".github/codex",
+    ".github/dependabot.yml",
+    ".github/workflows",
+    ".github/workflows/changeset.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/docs.yml",
+    ".github/workflows/issues.yml",
+    ".github/workflows/release-tag.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/repo-skills.yml",
+    ".github/workflows/test.yml",
+    ".gitignore",
+    ".husky",
+    ".prettierignore",
+    ".prettierrc",
+    ".vscode",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "PLANS.md",
+    "README.md",
+    "SECURITY.md",
+    "docs",
+    "docs/.gitignore",
+    "docs/README.md",
+    "docs/astro.config.mjs",
+    "docs/package.json",
+    "docs/public",
+    "docs/src",
+    "docs/tailwind.config.mjs",
+    "docs/tsconfig.json",
+    "docs/tsconfig.scripts.json",
+    "eslint.config.mjs",
+    "examples",
+    "helpers",
+    "integration-tests",
+    "package.json",
+    "packages",
+    "patches",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "scripts",
+    "tsc-multi.json",
+    "tsconfig.examples.json",
+    "tsconfig.json",
+    "tsconfig.test.json",
+    "verdaccio-config.yml",
+    "vitest.config.ts",
+    "vitest.integration.config.ts"
+  ],
+  "workflow_paths": [
+    ".github/workflows/release-tag.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/test.yml",
+    ".github/workflows/changeset.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/docs.yml",
+    ".github/workflows/issues.yml",
+    ".github/workflows/repo-skills.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "151f39d0c3644be427d7e785d2d23c4486a52a0c",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/AGENTS.md",
+      "lines": 248,
+      "signals": {
+        "tests": [
+          35,
+          148,
+          201
+        ],
+        "lint": [
+          35,
+          46,
+          47,
+          149,
+          204
+        ],
+        "generated_code": [
+          50,
+          137
+        ],
+        "release_automation": [
+          50
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [
+          195,
+          223
+        ],
+        "security": [
+          18,
+          20
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          110,
+          164,
+          171,
+          181
+        ]
+      }
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha": "47dc3e3d863cfb5727b87d785d09abf9743c0a72",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/CLAUDE.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "b95ce8b501cd872478074cffb793d932165f7838",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/CONTRIBUTING.md",
+      "lines": 185,
+      "signals": {
+        "tests": [
+          55,
+          80,
+          83,
+          87,
+          89,
+          93,
+          159
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          103,
+          105
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [
+          163
+        ],
+        "security": [
+          9,
+          115,
+          135
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          95
+        ]
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "dcfb150b41bd858487e56011bb1e67621bbc8cd2",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/README.md",
+      "lines": 126,
+      "signals": {
+        "tests": [
+          120
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          112
+        ],
+        "star_history": [],
+        "badges": [
+          3
+        ],
+        "media": [
+          3,
+          7
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          114,
+          116
+        ],
+        "story": [
+          13,
+          18
+        ]
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "9c0802d2dd669d63b2a521b0d8989bdeb1c88d52",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/SECURITY.md",
+      "lines": 36,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "package.json",
+      "sha": "d2bf5f1b34c01050e25e06d3418df07f005f7934",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/package.json",
+      "lines": 125,
+      "signals": {
+        "tests": [
+          16,
+          17,
+          19,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          33,
+          103
+        ],
+        "lint": [
+          35,
+          36,
+          37,
+          39,
+          40,
+          108,
+          111,
+          112,
+          116,
+          120
+        ],
+        "generated_code": [],
+        "release_automation": [
+          107
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          92
+        ]
+      }
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha": "3ce5f8d0042bfd5115f480fbce1bea705f785b84",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/.github/CODEOWNERS",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha": "cb6c18b76bbaedecc03d242a3b72310a42c867cc",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/.github/ISSUE_TEMPLATE/bug_report.md",
+      "lines": 55,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha": "4641bc48cf621be7c2680e8926d34dfa0c555ed3",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/.github/ISSUE_TEMPLATE/feature_request.md",
+      "lines": 16,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/model_provider.md",
+      "sha": "4f25449af3ce464f668e76430ac699dfc4a86467",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/.github/ISSUE_TEMPLATE/model_provider.md",
+      "lines": 56,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/question.md",
+      "sha": "d6c5e8ee18d5541677acbdc59d0a35c68bc76a30",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/.github/ISSUE_TEMPLATE/question.md",
+      "lines": 16,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE/pull_request_template.md",
+      "sha": "8d4b8965fa7a8a0dc18cfbe6f6157cab50ff9ead",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/.github/PULL_REQUEST_TEMPLATE/pull_request_template.md",
+      "lines": 22,
+      "signals": {
+        "tests": [
+          17,
+          18
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "93d9937e7633b6db1c2cf41eb1b232a20fefbd7c",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/.github/dependabot.yml",
+      "lines": 90,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/README.md",
+      "sha": "815f48ad4878e9a15b48474bc42bb34de8bbe1f4",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/docs/README.md",
+      "lines": 27,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/package.json",
+      "sha": "880d943384e5173f5dd0881b70d3cb5bc6df825a",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/docs/package.json",
+      "lines": 34,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release-tag.yml",
+      "sha": "5874351feecc883d2f5bf2a32cc6332f4c0027ab",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/.github/workflows/release-tag.yml",
+      "lines": 52,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          14,
+          15
+        ],
+        "pinned_actions": [
+          18
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha": "e0f8dc4eeaf15645f3f00119d7a73e4c5695457b",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/.github/workflows/release.yml",
+      "lines": 75,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          1,
+          65,
+          66
+        ],
+        "permissions": [
+          20,
+          22,
+          61
+        ],
+        "pinned_actions": [
+          25,
+          32,
+          35,
+          55,
+          66
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "sha": "af695aaefdb81591bdfd8f7ad1b7ed6884ada66b",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/.github/workflows/test.yml",
+      "lines": 330,
+      "signals": {
+        "tests": [
+          179,
+          205,
+          249,
+          253,
+          295
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8,
+          17
+        ],
+        "pinned_actions": [
+          27,
+          130,
+          141,
+          146,
+          223,
+          228,
+          233,
+          267,
+          278,
+          283
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          90
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/changeset.yml",
+      "sha": "4b78a16681e4578621615b26f1d27e802051a5ff",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/.github/workflows/changeset.yml",
+      "lines": 246,
+      "signals": {
+        "tests": [
+          161,
+          162
+        ],
+        "lint": [
+          155
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          15
+        ],
+        "pinned_actions": [
+          21,
+          39,
+          55,
+          59,
+          70
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "sha": "30590474ed93cc58f3bb9534fa10ece51d209cd5",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/.github/workflows/codeql.yml",
+      "lines": 98,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          16
+        ],
+        "pinned_actions": [
+          35,
+          40,
+          50
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "sha": "3d04ebcbdfe8308b016929a695556a1cc37ee123",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/.github/workflows/docs.yml",
+      "lines": 62,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          14,
+          53,
+          55
+        ],
+        "pinned_actions": [
+          23,
+          27,
+          31,
+          43,
+          62
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/issues.yml",
+      "sha": "8e0adbad52ae9300d39bdf3cbc42b84263addf41",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/.github/workflows/issues.yml",
+      "lines": 28,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9
+        ],
+        "pinned_actions": [
+          13
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/repo-skills.yml",
+      "sha": "22f6e2be86f69cc9e21dfe6ffdaf6a8f4f6ffe54",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-js/blob/9687b544c8c873080e6ff7e7d294c0b353cd9ab6/.github/workflows/repo-skills.yml",
+      "lines": 51,
+      "signals": {
+        "tests": [
+          51
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          23
+        ],
+        "pinned_actions": [
+          32,
+          36,
+          40,
+          45
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 2076,
+      "title": "fix(realtime): reject WebRTC startup on server errors",
+      "url": "https://github.com/openai/openai-agents-js/pull/2076",
+      "merged_at": "2026-10-16T01:08:10Z",
+      "merge_commit_sha": "9687b544c8c873080e6ff7e7d294c0b353cd9ab6",
+      "files": [
+        ".changeset/quiet-webrtc-rejections.md",
+        "docs/src/content/docs/guides/voice-agents/transport.mdx",
+        "packages/agents-realtime/src/openaiRealtimeWebRtc.ts",
+        "packages/agents-realtime/test/openaiRealtimeWebRtc.test.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".changeset/quiet-webrtc-rejections.md",
+          "status": "added",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-agents-js/blob/99187735e7fdfdddeba162a0d0709bf6652d2778/.changeset%2Fquiet-webrtc-rejections.md"
+        },
+        {
+          "filename": "docs/src/content/docs/guides/voice-agents/transport.mdx",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-agents-js/blob/99187735e7fdfdddeba162a0d0709bf6652d2778/docs%2Fsrc%2Fcontent%2Fdocs%2Fguides%2Fvoice-agents%2Ftransport.mdx"
+        },
+        {
+          "filename": "packages/agents-realtime/src/openaiRealtimeWebRtc.ts",
+          "status": "modified",
+          "additions": 19,
+          "deletions": 6,
+          "blob_url": "https://github.com/openai/openai-agents-js/blob/99187735e7fdfdddeba162a0d0709bf6652d2778/packages%2Fagents-realtime%2Fsrc%2FopenaiRealtimeWebRtc.ts"
+        },
+        {
+          "filename": "packages/agents-realtime/test/openaiRealtimeWebRtc.test.ts",
+          "status": "modified",
+          "additions": 115,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-agents-js/blob/99187735e7fdfdddeba162a0d0709bf6652d2778/packages%2Fagents-realtime%2Ftest%2FopenaiRealtimeWebRtc.test.ts"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39037071876,
+          "name": "Code Quality: Scheduled",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/39037071876",
+          "head_sha": "9687b544c8c873080e6ff7e7d294c0b353cd9ab6"
+        },
+        {
+          "id": 38991939903,
+          "name": "Close inactive issues",
+          "path": ".github/workflows/issues.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38991939903",
+          "head_sha": "9687b544c8c873080e6ff7e7d294c0b353cd9ab6"
+        },
+        {
+          "id": 38836649667,
+          "name": "Close inactive issues",
+          "path": ".github/workflows/issues.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38836649667",
+          "head_sha": "9687b544c8c873080e6ff7e7d294c0b353cd9ab6"
+        },
+        {
+          "id": 38834132618,
+          "name": "Changesets Release",
+          "path": ".github/workflows/release.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38834132618",
+          "head_sha": "9687b544c8c873080e6ff7e7d294c0b353cd9ab6"
+        },
+        {
+          "id": 38833468115,
+          "name": "Create Release Tag",
+          "path": ".github/workflows/release-tag.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38833468115",
+          "head_sha": "9687b544c8c873080e6ff7e7d294c0b353cd9ab6"
+        },
+        {
+          "id": 38833468367,
+          "name": "Code Quality: Push on main",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38833468367",
+          "head_sha": "9687b544c8c873080e6ff7e7d294c0b353cd9ab6"
+        },
+        {
+          "id": 38833468053,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38833468053",
+          "head_sha": "9687b544c8c873080e6ff7e7d294c0b353cd9ab6"
+        },
+        {
+          "id": 38833468106,
+          "name": "Deploy Docs to GitHub Pages",
+          "path": ".github/workflows/docs.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38833468106",
+          "head_sha": "9687b544c8c873080e6ff7e7d294c0b353cd9ab6"
+        },
+        {
+          "id": 38833468436,
+          "name": "CI",
+          "path": ".github/workflows/test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38833468436",
+          "head_sha": "9687b544c8c873080e6ff7e7d294c0b353cd9ab6"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38833106709,
+          "name": "CodeQL merge protection",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38833106709",
+          "head_sha": "99187735e7fdfdddeba162a0d0709bf6652d2778"
+        },
+        {
+          "id": 38829012511,
+          "name": "Changeset",
+          "path": ".github/workflows/changeset.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38829012511",
+          "head_sha": "99187735e7fdfdddeba162a0d0709bf6652d2778"
+        },
+        {
+          "id": 38827598784,
+          "name": "Changeset",
+          "path": ".github/workflows/changeset.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38827598784",
+          "head_sha": "99187735e7fdfdddeba162a0d0709bf6652d2778"
+        },
+        {
+          "id": 38827598739,
+          "name": "CodeQL merge protection",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38827598739",
+          "head_sha": "99187735e7fdfdddeba162a0d0709bf6652d2778"
+        },
+        {
+          "id": 38827598806,
+          "name": "Deploy Docs to GitHub Pages",
+          "path": ".github/workflows/docs.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38827598806",
+          "head_sha": "99187735e7fdfdddeba162a0d0709bf6652d2778"
+        },
+        {
+          "id": 38827599151,
+          "name": "CI",
+          "path": ".github/workflows/test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38827599151",
+          "head_sha": "99187735e7fdfdddeba162a0d0709bf6652d2778"
+        },
+        {
+          "id": 38827596093,
+          "name": "Code Quality: PR #2076",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38827596093",
+          "head_sha": "99187735e7fdfdddeba162a0d0709bf6652d2778"
+        },
+        {
+          "id": 38827596071,
+          "name": "PR #2076",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38827596071",
+          "head_sha": "99187735e7fdfdddeba162a0d0709bf6652d2778"
+        }
+      ]
+    },
+    {
+      "number": 2074,
+      "title": "fix: recognize GPT-6 models in sandbox compaction thresholds",
+      "url": "https://github.com/openai/openai-agents-js/pull/2074",
+      "merged_at": "2026-10-15T19:20:44Z",
+      "merge_commit_sha": "976579eb0785337b4d433afb944781f3901738a8",
+      "files": [
+        ".changeset/tidy-models-compact.md",
+        "packages/agents-core/src/sandbox/capabilities/compaction.ts",
+        "packages/agents-core/test/sandboxCapabilities.test.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".changeset/tidy-models-compact.md",
+          "status": "added",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-agents-js/blob/bd51b4e29f6cd95bb7bd7f85d3e63c24c95811c2/.changeset%2Ftidy-models-compact.md"
+        },
+        {
+          "filename": "packages/agents-core/src/sandbox/capabilities/compaction.ts",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-agents-js/blob/bd51b4e29f6cd95bb7bd7f85d3e63c24c95811c2/packages%2Fagents-core%2Fsrc%2Fsandbox%2Fcapabilities%2Fcompaction.ts"
+        },
+        {
+          "filename": "packages/agents-core/test/sandboxCapabilities.test.ts",
+          "status": "modified",
+          "additions": 22,
+          "deletions": 16,
+          "blob_url": "https://github.com/openai/openai-agents-js/blob/bd51b4e29f6cd95bb7bd7f85d3e63c24c95811c2/packages%2Fagents-core%2Ftest%2FsandboxCapabilities.test.ts"
+        }
+      ],
+      "review_states": [
+        "APPROVED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38794217385,
+          "name": "Changesets Release",
+          "path": ".github/workflows/release.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38794217385",
+          "head_sha": "976579eb0785337b4d433afb944781f3901738a8"
+        },
+        {
+          "id": 38793134847,
+          "name": "Create Release Tag",
+          "path": ".github/workflows/release-tag.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38793134847",
+          "head_sha": "976579eb0785337b4d433afb944781f3901738a8"
+        },
+        {
+          "id": 38793133990,
+          "name": "Code Quality: Push on main",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38793133990",
+          "head_sha": "976579eb0785337b4d433afb944781f3901738a8"
+        },
+        {
+          "id": 38793134227,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38793134227",
+          "head_sha": "976579eb0785337b4d433afb944781f3901738a8"
+        },
+        {
+          "id": 38793134973,
+          "name": "CI",
+          "path": ".github/workflows/test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38793134973",
+          "head_sha": "976579eb0785337b4d433afb944781f3901738a8"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38780210970,
+          "name": "CI",
+          "path": ".github/workflows/test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38780210970",
+          "head_sha": "bd51b4e29f6cd95bb7bd7f85d3e63c24c95811c2"
+        },
+        {
+          "id": 38780210979,
+          "name": "CodeQL merge protection",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38780210979",
+          "head_sha": "bd51b4e29f6cd95bb7bd7f85d3e63c24c95811c2"
+        },
+        {
+          "id": 38780211508,
+          "name": "Changeset",
+          "path": ".github/workflows/changeset.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38780211508",
+          "head_sha": "bd51b4e29f6cd95bb7bd7f85d3e63c24c95811c2"
+        },
+        {
+          "id": 38780206519,
+          "name": "PR #2074",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38780206519",
+          "head_sha": "bd51b4e29f6cd95bb7bd7f85d3e63c24c95811c2"
+        },
+        {
+          "id": 38780205651,
+          "name": "Code Quality: PR #2074",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38780205651",
+          "head_sha": "bd51b4e29f6cd95bb7bd7f85d3e63c24c95811c2"
+        }
+      ]
+    },
+    {
+      "number": 2073,
+      "title": "fix: preserve Twilio session audio defaults",
+      "url": "https://github.com/openai/openai-agents-js/pull/2073",
+      "merged_at": "2026-10-15T17:34:46Z",
+      "merge_commit_sha": "980423f3d90d2b1bd8e4b875330e719061c9bfa2",
+      "files": [
+        ".changeset/tidy-twilio-audio.md",
+        "packages/agents-extensions/src/TwilioRealtimeTransport.ts",
+        "packages/agents-extensions/test/TwilioRealtimeSession.test.ts",
+        "packages/agents-realtime/src/realtimeSession.ts",
+        "packages/agents-realtime/src/testing/scriptedRealtimeTransport.ts",
+        "packages/agents-realtime/src/transportLayer.ts",
+        "packages/agents-realtime/test/realtimeSession.test.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".changeset/tidy-twilio-audio.md",
+          "status": "added",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-agents-js/blob/91924146d96083d668b3b9e09a3e05a6c1599b4b/.changeset%2Ftidy-twilio-audio.md"
+        },
+        {
+          "filename": "packages/agents-extensions/src/TwilioRealtimeTransport.ts",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-agents-js/blob/91924146d96083d668b3b9e09a3e05a6c1599b4b/packages%2Fagents-extensions%2Fsrc%2FTwilioRealtimeTransport.ts"
+        },
+        {
+          "filename": "packages/agents-extensions/test/TwilioRealtimeSession.test.ts",
+          "status": "added",
+          "additions": 150,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-agents-js/blob/91924146d96083d668b3b9e09a3e05a6c1599b4b/packages%2Fagents-extensions%2Ftest%2FTwilioRealtimeSession.test.ts"
+        },
+        {
+          "filename": "packages/agents-realtime/src/realtimeSession.ts",
+          "status": "modified",
+          "additions": 51,
+          "deletions": 5,
+          "blob_url": "https://github.com/openai/openai-agents-js/blob/91924146d96083d668b3b9e09a3e05a6c1599b4b/packages%2Fagents-realtime%2Fsrc%2FrealtimeSession.ts"
+        },
+        {
+          "filename": "packages/agents-realtime/src/testing/scriptedRealtimeTransport.ts",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-agents-js/blob/91924146d96083d668b3b9e09a3e05a6c1599b4b/packages%2Fagents-realtime%2Fsrc%2Ftesting%2FscriptedRealtimeTransport.ts"
+        },
+        {
+          "filename": "packages/agents-realtime/src/transportLayer.ts",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-agents-js/blob/91924146d96083d668b3b9e09a3e05a6c1599b4b/packages%2Fagents-realtime%2Fsrc%2FtransportLayer.ts"
+        },
+        {
+          "filename": "packages/agents-realtime/test/realtimeSession.test.ts",
+          "status": "modified",
+          "additions": 78,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-agents-js/blob/91924146d96083d668b3b9e09a3e05a6c1599b4b/packages%2Fagents-realtime%2Ftest%2FrealtimeSession.test.ts"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "APPROVED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38779704506,
+          "name": "Changesets Release",
+          "path": ".github/workflows/release.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38779704506",
+          "head_sha": "980423f3d90d2b1bd8e4b875330e719061c9bfa2"
+        },
+        {
+          "id": 38778518454,
+          "name": "Create Release Tag",
+          "path": ".github/workflows/release-tag.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38778518454",
+          "head_sha": "980423f3d90d2b1bd8e4b875330e719061c9bfa2"
+        },
+        {
+          "id": 38778518470,
+          "name": "CI",
+          "path": ".github/workflows/test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38778518470",
+          "head_sha": "980423f3d90d2b1bd8e4b875330e719061c9bfa2"
+        },
+        {
+          "id": 38778518421,
+          "name": "Code Quality: Push on main",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38778518421",
+          "head_sha": "980423f3d90d2b1bd8e4b875330e719061c9bfa2"
+        },
+        {
+          "id": 38778517823,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38778517823",
+          "head_sha": "980423f3d90d2b1bd8e4b875330e719061c9bfa2"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38777335348,
+          "name": "Changeset",
+          "path": ".github/workflows/changeset.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38777335348",
+          "head_sha": "91924146d96083d668b3b9e09a3e05a6c1599b4b"
+        },
+        {
+          "id": 38777317329,
+          "name": "CodeQL merge protection",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38777317329",
+          "head_sha": "91924146d96083d668b3b9e09a3e05a6c1599b4b"
+        },
+        {
+          "id": 38777316950,
+          "name": "CI",
+          "path": ".github/workflows/test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38777316950",
+          "head_sha": "91924146d96083d668b3b9e09a3e05a6c1599b4b"
+        },
+        {
+          "id": 38777313751,
+          "name": "Changeset",
+          "path": ".github/workflows/changeset.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38777313751",
+          "head_sha": "91924146d96083d668b3b9e09a3e05a6c1599b4b"
+        },
+        {
+          "id": 38777309895,
+          "name": "Code Quality: PR #2073",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38777309895",
+          "head_sha": "91924146d96083d668b3b9e09a3e05a6c1599b4b"
+        },
+        {
+          "id": 38777310142,
+          "name": "PR #2073",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/38777310142",
+          "head_sha": "91924146d96083d668b3b9e09a3e05a6c1599b4b"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "@openai/agents@0.20.0",
+      "url": "https://github.com/openai/openai-agents-js/releases/tag/%40openai/agents%400.20.0",
+      "published_at": "2026-10-08T23:04:25Z",
+      "target_commitish": "main",
+      "commit_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37872490253,
+          "name": "Close inactive issues",
+          "path": ".github/workflows/issues.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37872490253",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37857087728,
+          "name": "Changesets Release",
+          "path": ".github/workflows/release.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37857087728",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37856355502,
+          "name": "npm_and_yarn in /examples/ai-sdk-ui, /examples/nextjs, /examples/realtime-next for next, next, next, next, next, next, next, next, next, next, next, next, next, next, next, next, next, next - Update #1618239722",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37856355502",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37856352380,
+          "name": "npm_and_yarn in /examples/ai-sdk-ui, /examples/nextjs for next, next, next, next, next, next, next, next, next, next, next - Update #1618239719",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37856352380",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37856329252,
+          "name": "CI",
+          "path": ".github/workflows/test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37856329252",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37856329346,
+          "name": "Create Release Tag",
+          "path": ".github/workflows/release-tag.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37856329346",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37856328263,
+          "name": "Code Quality: Push on main",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37856328263",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37856328550,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37856328550",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        }
+      ]
+    },
+    {
+      "tag": "@openai/agents-realtime@0.20.0",
+      "url": "https://github.com/openai/openai-agents-js/releases/tag/%40openai/agents-realtime%400.20.0",
+      "published_at": "2026-10-08T23:04:22Z",
+      "target_commitish": "main",
+      "commit_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37872490253,
+          "name": "Close inactive issues",
+          "path": ".github/workflows/issues.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37872490253",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37857087728,
+          "name": "Changesets Release",
+          "path": ".github/workflows/release.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37857087728",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37856355502,
+          "name": "npm_and_yarn in /examples/ai-sdk-ui, /examples/nextjs, /examples/realtime-next for next, next, next, next, next, next, next, next, next, next, next, next, next, next, next, next, next, next - Update #1618239722",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37856355502",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37856352380,
+          "name": "npm_and_yarn in /examples/ai-sdk-ui, /examples/nextjs for next, next, next, next, next, next, next, next, next, next, next - Update #1618239719",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37856352380",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37856329252,
+          "name": "CI",
+          "path": ".github/workflows/test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37856329252",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37856329346,
+          "name": "Create Release Tag",
+          "path": ".github/workflows/release-tag.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37856329346",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37856328263,
+          "name": "Code Quality: Push on main",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37856328263",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37856328550,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37856328550",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        }
+      ]
+    },
+    {
+      "tag": "@openai/agents-openai@0.20.0",
+      "url": "https://github.com/openai/openai-agents-js/releases/tag/%40openai/agents-openai%400.20.0",
+      "published_at": "2026-10-08T23:04:19Z",
+      "target_commitish": "main",
+      "commit_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37872490253,
+          "name": "Close inactive issues",
+          "path": ".github/workflows/issues.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37872490253",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37857087728,
+          "name": "Changesets Release",
+          "path": ".github/workflows/release.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37857087728",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37856355502,
+          "name": "npm_and_yarn in /examples/ai-sdk-ui, /examples/nextjs, /examples/realtime-next for next, next, next, next, next, next, next, next, next, next, next, next, next, next, next, next, next, next - Update #1618239722",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37856355502",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37856352380,
+          "name": "npm_and_yarn in /examples/ai-sdk-ui, /examples/nextjs for next, next, next, next, next, next, next, next, next, next, next - Update #1618239719",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37856352380",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37856329252,
+          "name": "CI",
+          "path": ".github/workflows/test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37856329252",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37856329346,
+          "name": "Create Release Tag",
+          "path": ".github/workflows/release-tag.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37856329346",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37856328263,
+          "name": "Code Quality: Push on main",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37856328263",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        },
+        {
+          "id": 37856328550,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-js/actions/runs/37856328550",
+          "head_sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v0.20.0",
+      "sha": "33e2741be9bb52c1d96a8b4dac0c68e46297b607"
+    },
+    {
+      "name": "v0.19.0",
+      "sha": "5ef4f233425ebf3f000cef7491ebdd27bf45ddfc"
+    },
+    {
+      "name": "v0.18.0",
+      "sha": "71abeaad1aac7b984ba4839a6453b36d30b9ecfd"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:16:45.426956+00:00",
+  "source_times": {
+    "/repos/openai/openai-agents-js": "2026-10-17T16:06:09.035237+00:00",
+    "/repos/openai/openai-agents-js/commits?sha=main&per_page=20": "2026-10-17T16:06:11.222910+00:00",
+    "/repos/openai/openai-agents-js/git/trees/9687b544c8c873080e6ff7e7d294c0b353cd9ab6": "2026-10-17T16:06:12.611975+00:00",
+    "/repos/openai/openai-agents-js/git/trees/5332969f48ccc9635307e1839ebf7f4fae1cda01": "2026-10-17T16:06:14.019322+00:00",
+    "/repos/openai/openai-agents-js/git/trees/aa47605303c14e1cb0ea06eacf96599fda34bd89": "2026-10-17T16:06:15.444368+00:00",
+    "/repos/openai/openai-agents-js/git/trees/6e1d20509fad0e5d876225c2aff3c5af37058793": "2026-10-17T16:06:16.933071+00:00",
+    "/repos/openai/openai-agents-js/git/trees/6ce4a34e477bbc9d54035f98832cd3cdc08449c3": "2026-10-17T16:06:18.340341+00:00",
+    "/repos/openai/openai-agents-js/git/trees/d21ccb795337cda4000d1fc01fb44679fef9d695": "2026-10-17T16:06:22.160551+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/151f39d0c3644be427d7e785d2d23c4486a52a0c": "2026-10-17T16:06:23.900289+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/47dc3e3d863cfb5727b87d785d09abf9743c0a72": "2026-10-17T16:06:25.279146+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/b95ce8b501cd872478074cffb793d932165f7838": "2026-10-17T16:06:27.954573+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/dcfb150b41bd858487e56011bb1e67621bbc8cd2": "2026-10-17T16:06:29.351462+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/9c0802d2dd669d63b2a521b0d8989bdeb1c88d52": "2026-10-17T16:06:30.682933+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/d2bf5f1b34c01050e25e06d3418df07f005f7934": "2026-10-17T16:06:32.082558+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/3ce5f8d0042bfd5115f480fbce1bea705f785b84": "2026-10-17T16:06:33.517144+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/cb6c18b76bbaedecc03d242a3b72310a42c867cc": "2026-10-17T16:06:34.928950+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/4641bc48cf621be7c2680e8926d34dfa0c555ed3": "2026-10-17T16:06:36.392215+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/4f25449af3ce464f668e76430ac699dfc4a86467": "2026-10-17T16:06:37.822880+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/d6c5e8ee18d5541677acbdc59d0a35c68bc76a30": "2026-10-17T16:06:40.173608+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/8d4b8965fa7a8a0dc18cfbe6f6157cab50ff9ead": "2026-10-17T16:06:41.548904+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/93d9937e7633b6db1c2cf41eb1b232a20fefbd7c": "2026-10-17T16:06:42.973360+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/815f48ad4878e9a15b48474bc42bb34de8bbe1f4": "2026-10-17T16:06:44.397034+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/880d943384e5173f5dd0881b70d3cb5bc6df825a": "2026-10-17T16:06:49.830777+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/5874351feecc883d2f5bf2a32cc6332f4c0027ab": "2026-10-17T16:06:51.181778+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/e0f8dc4eeaf15645f3f00119d7a73e4c5695457b": "2026-10-17T16:06:52.539622+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/af695aaefdb81591bdfd8f7ad1b7ed6884ada66b": "2026-10-17T16:06:54.136189+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/4b78a16681e4578621615b26f1d27e802051a5ff": "2026-10-17T16:06:55.643519+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/30590474ed93cc58f3bb9534fa10ece51d209cd5": "2026-10-17T16:06:57.045943+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/3d04ebcbdfe8308b016929a695556a1cc37ee123": "2026-10-17T16:06:58.449941+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/8e0adbad52ae9300d39bdf3cbc42b84263addf41": "2026-10-17T16:06:59.801301+00:00",
+    "/repos/openai/openai-agents-js/git/blobs/22f6e2be86f69cc9e21dfe6ffdaf6a8f4f6ffe54": "2026-10-17T16:07:01.198732+00:00",
+    "/repos/openai/openai-agents-js/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:07:04.962755+00:00",
+    "/repos/openai/openai-agents-js/pulls/2076/files?per_page=100": "2026-10-17T16:07:06.724713+00:00",
+    "/repos/openai/openai-agents-js/pulls/2076/reviews?per_page=100": "2026-10-17T16:07:08.243906+00:00",
+    "/repos/openai/openai-agents-js/actions/runs?head_sha=9687b544c8c873080e6ff7e7d294c0b353cd9ab6&per_page=10": "2026-10-17T16:07:11.236448+00:00",
+    "/repos/openai/openai-agents-js/actions/runs?head_sha=99187735e7fdfdddeba162a0d0709bf6652d2778&per_page=10": "2026-10-17T16:07:14.486076+00:00",
+    "/repos/openai/openai-agents-js/pulls/2074/files?per_page=100": "2026-10-17T16:07:16.027537+00:00",
+    "/repos/openai/openai-agents-js/pulls/2074/reviews?per_page=100": "2026-10-17T16:07:17.668706+00:00",
+    "/repos/openai/openai-agents-js/actions/runs?head_sha=976579eb0785337b4d433afb944781f3901738a8&per_page=10": "2026-10-17T16:07:19.578434+00:00",
+    "/repos/openai/openai-agents-js/actions/runs?head_sha=bd51b4e29f6cd95bb7bd7f85d3e63c24c95811c2&per_page=10": "2026-10-17T16:07:22.913741+00:00",
+    "/repos/openai/openai-agents-js/pulls/2073/files?per_page=100": "2026-10-17T16:07:24.517712+00:00",
+    "/repos/openai/openai-agents-js/pulls/2073/reviews?per_page=100": "2026-10-17T16:07:27.163793+00:00",
+    "/repos/openai/openai-agents-js/actions/runs?head_sha=980423f3d90d2b1bd8e4b875330e719061c9bfa2&per_page=10": "2026-10-17T16:07:29.026402+00:00",
+    "/repos/openai/openai-agents-js/actions/runs?head_sha=91924146d96083d668b3b9e09a3e05a6c1599b4b&per_page=10": "2026-10-17T16:07:31.105886+00:00",
+    "/repos/openai/openai-agents-js/releases?per_page=20&page=1": "2026-10-17T16:16:45.423249+00:00",
+    "/repos/openai/openai-agents-js/commits/%40openai%2Fagents%400.20.0": "2026-10-17T16:07:35.457108+00:00",
+    "/repos/openai/openai-agents-js/actions/runs?head_sha=33e2741be9bb52c1d96a8b4dac0c68e46297b607&per_page=10": "2026-10-17T16:07:37.669502+00:00",
+    "/repos/openai/openai-agents-js/commits/%40openai%2Fagents-realtime%400.20.0": "2026-10-17T16:07:40.972791+00:00",
+    "/repos/openai/openai-agents-js/commits/%40openai%2Fagents-openai%400.20.0": "2026-10-17T16:07:42.615668+00:00",
+    "/repos/openai/openai-agents-js/tags?per_page=3": "2026-10-17T16:07:43.980558+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:16:45.423249+00:00",
+  "status": "collected"
+}

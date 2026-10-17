@@ -1,0 +1,2036 @@
+{
+  "requested_repository": "hashicorp/terraform",
+  "category": "infrastructure",
+  "collected_at": "2026-10-17T16:14:10.034376+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "hashicorp/terraform",
+  "metadata": {
+    "html_url": "https://github.com/hashicorp/terraform",
+    "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+    "homepage": "http://developer.hashicorp.com/terraform",
+    "language": "Go",
+    "stargazers_count": 49944,
+    "forks_count": 10647,
+    "open_issues_count": 1923,
+    "pushed_at": "2026-10-17T00:37:52Z",
+    "created_at": "2014-03-13T22:25:48Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "topics": [
+      "cloud",
+      "cloud-management",
+      "graph",
+      "infrastructure-as-code",
+      "terraform"
+    ],
+    "owner": {
+      "login": "hashicorp",
+      "type": "Organization",
+      "html_url": "https://github.com/hashicorp"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c",
+      "url": "https://github.com/hashicorp/terraform/commit/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c",
+      "date": "2026-10-16T16:20:27Z",
+      "subject": "command: list -run-parallelism in terraform test -help (#39401)"
+    },
+    {
+      "sha": "6ea7f8cef4f13090f32069a5941e97ae0b9a1bc7",
+      "url": "https://github.com/hashicorp/terraform/commit/6ea7f8cef4f13090f32069a5941e97ae0b9a1bc7",
+      "date": "2026-10-16T16:08:36Z",
+      "subject": "fix: Make `version` command show diagnostics in JSON format when `-json` is supplied. (#39394)"
+    },
+    {
+      "sha": "e7bd045352e1d9cecd70e781586319259b0c5032",
+      "url": "https://github.com/hashicorp/terraform/commit/e7bd045352e1d9cecd70e781586319259b0c5032",
+      "date": "2026-10-16T14:21:46Z",
+      "subject": "refactor: Update `workspace select` command to use views (#39385)"
+    },
+    {
+      "sha": "465b784d325f357ab072cd0e9e315b7f3e975252",
+      "url": "https://github.com/hashicorp/terraform/commit/465b784d325f357ab072cd0e9e315b7f3e975252",
+      "date": "2026-10-16T14:19:18Z",
+      "subject": "views: Add helper methods for wrapping text to stream columns (#39393)"
+    },
+    {
+      "sha": "179538206d03d3683f24b693868063cb6ae3eb42",
+      "url": "https://github.com/hashicorp/terraform/commit/179538206d03d3683f24b693868063cb6ae3eb42",
+      "date": "2026-10-16T13:41:28Z",
+      "subject": "test: Update test to clarify behaviour of ENV for overriding input mode (#39402)"
+    },
+    {
+      "sha": "b50716f73e926bf3ec10776e1446add039d5b641",
+      "url": "https://github.com/hashicorp/terraform/commit/b50716f73e926bf3ec10776e1446add039d5b641",
+      "date": "2026-10-16T11:31:47Z",
+      "subject": "test: Fix flakey test by avoiding flakey assertions on value returned from `done(t).All()` (#39398)"
+    },
+    {
+      "sha": "86b00a4fdadbdb9d0f6b44775f24d6075b97db8b",
+      "url": "https://github.com/hashicorp/terraform/commit/86b00a4fdadbdb9d0f6b44775f24d6075b97db8b",
+      "date": "2026-10-16T11:00:02Z",
+      "subject": "refactor: Remove flag-parsing logic from the `command` package (#39400)"
+    },
+    {
+      "sha": "9ec49e06a868cfa161213fac7f74aa03f8937755",
+      "url": "https://github.com/hashicorp/terraform/commit/9ec49e06a868cfa161213fac7f74aa03f8937755",
+      "date": "2026-10-13T12:48:41Z",
+      "subject": "Update `terraform test` command to work when testing modules that have deprecated outputs (#39327)"
+    },
+    {
+      "sha": "70bc11882110f4685d8522331cc013cfb9af4207",
+      "url": "https://github.com/hashicorp/terraform/commit/70bc11882110f4685d8522331cc013cfb9af4207",
+      "date": "2026-10-13T11:27:33Z",
+      "subject": "Remove unnecessary Policy enhancement changelog (#39379)"
+    },
+    {
+      "sha": "1c97639093ff651d90cadc937f7a7e162256adee",
+      "url": "https://github.com/hashicorp/terraform/commit/1c97639093ff651d90cadc937f7a7e162256adee",
+      "date": "2026-10-13T10:29:05Z",
+      "subject": "Add changelog"
+    },
+    {
+      "sha": "134f94793bd78cf6d1e05e44430f4332ef115d51",
+      "url": "https://github.com/hashicorp/terraform/commit/134f94793bd78cf6d1e05e44430f4332ef115d51",
+      "date": "2026-10-13T10:29:05Z",
+      "subject": "Read variable values from the plan file when showing a plan"
+    },
+    {
+      "sha": "614904a3a13dccfadca6ac6380588c1ec1eef5b0",
+      "url": "https://github.com/hashicorp/terraform/commit/614904a3a13dccfadca6ac6380588c1ec1eef5b0",
+      "date": "2026-10-13T10:29:05Z",
+      "subject": "Replace ioutil usage"
+    },
+    {
+      "sha": "fc8a67e8c37405cb54e7039e851bfc1f114199e7",
+      "url": "https://github.com/hashicorp/terraform/commit/fc8a67e8c37405cb54e7039e851bfc1f114199e7",
+      "date": "2026-10-13T10:29:05Z",
+      "subject": "Test `show` with variables values from planfile"
+    },
+    {
+      "sha": "06dc650f16ab1c19e56dc847317ae10d282659d2",
+      "url": "https://github.com/hashicorp/terraform/commit/06dc650f16ab1c19e56dc847317ae10d282659d2",
+      "date": "2026-10-13T08:59:25Z",
+      "subject": "deps: bump golang.org/x/net from v0.58.0 to v0.60.0 (#39363)"
+    },
+    {
+      "sha": "0828b3d2d7cb409e59d5aa09006d7cd3f0708418",
+      "url": "https://github.com/hashicorp/terraform/commit/0828b3d2d7cb409e59d5aa09006d7cd3f0708418",
+      "date": "2026-10-12T17:28:05Z",
+      "subject": "functions: Raise errors when +/- Infinity is returned from `log` or `pow` built-in functions (#39304)"
+    },
+    {
+      "sha": "a148b492e7cf1da41c293d09a19cd2226bb3f2fb",
+      "url": "https://github.com/hashicorp/terraform/commit/a148b492e7cf1da41c293d09a19cd2226bb3f2fb",
+      "date": "2026-10-12T15:29:51Z",
+      "subject": "Remove unnecessary Policy enhancement changelog (#39369)"
+    },
+    {
+      "sha": "3935d67ba483c4035e9c92ee67b33f81dd09905d",
+      "url": "https://github.com/hashicorp/terraform/commit/3935d67ba483c4035e9c92ee67b33f81dd09905d",
+      "date": "2026-10-12T15:11:09Z",
+      "subject": "refactor: Remove use of ModulePath func from multiple commands, and the codebase (#38691)"
+    },
+    {
+      "sha": "9ca27e4dd0d750ef50b31d281e292343fa1ba703",
+      "url": "https://github.com/hashicorp/terraform/commit/9ca27e4dd0d750ef50b31d281e292343fa1ba703",
+      "date": "2026-10-12T13:19:26Z",
+      "subject": "docs: Add `make syncdeps` to dependency change instructions in CONTRIBUTING.md (#39371)"
+    },
+    {
+      "sha": "ec475dc0961567768835365b859cf7da5134e19f",
+      "url": "https://github.com/hashicorp/terraform/commit/ec475dc0961567768835365b859cf7da5134e19f",
+      "date": "2026-10-12T12:22:55Z",
+      "subject": "refactor: Make `stacks` command use the arguments package for CLI flag and argument handling (#39338)"
+    },
+    {
+      "sha": "9119757609e4f7462fc14ff86bd920f89d15f681",
+      "url": "https://github.com/hashicorp/terraform/commit/9119757609e4f7462fc14ff86bd920f89d15f681",
+      "date": "2026-10-12T11:45:39Z",
+      "subject": "TF-40968 add policy summary after list of policy evaluation (#39325)"
+    }
+  ],
+  "default_sha": "44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c",
+  "root_and_selected_directory_paths": [
+    ".changes",
+    ".changie.yaml",
+    ".copywrite.hcl",
+    ".git-blame-ignore-revs",
+    ".github",
+    ".github/CODE_OF_CONDUCT.md",
+    ".github/CONTRIBUTING.md",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug_report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/feature_request.yml",
+    ".github/SUPPORT.md",
+    ".github/actions",
+    ".github/dependabot.yml",
+    ".github/pull_request_template.md",
+    ".github/scripts",
+    ".github/workflows",
+    ".github/workflows/backport.yml",
+    ".github/workflows/build-terraform-cli.yml",
+    ".github/workflows/build.yml",
+    ".github/workflows/changelog-validation.yml",
+    ".github/workflows/checks.yml",
+    ".github/workflows/enforce-changelog.yml",
+    ".github/workflows/equivalence-test-diff.yml",
+    ".github/workflows/equivalence-test-manual-update.yml",
+    ".github/workflows/equivalence-test-update.yml",
+    ".github/workflows/issue-comment-created.yml",
+    ".github/workflows/lock.yml",
+    ".gitignore",
+    ".go-version",
+    ".release",
+    ".tfdev",
+    "BUGPROCESS.md",
+    "BUILDING.md",
+    "CHANGELOG.md",
+    "CODEOWNERS",
+    "Dockerfile",
+    "LICENSE",
+    "Makefile",
+    "README.md",
+    "build.Dockerfile",
+    "catalog-info.yaml",
+    "checkpoint.go",
+    "commands.go",
+    "docs",
+    "docs/README.md",
+    "docs/architecture.md",
+    "docs/debugging-configs",
+    "docs/debugging.md",
+    "docs/dependency-upgrades.md",
+    "docs/destroying.md",
+    "docs/images",
+    "docs/planning-behaviors.md",
+    "docs/plugin-protocol",
+    "docs/resource-instance-change-lifecycle.md",
+    "docs/unicode.md",
+    "experiments.go",
+    "go.mod",
+    "go.sum",
+    "help.go",
+    "internal",
+    "main.go",
+    "main_test.go",
+    "provider_source.go",
+    "scripts",
+    "signal_unix.go",
+    "signal_windows.go",
+    "staticcheck.conf",
+    "telemetry.go",
+    "telemetry_test.go",
+    "testing",
+    "tools",
+    "version",
+    "version.go",
+    "website",
+    "working_dir.go"
+  ],
+  "workflow_paths": [
+    ".github/workflows/equivalence-test-diff.yml",
+    ".github/workflows/equivalence-test-manual-update.yml",
+    ".github/workflows/equivalence-test-update.yml",
+    ".github/workflows/backport.yml",
+    ".github/workflows/build-terraform-cli.yml",
+    ".github/workflows/build.yml",
+    ".github/workflows/changelog-validation.yml",
+    ".github/workflows/checks.yml",
+    ".github/workflows/enforce-changelog.yml",
+    ".github/workflows/issue-comment-created.yml",
+    ".github/workflows/lock.yml"
+  ],
+  "documents": [
+    {
+      "path": "CHANGELOG.md",
+      "sha": "235cf3da03396968557fbe343853e784f424c263",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/CHANGELOG.md",
+      "lines": 41,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CODEOWNERS",
+      "sha": "a9c6c899921e75cc4172290ccc865177dd14a47e",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/CODEOWNERS",
+      "lines": 38,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile",
+      "sha": "c1806e8dc0df9705d7615c24bf3f16e7dd8350ea",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/Makefile",
+      "lines": 50,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "ab40c4ef409feaf4e25fc1473f00f896717cc667",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/README.md",
+      "lines": 48,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          21
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [
+          9
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "go.mod",
+      "sha": "b315582a66fadbf8c0149abc6f5786454abb4c06",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/go.mod",
+      "lines": 378,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha": "0c8b092c43187f57bc9dade8e40032816ccf8065",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/CODE_OF_CONDUCT.md",
+      "lines": 5,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CONTRIBUTING.md",
+      "sha": "71064bd9567eae1d4a7183d3eceec08e7adf5cdb",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/CONTRIBUTING.md",
+      "lines": 339,
+      "signals": {
+        "tests": [
+          239,
+          245,
+          246,
+          258,
+          302
+        ],
+        "lint": [],
+        "generated_code": [
+          32,
+          263,
+          265,
+          330
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          61
+        ],
+        "story": [
+          305
+        ]
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha": "2f2624c96b20646d3fd40d79241f833036b6e21f",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "lines": 142,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "13928f03e1d5c60ee05d16b96ed8a8481d7c2a20",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 26,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "sha": "215987b617f29d7fb61e2a32b655b76a0457b42a",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/ISSUE_TEMPLATE/feature_request.yml",
+      "lines": 90,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/SUPPORT.md",
+      "sha": "9ba846c3807a945c09b8359a05ba53c0c6f53504",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/SUPPORT.md",
+      "lines": 4,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "b93545a4c928772f3d50f53a9206e2730719f454",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/dependabot.yml",
+      "lines": 28,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha": "877e36f184107c5e5de8a89e286d384f93da9527",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/pull_request_template.md",
+      "lines": 56,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/README.md",
+      "sha": "d18d8ee5f4a531c3fcc25f692f1c6f8c356f29a6",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/docs/README.md",
+      "lines": 56,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/equivalence-test-diff.yml",
+      "sha": "7566f8601a005a67cec3270bbdf0fb77103a35e0",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/workflows/equivalence-test-diff.yml",
+      "lines": 74,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [
+          22,
+          29
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/equivalence-test-manual-update.yml",
+      "sha": "bff8c169cc31cc3570c43efdc8e1586da0f7d907",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/workflows/equivalence-test-manual-update.yml",
+      "lines": 52,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          20,
+          21
+        ],
+        "pinned_actions": [
+          29,
+          38
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/equivalence-test-update.yml",
+      "sha": "b5c389b9877d4b534548345af8302edc4182a1ff",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/workflows/equivalence-test-update.yml",
+      "lines": 67,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7,
+          8
+        ],
+        "pinned_actions": [
+          44,
+          53
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "sha": "e4a5717211242ad7b9eada6052dbd5b2d91ecbc7",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/workflows/backport.yml",
+      "lines": 29,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12,
+          13
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build-terraform-cli.yml",
+      "sha": "15ed18b415ab6ffe3369f4e084d0dd9e501ed741",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/workflows/build-terraform-cli.yml",
+      "lines": 102,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          35
+        ],
+        "pinned_actions": [
+          44,
+          45,
+          55,
+          73,
+          92,
+          98
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "sha": "2711766025a4cf018dfeee30595b20aec629bfd7",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/workflows/build.yml",
+      "lines": 327,
+      "signals": {
+        "tests": [
+          327
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          23
+        ],
+        "pinned_actions": [
+          40,
+          48,
+          69,
+          82,
+          85,
+          90,
+          146,
+          148,
+          194,
+          197,
+          214,
+          252
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/changelog-validation.yml",
+      "sha": "e30fcd5f037cb0b24a9e6194755912d45e701d92",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/workflows/changelog-validation.yml",
+      "lines": 43,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          22
+        ],
+        "pinned_actions": [
+          32,
+          40
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "sha": "b8c21ae2a628723ecca3b2fa04a30e39540fa583",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/workflows/checks.yml",
+      "lines": 183,
+      "signals": {
+        "tests": [
+          60,
+          85,
+          111
+        ],
+        "lint": [],
+        "generated_code": [
+          158
+        ],
+        "release_automation": [],
+        "permissions": [
+          34
+        ],
+        "pinned_actions": [
+          44,
+          51,
+          69,
+          76,
+          97,
+          104,
+          119,
+          128,
+          145,
+          169,
+          176
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/enforce-changelog.yml",
+      "sha": "d632cb4995ffe41fee37e25836c3c31512bd4e8c",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/workflows/enforce-changelog.yml",
+      "lines": 188,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          23
+        ],
+        "pinned_actions": [
+          39,
+          51,
+          59
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/issue-comment-created.yml",
+      "sha": "d0abeddf447b9abb2d20004596eb38025144d142",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/workflows/issue-comment-created.yml",
+      "lines": 19,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [
+          15
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/lock.yml",
+      "sha": "bc661b582b45066bfd3eba9f8260497e4418e7cc",
+      "status": "inspected",
+      "url": "https://github.com/hashicorp/terraform/blob/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c/.github/workflows/lock.yml",
+      "lines": 28,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [
+          15
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 39169,
+      "title": "Handle forget-action when the order is create_before_destroy",
+      "url": "https://github.com/hashicorp/terraform/pull/39169",
+      "merged_at": "2026-09-10T14:11:33Z",
+      "merge_commit_sha": "799c8d896356c5e9623b8545d0c1d20187f27f7c",
+      "files": [
+        ".changes/v1.16/BUG FIXES-20260909-152256.yaml",
+        "internal/command/format/format.go",
+        "internal/command/jsonformat/plan.go",
+        "internal/command/jsonformat/plan_test.go",
+        "internal/command/jsonplan/plan.go",
+        "internal/command/views/hook_count.go",
+        "internal/command/views/json/change.go",
+        "internal/command/views/json/hook.go",
+        "internal/command/views/operation.go",
+        "internal/plans/action.go",
+        "internal/plans/action_string.go",
+        "internal/plans/changes.go",
+        "internal/plans/planfile/tfplan.go",
+        "internal/plans/planfile/tfplan_test.go",
+        "internal/plans/planproto/convert.go",
+        "internal/plans/planproto/planfile.pb.go",
+        "internal/plans/planproto/planfile.proto",
+        "internal/rpcapi/terraform1/stacks/conversion.go",
+        "internal/stacks/stackruntime/hooks/component_instance.go",
+        "internal/stacks/stackruntime/internal/stackeval/applying.go",
+        "internal/terraform/context_apply2_test.go",
+        "internal/terraform/context_plan.go",
+        "internal/terraform/eval_context_builtin.go",
+        "internal/terraform/node_policy_resource.go",
+        "internal/terraform/node_resource_abstract_instance.go",
+        "internal/terraform/node_resource_apply_instance.go",
+        "internal/terraform/node_resource_destroy_deposed.go",
+        "internal/terraform/transform_diff.go"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".changes/v1.16/BUG FIXES-20260909-152256.yaml",
+          "status": "added",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/.changes%2Fv1.16%2FBUG%20FIXES-20260909-152256.yaml"
+        },
+        {
+          "filename": "internal/command/format/format.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fcommand%2Fformat%2Fformat.go"
+        },
+        {
+          "filename": "internal/command/jsonformat/plan.go",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 2,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fcommand%2Fjsonformat%2Fplan.go"
+        },
+        {
+          "filename": "internal/command/jsonformat/plan_test.go",
+          "status": "modified",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fcommand%2Fjsonformat%2Fplan_test.go"
+        },
+        {
+          "filename": "internal/command/jsonplan/plan.go",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fcommand%2Fjsonplan%2Fplan.go"
+        },
+        {
+          "filename": "internal/command/views/hook_count.go",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fcommand%2Fviews%2Fhook_count.go"
+        },
+        {
+          "filename": "internal/command/views/json/change.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fcommand%2Fviews%2Fjson%2Fchange.go"
+        },
+        {
+          "filename": "internal/command/views/json/hook.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fcommand%2Fviews%2Fjson%2Fhook.go"
+        },
+        {
+          "filename": "internal/command/views/operation.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fcommand%2Fviews%2Foperation.go"
+        },
+        {
+          "filename": "internal/plans/action.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fplans%2Faction.go"
+        },
+        {
+          "filename": "internal/plans/action_string.go",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 5,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fplans%2Faction_string.go"
+        },
+        {
+          "filename": "internal/plans/changes.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fplans%2Fchanges.go"
+        },
+        {
+          "filename": "internal/plans/planfile/tfplan.go",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 2,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fplans%2Fplanfile%2Ftfplan.go"
+        },
+        {
+          "filename": "internal/plans/planfile/tfplan_test.go",
+          "status": "modified",
+          "additions": 33,
+          "deletions": 0,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fplans%2Fplanfile%2Ftfplan_test.go"
+        },
+        {
+          "filename": "internal/plans/planproto/convert.go",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fplans%2Fplanproto%2Fconvert.go"
+        },
+        {
+          "filename": "internal/plans/planproto/planfile.pb.go",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 11,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fplans%2Fplanproto%2Fplanfile.pb.go"
+        },
+        {
+          "filename": "internal/plans/planproto/planfile.proto",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fplans%2Fplanproto%2Fplanfile.proto"
+        },
+        {
+          "filename": "internal/rpcapi/terraform1/stacks/conversion.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Frpcapi%2Fterraform1%2Fstacks%2Fconversion.go"
+        },
+        {
+          "filename": "internal/stacks/stackruntime/hooks/component_instance.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fstacks%2Fstackruntime%2Fhooks%2Fcomponent_instance.go"
+        },
+        {
+          "filename": "internal/stacks/stackruntime/internal/stackeval/applying.go",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 1,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fstacks%2Fstackruntime%2Finternal%2Fstackeval%2Fapplying.go"
+        },
+        {
+          "filename": "internal/terraform/context_apply2_test.go",
+          "status": "modified",
+          "additions": 264,
+          "deletions": 1,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fterraform%2Fcontext_apply2_test.go"
+        },
+        {
+          "filename": "internal/terraform/context_plan.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fterraform%2Fcontext_plan.go"
+        },
+        {
+          "filename": "internal/terraform/eval_context_builtin.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fterraform%2Feval_context_builtin.go"
+        },
+        {
+          "filename": "internal/terraform/node_policy_resource.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fterraform%2Fnode_policy_resource.go"
+        },
+        {
+          "filename": "internal/terraform/node_resource_abstract_instance.go",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 3,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fterraform%2Fnode_resource_abstract_instance.go"
+        },
+        {
+          "filename": "internal/terraform/node_resource_apply_instance.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fterraform%2Fnode_resource_apply_instance.go"
+        },
+        {
+          "filename": "internal/terraform/node_resource_destroy_deposed.go",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 8,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fterraform%2Fnode_resource_destroy_deposed.go"
+        },
+        {
+          "filename": "internal/terraform/transform_diff.go",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 8,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/d2b63a3d79291bc0c416fe8bf7c73843ccac1303/internal%2Fterraform%2Ftransform_diff.go"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 34569371815,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34569371815",
+          "head_sha": "799c8d896356c5e9623b8545d0c1d20187f27f7c"
+        },
+        {
+          "id": 34567079426,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34567079426",
+          "head_sha": "799c8d896356c5e9623b8545d0c1d20187f27f7c"
+        },
+        {
+          "id": 34555871499,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34555871499",
+          "head_sha": "799c8d896356c5e9623b8545d0c1d20187f27f7c"
+        },
+        {
+          "id": 34555862033,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34555862033",
+          "head_sha": "799c8d896356c5e9623b8545d0c1d20187f27f7c"
+        },
+        {
+          "id": 34552557507,
+          "name": "Lock Threads",
+          "path": ".github/workflows/lock.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34552557507",
+          "head_sha": "799c8d896356c5e9623b8545d0c1d20187f27f7c"
+        },
+        {
+          "id": 34551342919,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34551342919",
+          "head_sha": "799c8d896356c5e9623b8545d0c1d20187f27f7c"
+        },
+        {
+          "id": 34551341303,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34551341303",
+          "head_sha": "799c8d896356c5e9623b8545d0c1d20187f27f7c"
+        },
+        {
+          "id": 34541597433,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34541597433",
+          "head_sha": "799c8d896356c5e9623b8545d0c1d20187f27f7c"
+        },
+        {
+          "id": 34513262010,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34513262010",
+          "head_sha": "799c8d896356c5e9623b8545d0c1d20187f27f7c"
+        },
+        {
+          "id": 34508307481,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34508307481",
+          "head_sha": "799c8d896356c5e9623b8545d0c1d20187f27f7c"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 34487428750,
+          "name": "Backport Assistant Runner",
+          "path": ".github/workflows/backport.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34487428750",
+          "head_sha": "d2b63a3d79291bc0c416fe8bf7c73843ccac1303"
+        },
+        {
+          "id": 34487428755,
+          "name": "equivalence-test-update",
+          "path": ".github/workflows/equivalence-test-update.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34487428755",
+          "head_sha": "d2b63a3d79291bc0c416fe8bf7c73843ccac1303"
+        },
+        {
+          "id": 34399291128,
+          "name": "equivalence-test-diff",
+          "path": ".github/workflows/equivalence-test-diff.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34399291128",
+          "head_sha": "d2b63a3d79291bc0c416fe8bf7c73843ccac1303"
+        },
+        {
+          "id": 34399291245,
+          "name": "Quick Checks",
+          "path": ".github/workflows/checks.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34399291245",
+          "head_sha": "d2b63a3d79291bc0c416fe8bf7c73843ccac1303"
+        },
+        {
+          "id": 34399291173,
+          "name": "Changelog Validation",
+          "path": ".github/workflows/changelog-validation.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34399291173",
+          "head_sha": "d2b63a3d79291bc0c416fe8bf7c73843ccac1303"
+        },
+        {
+          "id": 34399291725,
+          "name": "Enforce Changelog",
+          "path": ".github/workflows/enforce-changelog.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34399291725",
+          "head_sha": "d2b63a3d79291bc0c416fe8bf7c73843ccac1303"
+        },
+        {
+          "id": 34399279586,
+          "name": "equivalence-test-diff",
+          "path": ".github/workflows/equivalence-test-diff.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34399279586",
+          "head_sha": "d2b63a3d79291bc0c416fe8bf7c73843ccac1303"
+        },
+        {
+          "id": 34399279592,
+          "name": "Quick Checks",
+          "path": ".github/workflows/checks.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34399279592",
+          "head_sha": "d2b63a3d79291bc0c416fe8bf7c73843ccac1303"
+        },
+        {
+          "id": 34399279599,
+          "name": "Changelog Validation",
+          "path": ".github/workflows/changelog-validation.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34399279599",
+          "head_sha": "d2b63a3d79291bc0c416fe8bf7c73843ccac1303"
+        },
+        {
+          "id": 34399277112,
+          "name": "Enforce Changelog",
+          "path": ".github/workflows/enforce-changelog.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/34399277112",
+          "head_sha": "d2b63a3d79291bc0c416fe8bf7c73843ccac1303"
+        }
+      ]
+    },
+    {
+      "number": 39224,
+      "title": "Ensure excluded resource instances return a value from `GetResource`",
+      "url": "https://github.com/hashicorp/terraform/pull/39224",
+      "merged_at": "2026-09-16T16:40:26Z",
+      "merge_commit_sha": "59f9315a674f06f73c46c325ac86c55f4fd8c815",
+      "files": [
+        "internal/terraform/context_plan2_test.go",
+        "internal/terraform/evaluate.go"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "internal/terraform/context_plan2_test.go",
+          "status": "modified",
+          "additions": 126,
+          "deletions": 0,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/a13a4c51f3053f724099e192fdfd87b1a2d46380/internal%2Fterraform%2Fcontext_plan2_test.go"
+        },
+        {
+          "filename": "internal/terraform/evaluate.go",
+          "status": "modified",
+          "additions": 36,
+          "deletions": 0,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/a13a4c51f3053f724099e192fdfd87b1a2d46380/internal%2Fterraform%2Fevaluate.go"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 35263846352,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35263846352",
+          "head_sha": "59f9315a674f06f73c46c325ac86c55f4fd8c815"
+        },
+        {
+          "id": 35245003868,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35245003868",
+          "head_sha": "59f9315a674f06f73c46c325ac86c55f4fd8c815"
+        },
+        {
+          "id": 35241043239,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35241043239",
+          "head_sha": "59f9315a674f06f73c46c325ac86c55f4fd8c815"
+        },
+        {
+          "id": 35172637804,
+          "name": "Lock Threads",
+          "path": ".github/workflows/lock.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35172637804",
+          "head_sha": "59f9315a674f06f73c46c325ac86c55f4fd8c815"
+        },
+        {
+          "id": 35139823330,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35139823330",
+          "head_sha": "59f9315a674f06f73c46c325ac86c55f4fd8c815"
+        },
+        {
+          "id": 35138764233,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35138764233",
+          "head_sha": "59f9315a674f06f73c46c325ac86c55f4fd8c815"
+        },
+        {
+          "id": 35138740426,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35138740426",
+          "head_sha": "59f9315a674f06f73c46c325ac86c55f4fd8c815"
+        },
+        {
+          "id": 35132953881,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35132953881",
+          "head_sha": "59f9315a674f06f73c46c325ac86c55f4fd8c815"
+        },
+        {
+          "id": 35132621191,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35132621191",
+          "head_sha": "59f9315a674f06f73c46c325ac86c55f4fd8c815"
+        },
+        {
+          "id": 35130882808,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35130882808",
+          "head_sha": "59f9315a674f06f73c46c325ac86c55f4fd8c815"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 35123385361,
+          "name": "Backport Assistant Runner",
+          "path": ".github/workflows/backport.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35123385361",
+          "head_sha": "a13a4c51f3053f724099e192fdfd87b1a2d46380"
+        },
+        {
+          "id": 35123385384,
+          "name": "equivalence-test-update",
+          "path": ".github/workflows/equivalence-test-update.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35123385384",
+          "head_sha": "a13a4c51f3053f724099e192fdfd87b1a2d46380"
+        },
+        {
+          "id": 35037834968,
+          "name": "Changelog Validation",
+          "path": ".github/workflows/changelog-validation.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35037834968",
+          "head_sha": "a13a4c51f3053f724099e192fdfd87b1a2d46380"
+        },
+        {
+          "id": 35037834962,
+          "name": "equivalence-test-diff",
+          "path": ".github/workflows/equivalence-test-diff.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35037834962",
+          "head_sha": "a13a4c51f3053f724099e192fdfd87b1a2d46380"
+        },
+        {
+          "id": 35037834995,
+          "name": "Quick Checks",
+          "path": ".github/workflows/checks.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35037834995",
+          "head_sha": "a13a4c51f3053f724099e192fdfd87b1a2d46380"
+        },
+        {
+          "id": 35037833801,
+          "name": "Enforce Changelog",
+          "path": ".github/workflows/enforce-changelog.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35037833801",
+          "head_sha": "a13a4c51f3053f724099e192fdfd87b1a2d46380"
+        }
+      ]
+    },
+    {
+      "number": 39401,
+      "title": "command: list -run-parallelism in terraform test -help",
+      "url": "https://github.com/hashicorp/terraform/pull/39401",
+      "merged_at": "2026-10-16T16:20:28Z",
+      "merge_commit_sha": "44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c",
+      "files": [
+        ".changes/v1.18/NOTES-20261016-120321.yaml",
+        "internal/command/test.go"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".changes/v1.18/NOTES-20261016-120321.yaml",
+          "status": "added",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/7d77d30c31e504d8ed06415196062256214bddbf/.changes%2Fv1.18%2FNOTES-20261016-120321.yaml"
+        },
+        {
+          "filename": "internal/command/test.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/hashicorp/terraform/blob/7d77d30c31e504d8ed06415196062256214bddbf/internal%2Fcommand%2Ftest.go"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED",
+        "CHANGES_REQUESTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39029323266,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/39029323266",
+          "head_sha": "44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c"
+        },
+        {
+          "id": 39029319488,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/39029319488",
+          "head_sha": "44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c"
+        },
+        {
+          "id": 39018754718,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/39018754718",
+          "head_sha": "44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c"
+        },
+        {
+          "id": 39011991768,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/39011991768",
+          "head_sha": "44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c"
+        },
+        {
+          "id": 38992862406,
+          "name": "Lock Threads",
+          "path": ".github/workflows/lock.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/38992862406",
+          "head_sha": "44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c"
+        },
+        {
+          "id": 38934322691,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/38934322691",
+          "head_sha": "44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c"
+        },
+        {
+          "id": 38933561485,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/38933561485",
+          "head_sha": "44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c"
+        },
+        {
+          "id": 38932207214,
+          "name": "Issue Comment Created Triage",
+          "path": ".github/workflows/issue-comment-created.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/38932207214",
+          "head_sha": "44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c"
+        },
+        {
+          "id": 38931179892,
+          "name": "Quick Checks",
+          "path": ".github/workflows/checks.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/38931179892",
+          "head_sha": "44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c"
+        },
+        {
+          "id": 38931180126,
+          "name": "build",
+          "path": ".github/workflows/build.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/38931180126",
+          "head_sha": "44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38931179033,
+          "name": "Backport Assistant Runner",
+          "path": ".github/workflows/backport.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/38931179033",
+          "head_sha": "7d77d30c31e504d8ed06415196062256214bddbf"
+        },
+        {
+          "id": 38931179147,
+          "name": "equivalence-test-update",
+          "path": ".github/workflows/equivalence-test-update.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/38931179147",
+          "head_sha": "7d77d30c31e504d8ed06415196062256214bddbf"
+        },
+        {
+          "id": 38912871665,
+          "name": "Enforce Changelog",
+          "path": ".github/workflows/enforce-changelog.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/38912871665",
+          "head_sha": "7d77d30c31e504d8ed06415196062256214bddbf"
+        },
+        {
+          "id": 38912872535,
+          "name": "Changelog Validation",
+          "path": ".github/workflows/changelog-validation.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/38912872535",
+          "head_sha": "7d77d30c31e504d8ed06415196062256214bddbf"
+        },
+        {
+          "id": 38912872946,
+          "name": "equivalence-test-diff",
+          "path": ".github/workflows/equivalence-test-diff.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/38912872946",
+          "head_sha": "7d77d30c31e504d8ed06415196062256214bddbf"
+        },
+        {
+          "id": 38912872494,
+          "name": "Quick Checks",
+          "path": ".github/workflows/checks.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/38912872494",
+          "head_sha": "7d77d30c31e504d8ed06415196062256214bddbf"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v1.16.6",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.6",
+      "published_at": "2026-10-14T09:31:54Z",
+      "target_commitish": "7b8f1669b95119ac6021e05c9d10eae7cf75f60b",
+      "commit_sha": "7b8f1669b95119ac6021e05c9d10eae7cf75f60b",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38543034126,
+          "name": "build",
+          "path": ".github/workflows/build.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/38543034126",
+          "head_sha": "7b8f1669b95119ac6021e05c9d10eae7cf75f60b"
+        },
+        {
+          "id": 38543034049,
+          "name": "Quick Checks",
+          "path": ".github/workflows/checks.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/38543034049",
+          "head_sha": "7b8f1669b95119ac6021e05c9d10eae7cf75f60b"
+        },
+        {
+          "id": 38536440091,
+          "name": "Quick Checks",
+          "path": ".github/workflows/checks.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/38536440091",
+          "head_sha": "7b8f1669b95119ac6021e05c9d10eae7cf75f60b"
+        },
+        {
+          "id": 38536440270,
+          "name": "build",
+          "path": ".github/workflows/build.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/38536440270",
+          "head_sha": "7b8f1669b95119ac6021e05c9d10eae7cf75f60b"
+        }
+      ]
+    },
+    {
+      "tag": "v1.16.5",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.5",
+      "published_at": "2026-10-02T13:04:00Z",
+      "target_commitish": "ef47237fd0e03d6e93bdc510b526287f06e94c03",
+      "commit_sha": "ef47237fd0e03d6e93bdc510b526287f06e94c03",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37010548358,
+          "name": "build",
+          "path": ".github/workflows/build.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/37010548358",
+          "head_sha": "ef47237fd0e03d6e93bdc510b526287f06e94c03"
+        },
+        {
+          "id": 37010547793,
+          "name": "Quick Checks",
+          "path": ".github/workflows/checks.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/37010547793",
+          "head_sha": "ef47237fd0e03d6e93bdc510b526287f06e94c03"
+        },
+        {
+          "id": 36715909102,
+          "name": "build",
+          "path": ".github/workflows/build.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/36715909102",
+          "head_sha": "ef47237fd0e03d6e93bdc510b526287f06e94c03"
+        },
+        {
+          "id": 36715908803,
+          "name": "Quick Checks",
+          "path": ".github/workflows/checks.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/36715908803",
+          "head_sha": "ef47237fd0e03d6e93bdc510b526287f06e94c03"
+        }
+      ]
+    },
+    {
+      "tag": "v1.16.4",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.4",
+      "published_at": "2026-09-23T12:44:16Z",
+      "target_commitish": "6ee8af215a535cfca08bf729ff1017d4221d6667",
+      "commit_sha": "6ee8af215a535cfca08bf729ff1017d4221d6667",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 35862385280,
+          "name": "build",
+          "path": ".github/workflows/build.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35862385280",
+          "head_sha": "6ee8af215a535cfca08bf729ff1017d4221d6667"
+        },
+        {
+          "id": 35862384952,
+          "name": "Quick Checks",
+          "path": ".github/workflows/checks.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35862384952",
+          "head_sha": "6ee8af215a535cfca08bf729ff1017d4221d6667"
+        },
+        {
+          "id": 35857590115,
+          "name": "build",
+          "path": ".github/workflows/build.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35857590115",
+          "head_sha": "6ee8af215a535cfca08bf729ff1017d4221d6667"
+        },
+        {
+          "id": 35857589686,
+          "name": "Quick Checks",
+          "path": ".github/workflows/checks.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/hashicorp/terraform/actions/runs/35857589686",
+          "head_sha": "6ee8af215a535cfca08bf729ff1017d4221d6667"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v1.17.0-rc2",
+      "sha": "eb51132e87f360da9e56f2d7731dc2e61385e543"
+    },
+    {
+      "name": "v1.17.0-rc1",
+      "sha": "690e019678890a1a2d3e99e7e3cd298e501334c5"
+    },
+    {
+      "name": "v1.17.0-beta2",
+      "sha": "af39bdb2cbe6dc54e157045b1c416d6ae148546c"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:14.034446+00:00",
+  "source_times": {
+    "/repos/hashicorp/terraform": "2026-10-17T16:14:10.034376+00:00",
+    "/repos/hashicorp/terraform/commits?sha=main&per_page=20": "2026-10-17T16:14:13.506851+00:00",
+    "/repos/hashicorp/terraform/git/trees/44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c": "2026-10-17T16:14:14.933169+00:00",
+    "/repos/hashicorp/terraform/git/trees/54106e856f87d9ce916c6214bc0a54848e47f031": "2026-10-17T16:14:16.365139+00:00",
+    "/repos/hashicorp/terraform/git/trees/03b44fc60b087b4d53db7d315e2ba85cedbb50a4": "2026-10-17T16:14:18.795240+00:00",
+    "/repos/hashicorp/terraform/git/trees/14878027c8c1f86419eefc3fb5f2ca2e7b265e7e": "2026-10-17T16:14:21.178804+00:00",
+    "/repos/hashicorp/terraform/git/trees/427e71600a076a21f2caba056aaa76a1e8382235": "2026-10-17T16:14:22.599769+00:00",
+    "/repos/hashicorp/terraform/git/blobs/235cf3da03396968557fbe343853e784f424c263": "2026-10-17T16:14:24.033628+00:00",
+    "/repos/hashicorp/terraform/git/blobs/a9c6c899921e75cc4172290ccc865177dd14a47e": "2026-10-17T16:14:25.418945+00:00",
+    "/repos/hashicorp/terraform/git/blobs/c1806e8dc0df9705d7615c24bf3f16e7dd8350ea": "2026-10-17T16:14:26.883865+00:00",
+    "/repos/hashicorp/terraform/git/blobs/ab40c4ef409feaf4e25fc1473f00f896717cc667": "2026-10-17T16:14:28.371511+00:00",
+    "/repos/hashicorp/terraform/git/blobs/b315582a66fadbf8c0149abc6f5786454abb4c06": "2026-10-17T16:14:31.436635+00:00",
+    "/repos/hashicorp/terraform/git/blobs/0c8b092c43187f57bc9dade8e40032816ccf8065": "2026-10-17T16:14:32.967624+00:00",
+    "/repos/hashicorp/terraform/git/blobs/71064bd9567eae1d4a7183d3eceec08e7adf5cdb": "2026-10-17T16:14:34.796367+00:00",
+    "/repos/hashicorp/terraform/git/blobs/2f2624c96b20646d3fd40d79241f833036b6e21f": "2026-10-17T16:14:36.353889+00:00",
+    "/repos/hashicorp/terraform/git/blobs/13928f03e1d5c60ee05d16b96ed8a8481d7c2a20": "2026-10-17T16:14:37.772144+00:00",
+    "/repos/hashicorp/terraform/git/blobs/215987b617f29d7fb61e2a32b655b76a0457b42a": "2026-10-17T16:14:39.195603+00:00",
+    "/repos/hashicorp/terraform/git/blobs/9ba846c3807a945c09b8359a05ba53c0c6f53504": "2026-10-17T16:14:40.551023+00:00",
+    "/repos/hashicorp/terraform/git/blobs/b93545a4c928772f3d50f53a9206e2730719f454": "2026-10-17T16:14:42.957834+00:00",
+    "/repos/hashicorp/terraform/git/blobs/877e36f184107c5e5de8a89e286d384f93da9527": "2026-10-17T16:14:44.605125+00:00",
+    "/repos/hashicorp/terraform/git/blobs/d18d8ee5f4a531c3fcc25f692f1c6f8c356f29a6": "2026-10-17T16:14:45.984762+00:00",
+    "/repos/hashicorp/terraform/git/blobs/7566f8601a005a67cec3270bbdf0fb77103a35e0": "2026-10-17T16:14:48.779022+00:00",
+    "/repos/hashicorp/terraform/git/blobs/bff8c169cc31cc3570c43efdc8e1586da0f7d907": "2026-10-17T16:14:50.176618+00:00",
+    "/repos/hashicorp/terraform/git/blobs/b5c389b9877d4b534548345af8302edc4182a1ff": "2026-10-17T16:14:51.604058+00:00",
+    "/repos/hashicorp/terraform/git/blobs/e4a5717211242ad7b9eada6052dbd5b2d91ecbc7": "2026-10-17T16:14:54.045148+00:00",
+    "/repos/hashicorp/terraform/git/blobs/15ed18b415ab6ffe3369f4e084d0dd9e501ed741": "2026-10-17T16:14:55.418002+00:00",
+    "/repos/hashicorp/terraform/git/blobs/2711766025a4cf018dfeee30595b20aec629bfd7": "2026-10-17T16:14:57.004301+00:00",
+    "/repos/hashicorp/terraform/git/blobs/e30fcd5f037cb0b24a9e6194755912d45e701d92": "2026-10-17T16:14:58.398516+00:00",
+    "/repos/hashicorp/terraform/git/blobs/b8c21ae2a628723ecca3b2fa04a30e39540fa583": "2026-10-17T16:14:59.870109+00:00",
+    "/repos/hashicorp/terraform/git/blobs/d632cb4995ffe41fee37e25836c3c31512bd4e8c": "2026-10-17T16:15:01.518805+00:00",
+    "/repos/hashicorp/terraform/git/blobs/d0abeddf447b9abb2d20004596eb38025144d142": "2026-10-17T16:15:02.940626+00:00",
+    "/repos/hashicorp/terraform/git/blobs/bc661b582b45066bfd3eba9f8260497e4418e7cc": "2026-10-17T16:15:04.345210+00:00",
+    "/repos/hashicorp/terraform/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:15:08.466850+00:00",
+    "/repos/hashicorp/terraform/pulls/39169/files?per_page=100": "2026-10-17T16:15:10.587572+00:00",
+    "/repos/hashicorp/terraform/pulls/39169/reviews?per_page=100": "2026-10-17T16:15:12.137328+00:00",
+    "/repos/hashicorp/terraform/actions/runs?head_sha=799c8d896356c5e9623b8545d0c1d20187f27f7c&per_page=10": "2026-10-17T16:15:14.541881+00:00",
+    "/repos/hashicorp/terraform/actions/runs?head_sha=d2b63a3d79291bc0c416fe8bf7c73843ccac1303&per_page=10": "2026-10-17T16:15:16.850931+00:00",
+    "/repos/hashicorp/terraform/pulls/39224/files?per_page=100": "2026-10-17T16:15:18.443317+00:00",
+    "/repos/hashicorp/terraform/pulls/39224/reviews?per_page=100": "2026-10-17T16:15:20.034841+00:00",
+    "/repos/hashicorp/terraform/actions/runs?head_sha=59f9315a674f06f73c46c325ac86c55f4fd8c815&per_page=10": "2026-10-17T16:15:22.283441+00:00",
+    "/repos/hashicorp/terraform/actions/runs?head_sha=a13a4c51f3053f724099e192fdfd87b1a2d46380&per_page=10": "2026-10-17T16:15:24.336761+00:00",
+    "/repos/hashicorp/terraform/pulls/39401/files?per_page=100": "2026-10-17T16:15:25.898654+00:00",
+    "/repos/hashicorp/terraform/pulls/39401/reviews?per_page=100": "2026-10-17T16:15:27.431578+00:00",
+    "/repos/hashicorp/terraform/actions/runs?head_sha=44fcc1316e98d4a03cc348c05e6d5ba8e36bf51c&per_page=10": "2026-10-17T16:15:29.831424+00:00",
+    "/repos/hashicorp/terraform/actions/runs?head_sha=7d77d30c31e504d8ed06415196062256214bddbf&per_page=10": "2026-10-17T16:15:33.651639+00:00",
+    "/repos/hashicorp/terraform/releases?per_page=20&page=1": "2026-10-17T16:17:14.030558+00:00",
+    "/repos/hashicorp/terraform/commits/v1.16.6": "2026-10-17T16:15:39.704164+00:00",
+    "/repos/hashicorp/terraform/actions/runs?head_sha=7b8f1669b95119ac6021e05c9d10eae7cf75f60b&per_page=10": "2026-10-17T16:15:41.747616+00:00",
+    "/repos/hashicorp/terraform/commits/v1.16.5": "2026-10-17T16:15:43.271798+00:00",
+    "/repos/hashicorp/terraform/actions/runs?head_sha=ef47237fd0e03d6e93bdc510b526287f06e94c03&per_page=10": "2026-10-17T16:15:46.797435+00:00",
+    "/repos/hashicorp/terraform/commits/v1.16.4": "2026-10-17T16:15:49.292584+00:00",
+    "/repos/hashicorp/terraform/actions/runs?head_sha=6ee8af215a535cfca08bf729ff1017d4221d6667&per_page=10": "2026-10-17T16:15:51.226789+00:00",
+    "/repos/hashicorp/terraform/tags?per_page=3": "2026-10-17T16:15:52.613414+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:14.030558+00:00",
+  "status": "collected"
+}

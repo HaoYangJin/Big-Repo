@@ -1,0 +1,2097 @@
+{
+  "requested_repository": "openai/openai-agents-python",
+  "category": "agents",
+  "collected_at": "2026-10-17T16:05:29.127090+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "openai/openai-agents-python",
+  "metadata": {
+    "html_url": "https://github.com/openai/openai-agents-python",
+    "description": "A lightweight, powerful framework for multi-agent workflows",
+    "homepage": "https://openai.github.io/openai-agents-python/",
+    "language": "Python",
+    "stargazers_count": 30099,
+    "forks_count": 4960,
+    "open_issues_count": 11,
+    "pushed_at": "2026-10-17T00:57:22Z",
+    "created_at": "2025-03-11T03:42:36Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [
+      "agents",
+      "ai",
+      "framework",
+      "harness",
+      "llm",
+      "openai",
+      "python"
+    ],
+    "owner": {
+      "login": "openai",
+      "type": "Organization",
+      "html_url": "https://github.com/openai"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "9abc9182d06dbd28330af888306031269d57a175",
+      "url": "https://github.com/openai/openai-agents-python/commit/9abc9182d06dbd28330af888306031269d57a175",
+      "date": "2026-10-17T00:49:49Z",
+      "subject": "docs: clarify local shell approval scope across handoffs (#5385)"
+    },
+    {
+      "sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94",
+      "url": "https://github.com/openai/openai-agents-python/commit/17d994bd3045dae71acda676a4ef4762ed8ecd94",
+      "date": "2026-10-15T02:08:00Z",
+      "subject": "release: 0.24.0 (#5285)"
+    },
+    {
+      "sha": "24ebf1cb0f4b3107d5350b13a1308637d3dec9ca",
+      "url": "https://github.com/openai/openai-agents-python/commit/24ebf1cb0f4b3107d5350b13a1308637d3dec9ca",
+      "date": "2026-10-14T17:46:04Z",
+      "subject": "fix(deps): bump redis from 7.0.1 to 8.1.0 (#5379)"
+    },
+    {
+      "sha": "2938d87a2837537138dc7839003317a27ed3441f",
+      "url": "https://github.com/openai/openai-agents-python/commit/2938d87a2837537138dc7839003317a27ed3441f",
+      "date": "2026-10-14T16:47:54Z",
+      "subject": "fix(deps): bump vercel-sandbox from 0.7.0 to 0.8.0 (#5374)"
+    },
+    {
+      "sha": "c148280f8f748552cc5b385802ef6dedd8ab6576",
+      "url": "https://github.com/openai/openai-agents-python/commit/c148280f8f748552cc5b385802ef6dedd8ab6576",
+      "date": "2026-10-14T16:46:20Z",
+      "subject": "fix(deps): bump temporalio from 1.33.0 to 1.34.0 (#5377)"
+    },
+    {
+      "sha": "7da6a927cc42d955c2fdc8f2cb9a7443fefa4f46",
+      "url": "https://github.com/openai/openai-agents-python/commit/7da6a927cc42d955c2fdc8f2cb9a7443fefa4f46",
+      "date": "2026-10-14T16:46:13Z",
+      "subject": "fix(deps): bump boto3 from 1.42.75 to 1.43.109 (#5378)"
+    },
+    {
+      "sha": "14f4553e288ad5df2c4097c823f3d91f333a1f84",
+      "url": "https://github.com/openai/openai-agents-python/commit/14f4553e288ad5df2c4097c823f3d91f333a1f84",
+      "date": "2026-10-14T16:46:05Z",
+      "subject": "fix(deps): bump filelock from 3.20.3 to 4.0.12 (#5375)"
+    },
+    {
+      "sha": "172ff5e1dbc5b42f5b302e3f66226eac1a54b96d",
+      "url": "https://github.com/openai/openai-agents-python/commit/172ff5e1dbc5b42f5b302e3f66226eac1a54b96d",
+      "date": "2026-10-14T16:43:54Z",
+      "subject": "fix(deps): update openai requirement from <4,>=3.20.0 to >=3.26.0,<4 in /examples/realtime/twilio_sip (#5376)"
+    },
+    {
+      "sha": "c4cc409d057893eccbddc609c79499f1ac227958",
+      "url": "https://github.com/openai/openai-agents-python/commit/c4cc409d057893eccbddc609c79499f1ac227958",
+      "date": "2026-10-14T16:43:44Z",
+      "subject": "fix(deps): update python-dotenv requirement from >=1.2.3 to >=1.2.4 in /examples/realtime/twilio (#5373)"
+    },
+    {
+      "sha": "f47d2c3771f0aa2299f0cd63c2cbebae95f6599a",
+      "url": "https://github.com/openai/openai-agents-python/commit/f47d2c3771f0aa2299f0cd63c2cbebae95f6599a",
+      "date": "2026-10-14T16:43:26Z",
+      "subject": "fix(deps): update fastapi requirement from >=0.141.1 to >=0.142.2 in /examples/realtime/twilio_sip (#5372)"
+    },
+    {
+      "sha": "408c33fec202c8260c83236e2f09e0f8f802e025",
+      "url": "https://github.com/openai/openai-agents-python/commit/408c33fec202c8260c83236e2f09e0f8f802e025",
+      "date": "2026-10-14T16:43:02Z",
+      "subject": "fix(deps): update python-dotenv requirement from >=1.2.3 to >=1.2.4 in /examples/realtime/twilio_sip (#5371)"
+    },
+    {
+      "sha": "1c1a28df92f359dded4eed83976301c2f9850e89",
+      "url": "https://github.com/openai/openai-agents-python/commit/1c1a28df92f359dded4eed83976301c2f9850e89",
+      "date": "2026-10-14T00:53:44Z",
+      "subject": "fix: preserve completed tool outputs when a sibling fails (#5332)"
+    },
+    {
+      "sha": "5eb47a5bdeab8ba9f6087de288c7e606816c76c6",
+      "url": "https://github.com/openai/openai-agents-python/commit/5eb47a5bdeab8ba9f6087de288c7e606816c76c6",
+      "date": "2026-10-13T20:36:39Z",
+      "subject": "fix: defer automatic compaction for pending approvals (#5363)"
+    },
+    {
+      "sha": "2244e9fe302a91b9e9ca97624e273166b8d8bca1",
+      "url": "https://github.com/openai/openai-agents-python/commit/2244e9fe302a91b9e9ca97624e273166b8d8bca1",
+      "date": "2026-10-13T20:36:17Z",
+      "subject": "fix: preserve caller-owned exceptions during sandbox redaction (#5367)"
+    },
+    {
+      "sha": "67d4f8ab893ec41e1fac2393c610a1f6e1f4e0b7",
+      "url": "https://github.com/openai/openai-agents-python/commit/67d4f8ab893ec41e1fac2393c610a1f6e1f4e0b7",
+      "date": "2026-10-13T19:34:37Z",
+      "subject": "fix: preserve embedded separators in sandbox patches (#5365)"
+    },
+    {
+      "sha": "5a30187df904533fe2dbb500d6a6425f0c98b3a2",
+      "url": "https://github.com/openai/openai-agents-python/commit/5a30187df904533fe2dbb500d6a6425f0c98b3a2",
+      "date": "2026-10-13T19:34:30Z",
+      "subject": "fix: reject pending input when completed stop tools end resume (#5366)"
+    },
+    {
+      "sha": "d8e0a769b6a32ab580f9c55bf9bc2a85512c0754",
+      "url": "https://github.com/openai/openai-agents-python/commit/d8e0a769b6a32ab580f9c55bf9bc2a85512c0754",
+      "date": "2026-10-13T19:34:17Z",
+      "subject": "fix: preserve RunState agent ownership across hook state changes (#5362)"
+    },
+    {
+      "sha": "6fc4ab765c1f066bcaef01f2fd7b2c12cd4bcf20",
+      "url": "https://github.com/openai/openai-agents-python/commit/6fc4ab765c1f066bcaef01f2fd7b2c12cd4bcf20",
+      "date": "2026-10-13T19:34:03Z",
+      "subject": "docs: document callable local MCP approval policies (#5364)"
+    },
+    {
+      "sha": "8068c37388e2b39268f0aa7e5b9fb0f35d25b73a",
+      "url": "https://github.com/openai/openai-agents-python/commit/8068c37388e2b39268f0aa7e5b9fb0f35d25b73a",
+      "date": "2026-10-13T18:45:24Z",
+      "subject": "fix: scope Redis Cluster rejection to transactional writes (#5361)"
+    },
+    {
+      "sha": "f53c62451c7f34c15f0c87fa745e05404025420f",
+      "url": "https://github.com/openai/openai-agents-python/commit/f53c62451c7f34c15f0c87fa745e05404025420f",
+      "date": "2026-10-13T05:56:48Z",
+      "subject": "docs: add native Decisions API integration recipes (#5357)"
+    }
+  ],
+  "default_sha": "9abc9182d06dbd28330af888306031269d57a175",
+  "root_and_selected_directory_paths": [
+    ".agents",
+    ".gitattributes",
+    ".github",
+    ".github/CODEOWNERS",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug_report.md",
+    ".github/ISSUE_TEMPLATE/feature_request.md",
+    ".github/ISSUE_TEMPLATE/model_provider.md",
+    ".github/ISSUE_TEMPLATE/question.md",
+    ".github/PULL_REQUEST_TEMPLATE",
+    ".github/PULL_REQUEST_TEMPLATE/pull_request_template.md",
+    ".github/RELEASING.md",
+    ".github/dependabot.yml",
+    ".github/scripts",
+    ".github/workflows",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/docs.yml",
+    ".github/workflows/issues.yml",
+    ".github/workflows/publish.yml",
+    ".github/workflows/release-candidate.yml",
+    ".github/workflows/release-please.yml",
+    ".github/workflows/release-readiness-refresh.yml",
+    ".github/workflows/release-readiness.yml",
+    ".github/workflows/repo-skills.yml",
+    ".github/workflows/tests.yml",
+    ".gitignore",
+    ".prettierrc",
+    ".release-please-manifest.json",
+    ".vscode",
+    "AGENTS.md",
+    "CHANGELOG.md",
+    "CLAUDE.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "Makefile",
+    "PLANS.md",
+    "README.md",
+    "SECURITY.md",
+    "docs",
+    "docs/agents.md",
+    "docs/assets",
+    "docs/config.md",
+    "docs/context.md",
+    "docs/examples.md",
+    "docs/guardrails.md",
+    "docs/handoffs.md",
+    "docs/human_in_the_loop.md",
+    "docs/index.md",
+    "docs/ja",
+    "docs/ko",
+    "docs/llms-full.txt",
+    "docs/llms.txt",
+    "docs/mcp.md",
+    "docs/models",
+    "docs/multi_agent.md",
+    "docs/quickstart.md",
+    "docs/realtime",
+    "docs/ref",
+    "docs/release.md",
+    "docs/repl.md",
+    "docs/results.md",
+    "docs/running_agents.md",
+    "docs/sandbox",
+    "docs/sandbox_agents.md",
+    "docs/scripts",
+    "docs/sessions",
+    "docs/streaming.md",
+    "docs/stylesheets",
+    "docs/testing.md",
+    "docs/tools.md",
+    "docs/tracing.md",
+    "docs/usage.md",
+    "docs/visualization.md",
+    "docs/voice",
+    "docs/zh",
+    "examples",
+    "integration_tests",
+    "mkdocs.yml",
+    "pyproject.toml",
+    "pyrightconfig.json",
+    "release-please-config.json",
+    "src",
+    "tests",
+    "uv.lock"
+  ],
+  "workflow_paths": [
+    ".github/workflows/publish.yml",
+    ".github/workflows/release-candidate.yml",
+    ".github/workflows/release-please.yml",
+    ".github/workflows/release-readiness-refresh.yml",
+    ".github/workflows/release-readiness.yml",
+    ".github/workflows/tests.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/docs.yml",
+    ".github/workflows/issues.yml",
+    ".github/workflows/repo-skills.yml"
+  ],
+  "documents": [
+    {
+      "path": ".release-please-manifest.json",
+      "sha": "fc5553b079e99d8babdc577d352d03d8c533754a",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/.release-please-manifest.json",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "AGENTS.md",
+      "sha": "6cf28ce7e03d61f7b7c689b63d9f2ba5adf998df",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/AGENTS.md",
+      "lines": 214,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          146
+        ],
+        "release_automation": [
+          21,
+          34
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          14
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          76,
+          127
+        ]
+      }
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "df0ef95215e31991e75afe4eaf143be60746285f",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/CHANGELOG.md",
+      "lines": 219,
+      "signals": {
+        "tests": [],
+        "lint": [
+          107
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          44,
+          57,
+          77,
+          150,
+          159,
+          160
+        ]
+      }
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha": "47dc3e3d863cfb5727b87d785d09abf9743c0a72",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/CLAUDE.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "696e0e6fc7356d6d8ce12e08d37b65ee1488ea85",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/CONTRIBUTING.md",
+      "lines": 82,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          9,
+          13,
+          51,
+          64
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          35,
+          68
+        ]
+      }
+    },
+    {
+      "path": "Makefile",
+      "sha": "5c571918a6ce097622fe779398a8daa726d59275",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/Makefile",
+      "lines": 239,
+      "signals": {
+        "tests": [
+          86,
+          90,
+          208,
+          214,
+          218
+        ],
+        "lint": [
+          36,
+          37,
+          41,
+          45
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "40f490c110cd584f7034bd221c6da37379fc41ff",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/README.md",
+      "lines": 194,
+      "signals": {
+        "tests": [
+          191
+        ],
+        "lint": [
+          189
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          170
+        ],
+        "star_history": [],
+        "badges": [
+          1
+        ],
+        "media": [
+          1,
+          5
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          172,
+          174
+        ],
+        "story": [
+          20
+        ]
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "55b529fdeb411c1b1fa39bec7881d7852dbbc365",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/SECURITY.md",
+      "lines": 42,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "2fda55bf0d98b29b2a0f328e253b810a7337f027",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/pyproject.toml",
+      "lines": 282,
+      "signals": {
+        "tests": [
+          99,
+          100,
+          101,
+          102,
+          256
+        ],
+        "lint": [
+          98,
+          157,
+          161,
+          165,
+          185,
+          188,
+          272
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "release-please-config.json",
+      "sha": "13a5a1dd4d0590e2a9c2fb4e2c7a7d49b3e91cd8",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/release-please-config.json",
+      "lines": 32,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          2
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha": "8daa2376a833c3237142bf1c95306f218fd37f6f",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/.github/CODEOWNERS",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          2
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha": "6ed47976dbbe76b43c40bb58457cef429e32bc74",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/.github/ISSUE_TEMPLATE/bug_report.md",
+      "lines": 53,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha": "0f9037fd2127f7ae51c390ca393cf6d7618b705b",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/.github/ISSUE_TEMPLATE/feature_request.md",
+      "lines": 16,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/model_provider.md",
+      "sha": "cc612aa9ab328ddf7b605d0d024bb4202093eb79",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/.github/ISSUE_TEMPLATE/model_provider.md",
+      "lines": 54,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/question.md",
+      "sha": "8613074e6000b33d3fd5986d25825238197b2c92",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/.github/ISSUE_TEMPLATE/question.md",
+      "lines": 16,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE/pull_request_template.md",
+      "sha": "282183d22956a7cba97ee8a9c3c573bad5d94d6c",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/.github/PULL_REQUEST_TEMPLATE/pull_request_template.md",
+      "lines": 19,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "65193b2bac10e91e79fc1c46e4310c46c8e6d53d",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/.github/dependabot.yml",
+      "lines": 56,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/agents.md",
+      "sha": "9d71cb97bd564990b9fdca6cd611f1193f333f81",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/docs/agents.md",
+      "lines": 451,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          74
+        ],
+        "community": [],
+        "story": [
+          225
+        ]
+      }
+    },
+    {
+      "path": "docs/release.md",
+      "sha": "df7cd888b7d6e2fed4f8f2b26be614df83680957",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/docs/release.md",
+      "lines": 236,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          58,
+          61
+        ],
+        "story": [
+          28,
+          61,
+          73,
+          207,
+          212,
+          213
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "sha": "c703b76f6d551cc102fc3cac34afc8079c98bf6a",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/.github/workflows/publish.yml",
+      "lines": 177,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          1,
+          157,
+          158
+        ],
+        "permissions": [
+          8,
+          16,
+          75,
+          131,
+          132,
+          164,
+          165
+        ],
+        "pinned_actions": [
+          24,
+          31,
+          38,
+          55,
+          84,
+          91,
+          98,
+          109,
+          119,
+          138,
+          145,
+          158
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release-candidate.yml",
+      "sha": "a2c48fa6cf5b45fb8a7c93f37e12d81881428f0e",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/.github/workflows/release-candidate.yml",
+      "lines": 122,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          7,
+          24
+        ],
+        "permissions": [
+          17,
+          32,
+          60,
+          91,
+          115
+        ],
+        "pinned_actions": [
+          40,
+          49,
+          63,
+          67,
+          81,
+          96,
+          100,
+          104,
+          108
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "sha": "70667a12103bbdd04c797cddcf3843ff33188afb",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/.github/workflows/release-please.yml",
+      "lines": 41,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          12,
+          34,
+          38,
+          39
+        ],
+        "permissions": [
+          9,
+          20,
+          30
+        ],
+        "pinned_actions": [
+          24,
+          34
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release-readiness-refresh.yml",
+      "sha": "5a26ab6f093098dd88bc43f77bdce7baf1673347",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/.github/workflows/release-readiness-refresh.yml",
+      "lines": 50,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          9
+        ],
+        "permissions": [
+          5,
+          12,
+          37
+        ],
+        "pinned_actions": [
+          18,
+          42
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release-readiness.yml",
+      "sha": "fb2110166d4df410cea5f181d0e75a55b92824a4",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/.github/workflows/release-readiness.yml",
+      "lines": 30,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          20,
+          27
+        ],
+        "permissions": [
+          7,
+          16
+        ],
+        "pinned_actions": [
+          21
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "sha": "e437e87ffbaf88df70631a240e57b4a21d15a90b",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/.github/workflows/tests.yml",
+      "lines": 469,
+      "signals": {
+        "tests": [
+          157,
+          221,
+          437
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12
+        ],
+        "pinned_actions": [
+          24,
+          30,
+          54,
+          60,
+          68,
+          89,
+          95,
+          103,
+          135,
+          141,
+          177,
+          183
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "sha": "84d6f09df68f81f6479a4ac7aea7ab6b7094fe9d",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/.github/workflows/codeql.yml",
+      "lines": 45,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13,
+          23
+        ],
+        "pinned_actions": [
+          32,
+          37,
+          43
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "sha": "9d5c5230488bb327de6782d59d6ef48f81399766",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/.github/workflows/docs.yml",
+      "lines": 95,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13,
+          23,
+          70,
+          71
+        ],
+        "pinned_actions": [
+          29,
+          40,
+          58,
+          74,
+          79
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/issues.yml",
+      "sha": "8e0adbad52ae9300d39bdf3cbc42b84263addf41",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/.github/workflows/issues.yml",
+      "lines": 28,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9
+        ],
+        "pinned_actions": [
+          13
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/repo-skills.yml",
+      "sha": "e71e4531198195d7dd8b77b18fe93206fb6362eb",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-agents-python/blob/9abc9182d06dbd28330af888306031269d57a175/.github/workflows/repo-skills.yml",
+      "lines": 41,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          22
+        ],
+        "pinned_actions": [
+          31,
+          35
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 5385,
+      "title": "docs: clarify local shell approval scope across handoffs",
+      "url": "https://github.com/openai/openai-agents-python/pull/5385",
+      "merged_at": "2026-10-17T00:53:50Z",
+      "merge_commit_sha": "9abc9182d06dbd28330af888306031269d57a175",
+      "files": [
+        "docs/human_in_the_loop.md",
+        "docs/tools.md"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "docs/human_in_the_loop.md",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 4,
+          "blob_url": "https://github.com/openai/openai-agents-python/blob/6f6c18e2e984ae6c11cc09d6673641c181ff4631/docs%2Fhuman_in_the_loop.md"
+        },
+        {
+          "filename": "docs/tools.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-agents-python/blob/6f6c18e2e984ae6c11cc09d6673641c181ff4631/docs%2Ftools.md"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED",
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39044036911,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/39044036911",
+          "head_sha": "9abc9182d06dbd28330af888306031269d57a175"
+        },
+        {
+          "id": 38992636055,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38992636055",
+          "head_sha": "9abc9182d06dbd28330af888306031269d57a175"
+        },
+        {
+          "id": 38991646915,
+          "name": "Close inactive issues",
+          "path": ".github/workflows/issues.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38991646915",
+          "head_sha": "9abc9182d06dbd28330af888306031269d57a175"
+        },
+        {
+          "id": 38989062788,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38989062788",
+          "head_sha": "9abc9182d06dbd28330af888306031269d57a175"
+        },
+        {
+          "id": 38988718995,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38988718995",
+          "head_sha": "9abc9182d06dbd28330af888306031269d57a175"
+        },
+        {
+          "id": 38988492640,
+          "name": "Release Candidate eligible",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38988492640",
+          "head_sha": "9abc9182d06dbd28330af888306031269d57a175"
+        },
+        {
+          "id": 38988464935,
+          "name": "Release Please",
+          "path": ".github/workflows/release-please.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38988464935",
+          "head_sha": "9abc9182d06dbd28330af888306031269d57a175"
+        },
+        {
+          "id": 38988464443,
+          "name": "Code Quality: Push on main",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38988464443",
+          "head_sha": "9abc9182d06dbd28330af888306031269d57a175"
+        },
+        {
+          "id": 38988464829,
+          "name": "Tests",
+          "path": ".github/workflows/tests.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38988464829",
+          "head_sha": "9abc9182d06dbd28330af888306031269d57a175"
+        },
+        {
+          "id": 38988464825,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38988464825",
+          "head_sha": "9abc9182d06dbd28330af888306031269d57a175"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38988099710,
+          "name": "Refresh Release Readiness",
+          "path": ".github/workflows/release-readiness-refresh.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38988099710",
+          "head_sha": "6f6c18e2e984ae6c11cc09d6673641c181ff4631"
+        },
+        {
+          "id": 38987946024,
+          "name": "Refresh Release Readiness",
+          "path": ".github/workflows/release-readiness-refresh.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38987946024",
+          "head_sha": "6f6c18e2e984ae6c11cc09d6673641c181ff4631"
+        },
+        {
+          "id": 38987728405,
+          "name": "Refresh Release Readiness",
+          "path": ".github/workflows/release-readiness-refresh.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38987728405",
+          "head_sha": "6f6c18e2e984ae6c11cc09d6673641c181ff4631"
+        },
+        {
+          "id": 38987333121,
+          "name": "Release Readiness",
+          "path": ".github/workflows/release-readiness.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38987333121",
+          "head_sha": "6f6c18e2e984ae6c11cc09d6673641c181ff4631"
+        },
+        {
+          "id": 38987333106,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38987333106",
+          "head_sha": "6f6c18e2e984ae6c11cc09d6673641c181ff4631"
+        },
+        {
+          "id": 38987333102,
+          "name": "Tests",
+          "path": ".github/workflows/tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38987333102",
+          "head_sha": "6f6c18e2e984ae6c11cc09d6673641c181ff4631"
+        },
+        {
+          "id": 38987331345,
+          "name": "Code Quality: PR #5385",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38987331345",
+          "head_sha": "6f6c18e2e984ae6c11cc09d6673641c181ff4631"
+        }
+      ]
+    },
+    {
+      "number": 4771,
+      "title": "fix: propagate the serial test runner's exit code on Windows",
+      "url": "https://github.com/openai/openai-agents-python/pull/4771",
+      "merged_at": "2026-09-07T14:41:02Z",
+      "merge_commit_sha": "b4e60202d1696b5976408705b58c9d506ba23fb0",
+      "files": [
+        ".github/scripts/run_serial_tests.py",
+        "tests/test_run_serial_tests.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".github/scripts/run_serial_tests.py",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-agents-python/blob/9ed1adc5c8bff83516a0beac55a448b9d4372cf7/.github%2Fscripts%2Frun_serial_tests.py"
+        },
+        {
+          "filename": "tests/test_run_serial_tests.py",
+          "status": "modified",
+          "additions": 54,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-agents-python/blob/9ed1adc5c8bff83516a0beac55a448b9d4372cf7/tests%2Ftest_run_serial_tests.py"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 34134297121,
+          "name": "Tests",
+          "path": ".github/workflows/tests.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/34134297121",
+          "head_sha": "b4e60202d1696b5976408705b58c9d506ba23fb0"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 33272055135,
+          "name": "Tests",
+          "path": ".github/workflows/tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/33272055135",
+          "head_sha": "9ed1adc5c8bff83516a0beac55a448b9d4372cf7"
+        }
+      ]
+    },
+    {
+      "number": 5285,
+      "title": "release: 0.24.0",
+      "url": "https://github.com/openai/openai-agents-python/pull/5285",
+      "merged_at": "2026-10-15T02:19:58Z",
+      "merge_commit_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94",
+      "files": [
+        ".release-please-manifest.json",
+        "CHANGELOG.md",
+        "pyproject.toml",
+        "src/agents/version.py",
+        "tests/fixtures/released_api_contract.json",
+        "uv.lock"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".release-please-manifest.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-agents-python/blob/0f44a46474d1f37a6b0ee006251a78bde4179bea/.release-please-manifest.json"
+        },
+        {
+          "filename": "CHANGELOG.md",
+          "status": "modified",
+          "additions": 59,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-agents-python/blob/0f44a46474d1f37a6b0ee006251a78bde4179bea/CHANGELOG.md"
+        },
+        {
+          "filename": "pyproject.toml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-agents-python/blob/0f44a46474d1f37a6b0ee006251a78bde4179bea/pyproject.toml"
+        },
+        {
+          "filename": "src/agents/version.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-agents-python/blob/0f44a46474d1f37a6b0ee006251a78bde4179bea/src%2Fagents%2Fversion.py"
+        },
+        {
+          "filename": "tests/fixtures/released_api_contract.json",
+          "status": "modified",
+          "additions": 29,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-agents-python/blob/0f44a46474d1f37a6b0ee006251a78bde4179bea/tests%2Ffixtures%2Freleased_api_contract.json"
+        },
+        {
+          "filename": "uv.lock",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-agents-python/blob/0f44a46474d1f37a6b0ee006251a78bde4179bea/uv.lock"
+        }
+      ],
+      "review_states": [
+        "DISMISSED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38988437694,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38988437694",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        },
+        {
+          "id": 38987576062,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38987576062",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        },
+        {
+          "id": 38984658483,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38984658483",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        },
+        {
+          "id": 38979441963,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38979441963",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        },
+        {
+          "id": 38974642332,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38974642332",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        },
+        {
+          "id": 38972127173,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38972127173",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        },
+        {
+          "id": 38971083812,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38971083812",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        },
+        {
+          "id": 38969426336,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38969426336",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        },
+        {
+          "id": 38969342664,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38969342664",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        },
+        {
+          "id": 38968281612,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38968281612",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38663991606,
+          "name": "Refresh Release Readiness",
+          "path": ".github/workflows/release-readiness-refresh.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38663991606",
+          "head_sha": "0f44a46474d1f37a6b0ee006251a78bde4179bea"
+        },
+        {
+          "id": 38663686290,
+          "name": "Refresh Release Readiness",
+          "path": ".github/workflows/release-readiness-refresh.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38663686290",
+          "head_sha": "0f44a46474d1f37a6b0ee006251a78bde4179bea"
+        },
+        {
+          "id": 38659884573,
+          "name": "Refresh Release Readiness",
+          "path": ".github/workflows/release-readiness-refresh.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38659884573",
+          "head_sha": "0f44a46474d1f37a6b0ee006251a78bde4179bea"
+        },
+        {
+          "id": 38659675567,
+          "name": "Tests",
+          "path": ".github/workflows/tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38659675567",
+          "head_sha": "0f44a46474d1f37a6b0ee006251a78bde4179bea"
+        },
+        {
+          "id": 38659675531,
+          "name": "Release Readiness",
+          "path": ".github/workflows/release-readiness.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38659675531",
+          "head_sha": "0f44a46474d1f37a6b0ee006251a78bde4179bea"
+        },
+        {
+          "id": 38659675656,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38659675656",
+          "head_sha": "0f44a46474d1f37a6b0ee006251a78bde4179bea"
+        },
+        {
+          "id": 38659669843,
+          "name": "Code Quality: PR #5285",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38659669843",
+          "head_sha": "0f44a46474d1f37a6b0ee006251a78bde4179bea"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v0.24.0",
+      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.24.0",
+      "published_at": "2026-10-15T02:20:12Z",
+      "target_commitish": "17d994bd3045dae71acda676a4ef4762ed8ecd94",
+      "commit_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38988437694,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38988437694",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        },
+        {
+          "id": 38987576062,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38987576062",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        },
+        {
+          "id": 38984658483,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38984658483",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        },
+        {
+          "id": 38979441963,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38979441963",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        },
+        {
+          "id": 38974642332,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38974642332",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        },
+        {
+          "id": 38972127173,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38972127173",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        },
+        {
+          "id": 38971083812,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38971083812",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        },
+        {
+          "id": 38969426336,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38969426336",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        },
+        {
+          "id": 38969342664,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38969342664",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        },
+        {
+          "id": 38968281612,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/38968281612",
+          "head_sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+        }
+      ]
+    },
+    {
+      "tag": "v0.23.1",
+      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.23.1",
+      "published_at": "2026-10-02T15:19:29Z",
+      "target_commitish": "c4a1d047b22488234b2ba81056e1b9b8db2127a5",
+      "commit_sha": "c4a1d047b22488234b2ba81056e1b9b8db2127a5",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37049794982,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/37049794982",
+          "head_sha": "c4a1d047b22488234b2ba81056e1b9b8db2127a5"
+        },
+        {
+          "id": 37048111479,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/37048111479",
+          "head_sha": "c4a1d047b22488234b2ba81056e1b9b8db2127a5"
+        },
+        {
+          "id": 37047570448,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/37047570448",
+          "head_sha": "c4a1d047b22488234b2ba81056e1b9b8db2127a5"
+        },
+        {
+          "id": 37033525438,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/37033525438",
+          "head_sha": "c4a1d047b22488234b2ba81056e1b9b8db2127a5"
+        },
+        {
+          "id": 37028857880,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/37028857880",
+          "head_sha": "c4a1d047b22488234b2ba81056e1b9b8db2127a5"
+        },
+        {
+          "id": 37027239356,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/37027239356",
+          "head_sha": "c4a1d047b22488234b2ba81056e1b9b8db2127a5"
+        },
+        {
+          "id": 37026189924,
+          "name": "Release Candidate eligible",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/37026189924",
+          "head_sha": "c4a1d047b22488234b2ba81056e1b9b8db2127a5"
+        },
+        {
+          "id": 37026168456,
+          "name": "Publish to PyPI",
+          "path": ".github/workflows/publish.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/37026168456",
+          "head_sha": "c4a1d047b22488234b2ba81056e1b9b8db2127a5"
+        },
+        {
+          "id": 37026129470,
+          "name": "Configured Graph Update: uv in /. #1605388506",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/37026129470",
+          "head_sha": "c4a1d047b22488234b2ba81056e1b9b8db2127a5"
+        },
+        {
+          "id": 37026124809,
+          "name": "Deploy docs",
+          "path": ".github/workflows/docs.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/37026124809",
+          "head_sha": "c4a1d047b22488234b2ba81056e1b9b8db2127a5"
+        }
+      ]
+    },
+    {
+      "tag": "v0.23.0",
+      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.23.0",
+      "published_at": "2026-10-02T01:08:23Z",
+      "target_commitish": "ce8ae9f368e7e3e2f495fc80a0c44137e88b78c4",
+      "commit_sha": "ce8ae9f368e7e3e2f495fc80a0c44137e88b78c4",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 36960236873,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/36960236873",
+          "head_sha": "ce8ae9f368e7e3e2f495fc80a0c44137e88b78c4"
+        },
+        {
+          "id": 36959403335,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/36959403335",
+          "head_sha": "ce8ae9f368e7e3e2f495fc80a0c44137e88b78c4"
+        },
+        {
+          "id": 36958441795,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/36958441795",
+          "head_sha": "ce8ae9f368e7e3e2f495fc80a0c44137e88b78c4"
+        },
+        {
+          "id": 36952662473,
+          "name": "Close inactive issues",
+          "path": ".github/workflows/issues.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/36952662473",
+          "head_sha": "ce8ae9f368e7e3e2f495fc80a0c44137e88b78c4"
+        },
+        {
+          "id": 36950352231,
+          "name": "Release Candidate unrelated",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/36950352231",
+          "head_sha": "ce8ae9f368e7e3e2f495fc80a0c44137e88b78c4"
+        },
+        {
+          "id": 36949498568,
+          "name": "Release Candidate eligible",
+          "path": ".github/workflows/release-candidate.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/36949498568",
+          "head_sha": "ce8ae9f368e7e3e2f495fc80a0c44137e88b78c4"
+        },
+        {
+          "id": 36949487114,
+          "name": "Publish to PyPI",
+          "path": ".github/workflows/publish.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/36949487114",
+          "head_sha": "ce8ae9f368e7e3e2f495fc80a0c44137e88b78c4"
+        },
+        {
+          "id": 36949467776,
+          "name": "Configured Graph Update: uv in /. #1604143383",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/36949467776",
+          "head_sha": "ce8ae9f368e7e3e2f495fc80a0c44137e88b78c4"
+        },
+        {
+          "id": 36949464756,
+          "name": "Deploy docs",
+          "path": ".github/workflows/docs.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/36949464756",
+          "head_sha": "ce8ae9f368e7e3e2f495fc80a0c44137e88b78c4"
+        },
+        {
+          "id": 36949464730,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-agents-python/actions/runs/36949464730",
+          "head_sha": "ce8ae9f368e7e3e2f495fc80a0c44137e88b78c4"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v0.24.0",
+      "sha": "17d994bd3045dae71acda676a4ef4762ed8ecd94"
+    },
+    {
+      "name": "v0.23.1",
+      "sha": "c4a1d047b22488234b2ba81056e1b9b8db2127a5"
+    },
+    {
+      "name": "v0.23.0",
+      "sha": "ce8ae9f368e7e3e2f495fc80a0c44137e88b78c4"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:16:44.336267+00:00",
+  "source_times": {
+    "/repos/openai/openai-agents-python": "2026-10-17T16:05:29.127090+00:00",
+    "/repos/openai/openai-agents-python/commits?sha=main&per_page=20": "2026-10-17T16:05:31.914483+00:00",
+    "/repos/openai/openai-agents-python/git/trees/9abc9182d06dbd28330af888306031269d57a175": "2026-10-17T16:05:33.262362+00:00",
+    "/repos/openai/openai-agents-python/git/trees/dba0f9b44d916a0af8b41acfe7e40ad80d4869bb": "2026-10-17T16:05:34.660186+00:00",
+    "/repos/openai/openai-agents-python/git/trees/9f1a03b0ec3657132fcf169a8e29603d1859f54f": "2026-10-17T16:05:36.056280+00:00",
+    "/repos/openai/openai-agents-python/git/trees/a666f885341b1b62499e276a50f798450bee07f6": "2026-10-17T16:05:37.441891+00:00",
+    "/repos/openai/openai-agents-python/git/trees/b603d34b44ad743b5469c67a5bc81426e6741fa6": "2026-10-17T16:05:38.849140+00:00",
+    "/repos/openai/openai-agents-python/git/trees/2036682742efac8ef5867b1e0077d18d6658611b": "2026-10-17T16:05:40.286435+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/fc5553b079e99d8babdc577d352d03d8c533754a": "2026-10-17T16:05:41.675338+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/6cf28ce7e03d61f7b7c689b63d9f2ba5adf998df": "2026-10-17T16:05:43.442940+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/df0ef95215e31991e75afe4eaf143be60746285f": "2026-10-17T16:05:45.446829+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/47dc3e3d863cfb5727b87d785d09abf9743c0a72": "2026-10-17T16:05:46.830646+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/696e0e6fc7356d6d8ce12e08d37b65ee1488ea85": "2026-10-17T16:05:49.394910+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/5c571918a6ce097622fe779398a8daa726d59275": "2026-10-17T16:05:50.835120+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/40f490c110cd584f7034bd221c6da37379fc41ff": "2026-10-17T16:05:52.829649+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/55b529fdeb411c1b1fa39bec7881d7852dbbc365": "2026-10-17T16:05:54.279598+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/2fda55bf0d98b29b2a0f328e253b810a7337f027": "2026-10-17T16:05:55.702388+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/13a5a1dd4d0590e2a9c2fb4e2c7a7d49b3e91cd8": "2026-10-17T16:05:57.099459+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/8daa2376a833c3237142bf1c95306f218fd37f6f": "2026-10-17T16:05:58.500672+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/6ed47976dbbe76b43c40bb58457cef429e32bc74": "2026-10-17T16:05:59.856038+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/0f9037fd2127f7ae51c390ca393cf6d7618b705b": "2026-10-17T16:06:02.678267+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/cc612aa9ab328ddf7b605d0d024bb4202093eb79": "2026-10-17T16:06:04.074960+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/8613074e6000b33d3fd5986d25825238197b2c92": "2026-10-17T16:06:05.464900+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/282183d22956a7cba97ee8a9c3c573bad5d94d6c": "2026-10-17T16:06:07.307929+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/65193b2bac10e91e79fc1c46e4310c46c8e6d53d": "2026-10-17T16:06:08.909832+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/9d71cb97bd564990b9fdca6cd611f1193f333f81": "2026-10-17T16:06:10.488916+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/df7cd888b7d6e2fed4f8f2b26be614df83680957": "2026-10-17T16:06:12.096835+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/c703b76f6d551cc102fc3cac34afc8079c98bf6a": "2026-10-17T16:06:13.477067+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/a2c48fa6cf5b45fb8a7c93f37e12d81881428f0e": "2026-10-17T16:06:14.851226+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/70667a12103bbdd04c797cddcf3843ff33188afb": "2026-10-17T16:06:16.279617+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/5a26ab6f093098dd88bc43f77bdce7baf1673347": "2026-10-17T16:06:17.701227+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/fb2110166d4df410cea5f181d0e75a55b92824a4": "2026-10-17T16:06:19.088620+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/e437e87ffbaf88df70631a240e57b4a21d15a90b": "2026-10-17T16:06:20.698872+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/84d6f09df68f81f6479a4ac7aea7ab6b7094fe9d": "2026-10-17T16:06:22.091177+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/9d5c5230488bb327de6782d59d6ef48f81399766": "2026-10-17T16:06:23.460893+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/8e0adbad52ae9300d39bdf3cbc42b84263addf41": "2026-10-17T16:06:24.818773+00:00",
+    "/repos/openai/openai-agents-python/git/blobs/e71e4531198195d7dd8b77b18fe93206fb6362eb": "2026-10-17T16:06:26.217298+00:00",
+    "/repos/openai/openai-agents-python/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:06:35.149253+00:00",
+    "/repos/openai/openai-agents-python/pulls/5385/files?per_page=100": "2026-10-17T16:06:36.655478+00:00",
+    "/repos/openai/openai-agents-python/pulls/5385/reviews?per_page=100": "2026-10-17T16:06:38.271141+00:00",
+    "/repos/openai/openai-agents-python/actions/runs?head_sha=9abc9182d06dbd28330af888306031269d57a175&per_page=10": "2026-10-17T16:06:40.426777+00:00",
+    "/repos/openai/openai-agents-python/actions/runs?head_sha=6f6c18e2e984ae6c11cc09d6673641c181ff4631&per_page=10": "2026-10-17T16:06:42.721910+00:00",
+    "/repos/openai/openai-agents-python/pulls/4771/files?per_page=100": "2026-10-17T16:06:44.246420+00:00",
+    "/repos/openai/openai-agents-python/pulls/4771/reviews?per_page=100": "2026-10-17T16:06:45.641932+00:00",
+    "/repos/openai/openai-agents-python/actions/runs?head_sha=b4e60202d1696b5976408705b58c9d506ba23fb0&per_page=10": "2026-10-17T16:06:48.853205+00:00",
+    "/repos/openai/openai-agents-python/actions/runs?head_sha=9ed1adc5c8bff83516a0beac55a448b9d4372cf7&per_page=10": "2026-10-17T16:06:50.510024+00:00",
+    "/repos/openai/openai-agents-python/pulls/5285/files?per_page=100": "2026-10-17T16:06:52.246588+00:00",
+    "/repos/openai/openai-agents-python/pulls/5285/reviews?per_page=100": "2026-10-17T16:06:54.067099+00:00",
+    "/repos/openai/openai-agents-python/actions/runs?head_sha=17d994bd3045dae71acda676a4ef4762ed8ecd94&per_page=10": "2026-10-17T16:06:57.552498+00:00",
+    "/repos/openai/openai-agents-python/actions/runs?head_sha=0f44a46474d1f37a6b0ee006251a78bde4179bea&per_page=10": "2026-10-17T16:06:59.685874+00:00",
+    "/repos/openai/openai-agents-python/releases?per_page=20&page=1": "2026-10-17T16:16:44.332312+00:00",
+    "/repos/openai/openai-agents-python/commits/v0.24.0": "2026-10-17T16:07:05.076168+00:00",
+    "/repos/openai/openai-agents-python/commits/v0.23.1": "2026-10-17T16:07:06.583045+00:00",
+    "/repos/openai/openai-agents-python/actions/runs?head_sha=c4a1d047b22488234b2ba81056e1b9b8db2127a5&per_page=10": "2026-10-17T16:07:08.970299+00:00",
+    "/repos/openai/openai-agents-python/commits/v0.23.0": "2026-10-17T16:07:14.021482+00:00",
+    "/repos/openai/openai-agents-python/actions/runs?head_sha=ce8ae9f368e7e3e2f495fc80a0c44137e88b78c4&per_page=10": "2026-10-17T16:07:16.218433+00:00",
+    "/repos/openai/openai-agents-python/tags?per_page=3": "2026-10-17T16:07:17.668706+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:16:44.332312+00:00",
+  "status": "collected"
+}

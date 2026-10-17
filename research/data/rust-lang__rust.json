@@ -1,0 +1,2337 @@
+{
+  "requested_repository": "rust-lang/rust",
+  "category": "tools",
+  "collected_at": "2026-10-17T16:15:54.788984+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "rust-lang/rust",
+  "metadata": {
+    "html_url": "https://github.com/rust-lang/rust",
+    "description": "Empowering everyone to build reliable and efficient software.",
+    "homepage": "https://www.rust-lang.org",
+    "language": "Rust",
+    "stargazers_count": 120446,
+    "forks_count": 18945,
+    "open_issues_count": 12585,
+    "pushed_at": "2026-10-17T15:51:23Z",
+    "created_at": "2010-06-16T20:39:03Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [
+      "compiler",
+      "language",
+      "rust"
+    ],
+    "owner": {
+      "login": "rust-lang",
+      "type": "Organization",
+      "html_url": "https://github.com/rust-lang"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "158f79d5c24d262f820fa45da96e7b77bc29a338",
+      "url": "https://github.com/rust-lang/rust/commit/158f79d5c24d262f820fa45da96e7b77bc29a338",
+      "date": "2026-10-17T04:10:47Z",
+      "subject": "Auto merge of #163731 - TechnoPorg:bootstrap/tpde-step, r=Kobzol"
+    },
+    {
+      "sha": "f4d7ecfb0efc8330cef8f8020f192920d8721911",
+      "url": "https://github.com/rust-lang/rust/commit/f4d7ecfb0efc8330cef8f8020f192920d8721911",
+      "date": "2026-10-16T22:49:22Z",
+      "subject": "Auto merge of #160285 - gurry:add-codeview-annotation-intrinsic, r=folkertdev"
+    },
+    {
+      "sha": "7d58ad7df3fe097351ab243368f597001143ce76",
+      "url": "https://github.com/rust-lang/rust/commit/7d58ad7df3fe097351ab243368f597001143ce76",
+      "date": "2026-10-16T12:38:15Z",
+      "subject": "Add bootstrap step to build the TPDE plugin"
+    },
+    {
+      "sha": "5d8fec0669a64607db9ccbf663e7c23125bf4748",
+      "url": "https://github.com/rust-lang/rust/commit/5d8fec0669a64607db9ccbf663e7c23125bf4748",
+      "date": "2026-10-16T12:32:57Z",
+      "subject": "Auto merge of #164430 - JonathanBrouwer:rollup-hGFaI2X, r=JonathanBrouwer"
+    },
+    {
+      "sha": "5006510081e5097eb9ba3894a159419f6ab4fd3e",
+      "url": "https://github.com/rust-lang/rust/commit/5006510081e5097eb9ba3894a159419f6ab4fd3e",
+      "date": "2026-10-16T10:14:32Z",
+      "subject": "Rollup merge of #164422 - muellernilsb:feature/after-stack-frame-init-hook, r=RalfJung"
+    },
+    {
+      "sha": "04167e0d56c6ef60460bf242c6e9d6e4dbac8fc9",
+      "url": "https://github.com/rust-lang/rust/commit/04167e0d56c6ef60460bf242c6e9d6e4dbac8fc9",
+      "date": "2026-10-16T10:14:31Z",
+      "subject": "Rollup merge of #164419 - HNO3Miracle:fix/cargotest-xsv-riscv-libc, r=jieyouxu"
+    },
+    {
+      "sha": "e23a3da3e156a2b18426f726615e15b01c014754",
+      "url": "https://github.com/rust-lang/rust/commit/e23a3da3e156a2b18426f726615e15b01c014754",
+      "date": "2026-10-16T10:14:30Z",
+      "subject": "Rollup merge of #164365 - lsunsi:avoid-erased-region-on-transmutability, r=ShoyuVanilla"
+    },
+    {
+      "sha": "ef9981f84daa7c175c165760bb98e4986249c18c",
+      "url": "https://github.com/rust-lang/rust/commit/ef9981f84daa7c175c165760bb98e4986249c18c",
+      "date": "2026-10-16T10:14:30Z",
+      "subject": "Rollup merge of #164353 - heiher:loong64-llvm-23, r=jieyouxu"
+    },
+    {
+      "sha": "3f0afc066085f0c38f5cbf1adc4191ac6655c41d",
+      "url": "https://github.com/rust-lang/rust/commit/3f0afc066085f0c38f5cbf1adc4191ac6655c41d",
+      "date": "2026-10-16T10:14:29Z",
+      "subject": "Rollup merge of #164279 - Urgau:documentation-scope-as-sub-scope-of-object, r=GuillaumeGomez"
+    },
+    {
+      "sha": "6b688f0d7494bb7671d54fcaf8a98b862f58bd00",
+      "url": "https://github.com/rust-lang/rust/commit/6b688f0d7494bb7671d54fcaf8a98b862f58bd00",
+      "date": "2026-10-16T10:14:28Z",
+      "subject": "Rollup merge of #164227 - Vara715:fix-rpitit-refine-cycle, r=oli-obk"
+    },
+    {
+      "sha": "686a1161972491ac58abbaeda81a849770f8a527",
+      "url": "https://github.com/rust-lang/rust/commit/686a1161972491ac58abbaeda81a849770f8a527",
+      "date": "2026-10-16T10:14:28Z",
+      "subject": "Rollup merge of #164111 - Suryansh-Dey:ice, r=khyperia"
+    },
+    {
+      "sha": "a0aea0483595d8363a5c6001b5983a1c1292ebec",
+      "url": "https://github.com/rust-lang/rust/commit/a0aea0483595d8363a5c6001b5983a1c1292ebec",
+      "date": "2026-10-16T10:14:27Z",
+      "subject": "Rollup merge of #162467 - amirHdev:impossible-impl-mono-items, r=adwinwhite"
+    },
+    {
+      "sha": "7c7a46cc4a3f78d97e2a363527eef7459277c0ac",
+      "url": "https://github.com/rust-lang/rust/commit/7c7a46cc4a3f78d97e2a363527eef7459277c0ac",
+      "date": "2026-10-16T07:36:40Z",
+      "subject": "Implement after-stack-frame-init-hook"
+    },
+    {
+      "sha": "bf9448e42622eaba63ebc171bb4584cea22210b4",
+      "url": "https://github.com/rust-lang/rust/commit/bf9448e42622eaba63ebc171bb4584cea22210b4",
+      "date": "2026-10-16T06:32:17Z",
+      "subject": "Auto merge of #164418 - JonathanBrouwer:rollup-ZlGVxrd, r=JonathanBrouwer"
+    },
+    {
+      "sha": "a48e9046a28554c838127a0c726c4c2639fa499a",
+      "url": "https://github.com/rust-lang/rust/commit/a48e9046a28554c838127a0c726c4c2639fa499a",
+      "date": "2026-10-16T05:43:27Z",
+      "subject": "Add missing ignore-windows due to path sep differences"
+    },
+    {
+      "sha": "19b4d85b45f975f0763d15fd2d5750c5abce7833",
+      "url": "https://github.com/rust-lang/rust/commit/19b4d85b45f975f0763d15fd2d5750c5abce7833",
+      "date": "2026-10-16T05:22:46Z",
+      "subject": "cargotest: update xsv libc for RISC-V"
+    },
+    {
+      "sha": "7947dc7f194db58bf62276530994b454253638ba",
+      "url": "https://github.com/rust-lang/rust/commit/7947dc7f194db58bf62276530994b454253638ba",
+      "date": "2026-10-16T05:21:29Z",
+      "subject": "Rollup merge of #164360 - PaulDance:patches/fix-win7-compilation, r=ChrisDenton"
+    },
+    {
+      "sha": "8aed807aa0a25e7737ac0d92b9625c25ccd98ae7",
+      "url": "https://github.com/rust-lang/rust/commit/8aed807aa0a25e7737ac0d92b9625c25ccd98ae7",
+      "date": "2026-10-16T05:21:29Z",
+      "subject": "Rollup merge of #164318 - Jamesbarford:fix/const-generic-issue-164180, r=khyperia"
+    },
+    {
+      "sha": "17d94ead30ccc87a390aa9f8f40b8fff1411c60e",
+      "url": "https://github.com/rust-lang/rust/commit/17d94ead30ccc87a390aa9f8f40b8fff1411c60e",
+      "date": "2026-10-16T05:21:28Z",
+      "subject": "Rollup merge of #164220 - Urgau:remap-path-prefix-doctest-panic, r=GuillaumeGomez"
+    },
+    {
+      "sha": "554cfada5a1edb9a9674c16a32667f052704cba3",
+      "url": "https://github.com/rust-lang/rust/commit/554cfada5a1edb9a9674c16a32667f052704cba3",
+      "date": "2026-10-16T05:21:27Z",
+      "subject": "Rollup merge of #163224 - GuillaumeGomez:settings-popover-tabs, r=notriddle,lolbinarycat"
+    }
+  ],
+  "default_sha": "158f79d5c24d262f820fa45da96e7b77bc29a338",
+  "root_and_selected_directory_paths": [
+    ".clang-format",
+    ".editorconfig",
+    ".git-blame-ignore-revs",
+    ".gitattributes",
+    ".github",
+    ".github/FUNDING.yml",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bootstrap.md",
+    ".github/ISSUE_TEMPLATE/bug_report.md",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/diagnostics.yaml",
+    ".github/ISSUE_TEMPLATE/documentation.yaml",
+    ".github/ISSUE_TEMPLATE/ice.md",
+    ".github/ISSUE_TEMPLATE/ice.yaml",
+    ".github/ISSUE_TEMPLATE/library_tracking_issue.md",
+    ".github/ISSUE_TEMPLATE/regression.md",
+    ".github/ISSUE_TEMPLATE/rustdoc.md",
+    ".github/ISSUE_TEMPLATE/tracking_issue.md",
+    ".github/ISSUE_TEMPLATE/tracking_issue_future.md",
+    ".github/pull_request_template.md",
+    ".github/renovate.json5",
+    ".github/workflows",
+    ".github/workflows/ci.yml",
+    ".github/workflows/ghcr.yml",
+    ".github/workflows/post-merge.yml",
+    ".gitignore",
+    ".gitmodules",
+    ".ignore",
+    ".mailmap",
+    "AGENTS.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "COPYRIGHT",
+    "Cargo.lock",
+    "Cargo.toml",
+    "INSTALL.md",
+    "LICENSE-APACHE",
+    "LICENSE-MIT",
+    "LICENSES",
+    "README.md",
+    "RELEASES.md",
+    "REUSE.toml",
+    "bootstrap.example.toml",
+    "compiler",
+    "configure",
+    "library",
+    "license-metadata.json",
+    "package.json",
+    "rust-bors.toml",
+    "rustfmt.toml",
+    "src",
+    "tests",
+    "triagebot.toml",
+    "typos.toml",
+    "x",
+    "x.ps1",
+    "x.py",
+    "yarn.lock"
+  ],
+  "workflow_paths": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/ghcr.yml",
+    ".github/workflows/post-merge.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "ce36bada00558382adec44b3bbec402c5e96de45",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/AGENTS.md",
+      "lines": 258,
+      "signals": {
+        "tests": [],
+        "lint": [
+          62
+        ],
+        "generated_code": [
+          169,
+          179,
+          204
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "e3708bc485399fd42b32c6a1c24491771afa1a04",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/CODE_OF_CONDUCT.md",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "08b0cdc34ff3a6d7e0bc49686aa2138aa4f8f406",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/CONTRIBUTING.md",
+      "lines": 59,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Cargo.toml",
+      "sha": "63d96ff2a62acadafea42ae97f58cc568d5eaef7",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/Cargo.toml",
+      "lines": 89,
+      "signals": {
+        "tests": [],
+        "lint": [
+          15,
+          16
+        ],
+        "generated_code": [
+          55,
+          56,
+          81
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "ed35016eb3a238614741e5922a06b9bf83f9780e",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/README.md",
+      "lines": 79,
+      "signals": {
+        "tests": [],
+        "lint": [
+          28,
+          32
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [
+          5
+        ],
+        "theme_images": [
+          2,
+          3,
+          4
+        ],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "RELEASES.md",
+      "status": "skipped-size",
+      "sha": "5558086f1f5b236fb6a68526cd3b8dfde5e60e53"
+    },
+    {
+      "path": "package.json",
+      "sha": "876d81c1d60efba1a14320356690e12f5e35a35f",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/package.json",
+      "lines": 8,
+      "signals": {
+        "tests": [],
+        "lint": [
+          5
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bootstrap.md",
+      "sha": "344ea30e1fc0b430cd2e1d535f7ace0c0333d3d5",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/.github/ISSUE_TEMPLATE/bootstrap.md",
+      "lines": 70,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha": "5675579bc964a6aab3827db3b3c519c731f98143",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/.github/ISSUE_TEMPLATE/bug_report.md",
+      "lines": 44,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "a2878a0e01208fc376fbd85d3562899753c78558",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 11,
+      "signals": {
+        "tests": [],
+        "lint": [
+          9,
+          10,
+          11
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/diagnostics.yaml",
+      "sha": "54bf2bc6ee242e2cb8ebceb00934505d282ddeef",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/.github/ISSUE_TEMPLATE/diagnostics.yaml",
+      "lines": 78,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/documentation.yaml",
+      "sha": "4a79cd4ba97c843659b893aebfb8ffe60353e624",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/.github/ISSUE_TEMPLATE/documentation.yaml",
+      "lines": 38,
+      "signals": {
+        "tests": [],
+        "lint": [
+          17
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/ice.md",
+      "sha": "1ab1ddf460161ea3edf4eb16599e960065e2e7ff",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/.github/ISSUE_TEMPLATE/ice.md",
+      "lines": 50,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/ice.yaml",
+      "sha": "13be13d4f998592e143f106afe0b635091710242",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/.github/ISSUE_TEMPLATE/ice.yaml",
+      "lines": 82,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/library_tracking_issue.md",
+      "sha": "3bcfe647ee9c2f00623327642a4be14c3e23c361",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/.github/ISSUE_TEMPLATE/library_tracking_issue.md",
+      "lines": 88,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          45
+        ]
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/regression.md",
+      "sha": "c0e90824a710dfa73be33368854ee94d768bde41",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/.github/ISSUE_TEMPLATE/regression.md",
+      "lines": 68,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/rustdoc.md",
+      "sha": "597f188fd9d392ff6c531f77fdeca1b494d2d174",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/.github/ISSUE_TEMPLATE/rustdoc.md",
+      "lines": 54,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/tracking_issue.md",
+      "sha": "e4bdcd212f38156091458325ff9b357ecbfb1e21",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/.github/ISSUE_TEMPLATE/tracking_issue.md",
+      "lines": 77,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          73
+        ]
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/tracking_issue_future.md",
+      "sha": "c9da81371e151ae8c2accb71c090b1478761b1ad",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/.github/ISSUE_TEMPLATE/tracking_issue_future.md",
+      "lines": 54,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          50
+        ]
+      }
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha": "8abe1d818de1cc1eea07968073f936436b32ea32",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/.github/pull_request_template.md",
+      "lines": 23,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          20
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "ef31d7a4723e8ce1b4371d6665862d6a7463dade",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/.github/workflows/ci.yml",
+      "lines": 336,
+      "signals": {
+        "tests": [
+          62
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          21
+        ],
+        "pinned_actions": [
+          55,
+          120,
+          198,
+          266,
+          327
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ghcr.yml",
+      "sha": "f0f0ece750b9f65535c362e8e3a475680deda976",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/.github/workflows/ghcr.yml",
+      "lines": 77,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          28
+        ],
+        "pinned_actions": [
+          32
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/post-merge.yml",
+      "sha": "7200aa22a4162beaf45710d744764016b09ea4d0",
+      "status": "inspected",
+      "url": "https://github.com/rust-lang/rust/blob/158f79d5c24d262f820fa45da96e7b77bc29a338/.github/workflows/post-merge.yml",
+      "lines": 53,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          15
+        ],
+        "pinned_actions": [
+          18
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 163731,
+      "title": "Add bootstrap step to build the TPDE plugin",
+      "url": "https://github.com/rust-lang/rust/pull/163731",
+      "merged_at": "2026-10-17T07:19:21Z",
+      "merge_commit_sha": "158f79d5c24d262f820fa45da96e7b77bc29a338",
+      "files": [
+        ".gitmodules",
+        "bootstrap.example.toml",
+        "src/bootstrap/src/core/build_steps/compile.rs",
+        "src/bootstrap/src/core/build_steps/llvm.rs",
+        "src/bootstrap/src/core/builder/mod.rs",
+        "src/bootstrap/src/core/config/config.rs",
+        "src/bootstrap/src/core/config/toml/llvm.rs",
+        "src/bootstrap/src/utils/change_tracker.rs",
+        "src/tools/tidy/config/ruff.toml",
+        "src/tools/tidy/src/walk.rs",
+        "src/tpde"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".gitmodules",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/7d58ad7df3fe097351ab243368f597001143ce76/.gitmodules"
+        },
+        {
+          "filename": "bootstrap.example.toml",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/7d58ad7df3fe097351ab243368f597001143ce76/bootstrap.example.toml"
+        },
+        {
+          "filename": "src/bootstrap/src/core/build_steps/compile.rs",
+          "status": "modified",
+          "additions": 20,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/7d58ad7df3fe097351ab243368f597001143ce76/src%2Fbootstrap%2Fsrc%2Fcore%2Fbuild_steps%2Fcompile.rs"
+        },
+        {
+          "filename": "src/bootstrap/src/core/build_steps/llvm.rs",
+          "status": "modified",
+          "additions": 177,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/7d58ad7df3fe097351ab243368f597001143ce76/src%2Fbootstrap%2Fsrc%2Fcore%2Fbuild_steps%2Fllvm.rs"
+        },
+        {
+          "filename": "src/bootstrap/src/core/builder/mod.rs",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/7d58ad7df3fe097351ab243368f597001143ce76/src%2Fbootstrap%2Fsrc%2Fcore%2Fbuilder%2Fmod.rs"
+        },
+        {
+          "filename": "src/bootstrap/src/core/config/config.rs",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/7d58ad7df3fe097351ab243368f597001143ce76/src%2Fbootstrap%2Fsrc%2Fcore%2Fconfig%2Fconfig.rs"
+        },
+        {
+          "filename": "src/bootstrap/src/core/config/toml/llvm.rs",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/7d58ad7df3fe097351ab243368f597001143ce76/src%2Fbootstrap%2Fsrc%2Fcore%2Fconfig%2Ftoml%2Fllvm.rs"
+        },
+        {
+          "filename": "src/bootstrap/src/utils/change_tracker.rs",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/7d58ad7df3fe097351ab243368f597001143ce76/src%2Fbootstrap%2Fsrc%2Futils%2Fchange_tracker.rs"
+        },
+        {
+          "filename": "src/tools/tidy/config/ruff.toml",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/7d58ad7df3fe097351ab243368f597001143ce76/src%2Ftools%2Ftidy%2Fconfig%2Fruff.toml"
+        },
+        {
+          "filename": "src/tools/tidy/src/walk.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/7d58ad7df3fe097351ab243368f597001143ce76/src%2Ftools%2Ftidy%2Fsrc%2Fwalk.rs"
+        },
+        {
+          "filename": "src/tpde",
+          "status": "added",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": null
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39013196288,
+          "name": "Post merge analysis",
+          "path": ".github/workflows/post-merge.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/rust-lang/rust/actions/runs/39013196288",
+          "head_sha": "158f79d5c24d262f820fa45da96e7b77bc29a338"
+        },
+        {
+          "id": 39001588740,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/rust-lang/rust/actions/runs/39001588740",
+          "head_sha": "158f79d5c24d262f820fa45da96e7b77bc29a338"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38901967367,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/rust-lang/rust/actions/runs/38901967367",
+          "head_sha": "7d58ad7df3fe097351ab243368f597001143ce76"
+        },
+        {
+          "id": 38901967410,
+          "name": "Crabwatch",
+          "path": ".github/workflows/crabwatch.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/rust-lang/rust/actions/runs/38901967410",
+          "head_sha": "7d58ad7df3fe097351ab243368f597001143ce76"
+        }
+      ]
+    },
+    {
+      "number": 164230,
+      "title": "Rollup of 7 pull requests",
+      "url": "https://github.com/rust-lang/rust/pull/164230",
+      "merged_at": "2026-10-13T01:48:18Z",
+      "merge_commit_sha": "88d982422ac482951195284e27f5bcb0d28f298b",
+      "files": [
+        "compiler/rustc_attr_ir/src/data_structures.rs",
+        "compiler/rustc_attr_ir/src/encode_cross_crate.rs",
+        "compiler/rustc_attr_parsing/src/attributes/rustc_internal.rs",
+        "compiler/rustc_attr_parsing/src/context.rs",
+        "compiler/rustc_feature/src/builtin_attrs.rs",
+        "compiler/rustc_hir_analysis/src/delegation.rs",
+        "compiler/rustc_hir_analysis/src/diagnostics.rs",
+        "compiler/rustc_passes/src/check_attr.rs",
+        "compiler/rustc_passes/src/diagnostics.rs",
+        "compiler/rustc_span/src/symbol.rs",
+        "compiler/rustc_trait_selection/src/error_reporting/traits/fulfillment_errors.rs",
+        "library/alloc/src/boxed.rs",
+        "library/alloc/src/rcs/arc.rs",
+        "library/alloc/src/rcs/rc.rs",
+        "library/core/src/cell.rs",
+        "library/core/src/cell/covariant_unsafe_cell.rs",
+        "library/core/src/cell/lazy.rs",
+        "library/core/src/cell/once.rs",
+        "library/core/src/marker/variance.rs",
+        "library/core/src/mem/drop_guard.rs",
+        "library/core/src/ops/function.rs",
+        "library/core/src/ptr/non_null.rs",
+        "library/std/src/sync/lazy_lock.rs",
+        "library/std/src/sync/nonpoison/mutex.rs",
+        "library/std/src/sync/nonpoison/rwlock.rs",
+        "library/std/src/sync/once_lock.rs",
+        "library/std/src/sync/poison/mutex.rs",
+        "library/std/src/sync/poison/rwlock.rs",
+        "library/std/src/sync/reentrant_lock.rs",
+        "src/bootstrap/download-ci-llvm-stamp",
+        "src/bootstrap/src/core/build_steps/llvm.rs",
+        "tests/run-make/dynamic-loading-cdylib/rmake.rs",
+        "tests/rustdoc-html/README.md",
+        "tests/rustdoc-html/display/auxiliary/ext-repr.rs",
+        "tests/rustdoc-html/display/repr.rs",
+        "tests/rustdoc-html/display/test-parens.rs",
+        "tests/rustdoc-html/fn/const-fn-76501.rs",
+        "tests/rustdoc-html/fn/const-fn-effects.rs",
+        "tests/rustdoc-html/fn/const-fn.rs",
+        "tests/rustdoc-html/fn/fn-bound.rs",
+        "tests/rustdoc-html/fn/fn-pointer-arg-name.rs",
+        "tests/rustdoc-html/fn/fn-type.rs",
+        "tests/rustdoc-html/intra-doc/auxiliary/all-item-types.rs",
+        "tests/rustdoc-html/intra-doc/cross-crate-links.rs",
+        "tests/rustdoc-html/struct/empty-tuple-struct-118180.rs",
+        "tests/rustdoc-html/struct/tuple-struct-fields-doc.rs",
+        "tests/rustdoc-html/struct/tuple-struct-where-clause-34928.rs",
+        "tests/ui/abi/bad-custom.rs",
+        "tests/ui/abi/bad-custom.stderr",
+        "tests/ui/associated-types/normalization-ice-issue-149746.rs",
+        "tests/ui/associated-types/normalization-ice-issue-149746.stderr",
+        "tests/ui/async-await/async-fn/impl-header.rs",
+        "tests/ui/async-await/async-fn/impl-header.stderr",
+        "tests/ui/attributes/rustc_assert_variance.rs",
+        "tests/ui/attributes/rustc_assert_variance.stderr",
+        "tests/ui/cast/raw-ptr-to-dyn-fn-raw-ptr.rs",
+        "tests/ui/cast/raw-ptr-to-dyn-fn-raw-ptr.stderr",
+        "tests/ui/closures/closure-expected.rs",
+        "tests/ui/closures/closure-expected.stderr",
+        "tests/ui/closures/closure-ref-fn-kind-mismatch-issue-161327.stderr",
+        "tests/ui/closures/coerce-unsafe-to-closure.stderr",
+        "tests/ui/delegation/generics/const-param-trait-name-collision-ice-163868.rs",
+        "tests/ui/delegation/generics/const-param-trait-name-collision-ice-163868.stderr",
+        "tests/ui/delegation/generics/const-param-type-name-collision-ice-162776.rs",
+        "tests/ui/delegation/generics/const-param-type-name-collision-ice-162776.stderr",
+        "tests/ui/expr/malformed_closure/block_instead_of_closure_in_arg.rs",
+        "tests/ui/expr/malformed_closure/block_instead_of_closure_in_arg.stderr",
+        "tests/ui/expr/malformed_closure/ruby_style_closure_successful_parse.rs",
+        "tests/ui/expr/malformed_closure/ruby_style_closure_successful_parse.stderr",
+        "tests/ui/extern/extern-wrong-value-type.rs",
+        "tests/ui/extern/extern-wrong-value-type.stderr",
+        "tests/ui/feature-gates/feature-gate-unboxed-closures-manual-impls.rs",
+        "tests/ui/feature-gates/feature-gate-unboxed-closures-manual-impls.stderr",
+        "tests/ui/fn/fn-trait-formatting.rs",
+        "tests/ui/fn/fn-trait-formatting.stderr",
+        "tests/ui/fn/issue-39259.rs",
+        "tests/ui/fn/issue-39259.stderr",
+        "tests/ui/generic-associated-types/issue-68642-broken-llvm-ir.rs",
+        "tests/ui/generic-associated-types/issue-68642-broken-llvm-ir.stderr",
+        "tests/ui/generic-associated-types/issue-68643-broken-mir.rs",
+        "tests/ui/generic-associated-types/issue-68643-broken-mir.stderr",
+        "tests/ui/generic-associated-types/issue-68644-codegen-selection.rs",
+        "tests/ui/generic-associated-types/issue-68644-codegen-selection.stderr",
+        "tests/ui/generic-associated-types/issue-68645-codegen-fulfillment.rs",
+        "tests/ui/generic-associated-types/issue-68645-codegen-fulfillment.stderr",
+        "tests/ui/higher-ranked/trait-bounds/normalize-under-binder/issue-62529-3.rs",
+        "tests/ui/higher-ranked/trait-bounds/normalize-under-binder/issue-62529-3.stderr",
+        "tests/ui/implied-bounds/issue-100690.rs",
+        "tests/ui/implied-bounds/issue-100690.stderr",
+        "tests/ui/intrinsics/const-eval-select-bad.rs",
+        "tests/ui/intrinsics/const-eval-select-bad.stderr",
+        "tests/ui/iterators/fold-iterator-error-23966.stderr",
+        "tests/ui/lifetimes/issue-76168-hr-outlives-3.rs",
+        "tests/ui/lifetimes/issue-76168-hr-outlives-3.stderr",
+        "tests/ui/lifetimes/issue-95023.rs",
+        "tests/ui/lifetimes/issue-95023.stderr",
+        "tests/ui/lint/dead-code-pub-in-binary/binary-normal.rs",
+        "tests/ui/lint/dead-code-pub-in-binary/binary-test.rs",
+        "tests/ui/lint/dead-code-pub-in-binary/library-normal.rs",
+        "tests/ui/lint/dead-code-pub-in-binary/library-normal.stderr"
+      ],
+      "files_may_be_truncated": true,
+      "file_changes": [
+        {
+          "filename": "compiler/rustc_attr_ir/src/data_structures.rs",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/compiler%2Frustc_attr_ir%2Fsrc%2Fdata_structures.rs"
+        },
+        {
+          "filename": "compiler/rustc_attr_ir/src/encode_cross_crate.rs",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/compiler%2Frustc_attr_ir%2Fsrc%2Fencode_cross_crate.rs"
+        },
+        {
+          "filename": "compiler/rustc_attr_parsing/src/attributes/rustc_internal.rs",
+          "status": "modified",
+          "additions": 53,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/compiler%2Frustc_attr_parsing%2Fsrc%2Fattributes%2Frustc_internal.rs"
+        },
+        {
+          "filename": "compiler/rustc_attr_parsing/src/context.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/compiler%2Frustc_attr_parsing%2Fsrc%2Fcontext.rs"
+        },
+        {
+          "filename": "compiler/rustc_feature/src/builtin_attrs.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/compiler%2Frustc_feature%2Fsrc%2Fbuiltin_attrs.rs"
+        },
+        {
+          "filename": "compiler/rustc_hir_analysis/src/delegation.rs",
+          "status": "modified",
+          "additions": 107,
+          "deletions": 37,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/compiler%2Frustc_hir_analysis%2Fsrc%2Fdelegation.rs"
+        },
+        {
+          "filename": "compiler/rustc_hir_analysis/src/diagnostics.rs",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/compiler%2Frustc_hir_analysis%2Fsrc%2Fdiagnostics.rs"
+        },
+        {
+          "filename": "compiler/rustc_passes/src/check_attr.rs",
+          "status": "modified",
+          "additions": 68,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/compiler%2Frustc_passes%2Fsrc%2Fcheck_attr.rs"
+        },
+        {
+          "filename": "compiler/rustc_passes/src/diagnostics.rs",
+          "status": "modified",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/compiler%2Frustc_passes%2Fsrc%2Fdiagnostics.rs"
+        },
+        {
+          "filename": "compiler/rustc_span/src/symbol.rs",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/compiler%2Frustc_span%2Fsrc%2Fsymbol.rs"
+        },
+        {
+          "filename": "compiler/rustc_trait_selection/src/error_reporting/traits/fulfillment_errors.rs",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/compiler%2Frustc_trait_selection%2Fsrc%2Ferror_reporting%2Ftraits%2Ffulfillment_errors.rs"
+        },
+        {
+          "filename": "library/alloc/src/boxed.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/library%2Falloc%2Fsrc%2Fboxed.rs"
+        },
+        {
+          "filename": "library/alloc/src/rcs/arc.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/library%2Falloc%2Fsrc%2Frcs%2Farc.rs"
+        },
+        {
+          "filename": "library/alloc/src/rcs/rc.rs",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/library%2Falloc%2Fsrc%2Frcs%2Frc.rs"
+        },
+        {
+          "filename": "library/core/src/cell.rs",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/library%2Fcore%2Fsrc%2Fcell.rs"
+        },
+        {
+          "filename": "library/core/src/cell/covariant_unsafe_cell.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/library%2Fcore%2Fsrc%2Fcell%2Fcovariant_unsafe_cell.rs"
+        },
+        {
+          "filename": "library/core/src/cell/lazy.rs",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/library%2Fcore%2Fsrc%2Fcell%2Flazy.rs"
+        },
+        {
+          "filename": "library/core/src/cell/once.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/library%2Fcore%2Fsrc%2Fcell%2Fonce.rs"
+        },
+        {
+          "filename": "library/core/src/marker/variance.rs",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 10,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/library%2Fcore%2Fsrc%2Fmarker%2Fvariance.rs"
+        },
+        {
+          "filename": "library/core/src/mem/drop_guard.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/library%2Fcore%2Fsrc%2Fmem%2Fdrop_guard.rs"
+        },
+        {
+          "filename": "library/core/src/ops/function.rs",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 6,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/library%2Fcore%2Fsrc%2Fops%2Ffunction.rs"
+        },
+        {
+          "filename": "library/core/src/ptr/non_null.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/library%2Fcore%2Fsrc%2Fptr%2Fnon_null.rs"
+        },
+        {
+          "filename": "library/std/src/sync/lazy_lock.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/library%2Fstd%2Fsrc%2Fsync%2Flazy_lock.rs"
+        },
+        {
+          "filename": "library/std/src/sync/nonpoison/mutex.rs",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 3,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/library%2Fstd%2Fsrc%2Fsync%2Fnonpoison%2Fmutex.rs"
+        },
+        {
+          "filename": "library/std/src/sync/nonpoison/rwlock.rs",
+          "status": "modified",
+          "additions": 17,
+          "deletions": 5,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/library%2Fstd%2Fsrc%2Fsync%2Fnonpoison%2Frwlock.rs"
+        },
+        {
+          "filename": "library/std/src/sync/once_lock.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/library%2Fstd%2Fsrc%2Fsync%2Fonce_lock.rs"
+        },
+        {
+          "filename": "library/std/src/sync/poison/mutex.rs",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 3,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/library%2Fstd%2Fsrc%2Fsync%2Fpoison%2Fmutex.rs"
+        },
+        {
+          "filename": "library/std/src/sync/poison/rwlock.rs",
+          "status": "modified",
+          "additions": 17,
+          "deletions": 5,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/library%2Fstd%2Fsrc%2Fsync%2Fpoison%2Frwlock.rs"
+        },
+        {
+          "filename": "library/std/src/sync/reentrant_lock.rs",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/library%2Fstd%2Fsrc%2Fsync%2Freentrant_lock.rs"
+        },
+        {
+          "filename": "src/bootstrap/download-ci-llvm-stamp",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/src%2Fbootstrap%2Fdownload-ci-llvm-stamp"
+        },
+        {
+          "filename": "src/bootstrap/src/core/build_steps/llvm.rs",
+          "status": "modified",
+          "additions": 34,
+          "deletions": 24,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/src%2Fbootstrap%2Fsrc%2Fcore%2Fbuild_steps%2Fllvm.rs"
+        },
+        {
+          "filename": "tests/run-make/dynamic-loading-cdylib/rmake.rs",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Frun-make%2Fdynamic-loading-cdylib%2Frmake.rs"
+        },
+        {
+          "filename": "tests/rustdoc-html/README.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Frustdoc-html%2FREADME.md"
+        },
+        {
+          "filename": "tests/rustdoc-html/display/auxiliary/ext-repr.rs",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Frustdoc-html%2Fdisplay%2Fauxiliary%2Fext-repr.rs"
+        },
+        {
+          "filename": "tests/rustdoc-html/display/repr.rs",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Frustdoc-html%2Fdisplay%2Frepr.rs"
+        },
+        {
+          "filename": "tests/rustdoc-html/display/test-parens.rs",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Frustdoc-html%2Fdisplay%2Ftest-parens.rs"
+        },
+        {
+          "filename": "tests/rustdoc-html/fn/const-fn-76501.rs",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Frustdoc-html%2Ffn%2Fconst-fn-76501.rs"
+        },
+        {
+          "filename": "tests/rustdoc-html/fn/const-fn-effects.rs",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Frustdoc-html%2Ffn%2Fconst-fn-effects.rs"
+        },
+        {
+          "filename": "tests/rustdoc-html/fn/const-fn.rs",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Frustdoc-html%2Ffn%2Fconst-fn.rs"
+        },
+        {
+          "filename": "tests/rustdoc-html/fn/fn-bound.rs",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Frustdoc-html%2Ffn%2Ffn-bound.rs"
+        },
+        {
+          "filename": "tests/rustdoc-html/fn/fn-pointer-arg-name.rs",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Frustdoc-html%2Ffn%2Ffn-pointer-arg-name.rs"
+        },
+        {
+          "filename": "tests/rustdoc-html/fn/fn-type.rs",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Frustdoc-html%2Ffn%2Ffn-type.rs"
+        },
+        {
+          "filename": "tests/rustdoc-html/intra-doc/auxiliary/all-item-types.rs",
+          "status": "added",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Frustdoc-html%2Fintra-doc%2Fauxiliary%2Fall-item-types.rs"
+        },
+        {
+          "filename": "tests/rustdoc-html/intra-doc/cross-crate-links.rs",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Frustdoc-html%2Fintra-doc%2Fcross-crate-links.rs"
+        },
+        {
+          "filename": "tests/rustdoc-html/struct/empty-tuple-struct-118180.rs",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Frustdoc-html%2Fstruct%2Fempty-tuple-struct-118180.rs"
+        },
+        {
+          "filename": "tests/rustdoc-html/struct/tuple-struct-fields-doc.rs",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Frustdoc-html%2Fstruct%2Ftuple-struct-fields-doc.rs"
+        },
+        {
+          "filename": "tests/rustdoc-html/struct/tuple-struct-where-clause-34928.rs",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Frustdoc-html%2Fstruct%2Ftuple-struct-where-clause-34928.rs"
+        },
+        {
+          "filename": "tests/ui/abi/bad-custom.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fabi%2Fbad-custom.rs"
+        },
+        {
+          "filename": "tests/ui/abi/bad-custom.stderr",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fabi%2Fbad-custom.stderr"
+        },
+        {
+          "filename": "tests/ui/associated-types/normalization-ice-issue-149746.rs",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fassociated-types%2Fnormalization-ice-issue-149746.rs"
+        },
+        {
+          "filename": "tests/ui/associated-types/normalization-ice-issue-149746.stderr",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 8,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fassociated-types%2Fnormalization-ice-issue-149746.stderr"
+        },
+        {
+          "filename": "tests/ui/async-await/async-fn/impl-header.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fasync-await%2Fasync-fn%2Fimpl-header.rs"
+        },
+        {
+          "filename": "tests/ui/async-await/async-fn/impl-header.stderr",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fasync-await%2Fasync-fn%2Fimpl-header.stderr"
+        },
+        {
+          "filename": "tests/ui/attributes/rustc_assert_variance.rs",
+          "status": "added",
+          "additions": 90,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fattributes%2Frustc_assert_variance.rs"
+        },
+        {
+          "filename": "tests/ui/attributes/rustc_assert_variance.stderr",
+          "status": "added",
+          "additions": 125,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fattributes%2Frustc_assert_variance.stderr"
+        },
+        {
+          "filename": "tests/ui/cast/raw-ptr-to-dyn-fn-raw-ptr.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fcast%2Fraw-ptr-to-dyn-fn-raw-ptr.rs"
+        },
+        {
+          "filename": "tests/ui/cast/raw-ptr-to-dyn-fn-raw-ptr.stderr",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fcast%2Fraw-ptr-to-dyn-fn-raw-ptr.stderr"
+        },
+        {
+          "filename": "tests/ui/closures/closure-expected.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fclosures%2Fclosure-expected.rs"
+        },
+        {
+          "filename": "tests/ui/closures/closure-expected.stderr",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fclosures%2Fclosure-expected.stderr"
+        },
+        {
+          "filename": "tests/ui/closures/closure-ref-fn-kind-mismatch-issue-161327.stderr",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 6,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fclosures%2Fclosure-ref-fn-kind-mismatch-issue-161327.stderr"
+        },
+        {
+          "filename": "tests/ui/closures/coerce-unsafe-to-closure.stderr",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fclosures%2Fcoerce-unsafe-to-closure.stderr"
+        },
+        {
+          "filename": "tests/ui/delegation/generics/const-param-trait-name-collision-ice-163868.rs",
+          "status": "added",
+          "additions": 18,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fdelegation%2Fgenerics%2Fconst-param-trait-name-collision-ice-163868.rs"
+        },
+        {
+          "filename": "tests/ui/delegation/generics/const-param-trait-name-collision-ice-163868.stderr",
+          "status": "added",
+          "additions": 40,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fdelegation%2Fgenerics%2Fconst-param-trait-name-collision-ice-163868.stderr"
+        },
+        {
+          "filename": "tests/ui/delegation/generics/const-param-type-name-collision-ice-162776.rs",
+          "status": "added",
+          "additions": 16,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fdelegation%2Fgenerics%2Fconst-param-type-name-collision-ice-162776.rs"
+        },
+        {
+          "filename": "tests/ui/delegation/generics/const-param-type-name-collision-ice-162776.stderr",
+          "status": "added",
+          "additions": 63,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fdelegation%2Fgenerics%2Fconst-param-type-name-collision-ice-162776.stderr"
+        },
+        {
+          "filename": "tests/ui/expr/malformed_closure/block_instead_of_closure_in_arg.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fexpr%2Fmalformed_closure%2Fblock_instead_of_closure_in_arg.rs"
+        },
+        {
+          "filename": "tests/ui/expr/malformed_closure/block_instead_of_closure_in_arg.stderr",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fexpr%2Fmalformed_closure%2Fblock_instead_of_closure_in_arg.stderr"
+        },
+        {
+          "filename": "tests/ui/expr/malformed_closure/ruby_style_closure_successful_parse.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fexpr%2Fmalformed_closure%2Fruby_style_closure_successful_parse.rs"
+        },
+        {
+          "filename": "tests/ui/expr/malformed_closure/ruby_style_closure_successful_parse.stderr",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fexpr%2Fmalformed_closure%2Fruby_style_closure_successful_parse.stderr"
+        },
+        {
+          "filename": "tests/ui/extern/extern-wrong-value-type.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fextern%2Fextern-wrong-value-type.rs"
+        },
+        {
+          "filename": "tests/ui/extern/extern-wrong-value-type.stderr",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fextern%2Fextern-wrong-value-type.stderr"
+        },
+        {
+          "filename": "tests/ui/feature-gates/feature-gate-unboxed-closures-manual-impls.rs",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Ffeature-gates%2Ffeature-gate-unboxed-closures-manual-impls.rs"
+        },
+        {
+          "filename": "tests/ui/feature-gates/feature-gate-unboxed-closures-manual-impls.stderr",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Ffeature-gates%2Ffeature-gate-unboxed-closures-manual-impls.stderr"
+        },
+        {
+          "filename": "tests/ui/fn/fn-trait-formatting.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Ffn%2Ffn-trait-formatting.rs"
+        },
+        {
+          "filename": "tests/ui/fn/fn-trait-formatting.stderr",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Ffn%2Ffn-trait-formatting.stderr"
+        },
+        {
+          "filename": "tests/ui/fn/issue-39259.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Ffn%2Fissue-39259.rs"
+        },
+        {
+          "filename": "tests/ui/fn/issue-39259.stderr",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Ffn%2Fissue-39259.stderr"
+        },
+        {
+          "filename": "tests/ui/generic-associated-types/issue-68642-broken-llvm-ir.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fgeneric-associated-types%2Fissue-68642-broken-llvm-ir.rs"
+        },
+        {
+          "filename": "tests/ui/generic-associated-types/issue-68642-broken-llvm-ir.stderr",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fgeneric-associated-types%2Fissue-68642-broken-llvm-ir.stderr"
+        },
+        {
+          "filename": "tests/ui/generic-associated-types/issue-68643-broken-mir.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fgeneric-associated-types%2Fissue-68643-broken-mir.rs"
+        },
+        {
+          "filename": "tests/ui/generic-associated-types/issue-68643-broken-mir.stderr",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fgeneric-associated-types%2Fissue-68643-broken-mir.stderr"
+        },
+        {
+          "filename": "tests/ui/generic-associated-types/issue-68644-codegen-selection.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fgeneric-associated-types%2Fissue-68644-codegen-selection.rs"
+        },
+        {
+          "filename": "tests/ui/generic-associated-types/issue-68644-codegen-selection.stderr",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fgeneric-associated-types%2Fissue-68644-codegen-selection.stderr"
+        },
+        {
+          "filename": "tests/ui/generic-associated-types/issue-68645-codegen-fulfillment.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fgeneric-associated-types%2Fissue-68645-codegen-fulfillment.rs"
+        },
+        {
+          "filename": "tests/ui/generic-associated-types/issue-68645-codegen-fulfillment.stderr",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fgeneric-associated-types%2Fissue-68645-codegen-fulfillment.stderr"
+        },
+        {
+          "filename": "tests/ui/higher-ranked/trait-bounds/normalize-under-binder/issue-62529-3.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fhigher-ranked%2Ftrait-bounds%2Fnormalize-under-binder%2Fissue-62529-3.rs"
+        },
+        {
+          "filename": "tests/ui/higher-ranked/trait-bounds/normalize-under-binder/issue-62529-3.stderr",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fhigher-ranked%2Ftrait-bounds%2Fnormalize-under-binder%2Fissue-62529-3.stderr"
+        },
+        {
+          "filename": "tests/ui/implied-bounds/issue-100690.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fimplied-bounds%2Fissue-100690.rs"
+        },
+        {
+          "filename": "tests/ui/implied-bounds/issue-100690.stderr",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fimplied-bounds%2Fissue-100690.stderr"
+        },
+        {
+          "filename": "tests/ui/intrinsics/const-eval-select-bad.rs",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fintrinsics%2Fconst-eval-select-bad.rs"
+        },
+        {
+          "filename": "tests/ui/intrinsics/const-eval-select-bad.stderr",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fintrinsics%2Fconst-eval-select-bad.stderr"
+        },
+        {
+          "filename": "tests/ui/iterators/fold-iterator-error-23966.stderr",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Fiterators%2Ffold-iterator-error-23966.stderr"
+        },
+        {
+          "filename": "tests/ui/lifetimes/issue-76168-hr-outlives-3.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Flifetimes%2Fissue-76168-hr-outlives-3.rs"
+        },
+        {
+          "filename": "tests/ui/lifetimes/issue-76168-hr-outlives-3.stderr",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Flifetimes%2Fissue-76168-hr-outlives-3.stderr"
+        },
+        {
+          "filename": "tests/ui/lifetimes/issue-95023.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Flifetimes%2Fissue-95023.rs"
+        },
+        {
+          "filename": "tests/ui/lifetimes/issue-95023.stderr",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Flifetimes%2Fissue-95023.stderr"
+        },
+        {
+          "filename": "tests/ui/lint/dead-code-pub-in-binary/binary-normal.rs",
+          "status": "added",
+          "additions": 9,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Flint%2Fdead-code-pub-in-binary%2Fbinary-normal.rs"
+        },
+        {
+          "filename": "tests/ui/lint/dead-code-pub-in-binary/binary-test.rs",
+          "status": "added",
+          "additions": 7,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Flint%2Fdead-code-pub-in-binary%2Fbinary-test.rs"
+        },
+        {
+          "filename": "tests/ui/lint/dead-code-pub-in-binary/library-normal.rs",
+          "status": "added",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Flint%2Fdead-code-pub-in-binary%2Flibrary-normal.rs"
+        },
+        {
+          "filename": "tests/ui/lint/dead-code-pub-in-binary/library-normal.stderr",
+          "status": "added",
+          "additions": 23,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/ca5e8aef9a73ec0f88af0a3d093b71a4ee852199/tests%2Fui%2Flint%2Fdead-code-pub-in-binary%2Flibrary-normal.stderr"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38333873419,
+          "name": "Post merge analysis",
+          "path": ".github/workflows/post-merge.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/rust-lang/rust/actions/runs/38333873419",
+          "head_sha": "88d982422ac482951195284e27f5bcb0d28f298b"
+        },
+        {
+          "id": 38317859546,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/rust-lang/rust/actions/runs/38317859546",
+          "head_sha": "88d982422ac482951195284e27f5bcb0d28f298b"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38315916942,
+          "name": "Crabwatch",
+          "path": ".github/workflows/crabwatch.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/rust-lang/rust/actions/runs/38315916942",
+          "head_sha": "ca5e8aef9a73ec0f88af0a3d093b71a4ee852199"
+        },
+        {
+          "id": 38315917009,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/rust-lang/rust/actions/runs/38315917009",
+          "head_sha": "ca5e8aef9a73ec0f88af0a3d093b71a4ee852199"
+        }
+      ]
+    },
+    {
+      "number": 164193,
+      "title": "Rollup of 5 pull requests",
+      "url": "https://github.com/rust-lang/rust/pull/164193",
+      "merged_at": "2026-10-12T10:54:03Z",
+      "merge_commit_sha": "fb5f32bdbe75e9114c62589cb86ace65f14a5b78",
+      "files": [
+        ".github/workflows/ci.yml",
+        "compiler/rustc_ast_lowering/src/lib.rs",
+        "compiler/rustc_const_eval/src/check_consts/qualifs.rs",
+        "compiler/rustc_const_eval/src/check_consts/resolver.rs",
+        "compiler/rustc_const_eval/src/const_eval/machine.rs",
+        "compiler/rustc_hir/src/hir.rs",
+        "compiler/rustc_hir/src/intravisit.rs",
+        "compiler/rustc_hir_analysis/src/hir_ty_lowering/mod.rs",
+        "compiler/rustc_hir_pretty/src/lib.rs",
+        "compiler/rustc_middle/src/ty/context.rs",
+        "compiler/rustc_middle/src/ty/context/impl_interner.rs",
+        "compiler/rustc_middle/src/ty/sty.rs",
+        "compiler/rustc_next_trait_solver/src/canonical/canonicalizer.rs",
+        "compiler/rustc_next_trait_solver/src/canonical/mod.rs",
+        "compiler/rustc_next_trait_solver/src/solve/assembly/mod.rs",
+        "compiler/rustc_next_trait_solver/src/solve/effect_goals.rs",
+        "compiler/rustc_next_trait_solver/src/solve/normalizes_to.rs",
+        "compiler/rustc_next_trait_solver/src/solve/trait_goals.rs",
+        "compiler/rustc_resolve/src/build_reduced_graph.rs",
+        "compiler/rustc_resolve/src/diagnostics/impls.rs",
+        "compiler/rustc_resolve/src/diagnostics/mod.rs",
+        "compiler/rustc_resolve/src/lib.rs",
+        "compiler/rustc_resolve/src/macros.rs",
+        "compiler/rustc_type_ir/src/interner.rs",
+        "tests/ui/attributes/key-value-expansion-scope.stderr",
+        "tests/ui/imports/issue-53269.stderr",
+        "tests/ui/lint/unused/unused-macros-decl.stderr",
+        "tests/ui/lint/unused/unused-macros.stderr",
+        "tests/ui/macros/macro-expansion-tests.stderr",
+        "tests/ui/macros/unresolved-macro-missing-macro-use-2.rs",
+        "tests/ui/macros/unresolved-macro-missing-macro-use-2.stderr",
+        "tests/ui/macros/unresolved-macro-missing-macro-use-3.rs",
+        "tests/ui/macros/unresolved-macro-missing-macro-use-3.stderr",
+        "tests/ui/macros/unresolved-macro-missing-macro-use.rs",
+        "tests/ui/macros/unresolved-macro-missing-macro-use.stderr",
+        "tests/ui/resolve/issue-49074.stderr"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".github/workflows/ci.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/.github%2Fworkflows%2Fci.yml"
+        },
+        {
+          "filename": "compiler/rustc_ast_lowering/src/lib.rs",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 14,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_ast_lowering%2Fsrc%2Flib.rs"
+        },
+        {
+          "filename": "compiler/rustc_const_eval/src/check_consts/qualifs.rs",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_const_eval%2Fsrc%2Fcheck_consts%2Fqualifs.rs"
+        },
+        {
+          "filename": "compiler/rustc_const_eval/src/check_consts/resolver.rs",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 7,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_const_eval%2Fsrc%2Fcheck_consts%2Fresolver.rs"
+        },
+        {
+          "filename": "compiler/rustc_const_eval/src/const_eval/machine.rs",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_const_eval%2Fsrc%2Fconst_eval%2Fmachine.rs"
+        },
+        {
+          "filename": "compiler/rustc_hir/src/hir.rs",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_hir%2Fsrc%2Fhir.rs"
+        },
+        {
+          "filename": "compiler/rustc_hir/src/intravisit.rs",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_hir%2Fsrc%2Fintravisit.rs"
+        },
+        {
+          "filename": "compiler/rustc_hir_analysis/src/hir_ty_lowering/mod.rs",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_hir_analysis%2Fsrc%2Fhir_ty_lowering%2Fmod.rs"
+        },
+        {
+          "filename": "compiler/rustc_hir_pretty/src/lib.rs",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_hir_pretty%2Fsrc%2Flib.rs"
+        },
+        {
+          "filename": "compiler/rustc_middle/src/ty/context.rs",
+          "status": "modified",
+          "additions": 82,
+          "deletions": 62,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_middle%2Fsrc%2Fty%2Fcontext.rs"
+        },
+        {
+          "filename": "compiler/rustc_middle/src/ty/context/impl_interner.rs",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 25,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_middle%2Fsrc%2Fty%2Fcontext%2Fimpl_interner.rs"
+        },
+        {
+          "filename": "compiler/rustc_middle/src/ty/sty.rs",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 7,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_middle%2Fsrc%2Fty%2Fsty.rs"
+        },
+        {
+          "filename": "compiler/rustc_next_trait_solver/src/canonical/canonicalizer.rs",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 5,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_next_trait_solver%2Fsrc%2Fcanonical%2Fcanonicalizer.rs"
+        },
+        {
+          "filename": "compiler/rustc_next_trait_solver/src/canonical/mod.rs",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_next_trait_solver%2Fsrc%2Fcanonical%2Fmod.rs"
+        },
+        {
+          "filename": "compiler/rustc_next_trait_solver/src/solve/assembly/mod.rs",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 11,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_next_trait_solver%2Fsrc%2Fsolve%2Fassembly%2Fmod.rs"
+        },
+        {
+          "filename": "compiler/rustc_next_trait_solver/src/solve/effect_goals.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_next_trait_solver%2Fsrc%2Fsolve%2Feffect_goals.rs"
+        },
+        {
+          "filename": "compiler/rustc_next_trait_solver/src/solve/normalizes_to.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_next_trait_solver%2Fsrc%2Fsolve%2Fnormalizes_to.rs"
+        },
+        {
+          "filename": "compiler/rustc_next_trait_solver/src/solve/trait_goals.rs",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_next_trait_solver%2Fsrc%2Fsolve%2Ftrait_goals.rs"
+        },
+        {
+          "filename": "compiler/rustc_resolve/src/build_reduced_graph.rs",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_resolve%2Fsrc%2Fbuild_reduced_graph.rs"
+        },
+        {
+          "filename": "compiler/rustc_resolve/src/diagnostics/impls.rs",
+          "status": "modified",
+          "additions": 19,
+          "deletions": 4,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_resolve%2Fsrc%2Fdiagnostics%2Fimpls.rs"
+        },
+        {
+          "filename": "compiler/rustc_resolve/src/diagnostics/mod.rs",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_resolve%2Fsrc%2Fdiagnostics%2Fmod.rs"
+        },
+        {
+          "filename": "compiler/rustc_resolve/src/lib.rs",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_resolve%2Fsrc%2Flib.rs"
+        },
+        {
+          "filename": "compiler/rustc_resolve/src/macros.rs",
+          "status": "modified",
+          "additions": 20,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_resolve%2Fsrc%2Fmacros.rs"
+        },
+        {
+          "filename": "compiler/rustc_type_ir/src/interner.rs",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 9,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/compiler%2Frustc_type_ir%2Fsrc%2Finterner.rs"
+        },
+        {
+          "filename": "tests/ui/attributes/key-value-expansion-scope.stderr",
+          "status": "modified",
+          "additions": 138,
+          "deletions": 16,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/tests%2Fui%2Fattributes%2Fkey-value-expansion-scope.stderr"
+        },
+        {
+          "filename": "tests/ui/imports/issue-53269.stderr",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/tests%2Fui%2Fimports%2Fissue-53269.stderr"
+        },
+        {
+          "filename": "tests/ui/lint/unused/unused-macros-decl.stderr",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/tests%2Fui%2Flint%2Funused%2Funused-macros-decl.stderr"
+        },
+        {
+          "filename": "tests/ui/lint/unused/unused-macros.stderr",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/tests%2Fui%2Flint%2Funused%2Funused-macros.stderr"
+        },
+        {
+          "filename": "tests/ui/macros/macro-expansion-tests.stderr",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 2,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/tests%2Fui%2Fmacros%2Fmacro-expansion-tests.stderr"
+        },
+        {
+          "filename": "tests/ui/macros/unresolved-macro-missing-macro-use-2.rs",
+          "status": "added",
+          "additions": 14,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/tests%2Fui%2Fmacros%2Funresolved-macro-missing-macro-use-2.rs"
+        },
+        {
+          "filename": "tests/ui/macros/unresolved-macro-missing-macro-use-2.stderr",
+          "status": "added",
+          "additions": 28,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/tests%2Fui%2Fmacros%2Funresolved-macro-missing-macro-use-2.stderr"
+        },
+        {
+          "filename": "tests/ui/macros/unresolved-macro-missing-macro-use-3.rs",
+          "status": "added",
+          "additions": 19,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/tests%2Fui%2Fmacros%2Funresolved-macro-missing-macro-use-3.rs"
+        },
+        {
+          "filename": "tests/ui/macros/unresolved-macro-missing-macro-use-3.stderr",
+          "status": "added",
+          "additions": 31,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/tests%2Fui%2Fmacros%2Funresolved-macro-missing-macro-use-3.stderr"
+        },
+        {
+          "filename": "tests/ui/macros/unresolved-macro-missing-macro-use.rs",
+          "status": "added",
+          "additions": 12,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/tests%2Fui%2Fmacros%2Funresolved-macro-missing-macro-use.rs"
+        },
+        {
+          "filename": "tests/ui/macros/unresolved-macro-missing-macro-use.stderr",
+          "status": "added",
+          "additions": 36,
+          "deletions": 0,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/tests%2Fui%2Fmacros%2Funresolved-macro-missing-macro-use.stderr"
+        },
+        {
+          "filename": "tests/ui/resolve/issue-49074.stderr",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/rust-lang/rust/blob/63b5b3505d49a0b16ea8246b3f3cddc2725151b5/tests%2Fui%2Fresolve%2Fissue-49074.stderr"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38239198833,
+          "name": "Post merge analysis",
+          "path": ".github/workflows/post-merge.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/rust-lang/rust/actions/runs/38239198833",
+          "head_sha": "fb5f32bdbe75e9114c62589cb86ace65f14a5b78"
+        },
+        {
+          "id": 38220053568,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/rust-lang/rust/actions/runs/38220053568",
+          "head_sha": "fb5f32bdbe75e9114c62589cb86ace65f14a5b78"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38217386593,
+          "name": "Crabwatch",
+          "path": ".github/workflows/crabwatch.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/rust-lang/rust/actions/runs/38217386593",
+          "head_sha": "63b5b3505d49a0b16ea8246b3f3cddc2725151b5"
+        },
+        {
+          "id": 38217386586,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/rust-lang/rust/actions/runs/38217386586",
+          "head_sha": "63b5b3505d49a0b16ea8246b3f3cddc2725151b5"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "1.99.1",
+      "url": "https://github.com/rust-lang/rust/releases/tag/1.99.1",
+      "published_at": "2026-10-16T04:47:44Z",
+      "target_commitish": "main",
+      "commit_sha": "58cf8f9c35b355199727627d07ae34a4e2846d67",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38333918748,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/rust-lang/rust/actions/runs/38333918748",
+          "head_sha": "58cf8f9c35b355199727627d07ae34a4e2846d67"
+        }
+      ]
+    },
+    {
+      "tag": "1.99.0",
+      "url": "https://github.com/rust-lang/rust/releases/tag/1.99.0",
+      "published_at": "2026-10-01T12:41:12Z",
+      "target_commitish": "main",
+      "commit_sha": "b940084d7eb6a299eb4bfeb8e34901bc051e7ac4",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 36464947395,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/rust-lang/rust/actions/runs/36464947395",
+          "head_sha": "b940084d7eb6a299eb4bfeb8e34901bc051e7ac4"
+        }
+      ]
+    },
+    {
+      "tag": "1.98.1",
+      "url": "https://github.com/rust-lang/rust/releases/tag/1.98.1",
+      "published_at": "2026-09-03T13:14:07Z",
+      "target_commitish": "main",
+      "commit_sha": "48a229ceaefd4985c50990b14116b6d856af0985",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 33479775149,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/rust-lang/rust/actions/runs/33479775149",
+          "head_sha": "48a229ceaefd4985c50990b14116b6d856af0985"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "release-0.7",
+      "sha": "a2db7c15ce9f586164cabb15d83fb3f6bbeb3cf5"
+    },
+    {
+      "name": "release-0.6",
+      "sha": "00dbbd01c2aee72982b3e0f9511ae1d4428c3ba9"
+    },
+    {
+      "name": "release-0.5",
+      "sha": "8b98e5a296d95c5e832db0756828e5bec31c6f50"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:20:30.557957+00:00",
+  "source_times": {
+    "/repos/rust-lang/rust": "2026-10-17T16:15:54.788984+00:00",
+    "/repos/rust-lang/rust/commits?sha=main&per_page=20": "2026-10-17T16:15:56.870378+00:00",
+    "/repos/rust-lang/rust/git/trees/158f79d5c24d262f820fa45da96e7b77bc29a338": "2026-10-17T16:15:58.260085+00:00",
+    "/repos/rust-lang/rust/git/trees/3eb8a01251a60e9097e5332fb388057dae7e8405": "2026-10-17T16:15:59.624029+00:00",
+    "/repos/rust-lang/rust/git/trees/6d8155642bb3681dafa161f2705f5b1540af0a6e": "2026-10-17T16:16:01.035055+00:00",
+    "/repos/rust-lang/rust/git/trees/ac1c89f38852615baba4766c1c098818be4c3525": "2026-10-17T16:16:02.621668+00:00",
+    "/repos/rust-lang/rust/git/blobs/ce36bada00558382adec44b3bbec402c5e96de45": "2026-10-17T16:16:05.354569+00:00",
+    "/repos/rust-lang/rust/git/blobs/e3708bc485399fd42b32c6a1c24491771afa1a04": "2026-10-17T16:16:07.534070+00:00",
+    "/repos/rust-lang/rust/git/blobs/08b0cdc34ff3a6d7e0bc49686aa2138aa4f8f406": "2026-10-17T16:16:08.912605+00:00",
+    "/repos/rust-lang/rust/git/blobs/63d96ff2a62acadafea42ae97f58cc568d5eaef7": "2026-10-17T16:16:10.297732+00:00",
+    "/repos/rust-lang/rust/git/blobs/ed35016eb3a238614741e5922a06b9bf83f9780e": "2026-10-17T16:16:11.705317+00:00",
+    "/repos/rust-lang/rust/git/blobs/876d81c1d60efba1a14320356690e12f5e35a35f": "2026-10-17T16:16:13.087838+00:00",
+    "/repos/rust-lang/rust/git/blobs/344ea30e1fc0b430cd2e1d535f7ace0c0333d3d5": "2026-10-17T16:16:14.447029+00:00",
+    "/repos/rust-lang/rust/git/blobs/5675579bc964a6aab3827db3b3c519c731f98143": "2026-10-17T16:16:16.811110+00:00",
+    "/repos/rust-lang/rust/git/blobs/a2878a0e01208fc376fbd85d3562899753c78558": "2026-10-17T16:16:18.256656+00:00",
+    "/repos/rust-lang/rust/git/blobs/54bf2bc6ee242e2cb8ebceb00934505d282ddeef": "2026-10-17T16:16:19.727751+00:00",
+    "/repos/rust-lang/rust/git/blobs/4a79cd4ba97c843659b893aebfb8ffe60353e624": "2026-10-17T16:16:21.095088+00:00",
+    "/repos/rust-lang/rust/git/blobs/1ab1ddf460161ea3edf4eb16599e960065e2e7ff": "2026-10-17T16:16:22.491802+00:00",
+    "/repos/rust-lang/rust/git/blobs/13be13d4f998592e143f106afe0b635091710242": "2026-10-17T16:16:25.287829+00:00",
+    "/repos/rust-lang/rust/git/blobs/3bcfe647ee9c2f00623327642a4be14c3e23c361": "2026-10-17T16:16:26.679991+00:00",
+    "/repos/rust-lang/rust/git/blobs/c0e90824a710dfa73be33368854ee94d768bde41": "2026-10-17T16:16:28.899637+00:00",
+    "/repos/rust-lang/rust/git/blobs/597f188fd9d392ff6c531f77fdeca1b494d2d174": "2026-10-17T16:16:30.317212+00:00",
+    "/repos/rust-lang/rust/git/blobs/e4bdcd212f38156091458325ff9b357ecbfb1e21": "2026-10-17T16:16:31.710725+00:00",
+    "/repos/rust-lang/rust/git/blobs/c9da81371e151ae8c2accb71c090b1478761b1ad": "2026-10-17T16:16:33.090330+00:00",
+    "/repos/rust-lang/rust/git/blobs/8abe1d818de1cc1eea07968073f936436b32ea32": "2026-10-17T16:16:34.460590+00:00",
+    "/repos/rust-lang/rust/git/blobs/ef31d7a4723e8ce1b4371d6665862d6a7463dade": "2026-10-17T16:16:37.013882+00:00",
+    "/repos/rust-lang/rust/git/blobs/f0f0ece750b9f65535c362e8e3a475680deda976": "2026-10-17T16:16:38.407938+00:00",
+    "/repos/rust-lang/rust/git/blobs/7200aa22a4162beaf45710d744764016b09ea4d0": "2026-10-17T16:16:39.960447+00:00",
+    "/repos/rust-lang/rust/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:16:44.136075+00:00",
+    "/repos/rust-lang/rust/pulls/163731/files?per_page=100": "2026-10-17T16:16:45.834214+00:00",
+    "/repos/rust-lang/rust/pulls/163731/reviews?per_page=100": "2026-10-17T16:16:47.783761+00:00",
+    "/repos/rust-lang/rust/actions/runs?head_sha=158f79d5c24d262f820fa45da96e7b77bc29a338&per_page=10": "2026-10-17T16:16:50.068083+00:00",
+    "/repos/rust-lang/rust/actions/runs?head_sha=7d58ad7df3fe097351ab243368f597001143ce76&per_page=10": "2026-10-17T16:16:51.700106+00:00",
+    "/repos/rust-lang/rust/pulls/164230/files?per_page=100": "2026-10-17T16:16:54.172684+00:00",
+    "/repos/rust-lang/rust/pulls/164230/reviews?per_page=100": "2026-10-17T16:16:56.624659+00:00",
+    "/repos/rust-lang/rust/actions/runs?head_sha=88d982422ac482951195284e27f5bcb0d28f298b&per_page=10": "2026-10-17T16:16:58.269727+00:00",
+    "/repos/rust-lang/rust/actions/runs?head_sha=ca5e8aef9a73ec0f88af0a3d093b71a4ee852199&per_page=10": "2026-10-17T16:16:59.975657+00:00",
+    "/repos/rust-lang/rust/pulls/164193/files?per_page=100": "2026-10-17T16:17:02.103124+00:00",
+    "/repos/rust-lang/rust/pulls/164193/reviews?per_page=100": "2026-10-17T16:17:03.515172+00:00",
+    "/repos/rust-lang/rust/actions/runs?head_sha=fb5f32bdbe75e9114c62589cb86ace65f14a5b78&per_page=10": "2026-10-17T16:17:05.390503+00:00",
+    "/repos/rust-lang/rust/actions/runs?head_sha=63b5b3505d49a0b16ea8246b3f3cddc2725151b5&per_page=10": "2026-10-17T16:17:08.196429+00:00",
+    "/repos/rust-lang/rust/releases?per_page=20&page=1": "2026-10-17T16:20:30.555274+00:00",
+    "/repos/rust-lang/rust/commits/1.99.1": "2026-10-17T16:17:13.986562+00:00",
+    "/repos/rust-lang/rust/actions/runs?head_sha=58cf8f9c35b355199727627d07ae34a4e2846d67&per_page=10": "2026-10-17T16:17:15.586334+00:00",
+    "/repos/rust-lang/rust/commits/1.99.0": "2026-10-17T16:17:17.220544+00:00",
+    "/repos/rust-lang/rust/actions/runs?head_sha=b940084d7eb6a299eb4bfeb8e34901bc051e7ac4&per_page=10": "2026-10-17T16:17:19.817816+00:00",
+    "/repos/rust-lang/rust/commits/1.98.1": "2026-10-17T16:17:21.269593+00:00",
+    "/repos/rust-lang/rust/actions/runs?head_sha=48a229ceaefd4985c50990b14116b6d856af0985&per_page=10": "2026-10-17T16:17:22.913128+00:00",
+    "/repos/rust-lang/rust/tags?per_page=3": "2026-10-17T16:17:24.341736+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:20:30.555274+00:00",
+  "status": "collected"
+}

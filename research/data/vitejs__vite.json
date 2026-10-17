@@ -1,0 +1,1922 @@
+{
+  "requested_repository": "vitejs/vite",
+  "category": "tools",
+  "collected_at": "2026-10-17T16:17:46.413438+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "vitejs/vite",
+  "metadata": {
+    "html_url": "https://github.com/vitejs/vite",
+    "description": "Next generation frontend tooling. It's fast!",
+    "homepage": "http://vite.dev",
+    "language": "TypeScript",
+    "stargazers_count": 83365,
+    "forks_count": 8864,
+    "open_issues_count": 798,
+    "pushed_at": "2026-10-16T16:45:21Z",
+    "created_at": "2020-04-21T05:03:57Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [
+      "build-tool",
+      "dev-server",
+      "frontend",
+      "hmr",
+      "vite"
+    ],
+    "owner": {
+      "login": "vitejs",
+      "type": "Organization",
+      "html_url": "https://github.com/vitejs"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "df7503cc499e0b49e45701e3be7546918ee9d322",
+      "url": "https://github.com/vitejs/vite/commit/df7503cc499e0b49e45701e3be7546918ee9d322",
+      "date": "2026-10-16T11:59:59Z",
+      "subject": "test: tag bundled-dev skips in the hmr playground (#23788)"
+    },
+    {
+      "sha": "74ae7099f9fd1d5cd1adcd32bcbb2c92d8937007",
+      "url": "https://github.com/vitejs/vite/commit/74ae7099f9fd1d5cd1adcd32bcbb2c92d8937007",
+      "date": "2026-10-16T09:24:53Z",
+      "subject": "docs: update development tools list (#23786)"
+    },
+    {
+      "sha": "928e721b36690ac0f3f118290a21fc0cc4349055",
+      "url": "https://github.com/vitejs/vite/commit/928e721b36690ac0f3f118290a21fc0cc4349055",
+      "date": "2026-10-15T11:45:21Z",
+      "subject": "chore(deps): use typescript v7 (#23778)"
+    },
+    {
+      "sha": "8d7623d9b5647714a5b20cbd787a5401ca846229",
+      "url": "https://github.com/vitejs/vite/commit/8d7623d9b5647714a5b20cbd787a5401ca846229",
+      "date": "2026-10-15T10:49:49Z",
+      "subject": "fix(build): handle missing chunk import maps (#23777)"
+    },
+    {
+      "sha": "5b73935881424ed5919571036dd89d3868590f92",
+      "url": "https://github.com/vitejs/vite/commit/5b73935881424ed5919571036dd89d3868590f92",
+      "date": "2026-10-15T10:48:53Z",
+      "subject": "chore: migrate to Oxlint (#23746)"
+    },
+    {
+      "sha": "50b382d31835b8b4bc8b6964738ac03146e44261",
+      "url": "https://github.com/vitejs/vite/commit/50b382d31835b8b4bc8b6964738ac03146e44261",
+      "date": "2026-10-15T10:37:54Z",
+      "subject": "fix(css): don't fail on a literal `%` in `url()` (#23676)"
+    },
+    {
+      "sha": "d112dad9392efdb38eafc2c36fd27b54e614efca",
+      "url": "https://github.com/vitejs/vite/commit/d112dad9392efdb38eafc2c36fd27b54e614efca",
+      "date": "2026-10-15T10:36:33Z",
+      "subject": "test: tag bundled-dev skips in the glob-import playground (#23743)"
+    },
+    {
+      "sha": "a7d56967ef0050a09c0507e63a18164bc7a0d486",
+      "url": "https://github.com/vitejs/vite/commit/a7d56967ef0050a09c0507e63a18164bc7a0d486",
+      "date": "2026-10-15T10:35:37Z",
+      "subject": "fix(optimizer): skip patches dir hash for nub lockfile (#23761)"
+    },
+    {
+      "sha": "b65a4b55a8d3fc4674ebda272f6612c29b01de84",
+      "url": "https://github.com/vitejs/vite/commit/b65a4b55a8d3fc4674ebda272f6612c29b01de84",
+      "date": "2026-10-15T10:31:51Z",
+      "subject": "docs: dynamic import retries (#23709)"
+    },
+    {
+      "sha": "ce4293f15cc5cd221c5ed60f5cd64e82ca5cbaf5",
+      "url": "https://github.com/vitejs/vite/commit/ce4293f15cc5cd221c5ed60f5cd64e82ca5cbaf5",
+      "date": "2026-10-15T10:30:29Z",
+      "subject": "refactor(deps): replace `@vercel/detect-agent` with `std-env` (#23744)"
+    },
+    {
+      "sha": "bd3253387fe1dc96831950f9894a456e9cbfe2f8",
+      "url": "https://github.com/vitejs/vite/commit/bd3253387fe1dc96831950f9894a456e9cbfe2f8",
+      "date": "2026-10-15T05:19:40Z",
+      "subject": "test: tag bundled-dev skips in the fs-serve playground (#23742)"
+    },
+    {
+      "sha": "11fe1e46ff0c136cb90fbe263ba03993bc94df18",
+      "url": "https://github.com/vitejs/vite/commit/11fe1e46ff0c136cb90fbe263ba03993bc94df18",
+      "date": "2026-10-15T05:13:51Z",
+      "subject": "fix(bundled-dev): map forwarded error stacks through the bundle source maps (#23741)"
+    },
+    {
+      "sha": "c2c9ef4dcd05b3e4d88844ea3a13dc23819ca2a5",
+      "url": "https://github.com/vitejs/vite/commit/c2c9ef4dcd05b3e4d88844ea3a13dc23819ca2a5",
+      "date": "2026-10-14T08:28:17Z",
+      "subject": "fix(server): handle socket errors on upgrade requests not taken by the HMR server (#23728)"
+    },
+    {
+      "sha": "4ea708a3ae9a324c6aabca59fade4082bf72f3e5",
+      "url": "https://github.com/vitejs/vite/commit/4ea708a3ae9a324c6aabca59fade4082bf72f3e5",
+      "date": "2026-10-14T08:10:17Z",
+      "subject": "fix(resolve): update resolve.exports to 2.0.4 (#23739)"
+    },
+    {
+      "sha": "38f3cb45b1490ed24775547ceafa677b91a57714",
+      "url": "https://github.com/vitejs/vite/commit/38f3cb45b1490ed24775547ceafa677b91a57714",
+      "date": "2026-10-14T03:49:46Z",
+      "subject": "fix(optimizer): scan `oxc.jsxInject` imports (#23758)"
+    },
+    {
+      "sha": "cf80aa552cac02eac0293330ccd5fde3c7ae8d29",
+      "url": "https://github.com/vitejs/vite/commit/cf80aa552cac02eac0293330ccd5fde3c7ae8d29",
+      "date": "2026-10-13T09:39:36Z",
+      "subject": "fix(deps): update all non-major dependencies (#23731)"
+    },
+    {
+      "sha": "43f0d052e514c3ad2dea2f7dc44b0720e1f62f48",
+      "url": "https://github.com/vitejs/vite/commit/43f0d052e514c3ad2dea2f7dc44b0720e1f62f48",
+      "date": "2026-10-13T09:13:00Z",
+      "subject": "fix(deps): update rolldown-related dependencies (#23733)"
+    },
+    {
+      "sha": "726aca5a5390776b563741003a46ac8ea5706f16",
+      "url": "https://github.com/vitejs/vite/commit/726aca5a5390776b563741003a46ac8ea5706f16",
+      "date": "2026-10-13T09:09:47Z",
+      "subject": "test: tag bundled-dev skips in the environment-react-ssr playground (#23740)"
+    },
+    {
+      "sha": "6019aa79975465516da7c6f532d568422b019a25",
+      "url": "https://github.com/vitejs/vite/commit/6019aa79975465516da7c6f532d568422b019a25",
+      "date": "2026-10-13T08:50:51Z",
+      "subject": "fix(bundled-dev): include user `import.meta.env.*` defines in the `import.meta.env` object (#23713)"
+    },
+    {
+      "sha": "dce9fe69d37e957b62f3b5df61a761f7f2f949f5",
+      "url": "https://github.com/vitejs/vite/commit/dce9fe69d37e957b62f3b5df61a761f7f2f949f5",
+      "date": "2026-10-12T09:39:31Z",
+      "subject": "chore(deps): update actions/setup-node digest to 949feb2 (#23730)"
+    }
+  ],
+  "default_sha": "df7503cc499e0b49e45701e3be7546918ee9d322",
+  "root_and_selected_directory_paths": [
+    ".editorconfig",
+    ".git-blame-ignore-revs",
+    ".gitattributes",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug_report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/docs.yml",
+    ".github/ISSUE_TEMPLATE/feature_request.yml",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/SECURITY.md",
+    ".github/actions",
+    ".github/commit-convention.md",
+    ".github/copilot-instructions.md",
+    ".github/renovate.json5",
+    ".github/workflows",
+    ".github/workflows/bot.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/copilot-setup-steps.yml",
+    ".github/workflows/ecosystem-ci-trigger.yml",
+    ".github/workflows/issue-close-require.yml",
+    ".github/workflows/issue-labeled.yml",
+    ".github/workflows/lock-closed-issues.yml",
+    ".github/workflows/prepare-release.yml",
+    ".github/workflows/preview-release.yml",
+    ".github/workflows/publish.yml",
+    ".github/workflows/semantic-pull-request.yml",
+    ".github/workflows/semgrep.yml",
+    ".github/workflows/zizmor.yml",
+    ".github/zizmor.yml",
+    ".gitignore",
+    ".oxfmtrc.json",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "README.md",
+    "docs",
+    "docs/.vitepress",
+    "docs/_data",
+    "docs/acknowledgements.md",
+    "docs/blog",
+    "docs/blog.md",
+    "docs/changes",
+    "docs/config",
+    "docs/guide",
+    "docs/images",
+    "docs/index.md",
+    "docs/live.md",
+    "docs/package.json",
+    "docs/plugins",
+    "docs/public",
+    "docs/releases.md",
+    "docs/team.md",
+    "docs/tsconfig.json",
+    "netlify.toml",
+    "oxlint.config.ts",
+    "package.json",
+    "packages",
+    "patches",
+    "playground",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "scripts",
+    "vitest.config.e2e.ts",
+    "vitest.config.ts"
+  ],
+  "workflow_paths": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/ecosystem-ci-trigger.yml",
+    ".github/workflows/prepare-release.yml",
+    ".github/workflows/preview-release.yml",
+    ".github/workflows/publish.yml",
+    ".github/workflows/bot.yml",
+    ".github/workflows/copilot-setup-steps.yml",
+    ".github/workflows/issue-close-require.yml",
+    ".github/workflows/issue-labeled.yml",
+    ".github/workflows/lock-closed-issues.yml",
+    ".github/workflows/semantic-pull-request.yml",
+    ".github/workflows/semgrep.yml",
+    ".github/workflows/zizmor.yml"
+  ],
+  "documents": [
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "c6f001bf1b4e3ce15134620cbd8954fd7bc988af",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/CONTRIBUTING.md",
+      "lines": 382,
+      "signals": {
+        "tests": [
+          99,
+          101,
+          141,
+          149,
+          155,
+          157,
+          161
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          379
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          95,
+          103,
+          141,
+          143,
+          157,
+          161,
+          169,
+          179,
+          184,
+          188,
+          195,
+          210
+        ],
+        "community": [],
+        "story": [
+          253,
+          254,
+          324,
+          327
+        ]
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "069c468a98123f873f4626f6fb5a666389cdfb45",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/README.md",
+      "lines": 66,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          16,
+          17,
+          18,
+          19,
+          48,
+          49,
+          50
+        ],
+        "media": [
+          8,
+          16,
+          17,
+          18,
+          19,
+          48,
+          49,
+          50,
+          64
+        ],
+        "theme_images": [
+          5,
+          6,
+          7
+        ],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "package.json",
+      "sha": "4a59bda8c5975bb78bd3d5ded09b0570262209a8",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/package.json",
+      "lines": 94,
+      "signals": {
+        "tests": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          32,
+          33,
+          71
+        ],
+        "lint": [
+          44,
+          56,
+          57,
+          74
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          86,
+          91
+        ],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha": "51547308a0edbba60cd66f89b057e8102c315da8",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "lines": 91,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          88
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "e36d5d53edcd7f4ecfcc54ac99781dbd9927e8f5",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 14,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          13
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/docs.yml",
+      "sha": "ef629b965966636a185364fbd5e774aecb8c589d",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/.github/ISSUE_TEMPLATE/docs.yml",
+      "lines": 43,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "sha": "ae63667bf70d4d41a6b41c1131e68502280691ec",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/.github/ISSUE_TEMPLATE/feature_request.yml",
+      "lines": 48,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "6903a42d346364cced07ae5290ec4be7d52eb0b2",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/.github/PULL_REQUEST_TEMPLATE.md",
+      "lines": 21,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/SECURITY.md",
+      "sha": "1407d037d96d509918492b78d6da781510a35c89",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/.github/SECURITY.md",
+      "lines": 67,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          43
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          9,
+          12,
+          63,
+          65
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/package.json",
+      "sha": "8ee595d9bdbe01f091b11b94e412fdcaa6902309",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/docs/package.json",
+      "lines": 24,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/releases.md",
+      "sha": "4491eeaccd1c63eb5391f7353975e238cb6b5428",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/docs/releases.md",
+      "lines": 62,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          62
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "0b9177d27c5a1ffce483069e054fb43fdbe73ac6",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/.github/workflows/ci.yml",
+      "lines": 185,
+      "signals": {
+        "tests": [
+          9
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          14
+        ],
+        "pinned_actions": [
+          42,
+          50,
+          79,
+          85,
+          91,
+          111,
+          162,
+          167
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ecosystem-ci-trigger.yml",
+      "sha": "2c289ec6276c4cf03948edb58fd0c23ac7300909",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/.github/workflows/ecosystem-ci-trigger.yml",
+      "lines": 268,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [
+          17,
+          58,
+          114,
+          140,
+          152,
+          173,
+          243
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/prepare-release.yml",
+      "sha": "36ace23a3e2d1465b7ecfa663304af5eab54f4d0",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/.github/workflows/prepare-release.yml",
+      "lines": 93,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          42,
+          49,
+          50
+        ],
+        "pinned_actions": [
+          63,
+          70,
+          85
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/preview-release.yml",
+      "sha": "eca908a262148954183b60a61a495b5c2444de9a",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/.github/workflows/preview-release.yml",
+      "lines": 48,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [
+          26,
+          34
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "sha": "3ebd5a76d27ceeece8be10c00c4f30f791cfb19b",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/.github/workflows/publish.yml",
+      "lines": 99,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          95
+        ],
+        "permissions": [
+          9,
+          43,
+          44,
+          45
+        ],
+        "pinned_actions": [
+          23,
+          28,
+          49,
+          67
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/bot.yml",
+      "sha": "c665a41cb02e721cab19081f1b327ff3c9a5e7e2",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/.github/workflows/bot.yml",
+      "lines": 148,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          28,
+          84,
+          120
+        ],
+        "pinned_actions": [
+          33,
+          41
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "sha": "1cf1ab05b4a176a3450548bbd10d06a5a5312f56",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/.github/workflows/copilot-setup-steps.yml",
+      "lines": 43,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13,
+          14
+        ],
+        "pinned_actions": [
+          17,
+          22
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/issue-close-require.yml",
+      "sha": "26b25f5678cca2f2225f0b99b0bb2c5fb9ecdd4a",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/.github/workflows/issue-close-require.yml",
+      "lines": 22,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/issue-labeled.yml",
+      "sha": "8d41a338810f902bfe46e4d7510b25663b7ad067",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/.github/workflows/issue-labeled.yml",
+      "lines": 42,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          41
+        ],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/lock-closed-issues.yml",
+      "sha": "835b145ae6876d0660b52b0a9460b62e8a47d035",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/.github/workflows/lock-closed-issues.yml",
+      "lines": 19,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/semantic-pull-request.yml",
+      "sha": "1c8af570badb23327e2f88abf3bc5cbac5eedff3",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/.github/workflows/semantic-pull-request.yml",
+      "lines": 29,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          17
+        ],
+        "pinned_actions": [
+          21
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/semgrep.yml",
+      "sha": "60ad5439bdce5bbc12b2b6a5bdd77e918595ac64",
+      "status": "inspected",
+      "url": "https://github.com/vitejs/vite/blob/df7503cc499e0b49e45701e3be7546918ee9d322/.github/workflows/semgrep.yml",
+      "lines": 36,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8,
+          14
+        ],
+        "pinned_actions": [
+          19,
+          34
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          28
+        ],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 23788,
+      "title": "test: tag bundled-dev skips in the hmr playground",
+      "url": "https://github.com/vitejs/vite/pull/23788",
+      "merged_at": "2026-10-16T12:00:01Z",
+      "merge_commit_sha": "df7503cc499e0b49e45701e3be7546918ee9d322",
+      "files": [
+        "playground/backend-integration/__tests__/backend-integration.spec.ts",
+        "playground/hmr/__tests__/hmr.spec.ts",
+        "playground/hmr/intermediate-file-delete/index.js",
+        "playground/hmr/vite.config.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "playground/backend-integration/__tests__/backend-integration.spec.ts",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 6,
+          "blob_url": "https://github.com/vitejs/vite/blob/670efc8c84ac992f3dadeedda3a377a116c3b37f/playground%2Fbackend-integration%2F__tests__%2Fbackend-integration.spec.ts"
+        },
+        {
+          "filename": "playground/hmr/__tests__/hmr.spec.ts",
+          "status": "modified",
+          "additions": 155,
+          "deletions": 110,
+          "blob_url": "https://github.com/vitejs/vite/blob/670efc8c84ac992f3dadeedda3a377a116c3b37f/playground%2Fhmr%2F__tests__%2Fhmr.spec.ts"
+        },
+        {
+          "filename": "playground/hmr/intermediate-file-delete/index.js",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 3,
+          "blob_url": "https://github.com/vitejs/vite/blob/670efc8c84ac992f3dadeedda3a377a116c3b37f/playground%2Fhmr%2Fintermediate-file-delete%2Findex.js"
+        },
+        {
+          "filename": "playground/hmr/vite.config.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/vitejs/vite/blob/670efc8c84ac992f3dadeedda3a377a116c3b37f/playground%2Fhmr%2Fvite.config.ts"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39042984614,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/39042984614",
+          "head_sha": "df7503cc499e0b49e45701e3be7546918ee9d322"
+        },
+        {
+          "id": 39038832811,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/39038832811",
+          "head_sha": "df7503cc499e0b49e45701e3be7546918ee9d322"
+        },
+        {
+          "id": 39026366755,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/39026366755",
+          "head_sha": "df7503cc499e0b49e45701e3be7546918ee9d322"
+        },
+        {
+          "id": 38986708652,
+          "name": "Lock Closed Issues",
+          "path": ".github/workflows/lock-closed-issues.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38986708652",
+          "head_sha": "df7503cc499e0b49e45701e3be7546918ee9d322"
+        },
+        {
+          "id": 38985623080,
+          "name": "Issue Close Require",
+          "path": ".github/workflows/issue-close-require.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38985623080",
+          "head_sha": "df7503cc499e0b49e45701e3be7546918ee9d322"
+        },
+        {
+          "id": 38972103453,
+          "name": "Bot",
+          "path": ".github/workflows/bot.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38972103453",
+          "head_sha": "df7503cc499e0b49e45701e3be7546918ee9d322"
+        },
+        {
+          "id": 38972103451,
+          "name": "Issue Labeled",
+          "path": ".github/workflows/issue-labeled.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38972103451",
+          "head_sha": "df7503cc499e0b49e45701e3be7546918ee9d322"
+        },
+        {
+          "id": 38954190802,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38954190802",
+          "head_sha": "df7503cc499e0b49e45701e3be7546918ee9d322"
+        },
+        {
+          "id": 38934762072,
+          "name": "Issue Labeled",
+          "path": ".github/workflows/issue-labeled.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38934762072",
+          "head_sha": "df7503cc499e0b49e45701e3be7546918ee9d322"
+        },
+        {
+          "id": 38934761895,
+          "name": "Bot",
+          "path": ".github/workflows/bot.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38934761895",
+          "head_sha": "df7503cc499e0b49e45701e3be7546918ee9d322"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38891688179,
+          "name": "Preview release",
+          "path": ".github/workflows/preview-release.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38891688179",
+          "head_sha": "670efc8c84ac992f3dadeedda3a377a116c3b37f"
+        },
+        {
+          "id": 38891689224,
+          "name": "Bot",
+          "path": ".github/workflows/bot.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38891689224",
+          "head_sha": "670efc8c84ac992f3dadeedda3a377a116c3b37f"
+        },
+        {
+          "id": 38891688986,
+          "name": "Preview release",
+          "path": ".github/workflows/preview-release.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38891688986",
+          "head_sha": "670efc8c84ac992f3dadeedda3a377a116c3b37f"
+        },
+        {
+          "id": 38891689106,
+          "name": "Bot",
+          "path": ".github/workflows/bot.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38891689106",
+          "head_sha": "670efc8c84ac992f3dadeedda3a377a116c3b37f"
+        },
+        {
+          "id": 38890294459,
+          "name": "Semantic Pull Request",
+          "path": ".github/workflows/semantic-pull-request.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38890294459",
+          "head_sha": "670efc8c84ac992f3dadeedda3a377a116c3b37f"
+        },
+        {
+          "id": 38889950282,
+          "name": "Semantic Pull Request",
+          "path": ".github/workflows/semantic-pull-request.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38889950282",
+          "head_sha": "670efc8c84ac992f3dadeedda3a377a116c3b37f"
+        },
+        {
+          "id": 38889890500,
+          "name": "Zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38889890500",
+          "head_sha": "670efc8c84ac992f3dadeedda3a377a116c3b37f"
+        },
+        {
+          "id": 38889890471,
+          "name": "Preview release",
+          "path": ".github/workflows/preview-release.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38889890471",
+          "head_sha": "670efc8c84ac992f3dadeedda3a377a116c3b37f"
+        },
+        {
+          "id": 38889890466,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38889890466",
+          "head_sha": "670efc8c84ac992f3dadeedda3a377a116c3b37f"
+        },
+        {
+          "id": 38889886712,
+          "name": "Semantic Pull Request",
+          "path": ".github/workflows/semantic-pull-request.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38889886712",
+          "head_sha": "670efc8c84ac992f3dadeedda3a377a116c3b37f"
+        }
+      ]
+    },
+    {
+      "number": 23786,
+      "title": "docs: update development tools list",
+      "url": "https://github.com/vitejs/vite/pull/23786",
+      "merged_at": "2026-10-16T09:24:54Z",
+      "merge_commit_sha": "74ae7099f9fd1d5cd1adcd32bcbb2c92d8937007",
+      "files": [
+        "docs/_data/acknowledgements.data.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "docs/_data/acknowledgements.data.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/vitejs/vite/blob/d7717d71600552e7fa513623486c2b57bf7eff8c/docs%2F_data%2Facknowledgements.data.ts"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38880292382,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38880292382",
+          "head_sha": "74ae7099f9fd1d5cd1adcd32bcbb2c92d8937007"
+        },
+        {
+          "id": 38880292355,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38880292355",
+          "head_sha": "74ae7099f9fd1d5cd1adcd32bcbb2c92d8937007"
+        },
+        {
+          "id": 38880292348,
+          "name": "Preview release",
+          "path": ".github/workflows/preview-release.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38880292348",
+          "head_sha": "74ae7099f9fd1d5cd1adcd32bcbb2c92d8937007"
+        },
+        {
+          "id": 38880292360,
+          "name": "Publish Package",
+          "path": ".github/workflows/publish.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38880292360",
+          "head_sha": "74ae7099f9fd1d5cd1adcd32bcbb2c92d8937007"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38864194197,
+          "name": "Bot",
+          "path": ".github/workflows/bot.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38864194197",
+          "head_sha": "d7717d71600552e7fa513623486c2b57bf7eff8c"
+        },
+        {
+          "id": 38864193695,
+          "name": "Preview release",
+          "path": ".github/workflows/preview-release.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38864193695",
+          "head_sha": "d7717d71600552e7fa513623486c2b57bf7eff8c"
+        },
+        {
+          "id": 38863864849,
+          "name": "Preview release",
+          "path": ".github/workflows/preview-release.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38863864849",
+          "head_sha": "d7717d71600552e7fa513623486c2b57bf7eff8c"
+        },
+        {
+          "id": 38863864869,
+          "name": "Zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38863864869",
+          "head_sha": "d7717d71600552e7fa513623486c2b57bf7eff8c"
+        },
+        {
+          "id": 38863864674,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38863864674",
+          "head_sha": "d7717d71600552e7fa513623486c2b57bf7eff8c"
+        },
+        {
+          "id": 38863860144,
+          "name": "Bot",
+          "path": ".github/workflows/bot.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38863860144",
+          "head_sha": "d7717d71600552e7fa513623486c2b57bf7eff8c"
+        },
+        {
+          "id": 38863859976,
+          "name": "Semantic Pull Request",
+          "path": ".github/workflows/semantic-pull-request.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38863859976",
+          "head_sha": "d7717d71600552e7fa513623486c2b57bf7eff8c"
+        }
+      ]
+    },
+    {
+      "number": 23778,
+      "title": "chore(deps): use typescript v7",
+      "url": "https://github.com/vitejs/vite/pull/23778",
+      "merged_at": "2026-10-15T11:45:21Z",
+      "merge_commit_sha": "928e721b36690ac0f3f118290a21fc0cc4349055",
+      "files": [
+        "docs/package.json",
+        "package.json",
+        "packages/plugin-legacy/tsdown.config.ts",
+        "playground/hmr-ssr/__tests__/hmr-ssr.spec.ts",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "docs/package.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/vitejs/vite/blob/b581686753be86f5c09aff9b90ff264304b4b629/docs%2Fpackage.json"
+        },
+        {
+          "filename": "package.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/vitejs/vite/blob/b581686753be86f5c09aff9b90ff264304b4b629/package.json"
+        },
+        {
+          "filename": "packages/plugin-legacy/tsdown.config.ts",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/vitejs/vite/blob/b581686753be86f5c09aff9b90ff264304b4b629/packages%2Fplugin-legacy%2Ftsdown.config.ts"
+        },
+        {
+          "filename": "playground/hmr-ssr/__tests__/hmr-ssr.spec.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/vitejs/vite/blob/b581686753be86f5c09aff9b90ff264304b4b629/playground%2Fhmr-ssr%2F__tests__%2Fhmr-ssr.spec.ts"
+        },
+        {
+          "filename": "pnpm-lock.yaml",
+          "status": "modified",
+          "additions": 274,
+          "deletions": 55,
+          "blob_url": "https://github.com/vitejs/vite/blob/b581686753be86f5c09aff9b90ff264304b4b629/pnpm-lock.yaml"
+        },
+        {
+          "filename": "pnpm-workspace.yaml",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/vitejs/vite/blob/b581686753be86f5c09aff9b90ff264304b4b629/pnpm-workspace.yaml"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38872302287,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38872302287",
+          "head_sha": "928e721b36690ac0f3f118290a21fc0cc4349055"
+        },
+        {
+          "id": 38869804942,
+          "name": "Bot",
+          "path": ".github/workflows/bot.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38869804942",
+          "head_sha": "928e721b36690ac0f3f118290a21fc0cc4349055"
+        },
+        {
+          "id": 38869803724,
+          "name": "Issue Labeled",
+          "path": ".github/workflows/issue-labeled.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38869803724",
+          "head_sha": "928e721b36690ac0f3f118290a21fc0cc4349055"
+        },
+        {
+          "id": 38853546487,
+          "name": "Bot",
+          "path": ".github/workflows/bot.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38853546487",
+          "head_sha": "928e721b36690ac0f3f118290a21fc0cc4349055"
+        },
+        {
+          "id": 38853546396,
+          "name": "Issue Labeled",
+          "path": ".github/workflows/issue-labeled.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38853546396",
+          "head_sha": "928e721b36690ac0f3f118290a21fc0cc4349055"
+        },
+        {
+          "id": 38829853318,
+          "name": "Lock Closed Issues",
+          "path": ".github/workflows/lock-closed-issues.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38829853318",
+          "head_sha": "928e721b36690ac0f3f118290a21fc0cc4349055"
+        },
+        {
+          "id": 38828496452,
+          "name": "Issue Close Require",
+          "path": ".github/workflows/issue-close-require.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38828496452",
+          "head_sha": "928e721b36690ac0f3f118290a21fc0cc4349055"
+        },
+        {
+          "id": 38820605569,
+          "name": "Issue Labeled",
+          "path": ".github/workflows/issue-labeled.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38820605569",
+          "head_sha": "928e721b36690ac0f3f118290a21fc0cc4349055"
+        },
+        {
+          "id": 38820605411,
+          "name": "Bot",
+          "path": ".github/workflows/bot.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38820605411",
+          "head_sha": "928e721b36690ac0f3f118290a21fc0cc4349055"
+        },
+        {
+          "id": 38818122652,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38818122652",
+          "head_sha": "928e721b36690ac0f3f118290a21fc0cc4349055"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38728784300,
+          "name": "Preview release",
+          "path": ".github/workflows/preview-release.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38728784300",
+          "head_sha": "b581686753be86f5c09aff9b90ff264304b4b629"
+        },
+        {
+          "id": 38728784748,
+          "name": "Zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38728784748",
+          "head_sha": "b581686753be86f5c09aff9b90ff264304b4b629"
+        },
+        {
+          "id": 38728784733,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38728784733",
+          "head_sha": "b581686753be86f5c09aff9b90ff264304b4b629"
+        },
+        {
+          "id": 38728780102,
+          "name": "Semantic Pull Request",
+          "path": ".github/workflows/semantic-pull-request.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38728780102",
+          "head_sha": "b581686753be86f5c09aff9b90ff264304b4b629"
+        },
+        {
+          "id": 38728777970,
+          "name": "PR #23778",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/38728777970",
+          "head_sha": "b581686753be86f5c09aff9b90ff264304b4b629"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v8.3.4",
+      "url": "https://github.com/vitejs/vite/releases/tag/v8.3.4",
+      "published_at": "2026-10-08T12:03:54Z",
+      "target_commitish": "b6c20f6a8126d8561891e5fb9368e8fc9da37538",
+      "commit_sha": "b6c20f6a8126d8561891e5fb9368e8fc9da37538",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37873270678,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37873270678",
+          "head_sha": "b6c20f6a8126d8561891e5fb9368e8fc9da37538"
+        },
+        {
+          "id": 37865770788,
+          "name": "Lock Closed Issues",
+          "path": ".github/workflows/lock-closed-issues.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37865770788",
+          "head_sha": "b6c20f6a8126d8561891e5fb9368e8fc9da37538"
+        },
+        {
+          "id": 37864269623,
+          "name": "Issue Close Require",
+          "path": ".github/workflows/issue-close-require.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37864269623",
+          "head_sha": "b6c20f6a8126d8561891e5fb9368e8fc9da37538"
+        },
+        {
+          "id": 37799511147,
+          "name": "Bot",
+          "path": ".github/workflows/bot.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37799511147",
+          "head_sha": "b6c20f6a8126d8561891e5fb9368e8fc9da37538"
+        },
+        {
+          "id": 37799511193,
+          "name": "Issue Labeled",
+          "path": ".github/workflows/issue-labeled.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37799511193",
+          "head_sha": "b6c20f6a8126d8561891e5fb9368e8fc9da37538"
+        },
+        {
+          "id": 37773485606,
+          "name": "Publish Package",
+          "path": ".github/workflows/publish.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37773485606",
+          "head_sha": "b6c20f6a8126d8561891e5fb9368e8fc9da37538"
+        },
+        {
+          "id": 37773485472,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37773485472",
+          "head_sha": "b6c20f6a8126d8561891e5fb9368e8fc9da37538"
+        },
+        {
+          "id": 37773484315,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37773484315",
+          "head_sha": "b6c20f6a8126d8561891e5fb9368e8fc9da37538"
+        },
+        {
+          "id": 37773485491,
+          "name": "Preview release",
+          "path": ".github/workflows/preview-release.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37773485491",
+          "head_sha": "b6c20f6a8126d8561891e5fb9368e8fc9da37538"
+        }
+      ]
+    },
+    {
+      "tag": "v8.3.3",
+      "url": "https://github.com/vitejs/vite/releases/tag/v8.3.3",
+      "published_at": "2026-10-06T04:07:42Z",
+      "target_commitish": "fea5b21dd9524ed7308632407b996f1fe5942c9c",
+      "commit_sha": "fea5b21dd9524ed7308632407b996f1fe5942c9c",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37580057099,
+          "name": "Bot",
+          "path": ".github/workflows/bot.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37580057099",
+          "head_sha": "fea5b21dd9524ed7308632407b996f1fe5942c9c"
+        },
+        {
+          "id": 37580057102,
+          "name": "Issue Labeled",
+          "path": ".github/workflows/issue-labeled.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37580057102",
+          "head_sha": "fea5b21dd9524ed7308632407b996f1fe5942c9c"
+        },
+        {
+          "id": 37580032931,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37580032931",
+          "head_sha": "fea5b21dd9524ed7308632407b996f1fe5942c9c"
+        },
+        {
+          "id": 37579936464,
+          "name": "Bot",
+          "path": ".github/workflows/bot.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37579936464",
+          "head_sha": "fea5b21dd9524ed7308632407b996f1fe5942c9c"
+        },
+        {
+          "id": 37579936438,
+          "name": "Issue Labeled",
+          "path": ".github/workflows/issue-labeled.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37579936438",
+          "head_sha": "fea5b21dd9524ed7308632407b996f1fe5942c9c"
+        },
+        {
+          "id": 37567333116,
+          "name": "ecosystem-ci trigger",
+          "path": ".github/workflows/ecosystem-ci-trigger.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37567333116",
+          "head_sha": "fea5b21dd9524ed7308632407b996f1fe5942c9c"
+        },
+        {
+          "id": 37552923202,
+          "name": "Lock Closed Issues",
+          "path": ".github/workflows/lock-closed-issues.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37552923202",
+          "head_sha": "fea5b21dd9524ed7308632407b996f1fe5942c9c"
+        },
+        {
+          "id": 37551411507,
+          "name": "Issue Close Require",
+          "path": ".github/workflows/issue-close-require.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37551411507",
+          "head_sha": "fea5b21dd9524ed7308632407b996f1fe5942c9c"
+        },
+        {
+          "id": 37492485956,
+          "name": "Bot",
+          "path": ".github/workflows/bot.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37492485956",
+          "head_sha": "fea5b21dd9524ed7308632407b996f1fe5942c9c"
+        },
+        {
+          "id": 37492485964,
+          "name": "Issue Labeled",
+          "path": ".github/workflows/issue-labeled.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37492485964",
+          "head_sha": "fea5b21dd9524ed7308632407b996f1fe5942c9c"
+        }
+      ]
+    },
+    {
+      "tag": "v8.2.4",
+      "url": "https://github.com/vitejs/vite/releases/tag/v8.2.4",
+      "published_at": "2026-10-06T04:42:58Z",
+      "target_commitish": "main",
+      "commit_sha": "eb3137d38934b557a410c85e54f10682a944440b",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37415005384,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37415005384",
+          "head_sha": "eb3137d38934b557a410c85e54f10682a944440b"
+        },
+        {
+          "id": 37415004940,
+          "name": "Push on v8.2",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37415004940",
+          "head_sha": "eb3137d38934b557a410c85e54f10682a944440b"
+        },
+        {
+          "id": 37415003302,
+          "name": "Publish Package",
+          "path": ".github/workflows/publish.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37415003302",
+          "head_sha": "eb3137d38934b557a410c85e54f10682a944440b"
+        },
+        {
+          "id": 37415003321,
+          "name": "Add GitHub Release Tag",
+          "path": ".github/workflows/release-tag.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37415003321",
+          "head_sha": "eb3137d38934b557a410c85e54f10682a944440b"
+        },
+        {
+          "id": 37415003399,
+          "name": ".github/workflows/copilot-setup-steps.yml",
+          "path": ".github/workflows/copilot-setup-steps.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vitejs/vite/actions/runs/37415003399",
+          "head_sha": "eb3137d38934b557a410c85e54f10682a944440b"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v8.3.4",
+      "sha": "b6c20f6a8126d8561891e5fb9368e8fc9da37538"
+    },
+    {
+      "name": "v8.3.3",
+      "sha": "fea5b21dd9524ed7308632407b996f1fe5942c9c"
+    },
+    {
+      "name": "v8.3.2",
+      "sha": "10033218d239c927cdc375970b5741cce408e81b"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:20:33.275446+00:00",
+  "source_times": {
+    "/repos/vitejs/vite": "2026-10-17T16:17:46.413438+00:00",
+    "/repos/vitejs/vite/commits?sha=main&per_page=20": "2026-10-17T16:17:48.249716+00:00",
+    "/repos/vitejs/vite/git/trees/df7503cc499e0b49e45701e3be7546918ee9d322": "2026-10-17T16:17:50.710934+00:00",
+    "/repos/vitejs/vite/git/trees/06a812921eb6f711b18f2db77ea2d7ad3253efab": "2026-10-17T16:17:52.958496+00:00",
+    "/repos/vitejs/vite/git/trees/8e7c4103afaac0641b1fad6a99488ee057b0fd34": "2026-10-17T16:17:54.367167+00:00",
+    "/repos/vitejs/vite/git/trees/981fb5cddba6db9241adebeb571699bc7b6ffd3e": "2026-10-17T16:17:55.750853+00:00",
+    "/repos/vitejs/vite/git/trees/497abe7f04f01781ab58e1c5100a5bf386cde94a": "2026-10-17T16:17:57.132043+00:00",
+    "/repos/vitejs/vite/git/blobs/c6f001bf1b4e3ce15134620cbd8954fd7bc988af": "2026-10-17T16:17:59.750291+00:00",
+    "/repos/vitejs/vite/git/blobs/069c468a98123f873f4626f6fb5a666389cdfb45": "2026-10-17T16:18:03.684014+00:00",
+    "/repos/vitejs/vite/git/blobs/4a59bda8c5975bb78bd3d5ded09b0570262209a8": "2026-10-17T16:18:06.482543+00:00",
+    "/repos/vitejs/vite/git/blobs/51547308a0edbba60cd66f89b057e8102c315da8": "2026-10-17T16:18:07.889063+00:00",
+    "/repos/vitejs/vite/git/blobs/e36d5d53edcd7f4ecfcc54ac99781dbd9927e8f5": "2026-10-17T16:18:09.246333+00:00",
+    "/repos/vitejs/vite/git/blobs/ef629b965966636a185364fbd5e774aecb8c589d": "2026-10-17T16:18:12.042876+00:00",
+    "/repos/vitejs/vite/git/blobs/ae63667bf70d4d41a6b41c1131e68502280691ec": "2026-10-17T16:18:14.194028+00:00",
+    "/repos/vitejs/vite/git/blobs/6903a42d346364cced07ae5290ec4be7d52eb0b2": "2026-10-17T16:18:15.615179+00:00",
+    "/repos/vitejs/vite/git/blobs/1407d037d96d509918492b78d6da781510a35c89": "2026-10-17T16:18:17.124096+00:00",
+    "/repos/vitejs/vite/git/blobs/8ee595d9bdbe01f091b11b94e412fdcaa6902309": "2026-10-17T16:18:18.742558+00:00",
+    "/repos/vitejs/vite/git/blobs/4491eeaccd1c63eb5391f7353975e238cb6b5428": "2026-10-17T16:18:20.361643+00:00",
+    "/repos/vitejs/vite/git/blobs/0b9177d27c5a1ffce483069e054fb43fdbe73ac6": "2026-10-17T16:18:21.753549+00:00",
+    "/repos/vitejs/vite/git/blobs/2c289ec6276c4cf03948edb58fd0c23ac7300909": "2026-10-17T16:18:23.282079+00:00",
+    "/repos/vitejs/vite/git/blobs/36ace23a3e2d1465b7ecfa663304af5eab54f4d0": "2026-10-17T16:18:24.640860+00:00",
+    "/repos/vitejs/vite/git/blobs/eca908a262148954183b60a61a495b5c2444de9a": "2026-10-17T16:18:26.050439+00:00",
+    "/repos/vitejs/vite/git/blobs/3ebd5a76d27ceeece8be10c00c4f30f791cfb19b": "2026-10-17T16:18:27.394765+00:00",
+    "/repos/vitejs/vite/git/blobs/c665a41cb02e721cab19081f1b327ff3c9a5e7e2": "2026-10-17T16:18:29.793808+00:00",
+    "/repos/vitejs/vite/git/blobs/1cf1ab05b4a176a3450548bbd10d06a5a5312f56": "2026-10-17T16:18:31.212273+00:00",
+    "/repos/vitejs/vite/git/blobs/26b25f5678cca2f2225f0b99b0bb2c5fb9ecdd4a": "2026-10-17T16:18:32.602938+00:00",
+    "/repos/vitejs/vite/git/blobs/8d41a338810f902bfe46e4d7510b25663b7ad067": "2026-10-17T16:18:33.977320+00:00",
+    "/repos/vitejs/vite/git/blobs/835b145ae6876d0660b52b0a9460b62e8a47d035": "2026-10-17T16:18:37.394777+00:00",
+    "/repos/vitejs/vite/git/blobs/1c8af570badb23327e2f88abf3bc5cbac5eedff3": "2026-10-17T16:18:39.722227+00:00",
+    "/repos/vitejs/vite/git/blobs/60ad5439bdce5bbc12b2b6a5bdd77e918595ac64": "2026-10-17T16:18:41.081296+00:00",
+    "/repos/vitejs/vite/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:18:44.743193+00:00",
+    "/repos/vitejs/vite/pulls/23788/files?per_page=100": "2026-10-17T16:18:46.449733+00:00",
+    "/repos/vitejs/vite/pulls/23788/reviews?per_page=100": "2026-10-17T16:18:47.988111+00:00",
+    "/repos/vitejs/vite/actions/runs?head_sha=df7503cc499e0b49e45701e3be7546918ee9d322&per_page=10": "2026-10-17T16:18:52.816036+00:00",
+    "/repos/vitejs/vite/actions/runs?head_sha=670efc8c84ac992f3dadeedda3a377a116c3b37f&per_page=10": "2026-10-17T16:18:56.138685+00:00",
+    "/repos/vitejs/vite/pulls/23786/files?per_page=100": "2026-10-17T16:18:57.646015+00:00",
+    "/repos/vitejs/vite/pulls/23786/reviews?per_page=100": "2026-10-17T16:19:00.136244+00:00",
+    "/repos/vitejs/vite/actions/runs?head_sha=74ae7099f9fd1d5cd1adcd32bcbb2c92d8937007&per_page=10": "2026-10-17T16:19:02.048111+00:00",
+    "/repos/vitejs/vite/actions/runs?head_sha=d7717d71600552e7fa513623486c2b57bf7eff8c&per_page=10": "2026-10-17T16:19:03.962822+00:00",
+    "/repos/vitejs/vite/pulls/23778/files?per_page=100": "2026-10-17T16:19:05.832424+00:00",
+    "/repos/vitejs/vite/pulls/23778/reviews?per_page=100": "2026-10-17T16:19:07.245439+00:00",
+    "/repos/vitejs/vite/actions/runs?head_sha=928e721b36690ac0f3f118290a21fc0cc4349055&per_page=10": "2026-10-17T16:19:09.548162+00:00",
+    "/repos/vitejs/vite/actions/runs?head_sha=b581686753be86f5c09aff9b90ff264304b4b629&per_page=10": "2026-10-17T16:19:11.506423+00:00",
+    "/repos/vitejs/vite/releases?per_page=20&page=1": "2026-10-17T16:20:33.271591+00:00",
+    "/repos/vitejs/vite/commits/v8.3.4": "2026-10-17T16:19:15.394304+00:00",
+    "/repos/vitejs/vite/actions/runs?head_sha=b6c20f6a8126d8561891e5fb9368e8fc9da37538&per_page=10": "2026-10-17T16:19:18.734387+00:00",
+    "/repos/vitejs/vite/commits/v8.3.3": "2026-10-17T16:19:20.183897+00:00",
+    "/repos/vitejs/vite/actions/runs?head_sha=fea5b21dd9524ed7308632407b996f1fe5942c9c&per_page=10": "2026-10-17T16:19:22.483559+00:00",
+    "/repos/vitejs/vite/commits/v8.2.4": "2026-10-17T16:19:23.916501+00:00",
+    "/repos/vitejs/vite/actions/runs?head_sha=eb3137d38934b557a410c85e54f10682a944440b&per_page=10": "2026-10-17T16:19:25.835550+00:00",
+    "/repos/vitejs/vite/tags?per_page=3": "2026-10-17T16:19:27.250484+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:20:33.271591+00:00",
+  "status": "collected"
+}

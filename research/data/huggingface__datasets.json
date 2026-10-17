@@ -1,0 +1,1696 @@
+{
+  "requested_repository": "huggingface/datasets",
+  "category": "ml",
+  "collected_at": "2026-10-17T16:08:09.636380+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "huggingface/datasets",
+  "metadata": {
+    "html_url": "https://github.com/huggingface/datasets",
+    "description": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
+    "homepage": "https://huggingface.co/docs/datasets",
+    "language": "Python",
+    "stargazers_count": 22062,
+    "forks_count": 3536,
+    "open_issues_count": 1497,
+    "pushed_at": "2026-10-16T13:20:06Z",
+    "created_at": "2020-03-26T09:23:22Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "computer-vision",
+      "dataset-hub",
+      "datasets",
+      "deep-learning",
+      "huggingface",
+      "llm",
+      "machine-learning",
+      "natural-language-processing",
+      "nlp",
+      "numpy",
+      "pandas",
+      "pytorch",
+      "speech",
+      "tensorflow"
+    ],
+    "owner": {
+      "login": "huggingface",
+      "type": "Organization",
+      "html_url": "https://github.com/huggingface"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "18378f7322c7eb1c2d93f895dd8e9f71f8623934",
+      "url": "https://github.com/huggingface/datasets/commit/18378f7322c7eb1c2d93f895dd8e9f71f8623934",
+      "date": "2026-10-16T13:20:03Z",
+      "subject": "bump fsspec and remove aiohttp dep (#8825)"
+    },
+    {
+      "sha": "04737492628dcecf91bff9f6c6cad463194c637e",
+      "url": "https://github.com/huggingface/datasets/commit/04737492628dcecf91bff9f6c6cad463194c637e",
+      "date": "2026-10-15T15:31:58Z",
+      "subject": "Fast streaming decode for image/audio/video/etc. folders datasets (#8791)"
+    },
+    {
+      "sha": "684c57edeea9d2f5ecbebfbbe92455f38c94e656",
+      "url": "https://github.com/huggingface/datasets/commit/684c57edeea9d2f5ecbebfbbe92455f38c94e656",
+      "date": "2026-10-15T12:38:01Z",
+      "subject": "Close the xopen handle in xpandas_read_csv (#8786)"
+    },
+    {
+      "sha": "cbb917f7838cc6a7f2996a0283bae22b3bf4bf19",
+      "url": "https://github.com/huggingface/datasets/commit/cbb917f7838cc6a7f2996a0283bae22b3bf4bf19",
+      "date": "2026-10-15T12:36:43Z",
+      "subject": "fix(json): defensively recover invalid Arrow tables in JSON loader (#5531) (#8521)"
+    },
+    {
+      "sha": "bfa2dc1212dc6fa543722a3fca7cbb914b2566f5",
+      "url": "https://github.com/huggingface/datasets/commit/bfa2dc1212dc6fa543722a3fca7cbb914b2566f5",
+      "date": "2026-10-15T11:44:21Z",
+      "subject": "Make Features.__setitem__/__delitem__ update only the touched column (#8777)"
+    },
+    {
+      "sha": "9e7496a4d11caf68da2846d84c9596cda4a4f984",
+      "url": "https://github.com/huggingface/datasets/commit/9e7496a4d11caf68da2846d84c9596cda4a4f984",
+      "date": "2026-10-06T09:20:23Z",
+      "subject": "Bump doc-builder workflow pin (#8753)"
+    },
+    {
+      "sha": "08fb7c83d0c220a787d85b6336d14adc0f042d74",
+      "url": "https://github.com/huggingface/datasets/commit/08fb7c83d0c220a787d85b6336d14adc0f042d74",
+      "date": "2026-10-05T15:41:03Z",
+      "subject": "set dev version (#8746)"
+    },
+    {
+      "sha": "efe6ea4f88260b1a5066f28a9c90d82365a29f42",
+      "url": "https://github.com/huggingface/datasets/commit/efe6ea4f88260b1a5066f28a9c90d82365a29f42",
+      "date": "2026-10-05T15:32:38Z",
+      "subject": "release 5.1.0 (#8745)"
+    },
+    {
+      "sha": "7f582390770abd8e93b04413854d611fd27ab729",
+      "url": "https://github.com/huggingface/datasets/commit/7f582390770abd8e93b04413854d611fd27ab729",
+      "date": "2026-10-05T14:23:25Z",
+      "subject": "harbor: fix paths on windows (#8739)"
+    },
+    {
+      "sha": "c657c2d0c613776388486c627ae3b58f10423c13",
+      "url": "https://github.com/huggingface/datasets/commit/c657c2d0c613776388486c627ae3b58f10423c13",
+      "date": "2026-10-05T14:18:56Z",
+      "subject": "fix default iterable dataset dict and polars exports (#8632)"
+    },
+    {
+      "sha": "278d485d097b83d1323964834f350d97aac8f9a3",
+      "url": "https://github.com/huggingface/datasets/commit/278d485d097b83d1323964834f350d97aac8f9a3",
+      "date": "2026-10-05T14:07:17Z",
+      "subject": "Fix repeated Arrow rebatch checkpoint restoration (#8727)"
+    },
+    {
+      "sha": "b83f8b5a75f3b4218256f65559115e177d96b380",
+      "url": "https://github.com/huggingface/datasets/commit/b83f8b5a75f3b4218256f65559115e177d96b380",
+      "date": "2026-10-05T14:03:27Z",
+      "subject": "Speed up JSON export of indexed datasets (#8662)"
+    },
+    {
+      "sha": "2989571564f598f0cd7003e7be0984de3b8ea421",
+      "url": "https://github.com/huggingface/datasets/commit/2989571564f598f0cd7003e7be0984de3b8ea421",
+      "date": "2026-10-05T14:01:18Z",
+      "subject": "Preserve source shards when shuffling iterable datasets (#8670)"
+    },
+    {
+      "sha": "dcf79fdf9337f3745e5fbbad0532da7893d84202",
+      "url": "https://github.com/huggingface/datasets/commit/dcf79fdf9337f3745e5fbbad0532da7893d84202",
+      "date": "2026-10-05T14:00:33Z",
+      "subject": "Bump huggingface_hub upper bound to <3.0 (datasets) (#8678)"
+    },
+    {
+      "sha": "f63c7267eb43569b116c1ee7e12302fc8ddc2fc3",
+      "url": "https://github.com/huggingface/datasets/commit/f63c7267eb43569b116c1ee7e12302fc8ddc2fc3",
+      "date": "2026-10-05T13:57:39Z",
+      "subject": "Fix IterableDataset.filter with arrow, pandas and polars formats (#8725)"
+    },
+    {
+      "sha": "0358671a9f13ed27f86dbc4f76a99a80ba6b6574",
+      "url": "https://github.com/huggingface/datasets/commit/0358671a9f13ed27f86dbc4f76a99a80ba6b6574",
+      "date": "2026-10-05T13:56:32Z",
+      "subject": "Allow IterableDataset.push_to_hub num_shards above dataset.num_shards (#8716)"
+    },
+    {
+      "sha": "a826eb23923f0256b58efad56c17cf2a72630a5a",
+      "url": "https://github.com/huggingface/datasets/commit/a826eb23923f0256b58efad56c17cf2a72630a5a",
+      "date": "2026-10-05T13:55:54Z",
+      "subject": "Fix epoch iteration after skipping or taking a streaming subset (#8707)"
+    },
+    {
+      "sha": "cab27604e5fe3fb3b8dcabd520952bbf3dec54c7",
+      "url": "https://github.com/huggingface/datasets/commit/cab27604e5fe3fb3b8dcabd520952bbf3dec54c7",
+      "date": "2026-10-05T13:54:49Z",
+      "subject": "Keep take/skip counts when there are more DataLoader workers than shards (#8695)"
+    },
+    {
+      "sha": "ea7f5fe934a8cf541f6d47e751b65ec86eedc8ad",
+      "url": "https://github.com/huggingface/datasets/commit/ea7f5fe934a8cf541f6d47e751b65ec86eedc8ad",
+      "date": "2026-10-05T13:13:13Z",
+      "subject": "Decode remote NIfTI files through the bytes path (#8737)"
+    },
+    {
+      "sha": "a42d37cbdea7f89740693557fc8f9c334f1147de",
+      "url": "https://github.com/huggingface/datasets/commit/a42d37cbdea7f89740693557fc8f9c334f1147de",
+      "date": "2026-10-05T13:10:06Z",
+      "subject": "Fix audio array handling in preprocess_function (#8731)"
+    }
+  ],
+  "default_sha": "18378f7322c7eb1c2d93f895dd8e9f71f8623934",
+  "root_and_selected_directory_paths": [
+    ".dvc",
+    ".dvcignore",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug-report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/feature-request.yml",
+    ".github/conda",
+    ".github/dependabot.yml",
+    ".github/workflows",
+    ".github/workflows/build_documentation.yml",
+    ".github/workflows/build_pr_documentation.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/release-conda.yml",
+    ".github/workflows/self-assign.yaml",
+    ".github/workflows/trufflehog.yml",
+    ".github/workflows/upload_pr_documentation.yml",
+    ".gitignore",
+    ".pre-commit-config.yaml",
+    ".zenodo.json",
+    "ADD_NEW_DATASET.md",
+    "AUTHORS",
+    "CITATION.cff",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "Makefile",
+    "README.md",
+    "SECURITY.md",
+    "benchmarks",
+    "docs",
+    "docs/README.md",
+    "docs/source",
+    "notebooks",
+    "pyproject.toml",
+    "setup.py",
+    "src",
+    "templates",
+    "tests",
+    "utils"
+  ],
+  "workflow_paths": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/release-conda.yml",
+    ".github/workflows/build_documentation.yml",
+    ".github/workflows/build_pr_documentation.yml",
+    ".github/workflows/self-assign.yaml",
+    ".github/workflows/trufflehog.yml",
+    ".github/workflows/upload_pr_documentation.yml"
+  ],
+  "documents": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "450a63cc303b2eceb983656a6201e7702b8a56d0",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/datasets/blob/18378f7322c7eb1c2d93f895dd8e9f71f8623934/CODE_OF_CONDUCT.md",
+      "lines": 132,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "3ae44bd4efc03e80bdfb97c7405b22cf3cb27e65",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/datasets/blob/18378f7322c7eb1c2d93f895dd8e9f71f8623934/CONTRIBUTING.md",
+      "lines": 130,
+      "signals": {
+        "tests": [],
+        "lint": [
+          66,
+          72,
+          73,
+          74
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          2
+        ],
+        "media": [
+          2
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile",
+      "sha": "61fa1f848548277244215c467fd26d176ecf2a2f",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/datasets/blob/18378f7322c7eb1c2d93f895dd8e9f71f8623934/Makefile",
+      "lines": 20,
+      "signals": {
+        "tests": [
+          20
+        ],
+        "lint": [
+          8,
+          9,
+          14,
+          15
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "e34b32d3c95f8b07195a601d0c06e82509216872",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/datasets/blob/18378f7322c7eb1c2d93f895dd8e9f71f8623934/README.md",
+      "lines": 299,
+      "signals": {
+        "tests": [],
+        "lint": [
+          242
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          23,
+          225
+        ],
+        "media": [
+          5,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          23,
+          29,
+          225
+        ],
+        "theme_images": [
+          2,
+          3,
+          4
+        ],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "90c1b5edcfd43dfaf83a3ad61a9a4f694957aff3",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/datasets/blob/18378f7322c7eb1c2d93f895dd8e9f71f8623934/SECURITY.md",
+      "lines": 33,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          24,
+          26,
+          29,
+          33
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "511a9e0d744dea07bad74a0507bd525d8b7595e8",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/datasets/blob/18378f7322c7eb1c2d93f895dd8e9f71f8623934/pyproject.toml",
+      "lines": 27,
+      "signals": {
+        "tests": [
+          19
+        ],
+        "lint": [
+          1,
+          4,
+          12,
+          16
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
+      "sha": "85590fd09ca7f627a0473a0c3335b93f41d70d93",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/datasets/blob/18378f7322c7eb1c2d93f895dd8e9f71f8623934/.github/ISSUE_TEMPLATE/bug-report.yml",
+      "lines": 45,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "2d3ae9f1e290a1730412f271b7cc901af7c96401",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/datasets/blob/18378f7322c7eb1c2d93f895dd8e9f71f8623934/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 7,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature-request.yml",
+      "sha": "83e8714f76a6e64afed5b009d7d96ec38d075c24",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/datasets/blob/18378f7322c7eb1c2d93f895dd8e9f71f8623934/.github/ISSUE_TEMPLATE/feature-request.yml",
+      "lines": 29,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "15f7bdd7916ac5fca2274ad5d1239bafe0f0f5a2",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/datasets/blob/18378f7322c7eb1c2d93f895dd8e9f71f8623934/.github/dependabot.yml",
+      "lines": 11,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/README.md",
+      "sha": "abcec636429816756fabcfbd7762a43fed84935c",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/datasets/blob/18378f7322c7eb1c2d93f895dd8e9f71f8623934/docs/README.md",
+      "lines": 260,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "60fc5507583aabab59c816a6dd4dbe6c03d8c013",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/datasets/blob/18378f7322c7eb1c2d93f895dd8e9f71f8623934/.github/workflows/ci.yml",
+      "lines": 188,
+      "signals": {
+        "tests": [
+          87,
+          89,
+          138,
+          140,
+          186,
+          188
+        ],
+        "lint": [
+          35,
+          36
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          15,
+          20,
+          39,
+          92,
+          143
+        ],
+        "pinned_actions": [
+          24,
+          26,
+          50,
+          59,
+          64,
+          103,
+          112,
+          117,
+          154,
+          163,
+          168
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release-conda.yml",
+      "sha": "36a576f40ee131134ca964d0db3aadef60852524",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/datasets/blob/18378f7322c7eb1c2d93f895dd8e9f71f8623934/.github/workflows/release-conda.yml",
+      "lines": 51,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11,
+          15
+        ],
+        "pinned_actions": [
+          24,
+          27
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build_documentation.yml",
+      "sha": "12fe1ee0e9112812785195b944e74cb39ccf3686",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/datasets/blob/18378f7322c7eb1c2d93f895dd8e9f71f8623934/.github/workflows/build_documentation.yml",
+      "lines": 20,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          13
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build_pr_documentation.yml",
+      "sha": "b45d23b93e07616888d794976679da4bf7e72b9f",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/datasets/blob/18378f7322c7eb1c2d93f895dd8e9f71f8623934/.github/workflows/build_pr_documentation.yml",
+      "lines": 16,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          12
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/self-assign.yaml",
+      "sha": "b5c7fb4875b0438fb5b2a2ef0031e6affef2d3f1",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/datasets/blob/18378f7322c7eb1c2d93f895dd8e9f71f8623934/.github/workflows/self-assign.yaml",
+      "lines": 20,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          5,
+          9
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/trufflehog.yml",
+      "sha": "af36a2fdaea8d10a4210459a18349b957db510c7",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/datasets/blob/18378f7322c7eb1c2d93f895dd8e9f71f8623934/.github/workflows/trufflehog.yml",
+      "lines": 22,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7,
+          11
+        ],
+        "pinned_actions": [
+          16,
+          20
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/upload_pr_documentation.yml",
+      "sha": "9490e90c763796bc1b8f20da16e0e1941701a4b3",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/datasets/blob/18378f7322c7eb1c2d93f895dd8e9f71f8623934/.github/workflows/upload_pr_documentation.yml",
+      "lines": 16,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          11
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 8825,
+      "title": "bump fsspec and remove aiohttp dep",
+      "url": "https://github.com/huggingface/datasets/pull/8825",
+      "merged_at": "2026-10-16T13:20:03Z",
+      "merge_commit_sha": "18378f7322c7eb1c2d93f895dd8e9f71f8623934",
+      "files": [
+        "setup.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "setup.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/huggingface/datasets/blob/c03e668442cf739eba3748ac1c9b86fb4f2d7288/setup.py"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39047789759,
+          "name": "Self-assign",
+          "path": ".github/workflows/self-assign.yaml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/39047789759",
+          "head_sha": "18378f7322c7eb1c2d93f895dd8e9f71f8623934"
+        },
+        {
+          "id": 39018996614,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/39018996614",
+          "head_sha": "18378f7322c7eb1c2d93f895dd8e9f71f8623934"
+        },
+        {
+          "id": 39005982991,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/39005982991",
+          "head_sha": "18378f7322c7eb1c2d93f895dd8e9f71f8623934"
+        },
+        {
+          "id": 38960609193,
+          "name": "Self-assign",
+          "path": ".github/workflows/self-assign.yaml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38960609193",
+          "head_sha": "18378f7322c7eb1c2d93f895dd8e9f71f8623934"
+        },
+        {
+          "id": 38960517543,
+          "name": "Self-assign",
+          "path": ".github/workflows/self-assign.yaml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38960517543",
+          "head_sha": "18378f7322c7eb1c2d93f895dd8e9f71f8623934"
+        },
+        {
+          "id": 38916720508,
+          "name": "Self-assign",
+          "path": ".github/workflows/self-assign.yaml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38916720508",
+          "head_sha": "18378f7322c7eb1c2d93f895dd8e9f71f8623934"
+        },
+        {
+          "id": 38907060330,
+          "name": "Graph Update: pip in /. #1631505738",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38907060330",
+          "head_sha": "18378f7322c7eb1c2d93f895dd8e9f71f8623934"
+        },
+        {
+          "id": 38907045586,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38907045586",
+          "head_sha": "18378f7322c7eb1c2d93f895dd8e9f71f8623934"
+        },
+        {
+          "id": 38907046232,
+          "name": "Build documentation",
+          "path": ".github/workflows/build_documentation.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38907046232",
+          "head_sha": "18378f7322c7eb1c2d93f895dd8e9f71f8623934"
+        },
+        {
+          "id": 38907045582,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38907045582",
+          "head_sha": "18378f7322c7eb1c2d93f895dd8e9f71f8623934"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38905807060,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38905807060",
+          "head_sha": "c03e668442cf739eba3748ac1c9b86fb4f2d7288"
+        },
+        {
+          "id": 38905807694,
+          "name": "Build PR Documentation",
+          "path": ".github/workflows/build_pr_documentation.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38905807694",
+          "head_sha": "c03e668442cf739eba3748ac1c9b86fb4f2d7288"
+        },
+        {
+          "id": 38905708816,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38905708816",
+          "head_sha": "c03e668442cf739eba3748ac1c9b86fb4f2d7288"
+        }
+      ]
+    },
+    {
+      "number": 8791,
+      "title": "Fast streaming decode for image/audio/video/etc. folders datasets",
+      "url": "https://github.com/huggingface/datasets/pull/8791",
+      "merged_at": "2026-10-15T15:31:58Z",
+      "merge_commit_sha": "04737492628dcecf91bff9f6c6cad463194c637e",
+      "files": [
+        "src/datasets/builder.py",
+        "src/datasets/features/audio.py",
+        "src/datasets/features/image.py",
+        "src/datasets/features/mesh.py",
+        "src/datasets/features/nifti.py",
+        "src/datasets/features/video.py",
+        "src/datasets/iterable_dataset.py",
+        "src/datasets/packaged_modules/folder_based_builder/folder_based_builder.py",
+        "src/datasets/packaged_modules/meshfolder/meshfolder.py",
+        "src/datasets/packaged_modules/niftifolder/niftifolder.py",
+        "tests/features/test_image.py",
+        "tests/features/test_mesh.py",
+        "tests/test_iterable_dataset.py",
+        "tests/test_load.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "src/datasets/builder.py",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 3,
+          "blob_url": "https://github.com/huggingface/datasets/blob/a09a3926bb4488a9d38b445841893202d1d77e7c/src%2Fdatasets%2Fbuilder.py"
+        },
+        {
+          "filename": "src/datasets/features/audio.py",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/datasets/blob/a09a3926bb4488a9d38b445841893202d1d77e7c/src%2Fdatasets%2Ffeatures%2Faudio.py"
+        },
+        {
+          "filename": "src/datasets/features/image.py",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/datasets/blob/a09a3926bb4488a9d38b445841893202d1d77e7c/src%2Fdatasets%2Ffeatures%2Fimage.py"
+        },
+        {
+          "filename": "src/datasets/features/mesh.py",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/datasets/blob/a09a3926bb4488a9d38b445841893202d1d77e7c/src%2Fdatasets%2Ffeatures%2Fmesh.py"
+        },
+        {
+          "filename": "src/datasets/features/nifti.py",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/datasets/blob/a09a3926bb4488a9d38b445841893202d1d77e7c/src%2Fdatasets%2Ffeatures%2Fnifti.py"
+        },
+        {
+          "filename": "src/datasets/features/video.py",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/datasets/blob/a09a3926bb4488a9d38b445841893202d1d77e7c/src%2Fdatasets%2Ffeatures%2Fvideo.py"
+        },
+        {
+          "filename": "src/datasets/iterable_dataset.py",
+          "status": "modified",
+          "additions": 108,
+          "deletions": 40,
+          "blob_url": "https://github.com/huggingface/datasets/blob/a09a3926bb4488a9d38b445841893202d1d77e7c/src%2Fdatasets%2Fiterable_dataset.py"
+        },
+        {
+          "filename": "src/datasets/packaged_modules/folder_based_builder/folder_based_builder.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/datasets/blob/a09a3926bb4488a9d38b445841893202d1d77e7c/src%2Fdatasets%2Fpackaged_modules%2Ffolder_based_builder%2Ffolder_based_builder.py"
+        },
+        {
+          "filename": "src/datasets/packaged_modules/meshfolder/meshfolder.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/datasets/blob/a09a3926bb4488a9d38b445841893202d1d77e7c/src%2Fdatasets%2Fpackaged_modules%2Fmeshfolder%2Fmeshfolder.py"
+        },
+        {
+          "filename": "src/datasets/packaged_modules/niftifolder/niftifolder.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/datasets/blob/a09a3926bb4488a9d38b445841893202d1d77e7c/src%2Fdatasets%2Fpackaged_modules%2Fniftifolder%2Fniftifolder.py"
+        },
+        {
+          "filename": "tests/features/test_image.py",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/datasets/blob/a09a3926bb4488a9d38b445841893202d1d77e7c/tests%2Ffeatures%2Ftest_image.py"
+        },
+        {
+          "filename": "tests/features/test_mesh.py",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/datasets/blob/a09a3926bb4488a9d38b445841893202d1d77e7c/tests%2Ffeatures%2Ftest_mesh.py"
+        },
+        {
+          "filename": "tests/test_iterable_dataset.py",
+          "status": "modified",
+          "additions": 87,
+          "deletions": 1,
+          "blob_url": "https://github.com/huggingface/datasets/blob/a09a3926bb4488a9d38b445841893202d1d77e7c/tests%2Ftest_iterable_dataset.py"
+        },
+        {
+          "filename": "tests/test_load.py",
+          "status": "modified",
+          "additions": 37,
+          "deletions": 1,
+          "blob_url": "https://github.com/huggingface/datasets/blob/a09a3926bb4488a9d38b445841893202d1d77e7c/tests%2Ftest_load.py"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38905984345,
+          "name": "Self-assign",
+          "path": ".github/workflows/self-assign.yaml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38905984345",
+          "head_sha": "04737492628dcecf91bff9f6c6cad463194c637e"
+        },
+        {
+          "id": 38905939372,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38905939372",
+          "head_sha": "04737492628dcecf91bff9f6c6cad463194c637e"
+        },
+        {
+          "id": 38870475242,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38870475242",
+          "head_sha": "04737492628dcecf91bff9f6c6cad463194c637e"
+        },
+        {
+          "id": 38857098748,
+          "name": "Self-assign",
+          "path": ".github/workflows/self-assign.yaml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38857098748",
+          "head_sha": "04737492628dcecf91bff9f6c6cad463194c637e"
+        },
+        {
+          "id": 38856108877,
+          "name": "Self-assign",
+          "path": ".github/workflows/self-assign.yaml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38856108877",
+          "head_sha": "04737492628dcecf91bff9f6c6cad463194c637e"
+        },
+        {
+          "id": 38847030298,
+          "name": "Self-assign",
+          "path": ".github/workflows/self-assign.yaml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38847030298",
+          "head_sha": "04737492628dcecf91bff9f6c6cad463194c637e"
+        },
+        {
+          "id": 38846965615,
+          "name": "Self-assign",
+          "path": ".github/workflows/self-assign.yaml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38846965615",
+          "head_sha": "04737492628dcecf91bff9f6c6cad463194c637e"
+        },
+        {
+          "id": 38840039563,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38840039563",
+          "head_sha": "04737492628dcecf91bff9f6c6cad463194c637e"
+        },
+        {
+          "id": 38810785974,
+          "name": "Self-assign",
+          "path": ".github/workflows/self-assign.yaml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38810785974",
+          "head_sha": "04737492628dcecf91bff9f6c6cad463194c637e"
+        },
+        {
+          "id": 38806754899,
+          "name": "Self-assign",
+          "path": ".github/workflows/self-assign.yaml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38806754899",
+          "head_sha": "04737492628dcecf91bff9f6c6cad463194c637e"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38738459289,
+          "name": "Build PR Documentation",
+          "path": ".github/workflows/build_pr_documentation.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38738459289",
+          "head_sha": "a09a3926bb4488a9d38b445841893202d1d77e7c"
+        },
+        {
+          "id": 38738457127,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38738457127",
+          "head_sha": "a09a3926bb4488a9d38b445841893202d1d77e7c"
+        },
+        {
+          "id": 38738450055,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38738450055",
+          "head_sha": "a09a3926bb4488a9d38b445841893202d1d77e7c"
+        }
+      ]
+    },
+    {
+      "number": 8786,
+      "title": "Close the xopen handle in xpandas_read_csv",
+      "url": "https://github.com/huggingface/datasets/pull/8786",
+      "merged_at": "2026-10-15T12:38:02Z",
+      "merge_commit_sha": "684c57edeea9d2f5ecbebfbbe92455f38c94e656",
+      "files": [
+        "src/datasets/utils/file_utils.py",
+        "tests/test_file_utils.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "src/datasets/utils/file_utils.py",
+          "status": "modified",
+          "additions": 21,
+          "deletions": 1,
+          "blob_url": "https://github.com/huggingface/datasets/blob/6a927ead232fb41c9752e145c508c9ed9b14a472/src%2Fdatasets%2Futils%2Ffile_utils.py"
+        },
+        {
+          "filename": "tests/test_file_utils.py",
+          "status": "modified",
+          "additions": 40,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/datasets/blob/6a927ead232fb41c9752e145c508c9ed9b14a472/tests%2Ftest_file_utils.py"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38747841040,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38747841040",
+          "head_sha": "684c57edeea9d2f5ecbebfbbe92455f38c94e656"
+        },
+        {
+          "id": 38746809971,
+          "name": "Self-assign",
+          "path": ".github/workflows/self-assign.yaml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38746809971",
+          "head_sha": "684c57edeea9d2f5ecbebfbbe92455f38c94e656"
+        },
+        {
+          "id": 38746760543,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38746760543",
+          "head_sha": "684c57edeea9d2f5ecbebfbbe92455f38c94e656"
+        },
+        {
+          "id": 38746396513,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38746396513",
+          "head_sha": "684c57edeea9d2f5ecbebfbbe92455f38c94e656"
+        },
+        {
+          "id": 38738663538,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38738663538",
+          "head_sha": "684c57edeea9d2f5ecbebfbbe92455f38c94e656"
+        },
+        {
+          "id": 38736529687,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38736529687",
+          "head_sha": "684c57edeea9d2f5ecbebfbbe92455f38c94e656"
+        },
+        {
+          "id": 38736140100,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38736140100",
+          "head_sha": "684c57edeea9d2f5ecbebfbbe92455f38c94e656"
+        },
+        {
+          "id": 38736140033,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38736140033",
+          "head_sha": "684c57edeea9d2f5ecbebfbbe92455f38c94e656"
+        },
+        {
+          "id": 38736140606,
+          "name": "Build documentation",
+          "path": ".github/workflows/build_documentation.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38736140606",
+          "head_sha": "684c57edeea9d2f5ecbebfbbe92455f38c94e656"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38268121937,
+          "name": "Build PR Documentation",
+          "path": ".github/workflows/build_pr_documentation.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38268121937",
+          "head_sha": "6a927ead232fb41c9752e145c508c9ed9b14a472"
+        },
+        {
+          "id": 38268121230,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/38268121230",
+          "head_sha": "6a927ead232fb41c9752e145c508c9ed9b14a472"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "5.1.0",
+      "url": "https://github.com/huggingface/datasets/releases/tag/5.1.0",
+      "published_at": "2026-10-05T15:39:37Z",
+      "target_commitish": "main",
+      "commit_sha": "efe6ea4f88260b1a5066f28a9c90d82365a29f42",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37334611678,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/37334611678",
+          "head_sha": "efe6ea4f88260b1a5066f28a9c90d82365a29f42"
+        },
+        {
+          "id": 37334611669,
+          "name": "Release - Conda",
+          "path": ".github/workflows/release-conda.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/37334611669",
+          "head_sha": "efe6ea4f88260b1a5066f28a9c90d82365a29f42"
+        },
+        {
+          "id": 37334257582,
+          "name": "Self-assign",
+          "path": ".github/workflows/self-assign.yaml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/37334257582",
+          "head_sha": "efe6ea4f88260b1a5066f28a9c90d82365a29f42"
+        },
+        {
+          "id": 37334172918,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/37334172918",
+          "head_sha": "efe6ea4f88260b1a5066f28a9c90d82365a29f42"
+        },
+        {
+          "id": 37333694566,
+          "name": "Graph Update: pip in /. #1610703606",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/37333694566",
+          "head_sha": "efe6ea4f88260b1a5066f28a9c90d82365a29f42"
+        },
+        {
+          "id": 37333685502,
+          "name": "Build documentation",
+          "path": ".github/workflows/build_documentation.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/37333685502",
+          "head_sha": "efe6ea4f88260b1a5066f28a9c90d82365a29f42"
+        },
+        {
+          "id": 37333684486,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/37333684486",
+          "head_sha": "efe6ea4f88260b1a5066f28a9c90d82365a29f42"
+        },
+        {
+          "id": 37333684426,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/37333684426",
+          "head_sha": "efe6ea4f88260b1a5066f28a9c90d82365a29f42"
+        }
+      ]
+    },
+    {
+      "tag": "5.0.1",
+      "url": "https://github.com/huggingface/datasets/releases/tag/5.0.1",
+      "published_at": "2026-07-28T11:11:35Z",
+      "target_commitish": "main",
+      "commit_sha": "921c2a7c0c9494e86fd145e03f68d12fa4ef90a2",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 30353811466,
+          "name": "Self-assign",
+          "path": ".github/workflows/self-assign.yaml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/30353811466",
+          "head_sha": "921c2a7c0c9494e86fd145e03f68d12fa4ef90a2"
+        },
+        {
+          "id": 30353795488,
+          "name": "Release - Conda",
+          "path": ".github/workflows/release-conda.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/30353795488",
+          "head_sha": "921c2a7c0c9494e86fd145e03f68d12fa4ef90a2"
+        },
+        {
+          "id": 30353795477,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/30353795477",
+          "head_sha": "921c2a7c0c9494e86fd145e03f68d12fa4ef90a2"
+        },
+        {
+          "id": 30353761146,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/30353761146",
+          "head_sha": "921c2a7c0c9494e86fd145e03f68d12fa4ef90a2"
+        },
+        {
+          "id": 30353655018,
+          "name": "Graph Update: pip in /. #1490312500",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/30353655018",
+          "head_sha": "921c2a7c0c9494e86fd145e03f68d12fa4ef90a2"
+        },
+        {
+          "id": 30353651552,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/30353651552",
+          "head_sha": "921c2a7c0c9494e86fd145e03f68d12fa4ef90a2"
+        },
+        {
+          "id": 30353651531,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/30353651531",
+          "head_sha": "921c2a7c0c9494e86fd145e03f68d12fa4ef90a2"
+        },
+        {
+          "id": 30353651890,
+          "name": "Build documentation",
+          "path": ".github/workflows/build_documentation.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/30353651890",
+          "head_sha": "921c2a7c0c9494e86fd145e03f68d12fa4ef90a2"
+        }
+      ]
+    },
+    {
+      "tag": "5.0.0",
+      "url": "https://github.com/huggingface/datasets/releases/tag/5.0.0",
+      "published_at": "2026-06-05T13:29:36Z",
+      "target_commitish": "main",
+      "commit_sha": "68ac1a9b35869aadb7ae29857be46f6489d6150d",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 27017812955,
+          "name": "Self-assign",
+          "path": ".github/workflows/self-assign.yaml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/27017812955",
+          "head_sha": "68ac1a9b35869aadb7ae29857be46f6489d6150d"
+        },
+        {
+          "id": 27017749980,
+          "name": "Release - Conda",
+          "path": ".github/workflows/release-conda.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/27017749980",
+          "head_sha": "68ac1a9b35869aadb7ae29857be46f6489d6150d"
+        },
+        {
+          "id": 27017749975,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/27017749975",
+          "head_sha": "68ac1a9b35869aadb7ae29857be46f6489d6150d"
+        },
+        {
+          "id": 27017280450,
+          "name": "Self-assign",
+          "path": ".github/workflows/self-assign.yaml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/27017280450",
+          "head_sha": "68ac1a9b35869aadb7ae29857be46f6489d6150d"
+        },
+        {
+          "id": 27017264068,
+          "name": "pip in /. for torch - Update #1399641262",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/27017264068",
+          "head_sha": "68ac1a9b35869aadb7ae29857be46f6489d6150d"
+        },
+        {
+          "id": 27017264045,
+          "name": "pip in /. for transformers - Update #1399641265",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/27017264045",
+          "head_sha": "68ac1a9b35869aadb7ae29857be46f6489d6150d"
+        },
+        {
+          "id": 27017244880,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/27017244880",
+          "head_sha": "68ac1a9b35869aadb7ae29857be46f6489d6150d"
+        },
+        {
+          "id": 27017210789,
+          "name": "Graph Update: pip in /. #1399640529",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/27017210789",
+          "head_sha": "68ac1a9b35869aadb7ae29857be46f6489d6150d"
+        },
+        {
+          "id": 27017210144,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/27017210144",
+          "head_sha": "68ac1a9b35869aadb7ae29857be46f6489d6150d"
+        },
+        {
+          "id": 27017209360,
+          "name": "Build documentation",
+          "path": ".github/workflows/build_documentation.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/datasets/actions/runs/27017209360",
+          "head_sha": "68ac1a9b35869aadb7ae29857be46f6489d6150d"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "delete",
+      "sha": "e7c6441fb1c605511210196be2abedcdb9bcb99b"
+    },
+    {
+      "name": "alpha",
+      "sha": "27d9cbb35b71082a6f457d96b5967fe5e5594e72"
+    },
+    {
+      "name": "5.1.0",
+      "sha": "efe6ea4f88260b1a5066f28a9c90d82365a29f42"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:00.080911+00:00",
+  "source_times": {
+    "/repos/huggingface/datasets": "2026-10-17T16:08:09.636380+00:00",
+    "/repos/huggingface/datasets/commits?sha=main&per_page=20": "2026-10-17T16:08:11.738597+00:00",
+    "/repos/huggingface/datasets/git/trees/18378f7322c7eb1c2d93f895dd8e9f71f8623934": "2026-10-17T16:08:13.798858+00:00",
+    "/repos/huggingface/datasets/git/trees/85d3f9a161f6c9aa7df258a9f772969ca91c4026": "2026-10-17T16:08:15.292578+00:00",
+    "/repos/huggingface/datasets/git/trees/1ec0cdfcd23c78ada24479609b092261fd55b00e": "2026-10-17T16:08:16.713704+00:00",
+    "/repos/huggingface/datasets/git/trees/6e5ca41de27f302255b6eeabca73e496c3017e14": "2026-10-17T16:08:18.182029+00:00",
+    "/repos/huggingface/datasets/git/trees/bebe1be6370d45c8a775886449217c428252db58": "2026-10-17T16:08:21.092719+00:00",
+    "/repos/huggingface/datasets/git/blobs/450a63cc303b2eceb983656a6201e7702b8a56d0": "2026-10-17T16:08:22.449544+00:00",
+    "/repos/huggingface/datasets/git/blobs/3ae44bd4efc03e80bdfb97c7405b22cf3cb27e65": "2026-10-17T16:08:23.841799+00:00",
+    "/repos/huggingface/datasets/git/blobs/61fa1f848548277244215c467fd26d176ecf2a2f": "2026-10-17T16:08:25.222972+00:00",
+    "/repos/huggingface/datasets/git/blobs/e34b32d3c95f8b07195a601d0c06e82509216872": "2026-10-17T16:08:26.848861+00:00",
+    "/repos/huggingface/datasets/git/blobs/90c1b5edcfd43dfaf83a3ad61a9a4f694957aff3": "2026-10-17T16:08:28.207734+00:00",
+    "/repos/huggingface/datasets/git/blobs/511a9e0d744dea07bad74a0507bd525d8b7595e8": "2026-10-17T16:08:29.642350+00:00",
+    "/repos/huggingface/datasets/git/blobs/85590fd09ca7f627a0473a0c3335b93f41d70d93": "2026-10-17T16:08:31.280405+00:00",
+    "/repos/huggingface/datasets/git/blobs/2d3ae9f1e290a1730412f271b7cc901af7c96401": "2026-10-17T16:08:32.829710+00:00",
+    "/repos/huggingface/datasets/git/blobs/83e8714f76a6e64afed5b009d7d96ec38d075c24": "2026-10-17T16:08:35.046824+00:00",
+    "/repos/huggingface/datasets/git/blobs/15f7bdd7916ac5fca2274ad5d1239bafe0f0f5a2": "2026-10-17T16:08:39.905977+00:00",
+    "/repos/huggingface/datasets/git/blobs/abcec636429816756fabcfbd7762a43fed84935c": "2026-10-17T16:08:41.402012+00:00",
+    "/repos/huggingface/datasets/git/blobs/60fc5507583aabab59c816a6dd4dbe6c03d8c013": "2026-10-17T16:08:42.792671+00:00",
+    "/repos/huggingface/datasets/git/blobs/36a576f40ee131134ca964d0db3aadef60852524": "2026-10-17T16:08:44.131883+00:00",
+    "/repos/huggingface/datasets/git/blobs/12fe1ee0e9112812785195b944e74cb39ccf3686": "2026-10-17T16:08:45.642713+00:00",
+    "/repos/huggingface/datasets/git/blobs/b45d23b93e07616888d794976679da4bf7e72b9f": "2026-10-17T16:08:47.007871+00:00",
+    "/repos/huggingface/datasets/git/blobs/b5c7fb4875b0438fb5b2a2ef0031e6affef2d3f1": "2026-10-17T16:08:48.407504+00:00",
+    "/repos/huggingface/datasets/git/blobs/af36a2fdaea8d10a4210459a18349b957db510c7": "2026-10-17T16:08:49.767894+00:00",
+    "/repos/huggingface/datasets/git/blobs/9490e90c763796bc1b8f20da16e0e1941701a4b3": "2026-10-17T16:08:51.158998+00:00",
+    "/repos/huggingface/datasets/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:08:55.365502+00:00",
+    "/repos/huggingface/datasets/pulls/8825/files?per_page=100": "2026-10-17T16:08:56.972690+00:00",
+    "/repos/huggingface/datasets/pulls/8825/reviews?per_page=100": "2026-10-17T16:08:58.349278+00:00",
+    "/repos/huggingface/datasets/actions/runs?head_sha=18378f7322c7eb1c2d93f895dd8e9f71f8623934&per_page=10": "2026-10-17T16:09:00.752443+00:00",
+    "/repos/huggingface/datasets/actions/runs?head_sha=c03e668442cf739eba3748ac1c9b86fb4f2d7288&per_page=10": "2026-10-17T16:09:02.488759+00:00",
+    "/repos/huggingface/datasets/pulls/8791/files?per_page=100": "2026-10-17T16:09:04.260349+00:00",
+    "/repos/huggingface/datasets/pulls/8791/reviews?per_page=100": "2026-10-17T16:09:05.607211+00:00",
+    "/repos/huggingface/datasets/actions/runs?head_sha=04737492628dcecf91bff9f6c6cad463194c637e&per_page=10": "2026-10-17T16:09:07.869215+00:00",
+    "/repos/huggingface/datasets/actions/runs?head_sha=a09a3926bb4488a9d38b445841893202d1d77e7c&per_page=10": "2026-10-17T16:09:09.820997+00:00",
+    "/repos/huggingface/datasets/pulls/8786/files?per_page=100": "2026-10-17T16:09:12.337820+00:00",
+    "/repos/huggingface/datasets/pulls/8786/reviews?per_page=100": "2026-10-17T16:09:14.113966+00:00",
+    "/repos/huggingface/datasets/actions/runs?head_sha=684c57edeea9d2f5ecbebfbbe92455f38c94e656&per_page=10": "2026-10-17T16:09:16.189800+00:00",
+    "/repos/huggingface/datasets/actions/runs?head_sha=6a927ead232fb41c9752e145c508c9ed9b14a472&per_page=10": "2026-10-17T16:09:17.850336+00:00",
+    "/repos/huggingface/datasets/releases?per_page=20&page=1": "2026-10-17T16:17:00.077694+00:00",
+    "/repos/huggingface/datasets/commits/5.1.0": "2026-10-17T16:09:22.647469+00:00",
+    "/repos/huggingface/datasets/actions/runs?head_sha=efe6ea4f88260b1a5066f28a9c90d82365a29f42&per_page=10": "2026-10-17T16:09:24.919670+00:00",
+    "/repos/huggingface/datasets/commits/5.0.1": "2026-10-17T16:09:26.451796+00:00",
+    "/repos/huggingface/datasets/actions/runs?head_sha=921c2a7c0c9494e86fd145e03f68d12fa4ef90a2&per_page=10": "2026-10-17T16:09:28.730069+00:00",
+    "/repos/huggingface/datasets/commits/5.0.0": "2026-10-17T16:09:30.299108+00:00",
+    "/repos/huggingface/datasets/actions/runs?head_sha=68ac1a9b35869aadb7ae29857be46f6489d6150d&per_page=10": "2026-10-17T16:09:32.460289+00:00",
+    "/repos/huggingface/datasets/tags?per_page=3": "2026-10-17T16:09:37.239204+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:00.077694+00:00",
+  "status": "collected"
+}

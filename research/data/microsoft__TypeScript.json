@@ -1,0 +1,2472 @@
+{
+  "requested_repository": "microsoft/TypeScript",
+  "category": "tools",
+  "collected_at": "2026-10-17T16:16:56.378905+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "microsoft/TypeScript",
+  "metadata": {
+    "html_url": "https://github.com/microsoft/TypeScript",
+    "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+    "homepage": "https://www.typescriptlang.org",
+    "language": "Go",
+    "stargazers_count": 111510,
+    "forks_count": 17034,
+    "open_issues_count": 5121,
+    "pushed_at": "2026-10-17T07:07:56Z",
+    "created_at": "2014-06-17T15:28:39Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [
+      "javascript",
+      "language",
+      "typechecker",
+      "typescript"
+    ],
+    "owner": {
+      "login": "microsoft",
+      "type": "Organization",
+      "html_url": "https://github.com/microsoft"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "2e9fb00f5f5c9186d09aabd78cced5ce2497456d",
+      "url": "https://github.com/microsoft/TypeScript/commit/2e9fb00f5f5c9186d09aabd78cced5ce2497456d",
+      "date": "2026-10-17T01:10:46Z",
+      "subject": "Reduce the last ~2 years of uncovered top1000 repo failures into local tests (#64850)"
+    },
+    {
+      "sha": "9de8b7a3b8c68a5ad51ffa4529b622215a32a185",
+      "url": "https://github.com/microsoft/TypeScript/commit/9de8b7a3b8c68a5ad51ffa4529b622215a32a185",
+      "date": "2026-10-16T23:07:44Z",
+      "subject": "Ensure `pathsBasePath` is correctly forwarded from the API (#64843)"
+    },
+    {
+      "sha": "39be28ba77f436d2a09b35fecb61ab203e2024eb",
+      "url": "https://github.com/microsoft/TypeScript/commit/39be28ba77f436d2a09b35fecb61ab203e2024eb",
+      "date": "2026-10-16T22:40:07Z",
+      "subject": "[api] Add timing collection and dump via environment variable (#64846)"
+    },
+    {
+      "sha": "0a27badde07113faba9f735c21071d461a37634a",
+      "url": "https://github.com/microsoft/TypeScript/commit/0a27badde07113faba9f735c21071d461a37634a",
+      "date": "2026-10-16T21:25:42Z",
+      "subject": " Fix incremental diagnostics after global file deletion (#64845)"
+    },
+    {
+      "sha": "abcbb2e69d2a86d9ffee66582a0dd0339b674733",
+      "url": "https://github.com/microsoft/TypeScript/commit/abcbb2e69d2a86d9ffee66582a0dd0339b674733",
+      "date": "2026-10-16T04:27:33Z",
+      "subject": "Allow CRLF line endings in release workflow whitespace checks (#64840)"
+    },
+    {
+      "sha": "0e081d6fb33dde09e084154a0a4daada31fa5a41",
+      "url": "https://github.com/microsoft/TypeScript/commit/0e081d6fb33dde09e084154a0a4daada31fa5a41",
+      "date": "2026-10-15T23:24:37Z",
+      "subject": "Escape quotes in synthesized module specifiers (#64839)"
+    },
+    {
+      "sha": "bb9afd2bbf9f35481c6b755259f7103baa73b3a4",
+      "url": "https://github.com/microsoft/TypeScript/commit/bb9afd2bbf9f35481c6b755259f7103baa73b3a4",
+      "date": "2026-10-15T21:47:53Z",
+      "subject": "Disable ATA when no user cache is available (#64836)"
+    },
+    {
+      "sha": "ce30dd50a5dd0b81b83538c591b17347eca422d5",
+      "url": "https://github.com/microsoft/TypeScript/commit/ce30dd50a5dd0b81b83538c591b17347eca422d5",
+      "date": "2026-10-15T20:57:39Z",
+      "subject": "Ban network paths wholesale (#64832)"
+    },
+    {
+      "sha": "0ee02846fb1e4f7710c396ff42e4289f81f1a6ba",
+      "url": "https://github.com/microsoft/TypeScript/commit/0ee02846fb1e4f7710c396ff42e4289f81f1a6ba",
+      "date": "2026-10-15T18:24:29Z",
+      "subject": "Fix release pipeline tests and workflow (#64831)"
+    },
+    {
+      "sha": "655f0268afaa43cde07b65b39782688463a99517",
+      "url": "https://github.com/microsoft/TypeScript/commit/655f0268afaa43cde07b65b39782688463a99517",
+      "date": "2026-10-15T16:42:41Z",
+      "subject": "Avoid weakset for executed generators (#64830)"
+    },
+    {
+      "sha": "257e87406c6a8be277cb8cd5ef8d7b458a650390",
+      "url": "https://github.com/microsoft/TypeScript/commit/257e87406c6a8be277cb8cd5ef8d7b458a650390",
+      "date": "2026-10-14T22:32:31Z",
+      "subject": "[api] Fix named pipe / UDS creation (#64818)"
+    },
+    {
+      "sha": "76c4f5078b1e77cc2ac54a18b2cc79e346a1d7a0",
+      "url": "https://github.com/microsoft/TypeScript/commit/76c4f5078b1e77cc2ac54a18b2cc79e346a1d7a0",
+      "date": "2026-10-14T16:46:45Z",
+      "subject": "perf(checker): fast-path compareNodes for identical AST parent containers and use cmp.Compare (#64551)"
+    },
+    {
+      "sha": "d9c578ddb44a9e8dd0791a58c364f433c0011766",
+      "url": "https://github.com/microsoft/TypeScript/commit/d9c578ddb44a9e8dd0791a58c364f433c0011766",
+      "date": "2026-10-14T16:24:47Z",
+      "subject": "Update localization files (#64764)"
+    },
+    {
+      "sha": "f5cdce998e1b35ec1e226101e65b6b05d6993e74",
+      "url": "https://github.com/microsoft/TypeScript/commit/f5cdce998e1b35ec1e226101e65b6b05d6993e74",
+      "date": "2026-10-14T16:08:07Z",
+      "subject": "fix(64058): fix reparse jsdoc @extends type arguments for call expressions (#64072)"
+    },
+    {
+      "sha": "6c976dad5d65d2c67f5707f3ba4a04ae991b8481",
+      "url": "https://github.com/microsoft/TypeScript/commit/6c976dad5d65d2c67f5707f3ba4a04ae991b8481",
+      "date": "2026-10-14T15:41:29Z",
+      "subject": "Reuse ordered property counts during intersection reduction (#64804)"
+    },
+    {
+      "sha": "e36179bde849072301c41d1090c4d75616cd3c47",
+      "url": "https://github.com/microsoft/TypeScript/commit/e36179bde849072301c41d1090c4d75616cd3c47",
+      "date": "2026-10-14T15:41:28Z",
+      "subject": "Use paged indexes for type-node and signature caches (#64803)"
+    },
+    {
+      "sha": "e67b60e3388a08368f09acbde2efaf8e67cb511a",
+      "url": "https://github.com/microsoft/TypeScript/commit/e67b60e3388a08368f09acbde2efaf8e67cb511a",
+      "date": "2026-10-14T15:41:26Z",
+      "subject": "Bound arena retention by bytes instead of object count (#64802)"
+    },
+    {
+      "sha": "158a0805feea665f16bb7d58f0535afb18cc6930",
+      "url": "https://github.com/microsoft/TypeScript/commit/158a0805feea665f16bb7d58f0535afb18cc6930",
+      "date": "2026-10-14T15:41:25Z",
+      "subject": "Keep optional type-node and signature state out of hot records (#64801)"
+    },
+    {
+      "sha": "82db71afa079da1e0c8b09a72914c0e3f70e85d8",
+      "url": "https://github.com/microsoft/TypeScript/commit/82db71afa079da1e0c8b09a72914c0e3f70e85d8",
+      "date": "2026-10-14T14:00:42Z",
+      "subject": "Move optional structured type shape into cold storage (#64800)"
+    },
+    {
+      "sha": "56ce7acfc82bc4a465c0d65e7e18f6683cdf2f85",
+      "url": "https://github.com/microsoft/TypeScript/commit/56ce7acfc82bc4a465c0d65e7e18f6683cdf2f85",
+      "date": "2026-10-14T13:58:18Z",
+      "subject": "Keep optional symbol tables out of hot symbol records (#64799)"
+    }
+  ],
+  "default_sha": "2e9fb00f5f5c9186d09aabd78cced5ce2497456d",
+  "root_and_selected_directory_paths": [
+    ".custom-gcl.yml",
+    ".devcontainer",
+    ".dprint.jsonc",
+    ".git-blame-ignore-revs",
+    ".gitattributes",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug_report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/feature_request.yml",
+    ".github/ISSUE_TEMPLATE/lib_change.yml",
+    ".github/ISSUE_TEMPLATE/module_resolution.yml",
+    ".github/ISSUE_TEMPLATE/other.yml",
+    ".github/ISSUE_TEMPLATE/types-not-correct-in-with-callback.md",
+    ".github/actions",
+    ".github/agents",
+    ".github/codecov.yml",
+    ".github/codeql",
+    ".github/copilot-instructions.md",
+    ".github/dependabot.yml",
+    ".github/pull_request_template.md",
+    ".github/skills",
+    ".github/workflows",
+    ".github/workflows/accept-baselines-fix-lints.yaml",
+    ".github/workflows/bump-vscode-typescript.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/close-issues.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/copilot-setup-steps.yml",
+    ".github/workflows/create-cherry-pick-pr.yml",
+    ".github/workflows/new-release-branch.yaml",
+    ".github/workflows/scorecard.yml",
+    ".github/workflows/set-version.yaml",
+    ".github/workflows/sync-branch.yaml",
+    ".github/workflows/sync-wiki.yml",
+    ".github/workflows/tag-vscode-typescript.yml",
+    ".gitignore",
+    ".golangci.yml",
+    ".vscode",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "Herebyfile.mjs",
+    "LICENSE.txt",
+    "NOTICE.txt",
+    "README.md",
+    "SECURITY.md",
+    "SUPPORT.md",
+    "go.work",
+    "package-lock.json",
+    "package.json",
+    "packages",
+    "tools",
+    "tsc"
+  ],
+  "workflow_paths": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/new-release-branch.yaml",
+    ".github/workflows/accept-baselines-fix-lints.yaml",
+    ".github/workflows/bump-vscode-typescript.yml",
+    ".github/workflows/close-issues.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/copilot-setup-steps.yml",
+    ".github/workflows/create-cherry-pick-pr.yml",
+    ".github/workflows/scorecard.yml",
+    ".github/workflows/set-version.yaml",
+    ".github/workflows/sync-branch.yaml",
+    ".github/workflows/sync-wiki.yml",
+    ".github/workflows/tag-vscode-typescript.yml"
+  ],
+  "documents": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "65c8a42b8d25c6b43d56712bffc4c9598e7dd569",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/CODE_OF_CONDUCT.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "462f0e44e9fef58282061a67a3f4bf1eb9e75e61",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/CONTRIBUTING.md",
+      "lines": 163,
+      "signals": {
+        "tests": [
+          103,
+          134
+        ],
+        "lint": [],
+        "generated_code": [
+          25
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          19
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "79adc1b165e396ac026a8e88da02e693b4a5afae",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/README.md",
+      "lines": 50,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          4,
+          5,
+          6
+        ],
+        "media": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "theme_images": [],
+        "playground": [
+          10
+        ],
+        "community": [
+          48,
+          50
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "fa5c363fcc727ca98e75882f579891ccad07b61b",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/SECURITY.md",
+      "lines": 44,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          6,
+          12,
+          16,
+          18,
+          20,
+          34,
+          42,
+          44
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SUPPORT.md",
+      "sha": "fc172b52acb1b327f1007d72ed266d1905dbf81f",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/SUPPORT.md",
+      "lines": 11,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "package.json",
+      "sha": "320354f8d467cd1776c7491028aefa78deffa864",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/package.json",
+      "lines": 57,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha": "6987fee6a9e4658a2e36cc595cba6ef8ed4f8a1b",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "lines": 103,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          33,
+          37,
+          48,
+          50,
+          52,
+          57,
+          67
+        ],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "e4d4b1f6714204a0ee571c2865d8ecd24e3710b5",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 15,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "sha": "9aee8889c856e36a9f00960f45d05dbd9e8b80e4",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/ISSUE_TEMPLATE/feature_request.yml",
+      "lines": 73,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/lib_change.yml",
+      "sha": "21312c88e126479a239db669fb0c70cfb479fecb",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/ISSUE_TEMPLATE/lib_change.yml",
+      "lines": 56,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/module_resolution.yml",
+      "sha": "21c6d826e4c64eba1054a59484c5dbe95d1aeaa2",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/ISSUE_TEMPLATE/module_resolution.yml",
+      "lines": 103,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/other.yml",
+      "sha": "bc9b84fd71b6ba235644e496e846ed1a33201d1d",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/ISSUE_TEMPLATE/other.yml",
+      "lines": 16,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          5,
+          7,
+          9
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/types-not-correct-in-with-callback.md",
+      "sha": "b6d8e0e22f50ed4d88408a80aaf0cdf80b71413b",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/ISSUE_TEMPLATE/types-not-correct-in-with-callback.md",
+      "lines": 47,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "253d7ea60471a65c122db8b1ed5745ccaadbeac7",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/dependabot.yml",
+      "lines": 25,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha": "f57eb0a941c888d17775217095560aa65a558f40",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/pull_request_template.md",
+      "lines": 19,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          5
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "b4bbdef4f1f486e36709a165064c9aed62fd01a2",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/workflows/ci.yml",
+      "lines": 372,
+      "signals": {
+        "tests": [
+          80,
+          81
+        ],
+        "lint": [
+          150,
+          151,
+          219,
+          220,
+          269,
+          270
+        ],
+        "generated_code": [
+          300,
+          309,
+          354
+        ],
+        "release_automation": [],
+        "permissions": [
+          11,
+          131,
+          132,
+          203,
+          204
+        ],
+        "pinned_actions": [
+          22,
+          23,
+          35,
+          36,
+          47,
+          48,
+          57,
+          58,
+          67,
+          142,
+          143,
+          161
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/new-release-branch.yaml",
+      "sha": "7fa9e2b3b81ff34537e3f8bf7e5c9be5636f82a9",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/workflows/new-release-branch.yaml",
+      "lines": 147,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          39,
+          41,
+          124
+        ],
+        "pinned_actions": [
+          56,
+          62,
+          109,
+          118,
+          138
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/accept-baselines-fix-lints.yaml",
+      "sha": "bc593f91cfc29e5a1451a6d50a56294fe38eabc7",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/workflows/accept-baselines-fix-lints.yaml",
+      "lines": 62,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          28,
+          40
+        ],
+        "release_automation": [],
+        "permissions": [
+          6,
+          8,
+          54
+        ],
+        "pinned_actions": [
+          21,
+          24,
+          41,
+          48
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/bump-vscode-typescript.yml",
+      "sha": "d40302cf541a91468d1a13ed3686db72333e1bb5",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/workflows/bump-vscode-typescript.yml",
+      "lines": 186,
+      "signals": {
+        "tests": [
+          72
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          17,
+          90,
+          92,
+          136
+        ],
+        "pinned_actions": [
+          32,
+          43,
+          80,
+          98,
+          105,
+          122,
+          130
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/close-issues.yml",
+      "sha": "7082f43fdf781937f1a8272e04805010807a92a3",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/workflows/close-issues.yml",
+      "lines": 73,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8,
+          10,
+          25,
+          27
+        ],
+        "pinned_actions": [
+          31,
+          34,
+          41
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "sha": "6a59a9a43c4514d0a1256527ac0ed2a7a7ceb707",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/workflows/codeql.yml",
+      "lines": 32,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11,
+          18
+        ],
+        "pinned_actions": [
+          21,
+          22,
+          27,
+          32
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "sha": "93e4b912902c859be3e4156955015f67a1befe38",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/workflows/copilot-setup-steps.yml",
+      "lines": 20,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          6
+        ],
+        "pinned_actions": [
+          13,
+          14
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/create-cherry-pick-pr.yml",
+      "sha": "a0dd69e68bb5d4ee96308a74899384aa93c539b9",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/workflows/create-cherry-pick-pr.yml",
+      "lines": 239,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          35,
+          37,
+          83
+        ],
+        "pinned_actions": [
+          54,
+          59,
+          68,
+          77,
+          95,
+          230
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "57d0372031c2c865d349bca27e72ac2d2c1d8e7c",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/workflows/scorecard.yml",
+      "lines": 60,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          18,
+          24,
+          28
+        ],
+        "pinned_actions": [
+          32,
+          37,
+          50,
+          58
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/set-version.yaml",
+      "sha": "dbf2e235b3e608490d751f528e6bcfdda264ab40",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/workflows/set-version.yaml",
+      "lines": 166,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          39,
+          41,
+          141
+        ],
+        "pinned_actions": [
+          65,
+          71,
+          126,
+          135,
+          157
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/sync-branch.yaml",
+      "sha": "ec726a91f227e12958eed913c696e49ab60899ff",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/workflows/sync-branch.yaml",
+      "lines": 155,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          31,
+          33,
+          132
+        ],
+        "pinned_actions": [
+          57,
+          63,
+          117,
+          126,
+          146
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/sync-wiki.yml",
+      "sha": "d271516790b27138e6e28742fb55e9f7197f7a62",
+      "status": "inspected",
+      "url": "https://github.com/microsoft/TypeScript/blob/2e9fb00f5f5c9186d09aabd78cced5ce2497456d/.github/workflows/sync-wiki.yml",
+      "lines": 59,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          5,
+          7,
+          45
+        ],
+        "pinned_actions": [
+          25,
+          30,
+          37
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 64850,
+      "title": "Reduce the last ~2 years of uncovered top1000 repo failures into local tests",
+      "url": "https://github.com/microsoft/TypeScript/pull/64850",
+      "merged_at": "2026-10-17T01:22:35Z",
+      "merge_commit_sha": "2e9fb00f5f5c9186d09aabd78cced5ce2497456d",
+      "files": [
+        "tsc/internal/execute/tsctests/tsc_test.go",
+        "tsc/testdata/baselines/reference/compiler/assertedGenericPartialIndexedAssignment.symbols",
+        "tsc/testdata/baselines/reference/compiler/assertedGenericPartialIndexedAssignment.types",
+        "tsc/testdata/baselines/reference/compiler/assertedReadonlyParameterPropertyAssignment.symbols",
+        "tsc/testdata/baselines/reference/compiler/assertedReadonlyParameterPropertyAssignment.types",
+        "tsc/testdata/baselines/reference/compiler/callableConstructorUnionMetadata.symbols",
+        "tsc/testdata/baselines/reference/compiler/callableConstructorUnionMetadata.types",
+        "tsc/testdata/baselines/reference/compiler/callableWeakMetadata.symbols",
+        "tsc/testdata/baselines/reference/compiler/callableWeakMetadata.types",
+        "tsc/testdata/baselines/reference/compiler/callableWeakMetadataCallSuggestion.symbols",
+        "tsc/testdata/baselines/reference/compiler/callableWeakMetadataCallSuggestion.types",
+        "tsc/testdata/baselines/reference/compiler/callbackAssignedNonNull.symbols",
+        "tsc/testdata/baselines/reference/compiler/callbackAssignedNonNull.types",
+        "tsc/testdata/baselines/reference/compiler/chainedFilterPredicateInference.js",
+        "tsc/testdata/baselines/reference/compiler/chainedFilterPredicateInference.symbols",
+        "tsc/testdata/baselines/reference/compiler/chainedFilterPredicateInference.types",
+        "tsc/testdata/baselines/reference/compiler/componentEnhancerReturn.symbols",
+        "tsc/testdata/baselines/reference/compiler/componentEnhancerReturn.types",
+        "tsc/testdata/baselines/reference/compiler/compoundAssignmentAfterExcludedLiteral.js",
+        "tsc/testdata/baselines/reference/compiler/compoundAssignmentAfterExcludedLiteral.symbols",
+        "tsc/testdata/baselines/reference/compiler/compoundAssignmentAfterExcludedLiteral.types",
+        "tsc/testdata/baselines/reference/compiler/conditionalExportsNodeTypesFallback.symbols",
+        "tsc/testdata/baselines/reference/compiler/conditionalExportsNodeTypesFallback.trace.json",
+        "tsc/testdata/baselines/reference/compiler/conditionalExportsNodeTypesFallback.types",
+        "tsc/testdata/baselines/reference/compiler/conditionalExportsRequireTypesFallback.symbols",
+        "tsc/testdata/baselines/reference/compiler/conditionalExportsRequireTypesFallback.trace.json",
+        "tsc/testdata/baselines/reference/compiler/conditionalExportsRequireTypesFallback.types",
+        "tsc/testdata/baselines/reference/compiler/conditionalExportsTypesImportFallback.symbols",
+        "tsc/testdata/baselines/reference/compiler/conditionalExportsTypesImportFallback.trace.json",
+        "tsc/testdata/baselines/reference/compiler/conditionalExportsTypesImportFallback.types",
+        "tsc/testdata/baselines/reference/compiler/conditionalFunctionUnionInference.symbols",
+        "tsc/testdata/baselines/reference/compiler/conditionalFunctionUnionInference.types",
+        "tsc/testdata/baselines/reference/compiler/conditionalPromptInference.symbols",
+        "tsc/testdata/baselines/reference/compiler/conditionalPromptInference.types",
+        "tsc/testdata/baselines/reference/compiler/contextualFactoryReturnToOptionalClassField.symbols",
+        "tsc/testdata/baselines/reference/compiler/contextualFactoryReturnToOptionalClassField.types",
+        "tsc/testdata/baselines/reference/compiler/contextualGenericReturnToOptionalClassField.symbols",
+        "tsc/testdata/baselines/reference/compiler/contextualGenericReturnToOptionalClassField.types",
+        "tsc/testdata/baselines/reference/compiler/contextualReturnArrayPatternCallback.js",
+        "tsc/testdata/baselines/reference/compiler/contextualReturnArrayPatternCallback.symbols",
+        "tsc/testdata/baselines/reference/compiler/contextualReturnArrayPatternCallback.types",
+        "tsc/testdata/baselines/reference/compiler/contextualReturnRecursivePatternArguments.js",
+        "tsc/testdata/baselines/reference/compiler/contextualReturnRecursivePatternArguments.symbols",
+        "tsc/testdata/baselines/reference/compiler/contextualReturnRecursivePatternArguments.types",
+        "tsc/testdata/baselines/reference/compiler/contextualReturnSpreadPickInference.symbols",
+        "tsc/testdata/baselines/reference/compiler/contextualReturnSpreadPickInference.types",
+        "tsc/testdata/baselines/reference/compiler/contextualRuleMessageInference.symbols",
+        "tsc/testdata/baselines/reference/compiler/contextualRuleMessageInference.types",
+        "tsc/testdata/baselines/reference/compiler/correlatedLabelNullishFallback.js",
+        "tsc/testdata/baselines/reference/compiler/correlatedLabelNullishFallback.symbols",
+        "tsc/testdata/baselines/reference/compiler/correlatedLabelNullishFallback.types",
+        "tsc/testdata/baselines/reference/compiler/cssStyleDeclarationCompatibility.symbols",
+        "tsc/testdata/baselines/reference/compiler/cssStyleDeclarationCompatibility.types",
+        "tsc/testdata/baselines/reference/compiler/declarationDefaultImportSuggestion.symbols",
+        "tsc/testdata/baselines/reference/compiler/declarationDefaultImportSuggestion.types",
+        "tsc/testdata/baselines/reference/compiler/defaultRootDirExternalFiles.errors.txt",
+        "tsc/testdata/baselines/reference/compiler/defaultRootDirExternalFiles.js",
+        "tsc/testdata/baselines/reference/compiler/defaultRootDirExternalFiles.symbols",
+        "tsc/testdata/baselines/reference/compiler/defaultRootDirExternalFiles.types",
+        "tsc/testdata/baselines/reference/compiler/defaultRootDirInheritedInclude.errors.txt",
+        "tsc/testdata/baselines/reference/compiler/defaultRootDirInheritedInclude.js",
+        "tsc/testdata/baselines/reference/compiler/defaultRootDirInheritedInclude.symbols",
+        "tsc/testdata/baselines/reference/compiler/defaultRootDirInheritedInclude.types",
+        "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeAmbientModuleImports.errors.txt",
+        "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeAmbientModuleImports.symbols",
+        "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeAmbientModuleImports.types",
+        "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeAmbientPackages.errors.txt",
+        "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeAmbientPackages.symbols",
+        "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeAmbientPackages.types",
+        "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeBaseLibraryReferences.errors.txt",
+        "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeBaseLibraryReferences.symbols",
+        "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeBaseLibraryReferences.types",
+        "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeLibraryReferences.errors.txt",
+        "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeLibraryReferences.symbols",
+        "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeLibraryReferences.types",
+        "tsc/testdata/baselines/reference/compiler/defaultWeakMapInferredPropertyAssignment.js",
+        "tsc/testdata/baselines/reference/compiler/defaultWeakMapInferredPropertyAssignment.symbols",
+        "tsc/testdata/baselines/reference/compiler/defaultWeakMapInferredPropertyAssignment.types",
+        "tsc/testdata/baselines/reference/compiler/distributedRecursiveMappedType.errors.txt",
+        "tsc/testdata/baselines/reference/compiler/distributedRecursiveMappedType.symbols",
+        "tsc/testdata/baselines/reference/compiler/distributedRecursiveMappedType.types",
+        "tsc/testdata/baselines/reference/compiler/domBaseElementToSpan.js",
+        "tsc/testdata/baselines/reference/compiler/domBaseElementToSpan.symbols",
+        "tsc/testdata/baselines/reference/compiler/domBaseElementToSpan.types",
+        "tsc/testdata/baselines/reference/compiler/domDirectoryReaderArrayCallbacks.js",
+        "tsc/testdata/baselines/reference/compiler/domDirectoryReaderArrayCallbacks.symbols",
+        "tsc/testdata/baselines/reference/compiler/domDirectoryReaderArrayCallbacks.types",
+        "tsc/testdata/baselines/reference/compiler/domElementStringKeyConstraint.js",
+        "tsc/testdata/baselines/reference/compiler/domElementStringKeyConstraint.symbols",
+        "tsc/testdata/baselines/reference/compiler/domElementStringKeyConstraint.types",
+        "tsc/testdata/baselines/reference/compiler/domIterableGenericDatasetKeys.errors.txt",
+        "tsc/testdata/baselines/reference/compiler/domIterableGenericDatasetKeys.js",
+        "tsc/testdata/baselines/reference/compiler/domIterableGenericDatasetKeys.symbols",
+        "tsc/testdata/baselines/reference/compiler/domIterableGenericDatasetKeys.types",
+        "tsc/testdata/baselines/reference/compiler/domIterableSymbolMappedValue.errors.txt",
+        "tsc/testdata/baselines/reference/compiler/domIterableSymbolMappedValue.js",
+        "tsc/testdata/baselines/reference/compiler/domIterableSymbolMappedValue.symbols",
+        "tsc/testdata/baselines/reference/compiler/domIterableSymbolMappedValue.types",
+        "tsc/testdata/baselines/reference/compiler/domObserverArrayCallbacks.js",
+        "tsc/testdata/baselines/reference/compiler/domObserverArrayCallbacks.symbols"
+      ],
+      "files_may_be_truncated": true,
+      "file_changes": [
+        {
+          "filename": "tsc/internal/execute/tsctests/tsc_test.go",
+          "status": "modified",
+          "additions": 37,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Finternal%2Fexecute%2Ftsctests%2Ftsc_test.go"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/assertedGenericPartialIndexedAssignment.symbols",
+          "status": "added",
+          "additions": 17,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FassertedGenericPartialIndexedAssignment.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/assertedGenericPartialIndexedAssignment.types",
+          "status": "added",
+          "additions": 18,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FassertedGenericPartialIndexedAssignment.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/assertedReadonlyParameterPropertyAssignment.symbols",
+          "status": "added",
+          "additions": 19,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FassertedReadonlyParameterPropertyAssignment.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/assertedReadonlyParameterPropertyAssignment.types",
+          "status": "added",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FassertedReadonlyParameterPropertyAssignment.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/callableConstructorUnionMetadata.symbols",
+          "status": "added",
+          "additions": 29,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcallableConstructorUnionMetadata.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/callableConstructorUnionMetadata.types",
+          "status": "added",
+          "additions": 20,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcallableConstructorUnionMetadata.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/callableWeakMetadata.symbols",
+          "status": "added",
+          "additions": 15,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcallableWeakMetadata.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/callableWeakMetadata.types",
+          "status": "added",
+          "additions": 17,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcallableWeakMetadata.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/callableWeakMetadataCallSuggestion.symbols",
+          "status": "added",
+          "additions": 19,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcallableWeakMetadataCallSuggestion.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/callableWeakMetadataCallSuggestion.types",
+          "status": "added",
+          "additions": 19,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcallableWeakMetadataCallSuggestion.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/callbackAssignedNonNull.symbols",
+          "status": "added",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcallbackAssignedNonNull.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/callbackAssignedNonNull.types",
+          "status": "added",
+          "additions": 32,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcallbackAssignedNonNull.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/chainedFilterPredicateInference.js",
+          "status": "added",
+          "additions": 18,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FchainedFilterPredicateInference.js"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/chainedFilterPredicateInference.symbols",
+          "status": "added",
+          "additions": 37,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FchainedFilterPredicateInference.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/chainedFilterPredicateInference.types",
+          "status": "added",
+          "additions": 46,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FchainedFilterPredicateInference.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/componentEnhancerReturn.symbols",
+          "status": "added",
+          "additions": 51,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcomponentEnhancerReturn.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/componentEnhancerReturn.types",
+          "status": "added",
+          "additions": 53,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcomponentEnhancerReturn.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/compoundAssignmentAfterExcludedLiteral.js",
+          "status": "added",
+          "additions": 17,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcompoundAssignmentAfterExcludedLiteral.js"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/compoundAssignmentAfterExcludedLiteral.symbols",
+          "status": "added",
+          "additions": 20,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcompoundAssignmentAfterExcludedLiteral.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/compoundAssignmentAfterExcludedLiteral.types",
+          "status": "added",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcompoundAssignmentAfterExcludedLiteral.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/conditionalExportsNodeTypesFallback.symbols",
+          "status": "added",
+          "additions": 13,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FconditionalExportsNodeTypesFallback.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/conditionalExportsNodeTypesFallback.trace.json",
+          "status": "added",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FconditionalExportsNodeTypesFallback.trace.json"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/conditionalExportsNodeTypesFallback.types",
+          "status": "added",
+          "additions": 13,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FconditionalExportsNodeTypesFallback.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/conditionalExportsRequireTypesFallback.symbols",
+          "status": "added",
+          "additions": 13,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FconditionalExportsRequireTypesFallback.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/conditionalExportsRequireTypesFallback.trace.json",
+          "status": "added",
+          "additions": 21,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FconditionalExportsRequireTypesFallback.trace.json"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/conditionalExportsRequireTypesFallback.types",
+          "status": "added",
+          "additions": 13,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FconditionalExportsRequireTypesFallback.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/conditionalExportsTypesImportFallback.symbols",
+          "status": "added",
+          "additions": 16,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FconditionalExportsTypesImportFallback.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/conditionalExportsTypesImportFallback.trace.json",
+          "status": "added",
+          "additions": 21,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FconditionalExportsTypesImportFallback.trace.json"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/conditionalExportsTypesImportFallback.types",
+          "status": "added",
+          "additions": 16,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FconditionalExportsTypesImportFallback.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/conditionalFunctionUnionInference.symbols",
+          "status": "added",
+          "additions": 35,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FconditionalFunctionUnionInference.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/conditionalFunctionUnionInference.types",
+          "status": "added",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FconditionalFunctionUnionInference.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/conditionalPromptInference.symbols",
+          "status": "added",
+          "additions": 48,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FconditionalPromptInference.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/conditionalPromptInference.types",
+          "status": "added",
+          "additions": 50,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FconditionalPromptInference.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/contextualFactoryReturnToOptionalClassField.symbols",
+          "status": "added",
+          "additions": 37,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcontextualFactoryReturnToOptionalClassField.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/contextualFactoryReturnToOptionalClassField.types",
+          "status": "added",
+          "additions": 28,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcontextualFactoryReturnToOptionalClassField.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/contextualGenericReturnToOptionalClassField.symbols",
+          "status": "added",
+          "additions": 36,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcontextualGenericReturnToOptionalClassField.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/contextualGenericReturnToOptionalClassField.types",
+          "status": "added",
+          "additions": 37,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcontextualGenericReturnToOptionalClassField.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/contextualReturnArrayPatternCallback.js",
+          "status": "added",
+          "additions": 32,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcontextualReturnArrayPatternCallback.js"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/contextualReturnArrayPatternCallback.symbols",
+          "status": "added",
+          "additions": 89,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcontextualReturnArrayPatternCallback.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/contextualReturnArrayPatternCallback.types",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcontextualReturnArrayPatternCallback.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/contextualReturnRecursivePatternArguments.js",
+          "status": "added",
+          "additions": 32,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcontextualReturnRecursivePatternArguments.js"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/contextualReturnRecursivePatternArguments.symbols",
+          "status": "added",
+          "additions": 98,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcontextualReturnRecursivePatternArguments.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/contextualReturnRecursivePatternArguments.types",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcontextualReturnRecursivePatternArguments.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/contextualReturnSpreadPickInference.symbols",
+          "status": "added",
+          "additions": 47,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcontextualReturnSpreadPickInference.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/contextualReturnSpreadPickInference.types",
+          "status": "added",
+          "additions": 40,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcontextualReturnSpreadPickInference.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/contextualRuleMessageInference.symbols",
+          "status": "added",
+          "additions": 42,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcontextualRuleMessageInference.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/contextualRuleMessageInference.types",
+          "status": "added",
+          "additions": 47,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcontextualRuleMessageInference.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/correlatedLabelNullishFallback.js",
+          "status": "added",
+          "additions": 14,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcorrelatedLabelNullishFallback.js"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/correlatedLabelNullishFallback.symbols",
+          "status": "added",
+          "additions": 23,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcorrelatedLabelNullishFallback.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/correlatedLabelNullishFallback.types",
+          "status": "added",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcorrelatedLabelNullishFallback.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/cssStyleDeclarationCompatibility.symbols",
+          "status": "added",
+          "additions": 19,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcssStyleDeclarationCompatibility.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/cssStyleDeclarationCompatibility.types",
+          "status": "added",
+          "additions": 19,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FcssStyleDeclarationCompatibility.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/declarationDefaultImportSuggestion.symbols",
+          "status": "added",
+          "additions": 10,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdeclarationDefaultImportSuggestion.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/declarationDefaultImportSuggestion.types",
+          "status": "added",
+          "additions": 10,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdeclarationDefaultImportSuggestion.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultRootDirExternalFiles.errors.txt",
+          "status": "added",
+          "additions": 25,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultRootDirExternalFiles.errors.txt"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultRootDirExternalFiles.js",
+          "status": "added",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultRootDirExternalFiles.js"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultRootDirExternalFiles.symbols",
+          "status": "added",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultRootDirExternalFiles.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultRootDirExternalFiles.types",
+          "status": "added",
+          "additions": 7,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultRootDirExternalFiles.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultRootDirInheritedInclude.errors.txt",
+          "status": "added",
+          "additions": 28,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultRootDirInheritedInclude.errors.txt"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultRootDirInheritedInclude.js",
+          "status": "added",
+          "additions": 16,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultRootDirInheritedInclude.js"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultRootDirInheritedInclude.symbols",
+          "status": "added",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultRootDirInheritedInclude.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultRootDirInheritedInclude.types",
+          "status": "added",
+          "additions": 7,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultRootDirInheritedInclude.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeAmbientModuleImports.errors.txt",
+          "status": "added",
+          "additions": 18,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultTypesExcludeAmbientModuleImports.errors.txt"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeAmbientModuleImports.symbols",
+          "status": "added",
+          "additions": 9,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultTypesExcludeAmbientModuleImports.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeAmbientModuleImports.types",
+          "status": "added",
+          "additions": 10,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultTypesExcludeAmbientModuleImports.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeAmbientPackages.errors.txt",
+          "status": "added",
+          "additions": 11,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultTypesExcludeAmbientPackages.errors.txt"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeAmbientPackages.symbols",
+          "status": "added",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultTypesExcludeAmbientPackages.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeAmbientPackages.types",
+          "status": "added",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultTypesExcludeAmbientPackages.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeBaseLibraryReferences.errors.txt",
+          "status": "added",
+          "additions": 20,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultTypesExcludeBaseLibraryReferences.errors.txt"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeBaseLibraryReferences.symbols",
+          "status": "added",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultTypesExcludeBaseLibraryReferences.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeBaseLibraryReferences.types",
+          "status": "added",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultTypesExcludeBaseLibraryReferences.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeLibraryReferences.errors.txt",
+          "status": "added",
+          "additions": 11,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultTypesExcludeLibraryReferences.errors.txt"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeLibraryReferences.symbols",
+          "status": "added",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultTypesExcludeLibraryReferences.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultTypesExcludeLibraryReferences.types",
+          "status": "added",
+          "additions": 11,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultTypesExcludeLibraryReferences.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultWeakMapInferredPropertyAssignment.js",
+          "status": "added",
+          "additions": 11,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultWeakMapInferredPropertyAssignment.js"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultWeakMapInferredPropertyAssignment.symbols",
+          "status": "added",
+          "additions": 15,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultWeakMapInferredPropertyAssignment.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/defaultWeakMapInferredPropertyAssignment.types",
+          "status": "added",
+          "additions": 16,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdefaultWeakMapInferredPropertyAssignment.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/distributedRecursiveMappedType.errors.txt",
+          "status": "added",
+          "additions": 17,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdistributedRecursiveMappedType.errors.txt"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/distributedRecursiveMappedType.symbols",
+          "status": "added",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdistributedRecursiveMappedType.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/distributedRecursiveMappedType.types",
+          "status": "added",
+          "additions": 9,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdistributedRecursiveMappedType.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domBaseElementToSpan.js",
+          "status": "added",
+          "additions": 10,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomBaseElementToSpan.js"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domBaseElementToSpan.symbols",
+          "status": "added",
+          "additions": 12,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomBaseElementToSpan.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domBaseElementToSpan.types",
+          "status": "added",
+          "additions": 10,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomBaseElementToSpan.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domDirectoryReaderArrayCallbacks.js",
+          "status": "added",
+          "additions": 23,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomDirectoryReaderArrayCallbacks.js"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domDirectoryReaderArrayCallbacks.symbols",
+          "status": "added",
+          "additions": 32,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomDirectoryReaderArrayCallbacks.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domDirectoryReaderArrayCallbacks.types",
+          "status": "added",
+          "additions": 36,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomDirectoryReaderArrayCallbacks.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domElementStringKeyConstraint.js",
+          "status": "added",
+          "additions": 12,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomElementStringKeyConstraint.js"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domElementStringKeyConstraint.symbols",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomElementStringKeyConstraint.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domElementStringKeyConstraint.types",
+          "status": "added",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomElementStringKeyConstraint.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domIterableGenericDatasetKeys.errors.txt",
+          "status": "added",
+          "additions": 14,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomIterableGenericDatasetKeys.errors.txt"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domIterableGenericDatasetKeys.js",
+          "status": "added",
+          "additions": 15,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomIterableGenericDatasetKeys.js"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domIterableGenericDatasetKeys.symbols",
+          "status": "added",
+          "additions": 26,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomIterableGenericDatasetKeys.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domIterableGenericDatasetKeys.types",
+          "status": "added",
+          "additions": 25,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomIterableGenericDatasetKeys.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domIterableSymbolMappedValue.errors.txt",
+          "status": "added",
+          "additions": 16,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomIterableSymbolMappedValue.errors.txt"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domIterableSymbolMappedValue.js",
+          "status": "added",
+          "additions": 11,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomIterableSymbolMappedValue.js"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domIterableSymbolMappedValue.symbols",
+          "status": "added",
+          "additions": 21,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomIterableSymbolMappedValue.symbols"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domIterableSymbolMappedValue.types",
+          "status": "added",
+          "additions": 15,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomIterableSymbolMappedValue.types"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domObserverArrayCallbacks.js",
+          "status": "added",
+          "additions": 13,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomObserverArrayCallbacks.js"
+        },
+        {
+          "filename": "tsc/testdata/baselines/reference/compiler/domObserverArrayCallbacks.symbols",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/bbc43bfacbbc1be0c70ae3a709d53f467abeafb6/tsc%2Ftestdata%2Fbaselines%2Freference%2Fcompiler%2FdomObserverArrayCallbacks.symbols"
+        }
+      ],
+      "review_states": [
+        "APPROVED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38990586971,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38990586971",
+          "head_sha": "2e9fb00f5f5c9186d09aabd78cced5ce2497456d"
+        },
+        {
+          "id": 38990586961,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38990586961",
+          "head_sha": "2e9fb00f5f5c9186d09aabd78cced5ce2497456d"
+        },
+        {
+          "id": 38990586972,
+          "name": "Scorecard supply-chain security",
+          "path": ".github/workflows/scorecard.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38990586972",
+          "head_sha": "2e9fb00f5f5c9186d09aabd78cced5ce2497456d"
+        },
+        {
+          "id": 38989761532,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38989761532",
+          "head_sha": "2e9fb00f5f5c9186d09aabd78cced5ce2497456d"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38982072718,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38982072718",
+          "head_sha": "bbc43bfacbbc1be0c70ae3a709d53f467abeafb6"
+        },
+        {
+          "id": 38982065036,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38982065036",
+          "head_sha": "bbc43bfacbbc1be0c70ae3a709d53f467abeafb6"
+        },
+        {
+          "id": 38982064936,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38982064936",
+          "head_sha": "bbc43bfacbbc1be0c70ae3a709d53f467abeafb6"
+        }
+      ]
+    },
+    {
+      "number": 64843,
+      "title": "Ensure `pathsBasePath` is correctly forwarded from the API",
+      "url": "https://github.com/microsoft/TypeScript/pull/64843",
+      "merged_at": "2026-10-16T23:19:26Z",
+      "merge_commit_sha": "9de8b7a3b8c68a5ad51ffa4529b622215a32a185",
+      "files": [
+        "tsc/internal/api/session_createprogram_test.go",
+        "tsc/internal/tsoptions/rawcompileroptions.go",
+        "tsc/internal/tsoptions/rawcompileroptions_test.go"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "tsc/internal/api/session_createprogram_test.go",
+          "status": "modified",
+          "additions": 46,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/810320d0bfa0b61616109e230ea4a23f0d82d88b/tsc%2Finternal%2Fapi%2Fsession_createprogram_test.go"
+        },
+        {
+          "filename": "tsc/internal/tsoptions/rawcompileroptions.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/810320d0bfa0b61616109e230ea4a23f0d82d88b/tsc%2Finternal%2Ftsoptions%2Frawcompileroptions.go"
+        },
+        {
+          "filename": "tsc/internal/tsoptions/rawcompileroptions_test.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/810320d0bfa0b61616109e230ea4a23f0d82d88b/tsc%2Finternal%2Ftsoptions%2Frawcompileroptions_test.go"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38990430664,
+          "name": "Close issues",
+          "path": ".github/workflows/close-issues.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38990430664",
+          "head_sha": "9de8b7a3b8c68a5ad51ffa4529b622215a32a185"
+        },
+        {
+          "id": 38980809207,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38980809207",
+          "head_sha": "9de8b7a3b8c68a5ad51ffa4529b622215a32a185"
+        },
+        {
+          "id": 38980809188,
+          "name": "Scorecard supply-chain security",
+          "path": ".github/workflows/scorecard.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38980809188",
+          "head_sha": "9de8b7a3b8c68a5ad51ffa4529b622215a32a185"
+        },
+        {
+          "id": 38980809187,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38980809187",
+          "head_sha": "9de8b7a3b8c68a5ad51ffa4529b622215a32a185"
+        },
+        {
+          "id": 38979754342,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38979754342",
+          "head_sha": "9de8b7a3b8c68a5ad51ffa4529b622215a32a185"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38881413772,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38881413772",
+          "head_sha": "810320d0bfa0b61616109e230ea4a23f0d82d88b"
+        },
+        {
+          "id": 38881413770,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38881413770",
+          "head_sha": "810320d0bfa0b61616109e230ea4a23f0d82d88b"
+        }
+      ]
+    },
+    {
+      "number": 64846,
+      "title": "[api] Add timing collection and dump via environment variable",
+      "url": "https://github.com/microsoft/TypeScript/pull/64846",
+      "merged_at": "2026-10-16T22:51:49Z",
+      "merge_commit_sha": "39be28ba77f436d2a09b35fecb61ab203e2024eb",
+      "files": [
+        "packages/typescript/src/api/async/api.ts",
+        "packages/typescript/src/api/async/client.ts",
+        "packages/typescript/src/api/options.ts",
+        "packages/typescript/src/api/sync/api.ts",
+        "packages/typescript/src/api/sync/client.ts",
+        "packages/typescript/src/api/syncChannel.ts",
+        "packages/typescript/src/api/timing.ts",
+        "packages/typescript/src/api/timingDump.ts",
+        "packages/typescript/test/timingDump.test.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "packages/typescript/src/api/async/api.ts",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/d0a87b2133a8300c3ac6e7de10998ea70d1b3136/packages%2Ftypescript%2Fsrc%2Fapi%2Fasync%2Fapi.ts"
+        },
+        {
+          "filename": "packages/typescript/src/api/async/client.ts",
+          "status": "modified",
+          "additions": 53,
+          "deletions": 20,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/d0a87b2133a8300c3ac6e7de10998ea70d1b3136/packages%2Ftypescript%2Fsrc%2Fapi%2Fasync%2Fclient.ts"
+        },
+        {
+          "filename": "packages/typescript/src/api/options.ts",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/d0a87b2133a8300c3ac6e7de10998ea70d1b3136/packages%2Ftypescript%2Fsrc%2Fapi%2Foptions.ts"
+        },
+        {
+          "filename": "packages/typescript/src/api/sync/api.ts",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/d0a87b2133a8300c3ac6e7de10998ea70d1b3136/packages%2Ftypescript%2Fsrc%2Fapi%2Fsync%2Fapi.ts"
+        },
+        {
+          "filename": "packages/typescript/src/api/sync/client.ts",
+          "status": "modified",
+          "additions": 26,
+          "deletions": 1,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/d0a87b2133a8300c3ac6e7de10998ea70d1b3136/packages%2Ftypescript%2Fsrc%2Fapi%2Fsync%2Fclient.ts"
+        },
+        {
+          "filename": "packages/typescript/src/api/syncChannel.ts",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 1,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/d0a87b2133a8300c3ac6e7de10998ea70d1b3136/packages%2Ftypescript%2Fsrc%2Fapi%2FsyncChannel.ts"
+        },
+        {
+          "filename": "packages/typescript/src/api/timing.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/d0a87b2133a8300c3ac6e7de10998ea70d1b3136/packages%2Ftypescript%2Fsrc%2Fapi%2Ftiming.ts"
+        },
+        {
+          "filename": "packages/typescript/src/api/timingDump.ts",
+          "status": "added",
+          "additions": 55,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/d0a87b2133a8300c3ac6e7de10998ea70d1b3136/packages%2Ftypescript%2Fsrc%2Fapi%2FtimingDump.ts"
+        },
+        {
+          "filename": "packages/typescript/test/timingDump.test.ts",
+          "status": "added",
+          "additions": 132,
+          "deletions": 0,
+          "blob_url": "https://github.com/microsoft/TypeScript/blob/d0a87b2133a8300c3ac6e7de10998ea70d1b3136/packages%2Ftypescript%2Ftest%2FtimingDump.test.ts"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38978238443,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38978238443",
+          "head_sha": "39be28ba77f436d2a09b35fecb61ab203e2024eb"
+        },
+        {
+          "id": 38978238425,
+          "name": "Scorecard supply-chain security",
+          "path": ".github/workflows/scorecard.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38978238425",
+          "head_sha": "39be28ba77f436d2a09b35fecb61ab203e2024eb"
+        },
+        {
+          "id": 38978238396,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38978238396",
+          "head_sha": "39be28ba77f436d2a09b35fecb61ab203e2024eb"
+        },
+        {
+          "id": 38977138513,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38977138513",
+          "head_sha": "39be28ba77f436d2a09b35fecb61ab203e2024eb"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38972387887,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38972387887",
+          "head_sha": "d0a87b2133a8300c3ac6e7de10998ea70d1b3136"
+        },
+        {
+          "id": 38972387567,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/38972387567",
+          "head_sha": "d0a87b2133a8300c3ac6e7de10998ea70d1b3136"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "vscode-typescript/v1.0.1",
+      "url": "https://github.com/microsoft/TypeScript/releases/tag/vscode-typescript/v1.0.1",
+      "published_at": "2026-09-30T19:10:03Z",
+      "target_commitish": "main",
+      "commit_sha": "b6eaace9d7cfd63c018ab25340ba463baae07fb5",
+      "assets": [
+        "native-preview-alpine-arm64.vsix",
+        "native-preview-alpine-x64.vsix",
+        "native-preview-darwin-arm64.vsix",
+        "native-preview-darwin-x64.vsix",
+        "native-preview-linux-arm64.vsix",
+        "native-preview-linux-armhf.vsix",
+        "native-preview-linux-x64.vsix",
+        "native-preview-win32-arm64.vsix",
+        "native-preview-win32-x64.vsix"
+      ],
+      "workflow_runs": [
+        {
+          "id": 36627889772,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/36627889772",
+          "head_sha": "b6eaace9d7cfd63c018ab25340ba463baae07fb5"
+        },
+        {
+          "id": 36619730767,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/36619730767",
+          "head_sha": "b6eaace9d7cfd63c018ab25340ba463baae07fb5"
+        },
+        {
+          "id": 36619730725,
+          "name": "Tag vscode-typescript release",
+          "path": ".github/workflows/tag-vscode-typescript.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/36619730725",
+          "head_sha": "b6eaace9d7cfd63c018ab25340ba463baae07fb5"
+        },
+        {
+          "id": 36619730772,
+          "name": "Scorecard supply-chain security",
+          "path": ".github/workflows/scorecard.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/36619730772",
+          "head_sha": "b6eaace9d7cfd63c018ab25340ba463baae07fb5"
+        },
+        {
+          "id": 36619730604,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/36619730604",
+          "head_sha": "b6eaace9d7cfd63c018ab25340ba463baae07fb5"
+        },
+        {
+          "id": 36618539608,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/36618539608",
+          "head_sha": "b6eaace9d7cfd63c018ab25340ba463baae07fb5"
+        }
+      ]
+    },
+    {
+      "tag": "v7.0.2",
+      "url": "https://github.com/microsoft/TypeScript/releases/tag/v7.0.2",
+      "published_at": "2026-08-20T18:09:49Z",
+      "target_commitish": "main",
+      "commit_sha": "1e4744d68260a7cb91b62b12edc3f6a2187faaf1",
+      "assets": [
+        "typescript-aix-ppc64.tgz",
+        "typescript-darwin-arm64.tgz",
+        "typescript-darwin-x64.tgz",
+        "typescript-freebsd-arm64.tgz",
+        "typescript-freebsd-x64.tgz",
+        "typescript-linux-arm.tgz",
+        "typescript-linux-arm64.tgz",
+        "typescript-linux-loong64.tgz",
+        "typescript-linux-mips64el.tgz",
+        "typescript-linux-ppc64.tgz",
+        "typescript-linux-riscv64.tgz",
+        "typescript-linux-s390x.tgz",
+        "typescript-linux-x64.tgz",
+        "typescript-netbsd-arm64.tgz",
+        "typescript-netbsd-x64.tgz",
+        "typescript-openbsd-arm64.tgz",
+        "typescript-openbsd-x64.tgz",
+        "typescript-sunos-x64.tgz",
+        "typescript-win32-arm64.tgz",
+        "typescript-win32-x64.tgz",
+        "typescript.tgz"
+      ],
+      "workflow_runs": []
+    },
+    {
+      "tag": "v6.0.3",
+      "url": "https://github.com/microsoft/TypeScript/releases/tag/v6.0.3",
+      "published_at": "2026-04-16T23:43:08Z",
+      "target_commitish": "050880ce59e30b356b686bd3144efe24f875ebc8",
+      "commit_sha": "050880ce59e30b356b686bd3144efe24f875ebc8",
+      "assets": [
+        "typescript-6.0.3.tgz"
+      ],
+      "workflow_runs": [
+        {
+          "id": 24481893009,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/24481893009",
+          "head_sha": "050880ce59e30b356b686bd3144efe24f875ebc8"
+        },
+        {
+          "id": 24481892998,
+          "name": "Code Scanning - Action",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/24481892998",
+          "head_sha": "050880ce59e30b356b686bd3144efe24f875ebc8"
+        },
+        {
+          "id": 24481893022,
+          "name": "Create Releasable Package Drop",
+          "path": ".github/workflows/release-branch-artifact.yaml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/microsoft/TypeScript/actions/runs/24481893022",
+          "head_sha": "050880ce59e30b356b686bd3144efe24f875ebc8"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "vscode-typescript/v1.0.1",
+      "sha": "b6eaace9d7cfd63c018ab25340ba463baae07fb5"
+    },
+    {
+      "name": "vscode-typescript/v1.0.0",
+      "sha": "716fee863d3659be5f042cdf98fe622738148fdc"
+    },
+    {
+      "name": "v7.0.2",
+      "sha": "1e4744d68260a7cb91b62b12edc3f6a2187faaf1"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:20:32.835563+00:00",
+  "source_times": {
+    "/repos/microsoft/TypeScript": "2026-10-17T16:16:56.378905+00:00",
+    "/repos/microsoft/TypeScript/commits?sha=main&per_page=20": "2026-10-17T16:16:58.405011+00:00",
+    "/repos/microsoft/TypeScript/git/trees/2e9fb00f5f5c9186d09aabd78cced5ce2497456d": "2026-10-17T16:16:59.903291+00:00",
+    "/repos/microsoft/TypeScript/git/trees/063b89cfc8262432fe3df979271e8edc44daa6f0": "2026-10-17T16:17:01.332886+00:00",
+    "/repos/microsoft/TypeScript/git/trees/f1e20d1ba91485c47e24b639ac3ce65854ecb00b": "2026-10-17T16:17:02.824409+00:00",
+    "/repos/microsoft/TypeScript/git/trees/7db0bea3b97f530ea0528b2a3084cff8bbe59575": "2026-10-17T16:17:04.270550+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/65c8a42b8d25c6b43d56712bffc4c9598e7dd569": "2026-10-17T16:17:05.756630+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/462f0e44e9fef58282061a67a3f4bf1eb9e75e61": "2026-10-17T16:17:07.337719+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/79adc1b165e396ac026a8e88da02e693b4a5afae": "2026-10-17T16:17:08.731722+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/fa5c363fcc727ca98e75882f579891ccad07b61b": "2026-10-17T16:17:10.815631+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/fc172b52acb1b327f1007d72ed266d1905dbf81f": "2026-10-17T16:17:12.236556+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/320354f8d467cd1776c7491028aefa78deffa864": "2026-10-17T16:17:13.912673+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/6987fee6a9e4658a2e36cc595cba6ef8ed4f8a1b": "2026-10-17T16:17:15.381454+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/e4d4b1f6714204a0ee571c2865d8ecd24e3710b5": "2026-10-17T16:17:16.804161+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/9aee8889c856e36a9f00960f45d05dbd9e8b80e4": "2026-10-17T16:17:18.181480+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/21312c88e126479a239db669fb0c70cfb479fecb": "2026-10-17T16:17:20.615724+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/21c6d826e4c64eba1054a59484c5dbe95d1aeaa2": "2026-10-17T16:17:23.590942+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/bc9b84fd71b6ba235644e496e846ed1a33201d1d": "2026-10-17T16:17:26.424011+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/b6d8e0e22f50ed4d88408a80aaf0cdf80b71413b": "2026-10-17T16:17:27.800322+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/253d7ea60471a65c122db8b1ed5745ccaadbeac7": "2026-10-17T16:17:29.259173+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/f57eb0a941c888d17775217095560aa65a558f40": "2026-10-17T16:17:30.672311+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/b4bbdef4f1f486e36709a165064c9aed62fd01a2": "2026-10-17T16:17:32.298102+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/7fa9e2b3b81ff34537e3f8bf7e5c9be5636f82a9": "2026-10-17T16:17:33.713158+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/bc593f91cfc29e5a1451a6d50a56294fe38eabc7": "2026-10-17T16:17:35.202216+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/d40302cf541a91468d1a13ed3686db72333e1bb5": "2026-10-17T16:17:36.698728+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/7082f43fdf781937f1a8272e04805010807a92a3": "2026-10-17T16:17:38.235457+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/6a59a9a43c4514d0a1256527ac0ed2a7a7ceb707": "2026-10-17T16:17:39.649439+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/93e4b912902c859be3e4156955015f67a1befe38": "2026-10-17T16:17:41.048296+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/a0dd69e68bb5d4ee96308a74899384aa93c539b9": "2026-10-17T16:17:42.578660+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/57d0372031c2c865d349bca27e72ac2d2c1d8e7c": "2026-10-17T16:17:44.012744+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/dbf2e235b3e608490d751f528e6bcfdda264ab40": "2026-10-17T16:17:45.423781+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/ec726a91f227e12958eed913c696e49ab60899ff": "2026-10-17T16:17:46.847769+00:00",
+    "/repos/microsoft/TypeScript/git/blobs/d271516790b27138e6e28742fb55e9f7197f7a62": "2026-10-17T16:17:48.328447+00:00",
+    "/repos/microsoft/TypeScript/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:17:52.021848+00:00",
+    "/repos/microsoft/TypeScript/pulls/64850/files?per_page=100": "2026-10-17T16:17:54.642283+00:00",
+    "/repos/microsoft/TypeScript/pulls/64850/reviews?per_page=100": "2026-10-17T16:17:56.676604+00:00",
+    "/repos/microsoft/TypeScript/actions/runs?head_sha=2e9fb00f5f5c9186d09aabd78cced5ce2497456d&per_page=10": "2026-10-17T16:17:59.828808+00:00",
+    "/repos/microsoft/TypeScript/actions/runs?head_sha=bbc43bfacbbc1be0c70ae3a709d53f467abeafb6&per_page=10": "2026-10-17T16:18:01.561744+00:00",
+    "/repos/microsoft/TypeScript/pulls/64843/files?per_page=100": "2026-10-17T16:18:03.082391+00:00",
+    "/repos/microsoft/TypeScript/pulls/64843/reviews?per_page=100": "2026-10-17T16:18:04.702215+00:00",
+    "/repos/microsoft/TypeScript/actions/runs?head_sha=9de8b7a3b8c68a5ad51ffa4529b622215a32a185&per_page=10": "2026-10-17T16:18:06.697538+00:00",
+    "/repos/microsoft/TypeScript/actions/runs?head_sha=810320d0bfa0b61616109e230ea4a23f0d82d88b&per_page=10": "2026-10-17T16:18:08.384986+00:00",
+    "/repos/microsoft/TypeScript/pulls/64846/files?per_page=100": "2026-10-17T16:18:10.196400+00:00",
+    "/repos/microsoft/TypeScript/pulls/64846/reviews?per_page=100": "2026-10-17T16:18:12.140558+00:00",
+    "/repos/microsoft/TypeScript/actions/runs?head_sha=39be28ba77f436d2a09b35fecb61ab203e2024eb&per_page=10": "2026-10-17T16:18:14.874454+00:00",
+    "/repos/microsoft/TypeScript/actions/runs?head_sha=d0a87b2133a8300c3ac6e7de10998ea70d1b3136&per_page=10": "2026-10-17T16:18:16.831615+00:00",
+    "/repos/microsoft/TypeScript/releases?per_page=20&page=1": "2026-10-17T16:20:32.833117+00:00",
+    "/repos/microsoft/TypeScript/commits/vscode-typescript%2Fv1.0.1": "2026-10-17T16:18:21.175864+00:00",
+    "/repos/microsoft/TypeScript/actions/runs?head_sha=b6eaace9d7cfd63c018ab25340ba463baae07fb5&per_page=10": "2026-10-17T16:18:23.379402+00:00",
+    "/repos/microsoft/TypeScript/commits/v7.0.2": "2026-10-17T16:18:24.821264+00:00",
+    "/repos/microsoft/TypeScript/actions/runs?head_sha=1e4744d68260a7cb91b62b12edc3f6a2187faaf1&per_page=10": "2026-10-17T16:18:26.265896+00:00",
+    "/repos/microsoft/TypeScript/commits/v6.0.3": "2026-10-17T16:18:29.146374+00:00",
+    "/repos/microsoft/TypeScript/actions/runs?head_sha=050880ce59e30b356b686bd3144efe24f875ebc8&per_page=10": "2026-10-17T16:18:30.888212+00:00",
+    "/repos/microsoft/TypeScript/tags?per_page=3": "2026-10-17T16:18:32.250528+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:20:32.833117+00:00",
+  "status": "collected"
+}

@@ -1,0 +1,1930 @@
+{
+  "requested_repository": "modelcontextprotocol/typescript-sdk",
+  "category": "agents",
+  "collected_at": "2026-10-17T16:07:19.228826+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "modelcontextprotocol/typescript-sdk",
+  "metadata": {
+    "html_url": "https://github.com/modelcontextprotocol/typescript-sdk",
+    "description": "The official TypeScript SDK for Model Context Protocol servers and clients",
+    "homepage": "https://ts.sdk.modelcontextprotocol.io/v2",
+    "language": "TypeScript",
+    "stargazers_count": 13598,
+    "forks_count": 2379,
+    "open_issues_count": 587,
+    "pushed_at": "2026-10-14T00:05:33Z",
+    "created_at": "2024-09-24T20:45:31Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "topics": [
+      "mcp",
+      "mcp-client",
+      "mcp-server",
+      "typescript"
+    ],
+    "owner": {
+      "login": "modelcontextprotocol",
+      "type": "Organization",
+      "html_url": "https://github.com/modelcontextprotocol"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "9bc40e903fde15534ec06ff4c1347d47000dbe16",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/9bc40e903fde15534ec06ff4c1347d47000dbe16",
+      "date": "2026-10-13T12:11:15Z",
+      "subject": "Docs/migration skill (#2968)"
+    },
+    {
+      "sha": "43c45f4941d824e7251a7d1266823a84af90fab3",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/43c45f4941d824e7251a7d1266823a84af90fab3",
+      "date": "2026-10-12T16:10:44Z",
+      "subject": "fix(server): keep the Mcp-Param check on a tool with a number-typed header (#2960)"
+    },
+    {
+      "sha": "b381559edc0dbe25ab8324cada345b49bd1d2fc4",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/b381559edc0dbe25ab8324cada345b49bd1d2fc4",
+      "date": "2026-10-12T09:54:16Z",
+      "subject": "fix(server): reflect resource title updates in list responses (#3005)"
+    },
+    {
+      "sha": "b022522089a0c8b632595c6e7b536453945ed5a9",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/b022522089a0c8b632595c6e7b536453945ed5a9",
+      "date": "2026-10-05T14:38:02Z",
+      "subject": "fix(core): reject x-mcp-header on number-typed parameters (#2762)"
+    },
+    {
+      "sha": "324299b22ce5d4c95f6fc266ad2033c89e4363d6",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/324299b22ce5d4c95f6fc266ad2033c89e4363d6",
+      "date": "2026-10-05T12:19:05Z",
+      "subject": "ci: skip the Publish job when every version is already on npm (#2956)"
+    },
+    {
+      "sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/fcef852f6cdafea07f36cf6fae69b37c8adf85be",
+      "date": "2026-10-05T11:46:43Z",
+      "subject": "Version Packages (#2953)"
+    },
+    {
+      "sha": "e8b7f05f5b9e4204510289dc0596531265e9ddcb",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/e8b7f05f5b9e4204510289dc0596531265e9ddcb",
+      "date": "2026-10-05T11:40:24Z",
+      "subject": "docs: one opening note in the server and client package READMEs (#2955)"
+    },
+    {
+      "sha": "5a1867390b91b8836f49af76c45427279f513325",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/5a1867390b91b8836f49af76c45427279f513325",
+      "date": "2026-10-05T11:22:31Z",
+      "subject": "feat(server-legacy): add expectedResource to requireBearerAuth (#2952)"
+    },
+    {
+      "sha": "3ab61c61f5ff1cd6b67eec6222247c66635495fd",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/3ab61c61f5ff1cd6b67eec6222247c66635495fd",
+      "date": "2026-10-05T10:14:51Z",
+      "subject": "docs: update the README banners (#2940)"
+    },
+    {
+      "sha": "8aabbdcef6e016978a3132045281dfbd51c69792",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/8aabbdcef6e016978a3132045281dfbd51c69792",
+      "date": "2026-10-02T18:43:19Z",
+      "subject": "test(e2e): expect SdkHttpError after a second 401 from onUnauthorized (#2936)"
+    },
+    {
+      "sha": "33fecfb119cb637022fcb345c61c09227ed04fc4",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/33fecfb119cb637022fcb345c61c09227ed04fc4",
+      "date": "2026-10-02T18:38:43Z",
+      "subject": "test(e2e): cover tools/call without arguments (#2933)"
+    },
+    {
+      "sha": "818f7828898f367bfd4436bf55ccdfa17c3757d6",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/818f7828898f367bfd4436bf55ccdfa17c3757d6",
+      "date": "2026-10-02T18:34:03Z",
+      "subject": "docs: state the principles in CLAUDE.md and shorten REVIEW.md (#2938)"
+    },
+    {
+      "sha": "a202a3621fcb97918e09fa45d0f9efd2dbdee19b",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/a202a3621fcb97918e09fa45d0f9efd2dbdee19b",
+      "date": "2026-10-02T17:41:26Z",
+      "subject": "Version Packages (#2896)"
+    },
+    {
+      "sha": "2d731faef167b3df78d4be05f547a134f0e23bcf",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/2d731faef167b3df78d4be05f547a134f0e23bcf",
+      "date": "2026-10-02T17:19:39Z",
+      "subject": "fix(client): refresh again when an SSE retry failed for a reason other than 401 (#2934)"
+    },
+    {
+      "sha": "b6e5c5574e107c33cb6ae33c2e869780f5684c3a",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/b6e5c5574e107c33cb6ae33c2e869780f5684c3a",
+      "date": "2026-10-02T16:52:51Z",
+      "subject": "test(e2e): cover prompts/get without arguments for prompts with a schema (#2928)"
+    },
+    {
+      "sha": "40f8f4e229d963cd7fd2890bda2aeebe7005299a",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/40f8f4e229d963cd7fd2890bda2aeebe7005299a",
+      "date": "2026-10-02T16:28:25Z",
+      "subject": "feat(server): add expectedResource to the bearer-token check (#2929)"
+    },
+    {
+      "sha": "6d8dbc6cb590edf766fcb66b636ca6b654e99c37",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/6d8dbc6cb590edf766fcb66b636ca6b654e99c37",
+      "date": "2026-10-02T15:51:43Z",
+      "subject": "feat(server): add maxToolInputElements option to limit the number of elements in tool-call arguments (#2926)"
+    },
+    {
+      "sha": "2fc49eaf17a6b9ac0810c875cc96d3b949f9522c",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/2fc49eaf17a6b9ac0810c875cc96d3b949f9522c",
+      "date": "2026-10-02T14:49:38Z",
+      "subject": "fix(server): accept prompts/get requests that omit arguments (#2107)"
+    },
+    {
+      "sha": "63c0fcab49dc13f22dd7d016d6320c62d05e3ca8",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/63c0fcab49dc13f22dd7d016d6320c62d05e3ca8",
+      "date": "2026-10-02T14:43:48Z",
+      "subject": "fix(client): update eventsource-parser for large SSE responses (#2846)"
+    },
+    {
+      "sha": "84804c22e45a662675a198f853b7f00063838a8d",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/commit/84804c22e45a662675a198f853b7f00063838a8d",
+      "date": "2026-10-02T13:03:49Z",
+      "subject": "fix(server): refuse a second connect and stateless transport reuse (#2918)"
+    }
+  ],
+  "default_sha": "9bc40e903fde15534ec06ff4c1347d47000dbe16",
+  "root_and_selected_directory_paths": [
+    ".changeset",
+    ".git-blame-ignore-revs",
+    ".github",
+    ".github/CODEOWNERS",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/v2-feedback.yml",
+    ".github/dependabot.yml",
+    ".github/workflows",
+    ".github/workflows/claude.yml",
+    ".github/workflows/conformance.yml",
+    ".github/workflows/deploy-docs.yml",
+    ".github/workflows/examples.yml",
+    ".github/workflows/main.yml",
+    ".github/workflows/publish.yml",
+    ".github/workflows/release.yml",
+    ".gitignore",
+    ".npmrc",
+    ".prettierignore",
+    ".prettierrc.json",
+    "CLAUDE.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "DEPENDENCY_POLICY.md",
+    "LICENSE",
+    "README.md",
+    "REVIEW.md",
+    "ROADMAP.md",
+    "SECURITY.md",
+    "VERSIONING.md",
+    "common",
+    "docs",
+    "docs/.vitepress",
+    "docs/_meta",
+    "docs/advanced",
+    "docs/behavior-surface-pins.md",
+    "docs/clients",
+    "docs/get-started",
+    "docs/index.md",
+    "docs/migration",
+    "docs/protocol-versions.md",
+    "docs/public",
+    "docs/servers",
+    "docs/serving",
+    "docs/testing.md",
+    "docs/troubleshooting.md",
+    "docs/v1",
+    "examples",
+    "lefthook-local.example.yml",
+    "lefthook.yml",
+    "package.json",
+    "packages",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "scripts",
+    "skills",
+    "test",
+    "typedoc.config.mjs",
+    "vitest.workspace.js"
+  ],
+  "workflow_paths": [
+    ".github/workflows/publish.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/claude.yml",
+    ".github/workflows/conformance.yml",
+    ".github/workflows/deploy-docs.yml",
+    ".github/workflows/examples.yml",
+    ".github/workflows/main.yml"
+  ],
+  "documents": [
+    {
+      "path": "CLAUDE.md",
+      "sha": "041c5e11ef3e050c5d1aab2c2956c91007b9a8bc",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/9bc40e903fde15534ec06ff4c1347d47000dbe16/CLAUDE.md",
+      "lines": 14,
+      "signals": {
+        "tests": [],
+        "lint": [
+          14
+        ],
+        "generated_code": [],
+        "release_automation": [
+          10
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "62c701add52116231dc07a1ccdcc12bb01d494b5",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/9bc40e903fde15534ec06ff4c1347d47000dbe16/CODE_OF_CONDUCT.md",
+      "lines": 83,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "fe774efe39b7d4f6f206adedda3417a7654f7769",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/9bc40e903fde15534ec06ff4c1347d47000dbe16/CONTRIBUTING.md",
+      "lines": 200,
+      "signals": {
+        "tests": [
+          103,
+          110
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          196
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          38
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "52d9fdac909fe4db617a656cd961ea942c9883e3",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/9bc40e903fde15534ec06ff4c1347d47000dbe16/README.md",
+      "lines": 177,
+      "signals": {
+        "tests": [],
+        "lint": [
+          3,
+          11
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          15,
+          16
+        ],
+        "media": [
+          15,
+          16
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "50292420096eb98f07f3945dc30325fe8b17a2af",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/9bc40e903fde15534ec06ff4c1347d47000dbe16/SECURITY.md",
+      "lines": 21,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          8,
+          11
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "package.json",
+      "sha": "0be02df4eee6c59d8d4800d8a783f908c5e99c1b",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/9bc40e903fde15534ec06ff4c1347d47000dbe16/package.json",
+      "lines": 95,
+      "signals": {
+        "tests": [
+          89
+        ],
+        "lint": [
+          60,
+          73,
+          74,
+          75,
+          78,
+          87
+        ],
+        "generated_code": [],
+        "release_automation": [
+          58,
+          59
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha": "fe03e038d95d3a95ec742ae0e95bc281104e75ab",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/9bc40e903fde15534ec06ff4c1347d47000dbe16/.github/CODEOWNERS",
+      "lines": 4,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/v2-feedback.yml",
+      "sha": "9218a1646eaec1affbc2a5e445628cf7cefd60db",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/9bc40e903fde15534ec06ff4c1347d47000dbe16/.github/ISSUE_TEMPLATE/v2-feedback.yml",
+      "lines": 53,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "b18fd2935736768f4b1eb12f15709ba4c2f05171",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/9bc40e903fde15534ec06ff4c1347d47000dbe16/.github/dependabot.yml",
+      "lines": 6,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "sha": "d8db820e1327a350d69c4bd710e91ad778bb108a",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/9bc40e903fde15534ec06ff4c1347d47000dbe16/.github/workflows/publish.yml",
+      "lines": 43,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          3
+        ],
+        "pinned_actions": [
+          22
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha": "50bacb5c02934455c9b58cfadd098ed0a9b8da25",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/9bc40e903fde15534ec06ff4c1347d47000dbe16/.github/workflows/release.yml",
+      "lines": 89,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          18,
+          44,
+          45,
+          52,
+          53,
+          77,
+          84
+        ],
+        "permissions": [
+          14,
+          15,
+          56,
+          57,
+          58
+        ],
+        "pinned_actions": [
+          24,
+          45,
+          63,
+          84
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "sha": "5e48e2c5eade56eda229d11ea8d303a7a64fd657",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/9bc40e903fde15534ec06ff4c1347d47000dbe16/.github/workflows/claude.yml",
+      "lines": 41,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          22,
+          26
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/conformance.yml",
+      "sha": "bb2dbef5049bd36f7156415ccf52cb59fe7f8af7",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/9bc40e903fde15534ec06ff4c1347d47000dbe16/.github/workflows/conformance.yml",
+      "lines": 53,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13
+        ],
+        "pinned_actions": [
+          22,
+          40
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "sha": "68ed84f8e657dfda12c1ef2f68cb2902c87a5020",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/9bc40e903fde15534ec06ff4c1347d47000dbe16/.github/workflows/deploy-docs.yml",
+      "lines": 56,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          18,
+          21
+        ],
+        "pinned_actions": [
+          31
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/examples.yml",
+      "sha": "e00c0c289c7e647b28f2d74fbb1c2a20ea377ccb",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/9bc40e903fde15534ec06ff4c1347d47000dbe16/.github/workflows/examples.yml",
+      "lines": 53,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [
+          30
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "sha": "9aba480eae0b54e143e238ed4ff4e6e3b82f5684",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/9bc40e903fde15534ec06ff4c1347d47000dbe16/.github/workflows/main.yml",
+      "lines": 122,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          21,
+          47,
+          73,
+          100,
+          110,
+          115
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "skills/mcp-typescript-sdk-upgrade-to-v2/SKILL.md",
+      "sha": "2a0074d75a2ed39eeb085e35e021c47dc623780b",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/9bc40e903fde15534ec06ff4c1347d47000dbe16/skills/mcp-typescript-sdk-upgrade-to-v2/SKILL.md",
+      "lines": 167,
+      "signals": {
+        "tests": [
+          87,
+          144
+        ],
+        "lint": [
+          35
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 2968,
+      "title": "Docs/migration skill",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/pull/2968",
+      "merged_at": "2026-10-13T12:11:16Z",
+      "merge_commit_sha": "9bc40e903fde15534ec06ff4c1347d47000dbe16",
+      "files": [
+        "CONTRIBUTING.md",
+        "docs/.vitepress/config.mts",
+        "docs/.vitepress/llms.ts",
+        "docs/.vitepress/skill.ts",
+        "docs/behavior-surface-pins.md",
+        "docs/migration/index.md",
+        "docs/migration/support-2026-07-28.md",
+        "docs/migration/upgrade-to-v2.md",
+        "package.json",
+        "scripts/check-skills.ts",
+        "skills/mcp-typescript-sdk-upgrade-to-v2/SKILL.md",
+        "skills/mcp-typescript-sdk-upgrade-to-v2/references/auth.md",
+        "skills/mcp-typescript-sdk-upgrade-to-v2/references/behavioral-changes.md",
+        "skills/mcp-typescript-sdk-upgrade-to-v2/references/enhancements.md",
+        "skills/mcp-typescript-sdk-upgrade-to-v2/references/errors.md",
+        "skills/mcp-typescript-sdk-upgrade-to-v2/references/http-headers.md",
+        "skills/mcp-typescript-sdk-upgrade-to-v2/references/imports-transports.md",
+        "skills/mcp-typescript-sdk-upgrade-to-v2/references/packaging-runtime.md",
+        "skills/mcp-typescript-sdk-upgrade-to-v2/references/protocol-ctx.md",
+        "skills/mcp-typescript-sdk-upgrade-to-v2/references/server-registration.md",
+        "skills/mcp-typescript-sdk-upgrade-to-v2/references/types-schemas.md",
+        "skills/mcp-typescript-sdk-upgrade-to-v2/references/unchanged-apis.md"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "CONTRIBUTING.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/CONTRIBUTING.md"
+        },
+        {
+          "filename": "docs/.vitepress/config.mts",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/docs%2F.vitepress%2Fconfig.mts"
+        },
+        {
+          "filename": "docs/.vitepress/llms.ts",
+          "status": "modified",
+          "additions": 26,
+          "deletions": 2,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/docs%2F.vitepress%2Fllms.ts"
+        },
+        {
+          "filename": "docs/.vitepress/skill.ts",
+          "status": "added",
+          "additions": 36,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/docs%2F.vitepress%2Fskill.ts"
+        },
+        {
+          "filename": "docs/behavior-surface-pins.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/docs%2Fbehavior-surface-pins.md"
+        },
+        {
+          "filename": "docs/migration/index.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 3,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/docs%2Fmigration%2Findex.md"
+        },
+        {
+          "filename": "docs/migration/support-2026-07-28.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/docs%2Fmigration%2Fsupport-2026-07-28.md"
+        },
+        {
+          "filename": "docs/migration/upgrade-to-v2.md",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 1843,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/docs%2Fmigration%2Fupgrade-to-v2.md"
+        },
+        {
+          "filename": "package.json",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/package.json"
+        },
+        {
+          "filename": "scripts/check-skills.ts",
+          "status": "added",
+          "additions": 87,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/scripts%2Fcheck-skills.ts"
+        },
+        {
+          "filename": "skills/mcp-typescript-sdk-upgrade-to-v2/SKILL.md",
+          "status": "added",
+          "additions": 167,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/skills%2Fmcp-typescript-sdk-upgrade-to-v2%2FSKILL.md"
+        },
+        {
+          "filename": "skills/mcp-typescript-sdk-upgrade-to-v2/references/auth.md",
+          "status": "added",
+          "additions": 286,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/skills%2Fmcp-typescript-sdk-upgrade-to-v2%2Freferences%2Fauth.md"
+        },
+        {
+          "filename": "skills/mcp-typescript-sdk-upgrade-to-v2/references/behavioral-changes.md",
+          "status": "added",
+          "additions": 259,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/skills%2Fmcp-typescript-sdk-upgrade-to-v2%2Freferences%2Fbehavioral-changes.md"
+        },
+        {
+          "filename": "skills/mcp-typescript-sdk-upgrade-to-v2/references/enhancements.md",
+          "status": "added",
+          "additions": 32,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/skills%2Fmcp-typescript-sdk-upgrade-to-v2%2Freferences%2Fenhancements.md"
+        },
+        {
+          "filename": "skills/mcp-typescript-sdk-upgrade-to-v2/references/errors.md",
+          "status": "added",
+          "additions": 203,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/skills%2Fmcp-typescript-sdk-upgrade-to-v2%2Freferences%2Ferrors.md"
+        },
+        {
+          "filename": "skills/mcp-typescript-sdk-upgrade-to-v2/references/http-headers.md",
+          "status": "added",
+          "additions": 56,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/skills%2Fmcp-typescript-sdk-upgrade-to-v2%2Freferences%2Fhttp-headers.md"
+        },
+        {
+          "filename": "skills/mcp-typescript-sdk-upgrade-to-v2/references/imports-transports.md",
+          "status": "added",
+          "additions": 86,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/skills%2Fmcp-typescript-sdk-upgrade-to-v2%2Freferences%2Fimports-transports.md"
+        },
+        {
+          "filename": "skills/mcp-typescript-sdk-upgrade-to-v2/references/packaging-runtime.md",
+          "status": "added",
+          "additions": 181,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/skills%2Fmcp-typescript-sdk-upgrade-to-v2%2Freferences%2Fpackaging-runtime.md"
+        },
+        {
+          "filename": "skills/mcp-typescript-sdk-upgrade-to-v2/references/protocol-ctx.md",
+          "status": "added",
+          "additions": 202,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/skills%2Fmcp-typescript-sdk-upgrade-to-v2%2Freferences%2Fprotocol-ctx.md"
+        },
+        {
+          "filename": "skills/mcp-typescript-sdk-upgrade-to-v2/references/server-registration.md",
+          "status": "added",
+          "additions": 155,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/skills%2Fmcp-typescript-sdk-upgrade-to-v2%2Freferences%2Fserver-registration.md"
+        },
+        {
+          "filename": "skills/mcp-typescript-sdk-upgrade-to-v2/references/types-schemas.md",
+          "status": "added",
+          "additions": 195,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/skills%2Fmcp-typescript-sdk-upgrade-to-v2%2Freferences%2Ftypes-schemas.md"
+        },
+        {
+          "filename": "skills/mcp-typescript-sdk-upgrade-to-v2/references/unchanged-apis.md",
+          "status": "added",
+          "additions": 54,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/f7b63910ccc5c46132674da3b76afa9be744186a/skills%2Fmcp-typescript-sdk-upgrade-to-v2%2Freferences%2Funchanged-apis.md"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39035397165,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/39035397165",
+          "head_sha": "9bc40e903fde15534ec06ff4c1347d47000dbe16"
+        },
+        {
+          "id": 39023870447,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/39023870447",
+          "head_sha": "9bc40e903fde15534ec06ff4c1347d47000dbe16"
+        },
+        {
+          "id": 39007878533,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/39007878533",
+          "head_sha": "9bc40e903fde15534ec06ff4c1347d47000dbe16"
+        },
+        {
+          "id": 38973387773,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38973387773",
+          "head_sha": "9bc40e903fde15534ec06ff4c1347d47000dbe16"
+        },
+        {
+          "id": 38973243770,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38973243770",
+          "head_sha": "9bc40e903fde15534ec06ff4c1347d47000dbe16"
+        },
+        {
+          "id": 38970197013,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38970197013",
+          "head_sha": "9bc40e903fde15534ec06ff4c1347d47000dbe16"
+        },
+        {
+          "id": 38929815070,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38929815070",
+          "head_sha": "9bc40e903fde15534ec06ff4c1347d47000dbe16"
+        },
+        {
+          "id": 38919996592,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38919996592",
+          "head_sha": "9bc40e903fde15534ec06ff4c1347d47000dbe16"
+        },
+        {
+          "id": 38912260474,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38912260474",
+          "head_sha": "9bc40e903fde15534ec06ff4c1347d47000dbe16"
+        },
+        {
+          "id": 38888186177,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38888186177",
+          "head_sha": "9bc40e903fde15534ec06ff4c1347d47000dbe16"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38395445254,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38395445254",
+          "head_sha": "f7b63910ccc5c46132674da3b76afa9be744186a"
+        },
+        {
+          "id": 38368559042,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38368559042",
+          "head_sha": "f7b63910ccc5c46132674da3b76afa9be744186a"
+        },
+        {
+          "id": 38368236828,
+          "name": ".github/workflows/main.yml",
+          "path": ".github/workflows/main.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38368236828",
+          "head_sha": "f7b63910ccc5c46132674da3b76afa9be744186a"
+        },
+        {
+          "id": 38368236682,
+          "name": "Examples",
+          "path": ".github/workflows/examples.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38368236682",
+          "head_sha": "f7b63910ccc5c46132674da3b76afa9be744186a"
+        },
+        {
+          "id": 38368236702,
+          "name": "Conformance Tests",
+          "path": ".github/workflows/conformance.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38368236702",
+          "head_sha": "f7b63910ccc5c46132674da3b76afa9be744186a"
+        },
+        {
+          "id": 38368236622,
+          "name": "Publish Any Commit",
+          "path": ".github/workflows/publish.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38368236622",
+          "head_sha": "f7b63910ccc5c46132674da3b76afa9be744186a"
+        },
+        {
+          "id": 38368232482,
+          "name": "PR #2968",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38368232482",
+          "head_sha": "f7b63910ccc5c46132674da3b76afa9be744186a"
+        },
+        {
+          "id": 38368230233,
+          "name": "Publish Any Commit",
+          "path": ".github/workflows/publish.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38368230233",
+          "head_sha": "f7b63910ccc5c46132674da3b76afa9be744186a"
+        }
+      ]
+    },
+    {
+      "number": 2613,
+      "title": "fix: mirror params.taskId into Mcp-Name for tasks requests (SEP-2663)",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/pull/2613",
+      "merged_at": "2026-08-28T16:23:50Z",
+      "merge_commit_sha": "70de0c8b569b0d664a56b90be2f141d1d1645880",
+      "files": [
+        ".changeset/tasks-mcp-name-header.md",
+        "docs/migration/support-2026-07-28.md",
+        "packages/client/src/client/streamableHttp.ts",
+        "packages/client/test/client/mcpParamMirroring.test.ts",
+        "packages/core-internal/src/shared/inboundClassification.ts",
+        "packages/core-internal/test/shared/standardHeaderValidation.test.ts",
+        "packages/server/test/server/stdHeaderValidation.test.ts",
+        "test/e2e/helpers/index.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".changeset/tasks-mcp-name-header.md",
+          "status": "added",
+          "additions": 9,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/85cf74e1ddcb8e96dbf2a6d1e2854636a3f5565e/.changeset%2Ftasks-mcp-name-header.md"
+        },
+        {
+          "filename": "docs/migration/support-2026-07-28.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/85cf74e1ddcb8e96dbf2a6d1e2854636a3f5565e/docs%2Fmigration%2Fsupport-2026-07-28.md"
+        },
+        {
+          "filename": "packages/client/src/client/streamableHttp.ts",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 14,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/85cf74e1ddcb8e96dbf2a6d1e2854636a3f5565e/packages%2Fclient%2Fsrc%2Fclient%2FstreamableHttp.ts"
+        },
+        {
+          "filename": "packages/client/test/client/mcpParamMirroring.test.ts",
+          "status": "modified",
+          "additions": 17,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/85cf74e1ddcb8e96dbf2a6d1e2854636a3f5565e/packages%2Fclient%2Ftest%2Fclient%2FmcpParamMirroring.test.ts"
+        },
+        {
+          "filename": "packages/core-internal/src/shared/inboundClassification.ts",
+          "status": "modified",
+          "additions": 58,
+          "deletions": 21,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/85cf74e1ddcb8e96dbf2a6d1e2854636a3f5565e/packages%2Fcore-internal%2Fsrc%2Fshared%2FinboundClassification.ts"
+        },
+        {
+          "filename": "packages/core-internal/test/shared/standardHeaderValidation.test.ts",
+          "status": "modified",
+          "additions": 71,
+          "deletions": 6,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/85cf74e1ddcb8e96dbf2a6d1e2854636a3f5565e/packages%2Fcore-internal%2Ftest%2Fshared%2FstandardHeaderValidation.test.ts"
+        },
+        {
+          "filename": "packages/server/test/server/stdHeaderValidation.test.ts",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 2,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/85cf74e1ddcb8e96dbf2a6d1e2854636a3f5565e/packages%2Fserver%2Ftest%2Fserver%2FstdHeaderValidation.test.ts"
+        },
+        {
+          "filename": "test/e2e/helpers/index.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/85cf74e1ddcb8e96dbf2a6d1e2854636a3f5565e/test%2Fe2e%2Fhelpers%2Findex.ts"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 33412497935,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/33412497935",
+          "head_sha": "70de0c8b569b0d664a56b90be2f141d1d1645880"
+        },
+        {
+          "id": 33356084297,
+          "name": "Update Spec Types",
+          "path": ".github/workflows/update-spec-types.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/33356084297",
+          "head_sha": "70de0c8b569b0d664a56b90be2f141d1d1645880"
+        },
+        {
+          "id": 33310537269,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/33310537269",
+          "head_sha": "70de0c8b569b0d664a56b90be2f141d1d1645880"
+        },
+        {
+          "id": 33306993750,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/33306993750",
+          "head_sha": "70de0c8b569b0d664a56b90be2f141d1d1645880"
+        },
+        {
+          "id": 33305284220,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/33305284220",
+          "head_sha": "70de0c8b569b0d664a56b90be2f141d1d1645880"
+        },
+        {
+          "id": 33303449059,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/33303449059",
+          "head_sha": "70de0c8b569b0d664a56b90be2f141d1d1645880"
+        },
+        {
+          "id": 33299448354,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/33299448354",
+          "head_sha": "70de0c8b569b0d664a56b90be2f141d1d1645880"
+        },
+        {
+          "id": 33299398764,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/33299398764",
+          "head_sha": "70de0c8b569b0d664a56b90be2f141d1d1645880"
+        },
+        {
+          "id": 33291798451,
+          "name": "Update Spec Types",
+          "path": ".github/workflows/update-spec-types.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/33291798451",
+          "head_sha": "70de0c8b569b0d664a56b90be2f141d1d1645880"
+        },
+        {
+          "id": 33291721420,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/33291721420",
+          "head_sha": "70de0c8b569b0d664a56b90be2f141d1d1645880"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 33180856589,
+          "name": ".github/workflows/main.yml",
+          "path": ".github/workflows/main.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/33180856589",
+          "head_sha": "85cf74e1ddcb8e96dbf2a6d1e2854636a3f5565e"
+        },
+        {
+          "id": 33180856521,
+          "name": "Examples",
+          "path": ".github/workflows/examples.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/33180856521",
+          "head_sha": "85cf74e1ddcb8e96dbf2a6d1e2854636a3f5565e"
+        },
+        {
+          "id": 33180856536,
+          "name": "Publish Any Commit",
+          "path": ".github/workflows/publish.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/33180856536",
+          "head_sha": "85cf74e1ddcb8e96dbf2a6d1e2854636a3f5565e"
+        },
+        {
+          "id": 33180856558,
+          "name": "Conformance Tests",
+          "path": ".github/workflows/conformance.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/33180856558",
+          "head_sha": "85cf74e1ddcb8e96dbf2a6d1e2854636a3f5565e"
+        }
+      ]
+    },
+    {
+      "number": 2960,
+      "title": "fix(server): keep the Mcp-Param check on a tool with a number-typed header",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/pull/2960",
+      "merged_at": "2026-10-12T16:10:45Z",
+      "merge_commit_sha": "43c45f4941d824e7251a7d1266823a84af90fab3",
+      "files": [
+        ".changeset/mcp-param-check-number-declaration.md",
+        "docs/migration/support-2026-07-28.md",
+        "packages/client/test/client/mcpParamMirroring.test.ts",
+        "packages/core-internal/src/shared/mcpParamHeaders.ts",
+        "packages/server/src/server/createMcpHandler.ts",
+        "packages/server/test/server/mcpParamValidation.test.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".changeset/mcp-param-check-number-declaration.md",
+          "status": "added",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/fbdfbec42f99e24af89d0c680d3967297c7dcbe9/.changeset%2Fmcp-param-check-number-declaration.md"
+        },
+        {
+          "filename": "docs/migration/support-2026-07-28.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/fbdfbec42f99e24af89d0c680d3967297c7dcbe9/docs%2Fmigration%2Fsupport-2026-07-28.md"
+        },
+        {
+          "filename": "packages/client/test/client/mcpParamMirroring.test.ts",
+          "status": "modified",
+          "additions": 17,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/fbdfbec42f99e24af89d0c680d3967297c7dcbe9/packages%2Fclient%2Ftest%2Fclient%2FmcpParamMirroring.test.ts"
+        },
+        {
+          "filename": "packages/core-internal/src/shared/mcpParamHeaders.ts",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 7,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/fbdfbec42f99e24af89d0c680d3967297c7dcbe9/packages%2Fcore-internal%2Fsrc%2Fshared%2FmcpParamHeaders.ts"
+        },
+        {
+          "filename": "packages/server/src/server/createMcpHandler.ts",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/fbdfbec42f99e24af89d0c680d3967297c7dcbe9/packages%2Fserver%2Fsrc%2Fserver%2FcreateMcpHandler.ts"
+        },
+        {
+          "filename": "packages/server/test/server/mcpParamValidation.test.ts",
+          "status": "modified",
+          "additions": 25,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/typescript-sdk/blob/fbdfbec42f99e24af89d0c680d3967297c7dcbe9/packages%2Fserver%2Ftest%2Fserver%2FmcpParamValidation.test.ts"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38377911006,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38377911006",
+          "head_sha": "43c45f4941d824e7251a7d1266823a84af90fab3"
+        },
+        {
+          "id": 38364511755,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38364511755",
+          "head_sha": "43c45f4941d824e7251a7d1266823a84af90fab3"
+        },
+        {
+          "id": 38356747383,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38356747383",
+          "head_sha": "43c45f4941d824e7251a7d1266823a84af90fab3"
+        },
+        {
+          "id": 38349408812,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38349408812",
+          "head_sha": "43c45f4941d824e7251a7d1266823a84af90fab3"
+        },
+        {
+          "id": 38346727902,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38346727902",
+          "head_sha": "43c45f4941d824e7251a7d1266823a84af90fab3"
+        },
+        {
+          "id": 38346630420,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38346630420",
+          "head_sha": "43c45f4941d824e7251a7d1266823a84af90fab3"
+        },
+        {
+          "id": 38327623450,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38327623450",
+          "head_sha": "43c45f4941d824e7251a7d1266823a84af90fab3"
+        },
+        {
+          "id": 38302661625,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38302661625",
+          "head_sha": "43c45f4941d824e7251a7d1266823a84af90fab3"
+        },
+        {
+          "id": 38302531654,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38302531654",
+          "head_sha": "43c45f4941d824e7251a7d1266823a84af90fab3"
+        },
+        {
+          "id": 38298821895,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38298821895",
+          "head_sha": "43c45f4941d824e7251a7d1266823a84af90fab3"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38275537760,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38275537760",
+          "head_sha": "fbdfbec42f99e24af89d0c680d3967297c7dcbe9"
+        },
+        {
+          "id": 38274766420,
+          "name": "Conformance Tests",
+          "path": ".github/workflows/conformance.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38274766420",
+          "head_sha": "fbdfbec42f99e24af89d0c680d3967297c7dcbe9"
+        },
+        {
+          "id": 38274766418,
+          "name": "Publish Any Commit",
+          "path": ".github/workflows/publish.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38274766418",
+          "head_sha": "fbdfbec42f99e24af89d0c680d3967297c7dcbe9"
+        },
+        {
+          "id": 38274766436,
+          "name": ".github/workflows/main.yml",
+          "path": ".github/workflows/main.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38274766436",
+          "head_sha": "fbdfbec42f99e24af89d0c680d3967297c7dcbe9"
+        },
+        {
+          "id": 38274766467,
+          "name": "Examples",
+          "path": ".github/workflows/examples.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38274766467",
+          "head_sha": "fbdfbec42f99e24af89d0c680d3967297c7dcbe9"
+        },
+        {
+          "id": 38274764791,
+          "name": "PR #2960",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38274764791",
+          "head_sha": "fbdfbec42f99e24af89d0c680d3967297c7dcbe9"
+        },
+        {
+          "id": 38274763922,
+          "name": "Publish Any Commit",
+          "path": ".github/workflows/publish.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/38274763922",
+          "head_sha": "fbdfbec42f99e24af89d0c680d3967297c7dcbe9"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v2.3.1",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/v2.3.1",
+      "published_at": "2026-10-05T11:54:56Z",
+      "target_commitish": "main",
+      "commit_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37308039012,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37308039012",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        },
+        {
+          "id": 37308029676,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37308029676",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        },
+        {
+          "id": 37308020431,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37308020431",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        },
+        {
+          "id": 37308009628,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37308009628",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        },
+        {
+          "id": 37308001144,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37308001144",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        },
+        {
+          "id": 37307992270,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37307992270",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        },
+        {
+          "id": 37307982400,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37307982400",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        },
+        {
+          "id": 37307971925,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37307971925",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        },
+        {
+          "id": 37307963630,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37307963630",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        },
+        {
+          "id": 37307953460,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37307953460",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        }
+      ]
+    },
+    {
+      "tag": "1.32.1",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/1.32.1",
+      "published_at": "2026-10-05T11:42:59Z",
+      "target_commitish": "v1.x",
+      "commit_sha": "ff07b001194fe60ee9deb2121cf119057565796d",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37304717159,
+          "name": ".github/workflows/main.yml",
+          "path": ".github/workflows/main.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37304717159",
+          "head_sha": "ff07b001194fe60ee9deb2121cf119057565796d"
+        },
+        {
+          "id": 37304409255,
+          "name": "Conformance Tests",
+          "path": ".github/workflows/conformance.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37304409255",
+          "head_sha": "ff07b001194fe60ee9deb2121cf119057565796d"
+        },
+        {
+          "id": 37304409339,
+          "name": "Publish Any Commit",
+          "path": ".github/workflows/publish.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37304409339",
+          "head_sha": "ff07b001194fe60ee9deb2121cf119057565796d"
+        },
+        {
+          "id": 37304409276,
+          "name": ".github/workflows/main.yml",
+          "path": ".github/workflows/main.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37304409276",
+          "head_sha": "ff07b001194fe60ee9deb2121cf119057565796d"
+        }
+      ]
+    },
+    {
+      "tag": "@modelcontextprotocol/server@2.3.1",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol/server%402.3.1",
+      "published_at": "2026-10-05T11:49:34Z",
+      "target_commitish": "main",
+      "commit_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37308039012,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37308039012",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        },
+        {
+          "id": 37308029676,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37308029676",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        },
+        {
+          "id": 37308020431,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37308020431",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        },
+        {
+          "id": 37308009628,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37308009628",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        },
+        {
+          "id": 37308001144,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37308001144",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        },
+        {
+          "id": 37307992270,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37307992270",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        },
+        {
+          "id": 37307982400,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37307982400",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        },
+        {
+          "id": 37307971925,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37307971925",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        },
+        {
+          "id": 37307963630,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37307963630",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        },
+        {
+          "id": 37307953460,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/typescript-sdk/actions/runs/37307953460",
+          "head_sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v2.3.1",
+      "sha": "fcef852f6cdafea07f36cf6fae69b37c8adf85be"
+    },
+    {
+      "name": "v2.3.0",
+      "sha": "a202a3621fcb97918e09fa45d0f9efd2dbdee19b"
+    },
+    {
+      "name": "v2.2.0",
+      "sha": "dd22ba25ddbe7cd8822e1fe9c738a974996a28f6"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:16:55.075574+00:00",
+  "source_times": {
+    "/repos/modelcontextprotocol/typescript-sdk": "2026-10-17T16:07:19.228826+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/commits?sha=main&per_page=20": "2026-10-17T16:07:21.110476+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/trees/9bc40e903fde15534ec06ff4c1347d47000dbe16": "2026-10-17T16:07:22.473719+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/trees/3384f014c939b115872cf0798035453d0e6e675f": "2026-10-17T16:07:23.840000+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/trees/32f5e036acb4bb0f56fccb1a7bdfc37d3b5110e4": "2026-10-17T16:07:26.245538+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/trees/b662b54eca123e88ff1402c967d7c68ce59da335": "2026-10-17T16:07:27.676486+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/trees/0ca1196fcf400e29dde376c0601fc427d0163804": "2026-10-17T16:07:29.095489+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/trees/7dec7bf02dc94496b5a63a928a7bb4798e48c27c": "2026-10-17T16:16:49.873792+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/trees/33db8edfa2f2d76d9c68cd9c0fb5dae1d45285d4": "2026-10-17T16:16:51.329554+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/blobs/041c5e11ef3e050c5d1aab2c2956c91007b9a8bc": "2026-10-17T16:07:30.494765+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/blobs/62c701add52116231dc07a1ccdcc12bb01d494b5": "2026-10-17T16:07:31.892281+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/blobs/fe774efe39b7d4f6f206adedda3417a7654f7769": "2026-10-17T16:07:33.271605+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/blobs/52d9fdac909fe4db617a656cd961ea942c9883e3": "2026-10-17T16:07:35.687734+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/blobs/50292420096eb98f07f3945dc30325fe8b17a2af": "2026-10-17T16:07:37.133595+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/blobs/0be02df4eee6c59d8d4800d8a783f908c5e99c1b": "2026-10-17T16:07:38.537545+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/blobs/fe03e038d95d3a95ec742ae0e95bc281104e75ab": "2026-10-17T16:07:40.159082+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/blobs/9218a1646eaec1affbc2a5e445628cf7cefd60db": "2026-10-17T16:07:41.688559+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/blobs/b18fd2935736768f4b1eb12f15709ba4c2f05171": "2026-10-17T16:07:43.073359+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/blobs/d8db820e1327a350d69c4bd710e91ad778bb108a": "2026-10-17T16:07:44.479057+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/blobs/50bacb5c02934455c9b58cfadd098ed0a9b8da25": "2026-10-17T16:07:45.896548+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/blobs/5e48e2c5eade56eda229d11ea8d303a7a64fd657": "2026-10-17T16:07:47.284732+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/blobs/bb2dbef5049bd36f7156415ccf52cb59fe7f8af7": "2026-10-17T16:07:50.040894+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/blobs/68ed84f8e657dfda12c1ef2f68cb2902c87a5020": "2026-10-17T16:07:51.435113+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/blobs/e00c0c289c7e647b28f2d74fbb1c2a20ea377ccb": "2026-10-17T16:07:52.776510+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/blobs/9aba480eae0b54e143e238ed4ff4e6e3b82f5684": "2026-10-17T16:07:54.244060+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/git/blobs/2a0074d75a2ed39eeb085e35e021c47dc623780b": "2026-10-17T16:16:53.151955+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:07:57.983526+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/pulls/2968/files?per_page=100": "2026-10-17T16:08:00.316545+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/pulls/2968/reviews?per_page=100": "2026-10-17T16:08:03.182986+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/actions/runs?head_sha=9bc40e903fde15534ec06ff4c1347d47000dbe16&per_page=10": "2026-10-17T16:08:06.054929+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/actions/runs?head_sha=f7b63910ccc5c46132674da3b76afa9be744186a&per_page=10": "2026-10-17T16:08:08.270997+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/pulls/2613/files?per_page=100": "2026-10-17T16:08:09.987343+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/pulls/2613/reviews?per_page=100": "2026-10-17T16:08:11.557203+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/actions/runs?head_sha=70de0c8b569b0d664a56b90be2f141d1d1645880&per_page=10": "2026-10-17T16:08:14.808116+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/actions/runs?head_sha=85cf74e1ddcb8e96dbf2a6d1e2854636a3f5565e&per_page=10": "2026-10-17T16:08:16.643075+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/pulls/2960/files?per_page=100": "2026-10-17T16:08:18.331991+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/pulls/2960/reviews?per_page=100": "2026-10-17T16:08:19.953912+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/actions/runs?head_sha=43c45f4941d824e7251a7d1266823a84af90fab3&per_page=10": "2026-10-17T16:08:22.523724+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/actions/runs?head_sha=fbdfbec42f99e24af89d0c680d3967297c7dcbe9&per_page=10": "2026-10-17T16:08:24.612621+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/releases?per_page=20&page=1": "2026-10-17T16:16:55.071630+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/commits/v2.3.1": "2026-10-17T16:08:30.329997+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/actions/runs?head_sha=fcef852f6cdafea07f36cf6fae69b37c8adf85be&per_page=10": "2026-10-17T16:08:34.898890+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/commits/1.32.1": "2026-10-17T16:08:36.386194+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/actions/runs?head_sha=ff07b001194fe60ee9deb2121cf119057565796d&per_page=10": "2026-10-17T16:08:38.430674+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/commits/%40modelcontextprotocol%2Fserver%402.3.1": "2026-10-17T16:08:40.061064+00:00",
+    "/repos/modelcontextprotocol/typescript-sdk/tags?per_page=3": "2026-10-17T16:08:41.482488+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:16:55.071630+00:00",
+  "status": "collected"
+}

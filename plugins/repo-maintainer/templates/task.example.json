@@ -1,0 +1,10 @@
+{
+  "objective": "替换为实际维护任务",
+  "base_sha": "0000000000000000000000000000000000000000",
+  "allowed_paths": ["README.md", "docs/**"],
+  "allowed_actions": ["commit", "push", "create-pr"],
+  "validation": [
+    {"id": "docs", "command": "替换为实际内容与链接检查命令"}
+  ],
+  "done_when": ["修改符合目标", "验证通过", "PR 可审查且未合并"]
+}

@@ -1,0 +1,1751 @@
+{
+  "requested_repository": "anthropics/claude-code",
+  "category": "agents",
+  "collected_at": "2026-10-17T16:06:22.859429+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "anthropics/claude-code",
+  "metadata": {
+    "html_url": "https://github.com/anthropics/claude-code",
+    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+    "homepage": "https://code.claude.com/docs/en/overview",
+    "language": "TypeScript",
+    "stargazers_count": 151477,
+    "forks_count": 26865,
+    "open_issues_count": 15171,
+    "pushed_at": "2026-10-16T20:53:06Z",
+    "created_at": "2025-02-22T17:41:21Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": null,
+    "topics": [],
+    "owner": {
+      "login": "anthropics",
+      "type": "Organization",
+      "html_url": "https://github.com/anthropics"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "c017428c8c27e604840435048d5bce6a9a22c040",
+      "url": "https://github.com/anthropics/claude-code/commit/c017428c8c27e604840435048d5bce6a9a22c040",
+      "date": "2026-10-16T20:52:45Z",
+      "subject": "chore: Update CHANGELOG.md and feed.xml"
+    },
+    {
+      "sha": "03b5892ee77de289bcd5dfa39f541525ade74aff",
+      "url": "https://github.com/anthropics/claude-code/commit/03b5892ee77de289bcd5dfa39f541525ade74aff",
+      "date": "2026-10-15T19:21:45Z",
+      "subject": "chore: Update CHANGELOG.md and feed.xml"
+    },
+    {
+      "sha": "94506ff0d3bd9185f1752da36e968775021fb48f",
+      "url": "https://github.com/anthropics/claude-code/commit/94506ff0d3bd9185f1752da36e968775021fb48f",
+      "date": "2026-10-14T18:24:07Z",
+      "subject": "chore: Update CHANGELOG.md and feed.xml"
+    },
+    {
+      "sha": "19eb0958df265ee24f59bd25163c175b4c6d4b43",
+      "url": "https://github.com/anthropics/claude-code/commit/19eb0958df265ee24f59bd25163c175b4c6d4b43",
+      "date": "2026-10-14T13:25:10Z",
+      "subject": "chore: Update mods/"
+    },
+    {
+      "sha": "9b4f0d6ef8ceaf62f6b46babb9a4d84bec541a2e",
+      "url": "https://github.com/anthropics/claude-code/commit/9b4f0d6ef8ceaf62f6b46babb9a4d84bec541a2e",
+      "date": "2026-10-14T04:30:05Z",
+      "subject": "chore: Update mods/"
+    },
+    {
+      "sha": "db93774d73e8fdbaf315a6f4c175ae99ad3d515a",
+      "url": "https://github.com/anthropics/claude-code/commit/db93774d73e8fdbaf315a6f4c175ae99ad3d515a",
+      "date": "2026-10-14T02:49:24Z",
+      "subject": "chore: Update CHANGELOG.md and feed.xml"
+    },
+    {
+      "sha": "b0b7bed9820350bb0942e32c7f00752a99ea3555",
+      "url": "https://github.com/anthropics/claude-code/commit/b0b7bed9820350bb0942e32c7f00752a99ea3555",
+      "date": "2026-10-13T19:57:37Z",
+      "subject": "chore: Update mods/"
+    },
+    {
+      "sha": "bf2323b3021c9d3db7a31e1e7d61068c3f704497",
+      "url": "https://github.com/anthropics/claude-code/commit/bf2323b3021c9d3db7a31e1e7d61068c3f704497",
+      "date": "2026-10-13T04:34:03Z",
+      "subject": "chore: Update mods/"
+    },
+    {
+      "sha": "b3caf7560b0422544e60db010fe75cfd57e0541e",
+      "url": "https://github.com/anthropics/claude-code/commit/b3caf7560b0422544e60db010fe75cfd57e0541e",
+      "date": "2026-10-13T04:25:51Z",
+      "subject": "chore: Update mods/"
+    },
+    {
+      "sha": "addd7a69690bb5f5484c2a47583a8f88c4842a6e",
+      "url": "https://github.com/anthropics/claude-code/commit/addd7a69690bb5f5484c2a47583a8f88c4842a6e",
+      "date": "2026-10-13T00:50:04Z",
+      "subject": "chore: Update mods/"
+    },
+    {
+      "sha": "fa3ffa4456bae44d1a63b11f15f3068f0a5e06dc",
+      "url": "https://github.com/anthropics/claude-code/commit/fa3ffa4456bae44d1a63b11f15f3068f0a5e06dc",
+      "date": "2026-10-13T00:07:29Z",
+      "subject": "chore: Update mods/"
+    },
+    {
+      "sha": "3deb873687379f0c199a69fdaccc65f0865f7a29",
+      "url": "https://github.com/anthropics/claude-code/commit/3deb873687379f0c199a69fdaccc65f0865f7a29",
+      "date": "2026-10-11T19:07:16Z",
+      "subject": "chore: Update mods/"
+    },
+    {
+      "sha": "2301018b1f61073c501a8e7a4813ef48c239163b",
+      "url": "https://github.com/anthropics/claude-code/commit/2301018b1f61073c501a8e7a4813ef48c239163b",
+      "date": "2026-10-09T19:28:36Z",
+      "subject": "chore: Update CHANGELOG.md and feed.xml"
+    },
+    {
+      "sha": "3f349d410faf6980872f799975bb4fc307e88bb8",
+      "url": "https://github.com/anthropics/claude-code/commit/3f349d410faf6980872f799975bb4fc307e88bb8",
+      "date": "2026-10-09T16:16:36Z",
+      "subject": "Merge pull request #100293 from anthropics/sarahdeaton/managed-settings-hipaa-example"
+    },
+    {
+      "sha": "e47cc82bdbd27b5f799acd5b05fd0c29d33bb48c",
+      "url": "https://github.com/anthropics/claude-code/commit/e47cc82bdbd27b5f799acd5b05fd0c29d33bb48c",
+      "date": "2026-10-08T22:33:26Z",
+      "subject": "chore: Update mods/"
+    },
+    {
+      "sha": "602df92bf481ed904533e95c09f740f40aab5aed",
+      "url": "https://github.com/anthropics/claude-code/commit/602df92bf481ed904533e95c09f740f40aab5aed",
+      "date": "2026-10-08T19:48:16Z",
+      "subject": "chore: Update CHANGELOG.md and feed.xml"
+    },
+    {
+      "sha": "91963195817f0384deb6eb60911d20a916144fa6",
+      "url": "https://github.com/anthropics/claude-code/commit/91963195817f0384deb6eb60911d20a916144fa6",
+      "date": "2026-10-08T18:18:01Z",
+      "subject": "Move the HIPAA example into examples/settings"
+    },
+    {
+      "sha": "71cdddec623889d38af14b7a489670a03186f659",
+      "url": "https://github.com/anthropics/claude-code/commit/71cdddec623889d38af14b7a489670a03186f659",
+      "date": "2026-10-08T05:03:36Z",
+      "subject": "chore: Update CHANGELOG.md and feed.xml"
+    },
+    {
+      "sha": "e32908d239be040a6e0597e5ea0a01354b9e6241",
+      "url": "https://github.com/anthropics/claude-code/commit/e32908d239be040a6e0597e5ea0a01354b9e6241",
+      "date": "2026-10-07T18:17:51Z",
+      "subject": "Add HIPAA managed-settings example (hipaa-baseline.json, managed-mcp lockdown, README)"
+    },
+    {
+      "sha": "79babc372d64101f981bd2b52c3dbe588596dc56",
+      "url": "https://github.com/anthropics/claude-code/commit/79babc372d64101f981bd2b52c3dbe588596dc56",
+      "date": "2026-10-07T18:10:04Z",
+      "subject": "chore: Update CHANGELOG.md and feed.xml"
+    }
+  ],
+  "default_sha": "c017428c8c27e604840435048d5bce6a9a22c040",
+  "root_and_selected_directory_paths": [
+    ".claude",
+    ".claude-plugin",
+    ".claude-plugin/marketplace.json",
+    ".devcontainer",
+    ".gitattributes",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug_report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/documentation.yml",
+    ".github/ISSUE_TEMPLATE/feature_request.yml",
+    ".github/ISSUE_TEMPLATE/github_connection.yml",
+    ".github/ISSUE_TEMPLATE/model_behavior.yml",
+    ".github/egress-firewall.yaml",
+    ".github/scripts",
+    ".github/workflows",
+    ".github/workflows/auto-close-duplicates.yml",
+    ".github/workflows/backfill-duplicate-comments.yml",
+    ".github/workflows/claude-dedupe-issues.yml",
+    ".github/workflows/claude-issue-triage.yml",
+    ".github/workflows/claude.yml",
+    ".github/workflows/issue-lifecycle-comment.yml",
+    ".github/workflows/issue-opened-dispatch.yml",
+    ".github/workflows/lock-closed-issues.yml",
+    ".github/workflows/log-issue-events.yml",
+    ".github/workflows/mod-tests.yml",
+    ".github/workflows/non-write-users-check.yml",
+    ".github/workflows/remove-autoclose-label.yml",
+    ".github/workflows/sweep.yml",
+    ".github/workflows/workflow-hardening.yml",
+    ".gitignore",
+    ".vscode",
+    "CHANGELOG.md",
+    "CLAUDE.md",
+    "LICENSE.md",
+    "README.md",
+    "SECURITY.md",
+    "Script",
+    "demo.gif",
+    "examples",
+    "feed.xml",
+    "mods",
+    "plugins",
+    "scripts"
+  ],
+  "workflow_paths": [
+    ".github/workflows/mod-tests.yml",
+    ".github/workflows/auto-close-duplicates.yml",
+    ".github/workflows/backfill-duplicate-comments.yml",
+    ".github/workflows/claude-dedupe-issues.yml",
+    ".github/workflows/claude-issue-triage.yml",
+    ".github/workflows/claude.yml",
+    ".github/workflows/issue-lifecycle-comment.yml",
+    ".github/workflows/issue-opened-dispatch.yml",
+    ".github/workflows/lock-closed-issues.yml",
+    ".github/workflows/log-issue-events.yml",
+    ".github/workflows/non-write-users-check.yml",
+    ".github/workflows/remove-autoclose-label.yml",
+    ".github/workflows/sweep.yml",
+    ".github/workflows/workflow-hardening.yml"
+  ],
+  "documents": [
+    {
+      "path": "CHANGELOG.md",
+      "status": "skipped-size",
+      "sha": "490ea6ecb19b10ed612846d1e1269a4c9998db8a"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha": "410ad0f67663043920889a2b4cc380867acc1e3b",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/CLAUDE.md",
+      "lines": 40,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "80aa75edf74a5f9e1269811b4e8b5852be91e66e",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/README.md",
+      "lines": 72,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          3,
+          5
+        ],
+        "media": [
+          3,
+          11
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "d6724b2bbc8dac70775da8a5fb281aa42fe62fe5",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/SECURITY.md",
+      "lines": 12,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          6
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha": "fce2b87e5dc2a42e0d3ff477ab86f528ec9dd290",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "lines": 188,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "5fe5625f9a612f3a8fba4fcd1ab4a34f266164d6",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 14,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/documentation.yml",
+      "sha": "ead68fe39d0063179b5303ae3954ec51f9683690",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/.github/ISSUE_TEMPLATE/documentation.yml",
+      "lines": 117,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "sha": "2fa6ca2409e973a1d002620c692cc0d282e58569",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/.github/ISSUE_TEMPLATE/feature_request.yml",
+      "lines": 132,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/github_connection.yml",
+      "sha": "a14d5a9ce06441e354093d6ec10bd5e51679faee",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/.github/ISSUE_TEMPLATE/github_connection.yml",
+      "lines": 37,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/model_behavior.yml",
+      "sha": "9c89de4b6522f68ddb4421767505506e316cb31c",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/.github/ISSUE_TEMPLATE/model_behavior.yml",
+      "lines": 220,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/mod-tests.yml",
+      "sha": "45d5a2cbace5d0816ac4063a2de109d2259d1cdb",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/.github/workflows/mod-tests.yml",
+      "lines": 40,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9
+        ],
+        "pinned_actions": [
+          17
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/auto-close-duplicates.yml",
+      "sha": "7f67a057ab079cb4e501527dc2d8b8fb61d06075",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/.github/workflows/auto-close-duplicates.yml",
+      "lines": 31,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12
+        ],
+        "pinned_actions": [
+          21
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/backfill-duplicate-comments.yml",
+      "sha": "16a39b977b31b2649b7215bc159a7483bf7d977a",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/.github/workflows/backfill-duplicate-comments.yml",
+      "lines": 44,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          25
+        ],
+        "pinned_actions": [
+          35
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/claude-dedupe-issues.yml",
+      "sha": "dfdd1fdf2521142a6955a173233d5d636e00b48f",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/.github/workflows/claude-dedupe-issues.yml",
+      "lines": 99,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          19,
+          23
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/claude-issue-triage.yml",
+      "sha": "765a5cd8548ff8f4290b527d082f8f404a37ba2b",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/.github/workflows/claude-issue-triage.yml",
+      "lines": 54,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          20,
+          24
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "sha": "3e418ed18c38042c9b68a852cd4cc20655637c84",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/.github/workflows/claude.yml",
+      "lines": 49,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          23,
+          27
+        ],
+        "pinned_actions": [
+          30
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/issue-lifecycle-comment.yml",
+      "sha": "1acffef2e4a45885ac1d946a207b6fdcdb609b4f",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/.github/workflows/issue-lifecycle-comment.yml",
+      "lines": 27,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [
+          18
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/issue-opened-dispatch.yml",
+      "sha": "39d27ea057f3efb30d1be975b701316306225dbf",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/.github/workflows/issue-opened-dispatch.yml",
+      "lines": 28,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/lock-closed-issues.yml",
+      "sha": "6d8e15f5d737d40c3d1c7a92f1d8a1b29cd5407c",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/.github/workflows/lock-closed-issues.yml",
+      "lines": 77,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/log-issue-events.yml",
+      "sha": "f23d4fbe9883c19174141c32e1ce85774253fd04",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/.github/workflows/log-issue-events.yml",
+      "lines": 40,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/non-write-users-check.yml",
+      "sha": "584bc7ddb3a39e0cb1a83714caa91de1436c7d5f",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/.github/workflows/non-write-users-check.yml",
+      "lines": 47,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/remove-autoclose-label.yml",
+      "sha": "5fc681b28ad38baff444957f8ebb8afa17be5522",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/.github/workflows/remove-autoclose-label.yml",
+      "lines": 42,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "plugins/agent-sdk-dev/README.md",
+      "sha": "96ba373ef38f2465de7838947dd794c871b85c67",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/plugins/agent-sdk-dev/README.md",
+      "lines": 208,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "plugins/claude-opus-4-5-migration/README.md",
+      "sha": "fab66510a84a486718a67b95c3891d99e07f6420",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/plugins/claude-opus-4-5-migration/README.md",
+      "lines": 21,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "plugins/code-review/README.md",
+      "sha": "42cc8095cd2c54e043f9276224df408dca4f48cc",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-code/blob/c017428c8c27e604840435048d5bce6a9a22c040/plugins/code-review/README.md",
+      "lines": 258,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          22,
+          236,
+          249
+        ]
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 1,
+      "title": "Create SECURITY.md",
+      "url": "https://github.com/anthropics/claude-code/pull/1",
+      "merged_at": "2025-02-24T18:18:37Z",
+      "merge_commit_sha": "b46a3eb29a6514de51142c542cbb31226bf29407",
+      "files": [
+        "SECURITY.md"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "SECURITY.md",
+          "status": "added",
+          "additions": 12,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-code/blob/429d03e3823d7dfeaf162321f033f2b667c9b554/SECURITY.md"
+        }
+      ],
+      "review_states": [
+        "APPROVED",
+        "APPROVED",
+        "APPROVED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED",
+        "APPROVED",
+        "APPROVED",
+        "APPROVED",
+        "APPROVED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [],
+      "head_commit_workflow_runs": []
+    },
+    {
+      "number": 100293,
+      "title": "Add a HIPAA settings example to examples/settings (settings-hipaa.json, managed-mcp-hipaa.json, README-hipaa.md)",
+      "url": "https://github.com/anthropics/claude-code/pull/100293",
+      "merged_at": "2026-10-09T16:16:37Z",
+      "merge_commit_sha": "3f349d410faf6980872f799975bb4fc307e88bb8",
+      "files": [
+        "examples/settings/README-hipaa.md",
+        "examples/settings/README.md",
+        "examples/settings/managed-mcp-hipaa.json",
+        "examples/settings/settings-hipaa.json"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "examples/settings/README-hipaa.md",
+          "status": "added",
+          "additions": 155,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-code/blob/91963195817f0384deb6eb60911d20a916144fa6/examples%2Fsettings%2FREADME-hipaa.md"
+        },
+        {
+          "filename": "examples/settings/README.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-code/blob/91963195817f0384deb6eb60911d20a916144fa6/examples%2Fsettings%2FREADME.md"
+        },
+        {
+          "filename": "examples/settings/managed-mcp-hipaa.json",
+          "status": "added",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-code/blob/91963195817f0384deb6eb60911d20a916144fa6/examples%2Fsettings%2Fmanaged-mcp-hipaa.json"
+        },
+        {
+          "filename": "examples/settings/settings-hipaa.json",
+          "status": "added",
+          "additions": 152,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-code/blob/91963195817f0384deb6eb60911d20a916144fa6/examples%2Fsettings%2Fsettings-hipaa.json"
+        }
+      ],
+      "review_states": [
+        "APPROVED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 37980376627,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37980376627",
+          "head_sha": "3f349d410faf6980872f799975bb4fc307e88bb8"
+        },
+        {
+          "id": 37980376790,
+          "name": "Log Issue Events to Statsig",
+          "path": ".github/workflows/log-issue-events.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37980376790",
+          "head_sha": "3f349d410faf6980872f799975bb4fc307e88bb8"
+        },
+        {
+          "id": 37980376654,
+          "name": "Issue Opened Dispatch",
+          "path": ".github/workflows/issue-opened-dispatch.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37980376654",
+          "head_sha": "3f349d410faf6980872f799975bb4fc307e88bb8"
+        },
+        {
+          "id": 37980376787,
+          "name": "Claude Issue Triage",
+          "path": ".github/workflows/claude-issue-triage.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37980376787",
+          "head_sha": "3f349d410faf6980872f799975bb4fc307e88bb8"
+        },
+        {
+          "id": 37980376592,
+          "name": "Claude Issue Dedupe",
+          "path": ".github/workflows/claude-dedupe-issues.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37980376592",
+          "head_sha": "3f349d410faf6980872f799975bb4fc307e88bb8"
+        },
+        {
+          "id": 37980333680,
+          "name": "Log Issue Events to Statsig",
+          "path": ".github/workflows/log-issue-events.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37980333680",
+          "head_sha": "3f349d410faf6980872f799975bb4fc307e88bb8"
+        },
+        {
+          "id": 37980334374,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37980334374",
+          "head_sha": "3f349d410faf6980872f799975bb4fc307e88bb8"
+        },
+        {
+          "id": 37980333521,
+          "name": "Issue Opened Dispatch",
+          "path": ".github/workflows/issue-opened-dispatch.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37980333521",
+          "head_sha": "3f349d410faf6980872f799975bb4fc307e88bb8"
+        },
+        {
+          "id": 37980333615,
+          "name": "Claude Issue Dedupe",
+          "path": ".github/workflows/claude-dedupe-issues.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37980333615",
+          "head_sha": "3f349d410faf6980872f799975bb4fc307e88bb8"
+        },
+        {
+          "id": 37980333725,
+          "name": "Claude Issue Triage",
+          "path": ".github/workflows/claude-issue-triage.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37980333725",
+          "head_sha": "3f349d410faf6980872f799975bb4fc307e88bb8"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 37823233294,
+          "name": "Security check for workflows that call Claude",
+          "path": ".github/workflows/workflow-hardening.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37823233294",
+          "head_sha": "91963195817f0384deb6eb60911d20a916144fa6"
+        }
+      ]
+    },
+    {
+      "number": 99206,
+      "title": "diff: the docked pane starts at its header, under the engine's own head row",
+      "url": "https://github.com/anthropics/claude-code/pull/99206",
+      "merged_at": "2026-10-07T00:13:58Z",
+      "merge_commit_sha": "765f236fe1bfcc678e0ec59af9170fb7d6771a3a",
+      "files": [
+        "mods/diff/hooks/limits/sizes/pane/index.ts",
+        "mods/diff/hooks/limits/sizes/pane/pane-top-pad-rows.ts",
+        "mods/diff/hooks/views/body/plan/body-layout-of.ts",
+        "mods/diff/hooks/views/inset-of/inset-of.ts",
+        "mods/diff/hooks/views/pane-view.tsx",
+        "mods/diff/tests/fixtures/index.ts",
+        "mods/diff/tests/fixtures/pane-view/body-rows.ts",
+        "mods/diff/tests/fixtures/pane-view/engine-head-rows.ts",
+        "mods/diff/tests/fixtures/pane-view/index.ts",
+        "mods/diff/tests/fixtures/wheel-over-list-margin.ts",
+        "mods/diff/tests/fixtures/wheel-over-list-top.ts",
+        "mods/diff/tests/fixtures/wheel-over-list.ts",
+        "mods/diff/tests/views/pane-view.test.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "mods/diff/hooks/limits/sizes/pane/index.ts",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/claude-code/blob/c0856fdbc21dd7e6be868219dab1d8c1e68b010e/mods%2Fdiff%2Fhooks%2Flimits%2Fsizes%2Fpane%2Findex.ts"
+        },
+        {
+          "filename": "mods/diff/hooks/limits/sizes/pane/pane-top-pad-rows.ts",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 5,
+          "blob_url": "https://github.com/anthropics/claude-code/blob/1c229fcd1e1e4e452e29a8f116b45fe4cfe2c528/mods%2Fdiff%2Fhooks%2Flimits%2Fsizes%2Fpane%2Fpane-top-pad-rows.ts"
+        },
+        {
+          "filename": "mods/diff/hooks/views/body/plan/body-layout-of.ts",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 6,
+          "blob_url": "https://github.com/anthropics/claude-code/blob/c0856fdbc21dd7e6be868219dab1d8c1e68b010e/mods%2Fdiff%2Fhooks%2Fviews%2Fbody%2Fplan%2Fbody-layout-of.ts"
+        },
+        {
+          "filename": "mods/diff/hooks/views/inset-of/inset-of.ts",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/claude-code/blob/c0856fdbc21dd7e6be868219dab1d8c1e68b010e/mods%2Fdiff%2Fhooks%2Fviews%2Finset-of%2Finset-of.ts"
+        },
+        {
+          "filename": "mods/diff/hooks/views/pane-view.tsx",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 5,
+          "blob_url": "https://github.com/anthropics/claude-code/blob/c0856fdbc21dd7e6be868219dab1d8c1e68b010e/mods%2Fdiff%2Fhooks%2Fviews%2Fpane-view.tsx"
+        },
+        {
+          "filename": "mods/diff/tests/fixtures/index.ts",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-code/blob/c0856fdbc21dd7e6be868219dab1d8c1e68b010e/mods%2Fdiff%2Ftests%2Ffixtures%2Findex.ts"
+        },
+        {
+          "filename": "mods/diff/tests/fixtures/pane-view/body-rows.ts",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/claude-code/blob/c0856fdbc21dd7e6be868219dab1d8c1e68b010e/mods%2Fdiff%2Ftests%2Ffixtures%2Fpane-view%2Fbody-rows.ts"
+        },
+        {
+          "filename": "mods/diff/tests/fixtures/pane-view/engine-head-rows.ts",
+          "status": "added",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-code/blob/c0856fdbc21dd7e6be868219dab1d8c1e68b010e/mods%2Fdiff%2Ftests%2Ffixtures%2Fpane-view%2Fengine-head-rows.ts"
+        },
+        {
+          "filename": "mods/diff/tests/fixtures/pane-view/index.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-code/blob/c0856fdbc21dd7e6be868219dab1d8c1e68b010e/mods%2Fdiff%2Ftests%2Ffixtures%2Fpane-view%2Findex.ts"
+        },
+        {
+          "filename": "mods/diff/tests/fixtures/wheel-over-list-margin.ts",
+          "status": "added",
+          "additions": 12,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-code/blob/c0856fdbc21dd7e6be868219dab1d8c1e68b010e/mods%2Fdiff%2Ftests%2Ffixtures%2Fwheel-over-list-margin.ts"
+        },
+        {
+          "filename": "mods/diff/tests/fixtures/wheel-over-list-top.ts",
+          "status": "added",
+          "additions": 12,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-code/blob/c0856fdbc21dd7e6be868219dab1d8c1e68b010e/mods%2Fdiff%2Ftests%2Ffixtures%2Fwheel-over-list-top.ts"
+        },
+        {
+          "filename": "mods/diff/tests/fixtures/wheel-over-list.ts",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/claude-code/blob/c0856fdbc21dd7e6be868219dab1d8c1e68b010e/mods%2Fdiff%2Ftests%2Ffixtures%2Fwheel-over-list.ts"
+        },
+        {
+          "filename": "mods/diff/tests/views/pane-view.test.ts",
+          "status": "modified",
+          "additions": 46,
+          "deletions": 9,
+          "blob_url": "https://github.com/anthropics/claude-code/blob/c0856fdbc21dd7e6be868219dab1d8c1e68b010e/mods%2Fdiff%2Ftests%2Fviews%2Fpane-view.test.ts"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 37656772081,
+          "name": "Claude Issue Triage",
+          "path": ".github/workflows/claude-issue-triage.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37656772081",
+          "head_sha": "765f236fe1bfcc678e0ec59af9170fb7d6771a3a"
+        },
+        {
+          "id": 37656772153,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37656772153",
+          "head_sha": "765f236fe1bfcc678e0ec59af9170fb7d6771a3a"
+        },
+        {
+          "id": 37656772019,
+          "name": "Issue Opened Dispatch",
+          "path": ".github/workflows/issue-opened-dispatch.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37656772019",
+          "head_sha": "765f236fe1bfcc678e0ec59af9170fb7d6771a3a"
+        },
+        {
+          "id": 37656772159,
+          "name": "Log Issue Events to Statsig",
+          "path": ".github/workflows/log-issue-events.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37656772159",
+          "head_sha": "765f236fe1bfcc678e0ec59af9170fb7d6771a3a"
+        },
+        {
+          "id": 37656772099,
+          "name": "Claude Issue Dedupe",
+          "path": ".github/workflows/claude-dedupe-issues.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37656772099",
+          "head_sha": "765f236fe1bfcc678e0ec59af9170fb7d6771a3a"
+        },
+        {
+          "id": 37656570002,
+          "name": "Remove Autoclose Label on Activity",
+          "path": ".github/workflows/remove-autoclose-label.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37656570002",
+          "head_sha": "765f236fe1bfcc678e0ec59af9170fb7d6771a3a"
+        },
+        {
+          "id": 37656569683,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37656569683",
+          "head_sha": "765f236fe1bfcc678e0ec59af9170fb7d6771a3a"
+        },
+        {
+          "id": 37656569498,
+          "name": "Claude Issue Triage",
+          "path": ".github/workflows/claude-issue-triage.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37656569498",
+          "head_sha": "765f236fe1bfcc678e0ec59af9170fb7d6771a3a"
+        },
+        {
+          "id": 37655598323,
+          "name": "Log Issue Events to Statsig",
+          "path": ".github/workflows/log-issue-events.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37655598323",
+          "head_sha": "765f236fe1bfcc678e0ec59af9170fb7d6771a3a"
+        },
+        {
+          "id": 37655597990,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37655597990",
+          "head_sha": "765f236fe1bfcc678e0ec59af9170fb7d6771a3a"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 37550835692,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37550835692",
+          "head_sha": "c0856fdbc21dd7e6be868219dab1d8c1e68b010e"
+        },
+        {
+          "id": 37116752803,
+          "name": "Mod tests",
+          "path": ".github/workflows/mod-tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37116752803",
+          "head_sha": "c0856fdbc21dd7e6be868219dab1d8c1e68b010e"
+        },
+        {
+          "id": 37116752802,
+          "name": "Security check for workflows that call Claude",
+          "path": ".github/workflows/workflow-hardening.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/37116752802",
+          "head_sha": "c0856fdbc21dd7e6be868219dab1d8c1e68b010e"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v2.1.302",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+      "published_at": "2026-10-16T20:53:06Z",
+      "target_commitish": "main",
+      "commit_sha": "c017428c8c27e604840435048d5bce6a9a22c040",
+      "assets": [
+        "claude-darwin-arm64.tar.gz",
+        "claude-darwin-x64.tar.gz",
+        "claude-linux-arm64-musl.tar.gz",
+        "claude-linux-arm64.tar.gz",
+        "claude-linux-x64-musl.tar.gz",
+        "claude-linux-x64.tar.gz",
+        "claude-win32-arm64.zip",
+        "claude-win32-x64.zip",
+        "SHASUMS256.txt",
+        "SHASUMS256.txt.sig"
+      ],
+      "workflow_runs": [
+        {
+          "id": 39048019069,
+          "name": "Claude Issue Triage",
+          "path": ".github/workflows/claude-issue-triage.yml",
+          "event": "issue_comment",
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/39048019069",
+          "head_sha": "c017428c8c27e604840435048d5bce6a9a22c040"
+        },
+        {
+          "id": 39048019091,
+          "name": "Remove Autoclose Label on Activity",
+          "path": ".github/workflows/remove-autoclose-label.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/39048019091",
+          "head_sha": "c017428c8c27e604840435048d5bce6a9a22c040"
+        },
+        {
+          "id": 39048019087,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/39048019087",
+          "head_sha": "c017428c8c27e604840435048d5bce6a9a22c040"
+        },
+        {
+          "id": 39048015900,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/39048015900",
+          "head_sha": "c017428c8c27e604840435048d5bce6a9a22c040"
+        },
+        {
+          "id": 39048015268,
+          "name": "Remove Autoclose Label on Activity",
+          "path": ".github/workflows/remove-autoclose-label.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/39048015268",
+          "head_sha": "c017428c8c27e604840435048d5bce6a9a22c040"
+        },
+        {
+          "id": 39048015309,
+          "name": "Claude Issue Triage",
+          "path": ".github/workflows/claude-issue-triage.yml",
+          "event": "issue_comment",
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/39048015309",
+          "head_sha": "c017428c8c27e604840435048d5bce6a9a22c040"
+        },
+        {
+          "id": 39047946619,
+          "name": "Remove Autoclose Label on Activity",
+          "path": ".github/workflows/remove-autoclose-label.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/39047946619",
+          "head_sha": "c017428c8c27e604840435048d5bce6a9a22c040"
+        },
+        {
+          "id": 39047946618,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/39047946618",
+          "head_sha": "c017428c8c27e604840435048d5bce6a9a22c040"
+        },
+        {
+          "id": 39047946733,
+          "name": "Claude Issue Triage",
+          "path": ".github/workflows/claude-issue-triage.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/39047946733",
+          "head_sha": "c017428c8c27e604840435048d5bce6a9a22c040"
+        },
+        {
+          "id": 39047906209,
+          "name": "Remove Autoclose Label on Activity",
+          "path": ".github/workflows/remove-autoclose-label.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/39047906209",
+          "head_sha": "c017428c8c27e604840435048d5bce6a9a22c040"
+        }
+      ]
+    },
+    {
+      "tag": "v2.1.301",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
+      "published_at": "2026-10-15T19:22:06Z",
+      "target_commitish": "main",
+      "commit_sha": "03b5892ee77de289bcd5dfa39f541525ade74aff",
+      "assets": [
+        "claude-darwin-arm64.tar.gz",
+        "claude-darwin-x64.tar.gz",
+        "claude-linux-arm64-musl.tar.gz",
+        "claude-linux-arm64.tar.gz",
+        "claude-linux-x64-musl.tar.gz",
+        "claude-linux-x64.tar.gz",
+        "claude-win32-arm64.zip",
+        "claude-win32-x64.zip",
+        "SHASUMS256.txt",
+        "SHASUMS256.txt.sig"
+      ],
+      "workflow_runs": [
+        {
+          "id": 38965348212,
+          "name": "Claude Issue Triage",
+          "path": ".github/workflows/claude-issue-triage.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38965348212",
+          "head_sha": "03b5892ee77de289bcd5dfa39f541525ade74aff"
+        },
+        {
+          "id": 38965348234,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38965348234",
+          "head_sha": "03b5892ee77de289bcd5dfa39f541525ade74aff"
+        },
+        {
+          "id": 38965348094,
+          "name": "Log Issue Events to Statsig",
+          "path": ".github/workflows/log-issue-events.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38965348094",
+          "head_sha": "03b5892ee77de289bcd5dfa39f541525ade74aff"
+        },
+        {
+          "id": 38965348393,
+          "name": "Issue Opened Dispatch",
+          "path": ".github/workflows/issue-opened-dispatch.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38965348393",
+          "head_sha": "03b5892ee77de289bcd5dfa39f541525ade74aff"
+        },
+        {
+          "id": 38965348313,
+          "name": "Claude Issue Dedupe",
+          "path": ".github/workflows/claude-dedupe-issues.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38965348313",
+          "head_sha": "03b5892ee77de289bcd5dfa39f541525ade74aff"
+        },
+        {
+          "id": 38965047378,
+          "name": "Log Issue Events to Statsig",
+          "path": ".github/workflows/log-issue-events.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38965047378",
+          "head_sha": "03b5892ee77de289bcd5dfa39f541525ade74aff"
+        },
+        {
+          "id": 38965009631,
+          "name": "Remove Autoclose Label on Activity",
+          "path": ".github/workflows/remove-autoclose-label.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38965009631",
+          "head_sha": "03b5892ee77de289bcd5dfa39f541525ade74aff"
+        },
+        {
+          "id": 38965009498,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38965009498",
+          "head_sha": "03b5892ee77de289bcd5dfa39f541525ade74aff"
+        },
+        {
+          "id": 38965009673,
+          "name": "Claude Issue Triage",
+          "path": ".github/workflows/claude-issue-triage.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38965009673",
+          "head_sha": "03b5892ee77de289bcd5dfa39f541525ade74aff"
+        },
+        {
+          "id": 38963328785,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38963328785",
+          "head_sha": "03b5892ee77de289bcd5dfa39f541525ade74aff"
+        }
+      ]
+    },
+    {
+      "tag": "v2.1.300",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
+      "published_at": "2026-10-14T18:24:25Z",
+      "target_commitish": "main",
+      "commit_sha": "94506ff0d3bd9185f1752da36e968775021fb48f",
+      "assets": [
+        "claude-darwin-arm64.tar.gz",
+        "claude-darwin-x64.tar.gz",
+        "claude-linux-arm64-musl.tar.gz",
+        "claude-linux-arm64.tar.gz",
+        "claude-linux-x64-musl.tar.gz",
+        "claude-linux-x64.tar.gz",
+        "claude-win32-arm64.zip",
+        "claude-win32-x64.zip",
+        "SHASUMS256.txt",
+        "SHASUMS256.txt.sig"
+      ],
+      "workflow_runs": [
+        {
+          "id": 38793274227,
+          "name": "Claude Issue Triage",
+          "path": ".github/workflows/claude-issue-triage.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38793274227",
+          "head_sha": "94506ff0d3bd9185f1752da36e968775021fb48f"
+        },
+        {
+          "id": 38793274234,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38793274234",
+          "head_sha": "94506ff0d3bd9185f1752da36e968775021fb48f"
+        },
+        {
+          "id": 38793274303,
+          "name": "Remove Autoclose Label on Activity",
+          "path": ".github/workflows/remove-autoclose-label.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38793274303",
+          "head_sha": "94506ff0d3bd9185f1752da36e968775021fb48f"
+        },
+        {
+          "id": 38793114327,
+          "name": "Claude Issue Triage",
+          "path": ".github/workflows/claude-issue-triage.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38793114327",
+          "head_sha": "94506ff0d3bd9185f1752da36e968775021fb48f"
+        },
+        {
+          "id": 38793114356,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38793114356",
+          "head_sha": "94506ff0d3bd9185f1752da36e968775021fb48f"
+        },
+        {
+          "id": 38793114389,
+          "name": "Log Issue Events to Statsig",
+          "path": ".github/workflows/log-issue-events.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38793114389",
+          "head_sha": "94506ff0d3bd9185f1752da36e968775021fb48f"
+        },
+        {
+          "id": 38793114392,
+          "name": "Issue Opened Dispatch",
+          "path": ".github/workflows/issue-opened-dispatch.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38793114392",
+          "head_sha": "94506ff0d3bd9185f1752da36e968775021fb48f"
+        },
+        {
+          "id": 38793114401,
+          "name": "Claude Issue Dedupe",
+          "path": ".github/workflows/claude-dedupe-issues.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38793114401",
+          "head_sha": "94506ff0d3bd9185f1752da36e968775021fb48f"
+        },
+        {
+          "id": 38793110819,
+          "name": "Remove Autoclose Label on Activity",
+          "path": ".github/workflows/remove-autoclose-label.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38793110819",
+          "head_sha": "94506ff0d3bd9185f1752da36e968775021fb48f"
+        },
+        {
+          "id": 38793110668,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/claude-code/actions/runs/38793110668",
+          "head_sha": "94506ff0d3bd9185f1752da36e968775021fb48f"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v2.1.302",
+      "sha": "c017428c8c27e604840435048d5bce6a9a22c040"
+    },
+    {
+      "name": "v2.1.301",
+      "sha": "03b5892ee77de289bcd5dfa39f541525ade74aff"
+    },
+    {
+      "name": "v2.1.300",
+      "sha": "94506ff0d3bd9185f1752da36e968775021fb48f"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:16:58.611152+00:00",
+  "source_times": {
+    "/repos/anthropics/claude-code": "2026-10-17T16:06:22.859429+00:00",
+    "/repos/anthropics/claude-code/commits?sha=main&per_page=20": "2026-10-17T16:06:24.687650+00:00",
+    "/repos/anthropics/claude-code/git/trees/c017428c8c27e604840435048d5bce6a9a22c040": "2026-10-17T16:06:26.151031+00:00",
+    "/repos/anthropics/claude-code/git/trees/0b10acef4dd1be33db16730fa04294f85216b0a3": "2026-10-17T16:06:28.614732+00:00",
+    "/repos/anthropics/claude-code/git/trees/04cbb79e90a6e8b94e62fcb0b7631612c114ffc4": "2026-10-17T16:06:30.076070+00:00",
+    "/repos/anthropics/claude-code/git/trees/5c9dda3a0e354105df347c15d123dc94277ebbc5": "2026-10-17T16:06:31.534679+00:00",
+    "/repos/anthropics/claude-code/git/trees/65666401c14c758033774a45f8d7b65f063355bb": "2026-10-17T16:06:32.943356+00:00",
+    "/repos/anthropics/claude-code/git/trees/83d3d0abf4a544eeef0acfd81ee5838bf6d0b8f8": "2026-10-17T16:16:44.757692+00:00",
+    "/repos/anthropics/claude-code/git/trees/6f4f641475a9a7f400823fe8b374bcbd1f1e254f": "2026-10-17T16:16:46.165556+00:00",
+    "/repos/anthropics/claude-code/git/trees/486de5ef97025e1aba31b9e73e3e9c1f2b3f8fb2": "2026-10-17T16:16:47.573309+00:00",
+    "/repos/anthropics/claude-code/git/trees/63e0971691b3317e956e6bcd00a16faa9576e575": "2026-10-17T16:16:49.873792+00:00",
+    "/repos/anthropics/claude-code/git/blobs/410ad0f67663043920889a2b4cc380867acc1e3b": "2026-10-17T16:06:34.334779+00:00",
+    "/repos/anthropics/claude-code/git/blobs/80aa75edf74a5f9e1269811b4e8b5852be91e66e": "2026-10-17T16:06:35.725133+00:00",
+    "/repos/anthropics/claude-code/git/blobs/d6724b2bbc8dac70775da8a5fb281aa42fe62fe5": "2026-10-17T16:06:37.074449+00:00",
+    "/repos/anthropics/claude-code/git/blobs/fce2b87e5dc2a42e0d3ff477ab86f528ec9dd290": "2026-10-17T16:06:38.516771+00:00",
+    "/repos/anthropics/claude-code/git/blobs/5fe5625f9a612f3a8fba4fcd1ab4a34f266164d6": "2026-10-17T16:06:39.926771+00:00",
+    "/repos/anthropics/claude-code/git/blobs/ead68fe39d0063179b5303ae3954ec51f9683690": "2026-10-17T16:06:42.357593+00:00",
+    "/repos/anthropics/claude-code/git/blobs/2fa6ca2409e973a1d002620c692cc0d282e58569": "2026-10-17T16:06:43.740471+00:00",
+    "/repos/anthropics/claude-code/git/blobs/a14d5a9ce06441e354093d6ec10bd5e51679faee": "2026-10-17T16:06:45.206146+00:00",
+    "/repos/anthropics/claude-code/git/blobs/9c89de4b6522f68ddb4421767505506e316cb31c": "2026-10-17T16:06:47.947096+00:00",
+    "/repos/anthropics/claude-code/git/blobs/45d5a2cbace5d0816ac4063a2de109d2259d1cdb": "2026-10-17T16:06:50.511030+00:00",
+    "/repos/anthropics/claude-code/git/blobs/7f67a057ab079cb4e501527dc2d8b8fb61d06075": "2026-10-17T16:06:51.928260+00:00",
+    "/repos/anthropics/claude-code/git/blobs/16a39b977b31b2649b7215bc159a7483bf7d977a": "2026-10-17T16:06:53.308217+00:00",
+    "/repos/anthropics/claude-code/git/blobs/dfdd1fdf2521142a6955a173233d5d636e00b48f": "2026-10-17T16:06:54.716369+00:00",
+    "/repos/anthropics/claude-code/git/blobs/765a5cd8548ff8f4290b527d082f8f404a37ba2b": "2026-10-17T16:06:56.220524+00:00",
+    "/repos/anthropics/claude-code/git/blobs/3e418ed18c38042c9b68a852cd4cc20655637c84": "2026-10-17T16:06:57.631665+00:00",
+    "/repos/anthropics/claude-code/git/blobs/1acffef2e4a45885ac1d946a207b6fdcdb609b4f": "2026-10-17T16:06:59.016313+00:00",
+    "/repos/anthropics/claude-code/git/blobs/39d27ea057f3efb30d1be975b701316306225dbf": "2026-10-17T16:07:00.505580+00:00",
+    "/repos/anthropics/claude-code/git/blobs/6d8e15f5d737d40c3d1c7a92f1d8a1b29cd5407c": "2026-10-17T16:07:01.891491+00:00",
+    "/repos/anthropics/claude-code/git/blobs/f23d4fbe9883c19174141c32e1ce85774253fd04": "2026-10-17T16:07:03.289052+00:00",
+    "/repos/anthropics/claude-code/git/blobs/584bc7ddb3a39e0cb1a83714caa91de1436c7d5f": "2026-10-17T16:07:04.671785+00:00",
+    "/repos/anthropics/claude-code/git/blobs/5fc681b28ad38baff444957f8ebb8afa17be5522": "2026-10-17T16:07:06.090416+00:00",
+    "/repos/anthropics/claude-code/git/blobs/96ba373ef38f2465de7838947dd794c871b85c67": "2026-10-17T16:16:51.403459+00:00",
+    "/repos/anthropics/claude-code/git/blobs/fab66510a84a486718a67b95c3891d99e07f6420": "2026-10-17T16:16:52.837621+00:00",
+    "/repos/anthropics/claude-code/git/blobs/42cc8095cd2c54e043f9276224df408dca4f48cc": "2026-10-17T16:16:54.253370+00:00",
+    "/repos/anthropics/claude-code/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:07:12.582714+00:00",
+    "/repos/anthropics/claude-code/pulls/1/files?per_page=100": "2026-10-17T16:07:14.104368+00:00",
+    "/repos/anthropics/claude-code/pulls/1/reviews?per_page=100": "2026-10-17T16:07:15.942029+00:00",
+    "/repos/anthropics/claude-code/actions/runs?head_sha=b46a3eb29a6514de51142c542cbb31226bf29407&per_page=10": "2026-10-17T16:07:17.397000+00:00",
+    "/repos/anthropics/claude-code/actions/runs?head_sha=429d03e3823d7dfeaf162321f033f2b667c9b554&per_page=10": "2026-10-17T16:07:18.771140+00:00",
+    "/repos/anthropics/claude-code/pulls/100293/files?per_page=100": "2026-10-17T16:07:20.681706+00:00",
+    "/repos/anthropics/claude-code/pulls/100293/reviews?per_page=100": "2026-10-17T16:07:22.222617+00:00",
+    "/repos/anthropics/claude-code/actions/runs?head_sha=3f349d410faf6980872f799975bb4fc307e88bb8&per_page=10": "2026-10-17T16:07:24.634323+00:00",
+    "/repos/anthropics/claude-code/actions/runs?head_sha=91963195817f0384deb6eb60911d20a916144fa6&per_page=10": "2026-10-17T16:07:26.176165+00:00",
+    "/repos/anthropics/claude-code/pulls/99206/files?per_page=100": "2026-10-17T16:07:27.931788+00:00",
+    "/repos/anthropics/claude-code/pulls/99206/reviews?per_page=100": "2026-10-17T16:07:29.531287+00:00",
+    "/repos/anthropics/claude-code/actions/runs?head_sha=765f236fe1bfcc678e0ec59af9170fb7d6771a3a&per_page=10": "2026-10-17T16:07:32.555267+00:00",
+    "/repos/anthropics/claude-code/actions/runs?head_sha=c0856fdbc21dd7e6be868219dab1d8c1e68b010e&per_page=10": "2026-10-17T16:07:34.261530+00:00",
+    "/repos/anthropics/claude-code/releases?per_page=20&page=1": "2026-10-17T16:16:58.606401+00:00",
+    "/repos/anthropics/claude-code/commits/v2.1.302": "2026-10-17T16:07:39.866040+00:00",
+    "/repos/anthropics/claude-code/actions/runs?head_sha=c017428c8c27e604840435048d5bce6a9a22c040&per_page=10": "2026-10-17T16:07:42.160797+00:00",
+    "/repos/anthropics/claude-code/commits/v2.1.301": "2026-10-17T16:07:43.884008+00:00",
+    "/repos/anthropics/claude-code/actions/runs?head_sha=03b5892ee77de289bcd5dfa39f541525ade74aff&per_page=10": "2026-10-17T16:07:46.153119+00:00",
+    "/repos/anthropics/claude-code/commits/v2.1.300": "2026-10-17T16:07:47.902468+00:00",
+    "/repos/anthropics/claude-code/actions/runs?head_sha=94506ff0d3bd9185f1752da36e968775021fb48f&per_page=10": "2026-10-17T16:07:50.121011+00:00",
+    "/repos/anthropics/claude-code/tags?per_page=3": "2026-10-17T16:07:52.475761+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:16:58.606401+00:00",
+  "status": "collected"
+}
