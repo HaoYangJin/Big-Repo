@@ -1,0 +1,1908 @@
+{
+  "requested_repository": "vercel/next.js",
+  "category": "frameworks",
+  "collected_at": "2026-10-17T16:10:25.546666+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "vercel/next.js",
+  "metadata": {
+    "html_url": "https://github.com/vercel/next.js",
+    "description": "The React Framework",
+    "homepage": "https://nextjs.org",
+    "language": "JavaScript",
+    "stargazers_count": 143056,
+    "forks_count": 35155,
+    "open_issues_count": 3691,
+    "pushed_at": "2026-10-17T11:04:14Z",
+    "created_at": "2016-10-05T23:32:51Z",
+    "archived": false,
+    "default_branch": "canary",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [
+      "blog",
+      "browser",
+      "compiler",
+      "components",
+      "hybrid",
+      "nextjs",
+      "node",
+      "react",
+      "server-rendering",
+      "ssg",
+      "static",
+      "static-site-generator",
+      "universal",
+      "vercel"
+    ],
+    "owner": {
+      "login": "vercel",
+      "type": "Organization",
+      "html_url": "https://github.com/vercel"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "e2e7393c1f8449759aa1ae502b64fd7e946fbf37",
+      "url": "https://github.com/vercel/next.js/commit/e2e7393c1f8449759aa1ae502b64fd7e946fbf37",
+      "date": "2026-10-16T23:50:54Z",
+      "subject": "turbo-persistence: prefetch multi-page SST blocks with MADV_WILLNEED (#100283)"
+    },
+    {
+      "sha": "6d8388a9902fbd58f528159523d30cae43d00f54",
+      "url": "https://github.com/vercel/next.js/commit/6d8388a9902fbd58f528159523d30cae43d00f54",
+      "date": "2026-10-16T23:21:35Z",
+      "subject": "v16.5.0-canary.16"
+    },
+    {
+      "sha": "d407204cad317a4b519884cd06806f7c35755345",
+      "url": "https://github.com/vercel/next.js/commit/d407204cad317a4b519884cd06806f7c35755345",
+      "date": "2026-10-16T22:03:49Z",
+      "subject": "test: remove stale deploy gate on cold RSC navigation param caching test (#100285)"
+    },
+    {
+      "sha": "f09aa18f8ac286230a507102753c8e1373a45149",
+      "url": "https://github.com/vercel/next.js/commit/f09aa18f8ac286230a507102753c8e1373a45149",
+      "date": "2026-10-16T18:22:21Z",
+      "subject": "Refactor fetchStrategy -> stage and completeness (#99706)"
+    },
+    {
+      "sha": "76ddf785d3d9f5b0e1eeff17bc225d848ba74f2e",
+      "url": "https://github.com/vercel/next.js/commit/76ddf785d3d9f5b0e1eeff17bc225d848ba74f2e",
+      "date": "2026-10-16T17:11:59Z",
+      "subject": "Remove dead NextNodeServer.renderHTML (#100284)"
+    },
+    {
+      "sha": "da8f4e9229ef139f4307d6a3441b32c053fba3ad",
+      "url": "https://github.com/vercel/next.js/commit/da8f4e9229ef139f4307d6a3441b32c053fba3ad",
+      "date": "2026-10-16T14:08:53Z",
+      "subject": "Pass Server Action request metadata into App rendering (#100274)"
+    },
+    {
+      "sha": "ddafc9905136b3bac5f1778a123fa792be705b4b",
+      "url": "https://github.com/vercel/next.js/commit/ddafc9905136b3bac5f1778a123fa792be705b4b",
+      "date": "2026-10-16T11:51:21Z",
+      "subject": "Fix upgrade eval worktree dependency links (#100257)"
+    },
+    {
+      "sha": "f1a69d7d76cddf40a144864f9d520453a1f1b4e3",
+      "url": "https://github.com/vercel/next.js/commit/f1a69d7d76cddf40a144864f9d520453a1f1b4e3",
+      "date": "2026-10-16T11:47:24Z",
+      "subject": "Revert \"Keep requests through middleware in a single OpenTelemetry trace\" (#100302)"
+    },
+    {
+      "sha": "15e8f35f336718cada887f08960736614a803648",
+      "url": "https://github.com/vercel/next.js/commit/15e8f35f336718cada887f08960736614a803648",
+      "date": "2026-10-16T11:46:56Z",
+      "subject": "Respect release age when pinning the upgrade CLI (#100256)"
+    },
+    {
+      "sha": "a6d4c15991fd2f69c14eea4e8b655b596bc162bf",
+      "url": "https://github.com/vercel/next.js/commit/a6d4c15991fd2f69c14eea4e8b655b596bc162bf",
+      "date": "2026-10-15T23:20:40Z",
+      "subject": "v16.5.0-canary.15"
+    },
+    {
+      "sha": "00c4ba8b6e268c792da64207fa9453132bfcec5f",
+      "url": "https://github.com/vercel/next.js/commit/00c4ba8b6e268c792da64207fa9453132bfcec5f",
+      "date": "2026-10-15T21:52:27Z",
+      "subject": "Hoist app page request URL into render context (#99269)"
+    },
+    {
+      "sha": "edd8011d30b78ebf71a7d85534fe1ecd14f090fc",
+      "url": "https://github.com/vercel/next.js/commit/edd8011d30b78ebf71a7d85534fe1ecd14f090fc",
+      "date": "2026-10-15T20:30:46Z",
+      "subject": "Hide overlay editor button labels on smaller screens (#100266)"
+    },
+    {
+      "sha": "96f545aec7187747388cb54e0d355ce480ead552",
+      "url": "https://github.com/vercel/next.js/commit/96f545aec7187747388cb54e0d355ce480ead552",
+      "date": "2026-10-15T19:47:49Z",
+      "subject": "Turbopack: don't inherit API route config from parent layouts (#100243)"
+    },
+    {
+      "sha": "7525c5d33d09c87b580d843c9b2762e4842dcf61",
+      "url": "https://github.com/vercel/next.js/commit/7525c5d33d09c87b580d843c9b2762e4842dcf61",
+      "date": "2026-10-15T19:47:49Z",
+      "subject": "test: Add more segment config tests (#100242)"
+    },
+    {
+      "sha": "d50d2ce81f552bd23a252bed7fd208590df3af0d",
+      "url": "https://github.com/vercel/next.js/commit/d50d2ce81f552bd23a252bed7fd208590df3af0d",
+      "date": "2026-10-15T18:38:09Z",
+      "subject": "Prefer non-partial entries regardless of FetchStrategy (#99705)"
+    },
+    {
+      "sha": "06136c4abdf2d353fbd583413cf594ff8672b74d",
+      "url": "https://github.com/vercel/next.js/commit/06136c4abdf2d353fbd583413cf594ff8672b74d",
+      "date": "2026-10-15T18:38:09Z",
+      "subject": "[Partial Prefetching] Don't report vary params in responses that include dynamic data (#99700)"
+    },
+    {
+      "sha": "00f25a86e8b3e3adb7ea123dc35a995b443f2f62",
+      "url": "https://github.com/vercel/next.js/commit/00f25a86e8b3e3adb7ea123dc35a995b443f2f62",
+      "date": "2026-10-15T18:38:08Z",
+      "subject": "[Partial Prefetching] Small optimizations and fixes (#99695)"
+    },
+    {
+      "sha": "8f7616629194c31957719b67978a8c316d4f863f",
+      "url": "https://github.com/vercel/next.js/commit/8f7616629194c31957719b67978a8c316d4f863f",
+      "date": "2026-10-15T18:38:08Z",
+      "subject": "[Cached Navs] Extract the shell from a fully cached response (#99619)"
+    },
+    {
+      "sha": "88f07ed3b917baae57e2fa51cbb0ad4e59398d42",
+      "url": "https://github.com/vercel/next.js/commit/88f07ed3b917baae57e2fa51cbb0ad4e59398d42",
+      "date": "2026-10-15T18:38:07Z",
+      "subject": "Refactor the navigation fetch and decode layering (#99618)"
+    },
+    {
+      "sha": "4b85c2809831fbdb656a7d84d38a5020c68ef360",
+      "url": "https://github.com/vercel/next.js/commit/4b85c2809831fbdb656a7d84d38a5020c68ef360",
+      "date": "2026-10-15T18:38:07Z",
+      "subject": "[Cached Navs] Don't extract static stage (#99617)"
+    }
+  ],
+  "default_sha": "e2e7393c1f8449759aa1ae502b64fd7e946fbf37",
+  "root_and_selected_directory_paths": [
+    ".agents",
+    ".alexignore",
+    ".alexrc",
+    ".cargo",
+    ".claude",
+    ".claude-plugin",
+    ".claude-plugin/marketplace.json",
+    ".conductor",
+    ".config",
+    ".cursor",
+    ".cursorindexingignore",
+    ".devcontainer",
+    ".git-blame-ignore-revs",
+    ".gitattributes",
+    ".github",
+    ".github/AGENTS.md",
+    ".github/CODEOWNERS",
+    ".github/DISCUSSION_TEMPLATE",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/1.bug_report.yml",
+    ".github/ISSUE_TEMPLATE/4.docs_report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/actions",
+    ".github/comments",
+    ".github/package.json",
+    ".github/pnpm-lock.yaml",
+    ".github/pnpm-workspace.yaml",
+    ".github/pull_request_template.md",
+    ".github/scripts",
+    ".github/workflows",
+    ".github/workflows/automated_code_review.yml",
+    ".github/workflows/build_and_deploy.yml",
+    ".github/workflows/build_and_test.yml",
+    ".github/workflows/build_reusable.yml",
+    ".github/workflows/integration_tests_reusable.yml",
+    ".github/workflows/issue_lock.yml",
+    ".github/workflows/issue_reopen.yml",
+    ".github/workflows/next-maintainer-auto-close.yml",
+    ".github/workflows/next-upgrade-evals.yml",
+    ".github/workflows/pr_ci_comment.yml",
+    ".github/workflows/pr_stack_optimizer.yml",
+    ".github/workflows/pull_request_auto_label.yml",
+    ".github/workflows/release-next-rspack.yml",
+    ".github/workflows/retry_deploy_test.yml",
+    ".github/workflows/retry_test.yml",
+    ".github/workflows/rspack-nextjs-build-integration-tests.yml",
+    ".github/workflows/rspack-nextjs-dev-integration-tests.yml",
+    ".github/workflows/rspack-update-tests-manifest.yml",
+    ".github/workflows/sync_backport_canary_release.yml",
+    ".github/workflows/test-turbopack-rust-bench-test.yml",
+    ".github/workflows/test_e2e_deploy_release.yml",
+    ".github/workflows/test_e2e_project_reset_cron.yml",
+    ".github/workflows/triage.yml",
+    ".github/workflows/trigger_release.yml",
+    ".github/workflows/turbopack-benchmark.yml",
+    ".github/workflows/update_fonts_data.yml",
+    ".github/workflows/update_react.yml",
+    ".github/workflows/update_react_poller.yml",
+    ".github/workflows/upload_preview_tarballs.yml",
+    ".gitignore",
+    ".husky",
+    ".ignore",
+    ".node-version",
+    ".prettierignore",
+    ".prettierrc.json",
+    ".rustfmt.toml",
+    ".typos.toml",
+    ".vscode",
+    "AGENTS.md",
+    "CODE_OF_CONDUCT.md",
+    "Cargo.lock",
+    "Cargo.toml",
+    "UPGRADING.md",
+    "apps",
+    "bench",
+    "conductor.json",
+    "contributing",
+    "contributing.md",
+    "crates",
+    "docs",
+    "docs/01-app",
+    "docs/02-pages",
+    "docs/03-architecture",
+    "docs/04-community",
+    "docs/index.mdx",
+    "errors",
+    "eslint.cli.config.mjs",
+    "eslint.config.mjs",
+    "evals",
+    "examples",
+    "jest.config.js",
+    "jest.config.turbopack.js",
+    "license.md",
+    "lint-staged.config.js",
+    "package.json",
+    "packages",
+    "patches",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "readme.md",
+    "rspack",
+    "run-evals.js",
+    "run-tests.js",
+    "rust-toolchain.toml",
+    "scripts",
+    "sgconfig.yml",
+    "skills",
+    "skills-lock.json",
+    "socket.yaml",
+    "test",
+    "test-config-errors",
+    "test-file.txt",
+    "tsconfig.json",
+    "turbo",
+    "turbo.json",
+    "turbopack",
+    "vercel.json"
+  ],
+  "workflow_paths": [
+    ".github/workflows/build_and_test.yml",
+    ".github/workflows/integration_tests_reusable.yml",
+    ".github/workflows/pr_ci_comment.yml",
+    ".github/workflows/release-next-rspack.yml",
+    ".github/workflows/retry_deploy_test.yml",
+    ".github/workflows/retry_test.yml",
+    ".github/workflows/rspack-nextjs-build-integration-tests.yml",
+    ".github/workflows/rspack-nextjs-dev-integration-tests.yml",
+    ".github/workflows/rspack-update-tests-manifest.yml",
+    ".github/workflows/sync_backport_canary_release.yml",
+    ".github/workflows/test-turbopack-rust-bench-test.yml",
+    ".github/workflows/test_e2e_deploy_release.yml",
+    ".github/workflows/test_e2e_project_reset_cron.yml",
+    ".github/workflows/trigger_release.yml",
+    ".github/workflows/automated_code_review.yml",
+    ".github/workflows/build_and_deploy.yml",
+    ".github/workflows/build_reusable.yml",
+    ".github/workflows/issue_lock.yml",
+    ".github/workflows/issue_reopen.yml",
+    ".github/workflows/next-maintainer-auto-close.yml",
+    ".github/workflows/next-upgrade-evals.yml",
+    ".github/workflows/pr_stack_optimizer.yml",
+    ".github/workflows/pull_request_auto_label.yml",
+    ".github/workflows/triage.yml",
+    ".github/workflows/turbopack-benchmark.yml",
+    ".github/workflows/update_fonts_data.yml",
+    ".github/workflows/update_react.yml",
+    ".github/workflows/update_react_poller.yml",
+    ".github/workflows/upload_preview_tarballs.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "ddc75044f2619946c2a619c974d6b0a8d9644133",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/AGENTS.md",
+      "lines": 535,
+      "signals": {
+        "tests": [
+          89,
+          92,
+          95,
+          98,
+          129,
+          132,
+          135,
+          140,
+          141,
+          142,
+          143,
+          147
+        ],
+        "lint": [
+          38,
+          236,
+          238,
+          256,
+          304,
+          446,
+          447,
+          448
+        ],
+        "generated_code": [
+          419
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          319
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "6714bc34d2f244d5aa2ab3d63d2617b856a34054",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/CODE_OF_CONDUCT.md",
+      "lines": 53,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Cargo.toml",
+      "sha": "cc16228d484f69e9e6f5b12e0f962c75d73fccc1",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/Cargo.toml",
+      "lines": 382,
+      "signals": {
+        "tests": [],
+        "lint": [
+          24
+        ],
+        "generated_code": [
+          60,
+          67,
+          70,
+          84,
+          86,
+          97
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "contributing.md",
+      "sha": "349bc0afcce44b02ce204975b1cdcf35213f8494",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/contributing.md",
+      "lines": 53,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          8,
+          10
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "package.json",
+      "sha": "8d49287f3f15af1301058eaa73a3895efd51e649",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/package.json",
+      "lines": 304,
+      "signals": {
+        "tests": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "lint": [
+          62,
+          64,
+          70,
+          71,
+          73,
+          76,
+          109,
+          119,
+          120,
+          121,
+          128,
+          189
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "readme.md",
+      "sha": "29e4f3032d3dd24eb12f0381e288e4dc033e0845",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/readme.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/AGENTS.md",
+      "sha": "e1820dae6774255ce7d78667a1ed7cf8b26a0bdb",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/AGENTS.md",
+      "lines": 78,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12,
+          16,
+          20
+        ],
+        "pinned_actions": [
+          34
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha": "e6b172e58b770eb574122cfa7d289b9f5c5d7fba",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/CODEOWNERS",
+      "lines": 2,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/1.bug_report.yml",
+      "sha": "942270802b5689a36c45faa6f74a61151605783f",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/ISSUE_TEMPLATE/1.bug_report.yml",
+      "lines": 156,
+      "signals": {
+        "tests": [],
+        "lint": [
+          70
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          25
+        ],
+        "community": [
+          10,
+          12,
+          19
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/4.docs_report.yml",
+      "sha": "79464bc4a23e557b861845ecdfcb22932e852a48",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/ISSUE_TEMPLATE/4.docs_report.yml",
+      "lines": 31,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          11
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "fce4398cac31973bd59ce5f889f20116b2b6fbf4",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 11,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          4,
+          7
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/package.json",
+      "sha": "f2a6eed798eed06015d1ada124fb363473fb2a39",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/package.json",
+      "lines": 5,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha": "837d4977bedd8179f43544820923beba4c09e25b",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/pull_request_template.md",
+      "lines": 51,
+      "signals": {
+        "tests": [],
+        "lint": [
+          11
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          22,
+          23
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build_and_test.yml",
+      "sha": "9dfe191ae4ee892ae16e6a82e00e62c08ef1e492",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/workflows/build_and_test.yml",
+      "lines": 1291,
+      "signals": {
+        "tests": [
+          693
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          27,
+          37,
+          94,
+          136,
+          138,
+          150,
+          152,
+          167,
+          169,
+          245,
+          247,
+          293
+        ],
+        "pinned_actions": [
+          40,
+          128,
+          184,
+          196,
+          208,
+          234,
+          273,
+          276,
+          399,
+          403,
+          878
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/integration_tests_reusable.yml",
+      "sha": "15648ae1ac6bfa004c206d4282ec93c92d653595",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/workflows/integration_tests_reusable.yml",
+      "lines": 191,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          48,
+          50,
+          60,
+          62,
+          101,
+          103,
+          136,
+          138,
+          171
+        ],
+        "pinned_actions": [
+          175,
+          185
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pr_ci_comment.yml",
+      "sha": "57d968cfb10d719d37d25df5cc26e2e2172a7203",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/workflows/pr_ci_comment.yml",
+      "lines": 35,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8
+        ],
+        "pinned_actions": [
+          19,
+          25
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release-next-rspack.yml",
+      "sha": "be2fbe140969fbd7074d92ccbfc3d0627a36a4db",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/workflows/release-next-rspack.yml",
+      "lines": 133,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          132
+        ],
+        "permissions": [
+          43,
+          44,
+          45
+        ],
+        "pinned_actions": [
+          33,
+          50,
+          66,
+          85,
+          97,
+          102
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/retry_deploy_test.yml",
+      "sha": "9d9126593864d056e94960623affd3ce1b1e6820",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/workflows/retry_deploy_test.yml",
+      "lines": 66,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12
+        ],
+        "pinned_actions": [
+          56
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/retry_test.yml",
+      "sha": "4c94a87095854b5766295a6b8c24e3c774601e59",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/workflows/retry_test.yml",
+      "lines": 153,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          15
+        ],
+        "pinned_actions": [
+          32,
+          98,
+          141
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/rspack-nextjs-build-integration-tests.yml",
+      "sha": "222ebf8f62936587847345e4573bcefc7f85949c",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/workflows/rspack-nextjs-build-integration-tests.yml",
+      "lines": 30,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12,
+          14
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/rspack-nextjs-dev-integration-tests.yml",
+      "sha": "5fd0be5142f1025e54a63933a8d05781830c9e02",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/workflows/rspack-nextjs-dev-integration-tests.yml",
+      "lines": 30,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12,
+          14
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/rspack-update-tests-manifest.yml",
+      "sha": "eaeb2110812ec057f5a53fec9b26a87e84907d18",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/workflows/rspack-update-tests-manifest.yml",
+      "lines": 151,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          85,
+          151
+        ],
+        "release_automation": [],
+        "permissions": [
+          13,
+          20,
+          33,
+          90,
+          103
+        ],
+        "pinned_actions": [
+          27,
+          45,
+          53,
+          97,
+          115,
+          123
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/sync_backport_canary_release.yml",
+      "sha": "e6ef279d7399d0ed81b58c838141581275085ab0",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/workflows/sync_backport_canary_release.yml",
+      "lines": 153,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          33,
+          124
+        ],
+        "pinned_actions": [
+          43,
+          64,
+          73,
+          92,
+          128
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test-turbopack-rust-bench-test.yml",
+      "sha": "66a8b01a48d8d30abae1e376ae15cab2213367f1",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/workflows/test-turbopack-rust-bench-test.yml",
+      "lines": 81,
+      "signals": {
+        "tests": [
+          64,
+          66,
+          69,
+          75,
+          77,
+          81
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          32,
+          40,
+          54
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test_e2e_deploy_release.yml",
+      "sha": "5857d09fd081721d7682c225855a6b19d2f00452",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/.github/workflows/test_e2e_deploy_release.yml",
+      "lines": 398,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          177,
+          179,
+          214,
+          216,
+          267,
+          269
+        ],
+        "pinned_actions": [
+          69,
+          75,
+          131,
+          320,
+          327,
+          357,
+          362,
+          370
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "skills/next-bundle-optimizer/SKILL.md",
+      "sha": "7ed81add1a6452acb6f7894fef73d30bfa04684f",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/skills/next-bundle-optimizer/SKILL.md",
+      "lines": 90,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "skills/next-cache-components-adoption/SKILL.md",
+      "sha": "a03551523fbcb3be1890438e2b25312ca8959a33",
+      "status": "inspected",
+      "url": "https://github.com/vercel/next.js/blob/e2e7393c1f8449759aa1ae502b64fd7e946fbf37/skills/next-cache-components-adoption/SKILL.md",
+      "lines": 250,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          102
+        ]
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 88225,
+      "title": "Turbopack: fix `source` field in CSS sourcemaps",
+      "url": "https://github.com/vercel/next.js/pull/88225",
+      "merged_at": "2026-09-04T20:54:26Z",
+      "merge_commit_sha": "0ac302d3d8d5222b41a911cb49093d315d9260ee",
+      "files": [
+        "test/production/scss-multi-source-sourcemap/pages/_app.js",
+        "test/production/scss-multi-source-sourcemap/pages/index.js",
+        "test/production/scss-multi-source-sourcemap/scss-multi-source-sourcemap.test.ts",
+        "test/production/scss-multi-source-sourcemap/styles/_partial.scss",
+        "test/production/scss-multi-source-sourcemap/styles/global.scss",
+        "turbopack/crates/turbopack-css/src/process.rs"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "test/production/scss-multi-source-sourcemap/pages/_app.js",
+          "status": "added",
+          "additions": 12,
+          "deletions": 0,
+          "blob_url": "https://github.com/vercel/next.js/blob/78a091e70f521a9ed916e455a4109b5f1209dd0c/test%2Fproduction%2Fscss-multi-source-sourcemap%2Fpages%2F_app.js"
+        },
+        {
+          "filename": "test/production/scss-multi-source-sourcemap/pages/index.js",
+          "status": "added",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/vercel/next.js/blob/78a091e70f521a9ed916e455a4109b5f1209dd0c/test%2Fproduction%2Fscss-multi-source-sourcemap%2Fpages%2Findex.js"
+        },
+        {
+          "filename": "test/production/scss-multi-source-sourcemap/scss-multi-source-sourcemap.test.ts",
+          "status": "added",
+          "additions": 128,
+          "deletions": 0,
+          "blob_url": "https://github.com/vercel/next.js/blob/78a091e70f521a9ed916e455a4109b5f1209dd0c/test%2Fproduction%2Fscss-multi-source-sourcemap%2Fscss-multi-source-sourcemap.test.ts"
+        },
+        {
+          "filename": "test/production/scss-multi-source-sourcemap/styles/_partial.scss",
+          "status": "added",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/vercel/next.js/blob/78a091e70f521a9ed916e455a4109b5f1209dd0c/test%2Fproduction%2Fscss-multi-source-sourcemap%2Fstyles%2F_partial.scss"
+        },
+        {
+          "filename": "test/production/scss-multi-source-sourcemap/styles/global.scss",
+          "status": "added",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/vercel/next.js/blob/78a091e70f521a9ed916e455a4109b5f1209dd0c/test%2Fproduction%2Fscss-multi-source-sourcemap%2Fstyles%2Fglobal.scss"
+        },
+        {
+          "filename": "turbopack/crates/turbopack-css/src/process.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/vercel/next.js/blob/78a091e70f521a9ed916e455a4109b5f1209dd0c/turbopack%2Fcrates%2Fturbopack-css%2Fsrc%2Fprocess.rs"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 33929039288,
+          "name": "Trigger Release",
+          "path": ".github/workflows/trigger_release.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/33929039288",
+          "head_sha": "0ac302d3d8d5222b41a911cb49093d315d9260ee"
+        },
+        {
+          "id": 33928861656,
+          "name": "Sync Canary After Backport Release",
+          "path": ".github/workflows/sync_backport_canary_release.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/33928861656",
+          "head_sha": "0ac302d3d8d5222b41a911cb49093d315d9260ee"
+        },
+        {
+          "id": 33928861654,
+          "name": "upload-preview-tarballs",
+          "path": ".github/workflows/upload_preview_tarballs.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/33928861654",
+          "head_sha": "0ac302d3d8d5222b41a911cb49093d315d9260ee"
+        },
+        {
+          "id": 33928817865,
+          "name": "Poll React Sync",
+          "path": ".github/workflows/update_react_poller.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/33928817865",
+          "head_sha": "0ac302d3d8d5222b41a911cb49093d315d9260ee"
+        },
+        {
+          "id": 33928685870,
+          "name": "Next Maintainer Auto Close",
+          "path": ".github/workflows/next-maintainer-auto-close.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/33928685870",
+          "head_sha": "0ac302d3d8d5222b41a911cb49093d315d9260ee"
+        },
+        {
+          "id": 33928634000,
+          "name": "Allow issue participants to reopen issues",
+          "path": ".github/workflows/issue_reopen.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/33928634000",
+          "head_sha": "0ac302d3d8d5222b41a911cb49093d315d9260ee"
+        },
+        {
+          "id": 33928633978,
+          "name": "Triage issues",
+          "path": ".github/workflows/triage.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/33928633978",
+          "head_sha": "0ac302d3d8d5222b41a911cb49093d315d9260ee"
+        },
+        {
+          "id": 33928308789,
+          "name": "upload-preview-tarballs",
+          "path": ".github/workflows/upload_preview_tarballs.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/33928308789",
+          "head_sha": "0ac302d3d8d5222b41a911cb49093d315d9260ee"
+        },
+        {
+          "id": 33928309008,
+          "name": "Sync Canary After Backport Release",
+          "path": ".github/workflows/sync_backport_canary_release.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/33928309008",
+          "head_sha": "0ac302d3d8d5222b41a911cb49093d315d9260ee"
+        },
+        {
+          "id": 33928306636,
+          "name": "PR CI Comment",
+          "path": ".github/workflows/pr_ci_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/33928306636",
+          "head_sha": "0ac302d3d8d5222b41a911cb49093d315d9260ee"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 33758636824,
+          "name": "build-and-test",
+          "path": ".github/workflows/build_and_test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/33758636824",
+          "head_sha": "78a091e70f521a9ed916e455a4109b5f1209dd0c"
+        },
+        {
+          "id": 33758636481,
+          "name": "build-and-deploy",
+          "path": ".github/workflows/build_and_deploy.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/33758636481",
+          "head_sha": "78a091e70f521a9ed916e455a4109b5f1209dd0c"
+        }
+      ]
+    },
+    {
+      "number": 99621,
+      "title": "Fix CI break caused by #98932",
+      "url": "https://github.com/vercel/next.js/pull/99621",
+      "merged_at": "2026-10-03T01:57:18Z",
+      "merge_commit_sha": "596443802d3f8616b46dca2007a8c5393110f6fb",
+      "files": [
+        "turbopack/crates/turbopack-tests/tests/execution/turbopack/exports/live/input/index.js",
+        "turbopack/crates/turbopack-tests/tests/execution/turbopack/exports/live/input/zero_before_accessor.js"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "turbopack/crates/turbopack-tests/tests/execution/turbopack/exports/live/input/index.js",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 4,
+          "blob_url": "https://github.com/vercel/next.js/blob/c54cae4ef9dcd9f672e23f47f158906c7cb2c149/turbopack%2Fcrates%2Fturbopack-tests%2Ftests%2Fexecution%2Fturbopack%2Fexports%2Flive%2Finput%2Findex.js"
+        },
+        {
+          "filename": "turbopack/crates/turbopack-tests/tests/execution/turbopack/exports/live/input/zero_before_accessor.js",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/vercel/next.js/blob/c54cae4ef9dcd9f672e23f47f158906c7cb2c149/turbopack%2Fcrates%2Fturbopack-tests%2Ftests%2Fexecution%2Fturbopack%2Fexports%2Flive%2Finput%2Fzero_before_accessor.js"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 37096669265,
+          "name": "Poll React Sync",
+          "path": ".github/workflows/update_react_poller.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37096669265",
+          "head_sha": "596443802d3f8616b46dca2007a8c5393110f6fb"
+        },
+        {
+          "id": 37096297087,
+          "name": "Next Maintainer Auto Close",
+          "path": ".github/workflows/next-maintainer-auto-close.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37096297087",
+          "head_sha": "596443802d3f8616b46dca2007a8c5393110f6fb"
+        },
+        {
+          "id": 37095427597,
+          "name": "Poll React Sync",
+          "path": ".github/workflows/update_react_poller.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37095427597",
+          "head_sha": "596443802d3f8616b46dca2007a8c5393110f6fb"
+        },
+        {
+          "id": 37094872446,
+          "name": "PR CI Comment",
+          "path": ".github/workflows/pr_ci_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37094872446",
+          "head_sha": "596443802d3f8616b46dca2007a8c5393110f6fb"
+        },
+        {
+          "id": 37094757554,
+          "name": "Poll React Sync",
+          "path": ".github/workflows/update_react_poller.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37094757554",
+          "head_sha": "596443802d3f8616b46dca2007a8c5393110f6fb"
+        },
+        {
+          "id": 37093261394,
+          "name": "Next Maintainer Auto Close",
+          "path": ".github/workflows/next-maintainer-auto-close.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37093261394",
+          "head_sha": "596443802d3f8616b46dca2007a8c5393110f6fb"
+        },
+        {
+          "id": 37093207210,
+          "name": "Poll React Sync",
+          "path": ".github/workflows/update_react_poller.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37093207210",
+          "head_sha": "596443802d3f8616b46dca2007a8c5393110f6fb"
+        },
+        {
+          "id": 37092062799,
+          "name": "Triage issues",
+          "path": ".github/workflows/triage.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37092062799",
+          "head_sha": "596443802d3f8616b46dca2007a8c5393110f6fb"
+        },
+        {
+          "id": 37092062721,
+          "name": "Allow issue participants to reopen issues",
+          "path": ".github/workflows/issue_reopen.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37092062721",
+          "head_sha": "596443802d3f8616b46dca2007a8c5393110f6fb"
+        },
+        {
+          "id": 37092028171,
+          "name": "Allow issue participants to reopen issues",
+          "path": ".github/workflows/issue_reopen.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37092028171",
+          "head_sha": "596443802d3f8616b46dca2007a8c5393110f6fb"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 37086784280,
+          "name": "build-and-test",
+          "path": ".github/workflows/build_and_test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37086784280",
+          "head_sha": "c54cae4ef9dcd9f672e23f47f158906c7cb2c149"
+        },
+        {
+          "id": 37086784008,
+          "name": "build-and-deploy",
+          "path": ".github/workflows/build_and_deploy.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37086784008",
+          "head_sha": "c54cae4ef9dcd9f672e23f47f158906c7cb2c149"
+        }
+      ]
+    },
+    {
+      "number": 99581,
+      "title": "turbo-tasks-backend: check access in track_modification and only track Data on serialization invalidation",
+      "url": "https://github.com/vercel/next.js/pull/99581",
+      "merged_at": "2026-10-03T04:34:46Z",
+      "merge_commit_sha": "86d92b94c3e2e96b3babfc819631fb10bfd7e6bc",
+      "files": [
+        "turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs",
+        "turbopack/crates/turbo-tasks-backend/src/backend/storage.rs",
+        "turbopack/crates/turbo-tasks-backend/tests/invalidate_serialization.rs"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "turbopack/crates/turbo-tasks-backend/src/backend/operation/mod.rs",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 9,
+          "blob_url": "https://github.com/vercel/next.js/blob/192eb5d8cd04e00396dcf33ad4470e360a58a001/turbopack%2Fcrates%2Fturbo-tasks-backend%2Fsrc%2Fbackend%2Foperation%2Fmod.rs"
+        },
+        {
+          "filename": "turbopack/crates/turbo-tasks-backend/src/backend/storage.rs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/vercel/next.js/blob/192eb5d8cd04e00396dcf33ad4470e360a58a001/turbopack%2Fcrates%2Fturbo-tasks-backend%2Fsrc%2Fbackend%2Fstorage.rs"
+        },
+        {
+          "filename": "turbopack/crates/turbo-tasks-backend/tests/invalidate_serialization.rs",
+          "status": "added",
+          "additions": 91,
+          "deletions": 0,
+          "blob_url": "https://github.com/vercel/next.js/blob/192eb5d8cd04e00396dcf33ad4470e360a58a001/turbopack%2Fcrates%2Fturbo-tasks-backend%2Ftests%2Finvalidate_serialization.rs"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 37106484611,
+          "name": "PR CI Comment",
+          "path": ".github/workflows/pr_ci_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37106484611",
+          "head_sha": "86d92b94c3e2e96b3babfc819631fb10bfd7e6bc"
+        },
+        {
+          "id": 37106344212,
+          "name": "Poll React Sync",
+          "path": ".github/workflows/update_react_poller.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37106344212",
+          "head_sha": "86d92b94c3e2e96b3babfc819631fb10bfd7e6bc"
+        },
+        {
+          "id": 37106122515,
+          "name": "Next Maintainer Auto Close",
+          "path": ".github/workflows/next-maintainer-auto-close.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37106122515",
+          "head_sha": "86d92b94c3e2e96b3babfc819631fb10bfd7e6bc"
+        },
+        {
+          "id": 37106085127,
+          "name": "Sync Canary After Backport Release",
+          "path": ".github/workflows/sync_backport_canary_release.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37106085127",
+          "head_sha": "86d92b94c3e2e96b3babfc819631fb10bfd7e6bc"
+        },
+        {
+          "id": 37106085173,
+          "name": "upload-preview-tarballs",
+          "path": ".github/workflows/upload_preview_tarballs.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37106085173",
+          "head_sha": "86d92b94c3e2e96b3babfc819631fb10bfd7e6bc"
+        },
+        {
+          "id": 37105843477,
+          "name": "PR CI Comment",
+          "path": ".github/workflows/pr_ci_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37105843477",
+          "head_sha": "86d92b94c3e2e96b3babfc819631fb10bfd7e6bc"
+        },
+        {
+          "id": 37105843396,
+          "name": "Sync Canary After Backport Release",
+          "path": ".github/workflows/sync_backport_canary_release.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37105843396",
+          "head_sha": "86d92b94c3e2e96b3babfc819631fb10bfd7e6bc"
+        },
+        {
+          "id": 37105843407,
+          "name": "upload-preview-tarballs",
+          "path": ".github/workflows/upload_preview_tarballs.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37105843407",
+          "head_sha": "86d92b94c3e2e96b3babfc819631fb10bfd7e6bc"
+        },
+        {
+          "id": 37105771580,
+          "name": "PR CI Comment",
+          "path": ".github/workflows/pr_ci_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37105771580",
+          "head_sha": "86d92b94c3e2e96b3babfc819631fb10bfd7e6bc"
+        },
+        {
+          "id": 37105456838,
+          "name": "PR CI Comment",
+          "path": ".github/workflows/pr_ci_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37105456838",
+          "head_sha": "86d92b94c3e2e96b3babfc819631fb10bfd7e6bc"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 37007479107,
+          "name": "build-and-test",
+          "path": ".github/workflows/build_and_test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37007479107",
+          "head_sha": "192eb5d8cd04e00396dcf33ad4470e360a58a001"
+        },
+        {
+          "id": 37007478712,
+          "name": "build-and-deploy",
+          "path": ".github/workflows/build_and_deploy.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/37007478712",
+          "head_sha": "192eb5d8cd04e00396dcf33ad4470e360a58a001"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v16.4.2",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.2",
+      "published_at": "2026-10-15T20:44:37Z",
+      "target_commitish": "canary",
+      "commit_sha": "2864b1772c37242a9b40ab4d366eb7d368c2a070",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38804409243,
+          "name": "test-e2e-deploy v16.4.2",
+          "path": ".github/workflows/test_e2e_deploy_release.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/38804409243",
+          "head_sha": "2864b1772c37242a9b40ab4d366eb7d368c2a070"
+        },
+        {
+          "id": 38799493925,
+          "name": "build-and-deploy",
+          "path": ".github/workflows/build_and_deploy.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/38799493925",
+          "head_sha": "2864b1772c37242a9b40ab4d366eb7d368c2a070"
+        }
+      ]
+    },
+    {
+      "tag": "v16.4.1",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.1",
+      "published_at": "2026-10-14T17:47:59Z",
+      "target_commitish": "canary",
+      "commit_sha": "7217011ac0d689026884dd28536a0c7f3c98ba77",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38609722445,
+          "name": "test-e2e-deploy v16.4.1",
+          "path": ".github/workflows/test_e2e_deploy_release.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/38609722445",
+          "head_sha": "7217011ac0d689026884dd28536a0c7f3c98ba77"
+        },
+        {
+          "id": 38591312859,
+          "name": "build-and-deploy",
+          "path": ".github/workflows/build_and_deploy.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/38591312859",
+          "head_sha": "7217011ac0d689026884dd28536a0c7f3c98ba77"
+        }
+      ]
+    },
+    {
+      "tag": "v15.5.28",
+      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.28",
+      "published_at": "2026-10-14T17:47:49Z",
+      "target_commitish": "canary",
+      "commit_sha": "195cd6a714086ee0e442cb551da376ad71f37035",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38609698004,
+          "name": "test-e2e-deploy v15.5.28",
+          "path": ".github/workflows/test_e2e_deploy_release.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/38609698004",
+          "head_sha": "195cd6a714086ee0e442cb551da376ad71f37035"
+        },
+        {
+          "id": 38591726965,
+          "name": "build-and-deploy",
+          "path": ".github/workflows/build_and_deploy.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/38591726965",
+          "head_sha": "195cd6a714086ee0e442cb551da376ad71f37035"
+        },
+        {
+          "id": 38591701207,
+          "name": "build-and-deploy",
+          "path": ".github/workflows/build_and_deploy.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/38591701207",
+          "head_sha": "195cd6a714086ee0e442cb551da376ad71f37035"
+        },
+        {
+          "id": 38591700595,
+          "name": "build-and-deploy",
+          "path": ".github/workflows/build_and_deploy.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vercel/next.js/actions/runs/38591700595",
+          "head_sha": "195cd6a714086ee0e442cb551da376ad71f37035"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "@vercel/devlow-bench@0.3.4",
+      "sha": "8e19bb0e89e8ad3d915be9789e1b753cf715d04f"
+    },
+    {
+      "name": "@vercel/devlow-bench@0.3.3",
+      "sha": "1a144a571ea21622ab474ba5de983fd1af392eff"
+    },
+    {
+      "name": "v16.5.0-canary.16",
+      "sha": "6d8388a9902fbd58f528159523d30cae43d00f54"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:13.258081+00:00",
+  "source_times": {
+    "/repos/vercel/next.js": "2026-10-17T16:10:25.546666+00:00",
+    "/repos/vercel/next.js/commits?sha=canary&per_page=20": "2026-10-17T16:10:27.682792+00:00",
+    "/repos/vercel/next.js/git/trees/e2e7393c1f8449759aa1ae502b64fd7e946fbf37": "2026-10-17T16:10:29.270553+00:00",
+    "/repos/vercel/next.js/git/trees/4fcbf5bd4439b11e1bfe7c03016167b0004a65b3": "2026-10-17T16:10:30.676631+00:00",
+    "/repos/vercel/next.js/git/trees/c4fe8741bac455eb5da164e76243af913a77595d": "2026-10-17T16:10:32.241538+00:00",
+    "/repos/vercel/next.js/git/trees/39cd75441f18814bebc1bc793f3218e8e77f6b87": "2026-10-17T16:10:33.767818+00:00",
+    "/repos/vercel/next.js/git/trees/9f048e107e343472a62ac722d80cf77f9f9bf6ab": "2026-10-17T16:10:35.249247+00:00",
+    "/repos/vercel/next.js/git/trees/e059835f5474aaaf88fe11afd122252e82611db2": "2026-10-17T16:10:36.732655+00:00",
+    "/repos/vercel/next.js/git/trees/77a8275da0db18583be86c3731d556d363b453c7": "2026-10-17T16:17:03.256187+00:00",
+    "/repos/vercel/next.js/git/trees/c34f459b9a310b0a51c3d2b327f260b955c85655": "2026-10-17T16:17:04.677519+00:00",
+    "/repos/vercel/next.js/git/trees/498936aca70a90e9455374426e2caf9f0835fb18": "2026-10-17T16:17:06.072727+00:00",
+    "/repos/vercel/next.js/git/trees/cb42f2d0789f24b1eee203d88d8353d779e64bef": "2026-10-17T16:17:07.467643+00:00",
+    "/repos/vercel/next.js/git/blobs/ddc75044f2619946c2a619c974d6b0a8d9644133": "2026-10-17T16:10:39.509212+00:00",
+    "/repos/vercel/next.js/git/blobs/6714bc34d2f244d5aa2ab3d63d2617b856a34054": "2026-10-17T16:10:41.004236+00:00",
+    "/repos/vercel/next.js/git/blobs/cc16228d484f69e9e6f5b12e0f962c75d73fccc1": "2026-10-17T16:10:42.675962+00:00",
+    "/repos/vercel/next.js/git/blobs/349bc0afcce44b02ce204975b1cdcf35213f8494": "2026-10-17T16:10:44.097153+00:00",
+    "/repos/vercel/next.js/git/blobs/8d49287f3f15af1301058eaa73a3895efd51e649": "2026-10-17T16:10:45.678389+00:00",
+    "/repos/vercel/next.js/git/blobs/29e4f3032d3dd24eb12f0381e288e4dc033e0845": "2026-10-17T16:10:49.626051+00:00",
+    "/repos/vercel/next.js/git/blobs/e1820dae6774255ce7d78667a1ed7cf8b26a0bdb": "2026-10-17T16:10:52.101741+00:00",
+    "/repos/vercel/next.js/git/blobs/e6b172e58b770eb574122cfa7d289b9f5c5d7fba": "2026-10-17T16:10:54.556239+00:00",
+    "/repos/vercel/next.js/git/blobs/942270802b5689a36c45faa6f74a61151605783f": "2026-10-17T16:10:56.034019+00:00",
+    "/repos/vercel/next.js/git/blobs/79464bc4a23e557b861845ecdfcb22932e852a48": "2026-10-17T16:10:57.456253+00:00",
+    "/repos/vercel/next.js/git/blobs/fce4398cac31973bd59ce5f889f20116b2b6fbf4": "2026-10-17T16:10:58.801604+00:00",
+    "/repos/vercel/next.js/git/blobs/f2a6eed798eed06015d1ada124fb363473fb2a39": "2026-10-17T16:11:00.148074+00:00",
+    "/repos/vercel/next.js/git/blobs/837d4977bedd8179f43544820923beba4c09e25b": "2026-10-17T16:11:01.566863+00:00",
+    "/repos/vercel/next.js/git/blobs/9dfe191ae4ee892ae16e6a82e00e62c08ef1e492": "2026-10-17T16:11:03.861543+00:00",
+    "/repos/vercel/next.js/git/blobs/15648ae1ac6bfa004c206d4282ec93c92d653595": "2026-10-17T16:11:05.300256+00:00",
+    "/repos/vercel/next.js/git/blobs/57d968cfb10d719d37d25df5cc26e2e2172a7203": "2026-10-17T16:11:06.732211+00:00",
+    "/repos/vercel/next.js/git/blobs/be2fbe140969fbd7074d92ccbfc3d0627a36a4db": "2026-10-17T16:11:08.114950+00:00",
+    "/repos/vercel/next.js/git/blobs/9d9126593864d056e94960623affd3ce1b1e6820": "2026-10-17T16:11:10.157039+00:00",
+    "/repos/vercel/next.js/git/blobs/4c94a87095854b5766295a6b8c24e3c774601e59": "2026-10-17T16:11:11.712201+00:00",
+    "/repos/vercel/next.js/git/blobs/222ebf8f62936587847345e4573bcefc7f85949c": "2026-10-17T16:11:13.099816+00:00",
+    "/repos/vercel/next.js/git/blobs/5fd0be5142f1025e54a63933a8d05781830c9e02": "2026-10-17T16:11:14.515621+00:00",
+    "/repos/vercel/next.js/git/blobs/eaeb2110812ec057f5a53fec9b26a87e84907d18": "2026-10-17T16:11:15.918631+00:00",
+    "/repos/vercel/next.js/git/blobs/e6ef279d7399d0ed81b58c838141581275085ab0": "2026-10-17T16:11:18.825435+00:00",
+    "/repos/vercel/next.js/git/blobs/66a8b01a48d8d30abae1e376ae15cab2213367f1": "2026-10-17T16:11:20.193964+00:00",
+    "/repos/vercel/next.js/git/blobs/5857d09fd081721d7682c225855a6b19d2f00452": "2026-10-17T16:11:21.786987+00:00",
+    "/repos/vercel/next.js/git/blobs/7ed81add1a6452acb6f7894fef73d30bfa04684f": "2026-10-17T16:17:09.037009+00:00",
+    "/repos/vercel/next.js/git/blobs/a03551523fbcb3be1890438e2b25312ca8959a33": "2026-10-17T16:17:11.339225+00:00",
+    "/repos/vercel/next.js/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:11:27.975967+00:00",
+    "/repos/vercel/next.js/pulls/88225/files?per_page=100": "2026-10-17T16:11:29.579279+00:00",
+    "/repos/vercel/next.js/pulls/88225/reviews?per_page=100": "2026-10-17T16:11:31.491100+00:00",
+    "/repos/vercel/next.js/actions/runs?head_sha=0ac302d3d8d5222b41a911cb49093d315d9260ee&per_page=10": "2026-10-17T16:11:35.124604+00:00",
+    "/repos/vercel/next.js/actions/runs?head_sha=78a091e70f521a9ed916e455a4109b5f1209dd0c&per_page=10": "2026-10-17T16:11:36.922732+00:00",
+    "/repos/vercel/next.js/pulls/99621/files?per_page=100": "2026-10-17T16:11:38.468227+00:00",
+    "/repos/vercel/next.js/pulls/99621/reviews?per_page=100": "2026-10-17T16:11:39.991072+00:00",
+    "/repos/vercel/next.js/actions/runs?head_sha=596443802d3f8616b46dca2007a8c5393110f6fb&per_page=10": "2026-10-17T16:11:43.378738+00:00",
+    "/repos/vercel/next.js/actions/runs?head_sha=c54cae4ef9dcd9f672e23f47f158906c7cb2c149&per_page=10": "2026-10-17T16:11:45.143535+00:00",
+    "/repos/vercel/next.js/pulls/99581/files?per_page=100": "2026-10-17T16:11:47.715637+00:00",
+    "/repos/vercel/next.js/pulls/99581/reviews?per_page=100": "2026-10-17T16:11:49.249671+00:00",
+    "/repos/vercel/next.js/actions/runs?head_sha=86d92b94c3e2e96b3babfc819631fb10bfd7e6bc&per_page=10": "2026-10-17T16:11:51.629909+00:00",
+    "/repos/vercel/next.js/actions/runs?head_sha=192eb5d8cd04e00396dcf33ad4470e360a58a001&per_page=10": "2026-10-17T16:11:53.236853+00:00",
+    "/repos/vercel/next.js/releases?per_page=20&page=1": "2026-10-17T16:17:13.254771+00:00",
+    "/repos/vercel/next.js/commits/v16.4.2": "2026-10-17T16:11:57.468936+00:00",
+    "/repos/vercel/next.js/actions/runs?head_sha=2864b1772c37242a9b40ab4d366eb7d368c2a070&per_page=10": "2026-10-17T16:11:59.321013+00:00",
+    "/repos/vercel/next.js/commits/v16.4.1": "2026-10-17T16:12:01.946469+00:00",
+    "/repos/vercel/next.js/actions/runs?head_sha=7217011ac0d689026884dd28536a0c7f3c98ba77&per_page=10": "2026-10-17T16:12:03.565785+00:00",
+    "/repos/vercel/next.js/commits/v15.5.28": "2026-10-17T16:12:05.197617+00:00",
+    "/repos/vercel/next.js/actions/runs?head_sha=195cd6a714086ee0e442cb551da376ad71f37035&per_page=10": "2026-10-17T16:12:07.066319+00:00",
+    "/repos/vercel/next.js/tags?per_page=3": "2026-10-17T16:12:08.490178+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:13.254771+00:00",
+  "status": "collected"
+}

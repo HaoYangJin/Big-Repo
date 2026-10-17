@@ -1,0 +1,2978 @@
+{
+  "requested_repository": "anthropics/anthropic-sdk-python",
+  "category": "sdk",
+  "collected_at": "2026-10-17T16:03:37.168547+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "anthropics/anthropic-sdk-python",
+  "metadata": {
+    "html_url": "https://github.com/anthropics/anthropic-sdk-python",
+    "description": null,
+    "homepage": null,
+    "language": "Python",
+    "stargazers_count": 3975,
+    "forks_count": 887,
+    "open_issues_count": 203,
+    "pushed_at": "2026-10-15T19:45:15Z",
+    "created_at": "2023-01-17T20:57:10Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [],
+    "owner": {
+      "login": "anthropics",
+      "type": "Organization",
+      "html_url": "https://github.com/anthropics"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "bcd55fe1d3f0f1240765f8cef04295b67337f55a",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/bcd55fe1d3f0f1240765f8cef04295b67337f55a",
+      "date": "2026-10-15T19:43:35Z",
+      "subject": "release: 1.15.0"
+    },
+    {
+      "sha": "69743442287cc974aa9ff94d982f2c313f88edd2",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/69743442287cc974aa9ff94d982f2c313f88edd2",
+      "date": "2026-10-15T19:36:20Z",
+      "subject": "Merge pull request #1021 from anthropics/synced/published"
+    },
+    {
+      "sha": "80404f64daa02dac4f75bf658c490dcae86f3910",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/80404f64daa02dac4f75bf658c490dcae86f3910",
+      "date": "2026-10-15T18:58:59Z",
+      "subject": "chore(tests): cover OpenTelemetry options and method default timeouts"
+    },
+    {
+      "sha": "ef9133691b1eb0c0dc82c91398300e1a7b602674",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/ef9133691b1eb0c0dc82c91398300e1a7b602674",
+      "date": "2026-10-15T18:45:15Z",
+      "subject": "feat(helpers): retry a rate-limited fast fallback at standard speed (#1024)"
+    },
+    {
+      "sha": "9ace6c5c771031812b91b4f2e539aa1e72448769",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/9ace6c5c771031812b91b4f2e539aa1e72448769",
+      "date": "2026-10-15T16:11:14Z",
+      "subject": "feat(api): add between_tools to thinking types in model capabilities"
+    },
+    {
+      "sha": "d44d21886402b894a3698defeaa89ea1455a845d",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/d44d21886402b894a3698defeaa89ea1455a845d",
+      "date": "2026-10-15T15:43:57Z",
+      "subject": "chore(docs): describe headers on Managed Agents and telemetry endpoints"
+    },
+    {
+      "sha": "ef59b87af236955e0dc47e0a95eb74b092944089",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/ef59b87af236955e0dc47e0a95eb74b092944089",
+      "date": "2026-10-15T15:25:27Z",
+      "subject": "docs(api): note that some models need a beta header to use speed"
+    },
+    {
+      "sha": "c10fe778731adce8f584ef888b4bba3a04913d62",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/c10fe778731adce8f584ef888b4bba3a04913d62",
+      "date": "2026-10-15T09:42:23Z",
+      "subject": "docs(changelog): shorten the OpenTelemetry tracing note (#1023)"
+    },
+    {
+      "sha": "5b187415d6426bae8a76a76e46934418d85e3e71",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/5b187415d6426bae8a76a76e46934418d85e3e71",
+      "date": "2026-10-15T00:28:42Z",
+      "subject": "chore(internal): simplify the script that formats code blocks in docs"
+    },
+    {
+      "sha": "f0e30dcc1740e121bcd08dff3341bfbd0e4f9fb0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/f0e30dcc1740e121bcd08dff3341bfbd0e4f9fb0",
+      "date": "2026-10-14T23:20:29Z",
+      "subject": "feat(api): add the speed parameter and usage.speed to Messages"
+    },
+    {
+      "sha": "21e78d985e7bb128bac0f240072f97f109343422",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/21e78d985e7bb128bac0f240072f97f109343422",
+      "date": "2026-10-14T22:16:32Z",
+      "subject": "codegen metadata"
+    },
+    {
+      "sha": "5fdaa4a6658460f78e6d2c89d5ffec8ac76ec2ef",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/5fdaa4a6658460f78e6d2c89d5ffec8ac76ec2ef",
+      "date": "2026-10-14T21:37:18Z",
+      "subject": "chore(ci): speed up breaking change detection"
+    },
+    {
+      "sha": "aa58f9e3ea8dddcdab4bce17e4729ddc8096d787",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/aa58f9e3ea8dddcdab4bce17e4729ddc8096d787",
+      "date": "2026-10-14T18:10:40Z",
+      "subject": "feat(api): return a Console organization's usage-tier spend cap as a read-only spend limit"
+    },
+    {
+      "sha": "225d6f151c6cd7f8d191a59b9eaab26491dd121c",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/225d6f151c6cd7f8d191a59b9eaab26491dd121c",
+      "date": "2026-10-14T17:44:35Z",
+      "subject": "Merge branch 'main'"
+    },
+    {
+      "sha": "2a53eaa6966b04560b6a72c28d3ace4389a9ac58",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/2a53eaa6966b04560b6a72c28d3ace4389a9ac58",
+      "date": "2026-10-14T17:11:19Z",
+      "subject": "release: 1.14.0"
+    },
+    {
+      "sha": "22f433bbc621f9584114d270f1f010adef89d709",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/22f433bbc621f9584114d270f1f010adef89d709",
+      "date": "2026-10-14T17:04:09Z",
+      "subject": "Merge pull request #1011 from anthropics/synced/published"
+    },
+    {
+      "sha": "abd6424e16d40ed1ecb00f2e39c78e420453db98",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/abd6424e16d40ed1ecb00f2e39c78e420453db98",
+      "date": "2026-10-14T14:53:34Z",
+      "subject": "fix(client): close dropped streams without waiting for the collector"
+    },
+    {
+      "sha": "5ea727f856e8a71f7af19c6e5fcd31f011a1f210",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/5ea727f856e8a71f7af19c6e5fcd31f011a1f210",
+      "date": "2026-10-14T13:32:20Z",
+      "subject": "fix(api): rename telemetry destination test response model"
+    },
+    {
+      "sha": "4ba4a936966716e3e37a461ed871fa5391306525",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/4ba4a936966716e3e37a461ed871fa5391306525",
+      "date": "2026-10-14T05:34:10Z",
+      "subject": "feat(api): add telemetry destination test endpoint"
+    },
+    {
+      "sha": "700aad98344dc55bb8dddd90db03fe30c3157568",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/commit/700aad98344dc55bb8dddd90db03fe30c3157568",
+      "date": "2026-10-14T02:53:42Z",
+      "subject": "feat(api): add telemetry destinations to the Admin API"
+    }
+  ],
+  "default_sha": "bcd55fe1d3f0f1240765f8cef04295b67337f55a",
+  "root_and_selected_directory_paths": [
+    ".devcontainer",
+    ".github",
+    ".github/CODEOWNERS",
+    ".github/workflows",
+    ".github/workflows/changelog.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/publish-pypi.yml",
+    ".gitignore",
+    ".inline-snapshot",
+    ".python-version",
+    ".release-please-manifest.json",
+    ".stats.yml",
+    ".vscode",
+    "Brewfile",
+    "CHANGELOG.md",
+    "CLAUDE.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "MIGRATION.md",
+    "README.md",
+    "REVIEW.md",
+    "SECURITY.md",
+    "api.md",
+    "bin",
+    "browser-toolset.md",
+    "computer-toolset.md",
+    "examples",
+    "helpers.md",
+    "pyproject.toml",
+    "requirements-dev.lock",
+    "scripts",
+    "src",
+    "tests",
+    "tools.md",
+    "typings",
+    "uv.lock"
+  ],
+  "workflow_paths": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/publish-pypi.yml",
+    ".github/workflows/changelog.yml"
+  ],
+  "documents": [
+    {
+      "path": ".release-please-manifest.json",
+      "sha": "7ccfe12c9e9deeb7151959f578151208256a3e1f",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/blob/bcd55fe1d3f0f1240765f8cef04295b67337f55a/.release-please-manifest.json",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "ccf5eb9bf709d1470f80e1f0b7e0efc03973ab2e",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/blob/bcd55fe1d3f0f1240765f8cef04295b67337f55a/CHANGELOG.md",
+      "lines": 3819,
+      "signals": {
+        "tests": [
+          302,
+          585,
+          586,
+          2228,
+          2432,
+          2434,
+          3739
+        ],
+        "lint": [
+          111,
+          273,
+          583,
+          1546,
+          1701,
+          2169,
+          2464,
+          2465,
+          2544,
+          2612,
+          3273,
+          3347
+        ],
+        "generated_code": [
+          345,
+          348,
+          582,
+          681,
+          798,
+          800,
+          1243,
+          1244,
+          1642,
+          1676,
+          1700,
+          1775
+        ],
+        "release_automation": [
+          887
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          2882
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha": "2dd82fcd8ba273e83cb804c900e7012cff17b5fb",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/blob/bcd55fe1d3f0f1240765f8cef04295b67337f55a/CLAUDE.md",
+      "lines": 368,
+      "signals": {
+        "tests": [
+          42,
+          56,
+          58,
+          347
+        ],
+        "lint": [
+          46,
+          47,
+          62,
+          64
+        ],
+        "generated_code": [
+          14,
+          15,
+          19,
+          21,
+          22,
+          25,
+          28,
+          124,
+          138,
+          239,
+          338,
+          356
+        ],
+        "release_automation": [
+          17,
+          37,
+          354
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [
+          354
+        ],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "6a71b17fe009b88a319d607ba3767755fcacf1a7",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/blob/bcd55fe1d3f0f1240765f8cef04295b67337f55a/CONTRIBUTING.md",
+      "lines": 150,
+      "signals": {
+        "tests": [
+          110
+        ],
+        "lint": [
+          124,
+          132
+        ],
+        "generated_code": [
+          41
+        ],
+        "release_automation": [
+          140,
+          145,
+          149
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "3eb6b7a330ddce174669decc8bc16c5ee06ed6aa",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/blob/bcd55fe1d3f0f1240765f8cef04295b67337f55a/README.md",
+      "lines": 89,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          3
+        ],
+        "media": [
+          3
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "95b204aa321dcfadcde28fb2b77048b2e123315a",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/blob/bcd55fe1d3f0f1240765f8cef04295b67337f55a/SECURITY.md",
+      "lines": 15,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          9
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "39a76b09f955de3ea285896e056c05720997e993",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/blob/bcd55fe1d3f0f1240765f8cef04295b67337f55a/pyproject.toml",
+      "lines": 228,
+      "signals": {
+        "tests": [
+          76,
+          77,
+          84,
+          138
+        ],
+        "lint": [
+          78,
+          150,
+          172,
+          178,
+          181,
+          211,
+          214,
+          221
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha": "1227adaa47421898f8038667ade1c0563002ac49",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/blob/bcd55fe1d3f0f1240765f8cef04295b67337f55a/.github/CODEOWNERS",
+      "lines": 4,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "79428f698b7dc25274f2faeb2ed7f433a19b3ab2",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/blob/bcd55fe1d3f0f1240765f8cef04295b67337f55a/.github/workflows/ci.yml",
+      "lines": 183,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          10,
+          11,
+          77
+        ],
+        "release_automation": [
+          117
+        ],
+        "permissions": [
+          45,
+          47
+        ],
+        "pinned_actions": [
+          28,
+          31,
+          50,
+          53,
+          68,
+          96,
+          99,
+          125,
+          131
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          120
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/publish-pypi.yml",
+      "sha": "1adf121ab865d87aee7c2935195d7e82d420eaa2",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/blob/bcd55fe1d3f0f1240765f8cef04295b67337f55a/.github/workflows/publish-pypi.yml",
+      "lines": 26,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          1,
+          2,
+          3,
+          24,
+          26
+        ],
+        "permissions": [
+          12,
+          14
+        ],
+        "pinned_actions": [
+          17,
+          20
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "sha": "24741403eb823034ace8855102937e18d9795481",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/blob/bcd55fe1d3f0f1240765f8cef04295b67337f55a/.github/workflows/changelog.yml",
+      "lines": 30,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8
+        ],
+        "pinned_actions": [
+          20
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 2009,
+      "title": "release: 1.12.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/pull/2009",
+      "merged_at": "2026-10-07T17:54:25Z",
+      "merge_commit_sha": "22feda09befc5f7740b9c96121e6f3f2034dd7e7",
+      "files": [
+        ".release-please-manifest.json",
+        "CHANGELOG.md",
+        "README.md",
+        "REVIEW.md",
+        "api.md",
+        "browser-toolset.md",
+        "computer-toolset.md",
+        "pyproject.toml",
+        "requirements-dev.lock",
+        "scripts/mock-spec.json.gz",
+        "scripts/utils/ruffen-docs.py",
+        "src/anthropic/_base_client.py",
+        "src/anthropic/_client.py",
+        "src/anthropic/_data/__init__.py",
+        "src/anthropic/_data/browser_toolset_members.py",
+        "src/anthropic/_data/deprecated_models.py",
+        "src/anthropic/_data/models_to_warn_with_thinking_enabled.py",
+        "src/anthropic/_qs.py",
+        "src/anthropic/_version.py",
+        "src/anthropic/lib/_stainless_helpers.py",
+        "src/anthropic/lib/tools/__init__.py",
+        "src/anthropic/lib/tools/_beta_runner.py",
+        "src/anthropic/lib/tools/_beta_session_runner.py",
+        "src/anthropic/lib/tools/_memories.py",
+        "src/anthropic/lib/tools/_tool_dispatch.py",
+        "src/anthropic/lib/tools/_toolsets/__init__.py",
+        "src/anthropic/lib/tools/_toolsets/_base.py",
+        "src/anthropic/lib/tools/_toolsets/_browser.py",
+        "src/anthropic/lib/tools/_toolsets/_computer.py",
+        "src/anthropic/lib/tools/_toolsets/_computer_inputs.py",
+        "src/anthropic/lib/tools/_toolsets/_computer_registry.py",
+        "src/anthropic/lib/tools/_toolsets/_computer_results.py",
+        "src/anthropic/lib/tools/_toolsets/_errors.py",
+        "src/anthropic/lib/tools/_toolsets/_hooks.py",
+        "src/anthropic/lib/tools/_toolsets/_inputs.py",
+        "src/anthropic/lib/tools/_toolsets/_pipeline.py",
+        "src/anthropic/lib/tools/_toolsets/_registry.py",
+        "src/anthropic/lib/tools/_toolsets/_render.py",
+        "src/anthropic/lib/tools/_toolsets/_results.py",
+        "src/anthropic/lib/tools/_toolsets/_runnable.py",
+        "src/anthropic/lib/tools/_toolsets/_sanitize.py",
+        "src/anthropic/lib/tools/_toolsets/_security.py",
+        "src/anthropic/resources/beta/agents/agents.py",
+        "src/anthropic/resources/beta/messages/messages.py",
+        "src/anthropic/resources/beta/models.py",
+        "src/anthropic/resources/beta/organization/analytics/summaries.py",
+        "src/anthropic/resources/beta/organization/rate_limits.py",
+        "src/anthropic/resources/beta/organization/spend_limits/spend_limits.py",
+        "src/anthropic/resources/beta/organization/workspaces/workspaces.py",
+        "src/anthropic/resources/models.py",
+        "src/anthropic/resources/organization/rate_limits.py",
+        "src/anthropic/resources/organization/workspaces/workspaces.py",
+        "src/anthropic/tools/__init__.py",
+        "src/anthropic/tools/browser.py",
+        "src/anthropic/tools/computer.py",
+        "src/anthropic/types/__init__.py",
+        "src/anthropic/types/beta/__init__.py",
+        "src/anthropic/types/beta/agent_create_params.py",
+        "src/anthropic/types/beta/agent_update_params.py",
+        "src/anthropic/types/beta/beta_browser_click_target.py",
+        "src/anthropic/types/beta/beta_browser_close_tab_input.py",
+        "src/anthropic/types/beta/beta_browser_close_tab_tool_use_block.py",
+        "src/anthropic/types/beta/beta_browser_coordinate_target.py",
+        "src/anthropic/types/beta/beta_browser_double_click_input.py",
+        "src/anthropic/types/beta/beta_browser_double_click_tool_use_block.py",
+        "src/anthropic/types/beta/beta_browser_file_upload_input.py",
+        "src/anthropic/types/beta/beta_browser_file_upload_tool_use_block.py",
+        "src/anthropic/types/beta/beta_browser_find_input.py",
+        "src/anthropic/types/beta/beta_browser_find_tool_use_block.py",
+        "src/anthropic/types/beta/beta_browser_form_input_input.py",
+        "src/anthropic/types/beta/beta_browser_form_input_tool_use_block.py",
+        "src/anthropic/types/beta/beta_browser_form_input_value.py",
+        "src/anthropic/types/beta/beta_browser_get_page_text_input.py",
+        "src/anthropic/types/beta/beta_browser_get_page_text_tool_use_block.py",
+        "src/anthropic/types/beta/beta_browser_hold_key_input.py",
+        "src/anthropic/types/beta/beta_browser_hold_key_tool_use_block.py",
+        "src/anthropic/types/beta/beta_browser_hover_input.py",
+        "src/anthropic/types/beta/beta_browser_hover_tool_use_block.py",
+        "src/anthropic/types/beta/beta_browser_javascript_exec_input.py",
+        "src/anthropic/types/beta/beta_browser_javascript_exec_tool_use_block.py",
+        "src/anthropic/types/beta/beta_browser_key_input.py",
+        "src/anthropic/types/beta/beta_browser_key_tool_use_block.py",
+        "src/anthropic/types/beta/beta_browser_left_click_drag_input.py",
+        "src/anthropic/types/beta/beta_browser_left_click_drag_tool_use_block.py",
+        "src/anthropic/types/beta/beta_browser_left_click_input.py",
+        "src/anthropic/types/beta/beta_browser_left_click_tool_use_block.py",
+        "src/anthropic/types/beta/beta_browser_left_mouse_down_input.py",
+        "src/anthropic/types/beta/beta_browser_left_mouse_down_tool_use_block.py",
+        "src/anthropic/types/beta/beta_browser_left_mouse_up_input.py",
+        "src/anthropic/types/beta/beta_browser_left_mouse_up_tool_use_block.py",
+        "src/anthropic/types/beta/beta_browser_list_tabs_input.py",
+        "src/anthropic/types/beta/beta_browser_list_tabs_tool_use_block.py",
+        "src/anthropic/types/beta/beta_browser_member_input.py",
+        "src/anthropic/types/beta/beta_browser_member_name.py",
+        "src/anthropic/types/beta/beta_browser_middle_click_input.py",
+        "src/anthropic/types/beta/beta_browser_middle_click_tool_use_block.py",
+        "src/anthropic/types/beta/beta_browser_mouse_move_input.py",
+        "src/anthropic/types/beta/beta_browser_mouse_move_tool_use_block.py",
+        "src/anthropic/types/beta/beta_browser_navigate_input.py",
+        "src/anthropic/types/beta/beta_browser_navigate_tool_use_block.py"
+      ],
+      "files_may_be_truncated": true,
+      "file_changes": [
+        {
+          "filename": ".release-please-manifest.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/.release-please-manifest.json"
+        },
+        {
+          "filename": "CHANGELOG.md",
+          "status": "modified",
+          "additions": 45,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/CHANGELOG.md"
+        },
+        {
+          "filename": "README.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/README.md"
+        },
+        {
+          "filename": "REVIEW.md",
+          "status": "added",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/REVIEW.md"
+        },
+        {
+          "filename": "api.md",
+          "status": "modified",
+          "additions": 347,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/api.md"
+        },
+        {
+          "filename": "browser-toolset.md",
+          "status": "added",
+          "additions": 189,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/browser-toolset.md"
+        },
+        {
+          "filename": "computer-toolset.md",
+          "status": "added",
+          "additions": 100,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/computer-toolset.md"
+        },
+        {
+          "filename": "pyproject.toml",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/pyproject.toml"
+        },
+        {
+          "filename": "requirements-dev.lock",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/requirements-dev.lock"
+        },
+        {
+          "filename": "scripts/mock-spec.json.gz",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/scripts%2Fmock-spec.json.gz"
+        },
+        {
+          "filename": "scripts/utils/ruffen-docs.py",
+          "status": "modified",
+          "additions": 52,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/scripts%2Futils%2Fruffen-docs.py"
+        },
+        {
+          "filename": "src/anthropic/_base_client.py",
+          "status": "modified",
+          "additions": 20,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2F_base_client.py"
+        },
+        {
+          "filename": "src/anthropic/_client.py",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2F_client.py"
+        },
+        {
+          "filename": "src/anthropic/_data/__init__.py",
+          "status": "added",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2F_data%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/_data/browser_toolset_members.py",
+          "status": "added",
+          "additions": 202,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2F_data%2Fbrowser_toolset_members.py"
+        },
+        {
+          "filename": "src/anthropic/_data/deprecated_models.py",
+          "status": "added",
+          "additions": 7,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2F_data%2Fdeprecated_models.py"
+        },
+        {
+          "filename": "src/anthropic/_data/models_to_warn_with_thinking_enabled.py",
+          "status": "added",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2F_data%2Fmodels_to_warn_with_thinking_enabled.py"
+        },
+        {
+          "filename": "src/anthropic/_qs.py",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2F_qs.py"
+        },
+        {
+          "filename": "src/anthropic/_version.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2F_version.py"
+        },
+        {
+          "filename": "src/anthropic/lib/_stainless_helpers.py",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2F_stainless_helpers.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/__init__.py",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_beta_runner.py",
+          "status": "modified",
+          "additions": 245,
+          "deletions": 29,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_beta_runner.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_beta_session_runner.py",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 6,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_beta_session_runner.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_memories.py",
+          "status": "modified",
+          "additions": 40,
+          "deletions": 5,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_memories.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_tool_dispatch.py",
+          "status": "modified",
+          "additions": 150,
+          "deletions": 12,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_tool_dispatch.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_toolsets/__init__.py",
+          "status": "added",
+          "additions": 56,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_toolsets%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_toolsets/_base.py",
+          "status": "added",
+          "additions": 567,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_toolsets%2F_base.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_toolsets/_browser.py",
+          "status": "added",
+          "additions": 699,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_toolsets%2F_browser.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_toolsets/_computer.py",
+          "status": "added",
+          "additions": 430,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_toolsets%2F_computer.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_toolsets/_computer_inputs.py",
+          "status": "added",
+          "additions": 45,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_toolsets%2F_computer_inputs.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_toolsets/_computer_registry.py",
+          "status": "added",
+          "additions": 72,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_toolsets%2F_computer_registry.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_toolsets/_computer_results.py",
+          "status": "added",
+          "additions": 46,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_toolsets%2F_computer_results.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_toolsets/_errors.py",
+          "status": "added",
+          "additions": 168,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_toolsets%2F_errors.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_toolsets/_hooks.py",
+          "status": "added",
+          "additions": 92,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_toolsets%2F_hooks.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_toolsets/_inputs.py",
+          "status": "added",
+          "additions": 36,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_toolsets%2F_inputs.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_toolsets/_pipeline.py",
+          "status": "added",
+          "additions": 394,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_toolsets%2F_pipeline.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_toolsets/_registry.py",
+          "status": "added",
+          "additions": 110,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_toolsets%2F_registry.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_toolsets/_render.py",
+          "status": "added",
+          "additions": 251,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_toolsets%2F_render.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_toolsets/_results.py",
+          "status": "added",
+          "additions": 107,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_toolsets%2F_results.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_toolsets/_runnable.py",
+          "status": "added",
+          "additions": 284,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_toolsets%2F_runnable.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_toolsets/_sanitize.py",
+          "status": "added",
+          "additions": 103,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_toolsets%2F_sanitize.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_toolsets/_security.py",
+          "status": "added",
+          "additions": 252,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Flib%2Ftools%2F_toolsets%2F_security.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/agents/agents.py",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 8,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Fresources%2Fbeta%2Fagents%2Fagents.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/messages/messages.py",
+          "status": "modified",
+          "additions": 17,
+          "deletions": 32,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Fresources%2Fbeta%2Fmessages%2Fmessages.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/models.py",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Fresources%2Fbeta%2Fmodels.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/analytics/summaries.py",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 14,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fanalytics%2Fsummaries.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/rate_limits.py",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Frate_limits.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/spend_limits/spend_limits.py",
+          "status": "modified",
+          "additions": 31,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fspend_limits%2Fspend_limits.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/workspaces/workspaces.py",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fworkspaces%2Fworkspaces.py"
+        },
+        {
+          "filename": "src/anthropic/resources/models.py",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Fresources%2Fmodels.py"
+        },
+        {
+          "filename": "src/anthropic/resources/organization/rate_limits.py",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Fresources%2Forganization%2Frate_limits.py"
+        },
+        {
+          "filename": "src/anthropic/resources/organization/workspaces/workspaces.py",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Fresources%2Forganization%2Fworkspaces%2Fworkspaces.py"
+        },
+        {
+          "filename": "src/anthropic/tools/__init__.py",
+          "status": "modified",
+          "additions": 47,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftools%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/tools/browser.py",
+          "status": "added",
+          "additions": 75,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftools%2Fbrowser.py"
+        },
+        {
+          "filename": "src/anthropic/tools/computer.py",
+          "status": "added",
+          "additions": 44,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftools%2Fcomputer.py"
+        },
+        {
+          "filename": "src/anthropic/types/__init__.py",
+          "status": "modified",
+          "additions": 254,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/__init__.py",
+          "status": "modified",
+          "additions": 371,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/agent_create_params.py",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 5,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fagent_create_params.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/agent_update_params.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fagent_update_params.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_click_target.py",
+          "status": "added",
+          "additions": 12,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_click_target.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_close_tab_input.py",
+          "status": "added",
+          "additions": 10,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_close_tab_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_close_tab_tool_use_block.py",
+          "status": "added",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_close_tab_tool_use_block.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_coordinate_target.py",
+          "status": "added",
+          "additions": 20,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_coordinate_target.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_double_click_input.py",
+          "status": "added",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_double_click_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_double_click_tool_use_block.py",
+          "status": "added",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_double_click_tool_use_block.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_file_upload_input.py",
+          "status": "added",
+          "additions": 33,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_file_upload_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_file_upload_tool_use_block.py",
+          "status": "added",
+          "additions": 31,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_file_upload_tool_use_block.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_find_input.py",
+          "status": "added",
+          "additions": 19,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_find_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_find_tool_use_block.py",
+          "status": "added",
+          "additions": 31,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_find_tool_use_block.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_form_input_input.py",
+          "status": "added",
+          "additions": 28,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_form_input_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_form_input_tool_use_block.py",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_form_input_tool_use_block.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_form_input_value.py",
+          "status": "added",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_form_input_value.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_get_page_text_input.py",
+          "status": "added",
+          "additions": 15,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_get_page_text_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_get_page_text_tool_use_block.py",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_get_page_text_tool_use_block.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_hold_key_input.py",
+          "status": "added",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_hold_key_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_hold_key_tool_use_block.py",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_hold_key_tool_use_block.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_hover_input.py",
+          "status": "added",
+          "additions": 16,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_hover_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_hover_tool_use_block.py",
+          "status": "added",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_hover_tool_use_block.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_javascript_exec_input.py",
+          "status": "added",
+          "additions": 19,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_javascript_exec_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_javascript_exec_tool_use_block.py",
+          "status": "added",
+          "additions": 31,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_javascript_exec_tool_use_block.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_key_input.py",
+          "status": "added",
+          "additions": 23,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_key_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_key_tool_use_block.py",
+          "status": "added",
+          "additions": 32,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_key_tool_use_block.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_left_click_drag_input.py",
+          "status": "added",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_left_click_drag_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_left_click_drag_tool_use_block.py",
+          "status": "added",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_left_click_drag_tool_use_block.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_left_click_input.py",
+          "status": "added",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_left_click_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_left_click_tool_use_block.py",
+          "status": "added",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_left_click_tool_use_block.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_left_mouse_down_input.py",
+          "status": "added",
+          "additions": 23,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_left_mouse_down_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_left_mouse_down_tool_use_block.py",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_left_mouse_down_tool_use_block.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_left_mouse_up_input.py",
+          "status": "added",
+          "additions": 19,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_left_mouse_up_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_left_mouse_up_tool_use_block.py",
+          "status": "added",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_left_mouse_up_tool_use_block.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_list_tabs_input.py",
+          "status": "added",
+          "additions": 9,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_list_tabs_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_list_tabs_tool_use_block.py",
+          "status": "added",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_list_tabs_tool_use_block.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_member_input.py",
+          "status": "added",
+          "additions": 70,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_member_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_member_name.py",
+          "status": "added",
+          "additions": 72,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_member_name.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_middle_click_input.py",
+          "status": "added",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_middle_click_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_middle_click_tool_use_block.py",
+          "status": "added",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_middle_click_tool_use_block.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_mouse_move_input.py",
+          "status": "added",
+          "additions": 19,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_mouse_move_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_mouse_move_tool_use_block.py",
+          "status": "added",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_mouse_move_tool_use_block.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_navigate_input.py",
+          "status": "added",
+          "additions": 21,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_navigate_input.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/beta_browser_navigate_tool_use_block.py",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7/src%2Fanthropic%2Ftypes%2Fbeta%2Fbeta_browser_navigate_tool_use_block.py"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 37662719877,
+          "name": "Graph Update: uv in /. #1615711588",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/37662719877",
+          "head_sha": "22feda09befc5f7740b9c96121e6f3f2034dd7e7"
+        },
+        {
+          "id": 37662702411,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/37662702411",
+          "head_sha": "22feda09befc5f7740b9c96121e6f3f2034dd7e7"
+        },
+        {
+          "id": 37662702390,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/37662702390",
+          "head_sha": "22feda09befc5f7740b9c96121e6f3f2034dd7e7"
+        },
+        {
+          "id": 37662700254,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/37662700254",
+          "head_sha": "22feda09befc5f7740b9c96121e6f3f2034dd7e7"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 37662072293,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/37662072293",
+          "head_sha": "ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7"
+        },
+        {
+          "id": 37662068338,
+          "name": "PR #2009",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/37662068338",
+          "head_sha": "ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7"
+        },
+        {
+          "id": 37662066362,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/37662066362",
+          "head_sha": "ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7"
+        }
+      ]
+    },
+    {
+      "number": 1966,
+      "title": "release: 1.11.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1966",
+      "merged_at": "2026-09-30T22:57:43Z",
+      "merge_commit_sha": "18f25547f20cf5f01da69ac611e700e3bc9ebf21",
+      "files": [
+        ".release-please-manifest.json",
+        ".stats.yml",
+        "CHANGELOG.md",
+        "api.md",
+        "pyproject.toml",
+        "scripts/mock-spec.json.gz",
+        "src/anthropic/_version.py",
+        "src/anthropic/lib/tools/_beta_builtin_memory_tool.py",
+        "src/anthropic/resources/beta/organization/spend_limits/spend_limits.py",
+        "src/anthropic/resources/messages/messages.py",
+        "src/anthropic/types/anthropic_beta_param.py",
+        "src/anthropic/types/beta/organization/__init__.py",
+        "src/anthropic/types/beta/organization/beta_spend_limit.py",
+        "src/anthropic/types/beta/organization/spend_limit_list_params.py",
+        "tests/api_resources/beta/organization/test_spend_limits.py",
+        "tests/api_resources/beta/test_output_format_conversion.py",
+        "tests/lib/_parse/test_beta_messages.py",
+        "tests/lib/_parse/test_messages.py",
+        "tests/lib/streaming/test_beta_messages.py",
+        "tests/lib/streaming/test_messages.py",
+        "tests/lib/streaming/test_parsed_content_blocks.py",
+        "tests/lib/streaming/test_partial_json.py",
+        "tests/lib/test_output_format_helpers.py",
+        "tests/lib/test_stainless_helpers.py",
+        "tests/lib/tools/test_runners.py",
+        "tests/test_middleware.py",
+        "tools.md"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".release-please-manifest.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/.release-please-manifest.json"
+        },
+        {
+          "filename": ".stats.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/.stats.yml"
+        },
+        {
+          "filename": "CHANGELOG.md",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/CHANGELOG.md"
+        },
+        {
+          "filename": "api.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/api.md"
+        },
+        {
+          "filename": "pyproject.toml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/pyproject.toml"
+        },
+        {
+          "filename": "scripts/mock-spec.json.gz",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/scripts%2Fmock-spec.json.gz"
+        },
+        {
+          "filename": "src/anthropic/_version.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/src%2Fanthropic%2F_version.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_beta_builtin_memory_tool.py",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/src%2Fanthropic%2Flib%2Ftools%2F_beta_builtin_memory_tool.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/spend_limits/spend_limits.py",
+          "status": "modified",
+          "additions": 152,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fspend_limits%2Fspend_limits.py"
+        },
+        {
+          "filename": "src/anthropic/resources/messages/messages.py",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/src%2Fanthropic%2Fresources%2Fmessages%2Fmessages.py"
+        },
+        {
+          "filename": "src/anthropic/types/anthropic_beta_param.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/src%2Fanthropic%2Ftypes%2Fanthropic_beta_param.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/organization/__init__.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/src%2Fanthropic%2Ftypes%2Fbeta%2Forganization%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/organization/beta_spend_limit.py",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/src%2Fanthropic%2Ftypes%2Fbeta%2Forganization%2Fbeta_spend_limit.py"
+        },
+        {
+          "filename": "src/anthropic/types/beta/organization/spend_limit_list_params.py",
+          "status": "added",
+          "additions": 32,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/src%2Fanthropic%2Ftypes%2Fbeta%2Forganization%2Fspend_limit_list_params.py"
+        },
+        {
+          "filename": "tests/api_resources/beta/organization/test_spend_limits.py",
+          "status": "modified",
+          "additions": 71,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/tests%2Fapi_resources%2Fbeta%2Forganization%2Ftest_spend_limits.py"
+        },
+        {
+          "filename": "tests/api_resources/beta/test_output_format_conversion.py",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 11,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/tests%2Fapi_resources%2Fbeta%2Ftest_output_format_conversion.py"
+        },
+        {
+          "filename": "tests/lib/_parse/test_beta_messages.py",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/tests%2Flib%2F_parse%2Ftest_beta_messages.py"
+        },
+        {
+          "filename": "tests/lib/_parse/test_messages.py",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 5,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/tests%2Flib%2F_parse%2Ftest_messages.py"
+        },
+        {
+          "filename": "tests/lib/streaming/test_beta_messages.py",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 15,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/tests%2Flib%2Fstreaming%2Ftest_beta_messages.py"
+        },
+        {
+          "filename": "tests/lib/streaming/test_messages.py",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 14,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/tests%2Flib%2Fstreaming%2Ftest_messages.py"
+        },
+        {
+          "filename": "tests/lib/streaming/test_parsed_content_blocks.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/tests%2Flib%2Fstreaming%2Ftest_parsed_content_blocks.py"
+        },
+        {
+          "filename": "tests/lib/streaming/test_partial_json.py",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/tests%2Flib%2Fstreaming%2Ftest_partial_json.py"
+        },
+        {
+          "filename": "tests/lib/test_output_format_helpers.py",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 7,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/tests%2Flib%2Ftest_output_format_helpers.py"
+        },
+        {
+          "filename": "tests/lib/test_stainless_helpers.py",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 10,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/tests%2Flib%2Ftest_stainless_helpers.py"
+        },
+        {
+          "filename": "tests/lib/tools/test_runners.py",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/tests%2Flib%2Ftools%2Ftest_runners.py"
+        },
+        {
+          "filename": "tests/test_middleware.py",
+          "status": "modified",
+          "additions": 20,
+          "deletions": 20,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/tests%2Ftest_middleware.py"
+        },
+        {
+          "filename": "tools.md",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 5,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/381f5f3f5059673d040425124e3349d0a0e39159/tools.md"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 37574329004,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/37574329004",
+          "head_sha": "18f25547f20cf5f01da69ac611e700e3bc9ebf21"
+        },
+        {
+          "id": 37416495354,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/37416495354",
+          "head_sha": "18f25547f20cf5f01da69ac611e700e3bc9ebf21"
+        },
+        {
+          "id": 37381970770,
+          "name": "Scheduled",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/37381970770",
+          "head_sha": "18f25547f20cf5f01da69ac611e700e3bc9ebf21"
+        },
+        {
+          "id": 37267216436,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/37267216436",
+          "head_sha": "18f25547f20cf5f01da69ac611e700e3bc9ebf21"
+        },
+        {
+          "id": 37183766471,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/37183766471",
+          "head_sha": "18f25547f20cf5f01da69ac611e700e3bc9ebf21"
+        },
+        {
+          "id": 37098468240,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/37098468240",
+          "head_sha": "18f25547f20cf5f01da69ac611e700e3bc9ebf21"
+        },
+        {
+          "id": 36967103862,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/36967103862",
+          "head_sha": "18f25547f20cf5f01da69ac611e700e3bc9ebf21"
+        },
+        {
+          "id": 36817820723,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/36817820723",
+          "head_sha": "18f25547f20cf5f01da69ac611e700e3bc9ebf21"
+        },
+        {
+          "id": 36788522119,
+          "name": "Graph Update: uv in /. #1601031818",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/36788522119",
+          "head_sha": "18f25547f20cf5f01da69ac611e700e3bc9ebf21"
+        },
+        {
+          "id": 36788518898,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/36788518898",
+          "head_sha": "18f25547f20cf5f01da69ac611e700e3bc9ebf21"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 36788176475,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/36788176475",
+          "head_sha": "381f5f3f5059673d040425124e3349d0a0e39159"
+        },
+        {
+          "id": 36788173974,
+          "name": "PR #1966",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/36788173974",
+          "head_sha": "381f5f3f5059673d040425124e3349d0a0e39159"
+        },
+        {
+          "id": 36788173413,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/36788173413",
+          "head_sha": "381f5f3f5059673d040425124e3349d0a0e39159"
+        }
+      ]
+    },
+    {
+      "number": 1965,
+      "title": "release: 1.10.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1965",
+      "merged_at": "2026-09-30T18:28:14Z",
+      "merge_commit_sha": "6c3e94b1208ae016fc992ffb4ae46ebf7fab706c",
+      "files": [
+        ".github/workflows/ci.yml",
+        ".release-please-manifest.json",
+        ".stats.yml",
+        "CHANGELOG.md",
+        "api.md",
+        "examples/agents_comprehensive.py",
+        "pyproject.toml",
+        "scripts/mock-spec.json.gz",
+        "src/anthropic/_client.py",
+        "src/anthropic/_version.py",
+        "src/anthropic/lib/credentials/_providers.py",
+        "src/anthropic/lib/environments/_worker.py",
+        "src/anthropic/lib/tools/_beta_session_runner.py",
+        "src/anthropic/pagination.py",
+        "src/anthropic/resources/__init__.py",
+        "src/anthropic/resources/beta/agents/agents.py",
+        "src/anthropic/resources/beta/deployment_runs.py",
+        "src/anthropic/resources/beta/deployments.py",
+        "src/anthropic/resources/beta/dreams.py",
+        "src/anthropic/resources/beta/environments/environments.py",
+        "src/anthropic/resources/beta/environments/work.py",
+        "src/anthropic/resources/beta/files.py",
+        "src/anthropic/resources/beta/memory_stores/memory_stores.py",
+        "src/anthropic/resources/beta/memory_stores/memory_versions.py",
+        "src/anthropic/resources/beta/messages/batches.py",
+        "src/anthropic/resources/beta/messages/messages.py",
+        "src/anthropic/resources/beta/models.py",
+        "src/anthropic/resources/beta/organization/__init__.py",
+        "src/anthropic/resources/beta/organization/analytics/__init__.py",
+        "src/anthropic/resources/beta/organization/analytics/analytics.py",
+        "src/anthropic/resources/beta/organization/analytics/apps/__init__.py",
+        "src/anthropic/resources/beta/organization/analytics/apps/apps.py",
+        "src/anthropic/resources/beta/organization/analytics/apps/chat/__init__.py",
+        "src/anthropic/resources/beta/organization/analytics/apps/chat/chat.py",
+        "src/anthropic/resources/beta/organization/analytics/apps/chat/projects.py",
+        "src/anthropic/resources/beta/organization/analytics/artifacts.py",
+        "src/anthropic/resources/beta/organization/analytics/connectors.py",
+        "src/anthropic/resources/beta/organization/analytics/cost_report.py",
+        "src/anthropic/resources/beta/organization/analytics/plugins.py",
+        "src/anthropic/resources/beta/organization/analytics/skills.py",
+        "src/anthropic/resources/beta/organization/analytics/summaries.py",
+        "src/anthropic/resources/beta/organization/analytics/usage_report.py",
+        "src/anthropic/resources/beta/organization/analytics/user_cost_report.py",
+        "src/anthropic/resources/beta/organization/analytics/user_usage_report.py",
+        "src/anthropic/resources/beta/organization/analytics/users.py",
+        "src/anthropic/resources/beta/organization/api_keys.py",
+        "src/anthropic/resources/beta/organization/compliance_settings.py",
+        "src/anthropic/resources/beta/organization/external_keys.py",
+        "src/anthropic/resources/beta/organization/federation/issuers.py",
+        "src/anthropic/resources/beta/organization/federation/rules/rules.py",
+        "src/anthropic/resources/beta/organization/federation/rules/workspaces.py",
+        "src/anthropic/resources/beta/organization/invites.py",
+        "src/anthropic/resources/beta/organization/organization.py",
+        "src/anthropic/resources/beta/organization/plugin_marketplaces.py",
+        "src/anthropic/resources/beta/organization/plugins/__init__.py",
+        "src/anthropic/resources/beta/organization/plugins/installation_settings.py",
+        "src/anthropic/resources/beta/organization/plugins/plugins.py",
+        "src/anthropic/resources/beta/organization/plugins/shares.py",
+        "src/anthropic/resources/beta/organization/plugins/versions.py",
+        "src/anthropic/resources/beta/organization/rbac_groups/__init__.py",
+        "src/anthropic/resources/beta/organization/rbac_groups/members.py",
+        "src/anthropic/resources/beta/organization/rbac_groups/rbac_groups.py",
+        "src/anthropic/resources/beta/organization/rbac_roles/__init__.py",
+        "src/anthropic/resources/beta/organization/rbac_roles/permissions.py",
+        "src/anthropic/resources/beta/organization/rbac_roles/rbac_roles.py",
+        "src/anthropic/resources/beta/organization/service_accounts/service_accounts.py",
+        "src/anthropic/resources/beta/organization/service_accounts/workspaces.py",
+        "src/anthropic/resources/beta/organization/spend_limits/__init__.py",
+        "src/anthropic/resources/beta/organization/spend_limits/effective.py",
+        "src/anthropic/resources/beta/organization/spend_limits/increase_requests.py",
+        "src/anthropic/resources/beta/organization/spend_limits/spend_limits.py",
+        "src/anthropic/resources/beta/organization/users.py",
+        "src/anthropic/resources/beta/organization/workspaces/members.py",
+        "src/anthropic/resources/beta/organization/workspaces/service_accounts.py",
+        "src/anthropic/resources/beta/organization/workspaces/workspaces.py",
+        "src/anthropic/resources/beta/sessions/events.py",
+        "src/anthropic/resources/beta/sessions/resources.py",
+        "src/anthropic/resources/beta/sessions/sessions.py",
+        "src/anthropic/resources/beta/sessions/threads/threads.py",
+        "src/anthropic/resources/beta/skills/skills.py",
+        "src/anthropic/resources/beta/skills/versions.py",
+        "src/anthropic/resources/beta/tunnels/certificates.py",
+        "src/anthropic/resources/beta/tunnels/tunnels.py",
+        "src/anthropic/resources/beta/user_profiles.py",
+        "src/anthropic/resources/beta/vaults/credentials.py",
+        "src/anthropic/resources/beta/vaults/vaults.py",
+        "src/anthropic/resources/files.py",
+        "src/anthropic/resources/messages/batches.py",
+        "src/anthropic/resources/messages/messages.py",
+        "src/anthropic/resources/models.py",
+        "src/anthropic/resources/organization/__init__.py",
+        "src/anthropic/resources/organization/api_keys.py",
+        "src/anthropic/resources/organization/compliance_settings.py",
+        "src/anthropic/resources/organization/external_keys.py",
+        "src/anthropic/resources/organization/federation/__init__.py",
+        "src/anthropic/resources/organization/federation/federation.py",
+        "src/anthropic/resources/organization/federation/issuers.py",
+        "src/anthropic/resources/organization/federation/rules/__init__.py",
+        "src/anthropic/resources/organization/federation/rules/rules.py",
+        "src/anthropic/resources/organization/federation/rules/workspaces.py"
+      ],
+      "files_may_be_truncated": true,
+      "file_changes": [
+        {
+          "filename": ".github/workflows/ci.yml",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/.github%2Fworkflows%2Fci.yml"
+        },
+        {
+          "filename": ".release-please-manifest.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/.release-please-manifest.json"
+        },
+        {
+          "filename": ".stats.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/.stats.yml"
+        },
+        {
+          "filename": "CHANGELOG.md",
+          "status": "modified",
+          "additions": 33,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/CHANGELOG.md"
+        },
+        {
+          "filename": "api.md",
+          "status": "modified",
+          "additions": 644,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/api.md"
+        },
+        {
+          "filename": "examples/agents_comprehensive.py",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/examples%2Fagents_comprehensive.py"
+        },
+        {
+          "filename": "pyproject.toml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/pyproject.toml"
+        },
+        {
+          "filename": "scripts/mock-spec.json.gz",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/scripts%2Fmock-spec.json.gz"
+        },
+        {
+          "filename": "src/anthropic/_client.py",
+          "status": "modified",
+          "additions": 38,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2F_client.py"
+        },
+        {
+          "filename": "src/anthropic/_version.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2F_version.py"
+        },
+        {
+          "filename": "src/anthropic/lib/credentials/_providers.py",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Flib%2Fcredentials%2F_providers.py"
+        },
+        {
+          "filename": "src/anthropic/lib/environments/_worker.py",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Flib%2Fenvironments%2F_worker.py"
+        },
+        {
+          "filename": "src/anthropic/lib/tools/_beta_session_runner.py",
+          "status": "modified",
+          "additions": 61,
+          "deletions": 42,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Flib%2Ftools%2F_beta_session_runner.py"
+        },
+        {
+          "filename": "src/anthropic/pagination.py",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fpagination.py"
+        },
+        {
+          "filename": "src/anthropic/resources/__init__.py",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/agents/agents.py",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 6,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fagents%2Fagents.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/deployment_runs.py",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fdeployment_runs.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/deployments.py",
+          "status": "modified",
+          "additions": 56,
+          "deletions": 14,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fdeployments.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/dreams.py",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 8,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fdreams.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/environments/environments.py",
+          "status": "modified",
+          "additions": 40,
+          "deletions": 10,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fenvironments%2Fenvironments.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/environments/work.py",
+          "status": "modified",
+          "additions": 42,
+          "deletions": 12,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fenvironments%2Fwork.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/files.py",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 8,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Ffiles.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/memory_stores/memory_stores.py",
+          "status": "modified",
+          "additions": 40,
+          "deletions": 10,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fmemory_stores%2Fmemory_stores.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/memory_stores/memory_versions.py",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fmemory_stores%2Fmemory_versions.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/messages/batches.py",
+          "status": "modified",
+          "additions": 40,
+          "deletions": 10,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fmessages%2Fbatches.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/messages/messages.py",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 4,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fmessages%2Fmessages.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/models.py",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fmodels.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/__init__.py",
+          "status": "modified",
+          "additions": 84,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/analytics/__init__.py",
+          "status": "added",
+          "additions": 171,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fanalytics%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/analytics/analytics.py",
+          "status": "added",
+          "additions": 420,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fanalytics%2Fanalytics.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/analytics/apps/__init__.py",
+          "status": "added",
+          "additions": 31,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fanalytics%2Fapps%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/analytics/apps/apps.py",
+          "status": "added",
+          "additions": 100,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fanalytics%2Fapps%2Fapps.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/analytics/apps/chat/__init__.py",
+          "status": "added",
+          "additions": 31,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fanalytics%2Fapps%2Fchat%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/analytics/apps/chat/chat.py",
+          "status": "added",
+          "additions": 100,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fanalytics%2Fapps%2Fchat%2Fchat.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/analytics/apps/chat/projects.py",
+          "status": "added",
+          "additions": 330,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fanalytics%2Fapps%2Fchat%2Fprojects.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/analytics/artifacts.py",
+          "status": "added",
+          "additions": 266,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fanalytics%2Fartifacts.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/analytics/connectors.py",
+          "status": "added",
+          "additions": 342,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fanalytics%2Fconnectors.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/analytics/cost_report.py",
+          "status": "added",
+          "additions": 394,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fanalytics%2Fcost_report.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/analytics/plugins.py",
+          "status": "added",
+          "additions": 344,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fanalytics%2Fplugins.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/analytics/skills.py",
+          "status": "added",
+          "additions": 334,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fanalytics%2Fskills.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/analytics/summaries.py",
+          "status": "added",
+          "additions": 269,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fanalytics%2Fsummaries.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/analytics/usage_report.py",
+          "status": "added",
+          "additions": 390,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fanalytics%2Fusage_report.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/analytics/user_cost_report.py",
+          "status": "added",
+          "additions": 446,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fanalytics%2Fuser_cost_report.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/analytics/user_usage_report.py",
+          "status": "added",
+          "additions": 432,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fanalytics%2Fuser_usage_report.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/analytics/users.py",
+          "status": "added",
+          "additions": 336,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fanalytics%2Fusers.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/api_keys.py",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 4,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fapi_keys.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/compliance_settings.py",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 4,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fcompliance_settings.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/external_keys.py",
+          "status": "modified",
+          "additions": 40,
+          "deletions": 10,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fexternal_keys.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/federation/issuers.py",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 8,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Ffederation%2Fissuers.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/federation/rules/rules.py",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 8,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Ffederation%2Frules%2Frules.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/federation/rules/workspaces.py",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 4,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Ffederation%2Frules%2Fworkspaces.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/invites.py",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 6,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Finvites.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/organization.py",
+          "status": "modified",
+          "additions": 200,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Forganization.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/plugin_marketplaces.py",
+          "status": "added",
+          "additions": 1028,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fplugin_marketplaces.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/plugins/__init__.py",
+          "status": "added",
+          "additions": 59,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fplugins%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/plugins/installation_settings.py",
+          "status": "added",
+          "additions": 689,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fplugins%2Finstallation_settings.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/plugins/plugins.py",
+          "status": "added",
+          "additions": 1201,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fplugins%2Fplugins.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/plugins/shares.py",
+          "status": "added",
+          "additions": 300,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fplugins%2Fshares.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/plugins/versions.py",
+          "status": "added",
+          "additions": 926,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fplugins%2Fversions.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/rbac_groups/__init__.py",
+          "status": "added",
+          "additions": 31,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Frbac_groups%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/rbac_groups/members.py",
+          "status": "added",
+          "additions": 436,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Frbac_groups%2Fmembers.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/rbac_groups/rbac_groups.py",
+          "status": "added",
+          "additions": 618,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Frbac_groups%2Frbac_groups.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/rbac_roles/__init__.py",
+          "status": "added",
+          "additions": 31,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Frbac_roles%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/rbac_roles/permissions.py",
+          "status": "added",
+          "additions": 209,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Frbac_roles%2Fpermissions.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/rbac_roles/rbac_roles.py",
+          "status": "added",
+          "additions": 319,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Frbac_roles%2Frbac_roles.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/service_accounts/service_accounts.py",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 8,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fservice_accounts%2Fservice_accounts.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/service_accounts/workspaces.py",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 4,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fservice_accounts%2Fworkspaces.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/spend_limits/__init__.py",
+          "status": "added",
+          "additions": 45,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fspend_limits%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/spend_limits/effective.py",
+          "status": "added",
+          "additions": 217,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fspend_limits%2Feffective.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/spend_limits/increase_requests.py",
+          "status": "added",
+          "additions": 549,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fspend_limits%2Fincrease_requests.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/spend_limits/spend_limits.py",
+          "status": "added",
+          "additions": 471,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fspend_limits%2Fspend_limits.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/users.py",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 6,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fusers.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/workspaces/members.py",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 8,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fworkspaces%2Fmembers.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/workspaces/service_accounts.py",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 8,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fworkspaces%2Fservice_accounts.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/organization/workspaces/workspaces.py",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 8,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fworkspaces%2Fworkspaces.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/sessions/events.py",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fsessions%2Fevents.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/sessions/resources.py",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 8,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fsessions%2Fresources.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/sessions/sessions.py",
+          "status": "modified",
+          "additions": 40,
+          "deletions": 10,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fsessions%2Fsessions.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/sessions/threads/threads.py",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 4,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fsessions%2Fthreads%2Fthreads.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/skills/skills.py",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 6,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fskills%2Fskills.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/skills/versions.py",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 8,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fskills%2Fversions.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/tunnels/certificates.py",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 6,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Ftunnels%2Fcertificates.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/tunnels/tunnels.py",
+          "status": "modified",
+          "additions": 40,
+          "deletions": 10,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Ftunnels%2Ftunnels.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/user_profiles.py",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 8,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fuser_profiles.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/vaults/credentials.py",
+          "status": "modified",
+          "additions": 48,
+          "deletions": 12,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fvaults%2Fcredentials.py"
+        },
+        {
+          "filename": "src/anthropic/resources/beta/vaults/vaults.py",
+          "status": "modified",
+          "additions": 40,
+          "deletions": 10,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fbeta%2Fvaults%2Fvaults.py"
+        },
+        {
+          "filename": "src/anthropic/resources/files.py",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 8,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Ffiles.py"
+        },
+        {
+          "filename": "src/anthropic/resources/messages/batches.py",
+          "status": "modified",
+          "additions": 40,
+          "deletions": 10,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fmessages%2Fbatches.py"
+        },
+        {
+          "filename": "src/anthropic/resources/messages/messages.py",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 4,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fmessages%2Fmessages.py"
+        },
+        {
+          "filename": "src/anthropic/resources/models.py",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Fmodels.py"
+        },
+        {
+          "filename": "src/anthropic/resources/organization/__init__.py",
+          "status": "added",
+          "additions": 143,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Forganization%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/resources/organization/api_keys.py",
+          "status": "added",
+          "additions": 424,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Forganization%2Fapi_keys.py"
+        },
+        {
+          "filename": "src/anthropic/resources/organization/compliance_settings.py",
+          "status": "added",
+          "additions": 267,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Forganization%2Fcompliance_settings.py"
+        },
+        {
+          "filename": "src/anthropic/resources/organization/external_keys.py",
+          "status": "added",
+          "additions": 711,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Forganization%2Fexternal_keys.py"
+        },
+        {
+          "filename": "src/anthropic/resources/organization/federation/__init__.py",
+          "status": "added",
+          "additions": 45,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Forganization%2Ffederation%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/resources/organization/federation/federation.py",
+          "status": "added",
+          "additions": 132,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Forganization%2Ffederation%2Ffederation.py"
+        },
+        {
+          "filename": "src/anthropic/resources/organization/federation/issuers.py",
+          "status": "added",
+          "additions": 786,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Forganization%2Ffederation%2Fissuers.py"
+        },
+        {
+          "filename": "src/anthropic/resources/organization/federation/rules/__init__.py",
+          "status": "added",
+          "additions": 31,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Forganization%2Ffederation%2Frules%2F__init__.py"
+        },
+        {
+          "filename": "src/anthropic/resources/organization/federation/rules/rules.py",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Forganization%2Ffederation%2Frules%2Frules.py"
+        },
+        {
+          "filename": "src/anthropic/resources/organization/federation/rules/workspaces.py",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-python/blob/d226754625e4387d19d46ef6cbe3977bdfdae121/src%2Fanthropic%2Fresources%2Forganization%2Ffederation%2Frules%2Fworkspaces.py"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 36758808696,
+          "name": "Graph Update: uv in /. #1600640688",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/36758808696",
+          "head_sha": "6c3e94b1208ae016fc992ffb4ae46ebf7fab706c"
+        },
+        {
+          "id": 36758804252,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/36758804252",
+          "head_sha": "6c3e94b1208ae016fc992ffb4ae46ebf7fab706c"
+        },
+        {
+          "id": 36758804332,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/36758804332",
+          "head_sha": "6c3e94b1208ae016fc992ffb4ae46ebf7fab706c"
+        },
+        {
+          "id": 36758802669,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/36758802669",
+          "head_sha": "6c3e94b1208ae016fc992ffb4ae46ebf7fab706c"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 36758375487,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/36758375487",
+          "head_sha": "d226754625e4387d19d46ef6cbe3977bdfdae121"
+        },
+        {
+          "id": 36758374847,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/36758374847",
+          "head_sha": "d226754625e4387d19d46ef6cbe3977bdfdae121"
+        },
+        {
+          "id": 36758373169,
+          "name": "PR #1965",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/36758373169",
+          "head_sha": "d226754625e4387d19d46ef6cbe3977bdfdae121"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v1.15.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.15.0",
+      "published_at": "2026-10-15T19:45:15Z",
+      "target_commitish": "main",
+      "commit_sha": "bcd55fe1d3f0f1240765f8cef04295b67337f55a",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38796454674,
+          "name": "Graph Update: uv in /. #1630071493",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/38796454674",
+          "head_sha": "bcd55fe1d3f0f1240765f8cef04295b67337f55a"
+        },
+        {
+          "id": 38796450099,
+          "name": "Publish PyPI",
+          "path": ".github/workflows/publish-pypi.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/38796450099",
+          "head_sha": "bcd55fe1d3f0f1240765f8cef04295b67337f55a"
+        },
+        {
+          "id": 38796445392,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/38796445392",
+          "head_sha": "bcd55fe1d3f0f1240765f8cef04295b67337f55a"
+        },
+        {
+          "id": 38796441841,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/38796441841",
+          "head_sha": "bcd55fe1d3f0f1240765f8cef04295b67337f55a"
+        }
+      ]
+    },
+    {
+      "tag": "v1.14.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.14.0",
+      "published_at": "2026-10-14T17:13:08Z",
+      "target_commitish": "main",
+      "commit_sha": "2a53eaa6966b04560b6a72c28d3ace4389a9ac58",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38604785252,
+          "name": "Graph Update: uv in /. #1627324304",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/38604785252",
+          "head_sha": "2a53eaa6966b04560b6a72c28d3ace4389a9ac58"
+        },
+        {
+          "id": 38604775863,
+          "name": "Publish PyPI",
+          "path": ".github/workflows/publish-pypi.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/38604775863",
+          "head_sha": "2a53eaa6966b04560b6a72c28d3ace4389a9ac58"
+        },
+        {
+          "id": 38604771465,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/38604771465",
+          "head_sha": "2a53eaa6966b04560b6a72c28d3ace4389a9ac58"
+        },
+        {
+          "id": 38604767738,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/38604767738",
+          "head_sha": "2a53eaa6966b04560b6a72c28d3ace4389a9ac58"
+        }
+      ]
+    },
+    {
+      "tag": "v1.13.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.13.0",
+      "published_at": "2026-10-09T15:28:52Z",
+      "target_commitish": "main",
+      "commit_sha": "b4b7916deaf4e5570cd627b1ae7ee4394a4de39f",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38316180271,
+          "name": "Scheduled",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/38316180271",
+          "head_sha": "b4b7916deaf4e5570cd627b1ae7ee4394a4de39f"
+        },
+        {
+          "id": 37952053937,
+          "name": "Graph Update: uv in /. #1619553557",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/37952053937",
+          "head_sha": "b4b7916deaf4e5570cd627b1ae7ee4394a4de39f"
+        },
+        {
+          "id": 37952050228,
+          "name": "Publish PyPI",
+          "path": ".github/workflows/publish-pypi.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/37952050228",
+          "head_sha": "b4b7916deaf4e5570cd627b1ae7ee4394a4de39f"
+        },
+        {
+          "id": 37952044380,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/37952044380",
+          "head_sha": "b4b7916deaf4e5570cd627b1ae7ee4394a4de39f"
+        },
+        {
+          "id": 37952042619,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-python/actions/runs/37952042619",
+          "head_sha": "b4b7916deaf4e5570cd627b1ae7ee4394a4de39f"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v1.15.0",
+      "sha": "bcd55fe1d3f0f1240765f8cef04295b67337f55a"
+    },
+    {
+      "name": "v1.14.0",
+      "sha": "2a53eaa6966b04560b6a72c28d3ace4389a9ac58"
+    },
+    {
+      "name": "v1.13.0",
+      "sha": "b4b7916deaf4e5570cd627b1ae7ee4394a4de39f"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:16:40.712972+00:00",
+  "source_times": {
+    "/repos/anthropics/anthropic-sdk-python": "2026-10-17T16:03:37.168547+00:00",
+    "/repos/anthropics/anthropic-sdk-python/commits?sha=main&per_page=20": "2026-10-17T16:03:40.392964+00:00",
+    "/repos/anthropics/anthropic-sdk-python/git/trees/bcd55fe1d3f0f1240765f8cef04295b67337f55a": "2026-10-17T16:03:41.824554+00:00",
+    "/repos/anthropics/anthropic-sdk-python/git/trees/08aadc0967dacca049593d9642c17a3ee8348172": "2026-10-17T16:03:43.210000+00:00",
+    "/repos/anthropics/anthropic-sdk-python/git/trees/b6f3acbedfb848f5a47a6f014d5223782f8faf56": "2026-10-17T16:03:44.595180+00:00",
+    "/repos/anthropics/anthropic-sdk-python/git/blobs/7ccfe12c9e9deeb7151959f578151208256a3e1f": "2026-10-17T16:03:47.952806+00:00",
+    "/repos/anthropics/anthropic-sdk-python/git/blobs/ccf5eb9bf709d1470f80e1f0b7e0efc03973ab2e": "2026-10-17T16:03:50.721515+00:00",
+    "/repos/anthropics/anthropic-sdk-python/git/blobs/2dd82fcd8ba273e83cb804c900e7012cff17b5fb": "2026-10-17T16:03:53.890185+00:00",
+    "/repos/anthropics/anthropic-sdk-python/git/blobs/6a71b17fe009b88a319d607ba3767755fcacf1a7": "2026-10-17T16:03:56.311004+00:00",
+    "/repos/anthropics/anthropic-sdk-python/git/blobs/3eb6b7a330ddce174669decc8bc16c5ee06ed6aa": "2026-10-17T16:03:57.699704+00:00",
+    "/repos/anthropics/anthropic-sdk-python/git/blobs/95b204aa321dcfadcde28fb2b77048b2e123315a": "2026-10-17T16:03:59.072285+00:00",
+    "/repos/anthropics/anthropic-sdk-python/git/blobs/39a76b09f955de3ea285896e056c05720997e993": "2026-10-17T16:04:00.478593+00:00",
+    "/repos/anthropics/anthropic-sdk-python/git/blobs/1227adaa47421898f8038667ade1c0563002ac49": "2026-10-17T16:04:01.905408+00:00",
+    "/repos/anthropics/anthropic-sdk-python/git/blobs/79428f698b7dc25274f2faeb2ed7f433a19b3ab2": "2026-10-17T16:04:03.320237+00:00",
+    "/repos/anthropics/anthropic-sdk-python/git/blobs/1adf121ab865d87aee7c2935195d7e82d420eaa2": "2026-10-17T16:04:04.700274+00:00",
+    "/repos/anthropics/anthropic-sdk-python/git/blobs/24741403eb823034ace8855102937e18d9795481": "2026-10-17T16:04:06.113268+00:00",
+    "/repos/anthropics/anthropic-sdk-python/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:04:11.507272+00:00",
+    "/repos/anthropics/anthropic-sdk-python/pulls/2009/files?per_page=100": "2026-10-17T16:04:14.157748+00:00",
+    "/repos/anthropics/anthropic-sdk-python/pulls/2009/reviews?per_page=100": "2026-10-17T16:04:15.693795+00:00",
+    "/repos/anthropics/anthropic-sdk-python/actions/runs?head_sha=22feda09befc5f7740b9c96121e6f3f2034dd7e7&per_page=10": "2026-10-17T16:04:17.664930+00:00",
+    "/repos/anthropics/anthropic-sdk-python/actions/runs?head_sha=ebf7fa3845e742cb8cebbb8aea6ccc3c86d2d8e7&per_page=10": "2026-10-17T16:04:19.652390+00:00",
+    "/repos/anthropics/anthropic-sdk-python/pulls/1966/files?per_page=100": "2026-10-17T16:04:22.942059+00:00",
+    "/repos/anthropics/anthropic-sdk-python/pulls/1966/reviews?per_page=100": "2026-10-17T16:04:24.492311+00:00",
+    "/repos/anthropics/anthropic-sdk-python/actions/runs?head_sha=18f25547f20cf5f01da69ac611e700e3bc9ebf21&per_page=10": "2026-10-17T16:04:26.602647+00:00",
+    "/repos/anthropics/anthropic-sdk-python/actions/runs?head_sha=381f5f3f5059673d040425124e3349d0a0e39159&per_page=10": "2026-10-17T16:04:28.418743+00:00",
+    "/repos/anthropics/anthropic-sdk-python/pulls/1965/files?per_page=100": "2026-10-17T16:04:32.703389+00:00",
+    "/repos/anthropics/anthropic-sdk-python/pulls/1965/reviews?per_page=100": "2026-10-17T16:04:34.319430+00:00",
+    "/repos/anthropics/anthropic-sdk-python/actions/runs?head_sha=6c3e94b1208ae016fc992ffb4ae46ebf7fab706c&per_page=10": "2026-10-17T16:04:37.061673+00:00",
+    "/repos/anthropics/anthropic-sdk-python/actions/runs?head_sha=d226754625e4387d19d46ef6cbe3977bdfdae121&per_page=10": "2026-10-17T16:04:38.903967+00:00",
+    "/repos/anthropics/anthropic-sdk-python/releases?per_page=20&page=1": "2026-10-17T16:16:40.710522+00:00",
+    "/repos/anthropics/anthropic-sdk-python/commits/v1.15.0": "2026-10-17T16:04:44.174992+00:00",
+    "/repos/anthropics/anthropic-sdk-python/actions/runs?head_sha=bcd55fe1d3f0f1240765f8cef04295b67337f55a&per_page=10": "2026-10-17T16:04:45.990063+00:00",
+    "/repos/anthropics/anthropic-sdk-python/commits/v1.14.0": "2026-10-17T16:04:47.488080+00:00",
+    "/repos/anthropics/anthropic-sdk-python/actions/runs?head_sha=2a53eaa6966b04560b6a72c28d3ace4389a9ac58&per_page=10": "2026-10-17T16:04:49.606826+00:00",
+    "/repos/anthropics/anthropic-sdk-python/commits/v1.13.0": "2026-10-17T16:04:51.070540+00:00",
+    "/repos/anthropics/anthropic-sdk-python/actions/runs?head_sha=b4b7916deaf4e5570cd627b1ae7ee4394a4de39f&per_page=10": "2026-10-17T16:04:52.968360+00:00",
+    "/repos/anthropics/anthropic-sdk-python/tags?per_page=3": "2026-10-17T16:04:54.378442+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:16:40.710522+00:00",
+  "status": "collected"
+}

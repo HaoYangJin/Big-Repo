@@ -1,0 +1,1769 @@
+{
+  "requested_repository": "vllm-project/vllm",
+  "category": "ml",
+  "collected_at": "2026-10-17T16:10:00.293941+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "vllm-project/vllm",
+  "metadata": {
+    "html_url": "https://github.com/vllm-project/vllm",
+    "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+    "homepage": "https://vllm.ai",
+    "language": "Python",
+    "stargazers_count": 93989,
+    "forks_count": 23489,
+    "open_issues_count": 8961,
+    "pushed_at": "2026-10-17T15:27:14Z",
+    "created_at": "2023-02-09T11:23:20Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [
+      "amd",
+      "blackwell",
+      "cuda",
+      "deepseek",
+      "deepseek-v3",
+      "gpt",
+      "gpt-oss",
+      "inference",
+      "kimi",
+      "llama",
+      "llm",
+      "llm-serving",
+      "model-serving",
+      "moe",
+      "openai",
+      "pytorch",
+      "qwen",
+      "qwen3",
+      "tpu",
+      "transformer"
+    ],
+    "owner": {
+      "login": "vllm-project",
+      "type": "Organization",
+      "html_url": "https://github.com/vllm-project"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c",
+      "url": "https://github.com/vllm-project/vllm/commit/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c",
+      "date": "2026-10-17T15:27:11Z",
+      "subject": "[Benchmark] Add per-case kernel profiles to vllm bench forward (#61692)"
+    },
+    {
+      "sha": "c61a1e73c664ef59e4dd496e6b32eb4ba0c95b9a",
+      "url": "https://github.com/vllm-project/vllm/commit/c61a1e73c664ef59e4dd496e6b32eb4ba0c95b9a",
+      "date": "2026-10-17T15:10:04Z",
+      "subject": "[Feature] Skip MLA weight absorption when weights are pre-processed (#57320)"
+    },
+    {
+      "sha": "237d99b4aff67ecfedacca7acb0ee93f299fa54e",
+      "url": "https://github.com/vllm-project/vllm/commit/237d99b4aff67ecfedacca7acb0ee93f299fa54e",
+      "date": "2026-10-17T13:54:30Z",
+      "subject": "Revert \"[Docs] Add train-inference consistency agent skill\" (#61551) (#62186)"
+    },
+    {
+      "sha": "2d8efee9a73366d6b4e753780af32443d2fef91a",
+      "url": "https://github.com/vllm-project/vllm/commit/2d8efee9a73366d6b4e753780af32443d2fef91a",
+      "date": "2026-10-17T12:49:50Z",
+      "subject": "[Docs] Add train-inference consistency agent skill (#61551)"
+    },
+    {
+      "sha": "21e09ea95926fcfe4df1c57bf2eb95123cab70c3",
+      "url": "https://github.com/vllm-project/vllm/commit/21e09ea95926fcfe4df1c57bf2eb95123cab70c3",
+      "date": "2026-10-17T12:27:52Z",
+      "subject": "[Doc] Sync DeepSeek-V4.1-Flash recipe with vllm-project/recipes#1136, #1137 (#62179)"
+    },
+    {
+      "sha": "837e87e1c5024843b66383ef1bd60ca5672a9575",
+      "url": "https://github.com/vllm-project/vllm/commit/837e87e1c5024843b66383ef1bd60ca5672a9575",
+      "date": "2026-10-17T12:17:56Z",
+      "subject": "[Feature][LoRA][MoE] Expert LoRA for FlashInfer TRTLLM MXFP4 experts (#61979)"
+    },
+    {
+      "sha": "4e964b2623c951d063f4b7f23790d16f2d6b7f94",
+      "url": "https://github.com/vllm-project/vllm/commit/4e964b2623c951d063f4b7f23790d16f2d6b7f94",
+      "date": "2026-10-17T11:10:39Z",
+      "subject": "[XPU] Fix Event init failure w/ external (#61743)"
+    },
+    {
+      "sha": "ec8b20fbf01e04d33bb059e555a9b5f39fb4cc46",
+      "url": "https://github.com/vllm-project/vllm/commit/ec8b20fbf01e04d33bb059e555a9b5f39fb4cc46",
+      "date": "2026-10-17T11:04:49Z",
+      "subject": "[Bugfix] Fix Gemma 4 encoder CUDA graph capture OOM at startup (#61365)"
+    },
+    {
+      "sha": "2b85d9cb65c1f56c347cb7f56f1596a6b8b28373",
+      "url": "https://github.com/vllm-project/vllm/commit/2b85d9cb65c1f56c347cb7f56f1596a6b8b28373",
+      "date": "2026-10-17T09:55:28Z",
+      "subject": "[Perf][Bugfix] Prefer MNNVL for single-node FlashInfer allreduce again (#61989)"
+    },
+    {
+      "sha": "026f6ab2689397e64c1f53a5ac57d37c4dc46b67",
+      "url": "https://github.com/vllm-project/vllm/commit/026f6ab2689397e64c1f53a5ac57d37c4dc46b67",
+      "date": "2026-10-17T09:37:56Z",
+      "subject": "[Model] DeepSeek-V4/V4.1 VL: stream language-model weights instead of sorting the checkpoint (#58857)"
+    },
+    {
+      "sha": "b515648641227afe0d0fe92be7efac80471b295e",
+      "url": "https://github.com/vllm-project/vllm/commit/b515648641227afe0d0fe92be7efac80471b295e",
+      "date": "2026-10-17T09:14:36Z",
+      "subject": "[Doc] Host model recipes in recipes/ (#61302)"
+    },
+    {
+      "sha": "f98ae6a9fd2c73a2f80dd9fe4c534676f689394d",
+      "url": "https://github.com/vllm-project/vllm/commit/f98ae6a9fd2c73a2f80dd9fe4c534676f689394d",
+      "date": "2026-10-17T09:08:14Z",
+      "subject": "[Bugfix][Core] Keep resumable sessions that stop while preempted (#58778)"
+    },
+    {
+      "sha": "2067297b2f15f0776be6d2a7e1b435bd20af60c1",
+      "url": "https://github.com/vllm-project/vllm/commit/2067297b2f15f0776be6d2a7e1b435bd20af60c1",
+      "date": "2026-10-17T09:00:28Z",
+      "subject": "[ROCm][Perf] Use AITER tuned configs to select a4w4 gemm kernel instead of env var (#61278)"
+    },
+    {
+      "sha": "3bf25c50971e8a7dd4da550dc815d8972b51db61",
+      "url": "https://github.com/vllm-project/vllm/commit/3bf25c50971e8a7dd4da550dc815d8972b51db61",
+      "date": "2026-10-17T08:54:31Z",
+      "subject": " [CI][Bugfix] Ignore AMD CI webhook no-op builds in /amd-ci run and retry (#62087)"
+    },
+    {
+      "sha": "e56b1603afd94d4da880972eeca47491b5dfaaf6",
+      "url": "https://github.com/vllm-project/vllm/commit/e56b1603afd94d4da880972eeca47491b5dfaaf6",
+      "date": "2026-10-17T08:53:00Z",
+      "subject": "[Kernel]Add norm fused kernel for Step-5 Preview and Muse Spark Open (#62132)"
+    },
+    {
+      "sha": "eb8de8d1a1a79fce8bb2ce90be8620768d0f8347",
+      "url": "https://github.com/vllm-project/vllm/commit/eb8de8d1a1a79fce8bb2ce90be8620768d0f8347",
+      "date": "2026-10-17T08:50:40Z",
+      "subject": "[Bugfix][OpenAI] Respect allowed_token_ids in beam search (#47630)"
+    },
+    {
+      "sha": "b05ede56168b5718c425c1493914e5e79f6b8181",
+      "url": "https://github.com/vllm-project/vllm/commit/b05ede56168b5718c425c1493914e5e79f6b8181",
+      "date": "2026-10-17T08:27:48Z",
+      "subject": "[Bugfix][Frontend] Preserve token IDs in completion derender responses (#62114)"
+    },
+    {
+      "sha": "61bb590877521e2f4516912297a40f593e222ee9",
+      "url": "https://github.com/vllm-project/vllm/commit/61bb590877521e2f4516912297a40f593e222ee9",
+      "date": "2026-10-17T08:25:02Z",
+      "subject": "[Bugfix][Spec Decode] Clear stale shared block-table rows (#61174)"
+    },
+    {
+      "sha": "c3de0b37e25fb4b59eaa3e292df928c61b3dc172",
+      "url": "https://github.com/vllm-project/vllm/commit/c3de0b37e25fb4b59eaa3e292df928c61b3dc172",
+      "date": "2026-10-17T08:22:33Z",
+      "subject": "[Core][Spec Decode] Replace EAGLE group heuristics with explicit draft-layer tags (#61455)"
+    },
+    {
+      "sha": "08a65e287e55099255ce178c5b5f58ce42dfd461",
+      "url": "https://github.com/vllm-project/vllm/commit/08a65e287e55099255ce178c5b5f58ce42dfd461",
+      "date": "2026-10-17T07:52:17Z",
+      "subject": "[Bugfix][Kernel] hadacore: don't load past the input on a partial last warp (#61944)"
+    }
+  ],
+  "default_sha": "c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c",
+  "root_and_selected_directory_paths": [
+    ".agents",
+    ".buildkite",
+    ".clang-format",
+    ".claude",
+    ".dockerignore",
+    ".git-blame-ignore-revs",
+    ".github",
+    ".github/CODEOWNERS",
+    ".github/CODE_OF_CONDUCT.md",
+    ".github/CONTRIBUTING.md",
+    ".github/FUNDING.yml",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/100-documentation.yml",
+    ".github/ISSUE_TEMPLATE/200-installation.yml",
+    ".github/ISSUE_TEMPLATE/300-usage.yml",
+    ".github/ISSUE_TEMPLATE/400-bug-report.yml",
+    ".github/ISSUE_TEMPLATE/450-ci-failure.yml",
+    ".github/ISSUE_TEMPLATE/500-feature-request.yml",
+    ".github/ISSUE_TEMPLATE/700-performance-discussion.yml",
+    ".github/ISSUE_TEMPLATE/750-RFC.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/actionlint.yaml",
+    ".github/codecov.yml",
+    ".github/dependabot.yml",
+    ".github/mergify.yml",
+    ".github/scale-config.yml",
+    ".github/workflows",
+    ".github/workflows/add_label_automerge.yml",
+    ".github/workflows/buf.yml",
+    ".github/workflows/issue_autolabel.yml",
+    ".github/workflows/macos-smoke-test.yml",
+    ".github/workflows/matchers",
+    ".github/workflows/new_pr_bot.yml",
+    ".github/workflows/notify-ci-authorized.yml",
+    ".github/workflows/pr-title.yml",
+    ".github/workflows/pre-commit.yml",
+    ".github/workflows/proto-crate.yml",
+    ".github/workflows/recipes.yml",
+    ".github/workflows/record-ci-approval.yml",
+    ".github/workflows/run-ci-command.yml",
+    ".github/workflows/scripts",
+    ".github/workflows/stale.yml",
+    ".gitignore",
+    ".pre-commit-config.yaml",
+    ".readthedocs.yaml",
+    "AGENTS.md",
+    "CMakeLists.txt",
+    "DCO",
+    "LICENSE",
+    "MANIFEST.in",
+    "README.md",
+    "SECURITY.md",
+    "benchmarks",
+    "cmake",
+    "csrc",
+    "docker",
+    "docs",
+    "docs/.nav.yml",
+    "docs/README.md",
+    "docs/api",
+    "docs/assets",
+    "docs/benchmarking",
+    "docs/cli",
+    "docs/community",
+    "docs/configuration",
+    "docs/contributing",
+    "docs/deployment",
+    "docs/design",
+    "docs/examples",
+    "docs/features",
+    "docs/getting_started",
+    "docs/governance",
+    "docs/mkdocs",
+    "docs/models",
+    "docs/pre_run_check.sh",
+    "docs/serving",
+    "docs/training",
+    "docs/usage",
+    "examples",
+    "mkdocs.yaml",
+    "pyproject.toml",
+    "recipes",
+    "requirements",
+    "rust",
+    "rust-toolchain.toml",
+    "setup.py",
+    "tests",
+    "tools",
+    "vllm"
+  ],
+  "workflow_paths": [
+    ".github/workflows/macos-smoke-test.yml",
+    ".github/workflows/notify-ci-authorized.yml",
+    ".github/workflows/recipes.yml",
+    ".github/workflows/record-ci-approval.yml",
+    ".github/workflows/run-ci-command.yml",
+    ".github/workflows/add_label_automerge.yml",
+    ".github/workflows/buf.yml",
+    ".github/workflows/issue_autolabel.yml",
+    ".github/workflows/new_pr_bot.yml",
+    ".github/workflows/pr-title.yml",
+    ".github/workflows/pre-commit.yml",
+    ".github/workflows/proto-crate.yml",
+    ".github/workflows/stale.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "a31d156b4b632b106505108478e1637c3dd77435",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/AGENTS.md",
+      "lines": 156,
+      "signals": {
+        "tests": [
+          81,
+          97
+        ],
+        "lint": [
+          56,
+          58,
+          109,
+          110,
+          113,
+          116,
+          119
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          148,
+          149,
+          151
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "ff92fface4421933f1056f53d736c0840eac4728",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/README.md",
+      "lines": 111,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          105
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [
+          5
+        ],
+        "theme_images": [
+          3,
+          4
+        ],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "0a40ce93728989bc0576b105616f54dc4fcc1427",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/SECURITY.md",
+      "lines": 76,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          5,
+          9,
+          18,
+          25
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "3f09b75e9f6d653e4e76639bff86a9b647a0e4d2",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/pyproject.toml",
+      "lines": 273,
+      "signals": {
+        "tests": [
+          62,
+          126
+        ],
+        "lint": [
+          56,
+          65,
+          93,
+          109,
+          112
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha": "eecc7b51186da38cb8e210a15f03e2d52c543953",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/CODEOWNERS",
+      "lines": 274,
+      "signals": {
+        "tests": [],
+        "lint": [
+          173
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          272,
+          273
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha": "5268ff135c9d0d5b064dbe30aaa577e49071e33b",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/CODE_OF_CONDUCT.md",
+      "lines": 127,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CONTRIBUTING.md",
+      "sha": "2947aad75ee5613b4bdf8019b581620b8073149c",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/CONTRIBUTING.md",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/100-documentation.yml",
+      "sha": "74d397b231acdc23dd929637b1fa68f7d4ecd25b",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/ISSUE_TEMPLATE/100-documentation.yml",
+      "lines": 29,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/200-installation.yml",
+      "sha": "34da4019687b227b819312f896c632b6c2d0d7a3",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/ISSUE_TEMPLATE/200-installation.yml",
+      "lines": 47,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/300-usage.yml",
+      "sha": "c9e4be0e7719febacbe0f4b328351b18b289c52a",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/ISSUE_TEMPLATE/300-usage.yml",
+      "lines": 45,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/400-bug-report.yml",
+      "sha": "8c5c28cd77cff594196100f00b22e3c0220dbc09",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/ISSUE_TEMPLATE/400-bug-report.yml",
+      "lines": 108,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/450-ci-failure.yml",
+      "sha": "7af0e0673a2f3023307d6405ddae7cf8d0c152cb",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/ISSUE_TEMPLATE/450-ci-failure.yml",
+      "lines": 69,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          43,
+          46,
+          56
+        ]
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/500-feature-request.yml",
+      "sha": "097d88f50930d64e765c6fa92d3d2094c69426e8",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/ISSUE_TEMPLATE/500-feature-request.yml",
+      "lines": 38,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/700-performance-discussion.yml",
+      "sha": "3d31c11550167211cbd6a21b82f262cdb5f8129f",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/ISSUE_TEMPLATE/700-performance-discussion.yml",
+      "lines": 59,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/750-RFC.yml",
+      "sha": "c0e009855964a35e5655c9b7535117402f24a8e3",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/ISSUE_TEMPLATE/750-RFC.yml",
+      "lines": 52,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "fa40268d677279166477c072c4d950e800e2d100",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 5,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "3f3c00d981f6873da4a6b65a429aacbe9d431774",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/PULL_REQUEST_TEMPLATE.md",
+      "lines": 33,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "944929fc55e5873ab23acf88805140d46241c27a",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/dependabot.yml",
+      "lines": 30,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/README.md",
+      "sha": "2bdc3e1a3e4c1888dd3e88cccb8354a32e9e3de4",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/docs/README.md",
+      "lines": 82,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [
+          10,
+          11
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          38
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/macos-smoke-test.yml",
+      "sha": "2e63c5676dd820a8863d3d248b217f2512ec5aee",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/workflows/macos-smoke-test.yml",
+      "lines": 95,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9
+        ],
+        "pinned_actions": [
+          31,
+          33
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/notify-ci-authorized.yml",
+      "sha": "c260cc67dba0c4e6b0b7ecfb1e16080f5798b892",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/workflows/notify-ci-authorized.yml",
+      "lines": 50,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          19
+        ],
+        "pinned_actions": [
+          37,
+          41
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/recipes.yml",
+      "sha": "4eb80f80221f69d76ddc7803ee5b637914a76ce8",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/workflows/recipes.yml",
+      "lines": 28,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          18
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/record-ci-approval.yml",
+      "sha": "72fc7b61b083ac2b405ba69bcf3874b30921882b",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/workflows/record-ci-approval.yml",
+      "lines": 14,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/run-ci-command.yml",
+      "sha": "d3336772717f2b27c328c22f925297f676094a2a",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/workflows/run-ci-command.yml",
+      "lines": 54,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [
+          25,
+          29,
+          46
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/add_label_automerge.yml",
+      "sha": "9b392f11d3a1c02dd1905532dec174ae460fd91d",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/workflows/add_label_automerge.yml",
+      "lines": 24,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          2
+        ],
+        "pinned_actions": [
+          14
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/buf.yml",
+      "sha": "dd695d28d5293eca12de0fa2f33b939688d54b08",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/workflows/buf.yml",
+      "lines": 28,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9
+        ],
+        "pinned_actions": [
+          20,
+          21
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/issue_autolabel.yml",
+      "sha": "1852bd73b681ae60a5fbe2080a576d2f8a0268da",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/workflows/issue_autolabel.yml",
+      "lines": 808,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          5
+        ],
+        "pinned_actions": [
+          18,
+          628,
+          709
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/new_pr_bot.yml",
+      "sha": "7ff4c0990db0528a5017ebe8002d84c6dfac415f",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/workflows/new_pr_bot.yml",
+      "lines": 104,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [
+          16,
+          60
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pr-title.yml",
+      "sha": "edabaffef45399735270f9e68ae44dab5a55083e",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/workflows/pr-title.yml",
+      "lines": 40,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "sha": "861d4a5e498b9459b10fc2f75453f5c605d3ca8b",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/workflows/pre-commit.yml",
+      "lines": 62,
+      "signals": {
+        "tests": [],
+        "lint": [
+          1,
+          44,
+          47,
+          60
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13
+        ],
+        "pinned_actions": [
+          23,
+          52,
+          53,
+          60
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/proto-crate.yml",
+      "sha": "43be5c8c92142ea9c618dd228122aa5283e29068",
+      "status": "inspected",
+      "url": "https://github.com/vllm-project/vllm/blob/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c/.github/workflows/proto-crate.yml",
+      "lines": 70,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          16,
+          55,
+          57
+        ],
+        "pinned_actions": [
+          27,
+          28,
+          36,
+          59,
+          65
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 61933,
+      "title": "[Rust Frontend] Validate bad_words limits during request lowering",
+      "url": "https://github.com/vllm-project/vllm/pull/61933",
+      "merged_at": "2026-10-17T16:10:40Z",
+      "merge_commit_sha": "e744eacf682f2b1c7f91d2dcf348a015046e56b9",
+      "files": [
+        "rust/src/text/src/lower.rs",
+        "rust/src/text/src/lower/token_ids.rs"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "rust/src/text/src/lower.rs",
+          "status": "modified",
+          "additions": 41,
+          "deletions": 0,
+          "blob_url": "https://github.com/vllm-project/vllm/blob/761be1d051339dde6b5f70cc5a69a61fe8a20556/rust%2Fsrc%2Ftext%2Fsrc%2Flower.rs"
+        },
+        {
+          "filename": "rust/src/text/src/lower/token_ids.rs",
+          "status": "modified",
+          "additions": 35,
+          "deletions": 0,
+          "blob_url": "https://github.com/vllm-project/vllm/blob/761be1d051339dde6b5f70cc5a69a61fe8a20556/rust%2Fsrc%2Ftext%2Fsrc%2Flower%2Ftoken_ids.rs"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39048269149,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/39048269149",
+          "head_sha": "e744eacf682f2b1c7f91d2dcf348a015046e56b9"
+        },
+        {
+          "id": 39048269523,
+          "name": "pre-commit",
+          "path": ".github/workflows/pre-commit.yml",
+          "event": "push",
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/39048269523",
+          "head_sha": "e744eacf682f2b1c7f91d2dcf348a015046e56b9"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38852060693,
+          "name": "PR title",
+          "path": ".github/workflows/pr-title.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/38852060693",
+          "head_sha": "761be1d051339dde6b5f70cc5a69a61fe8a20556"
+        },
+        {
+          "id": 38852060711,
+          "name": "pre-commit",
+          "path": ".github/workflows/pre-commit.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/38852060711",
+          "head_sha": "761be1d051339dde6b5f70cc5a69a61fe8a20556"
+        }
+      ]
+    },
+    {
+      "number": 61692,
+      "title": "[Benchmark] Add per-case kernel profiles to vllm bench forward",
+      "url": "https://github.com/vllm-project/vllm/pull/61692",
+      "merged_at": "2026-10-17T15:27:12Z",
+      "merge_commit_sha": "c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c",
+      "files": [
+        ".agents/skills/model-microbenchmark/SKILL.md",
+        "docs/cli/README.md",
+        "tests/benchmarks/test_forward_cli.py",
+        "vllm/benchmarks/forward/capture.py",
+        "vllm/benchmarks/forward/main.py",
+        "vllm/benchmarks/forward/profile.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".agents/skills/model-microbenchmark/SKILL.md",
+          "status": "modified",
+          "additions": 40,
+          "deletions": 0,
+          "blob_url": "https://github.com/vllm-project/vllm/blob/f0733ec84d0076bb40e857816d8231371e5d3f4b/.agents%2Fskills%2Fmodel-microbenchmark%2FSKILL.md"
+        },
+        {
+          "filename": "docs/cli/README.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/vllm-project/vllm/blob/f0733ec84d0076bb40e857816d8231371e5d3f4b/docs%2Fcli%2FREADME.md"
+        },
+        {
+          "filename": "tests/benchmarks/test_forward_cli.py",
+          "status": "modified",
+          "additions": 37,
+          "deletions": 0,
+          "blob_url": "https://github.com/vllm-project/vllm/blob/f0733ec84d0076bb40e857816d8231371e5d3f4b/tests%2Fbenchmarks%2Ftest_forward_cli.py"
+        },
+        {
+          "filename": "vllm/benchmarks/forward/capture.py",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 0,
+          "blob_url": "https://github.com/vllm-project/vllm/blob/f0733ec84d0076bb40e857816d8231371e5d3f4b/vllm%2Fbenchmarks%2Fforward%2Fcapture.py"
+        },
+        {
+          "filename": "vllm/benchmarks/forward/main.py",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/vllm-project/vllm/blob/f0733ec84d0076bb40e857816d8231371e5d3f4b/vllm%2Fbenchmarks%2Fforward%2Fmain.py"
+        },
+        {
+          "filename": "vllm/benchmarks/forward/profile.py",
+          "status": "added",
+          "additions": 236,
+          "deletions": 0,
+          "blob_url": "https://github.com/vllm-project/vllm/blob/f0733ec84d0076bb40e857816d8231371e5d3f4b/vllm%2Fbenchmarks%2Fforward%2Fprofile.py"
+        }
+      ],
+      "review_states": [
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39048243732,
+          "name": "Run CI from PR comment",
+          "path": ".github/workflows/run-ci-command.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/39048243732",
+          "head_sha": "c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c"
+        },
+        {
+          "id": 39047740559,
+          "name": "Run CI from PR comment",
+          "path": ".github/workflows/run-ci-command.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/39047740559",
+          "head_sha": "c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c"
+        },
+        {
+          "id": 39047688942,
+          "name": "Notify CI authorization",
+          "path": ".github/workflows/notify-ci-authorized.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/39047688942",
+          "head_sha": "c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c"
+        },
+        {
+          "id": 39047618176,
+          "name": "Run CI from PR comment",
+          "path": ".github/workflows/run-ci-command.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/39047618176",
+          "head_sha": "c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c"
+        },
+        {
+          "id": 39047583394,
+          "name": "Notify CI authorization",
+          "path": ".github/workflows/notify-ci-authorized.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/39047583394",
+          "head_sha": "c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c"
+        },
+        {
+          "id": 39046960992,
+          "name": "Run CI from PR comment",
+          "path": ".github/workflows/run-ci-command.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/39046960992",
+          "head_sha": "c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c"
+        },
+        {
+          "id": 39046896370,
+          "name": "Notify CI authorization",
+          "path": ".github/workflows/notify-ci-authorized.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/39046896370",
+          "head_sha": "c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c"
+        },
+        {
+          "id": 39046894775,
+          "name": "Notify CI authorization",
+          "path": ".github/workflows/notify-ci-authorized.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/39046894775",
+          "head_sha": "c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c"
+        },
+        {
+          "id": 39046547744,
+          "name": "Run CI from PR comment",
+          "path": ".github/workflows/run-ci-command.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/39046547744",
+          "head_sha": "c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c"
+        },
+        {
+          "id": 39046542998,
+          "name": "Notify CI authorization",
+          "path": ".github/workflows/notify-ci-authorized.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/39046542998",
+          "head_sha": "c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39022319644,
+          "name": "pre-commit",
+          "path": ".github/workflows/pre-commit.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/39022319644",
+          "head_sha": "f0733ec84d0076bb40e857816d8231371e5d3f4b"
+        },
+        {
+          "id": 39022319536,
+          "name": "PR title",
+          "path": ".github/workflows/pr-title.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/39022319536",
+          "head_sha": "f0733ec84d0076bb40e857816d8231371e5d3f4b"
+        },
+        {
+          "id": 39022317950,
+          "name": "PR #61692",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/39022317950",
+          "head_sha": "f0733ec84d0076bb40e857816d8231371e5d3f4b"
+        }
+      ]
+    },
+    {
+      "number": 51318,
+      "title": "[Bugfix][DSv4] Revert adaptive C128A metadata packing",
+      "url": "https://github.com/vllm-project/vllm/pull/51318",
+      "merged_at": "2026-08-16T01:39:24Z",
+      "merge_commit_sha": "edd4c8176cfd98ece8a29beda574378c42971967",
+      "files": [
+        "tests/kernels/attention/test_flashmla_sparse.py",
+        "vllm/models/deepseek_v4/sparse_mla.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "tests/kernels/attention/test_flashmla_sparse.py",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 37,
+          "blob_url": "https://github.com/vllm-project/vllm/blob/a3324b17637021632f3fb1dd72a59a25324a3596/tests%2Fkernels%2Fattention%2Ftest_flashmla_sparse.py"
+        },
+        {
+          "filename": "vllm/models/deepseek_v4/sparse_mla.py",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 19,
+          "blob_url": "https://github.com/vllm-project/vllm/blob/a3324b17637021632f3fb1dd72a59a25324a3596/vllm%2Fmodels%2Fdeepseek_v4%2Fsparse_mla.py"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 31925390355,
+          "name": "Run CI from PR comment",
+          "path": ".github/workflows/run-ci-command.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/31925390355",
+          "head_sha": "edd4c8176cfd98ece8a29beda574378c42971967"
+        },
+        {
+          "id": 31925129159,
+          "name": "Run CI from PR comment",
+          "path": ".github/workflows/run-ci-command.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/31925129159",
+          "head_sha": "edd4c8176cfd98ece8a29beda574378c42971967"
+        },
+        {
+          "id": 31925113082,
+          "name": "Notify CI authorization",
+          "path": ".github/workflows/notify-ci-authorized.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/31925113082",
+          "head_sha": "edd4c8176cfd98ece8a29beda574378c42971967"
+        },
+        {
+          "id": 31924895959,
+          "name": "Run CI from PR comment",
+          "path": ".github/workflows/run-ci-command.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/31924895959",
+          "head_sha": "edd4c8176cfd98ece8a29beda574378c42971967"
+        },
+        {
+          "id": 31924584412,
+          "name": "Run CI from PR comment",
+          "path": ".github/workflows/run-ci-command.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/31924584412",
+          "head_sha": "edd4c8176cfd98ece8a29beda574378c42971967"
+        },
+        {
+          "id": 31924468233,
+          "name": "Notify CI authorization",
+          "path": ".github/workflows/notify-ci-authorized.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/31924468233",
+          "head_sha": "edd4c8176cfd98ece8a29beda574378c42971967"
+        },
+        {
+          "id": 31924428412,
+          "name": "Label issues based on keywords",
+          "path": ".github/workflows/issue_autolabel.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/31924428412",
+          "head_sha": "edd4c8176cfd98ece8a29beda574378c42971967"
+        },
+        {
+          "id": 31924311643,
+          "name": "Run CI from PR comment",
+          "path": ".github/workflows/run-ci-command.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/31924311643",
+          "head_sha": "edd4c8176cfd98ece8a29beda574378c42971967"
+        },
+        {
+          "id": 31924310959,
+          "name": "Run CI from PR comment",
+          "path": ".github/workflows/run-ci-command.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/31924310959",
+          "head_sha": "edd4c8176cfd98ece8a29beda574378c42971967"
+        },
+        {
+          "id": 31924309091,
+          "name": "Notify CI authorization",
+          "path": ".github/workflows/notify-ci-authorized.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/31924309091",
+          "head_sha": "edd4c8176cfd98ece8a29beda574378c42971967"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 31914223663,
+          "name": "Notify CI authorization",
+          "path": ".github/workflows/notify-ci-authorized.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/31914223663",
+          "head_sha": "a3324b17637021632f3fb1dd72a59a25324a3596"
+        },
+        {
+          "id": 31914223525,
+          "name": "pre-commit",
+          "path": ".github/workflows/pre-commit.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/31914223525",
+          "head_sha": "a3324b17637021632f3fb1dd72a59a25324a3596"
+        },
+        {
+          "id": 31914215385,
+          "name": "Record CI approval",
+          "path": ".github/workflows/record-ci-approval.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/31914215385",
+          "head_sha": "a3324b17637021632f3fb1dd72a59a25324a3596"
+        },
+        {
+          "id": 31913054694,
+          "name": "pre-commit",
+          "path": ".github/workflows/pre-commit.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/31913054694",
+          "head_sha": "a3324b17637021632f3fb1dd72a59a25324a3596"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v0.31.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+      "published_at": "2026-10-05T06:44:55Z",
+      "target_commitish": "main",
+      "commit_sha": "db9527a46873454610df6dbedf79a36d6bf1a7f6",
+      "assets": [
+        "vllm-0.31.0+cpu-cp312-cp312-macosx_11_0_arm64.whl",
+        "vllm-0.31.0+cpu-cp38-abi3-manylinux_2_39_aarch64.whl",
+        "vllm-0.31.0+cpu-cp38-abi3-manylinux_2_39_x86_64.whl",
+        "vllm-0.31.0+cu129-cp38-abi3-manylinux_2_28_aarch64.whl",
+        "vllm-0.31.0+cu129-cp38-abi3-manylinux_2_28_x86_64.whl",
+        "vllm-0.31.0+xpu-cp38-abi3-manylinux_2_34_x86_64.whl",
+        "vllm-0.31.0-cp38-abi3-manylinux_2_28_aarch64.whl",
+        "vllm-0.31.0-cp38-abi3-manylinux_2_28_x86_64.whl",
+        "vllm-0.31.0.tar.gz"
+      ],
+      "workflow_runs": []
+    },
+    {
+      "tag": "v0.30.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+      "published_at": "2026-09-22T05:20:54Z",
+      "target_commitish": "main",
+      "commit_sha": "ced6857afa0ea7b2e3f0846a62e1394e90f15607",
+      "assets": [
+        "vllm-0.30.0+cpu-cp312-cp312-macosx_11_0_arm64.whl",
+        "vllm-0.30.0+cpu-cp38-abi3-manylinux_2_39_aarch64.whl",
+        "vllm-0.30.0+cpu-cp38-abi3-manylinux_2_39_x86_64.whl",
+        "vllm-0.30.0+cu129-cp38-abi3-manylinux_2_28_aarch64.whl",
+        "vllm-0.30.0+cu129-cp38-abi3-manylinux_2_28_x86_64.whl",
+        "vllm-0.30.0+xpu-cp38-abi3-manylinux_2_34_x86_64.whl",
+        "vllm-0.30.0-cp38-abi3-manylinux_2_28_aarch64.whl",
+        "vllm-0.30.0-cp38-abi3-manylinux_2_28_x86_64.whl",
+        "vllm-0.30.0.tar.gz"
+      ],
+      "workflow_runs": [
+        {
+          "id": 35663248704,
+          "name": "Buf",
+          "path": ".github/workflows/buf.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/35663248704",
+          "head_sha": "ced6857afa0ea7b2e3f0846a62e1394e90f15607"
+        }
+      ]
+    },
+    {
+      "tag": "v0.29.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+      "published_at": "2026-09-09T08:54:49Z",
+      "target_commitish": "main",
+      "commit_sha": "98dff2a81d747d1dba01a47f939f48c3526d4206",
+      "assets": [
+        "vllm-0.29.0+cpu-cp312-cp312-macosx_11_0_arm64.whl",
+        "vllm-0.29.0+cpu-cp38-abi3-manylinux_2_34_aarch64.whl",
+        "vllm-0.29.0+cpu-cp38-abi3-manylinux_2_34_x86_64.whl",
+        "vllm-0.29.0+cu129-cp38-abi3-manylinux_2_28_aarch64.whl",
+        "vllm-0.29.0+cu129-cp38-abi3-manylinux_2_28_x86_64.whl",
+        "vllm-0.29.0+xpu-cp38-abi3-manylinux_2_34_x86_64.whl",
+        "vllm-0.29.0-cp38-abi3-manylinux_2_28_aarch64.whl",
+        "vllm-0.29.0-cp38-abi3-manylinux_2_28_x86_64.whl",
+        "vllm-0.29.0.tar.gz"
+      ],
+      "workflow_runs": [
+        {
+          "id": 34299616791,
+          "name": "Buf",
+          "path": ".github/workflows/buf.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/vllm-project/vllm/actions/runs/34299616791",
+          "head_sha": "98dff2a81d747d1dba01a47f939f48c3526d4206"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v0.32.0rc3",
+      "sha": "82eb574d959031c670ecbc9930ed7b756a119bfe"
+    },
+    {
+      "name": "v0.32.0rc2",
+      "sha": "7960eeb9de293137b7fca35cd4ae92c4c50ea286"
+    },
+    {
+      "name": "v0.32.0rc1",
+      "sha": "fc1411646e3bc0f0c5d7bfec36d6e1a48ef0a46a"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:03.819382+00:00",
+  "source_times": {
+    "/repos/vllm-project/vllm": "2026-10-17T16:10:00.293941+00:00",
+    "/repos/vllm-project/vllm/commits?sha=main&per_page=20": "2026-10-17T16:10:02.294962+00:00",
+    "/repos/vllm-project/vllm/git/trees/c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c": "2026-10-17T16:10:03.647694+00:00",
+    "/repos/vllm-project/vllm/git/trees/2c13623fb243011dd97b7c2369883bb998fe5aa1": "2026-10-17T16:10:07.489876+00:00",
+    "/repos/vllm-project/vllm/git/trees/7d32ee2757ba11fc68ea36a6dac877a67640cf17": "2026-10-17T16:10:08.834450+00:00",
+    "/repos/vllm-project/vllm/git/trees/3dcfdce86bdcd73220dc69c70d7d86e60e2cc5cc": "2026-10-17T16:10:10.261499+00:00",
+    "/repos/vllm-project/vllm/git/trees/e7ec99edf594152c7a5d6c494a2c670b0c383069": "2026-10-17T16:10:11.649803+00:00",
+    "/repos/vllm-project/vllm/git/blobs/a31d156b4b632b106505108478e1637c3dd77435": "2026-10-17T16:10:13.191681+00:00",
+    "/repos/vllm-project/vllm/git/blobs/ff92fface4421933f1056f53d736c0840eac4728": "2026-10-17T16:10:14.548591+00:00",
+    "/repos/vllm-project/vllm/git/blobs/0a40ce93728989bc0576b105616f54dc4fcc1427": "2026-10-17T16:10:15.978177+00:00",
+    "/repos/vllm-project/vllm/git/blobs/3f09b75e9f6d653e4e76639bff86a9b647a0e4d2": "2026-10-17T16:10:17.388219+00:00",
+    "/repos/vllm-project/vllm/git/blobs/eecc7b51186da38cb8e210a15f03e2d52c543953": "2026-10-17T16:10:18.975000+00:00",
+    "/repos/vllm-project/vllm/git/blobs/5268ff135c9d0d5b064dbe30aaa577e49071e33b": "2026-10-17T16:10:21.399705+00:00",
+    "/repos/vllm-project/vllm/git/blobs/2947aad75ee5613b4bdf8019b581620b8073149c": "2026-10-17T16:10:22.889046+00:00",
+    "/repos/vllm-project/vllm/git/blobs/74d397b231acdc23dd929637b1fa68f7d4ecd25b": "2026-10-17T16:10:24.282880+00:00",
+    "/repos/vllm-project/vllm/git/blobs/34da4019687b227b819312f896c632b6c2d0d7a3": "2026-10-17T16:10:25.619034+00:00",
+    "/repos/vllm-project/vllm/git/blobs/c9e4be0e7719febacbe0f4b328351b18b289c52a": "2026-10-17T16:10:26.955061+00:00",
+    "/repos/vllm-project/vllm/git/blobs/8c5c28cd77cff594196100f00b22e3c0220dbc09": "2026-10-17T16:10:28.297648+00:00",
+    "/repos/vllm-project/vllm/git/blobs/7af0e0673a2f3023307d6405ddae7cf8d0c152cb": "2026-10-17T16:10:29.645761+00:00",
+    "/repos/vllm-project/vllm/git/blobs/097d88f50930d64e765c6fa92d3d2094c69426e8": "2026-10-17T16:10:31.021866+00:00",
+    "/repos/vllm-project/vllm/git/blobs/3d31c11550167211cbd6a21b82f262cdb5f8129f": "2026-10-17T16:10:32.388106+00:00",
+    "/repos/vllm-project/vllm/git/blobs/c0e009855964a35e5655c9b7535117402f24a8e3": "2026-10-17T16:10:33.766810+00:00",
+    "/repos/vllm-project/vllm/git/blobs/fa40268d677279166477c072c4d950e800e2d100": "2026-10-17T16:10:35.176321+00:00",
+    "/repos/vllm-project/vllm/git/blobs/3f3c00d981f6873da4a6b65a429aacbe9d431774": "2026-10-17T16:10:36.628081+00:00",
+    "/repos/vllm-project/vllm/git/blobs/944929fc55e5873ab23acf88805140d46241c27a": "2026-10-17T16:10:38.962271+00:00",
+    "/repos/vllm-project/vllm/git/blobs/2bdc3e1a3e4c1888dd3e88cccb8354a32e9e3de4": "2026-10-17T16:10:40.375351+00:00",
+    "/repos/vllm-project/vllm/git/blobs/2e63c5676dd820a8863d3d248b217f2512ec5aee": "2026-10-17T16:10:42.446187+00:00",
+    "/repos/vllm-project/vllm/git/blobs/c260cc67dba0c4e6b0b7ecfb1e16080f5798b892": "2026-10-17T16:10:43.817170+00:00",
+    "/repos/vllm-project/vllm/git/blobs/4eb80f80221f69d76ddc7803ee5b637914a76ce8": "2026-10-17T16:10:45.207020+00:00",
+    "/repos/vllm-project/vllm/git/blobs/72fc7b61b083ac2b405ba69bcf3874b30921882b": "2026-10-17T16:10:46.580367+00:00",
+    "/repos/vllm-project/vllm/git/blobs/d3336772717f2b27c328c22f925297f676094a2a": "2026-10-17T16:10:48.961488+00:00",
+    "/repos/vllm-project/vllm/git/blobs/9b392f11d3a1c02dd1905532dec174ae460fd91d": "2026-10-17T16:10:50.320043+00:00",
+    "/repos/vllm-project/vllm/git/blobs/dd695d28d5293eca12de0fa2f33b939688d54b08": "2026-10-17T16:10:51.721244+00:00",
+    "/repos/vllm-project/vllm/git/blobs/1852bd73b681ae60a5fbe2080a576d2f8a0268da": "2026-10-17T16:10:53.456186+00:00",
+    "/repos/vllm-project/vllm/git/blobs/7ff4c0990db0528a5017ebe8002d84c6dfac415f": "2026-10-17T16:10:54.844461+00:00",
+    "/repos/vllm-project/vllm/git/blobs/edabaffef45399735270f9e68ae44dab5a55083e": "2026-10-17T16:10:56.181403+00:00",
+    "/repos/vllm-project/vllm/git/blobs/861d4a5e498b9459b10fc2f75453f5c605d3ca8b": "2026-10-17T16:10:57.683474+00:00",
+    "/repos/vllm-project/vllm/git/blobs/43be5c8c92142ea9c618dd228122aa5283e29068": "2026-10-17T16:10:59.102444+00:00",
+    "/repos/vllm-project/vllm/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:11:04.178584+00:00",
+    "/repos/vllm-project/vllm/pulls/61933/files?per_page=100": "2026-10-17T16:11:05.644137+00:00",
+    "/repos/vllm-project/vllm/pulls/61933/reviews?per_page=100": "2026-10-17T16:11:08.037991+00:00",
+    "/repos/vllm-project/vllm/actions/runs?head_sha=e744eacf682f2b1c7f91d2dcf348a015046e56b9&per_page=10": "2026-10-17T16:11:10.433212+00:00",
+    "/repos/vllm-project/vllm/actions/runs?head_sha=761be1d051339dde6b5f70cc5a69a61fe8a20556&per_page=10": "2026-10-17T16:11:13.265344+00:00",
+    "/repos/vllm-project/vllm/pulls/61692/files?per_page=100": "2026-10-17T16:11:14.930389+00:00",
+    "/repos/vllm-project/vllm/pulls/61692/reviews?per_page=100": "2026-10-17T16:11:16.394987+00:00",
+    "/repos/vllm-project/vllm/actions/runs?head_sha=c0b6f74bee518aeaf5d72b200a0216e72fbb5e7c&per_page=10": "2026-10-17T16:11:20.195986+00:00",
+    "/repos/vllm-project/vllm/actions/runs?head_sha=f0733ec84d0076bb40e857816d8231371e5d3f4b&per_page=10": "2026-10-17T16:11:22.095394+00:00",
+    "/repos/vllm-project/vllm/pulls/51318/files?per_page=100": "2026-10-17T16:11:23.617183+00:00",
+    "/repos/vllm-project/vllm/pulls/51318/reviews?per_page=100": "2026-10-17T16:11:25.504282+00:00",
+    "/repos/vllm-project/vllm/actions/runs?head_sha=edd4c8176cfd98ece8a29beda574378c42971967&per_page=10": "2026-10-17T16:11:27.818671+00:00",
+    "/repos/vllm-project/vllm/actions/runs?head_sha=a3324b17637021632f3fb1dd72a59a25324a3596&per_page=10": "2026-10-17T16:11:29.677322+00:00",
+    "/repos/vllm-project/vllm/releases?per_page=20&page=1": "2026-10-17T16:17:03.817349+00:00",
+    "/repos/vllm-project/vllm/commits/v0.31.0": "2026-10-17T16:11:37.684227+00:00",
+    "/repos/vllm-project/vllm/actions/runs?head_sha=db9527a46873454610df6dbedf79a36d6bf1a7f6&per_page=10": "2026-10-17T16:11:39.107390+00:00",
+    "/repos/vllm-project/vllm/commits/v0.30.0": "2026-10-17T16:11:40.484397+00:00",
+    "/repos/vllm-project/vllm/actions/runs?head_sha=ced6857afa0ea7b2e3f0846a62e1394e90f15607&per_page=10": "2026-10-17T16:11:42.912725+00:00",
+    "/repos/vllm-project/vllm/commits/v0.29.0": "2026-10-17T16:11:44.260792+00:00",
+    "/repos/vllm-project/vllm/actions/runs?head_sha=98dff2a81d747d1dba01a47f939f48c3526d4206&per_page=10": "2026-10-17T16:11:45.889211+00:00",
+    "/repos/vllm-project/vllm/tags?per_page=3": "2026-10-17T16:11:48.293681+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:03.817349+00:00",
+  "status": "collected"
+}

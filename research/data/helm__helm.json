@@ -1,0 +1,1872 @@
+{
+  "requested_repository": "helm/helm",
+  "category": "infrastructure",
+  "collected_at": "2026-10-17T16:15:26.970837+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "helm/helm",
+  "metadata": {
+    "html_url": "https://github.com/helm/helm",
+    "description": "The Kubernetes Package Manager",
+    "homepage": "https://helm.sh",
+    "language": "Go",
+    "stargazers_count": 30329,
+    "forks_count": 7834,
+    "open_issues_count": 481,
+    "pushed_at": "2026-10-16T13:25:25Z",
+    "created_at": "2015-10-06T01:07:32Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [
+      "chart",
+      "charts",
+      "cncf",
+      "helm",
+      "kubernetes"
+    ],
+    "owner": {
+      "login": "helm",
+      "type": "Organization",
+      "html_url": "https://github.com/helm"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "9b88efd62a6908fb11215f8e8b50c3c62a246df0",
+      "url": "https://github.com/helm/helm/commit/9b88efd62a6908fb11215f8e8b50c3c62a246df0",
+      "date": "2026-10-16T13:23:13Z",
+      "subject": "chore(deps): bump oras.land/oras-go/v2 from 2.6.2 to 2.6.3 (#32765)"
+    },
+    {
+      "sha": "1d4505ca6a28ebb5d97c1c35bbe71522f02744c0",
+      "url": "https://github.com/helm/helm/commit/1d4505ca6a28ebb5d97c1c35bbe71522f02744c0",
+      "date": "2026-10-15T09:40:03Z",
+      "subject": "chore(deps): bump the github-actions group across 1 directory with 6 updates (#32756)"
+    },
+    {
+      "sha": "fa27c967efc9776887949a73d94e9d7f308df5d2",
+      "url": "https://github.com/helm/helm/commit/fa27c967efc9776887949a73d94e9d7f308df5d2",
+      "date": "2026-10-14T22:48:08Z",
+      "subject": "Merge pull request #32695 from helm/dependabot/go_modules/main/k8s-io-24cde91f38"
+    },
+    {
+      "sha": "feb42d9184a7cfd5e2cc532a90a07ce090e3ba14",
+      "url": "https://github.com/helm/helm/commit/feb42d9184a7cfd5e2cc532a90a07ce090e3ba14",
+      "date": "2026-10-14T14:10:46Z",
+      "subject": "chore(deps): bump the k8s-io group across 1 directory with 7 updates"
+    },
+    {
+      "sha": "7a061f4f29aeedc09d5bfd7be46b468fdb15b73d",
+      "url": "https://github.com/helm/helm/commit/7a061f4f29aeedc09d5bfd7be46b468fdb15b73d",
+      "date": "2026-10-14T14:07:49Z",
+      "subject": "fix: bump golang.org/x/net to v0.61.0 (#32758)"
+    },
+    {
+      "sha": "bb729193a5d43f81b2dda6b00edb4a93cdd1126d",
+      "url": "https://github.com/helm/helm/commit/bb729193a5d43f81b2dda6b00edb4a93cdd1126d",
+      "date": "2026-10-14T13:26:27Z",
+      "subject": "fix(linters): update golangci-lint to v2.14.0 (#32744)"
+    },
+    {
+      "sha": "dc56a44fee5ac036807348bc48653bc93d714953",
+      "url": "https://github.com/helm/helm/commit/dc56a44fee5ac036807348bc48653bc93d714953",
+      "date": "2026-10-06T14:35:14Z",
+      "subject": "fix(action): wait for CRD establishment under HookOnlyStrategy (#32672)"
+    },
+    {
+      "sha": "e050840dc4384202f46ff6e42a98752432e4a399",
+      "url": "https://github.com/helm/helm/commit/e050840dc4384202f46ff6e42a98752432e4a399",
+      "date": "2026-10-05T22:50:52Z",
+      "subject": "chore(deps): bump github.com/foxcpp/go-mockdns from 1.2.0 to 1.3.0 (#32728)"
+    },
+    {
+      "sha": "0fb912d2ad8166f0b842296f673a2638455aed3c",
+      "url": "https://github.com/helm/helm/commit/0fb912d2ad8166f0b842296f673a2638455aed3c",
+      "date": "2026-10-05T22:41:48Z",
+      "subject": "chore(deps): bump github.com/mattn/go-shellwords from 1.0.15 to 1.0.16 (#32727)"
+    },
+    {
+      "sha": "f39000c6b1b2a722d49c158caf83207b30767537",
+      "url": "https://github.com/helm/helm/commit/f39000c6b1b2a722d49c158caf83207b30767537",
+      "date": "2026-10-05T22:34:56Z",
+      "subject": "chore(deps): bump sigs.k8s.io/controller-runtime from 0.25.1 to 0.25.2 (#32726)"
+    },
+    {
+      "sha": "16e3dc94a451ec3d6409b2716d16c70f14715c4b",
+      "url": "https://github.com/helm/helm/commit/16e3dc94a451ec3d6409b2716d16c70f14715c4b",
+      "date": "2026-10-05T11:36:11Z",
+      "subject": "chore(deps): bump sigs.k8s.io/kustomize/kyaml from 0.21.1 to 0.21.2 (#32715)"
+    },
+    {
+      "sha": "53dfa521e019f7b832497066032406b9cda9d5d4",
+      "url": "https://github.com/helm/helm/commit/53dfa521e019f7b832497066032406b9cda9d5d4",
+      "date": "2026-09-30T22:25:48Z",
+      "subject": "Merge pull request #32685 from aadieng100/fix-registry-login-redundant-key-normalization"
+    },
+    {
+      "sha": "2b128dcd27c9090592df5d7a2bef592e5b7a9abc",
+      "url": "https://github.com/helm/helm/commit/2b128dcd27c9090592df5d7a2bef592e5b7a9abc",
+      "date": "2026-09-30T15:28:44Z",
+      "subject": "docs: add LibreDB to ADOPTERS.md (#32704)"
+    },
+    {
+      "sha": "8a9993eff0c8174819fc8e962fb5a853bafc2dba",
+      "url": "https://github.com/helm/helm/commit/8a9993eff0c8174819fc8e962fb5a853bafc2dba",
+      "date": "2026-09-29T13:09:30Z",
+      "subject": "chore(deps): bump the github-actions group across 1 directory with 4 updates (#32701)"
+    },
+    {
+      "sha": "88baf07aae73f6dbe86933439bac0bfb0d453448",
+      "url": "https://github.com/helm/helm/commit/88baf07aae73f6dbe86933439bac0bfb0d453448",
+      "date": "2026-09-29T12:57:42Z",
+      "subject": "chore(deps): bump github.com/ProtonMail/go-crypto from 1.5.0 to 1.5.2 (#32699)"
+    },
+    {
+      "sha": "2de5afa0bc1104ca27a52aa274d616c0a8e96320",
+      "url": "https://github.com/helm/helm/commit/2de5afa0bc1104ca27a52aa274d616c0a8e96320",
+      "date": "2026-09-29T12:51:11Z",
+      "subject": "chore(deps): bump github.com/distribution/distribution/v3 (#32698)"
+    },
+    {
+      "sha": "8107b7604268a1753776c111457255cface0db83",
+      "url": "https://github.com/helm/helm/commit/8107b7604268a1753776c111457255cface0db83",
+      "date": "2026-09-28T14:35:09Z",
+      "subject": "chore(deps): bump github.com/ProtonMail/go-crypto from 1.4.1 to 1.5.0 (#32690)"
+    },
+    {
+      "sha": "b9c733f4d49c4576c624ee30869322cdd30d7136",
+      "url": "https://github.com/helm/helm/commit/b9c733f4d49c4576c624ee30869322cdd30d7136",
+      "date": "2026-09-24T15:42:24Z",
+      "subject": "fix(registry): remove redundant ServerAddressFromHostname in Login (#32681)"
+    },
+    {
+      "sha": "d31cd6992fc7858922de6ebe5984a06fd6aa0b80",
+      "url": "https://github.com/helm/helm/commit/d31cd6992fc7858922de6ebe5984a06fd6aa0b80",
+      "date": "2026-09-22T11:57:15Z",
+      "subject": "chore(deps): bump the github-actions group with 4 updates (#32677)"
+    },
+    {
+      "sha": "e9f1921aa53369bd18d87ff39c56a345c767970a",
+      "url": "https://github.com/helm/helm/commit/e9f1921aa53369bd18d87ff39c56a345c767970a",
+      "date": "2026-09-21T13:00:11Z",
+      "subject": "Merge pull request #32661 from helm/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploggrpc-0.21.0"
+    }
+  ],
+  "default_sha": "9b88efd62a6908fb11215f8e8b50c3c62a246df0",
+  "root_and_selected_directory_paths": [
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug-report.yaml",
+    ".github/ISSUE_TEMPLATE/documentation.yaml",
+    ".github/ISSUE_TEMPLATE/feature.yaml",
+    ".github/dependabot.yml",
+    ".github/env",
+    ".github/labeler.yml",
+    ".github/pull_request_template.md",
+    ".github/workflows",
+    ".github/workflows/build-test.yml",
+    ".github/workflows/codeql-analysis.yml",
+    ".github/workflows/golangci-lint.yml",
+    ".github/workflows/govulncheck.yml",
+    ".github/workflows/label-pr.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/scorecards.yml",
+    ".github/workflows/stale.yaml",
+    ".gitignore",
+    ".golangci.yml",
+    ".goreleaser.yaml",
+    "ADOPTERS.md",
+    "AGENTS.md",
+    "CONTRIBUTING.md",
+    "KEYS",
+    "LICENSE",
+    "Makefile",
+    "OWNERS",
+    "README.md",
+    "SECURITY.md",
+    "cmd",
+    "code-of-conduct.md",
+    "go.mod",
+    "go.sum",
+    "internal",
+    "pkg",
+    "scripts",
+    "testdata"
+  ],
+  "workflow_paths": [
+    ".github/workflows/build-test.yml",
+    ".github/workflows/golangci-lint.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/codeql-analysis.yml",
+    ".github/workflows/govulncheck.yml",
+    ".github/workflows/label-pr.yml",
+    ".github/workflows/scorecards.yml",
+    ".github/workflows/stale.yaml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "a2e192f743992791de6a0d40ee7ef4814411bcc8",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/AGENTS.md",
+      "lines": 88,
+      "signals": {
+        "tests": [
+          20
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "0d7bc4f4bde018425b9ac27cc277df809ea96fb3",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/CONTRIBUTING.md",
+      "lines": 367,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          362,
+          363,
+          364,
+          365,
+          366,
+          367
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          185,
+          331
+        ],
+        "story": [
+          117,
+          119,
+          122,
+          127,
+          129,
+          130,
+          170,
+          190,
+          191,
+          254
+        ]
+      }
+    },
+    {
+      "path": "Makefile",
+      "sha": "5a9c792bbf3474cd45bab493a5a99b68b5d94862",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/Makefile",
+      "lines": 241,
+      "signals": {
+        "tests": [
+          96,
+          104,
+          105
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          11,
+          163,
+          164,
+          174,
+          175
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "OWNERS",
+      "sha": "13827661a04713e50c4a6e453249af6248a78ed9",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/OWNERS",
+      "lines": 32,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "d581ceac30626558133fec988223f110126b5516",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/README.md",
+      "lines": 87,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          3,
+          5
+        ],
+        "media": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          63,
+          65
+        ],
+        "story": [
+          65
+        ]
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "c84a6f86631d5a21527e612113a94c5e4d752613",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/SECURITY.md",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          3
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "code-of-conduct.md",
+      "sha": "91ccaf0353393dbd3407d9bb6f6eaa45f38bd95d",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/code-of-conduct.md",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "go.mod",
+      "sha": "922342be8eaf497c5b33f24157abe11de67b2732",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/go.mod",
+      "lines": 188,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yaml",
+      "sha": "1637d26a5cfb5808047323623be768137e555c15",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/.github/ISSUE_TEMPLATE/bug-report.yaml",
+      "lines": 70,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/documentation.yaml",
+      "sha": "bb1b7537cdc21871ad58172b929ffc875a76599f",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/.github/ISSUE_TEMPLATE/documentation.yaml",
+      "lines": 27,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature.yaml",
+      "sha": "45b9c3f94c30e042a17de8cefd8abee0f73216ac",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/.github/ISSUE_TEMPLATE/feature.yaml",
+      "lines": 21,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "1b1de9e5562085aac40ec075bf2a0fb5fb88995f",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/.github/dependabot.yml",
+      "lines": 53,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha": "0fe5f110611a25579cf63b4dd7f7e111754162a3",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/.github/pull_request_template.md",
+      "lines": 12,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build-test.yml",
+      "sha": "9503674edb5f203fce4814f4d72b7c306a3342cf",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/.github/workflows/build-test.yml",
+      "lines": 36,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13
+        ],
+        "pinned_actions": [
+          21,
+          25
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "sha": "955f12002da927e023e52b6cac6cb261ae11d953",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/.github/workflows/golangci-lint.yml",
+      "lines": 27,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [
+          16,
+          20,
+          25
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha": "2b2f93f4d2459b48c07811c9706ef3d056c4bd6e",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/.github/workflows/release.yml",
+      "lines": 117,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10
+        ],
+        "pinned_actions": [
+          23,
+          31,
+          62,
+          73,
+          88,
+          96,
+          110
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "sha": "d5a9c03eed8a2ac911e53e1408483087fca46ad9",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/.github/workflows/codeql-analysis.yml",
+      "lines": 76,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          27,
+          33
+        ],
+        "pinned_actions": [
+          47,
+          51,
+          62,
+          76
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/govulncheck.yml",
+      "sha": "0fae0be3a20beb80b56ad892b326ca3625f9a9bc",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/.github/workflows/govulncheck.yml",
+      "lines": 35,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          14
+        ],
+        "pinned_actions": [
+          22,
+          28,
+          33
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/label-pr.yml",
+      "sha": "11f0f5d005c0d037ac36afb414be046db6518e82",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/.github/workflows/label-pr.yml",
+      "lines": 16,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          6,
+          9
+        ],
+        "pinned_actions": [
+          14
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/scorecards.yml",
+      "sha": "b9deedc3750f21d02813450c8d40d86356a3593b",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/.github/workflows/scorecards.yml",
+      "lines": 69,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          14,
+          20,
+          24
+        ],
+        "pinned_actions": [
+          31,
+          36,
+          58,
+          67
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "sha": "e95a4b8c31e6e31e99f42a97c8b19cd31617f245",
+      "status": "inspected",
+      "url": "https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/.github/workflows/stale.yaml",
+      "lines": 23,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          6,
+          11
+        ],
+        "pinned_actions": [
+          15
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 32765,
+      "title": "chore(deps): bump oras.land/oras-go/v2 from 2.6.2 to 2.6.3",
+      "url": "https://github.com/helm/helm/pull/32765",
+      "merged_at": "2026-10-16T13:23:14Z",
+      "merge_commit_sha": "9b88efd62a6908fb11215f8e8b50c3c62a246df0",
+      "files": [
+        "go.mod",
+        "go.sum"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "go.mod",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/helm/helm/blob/aefd4333dd5ea8f36314132904fa678486a51195/go.mod"
+        },
+        {
+          "filename": "go.sum",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/helm/helm/blob/aefd4333dd5ea8f36314132904fa678486a51195/go.sum"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39048552093,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/helm/helm/actions/runs/39048552093",
+          "head_sha": "9b88efd62a6908fb11215f8e8b50c3c62a246df0"
+        },
+        {
+          "id": 39011097264,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/39011097264",
+          "head_sha": "9b88efd62a6908fb11215f8e8b50c3c62a246df0"
+        },
+        {
+          "id": 38986685508,
+          "name": "Close stale issues",
+          "path": ".github/workflows/stale.yaml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38986685508",
+          "head_sha": "9b88efd62a6908fb11215f8e8b50c3c62a246df0"
+        },
+        {
+          "id": 38985079455,
+          "name": "govulncheck",
+          "path": ".github/workflows/govulncheck.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38985079455",
+          "head_sha": "9b88efd62a6908fb11215f8e8b50c3c62a246df0"
+        },
+        {
+          "id": 38970696472,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38970696472",
+          "head_sha": "9b88efd62a6908fb11215f8e8b50c3c62a246df0"
+        },
+        {
+          "id": 38970040372,
+          "name": "go_modules in /. - Update #1632221744",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38970040372",
+          "head_sha": "9b88efd62a6908fb11215f8e8b50c3c62a246df0"
+        },
+        {
+          "id": 38970013891,
+          "name": "github_actions in /. - Update #1632220986",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38970013891",
+          "head_sha": "9b88efd62a6908fb11215f8e8b50c3c62a246df0"
+        },
+        {
+          "id": 38969242468,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38969242468",
+          "head_sha": "9b88efd62a6908fb11215f8e8b50c3c62a246df0"
+        },
+        {
+          "id": 38968702057,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38968702057",
+          "head_sha": "9b88efd62a6908fb11215f8e8b50c3c62a246df0"
+        },
+        {
+          "id": 38965912901,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38965912901",
+          "head_sha": "9b88efd62a6908fb11215f8e8b50c3c62a246df0"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38810732266,
+          "name": "golangci-lint",
+          "path": ".github/workflows/golangci-lint.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38810732266",
+          "head_sha": "aefd4333dd5ea8f36314132904fa678486a51195"
+        },
+        {
+          "id": 38810732457,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38810732457",
+          "head_sha": "aefd4333dd5ea8f36314132904fa678486a51195"
+        },
+        {
+          "id": 38810732320,
+          "name": "govulncheck",
+          "path": ".github/workflows/govulncheck.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38810732320",
+          "head_sha": "aefd4333dd5ea8f36314132904fa678486a51195"
+        },
+        {
+          "id": 38810732431,
+          "name": "build-test",
+          "path": ".github/workflows/build-test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38810732431",
+          "head_sha": "aefd4333dd5ea8f36314132904fa678486a51195"
+        },
+        {
+          "id": 38810727445,
+          "name": "Label PRs",
+          "path": ".github/workflows/label-pr.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38810727445",
+          "head_sha": "aefd4333dd5ea8f36314132904fa678486a51195"
+        },
+        {
+          "id": 38810720367,
+          "name": "golangci-lint",
+          "path": ".github/workflows/golangci-lint.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38810720367",
+          "head_sha": "aefd4333dd5ea8f36314132904fa678486a51195"
+        },
+        {
+          "id": 38810721289,
+          "name": "release",
+          "path": ".github/workflows/release.yml",
+          "event": "create",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/helm/helm/actions/runs/38810721289",
+          "head_sha": "aefd4333dd5ea8f36314132904fa678486a51195"
+        },
+        {
+          "id": 38810720474,
+          "name": "govulncheck",
+          "path": ".github/workflows/govulncheck.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38810720474",
+          "head_sha": "aefd4333dd5ea8f36314132904fa678486a51195"
+        }
+      ]
+    },
+    {
+      "number": 32695,
+      "title": "chore(deps): bump the k8s-io group across 1 directory with 7 updates",
+      "url": "https://github.com/helm/helm/pull/32695",
+      "merged_at": "2026-10-14T22:48:08Z",
+      "merge_commit_sha": "fa27c967efc9776887949a73d94e9d7f308df5d2",
+      "files": [
+        "go.mod",
+        "go.sum"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "go.mod",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 8,
+          "blob_url": "https://github.com/helm/helm/blob/feb42d9184a7cfd5e2cc532a90a07ce090e3ba14/go.mod"
+        },
+        {
+          "filename": "go.sum",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 16,
+          "blob_url": "https://github.com/helm/helm/blob/feb42d9184a7cfd5e2cc532a90a07ce090e3ba14/go.sum"
+        }
+      ],
+      "review_states": [
+        "DISMISSED",
+        "APPROVED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38670938092,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38670938092",
+          "head_sha": "fa27c967efc9776887949a73d94e9d7f308df5d2"
+        },
+        {
+          "id": 38668531313,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38668531313",
+          "head_sha": "fa27c967efc9776887949a73d94e9d7f308df5d2"
+        },
+        {
+          "id": 38660393431,
+          "name": "Close stale issues",
+          "path": ".github/workflows/stale.yaml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38660393431",
+          "head_sha": "fa27c967efc9776887949a73d94e9d7f308df5d2"
+        },
+        {
+          "id": 38658443350,
+          "name": "govulncheck",
+          "path": ".github/workflows/govulncheck.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38658443350",
+          "head_sha": "fa27c967efc9776887949a73d94e9d7f308df5d2"
+        },
+        {
+          "id": 38650225791,
+          "name": "go_modules in / for sigs.k8s.io/kustomize/kyaml - Update #1628383197",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38650225791",
+          "head_sha": "fa27c967efc9776887949a73d94e9d7f308df5d2"
+        },
+        {
+          "id": 38650095010,
+          "name": "Graph Update: go_modules in /. #1628382505",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38650095010",
+          "head_sha": "fa27c967efc9776887949a73d94e9d7f308df5d2"
+        },
+        {
+          "id": 38650086584,
+          "name": "govulncheck",
+          "path": ".github/workflows/govulncheck.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38650086584",
+          "head_sha": "fa27c967efc9776887949a73d94e9d7f308df5d2"
+        },
+        {
+          "id": 38650086705,
+          "name": "Scorecard supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38650086705",
+          "head_sha": "fa27c967efc9776887949a73d94e9d7f308df5d2"
+        },
+        {
+          "id": 38650086684,
+          "name": "build-test",
+          "path": ".github/workflows/build-test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38650086684",
+          "head_sha": "fa27c967efc9776887949a73d94e9d7f308df5d2"
+        },
+        {
+          "id": 38650086593,
+          "name": "release",
+          "path": ".github/workflows/release.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38650086593",
+          "head_sha": "fa27c967efc9776887949a73d94e9d7f308df5d2"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38641178285,
+          "name": "Label PRs",
+          "path": ".github/workflows/label-pr.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38641178285",
+          "head_sha": "feb42d9184a7cfd5e2cc532a90a07ce090e3ba14"
+        },
+        {
+          "id": 38641028205,
+          "name": "Label PRs",
+          "path": ".github/workflows/label-pr.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38641028205",
+          "head_sha": "feb42d9184a7cfd5e2cc532a90a07ce090e3ba14"
+        },
+        {
+          "id": 38578216725,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38578216725",
+          "head_sha": "feb42d9184a7cfd5e2cc532a90a07ce090e3ba14"
+        },
+        {
+          "id": 38578216591,
+          "name": "golangci-lint",
+          "path": ".github/workflows/golangci-lint.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38578216591",
+          "head_sha": "feb42d9184a7cfd5e2cc532a90a07ce090e3ba14"
+        },
+        {
+          "id": 38578216417,
+          "name": "build-test",
+          "path": ".github/workflows/build-test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38578216417",
+          "head_sha": "feb42d9184a7cfd5e2cc532a90a07ce090e3ba14"
+        },
+        {
+          "id": 38578216124,
+          "name": "Label PRs",
+          "path": ".github/workflows/label-pr.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38578216124",
+          "head_sha": "feb42d9184a7cfd5e2cc532a90a07ce090e3ba14"
+        },
+        {
+          "id": 38578216574,
+          "name": "govulncheck",
+          "path": ".github/workflows/govulncheck.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38578216574",
+          "head_sha": "feb42d9184a7cfd5e2cc532a90a07ce090e3ba14"
+        },
+        {
+          "id": 38578213868,
+          "name": "Label PRs",
+          "path": ".github/workflows/label-pr.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38578213868",
+          "head_sha": "feb42d9184a7cfd5e2cc532a90a07ce090e3ba14"
+        },
+        {
+          "id": 38578206533,
+          "name": "govulncheck",
+          "path": ".github/workflows/govulncheck.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38578206533",
+          "head_sha": "feb42d9184a7cfd5e2cc532a90a07ce090e3ba14"
+        },
+        {
+          "id": 38578206900,
+          "name": "golangci-lint",
+          "path": ".github/workflows/golangci-lint.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38578206900",
+          "head_sha": "feb42d9184a7cfd5e2cc532a90a07ce090e3ba14"
+        }
+      ]
+    },
+    {
+      "number": 32756,
+      "title": "chore(deps): bump the github-actions group across 1 directory with 6 updates",
+      "url": "https://github.com/helm/helm/pull/32756",
+      "merged_at": "2026-10-15T09:40:04Z",
+      "merge_commit_sha": "1d4505ca6a28ebb5d97c1c35bbe71522f02744c0",
+      "files": [
+        ".github/workflows/codeql-analysis.yml",
+        ".github/workflows/scorecards.yml"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".github/workflows/codeql-analysis.yml",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/helm/helm/blob/7acff468fc805fbcfd1376126dce655bdc31a5e7/.github%2Fworkflows%2Fcodeql-analysis.yml"
+        },
+        {
+          "filename": ".github/workflows/scorecards.yml",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/helm/helm/blob/7acff468fc805fbcfd1376126dce655bdc31a5e7/.github%2Fworkflows%2Fscorecards.yml"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38829804149,
+          "name": "Close stale issues",
+          "path": ".github/workflows/stale.yaml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38829804149",
+          "head_sha": "1d4505ca6a28ebb5d97c1c35bbe71522f02744c0"
+        },
+        {
+          "id": 38827890385,
+          "name": "govulncheck",
+          "path": ".github/workflows/govulncheck.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38827890385",
+          "head_sha": "1d4505ca6a28ebb5d97c1c35bbe71522f02744c0"
+        },
+        {
+          "id": 38810619666,
+          "name": "go_modules in /. - Update #1630209725",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38810619666",
+          "head_sha": "1d4505ca6a28ebb5d97c1c35bbe71522f02744c0"
+        },
+        {
+          "id": 38810591474,
+          "name": "github_actions in /. - Update #1630209001",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38810591474",
+          "head_sha": "1d4505ca6a28ebb5d97c1c35bbe71522f02744c0"
+        },
+        {
+          "id": 38714625840,
+          "name": "Scorecard supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38714625840",
+          "head_sha": "1d4505ca6a28ebb5d97c1c35bbe71522f02744c0"
+        },
+        {
+          "id": 38714625734,
+          "name": "golangci-lint",
+          "path": ".github/workflows/golangci-lint.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38714625734",
+          "head_sha": "1d4505ca6a28ebb5d97c1c35bbe71522f02744c0"
+        },
+        {
+          "id": 38714625884,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38714625884",
+          "head_sha": "1d4505ca6a28ebb5d97c1c35bbe71522f02744c0"
+        },
+        {
+          "id": 38714625759,
+          "name": "build-test",
+          "path": ".github/workflows/build-test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38714625759",
+          "head_sha": "1d4505ca6a28ebb5d97c1c35bbe71522f02744c0"
+        },
+        {
+          "id": 38714625810,
+          "name": "release",
+          "path": ".github/workflows/release.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38714625810",
+          "head_sha": "1d4505ca6a28ebb5d97c1c35bbe71522f02744c0"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38641784748,
+          "name": "build-test",
+          "path": ".github/workflows/build-test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38641784748",
+          "head_sha": "7acff468fc805fbcfd1376126dce655bdc31a5e7"
+        },
+        {
+          "id": 38641784753,
+          "name": "golangci-lint",
+          "path": ".github/workflows/golangci-lint.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38641784753",
+          "head_sha": "7acff468fc805fbcfd1376126dce655bdc31a5e7"
+        },
+        {
+          "id": 38641786285,
+          "name": "Label PRs",
+          "path": ".github/workflows/label-pr.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38641786285",
+          "head_sha": "7acff468fc805fbcfd1376126dce655bdc31a5e7"
+        },
+        {
+          "id": 38641784694,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38641784694",
+          "head_sha": "7acff468fc805fbcfd1376126dce655bdc31a5e7"
+        },
+        {
+          "id": 38641781675,
+          "name": "Label PRs",
+          "path": ".github/workflows/label-pr.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38641781675",
+          "head_sha": "7acff468fc805fbcfd1376126dce655bdc31a5e7"
+        },
+        {
+          "id": 38641779336,
+          "name": "govulncheck",
+          "path": ".github/workflows/govulncheck.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38641779336",
+          "head_sha": "7acff468fc805fbcfd1376126dce655bdc31a5e7"
+        },
+        {
+          "id": 38641779353,
+          "name": "golangci-lint",
+          "path": ".github/workflows/golangci-lint.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38641779353",
+          "head_sha": "7acff468fc805fbcfd1376126dce655bdc31a5e7"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v4.3.1",
+      "url": "https://github.com/helm/helm/releases/tag/v4.3.1",
+      "published_at": "2026-10-15T01:08:37Z",
+      "target_commitish": "main",
+      "commit_sha": "c0d08d0d6d9424d4a14febb5e8a3e51b0dd00dff",
+      "assets": [
+        "helm-v4.3.1-darwin-amd64.tar.gz.asc",
+        "helm-v4.3.1-darwin-amd64.tar.gz.sha256.asc",
+        "helm-v4.3.1-darwin-amd64.tar.gz.sha256sum.asc",
+        "helm-v4.3.1-darwin-arm64.tar.gz.asc",
+        "helm-v4.3.1-darwin-arm64.tar.gz.sha256.asc",
+        "helm-v4.3.1-darwin-arm64.tar.gz.sha256sum.asc",
+        "helm-v4.3.1-linux-386.tar.gz.asc",
+        "helm-v4.3.1-linux-386.tar.gz.sha256.asc",
+        "helm-v4.3.1-linux-386.tar.gz.sha256sum.asc",
+        "helm-v4.3.1-linux-amd64.tar.gz.asc",
+        "helm-v4.3.1-linux-amd64.tar.gz.sha256.asc",
+        "helm-v4.3.1-linux-amd64.tar.gz.sha256sum.asc",
+        "helm-v4.3.1-linux-arm.tar.gz.asc",
+        "helm-v4.3.1-linux-arm.tar.gz.sha256.asc",
+        "helm-v4.3.1-linux-arm.tar.gz.sha256sum.asc",
+        "helm-v4.3.1-linux-arm64.tar.gz.asc",
+        "helm-v4.3.1-linux-arm64.tar.gz.sha256.asc",
+        "helm-v4.3.1-linux-arm64.tar.gz.sha256sum.asc",
+        "helm-v4.3.1-linux-loong64.tar.gz.asc",
+        "helm-v4.3.1-linux-loong64.tar.gz.sha256.asc",
+        "helm-v4.3.1-linux-loong64.tar.gz.sha256sum.asc",
+        "helm-v4.3.1-linux-ppc64le.tar.gz.asc",
+        "helm-v4.3.1-linux-ppc64le.tar.gz.sha256.asc",
+        "helm-v4.3.1-linux-ppc64le.tar.gz.sha256sum.asc",
+        "helm-v4.3.1-linux-riscv64.tar.gz.asc",
+        "helm-v4.3.1-linux-riscv64.tar.gz.sha256.asc",
+        "helm-v4.3.1-linux-riscv64.tar.gz.sha256sum.asc",
+        "helm-v4.3.1-linux-s390x.tar.gz.asc",
+        "helm-v4.3.1-linux-s390x.tar.gz.sha256.asc",
+        "helm-v4.3.1-linux-s390x.tar.gz.sha256sum.asc",
+        "helm-v4.3.1-windows-amd64.zip.asc",
+        "helm-v4.3.1-windows-amd64.zip.sha256.asc",
+        "helm-v4.3.1-windows-amd64.zip.sha256sum.asc",
+        "helm-v4.3.1-windows-arm64.zip.asc",
+        "helm-v4.3.1-windows-arm64.zip.sha256.asc",
+        "helm-v4.3.1-windows-arm64.zip.sha256sum.asc"
+      ],
+      "workflow_runs": [
+        {
+          "id": 38661358023,
+          "name": "release",
+          "path": ".github/workflows/release.yml",
+          "event": "create",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38661358023",
+          "head_sha": "c0d08d0d6d9424d4a14febb5e8a3e51b0dd00dff"
+        },
+        {
+          "id": 38661357722,
+          "name": "golangci-lint",
+          "path": ".github/workflows/golangci-lint.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38661357722",
+          "head_sha": "c0d08d0d6d9424d4a14febb5e8a3e51b0dd00dff"
+        },
+        {
+          "id": 38661357764,
+          "name": "govulncheck",
+          "path": ".github/workflows/govulncheck.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38661357764",
+          "head_sha": "c0d08d0d6d9424d4a14febb5e8a3e51b0dd00dff"
+        },
+        {
+          "id": 38659403953,
+          "name": "build-test",
+          "path": ".github/workflows/build-test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38659403953",
+          "head_sha": "c0d08d0d6d9424d4a14febb5e8a3e51b0dd00dff"
+        },
+        {
+          "id": 38659403962,
+          "name": "govulncheck",
+          "path": ".github/workflows/govulncheck.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38659403962",
+          "head_sha": "c0d08d0d6d9424d4a14febb5e8a3e51b0dd00dff"
+        },
+        {
+          "id": 38659403783,
+          "name": "golangci-lint",
+          "path": ".github/workflows/golangci-lint.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38659403783",
+          "head_sha": "c0d08d0d6d9424d4a14febb5e8a3e51b0dd00dff"
+        }
+      ]
+    },
+    {
+      "tag": "v3.22.1",
+      "url": "https://github.com/helm/helm/releases/tag/v3.22.1",
+      "published_at": "2026-10-15T17:02:01Z",
+      "target_commitish": "main",
+      "commit_sha": "d6c1a0e4027caa6abc7892e7ea9f0cda7447baa3",
+      "assets": [
+        "helm-v3.22.1-darwin-amd64.tar.gz.asc",
+        "helm-v3.22.1-darwin-amd64.tar.gz.sha256.asc",
+        "helm-v3.22.1-darwin-amd64.tar.gz.sha256sum.asc",
+        "helm-v3.22.1-darwin-arm64.tar.gz.asc",
+        "helm-v3.22.1-darwin-arm64.tar.gz.sha256.asc",
+        "helm-v3.22.1-darwin-arm64.tar.gz.sha256sum.asc",
+        "helm-v3.22.1-linux-386.tar.gz.asc",
+        "helm-v3.22.1-linux-386.tar.gz.sha256.asc",
+        "helm-v3.22.1-linux-386.tar.gz.sha256sum.asc",
+        "helm-v3.22.1-linux-amd64.tar.gz.asc",
+        "helm-v3.22.1-linux-amd64.tar.gz.sha256.asc",
+        "helm-v3.22.1-linux-amd64.tar.gz.sha256sum.asc",
+        "helm-v3.22.1-linux-arm.tar.gz.asc",
+        "helm-v3.22.1-linux-arm.tar.gz.sha256.asc",
+        "helm-v3.22.1-linux-arm.tar.gz.sha256sum.asc",
+        "helm-v3.22.1-linux-arm64.tar.gz.asc",
+        "helm-v3.22.1-linux-arm64.tar.gz.sha256.asc",
+        "helm-v3.22.1-linux-arm64.tar.gz.sha256sum.asc",
+        "helm-v3.22.1-linux-ppc64le.tar.gz.asc",
+        "helm-v3.22.1-linux-ppc64le.tar.gz.sha256.asc",
+        "helm-v3.22.1-linux-ppc64le.tar.gz.sha256sum.asc",
+        "helm-v3.22.1-linux-riscv64.tar.gz.asc",
+        "helm-v3.22.1-linux-riscv64.tar.gz.sha256.asc",
+        "helm-v3.22.1-linux-riscv64.tar.gz.sha256sum.asc",
+        "helm-v3.22.1-linux-s390x.tar.gz.asc",
+        "helm-v3.22.1-linux-s390x.tar.gz.sha256.asc",
+        "helm-v3.22.1-linux-s390x.tar.gz.sha256sum.asc",
+        "helm-v3.22.1-windows-amd64.zip.asc",
+        "helm-v3.22.1-windows-amd64.zip.sha256.asc",
+        "helm-v3.22.1-windows-amd64.zip.sha256sum.asc",
+        "helm-v3.22.1-windows-arm64.zip.asc",
+        "helm-v3.22.1-windows-arm64.zip.sha256.asc",
+        "helm-v3.22.1-windows-arm64.zip.sha256sum.asc"
+      ],
+      "workflow_runs": [
+        {
+          "id": 38769646245,
+          "name": "govulncheck",
+          "path": ".github/workflows/govulncheck.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38769646245",
+          "head_sha": "d6c1a0e4027caa6abc7892e7ea9f0cda7447baa3"
+        },
+        {
+          "id": 38769646254,
+          "name": "golangci-lint",
+          "path": ".github/workflows/golangci-lint.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38769646254",
+          "head_sha": "d6c1a0e4027caa6abc7892e7ea9f0cda7447baa3"
+        },
+        {
+          "id": 38769645994,
+          "name": "release",
+          "path": ".github/workflows/release.yml",
+          "event": "create",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38769645994",
+          "head_sha": "d6c1a0e4027caa6abc7892e7ea9f0cda7447baa3"
+        },
+        {
+          "id": 38768604437,
+          "name": "govulncheck",
+          "path": ".github/workflows/govulncheck.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38768604437",
+          "head_sha": "d6c1a0e4027caa6abc7892e7ea9f0cda7447baa3"
+        },
+        {
+          "id": 38768604295,
+          "name": "golangci-lint",
+          "path": ".github/workflows/golangci-lint.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38768604295",
+          "head_sha": "d6c1a0e4027caa6abc7892e7ea9f0cda7447baa3"
+        },
+        {
+          "id": 38768604230,
+          "name": "build-test",
+          "path": ".github/workflows/build-test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/38768604230",
+          "head_sha": "d6c1a0e4027caa6abc7892e7ea9f0cda7447baa3"
+        }
+      ]
+    },
+    {
+      "tag": "v4.3.0",
+      "url": "https://github.com/helm/helm/releases/tag/v4.3.0",
+      "published_at": "2026-09-09T23:51:48Z",
+      "target_commitish": "main",
+      "commit_sha": "bec5b06ed841fe5269972d864d5177944fd5970f",
+      "assets": [
+        "helm-v4.3.0-darwin-amd64.tar.gz.asc",
+        "helm-v4.3.0-darwin-amd64.tar.gz.sha256.asc",
+        "helm-v4.3.0-darwin-amd64.tar.gz.sha256sum.asc",
+        "helm-v4.3.0-darwin-arm64.tar.gz.asc",
+        "helm-v4.3.0-darwin-arm64.tar.gz.sha256.asc",
+        "helm-v4.3.0-darwin-arm64.tar.gz.sha256sum.asc",
+        "helm-v4.3.0-linux-386.tar.gz.asc",
+        "helm-v4.3.0-linux-386.tar.gz.sha256.asc",
+        "helm-v4.3.0-linux-386.tar.gz.sha256sum.asc",
+        "helm-v4.3.0-linux-amd64.tar.gz.asc",
+        "helm-v4.3.0-linux-amd64.tar.gz.sha256.asc",
+        "helm-v4.3.0-linux-amd64.tar.gz.sha256sum.asc",
+        "helm-v4.3.0-linux-arm.tar.gz.asc",
+        "helm-v4.3.0-linux-arm.tar.gz.sha256.asc",
+        "helm-v4.3.0-linux-arm.tar.gz.sha256sum.asc",
+        "helm-v4.3.0-linux-arm64.tar.gz.asc",
+        "helm-v4.3.0-linux-arm64.tar.gz.sha256.asc",
+        "helm-v4.3.0-linux-arm64.tar.gz.sha256sum.asc",
+        "helm-v4.3.0-linux-loong64.tar.gz.asc",
+        "helm-v4.3.0-linux-loong64.tar.gz.sha256.asc",
+        "helm-v4.3.0-linux-loong64.tar.gz.sha256sum.asc",
+        "helm-v4.3.0-linux-ppc64le.tar.gz.asc",
+        "helm-v4.3.0-linux-ppc64le.tar.gz.sha256.asc",
+        "helm-v4.3.0-linux-ppc64le.tar.gz.sha256sum.asc",
+        "helm-v4.3.0-linux-riscv64.tar.gz.asc",
+        "helm-v4.3.0-linux-riscv64.tar.gz.sha256.asc",
+        "helm-v4.3.0-linux-riscv64.tar.gz.sha256sum.asc",
+        "helm-v4.3.0-linux-s390x.tar.gz.asc",
+        "helm-v4.3.0-linux-s390x.tar.gz.sha256.asc",
+        "helm-v4.3.0-linux-s390x.tar.gz.sha256sum.asc",
+        "helm-v4.3.0-windows-amd64.zip.asc",
+        "helm-v4.3.0-windows-amd64.zip.sha256.asc",
+        "helm-v4.3.0-windows-amd64.zip.sha256sum.asc",
+        "helm-v4.3.0-windows-arm64.zip.asc",
+        "helm-v4.3.0-windows-arm64.zip.sha256.asc",
+        "helm-v4.3.0-windows-arm64.zip.sha256sum.asc"
+      ],
+      "workflow_runs": [
+        {
+          "id": 34411661563,
+          "name": "release",
+          "path": ".github/workflows/release.yml",
+          "event": "create",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/34411661563",
+          "head_sha": "bec5b06ed841fe5269972d864d5177944fd5970f"
+        },
+        {
+          "id": 34411661502,
+          "name": "govulncheck",
+          "path": ".github/workflows/govulncheck.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/34411661502",
+          "head_sha": "bec5b06ed841fe5269972d864d5177944fd5970f"
+        },
+        {
+          "id": 34411661485,
+          "name": "golangci-lint",
+          "path": ".github/workflows/golangci-lint.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/34411661485",
+          "head_sha": "bec5b06ed841fe5269972d864d5177944fd5970f"
+        },
+        {
+          "id": 34410736011,
+          "name": "golangci-lint",
+          "path": ".github/workflows/golangci-lint.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/34410736011",
+          "head_sha": "bec5b06ed841fe5269972d864d5177944fd5970f"
+        },
+        {
+          "id": 34410736025,
+          "name": "build-test",
+          "path": ".github/workflows/build-test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/34410736025",
+          "head_sha": "bec5b06ed841fe5269972d864d5177944fd5970f"
+        },
+        {
+          "id": 34410735993,
+          "name": "govulncheck",
+          "path": ".github/workflows/govulncheck.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/helm/helm/actions/runs/34410735993",
+          "head_sha": "bec5b06ed841fe5269972d864d5177944fd5970f"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v4.3.1",
+      "sha": "c0d08d0d6d9424d4a14febb5e8a3e51b0dd00dff"
+    },
+    {
+      "name": "v4.3.0",
+      "sha": "bec5b06ed841fe5269972d864d5177944fd5970f"
+    },
+    {
+      "name": "v4.3.0-rc.1",
+      "sha": "2b3f6807547fdf23f4d46483ec7d239817b912e5"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:20:32.348880+00:00",
+  "source_times": {
+    "/repos/helm/helm": "2026-10-17T16:15:26.970837+00:00",
+    "/repos/helm/helm/commits?sha=main&per_page=20": "2026-10-17T16:15:29.038086+00:00",
+    "/repos/helm/helm/git/trees/9b88efd62a6908fb11215f8e8b50c3c62a246df0": "2026-10-17T16:15:30.413860+00:00",
+    "/repos/helm/helm/git/trees/9ed471e135d40b9bcc32022cec5bd4c586df0dcd": "2026-10-17T16:15:31.792715+00:00",
+    "/repos/helm/helm/git/trees/1afb854af738ae0b80f90f8b4f85ab0e30da2799": "2026-10-17T16:15:34.160923+00:00",
+    "/repos/helm/helm/git/trees/08578010e83bf5aede0900edbf39ea3033cf5c90": "2026-10-17T16:15:35.517022+00:00",
+    "/repos/helm/helm/git/blobs/a2e192f743992791de6a0d40ee7ef4814411bcc8": "2026-10-17T16:15:36.904735+00:00",
+    "/repos/helm/helm/git/blobs/0d7bc4f4bde018425b9ac27cc277df809ea96fb3": "2026-10-17T16:15:38.493358+00:00",
+    "/repos/helm/helm/git/blobs/5a9c792bbf3474cd45bab493a5a99b68b5d94862": "2026-10-17T16:15:39.943489+00:00",
+    "/repos/helm/helm/git/blobs/13827661a04713e50c4a6e453249af6248a78ed9": "2026-10-17T16:15:41.324825+00:00",
+    "/repos/helm/helm/git/blobs/d581ceac30626558133fec988223f110126b5516": "2026-10-17T16:15:42.792444+00:00",
+    "/repos/helm/helm/git/blobs/c84a6f86631d5a21527e612113a94c5e4d752613": "2026-10-17T16:15:44.443118+00:00",
+    "/repos/helm/helm/git/blobs/91ccaf0353393dbd3407d9bb6f6eaa45f38bd95d": "2026-10-17T16:15:46.656514+00:00",
+    "/repos/helm/helm/git/blobs/922342be8eaf497c5b33f24157abe11de67b2732": "2026-10-17T16:15:49.041535+00:00",
+    "/repos/helm/helm/git/blobs/1637d26a5cfb5808047323623be768137e555c15": "2026-10-17T16:15:50.483887+00:00",
+    "/repos/helm/helm/git/blobs/bb1b7537cdc21871ad58172b929ffc875a76599f": "2026-10-17T16:15:51.947145+00:00",
+    "/repos/helm/helm/git/blobs/45b9c3f94c30e042a17de8cefd8abee0f73216ac": "2026-10-17T16:15:53.332527+00:00",
+    "/repos/helm/helm/git/blobs/1b1de9e5562085aac40ec075bf2a0fb5fb88995f": "2026-10-17T16:15:54.717818+00:00",
+    "/repos/helm/helm/git/blobs/0fe5f110611a25579cf63b4dd7f7e111754162a3": "2026-10-17T16:15:56.091856+00:00",
+    "/repos/helm/helm/git/blobs/9503674edb5f203fce4814f4d72b7c306a3342cf": "2026-10-17T16:15:57.450348+00:00",
+    "/repos/helm/helm/git/blobs/955f12002da927e023e52b6cac6cb261ae11d953": "2026-10-17T16:15:58.838555+00:00",
+    "/repos/helm/helm/git/blobs/2b2f93f4d2459b48c07811c9706ef3d056c4bd6e": "2026-10-17T16:16:00.203592+00:00",
+    "/repos/helm/helm/git/blobs/d5a9c03eed8a2ac911e53e1408483087fca46ad9": "2026-10-17T16:16:01.593418+00:00",
+    "/repos/helm/helm/git/blobs/0fae0be3a20beb80b56ad892b326ca3625f9a9bc": "2026-10-17T16:16:02.987989+00:00",
+    "/repos/helm/helm/git/blobs/11f0f5d005c0d037ac36afb414be046db6518e82": "2026-10-17T16:16:04.434062+00:00",
+    "/repos/helm/helm/git/blobs/b9deedc3750f21d02813450c8d40d86356a3593b": "2026-10-17T16:16:05.810556+00:00",
+    "/repos/helm/helm/git/blobs/e95a4b8c31e6e31e99f42a97c8b19cd31617f245": "2026-10-17T16:16:07.608962+00:00",
+    "/repos/helm/helm/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:16:12.143249+00:00",
+    "/repos/helm/helm/pulls/32765/files?per_page=100": "2026-10-17T16:16:13.796429+00:00",
+    "/repos/helm/helm/pulls/32765/reviews?per_page=100": "2026-10-17T16:16:15.334468+00:00",
+    "/repos/helm/helm/actions/runs?head_sha=9b88efd62a6908fb11215f8e8b50c3c62a246df0&per_page=10": "2026-10-17T16:16:17.559697+00:00",
+    "/repos/helm/helm/actions/runs?head_sha=aefd4333dd5ea8f36314132904fa678486a51195&per_page=10": "2026-10-17T16:16:19.870171+00:00",
+    "/repos/helm/helm/pulls/32695/files?per_page=100": "2026-10-17T16:16:21.374739+00:00",
+    "/repos/helm/helm/pulls/32695/reviews?per_page=100": "2026-10-17T16:16:22.885813+00:00",
+    "/repos/helm/helm/actions/runs?head_sha=fa27c967efc9776887949a73d94e9d7f308df5d2&per_page=10": "2026-10-17T16:16:25.213448+00:00",
+    "/repos/helm/helm/actions/runs?head_sha=feb42d9184a7cfd5e2cc532a90a07ce090e3ba14&per_page=10": "2026-10-17T16:16:27.606473+00:00",
+    "/repos/helm/helm/pulls/32756/files?per_page=100": "2026-10-17T16:16:29.134145+00:00",
+    "/repos/helm/helm/pulls/32756/reviews?per_page=100": "2026-10-17T16:16:30.720012+00:00",
+    "/repos/helm/helm/actions/runs?head_sha=1d4505ca6a28ebb5d97c1c35bbe71522f02744c0&per_page=10": "2026-10-17T16:16:32.832619+00:00",
+    "/repos/helm/helm/actions/runs?head_sha=7acff468fc805fbcfd1376126dce655bdc31a5e7&per_page=10": "2026-10-17T16:16:35.840455+00:00",
+    "/repos/helm/helm/releases?per_page=20&page=1": "2026-10-17T16:20:32.345624+00:00",
+    "/repos/helm/helm/commits/v4.3.1": "2026-10-17T16:16:42.933698+00:00",
+    "/repos/helm/helm/actions/runs?head_sha=c0d08d0d6d9424d4a14febb5e8a3e51b0dd00dff&per_page=10": "2026-10-17T16:16:44.840176+00:00",
+    "/repos/helm/helm/commits/v3.22.1": "2026-10-17T16:16:46.543854+00:00",
+    "/repos/helm/helm/actions/runs?head_sha=d6c1a0e4027caa6abc7892e7ea9f0cda7447baa3&per_page=10": "2026-10-17T16:16:48.419510+00:00",
+    "/repos/helm/helm/commits/v4.3.0": "2026-10-17T16:16:49.921704+00:00",
+    "/repos/helm/helm/actions/runs?head_sha=bec5b06ed841fe5269972d864d5177944fd5970f&per_page=10": "2026-10-17T16:16:51.914180+00:00",
+    "/repos/helm/helm/tags?per_page=3": "2026-10-17T16:16:53.319635+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:20:32.345624+00:00",
+  "status": "collected"
+}

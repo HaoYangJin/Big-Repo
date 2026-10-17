@@ -1,0 +1,2800 @@
+{
+  "requested_repository": "ggml-org/llama.cpp",
+  "category": "ml",
+  "collected_at": "2026-10-17T16:10:23.052309+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "ggml-org/llama.cpp",
+  "metadata": {
+    "html_url": "https://github.com/ggml-org/llama.cpp",
+    "description": "LLM inference in C/C++",
+    "homepage": "https://llama.app",
+    "language": "C++",
+    "stargazers_count": 131488,
+    "forks_count": 24490,
+    "open_issues_count": 2571,
+    "pushed_at": "2026-10-17T16:00:10Z",
+    "created_at": "2023-03-10T18:58:00Z",
+    "archived": false,
+    "default_branch": "master",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [
+      "ggml"
+    ],
+    "owner": {
+      "login": "ggml-org",
+      "type": "Organization",
+      "html_url": "https://github.com/ggml-org"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "c0fd78626405c6d9b934efef0ec7291fcc20e3d6",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/c0fd78626405c6d9b934efef0ec7291fcc20e3d6",
+      "date": "2026-10-17T15:20:51Z",
+      "subject": "ui : Discover & Download Models from HF Hub (#29584)"
+    },
+    {
+      "sha": "2744e48d1e88d7416224e92bf58d4ffedda4a205",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/2744e48d1e88d7416224e92bf58d4ffedda4a205",
+      "date": "2026-10-17T13:35:30Z",
+      "subject": "CUDA: faster MMVQ for low-bit types (#30517)"
+    },
+    {
+      "sha": "10b8b7553494f3638da7668cf17cac089229122a",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/10b8b7553494f3638da7668cf17cac089229122a",
+      "date": "2026-10-17T13:07:55Z",
+      "subject": "tests: give the random model generator a per-tensor filler table (#30674)"
+    },
+    {
+      "sha": "9d1e03616efb7520514d65552c7376296ef9208f",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/9d1e03616efb7520514d65552c7376296ef9208f",
+      "date": "2026-10-17T12:36:17Z",
+      "subject": "cuda : fix -Wtautological-compare in fattn vec dispatch (#30519)"
+    },
+    {
+      "sha": "f2f667b02dc76d675395ae3b14546c8108d26387",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/f2f667b02dc76d675395ae3b14546c8108d26387",
+      "date": "2026-10-17T11:55:33Z",
+      "subject": "cuda : add grouped experts top-k fusion (#29181)"
+    },
+    {
+      "sha": "62318cd57dc63900ecb153272c0b10f78550855d",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/62318cd57dc63900ecb153272c0b10f78550855d",
+      "date": "2026-10-17T11:00:17Z",
+      "subject": "model : add Kolibri-1 (Aleph-Alpha) support (#30673)"
+    },
+    {
+      "sha": "83f9389419ef93117d1444f87adfcd9f03ec0509",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/83f9389419ef93117d1444f87adfcd9f03ec0509",
+      "date": "2026-10-17T09:41:53Z",
+      "subject": "ci : added ABI reports as github artifact (#30619)"
+    },
+    {
+      "sha": "1268edac579110aeb1407f7928f53193ed4e28d4",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/1268edac579110aeb1407f7928f53193ed4e28d4",
+      "date": "2026-10-17T07:14:32Z",
+      "subject": "model : Granite switch decision 256 options (#30693)"
+    },
+    {
+      "sha": "f74e2fa6a31cc33ab4ee4ae516641cfe62df3924",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/f74e2fa6a31cc33ab4ee4ae516641cfe62df3924",
+      "date": "2026-10-17T02:03:41Z",
+      "subject": "sycl: fix prompt-processing regression after Q4_0/Q8_0 weight reorder (#30374)"
+    },
+    {
+      "sha": "ea0c4c2c85fb183ec0fbd30a1af4e4275a18a064",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/ea0c4c2c85fb183ec0fbd30a1af4e4275a18a064",
+      "date": "2026-10-17T00:11:56Z",
+      "subject": "skills: add slice-model (#30677)"
+    },
+    {
+      "sha": "6420cf5dd588c68e48657a0bbd82bb3bd5ac7209",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/6420cf5dd588c68e48657a0bbd82bb3bd5ac7209",
+      "date": "2026-10-16T23:25:05Z",
+      "subject": "ci: update device matrix for Snapdragon jobs by removing SM8750 (#30620)"
+    },
+    {
+      "sha": "27c7a769da1671c97b2e3f6cb88704a6e1e0d0cd",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/27c7a769da1671c97b2e3f6cb88704a6e1e0d0cd",
+      "date": "2026-10-16T22:20:43Z",
+      "subject": "hexagon: vectorize softplus with HVX (#30435)"
+    },
+    {
+      "sha": "2f2763db6eaac591e78023d1e2c4a31607c64517",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/2f2763db6eaac591e78023d1e2c4a31607c64517",
+      "date": "2026-10-16T22:15:04Z",
+      "subject": "opencl: Add MxFP4 MoE bin kernel for Adreno X1 devices  (#30691)"
+    },
+    {
+      "sha": "01fc3aae846caa644f0cee360f108d4c48e4aaa1",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/01fc3aae846caa644f0cee360f108d4c48e4aaa1",
+      "date": "2026-10-16T22:07:55Z",
+      "subject": "model: add Beam (Reflection) (#30670)"
+    },
+    {
+      "sha": "23f7aabc16c72f6f707dba227251c35d7bd1ed96",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/23f7aabc16c72f6f707dba227251c35d7bd1ed96",
+      "date": "2026-10-16T18:00:41Z",
+      "subject": "model : Granite Switch Decision (#30676)"
+    },
+    {
+      "sha": "7182ef71e6d5dd0c8ea76486fac134fcd25025d4",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/7182ef71e6d5dd0c8ea76486fac134fcd25025d4",
+      "date": "2026-10-16T15:01:37Z",
+      "subject": "common: honor HTTP_PROXY/HTTPS_PROXY env vars in http client (#21752)"
+    },
+    {
+      "sha": "2a667032dc788c3a071d538e0b572e45a3f12731",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/2a667032dc788c3a071d538e0b572e45a3f12731",
+      "date": "2026-10-16T13:17:30Z",
+      "subject": "convert : respect Mistral format for DeepseekV2Model (#30669)"
+    },
+    {
+      "sha": "f3363593f457169cdfbdfe22ea399b1cc139ba18",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/f3363593f457169cdfbdfe22ea399b1cc139ba18",
+      "date": "2026-10-16T09:52:18Z",
+      "subject": "Add more benchmarks to llama-eval (#26174)"
+    },
+    {
+      "sha": "ceefd16daa2093730bf3340315fa2b84b286ddbc",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/ceefd16daa2093730bf3340315fa2b84b286ddbc",
+      "date": "2026-10-16T08:51:14Z",
+      "subject": "hexagon: correct HMX FA sinks (#30581)"
+    },
+    {
+      "sha": "9a16f1dbe4722a93ab75a2d15e29aa71ef764c7b",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/9a16f1dbe4722a93ab75a2d15e29aa71ef764c7b",
+      "date": "2026-10-16T08:20:03Z",
+      "subject": "model : MTP support for Mellum2.1 (#30612)"
+    }
+  ],
+  "default_sha": "c0fd78626405c6d9b934efef0ec7291fcc20e3d6",
+  "root_and_selected_directory_paths": [
+    ".clang-format",
+    ".clang-tidy",
+    ".devops",
+    ".dockerignore",
+    ".ecrc",
+    ".editorconfig",
+    ".flake8",
+    ".gemini",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/010-bug-compilation.yml",
+    ".github/ISSUE_TEMPLATE/011-bug-results.yml",
+    ".github/ISSUE_TEMPLATE/019-bug-misc.yml",
+    ".github/ISSUE_TEMPLATE/020-enhancement.yml",
+    ".github/ISSUE_TEMPLATE/030-research.yml",
+    ".github/ISSUE_TEMPLATE/040-refactor.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/actions",
+    ".github/labeler.yml",
+    ".github/pull_request_template.md",
+    ".github/workflows",
+    ".github/workflows/ai-issues.yml",
+    ".github/workflows/bench.yml.disabled",
+    ".github/workflows/build-3rd-party.yml",
+    ".github/workflows/build-and-test-snapdragon.yml",
+    ".github/workflows/build-android.yml",
+    ".github/workflows/build-apple.yml",
+    ".github/workflows/build-cache.yml",
+    ".github/workflows/build-cann.yml",
+    ".github/workflows/build-cmake-pkg.yml",
+    ".github/workflows/build-cpu.yml",
+    ".github/workflows/build-cross.yml",
+    ".github/workflows/build-cuda-ubuntu.yml",
+    ".github/workflows/build-cuda-windows.yml",
+    ".github/workflows/build-ibm.yml",
+    ".github/workflows/build-msys.yml",
+    ".github/workflows/build-opencl.yml",
+    ".github/workflows/build-openvino.yml",
+    ".github/workflows/build-riscv.yml",
+    ".github/workflows/build-sanitize.yml",
+    ".github/workflows/build-sycl.yml",
+    ".github/workflows/build-virtgpu.yml",
+    ".github/workflows/build-vulkan.yml",
+    ".github/workflows/build-wasm.yml",
+    ".github/workflows/build-webgpu.yml",
+    ".github/workflows/check-vendor.yml",
+    ".github/workflows/ci-self-hosted-cpu.yml",
+    ".github/workflows/ci-self-hosted-cuda.yml",
+    ".github/workflows/ci-self-hosted-kleidiai.yml",
+    ".github/workflows/ci-self-hosted-metal.yml",
+    ".github/workflows/ci-self-hosted-openvino.yml",
+    ".github/workflows/ci-self-hosted-vulkan.yml",
+    ".github/workflows/ci-self-hosted-webgpu.yml",
+    ".github/workflows/close-issue.yml",
+    ".github/workflows/code-style.yml",
+    ".github/workflows/copilot-setup-steps.yml",
+    ".github/workflows/docker.yml",
+    ".github/workflows/editorconfig.yml",
+    ".github/workflows/gguf-publish.yml",
+    ".github/workflows/hip-quality-check.yml",
+    ".github/workflows/labeler.yml",
+    ".github/workflows/make-release.yml",
+    ".github/workflows/models-check.yml",
+    ".github/workflows/pr-draft-label.yml",
+    ".github/workflows/pre-tokenizer-hashes.yml",
+    ".github/workflows/python-check-requirements.yml",
+    ".github/workflows/python-lint.yml",
+    ".github/workflows/python-type-check.yml",
+    ".github/workflows/release-publish.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/server-sanitize.yml",
+    ".github/workflows/server-self-hosted.yml",
+    ".github/workflows/server.yml",
+    ".github/workflows/ui-build-self-hosted.yml",
+    ".github/workflows/ui-build.yml",
+    ".github/workflows/ui-publish.yml",
+    ".github/workflows/ui-self-hosted.yml",
+    ".github/workflows/ui.yml",
+    ".github/workflows/update-ops-docs.yml",
+    ".github/workflows/winget.yml",
+    ".gitignore",
+    ".gitmodules",
+    ".pi",
+    ".pre-commit-config.yaml",
+    "AGENTS.md",
+    "AUTHORS",
+    "CLAUDE.md",
+    "CMakeLists.txt",
+    "CMakePresets.json",
+    "CODEOWNERS",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "Makefile",
+    "README.md",
+    "SECURITY.md",
+    "app",
+    "benches",
+    "build-xcframework.sh",
+    "ci",
+    "cmake",
+    "common",
+    "conversion",
+    "convert_hf_to_gguf.py",
+    "convert_hf_to_gguf_update.py",
+    "convert_llama_ggml_to_gguf.py",
+    "convert_lora_to_gguf.py",
+    "docs",
+    "docs/android",
+    "docs/android.md",
+    "docs/autoparser.md",
+    "docs/backend",
+    "docs/build-profiling.md",
+    "docs/build-riscv64-spacemit.md",
+    "docs/build-s390x.md",
+    "docs/build.md",
+    "docs/completions.md",
+    "docs/development",
+    "docs/docker.md",
+    "docs/function-calling.md",
+    "docs/install.md",
+    "docs/llguidance.md",
+    "docs/models.md",
+    "docs/multi-gpu.md",
+    "docs/multimodal",
+    "docs/multimodal.md",
+    "docs/ops",
+    "docs/ops.md",
+    "docs/preset.md",
+    "docs/release.md",
+    "docs/speculative.md",
+    "docs/xcframework.md",
+    "examples",
+    "flake.nix",
+    "ggml",
+    "gguf-py",
+    "grammars",
+    "include",
+    "licenses",
+    "media",
+    "models",
+    "mypy.ini",
+    "pocs",
+    "pyproject.toml",
+    "pyrightconfig.json",
+    "requirements",
+    "requirements.txt",
+    "scripts",
+    "skills",
+    "src",
+    "tests",
+    "tools",
+    "ty.toml",
+    "vendor"
+  ],
+  "workflow_paths": [
+    ".github/workflows/build-and-test-snapdragon.yml",
+    ".github/workflows/ci-self-hosted-cpu.yml",
+    ".github/workflows/ci-self-hosted-cuda.yml",
+    ".github/workflows/ci-self-hosted-kleidiai.yml",
+    ".github/workflows/ci-self-hosted-metal.yml",
+    ".github/workflows/ci-self-hosted-openvino.yml",
+    ".github/workflows/ci-self-hosted-vulkan.yml",
+    ".github/workflows/ci-self-hosted-webgpu.yml",
+    ".github/workflows/gguf-publish.yml",
+    ".github/workflows/make-release.yml",
+    ".github/workflows/release-publish.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/ui-publish.yml",
+    ".github/workflows/ai-issues.yml",
+    ".github/workflows/bench.yml.disabled",
+    ".github/workflows/build-3rd-party.yml",
+    ".github/workflows/build-android.yml",
+    ".github/workflows/build-apple.yml",
+    ".github/workflows/build-cache.yml",
+    ".github/workflows/build-cann.yml",
+    ".github/workflows/build-cmake-pkg.yml",
+    ".github/workflows/build-cpu.yml",
+    ".github/workflows/build-cross.yml",
+    ".github/workflows/build-cuda-ubuntu.yml",
+    ".github/workflows/build-cuda-windows.yml",
+    ".github/workflows/build-ibm.yml",
+    ".github/workflows/build-msys.yml",
+    ".github/workflows/build-opencl.yml",
+    ".github/workflows/build-openvino.yml",
+    ".github/workflows/build-riscv.yml",
+    ".github/workflows/build-sanitize.yml",
+    ".github/workflows/build-sycl.yml",
+    ".github/workflows/build-virtgpu.yml",
+    ".github/workflows/build-vulkan.yml",
+    ".github/workflows/build-wasm.yml",
+    ".github/workflows/build-webgpu.yml",
+    ".github/workflows/check-vendor.yml",
+    ".github/workflows/close-issue.yml",
+    ".github/workflows/code-style.yml",
+    ".github/workflows/copilot-setup-steps.yml",
+    ".github/workflows/docker.yml",
+    ".github/workflows/editorconfig.yml",
+    ".github/workflows/hip-quality-check.yml",
+    ".github/workflows/labeler.yml",
+    ".github/workflows/models-check.yml",
+    ".github/workflows/pr-draft-label.yml",
+    ".github/workflows/pre-tokenizer-hashes.yml",
+    ".github/workflows/python-check-requirements.yml",
+    ".github/workflows/python-lint.yml",
+    ".github/workflows/python-type-check.yml",
+    ".github/workflows/server-sanitize.yml",
+    ".github/workflows/server-self-hosted.yml",
+    ".github/workflows/server.yml",
+    ".github/workflows/ui-build-self-hosted.yml",
+    ".github/workflows/ui-build.yml",
+    ".github/workflows/ui-self-hosted.yml",
+    ".github/workflows/ui.yml",
+    ".github/workflows/update-ops-docs.yml",
+    ".github/workflows/winget.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "36390a6b4ad6dd96da2557d95bcde4141ea1f553",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/AGENTS.md",
+      "lines": 251,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          5,
+          44
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          99
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha": "302cdeab99cfd3661740427eb97391e7b573bac1",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/CLAUDE.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CODEOWNERS",
+      "sha": "b9762685b5bd4938927afa0aed6c11d38af725d6",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/CODEOWNERS",
+      "lines": 123,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          120
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "59ec3f311b5d9de3d47db3369a9f1c779edab071",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/CONTRIBUTING.md",
+      "lines": 209,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          13
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [
+          112
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          80
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile",
+      "sha": "bcbc7702059566c8e23bcaf73e12caff9b7dac8e",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/Makefile",
+      "lines": 9,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "a524b3d6a8dafe1b913e8aef2e41b3bed5ae2c02",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/README.md",
+      "lines": 134,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "media": [
+          3,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          50,
+          54
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          128
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "bc6ed9d809a1517aa03549b260588474d24642c4",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/SECURITY.md",
+      "lines": 106,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          3,
+          13
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "158ce162364891847b613f61e2da1443d63eab66",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/pyproject.toml",
+      "lines": 69,
+      "signals": {
+        "tests": [
+          48
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/010-bug-compilation.yml",
+      "sha": "51ef87a590688b82d6f84b0b474a79062de7af73",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/ISSUE_TEMPLATE/010-bug-compilation.yml",
+      "lines": 90,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/011-bug-results.yml",
+      "sha": "23150d0b619d61c81ce2014cb61edd61bcad8e75",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/ISSUE_TEMPLATE/011-bug-results.yml",
+      "lines": 117,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/019-bug-misc.yml",
+      "sha": "041a7cdb2eeb2dab075e2679a4b6c4857e617bc0",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/ISSUE_TEMPLATE/019-bug-misc.yml",
+      "lines": 105,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/020-enhancement.yml",
+      "sha": "fdca622ae9db575be38ac8e0c76faee6be093303",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/ISSUE_TEMPLATE/020-enhancement.yml",
+      "lines": 53,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          9,
+          25
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/030-research.yml",
+      "sha": "172edc1326a459a6549d052db4f4805a9f521645",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/ISSUE_TEMPLATE/030-research.yml",
+      "lines": 54,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/040-refactor.yml",
+      "sha": "efd10d79d99ae86d12095afc59429b0961f23c21",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/ISSUE_TEMPLATE/040-refactor.yml",
+      "lines": 30,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "570e83e778f229169b7e635383dc6a29b5f727d3",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 11,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          4,
+          7
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha": "d9844103a95810ef0fbd2e945de86b7c56a4379a",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/pull_request_template.md",
+      "lines": 16,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/release.md",
+      "sha": "e0c9c486b7fffac2cc2437ef56d9d224c2e7b52a",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/docs/release.md",
+      "lines": 55,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build-and-test-snapdragon.yml",
+      "sha": "29be95c8be02dfedef3f5a3b31cedab0cc5956f1",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/workflows/build-and-test-snapdragon.yml",
+      "lines": 164,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          27,
+          43,
+          77,
+          113
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci-self-hosted-cpu.yml",
+      "sha": "eb40baa88e6b68acbb1e896e57cef232f3424460",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/workflows/ci-self-hosted-cpu.yml",
+      "lines": 116,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          31
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci-self-hosted-cuda.yml",
+      "sha": "89605f4dd7ac65af5c70577ec5140f74edefac1f",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/workflows/ci-self-hosted-cuda.yml",
+      "lines": 128,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          34
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci-self-hosted-kleidiai.yml",
+      "sha": "c5f5670cec4093bd8ea7be1cf0a96601090bc4ed",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/workflows/ci-self-hosted-kleidiai.yml",
+      "lines": 89,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          31
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci-self-hosted-metal.yml",
+      "sha": "5eb20096a484f42f5ad6913c73a2478dd93285c8",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/workflows/ci-self-hosted-metal.yml",
+      "lines": 63,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          35
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci-self-hosted-openvino.yml",
+      "sha": "ef89f004de3217ba9b4618ac7d25a38c4b68a241",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/workflows/ci-self-hosted-openvino.yml",
+      "lines": 79,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          32
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci-self-hosted-vulkan.yml",
+      "sha": "e651f2d1db5639e37079ee9b818d291ac53d7fcf",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/workflows/ci-self-hosted-vulkan.yml",
+      "lines": 205,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          34
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci-self-hosted-webgpu.yml",
+      "sha": "316ed33b91c761aab89a01f4ebd68345db60b624",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/workflows/ci-self-hosted-webgpu.yml",
+      "lines": 134,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          33
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/gguf-publish.yml",
+      "sha": "367b29c60f947802d5c832582e64d2eec5b0eacf",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/workflows/gguf-publish.yml",
+      "lines": 47,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          44
+        ],
+        "permissions": [
+          21
+        ],
+        "pinned_actions": [
+          44
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/make-release.yml",
+      "sha": "2e5e44caaab80bdad8f94d7de814c7d9ef37851f",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/workflows/make-release.yml",
+      "lines": 193,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          36,
+          37
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          126
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release-publish.yml",
+      "sha": "39b6753a16b68868d8856d4f5864632397359718",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/workflows/release-publish.yml",
+      "lines": 247,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          15,
+          29,
+          31,
+          32
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha": "0a732a914659505ec325dfc11d6adc68039a0737",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/.github/workflows/release.yml",
+      "lines": 1767,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          31,
+          49,
+          50
+        ],
+        "pinned_actions": [
+          489
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "skills/add-new-model/SKILL.md",
+      "sha": "710a1ebb4488ec6e9965e372e3acce0b75c23995",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/skills/add-new-model/SKILL.md",
+      "lines": 99,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          8
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "skills/code-review/SKILL.md",
+      "sha": "2b15d18c4e33c6d07a8635b3a1ec1dce55e2234b",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/skills/code-review/SKILL.md",
+      "lines": 243,
+      "signals": {
+        "tests": [
+          198,
+          217
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "skills/slice-model/SKILL.md",
+      "sha": "f19564f90bd3a45da2ec475a272e7de2cdd20edd",
+      "status": "inspected",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/c0fd78626405c6d9b934efef0ec7291fcc20e3d6/skills/slice-model/SKILL.md",
+      "lines": 26,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 29584,
+      "title": "ui : Discover & Download Models from HF Hub",
+      "url": "https://github.com/ggml-org/llama.cpp/pull/29584",
+      "merged_at": "2026-10-17T15:20:51Z",
+      "merge_commit_sha": "c0fd78626405c6d9b934efef0ec7291fcc20e3d6",
+      "files": [
+        "common/download.cpp",
+        "common/download.h",
+        "tests/test-model-resolution.cpp",
+        "tools/server/README.md",
+        "tools/server/server-models.cpp",
+        "tools/server/server-models.h",
+        "tools/server/tests/unit/test_router.py",
+        "tools/server/tests/utils.py",
+        "tools/ui/src/lib/components/app/content/MarkdownContent/MarkdownContent.svelte",
+        "tools/ui/src/lib/components/app/content/MarkdownContent/markdown-processor.ts",
+        "tools/ui/src/lib/components/app/content/MarkdownContent/safe-html-config.ts",
+        "tools/ui/src/lib/components/app/dialogs/DialogManageModels.svelte",
+        "tools/ui/src/lib/components/app/models/ModelDraftSidecars.svelte",
+        "tools/ui/src/lib/components/app/models/ModelDraftSubline.svelte",
+        "tools/ui/src/lib/components/app/models/ModelId.svelte",
+        "tools/ui/src/lib/components/app/models/ModelsManager/ModelsManager.svelte",
+        "tools/ui/src/lib/components/app/models/ModelsManager/ModelsManagerDownloadControl.svelte",
+        "tools/ui/src/lib/components/app/models/ModelsManager/ModelsManagerModelConfiguration/ModelsManagerModelConfiguration.svelte",
+        "tools/ui/src/lib/components/app/models/ModelsManager/ModelsManagerModelConfiguration/ModelsManagerModelConfigurationActions.svelte",
+        "tools/ui/src/lib/components/app/models/ModelsManager/ModelsManagerModelConfiguration/ModelsManagerModelConfigurationHeader.svelte",
+        "tools/ui/src/lib/components/app/models/ModelsManager/ModelsManagerModelRow.svelte",
+        "tools/ui/src/lib/components/app/models/ModelsManager/ModelsManagerModelsTable.svelte",
+        "tools/ui/src/lib/components/app/models/ModelsManager/row-actions.ts",
+        "tools/ui/src/lib/components/app/models/ModelsManager/utils.ts",
+        "tools/ui/src/lib/components/app/models/ModelsSelector/ModelsSelectorDownloadItem.svelte",
+        "tools/ui/src/lib/components/app/models/ModelsSelector/ModelsSelectorList.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscover.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverChatTemplateDialog.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetails.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsContainer.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsDownloadOptions/ModelsDiscoverDetailsDownloadOptions.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsDownloadOptions/ModelsDiscoverDetailsDownloadOptionsDownloadCommand.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsDownloadOptions/ModelsDiscoverDetailsDownloadOptionsDraftDownloadButton.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsDownloadOptions/ModelsDiscoverDetailsDownloadOptionsQuantDownloadButton.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsDownloadOptions/ModelsDiscoverDetailsDownloadOptionsRow.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsDownloadOptions/download-options.utils.ts",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsDownloadOptions/index.ts",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsHeader.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsHfHubStats.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsMetadata.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsMetadataItem.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsReadme.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsSkeleton.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/index.ts",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverList/ModelsDiscoverList.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverList/ModelsDiscoverListItem.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverList/ModelsDiscoverListItemSkeleton.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverList/ModelsDiscoverListSearch.svelte",
+        "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverList/index.ts",
+        "tools/ui/src/lib/components/app/models/discover/index.ts",
+        "tools/ui/src/lib/components/app/models/index.ts",
+        "tools/ui/src/lib/components/app/settings/SettingsChat/SettingsChat.svelte",
+        "tools/ui/src/lib/components/app/settings/SettingsChat/SettingsChatFields.svelte",
+        "tools/ui/src/lib/components/ui/select/select-content.svelte",
+        "tools/ui/src/lib/components/ui/select/select-trigger.svelte",
+        "tools/ui/src/lib/constants/huggingface.constants.ts",
+        "tools/ui/src/lib/constants/icons.constants.ts",
+        "tools/ui/src/lib/constants/index.ts",
+        "tools/ui/src/lib/constants/models-discover-download.constants.ts",
+        "tools/ui/src/lib/constants/models-discover.constants.ts",
+        "tools/ui/src/lib/constants/settings-keys.constants.ts",
+        "tools/ui/src/lib/constants/settings.constants.ts",
+        "tools/ui/src/lib/constants/storage.constants.ts",
+        "tools/ui/src/lib/constants/ui.constants.ts",
+        "tools/ui/src/lib/enums/index.ts",
+        "tools/ui/src/lib/enums/model.enums.ts",
+        "tools/ui/src/lib/enums/server.enums.ts",
+        "tools/ui/src/lib/enums/ui.enums.ts",
+        "tools/ui/src/lib/services/huggingface.service.ts",
+        "tools/ui/src/lib/services/models.service.ts",
+        "tools/ui/src/lib/stores/index.ts",
+        "tools/ui/src/lib/stores/models-discover/index.svelte.ts",
+        "tools/ui/src/lib/stores/models/index.svelte.ts",
+        "tools/ui/src/lib/stores/models/status.svelte.ts",
+        "tools/ui/src/lib/stores/settings/index.svelte.ts",
+        "tools/ui/src/lib/stores/ui.svelte.ts",
+        "tools/ui/src/lib/types/api.d.ts",
+        "tools/ui/src/lib/types/huggingface.d.ts",
+        "tools/ui/src/lib/types/index.ts",
+        "tools/ui/src/lib/types/models-discover.d.ts",
+        "tools/ui/src/lib/types/models.d.ts",
+        "tools/ui/src/lib/utils/index.ts",
+        "tools/ui/src/lib/utils/sidecars.ts",
+        "tools/ui/tests/client/markdown-content-sanitize.svelte.test.ts",
+        "tools/ui/tests/client/models-download-flows.svelte.test.ts",
+        "tools/ui/tests/client/models-manager-utils.svelte.test.ts",
+        "tools/ui/tests/client/models-sidecar-badges.svelte.test.ts",
+        "tools/ui/tests/unit/hf-helpers.test.ts",
+        "tools/ui/tests/unit/model-id-parser.test.ts",
+        "tools/ui/tests/unit/model-sidecar-grammar.test.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "common/download.cpp",
+          "status": "modified",
+          "additions": 177,
+          "deletions": 59,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/common%2Fdownload.cpp"
+        },
+        {
+          "filename": "common/download.h",
+          "status": "modified",
+          "additions": 38,
+          "deletions": 1,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/common%2Fdownload.h"
+        },
+        {
+          "filename": "tests/test-model-resolution.cpp",
+          "status": "modified",
+          "additions": 122,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tests%2Ftest-model-resolution.cpp"
+        },
+        {
+          "filename": "tools/server/README.md",
+          "status": "modified",
+          "additions": 36,
+          "deletions": 1,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fserver%2FREADME.md"
+        },
+        {
+          "filename": "tools/server/server-models.cpp",
+          "status": "modified",
+          "additions": 389,
+          "deletions": 32,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fserver%2Fserver-models.cpp"
+        },
+        {
+          "filename": "tools/server/server-models.h",
+          "status": "modified",
+          "additions": 65,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fserver%2Fserver-models.h"
+        },
+        {
+          "filename": "tools/server/tests/unit/test_router.py",
+          "status": "modified",
+          "additions": 237,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fserver%2Ftests%2Funit%2Ftest_router.py"
+        },
+        {
+          "filename": "tools/server/tests/utils.py",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 1,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fserver%2Ftests%2Futils.py"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/content/MarkdownContent/MarkdownContent.svelte",
+          "status": "modified",
+          "additions": 28,
+          "deletions": 6,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fcontent%2FMarkdownContent%2FMarkdownContent.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/content/MarkdownContent/markdown-processor.ts",
+          "status": "modified",
+          "additions": 23,
+          "deletions": 8,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fcontent%2FMarkdownContent%2Fmarkdown-processor.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/content/MarkdownContent/safe-html-config.ts",
+          "status": "added",
+          "additions": 138,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fcontent%2FMarkdownContent%2Fsafe-html-config.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/dialogs/DialogManageModels.svelte",
+          "status": "modified",
+          "additions": 174,
+          "deletions": 7,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fdialogs%2FDialogManageModels.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/ModelDraftSidecars.svelte",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 2,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2FModelDraftSidecars.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/ModelDraftSubline.svelte",
+          "status": "added",
+          "additions": 53,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2FModelDraftSubline.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/ModelId.svelte",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2FModelId.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/ModelsManager/ModelsManager.svelte",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 8,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2FModelsManager%2FModelsManager.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/ModelsManager/ModelsManagerDownloadControl.svelte",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 4,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2FModelsManager%2FModelsManagerDownloadControl.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/ModelsManager/ModelsManagerModelConfiguration/ModelsManagerModelConfiguration.svelte",
+          "status": "modified",
+          "additions": 84,
+          "deletions": 14,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2FModelsManager%2FModelsManagerModelConfiguration%2FModelsManagerModelConfiguration.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/ModelsManager/ModelsManagerModelConfiguration/ModelsManagerModelConfigurationActions.svelte",
+          "status": "modified",
+          "additions": 105,
+          "deletions": 38,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2FModelsManager%2FModelsManagerModelConfiguration%2FModelsManagerModelConfigurationActions.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/ModelsManager/ModelsManagerModelConfiguration/ModelsManagerModelConfigurationHeader.svelte",
+          "status": "modified",
+          "additions": 29,
+          "deletions": 2,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2FModelsManager%2FModelsManagerModelConfiguration%2FModelsManagerModelConfigurationHeader.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/ModelsManager/ModelsManagerModelRow.svelte",
+          "status": "modified",
+          "additions": 64,
+          "deletions": 32,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2FModelsManager%2FModelsManagerModelRow.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/ModelsManager/ModelsManagerModelsTable.svelte",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 1,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2FModelsManager%2FModelsManagerModelsTable.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/ModelsManager/row-actions.ts",
+          "status": "modified",
+          "additions": 19,
+          "deletions": 12,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2FModelsManager%2Frow-actions.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/ModelsManager/utils.ts",
+          "status": "modified",
+          "additions": 23,
+          "deletions": 8,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2FModelsManager%2Futils.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/ModelsSelector/ModelsSelectorDownloadItem.svelte",
+          "status": "modified",
+          "additions": 108,
+          "deletions": 52,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2FModelsSelector%2FModelsSelectorDownloadItem.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/ModelsSelector/ModelsSelectorList.svelte",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 1,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2FModelsSelector%2FModelsSelectorList.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscover.svelte",
+          "status": "added",
+          "additions": 210,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscover.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverChatTemplateDialog.svelte",
+          "status": "added",
+          "additions": 75,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverDetails%2FModelsDiscoverChatTemplateDialog.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetails.svelte",
+          "status": "added",
+          "additions": 96,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverDetails%2FModelsDiscoverDetails.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsContainer.svelte",
+          "status": "added",
+          "additions": 66,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverDetails%2FModelsDiscoverDetailsContainer.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsDownloadOptions/ModelsDiscoverDetailsDownloadOptions.svelte",
+          "status": "added",
+          "additions": 258,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverDetails%2FModelsDiscoverDetailsDownloadOptions%2FModelsDiscoverDetailsDownloadOptions.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsDownloadOptions/ModelsDiscoverDetailsDownloadOptionsDownloadCommand.svelte",
+          "status": "added",
+          "additions": 131,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverDetails%2FModelsDiscoverDetailsDownloadOptions%2FModelsDiscoverDetailsDownloadOptionsDownloadCommand.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsDownloadOptions/ModelsDiscoverDetailsDownloadOptionsDraftDownloadButton.svelte",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverDetails%2FModelsDiscoverDetailsDownloadOptions%2FModelsDiscoverDetailsDownloadOptionsDraftDownloadButton.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsDownloadOptions/ModelsDiscoverDetailsDownloadOptionsQuantDownloadButton.svelte",
+          "status": "added",
+          "additions": 272,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverDetails%2FModelsDiscoverDetailsDownloadOptions%2FModelsDiscoverDetailsDownloadOptionsQuantDownloadButton.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsDownloadOptions/ModelsDiscoverDetailsDownloadOptionsRow.svelte",
+          "status": "added",
+          "additions": 134,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverDetails%2FModelsDiscoverDetailsDownloadOptions%2FModelsDiscoverDetailsDownloadOptionsRow.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsDownloadOptions/download-options.utils.ts",
+          "status": "added",
+          "additions": 57,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverDetails%2FModelsDiscoverDetailsDownloadOptions%2Fdownload-options.utils.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsDownloadOptions/index.ts",
+          "status": "added",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverDetails%2FModelsDiscoverDetailsDownloadOptions%2Findex.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsHeader.svelte",
+          "status": "added",
+          "additions": 96,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverDetails%2FModelsDiscoverDetailsHeader.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsHfHubStats.svelte",
+          "status": "added",
+          "additions": 31,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverDetails%2FModelsDiscoverDetailsHfHubStats.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsMetadata.svelte",
+          "status": "added",
+          "additions": 82,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverDetails%2FModelsDiscoverDetailsMetadata.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsMetadataItem.svelte",
+          "status": "added",
+          "additions": 18,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverDetails%2FModelsDiscoverDetailsMetadataItem.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsReadme.svelte",
+          "status": "added",
+          "additions": 17,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverDetails%2FModelsDiscoverDetailsReadme.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/ModelsDiscoverDetailsSkeleton.svelte",
+          "status": "added",
+          "additions": 98,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverDetails%2FModelsDiscoverDetailsSkeleton.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverDetails/index.ts",
+          "status": "added",
+          "additions": 37,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverDetails%2Findex.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverList/ModelsDiscoverList.svelte",
+          "status": "added",
+          "additions": 41,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverList%2FModelsDiscoverList.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverList/ModelsDiscoverListItem.svelte",
+          "status": "added",
+          "additions": 256,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverList%2FModelsDiscoverListItem.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverList/ModelsDiscoverListItemSkeleton.svelte",
+          "status": "added",
+          "additions": 39,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverList%2FModelsDiscoverListItemSkeleton.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverList/ModelsDiscoverListSearch.svelte",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverList%2FModelsDiscoverListSearch.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/ModelsDiscoverList/index.ts",
+          "status": "added",
+          "additions": 16,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2FModelsDiscoverList%2Findex.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/discover/index.ts",
+          "status": "added",
+          "additions": 16,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Fdiscover%2Findex.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/models/index.ts",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fmodels%2Findex.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/settings/SettingsChat/SettingsChat.svelte",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fsettings%2FSettingsChat%2FSettingsChat.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/app/settings/SettingsChat/SettingsChatFields.svelte",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 1,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fapp%2Fsettings%2FSettingsChat%2FSettingsChatFields.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/ui/select/select-content.svelte",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fui%2Fselect%2Fselect-content.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/components/ui/select/select-trigger.svelte",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 4,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fcomponents%2Fui%2Fselect%2Fselect-trigger.svelte"
+        },
+        {
+          "filename": "tools/ui/src/lib/constants/huggingface.constants.ts",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fconstants%2Fhuggingface.constants.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/constants/icons.constants.ts",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fconstants%2Ficons.constants.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/constants/index.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fconstants%2Findex.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/constants/models-discover-download.constants.ts",
+          "status": "added",
+          "additions": 41,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fconstants%2Fmodels-discover-download.constants.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/constants/models-discover.constants.ts",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fconstants%2Fmodels-discover.constants.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/constants/settings-keys.constants.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fconstants%2Fsettings-keys.constants.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/constants/settings.constants.ts",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 4,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fconstants%2Fsettings.constants.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/constants/storage.constants.ts",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 2,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fconstants%2Fstorage.constants.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/constants/ui.constants.ts",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fconstants%2Fui.constants.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/enums/index.ts",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 1,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fenums%2Findex.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/enums/model.enums.ts",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 3,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fenums%2Fmodel.enums.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/enums/server.enums.ts",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fenums%2Fserver.enums.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/enums/ui.enums.ts",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fenums%2Fui.enums.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/services/huggingface.service.ts",
+          "status": "modified",
+          "additions": 69,
+          "deletions": 29,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fservices%2Fhuggingface.service.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/services/models.service.ts",
+          "status": "modified",
+          "additions": 78,
+          "deletions": 28,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fservices%2Fmodels.service.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/stores/index.ts",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fstores%2Findex.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/stores/models-discover/index.svelte.ts",
+          "status": "added",
+          "additions": 267,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fstores%2Fmodels-discover%2Findex.svelte.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/stores/models/index.svelte.ts",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 57,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fstores%2Fmodels%2Findex.svelte.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/stores/models/status.svelte.ts",
+          "status": "modified",
+          "additions": 314,
+          "deletions": 133,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fstores%2Fmodels%2Fstatus.svelte.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/stores/settings/index.svelte.ts",
+          "status": "modified",
+          "additions": 26,
+          "deletions": 8,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fstores%2Fsettings%2Findex.svelte.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/stores/ui.svelte.ts",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Fstores%2Fui.svelte.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/types/api.d.ts",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Ftypes%2Fapi.d.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/types/huggingface.d.ts",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Ftypes%2Fhuggingface.d.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/types/index.ts",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Ftypes%2Findex.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/types/models-discover.d.ts",
+          "status": "added",
+          "additions": 56,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Ftypes%2Fmodels-discover.d.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/types/models.d.ts",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Ftypes%2Fmodels.d.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/utils/index.ts",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 1,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Futils%2Findex.ts"
+        },
+        {
+          "filename": "tools/ui/src/lib/utils/sidecars.ts",
+          "status": "modified",
+          "additions": 17,
+          "deletions": 1,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Fsrc%2Flib%2Futils%2Fsidecars.ts"
+        },
+        {
+          "filename": "tools/ui/tests/client/markdown-content-sanitize.svelte.test.ts",
+          "status": "added",
+          "additions": 160,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Ftests%2Fclient%2Fmarkdown-content-sanitize.svelte.test.ts"
+        },
+        {
+          "filename": "tools/ui/tests/client/models-download-flows.svelte.test.ts",
+          "status": "added",
+          "additions": 155,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Ftests%2Fclient%2Fmodels-download-flows.svelte.test.ts"
+        },
+        {
+          "filename": "tools/ui/tests/client/models-manager-utils.svelte.test.ts",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 4,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Ftests%2Fclient%2Fmodels-manager-utils.svelte.test.ts"
+        },
+        {
+          "filename": "tools/ui/tests/client/models-sidecar-badges.svelte.test.ts",
+          "status": "added",
+          "additions": 99,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Ftests%2Fclient%2Fmodels-sidecar-badges.svelte.test.ts"
+        },
+        {
+          "filename": "tools/ui/tests/unit/hf-helpers.test.ts",
+          "status": "modified",
+          "additions": 37,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Ftests%2Funit%2Fhf-helpers.test.ts"
+        },
+        {
+          "filename": "tools/ui/tests/unit/model-id-parser.test.ts",
+          "status": "modified",
+          "additions": 59,
+          "deletions": 0,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Ftests%2Funit%2Fmodel-id-parser.test.ts"
+        },
+        {
+          "filename": "tools/ui/tests/unit/model-sidecar-grammar.test.ts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 13,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/68f7dd242d726db6d7e6c1dd57bce2e10b3b073e/tools%2Fui%2Ftests%2Funit%2Fmodel-sidecar-grammar.test.ts"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED",
+        "APPROVED",
+        "APPROVED",
+        "COMMENTED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39047501084,
+          "name": "Update Operations Documentation",
+          "path": ".github/workflows/update-ops-docs.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39047501084",
+          "head_sha": "c0fd78626405c6d9b934efef0ec7291fcc20e3d6"
+        },
+        {
+          "id": 39047500947,
+          "name": "Check Pre-Tokenizer Hashes",
+          "path": ".github/workflows/pre-tokenizer-hashes.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39047500947",
+          "head_sha": "c0fd78626405c6d9b934efef0ec7291fcc20e3d6"
+        },
+        {
+          "id": 39047500965,
+          "name": "Copilot Setup Steps",
+          "path": ".github/workflows/copilot-setup-steps.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39047500965",
+          "head_sha": "c0fd78626405c6d9b934efef0ec7291fcc20e3d6"
+        },
+        {
+          "id": 39047501013,
+          "name": "Python check requirements.txt",
+          "path": ".github/workflows/python-check-requirements.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39047501013",
+          "head_sha": "c0fd78626405c6d9b934efef0ec7291fcc20e3d6"
+        },
+        {
+          "id": 39047500946,
+          "name": "Python Type-Check",
+          "path": ".github/workflows/python-type-check.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39047500946",
+          "head_sha": "c0fd78626405c6d9b934efef0ec7291fcc20e3d6"
+        },
+        {
+          "id": 39047432834,
+          "name": "Publish CUDA: faster MMVQ for low-bit types (#30517)",
+          "path": ".github/workflows/release-publish.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39047432834",
+          "head_sha": "c0fd78626405c6d9b934efef0ec7291fcc20e3d6"
+        },
+        {
+          "id": 39044644051,
+          "name": "Code Style Checker",
+          "path": ".github/workflows/code-style.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39044644051",
+          "head_sha": "c0fd78626405c6d9b934efef0ec7291fcc20e3d6"
+        },
+        {
+          "id": 39044644057,
+          "name": "CI (cpu)",
+          "path": ".github/workflows/build-cpu.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39044644057",
+          "head_sha": "c0fd78626405c6d9b934efef0ec7291fcc20e3d6"
+        },
+        {
+          "id": 39044644060,
+          "name": "Python Type-Check",
+          "path": ".github/workflows/python-type-check.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39044644060",
+          "head_sha": "c0fd78626405c6d9b934efef0ec7291fcc20e3d6"
+        },
+        {
+          "id": 39044644178,
+          "name": "Server",
+          "path": ".github/workflows/server.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39044644178",
+          "head_sha": "c0fd78626405c6d9b934efef0ec7291fcc20e3d6"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38961859801,
+          "name": "CI (cpu)",
+          "path": ".github/workflows/build-cpu.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38961859801",
+          "head_sha": "68f7dd242d726db6d7e6c1dd57bce2e10b3b073e"
+        },
+        {
+          "id": 38961859095,
+          "name": "flake8 Lint",
+          "path": ".github/workflows/python-lint.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38961859095",
+          "head_sha": "68f7dd242d726db6d7e6c1dd57bce2e10b3b073e"
+        },
+        {
+          "id": 38961859146,
+          "name": "EditorConfig Checker",
+          "path": ".github/workflows/editorconfig.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38961859146",
+          "head_sha": "68f7dd242d726db6d7e6c1dd57bce2e10b3b073e"
+        },
+        {
+          "id": 38961859136,
+          "name": "CI (wasm)",
+          "path": ".github/workflows/build-wasm.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38961859136",
+          "head_sha": "68f7dd242d726db6d7e6c1dd57bce2e10b3b073e"
+        },
+        {
+          "id": 38961859071,
+          "name": "Python Type-Check",
+          "path": ".github/workflows/python-type-check.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38961859071",
+          "head_sha": "68f7dd242d726db6d7e6c1dd57bce2e10b3b073e"
+        },
+        {
+          "id": 38961859402,
+          "name": "UI",
+          "path": ".github/workflows/ui.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38961859402",
+          "head_sha": "68f7dd242d726db6d7e6c1dd57bce2e10b3b073e"
+        },
+        {
+          "id": 38961859336,
+          "name": "Code Style Checker",
+          "path": ".github/workflows/code-style.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38961859336",
+          "head_sha": "68f7dd242d726db6d7e6c1dd57bce2e10b3b073e"
+        },
+        {
+          "id": 38961859072,
+          "name": "Server",
+          "path": ".github/workflows/server.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38961859072",
+          "head_sha": "68f7dd242d726db6d7e6c1dd57bce2e10b3b073e"
+        },
+        {
+          "id": 38961852720,
+          "name": "Pull Request Labeler",
+          "path": ".github/workflows/labeler.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38961852720",
+          "head_sha": "68f7dd242d726db6d7e6c1dd57bce2e10b3b073e"
+        }
+      ]
+    },
+    {
+      "number": 30517,
+      "title": "CUDA: faster MMVQ for low-bit types",
+      "url": "https://github.com/ggml-org/llama.cpp/pull/30517",
+      "merged_at": "2026-10-17T13:35:31Z",
+      "merge_commit_sha": "2744e48d1e88d7416224e92bf58d4ffedda4a205",
+      "files": [
+        "ggml/src/ggml-cuda/mmvq.cu",
+        "ggml/src/ggml-cuda/vecdotq.cuh"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "ggml/src/ggml-cuda/mmvq.cu",
+          "status": "modified",
+          "additions": 29,
+          "deletions": 6,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/6e9b69aa9e02709cf9469adffcc5f14ccde395ba/ggml%2Fsrc%2Fggml-cuda%2Fmmvq.cu"
+        },
+        {
+          "filename": "ggml/src/ggml-cuda/vecdotq.cuh",
+          "status": "modified",
+          "additions": 96,
+          "deletions": 53,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/6e9b69aa9e02709cf9469adffcc5f14ccde395ba/ggml%2Fsrc%2Fggml-cuda%2Fvecdotq.cuh"
+        }
+      ],
+      "review_states": [
+        "APPROVED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39043891587,
+          "name": "Build Actions Cache",
+          "path": ".github/workflows/build-cache.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39043891587",
+          "head_sha": "2744e48d1e88d7416224e92bf58d4ffedda4a205"
+        },
+        {
+          "id": 39039638706,
+          "name": "Build Actions Cache",
+          "path": ".github/workflows/build-cache.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39039638706",
+          "head_sha": "2744e48d1e88d7416224e92bf58d4ffedda4a205"
+        },
+        {
+          "id": 39038961773,
+          "name": "Check Pre-Tokenizer Hashes",
+          "path": ".github/workflows/pre-tokenizer-hashes.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39038961773",
+          "head_sha": "2744e48d1e88d7416224e92bf58d4ffedda4a205"
+        },
+        {
+          "id": 39038961839,
+          "name": "Copilot Setup Steps",
+          "path": ".github/workflows/copilot-setup-steps.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39038961839",
+          "head_sha": "2744e48d1e88d7416224e92bf58d4ffedda4a205"
+        },
+        {
+          "id": 39038961779,
+          "name": "Python check requirements.txt",
+          "path": ".github/workflows/python-check-requirements.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39038961779",
+          "head_sha": "2744e48d1e88d7416224e92bf58d4ffedda4a205"
+        },
+        {
+          "id": 39038961797,
+          "name": "Python Type-Check",
+          "path": ".github/workflows/python-type-check.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39038961797",
+          "head_sha": "2744e48d1e88d7416224e92bf58d4ffedda4a205"
+        },
+        {
+          "id": 39038961821,
+          "name": "Update Operations Documentation",
+          "path": ".github/workflows/update-ops-docs.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39038961821",
+          "head_sha": "2744e48d1e88d7416224e92bf58d4ffedda4a205"
+        },
+        {
+          "id": 39038893685,
+          "name": "Publish tests: give the random model generator a per-tensor filler table (#30…",
+          "path": ".github/workflows/release-publish.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39038893685",
+          "head_sha": "2744e48d1e88d7416224e92bf58d4ffedda4a205"
+        },
+        {
+          "id": 39037196171,
+          "name": "Code Style Checker",
+          "path": ".github/workflows/code-style.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39037196171",
+          "head_sha": "2744e48d1e88d7416224e92bf58d4ffedda4a205"
+        },
+        {
+          "id": 39037196162,
+          "name": "Server (self-hosted)",
+          "path": ".github/workflows/server-self-hosted.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39037196162",
+          "head_sha": "2744e48d1e88d7416224e92bf58d4ffedda4a205"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38866791277,
+          "name": "Models Backend Check",
+          "path": ".github/workflows/models-check.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38866791277",
+          "head_sha": "6e9b69aa9e02709cf9469adffcc5f14ccde395ba"
+        },
+        {
+          "id": 38866791336,
+          "name": "CI (CUDA, ubuntu)",
+          "path": ".github/workflows/build-cuda-ubuntu.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38866791336",
+          "head_sha": "6e9b69aa9e02709cf9469adffcc5f14ccde395ba"
+        },
+        {
+          "id": 38866791375,
+          "name": "Code Style Checker",
+          "path": ".github/workflows/code-style.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38866791375",
+          "head_sha": "6e9b69aa9e02709cf9469adffcc5f14ccde395ba"
+        },
+        {
+          "id": 38866791257,
+          "name": "CI (self-hosted CUDA backend)",
+          "path": ".github/workflows/ci-self-hosted-cuda.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38866791257",
+          "head_sha": "6e9b69aa9e02709cf9469adffcc5f14ccde395ba"
+        },
+        {
+          "id": 38866791207,
+          "name": "EditorConfig Checker",
+          "path": ".github/workflows/editorconfig.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38866791207",
+          "head_sha": "6e9b69aa9e02709cf9469adffcc5f14ccde395ba"
+        },
+        {
+          "id": 38866791247,
+          "name": "HIP quality check",
+          "path": ".github/workflows/hip-quality-check.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38866791247",
+          "head_sha": "6e9b69aa9e02709cf9469adffcc5f14ccde395ba"
+        },
+        {
+          "id": 38866791447,
+          "name": "Server",
+          "path": ".github/workflows/server.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38866791447",
+          "head_sha": "6e9b69aa9e02709cf9469adffcc5f14ccde395ba"
+        },
+        {
+          "id": 38866788129,
+          "name": "Pull Request Labeler",
+          "path": ".github/workflows/labeler.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38866788129",
+          "head_sha": "6e9b69aa9e02709cf9469adffcc5f14ccde395ba"
+        }
+      ]
+    },
+    {
+      "number": 30674,
+      "title": "tests: give the random model generator a per-tensor filler table",
+      "url": "https://github.com/ggml-org/llama.cpp/pull/30674",
+      "merged_at": "2026-10-17T13:07:56Z",
+      "merge_commit_sha": "10b8b7553494f3638da7668cf17cac089229122a",
+      "files": [
+        "tests/test-llama-archs.cpp"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "tests/test-llama-archs.cpp",
+          "status": "modified",
+          "additions": 52,
+          "deletions": 19,
+          "blob_url": "https://github.com/ggml-org/llama.cpp/blob/92e1db7b373a6b3197ebdd0e7c1160cf7cb10665/tests%2Ftest-llama-archs.cpp"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39035551713,
+          "name": "Copilot Setup Steps",
+          "path": ".github/workflows/copilot-setup-steps.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39035551713",
+          "head_sha": "10b8b7553494f3638da7668cf17cac089229122a"
+        },
+        {
+          "id": 39035551722,
+          "name": "Python Type-Check",
+          "path": ".github/workflows/python-type-check.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39035551722",
+          "head_sha": "10b8b7553494f3638da7668cf17cac089229122a"
+        },
+        {
+          "id": 39035551763,
+          "name": "Update Operations Documentation",
+          "path": ".github/workflows/update-ops-docs.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39035551763",
+          "head_sha": "10b8b7553494f3638da7668cf17cac089229122a"
+        },
+        {
+          "id": 39035551698,
+          "name": "Python check requirements.txt",
+          "path": ".github/workflows/python-check-requirements.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39035551698",
+          "head_sha": "10b8b7553494f3638da7668cf17cac089229122a"
+        },
+        {
+          "id": 39035551712,
+          "name": "Check Pre-Tokenizer Hashes",
+          "path": ".github/workflows/pre-tokenizer-hashes.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39035551712",
+          "head_sha": "10b8b7553494f3638da7668cf17cac089229122a"
+        },
+        {
+          "id": 39035486017,
+          "name": "Build Actions Cache",
+          "path": ".github/workflows/build-cache.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39035486017",
+          "head_sha": "10b8b7553494f3638da7668cf17cac089229122a"
+        },
+        {
+          "id": 39035303277,
+          "name": "CI (opencl)",
+          "path": ".github/workflows/build-opencl.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39035303277",
+          "head_sha": "10b8b7553494f3638da7668cf17cac089229122a"
+        },
+        {
+          "id": 39035303158,
+          "name": "Server (sanitize)",
+          "path": ".github/workflows/server-sanitize.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39035303158",
+          "head_sha": "10b8b7553494f3638da7668cf17cac089229122a"
+        },
+        {
+          "id": 39035303125,
+          "name": "CI (self-hosted OpenVINO backend)",
+          "path": ".github/workflows/ci-self-hosted-openvino.yml",
+          "event": "push",
+          "status": "queued",
+          "conclusion": null,
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39035303125",
+          "head_sha": "10b8b7553494f3638da7668cf17cac089229122a"
+        },
+        {
+          "id": 39035303138,
+          "name": "CI (openvino)",
+          "path": ".github/workflows/build-openvino.yml",
+          "event": "push",
+          "status": "queued",
+          "conclusion": null,
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/39035303138",
+          "head_sha": "10b8b7553494f3638da7668cf17cac089229122a"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38911505876,
+          "name": "CI (cpu)",
+          "path": ".github/workflows/build-cpu.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38911505876",
+          "head_sha": "92e1db7b373a6b3197ebdd0e7c1160cf7cb10665"
+        },
+        {
+          "id": 38911505243,
+          "name": "Server",
+          "path": ".github/workflows/server.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38911505243",
+          "head_sha": "92e1db7b373a6b3197ebdd0e7c1160cf7cb10665"
+        },
+        {
+          "id": 38911505376,
+          "name": "Models Backend Check",
+          "path": ".github/workflows/models-check.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38911505376",
+          "head_sha": "92e1db7b373a6b3197ebdd0e7c1160cf7cb10665"
+        },
+        {
+          "id": 38911505339,
+          "name": "Code Style Checker",
+          "path": ".github/workflows/code-style.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38911505339",
+          "head_sha": "92e1db7b373a6b3197ebdd0e7c1160cf7cb10665"
+        },
+        {
+          "id": 38911505413,
+          "name": "EditorConfig Checker",
+          "path": ".github/workflows/editorconfig.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38911505413",
+          "head_sha": "92e1db7b373a6b3197ebdd0e7c1160cf7cb10665"
+        },
+        {
+          "id": 38911505491,
+          "name": "CI (wasm)",
+          "path": ".github/workflows/build-wasm.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38911505491",
+          "head_sha": "92e1db7b373a6b3197ebdd0e7c1160cf7cb10665"
+        },
+        {
+          "id": 38911498777,
+          "name": "Pull Request Labeler",
+          "path": ".github/workflows/labeler.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38911498777",
+          "head_sha": "92e1db7b373a6b3197ebdd0e7c1160cf7cb10665"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v0.7.0",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.7.0",
+      "published_at": "2026-10-15T17:13:19Z",
+      "target_commitish": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+      "commit_sha": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+      "assets": [
+        "nightly-tag.txt"
+      ],
+      "workflow_runs": [
+        {
+          "id": 38775504202,
+          "name": "Check Pre-Tokenizer Hashes",
+          "path": ".github/workflows/pre-tokenizer-hashes.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38775504202",
+          "head_sha": "620d2225cc436ab0b001e3200e590e3b286ef9ab"
+        },
+        {
+          "id": 38775504032,
+          "name": "Update Operations Documentation",
+          "path": ".github/workflows/update-ops-docs.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38775504032",
+          "head_sha": "620d2225cc436ab0b001e3200e590e3b286ef9ab"
+        },
+        {
+          "id": 38775504100,
+          "name": "Python Type-Check",
+          "path": ".github/workflows/python-type-check.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38775504100",
+          "head_sha": "620d2225cc436ab0b001e3200e590e3b286ef9ab"
+        },
+        {
+          "id": 38775504063,
+          "name": "Copilot Setup Steps",
+          "path": ".github/workflows/copilot-setup-steps.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38775504063",
+          "head_sha": "620d2225cc436ab0b001e3200e590e3b286ef9ab"
+        },
+        {
+          "id": 38775504144,
+          "name": "Python check requirements.txt",
+          "path": ".github/workflows/python-check-requirements.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38775504144",
+          "head_sha": "620d2225cc436ab0b001e3200e590e3b286ef9ab"
+        },
+        {
+          "id": 38775396793,
+          "name": "Make Release",
+          "path": ".github/workflows/make-release.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38775396793",
+          "head_sha": "620d2225cc436ab0b001e3200e590e3b286ef9ab"
+        },
+        {
+          "id": 38775232059,
+          "name": "Build Actions Cache",
+          "path": ".github/workflows/build-cache.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38775232059",
+          "head_sha": "620d2225cc436ab0b001e3200e590e3b286ef9ab"
+        },
+        {
+          "id": 38769086337,
+          "name": "Make Release",
+          "path": ".github/workflows/make-release.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38769086337",
+          "head_sha": "620d2225cc436ab0b001e3200e590e3b286ef9ab"
+        },
+        {
+          "id": 38767299902,
+          "name": "Build Actions Cache",
+          "path": ".github/workflows/build-cache.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38767299902",
+          "head_sha": "620d2225cc436ab0b001e3200e590e3b286ef9ab"
+        },
+        {
+          "id": 38766206652,
+          "name": "Publish llama.cpp : bump version to 0.7.0 (#30603)",
+          "path": ".github/workflows/release-publish.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/ggml-org/llama.cpp/actions/runs/38766206652",
+          "head_sha": "620d2225cc436ab0b001e3200e590e3b286ef9ab"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v0.7.0",
+      "sha": "620d2225cc436ab0b001e3200e590e3b286ef9ab"
+    },
+    {
+      "name": "v0.6.0",
+      "sha": "d81235049384534c167caea52b85a694f6103d14"
+    },
+    {
+      "name": "v0.5.0",
+      "sha": "7fe450e19305b828c199d602c23a8337aaa1f03b"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:31.403498+00:00",
+  "source_times": {
+    "/repos/ggml-org/llama.cpp": "2026-10-17T16:10:23.052309+00:00",
+    "/repos/ggml-org/llama.cpp/commits?sha=master&per_page=20": "2026-10-17T16:10:25.191422+00:00",
+    "/repos/ggml-org/llama.cpp/git/trees/c0fd78626405c6d9b934efef0ec7291fcc20e3d6": "2026-10-17T16:10:26.594151+00:00",
+    "/repos/ggml-org/llama.cpp/git/trees/176504dc6e2b23c419bf6ed312637033adcf79fc": "2026-10-17T16:10:27.966981+00:00",
+    "/repos/ggml-org/llama.cpp/git/trees/f4e800f4c4b1056a7c260acd9190541d30fdf81a": "2026-10-17T16:10:29.341629+00:00",
+    "/repos/ggml-org/llama.cpp/git/trees/80ad5c14190b1791aaac1694dbe980f48883ff05": "2026-10-17T16:10:30.770919+00:00",
+    "/repos/ggml-org/llama.cpp/git/trees/2bbde3a7c9fa22dc058dff39a2d97a3b1b5a69d1": "2026-10-17T16:10:32.168660+00:00",
+    "/repos/ggml-org/llama.cpp/git/trees/11bdffd55d9d3269b459af37768559677263d7d3": "2026-10-17T16:17:02.337184+00:00",
+    "/repos/ggml-org/llama.cpp/git/trees/be7ea76646efe3e2b197ed86be184228be34cd80": "2026-10-17T16:17:03.722457+00:00",
+    "/repos/ggml-org/llama.cpp/git/trees/df9312136d622b0d8982f060b9a784644fbfeb15": "2026-10-17T16:17:05.103467+00:00",
+    "/repos/ggml-org/llama.cpp/git/trees/96d20fc27240b2b0096c9f7a58cf82a185c456e1": "2026-10-17T16:17:06.597362+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/36390a6b4ad6dd96da2557d95bcde4141ea1f553": "2026-10-17T16:10:33.688247+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/302cdeab99cfd3661740427eb97391e7b573bac1": "2026-10-17T16:10:35.057554+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/b9762685b5bd4938927afa0aed6c11d38af725d6": "2026-10-17T16:10:36.469730+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/59ec3f311b5d9de3d47db3369a9f1c779edab071": "2026-10-17T16:10:38.089562+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/bcbc7702059566c8e23bcaf73e12caff9b7dac8e": "2026-10-17T16:10:39.432717+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/a524b3d6a8dafe1b913e8aef2e41b3bed5ae2c02": "2026-10-17T16:10:40.803848+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/bc6ed9d809a1517aa03549b260588474d24642c4": "2026-10-17T16:10:42.520900+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/158ce162364891847b613f61e2da1443d63eab66": "2026-10-17T16:10:43.891737+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/51ef87a590688b82d6f84b0b474a79062de7af73": "2026-10-17T16:10:45.281002+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/23150d0b619d61c81ce2014cb61edd61bcad8e75": "2026-10-17T16:10:46.650631+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/041a7cdb2eeb2dab075e2679a4b6c4857e617bc0": "2026-10-17T16:10:48.007453+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/fdca622ae9db575be38ac8e0c76faee6be093303": "2026-10-17T16:10:50.393118+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/172edc1326a459a6549d052db4f4805a9f521645": "2026-10-17T16:10:51.790410+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/efd10d79d99ae86d12095afc59429b0961f23c21": "2026-10-17T16:10:53.143990+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/570e83e778f229169b7e635383dc6a29b5f727d3": "2026-10-17T16:10:54.486949+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/d9844103a95810ef0fbd2e945de86b7c56a4379a": "2026-10-17T16:10:56.885015+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/e0c9c486b7fffac2cc2437ef56d9d224c2e7b52a": "2026-10-17T16:10:58.277422+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/29be95c8be02dfedef3f5a3b31cedab0cc5956f1": "2026-10-17T16:10:59.767109+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/eb40baa88e6b68acbb1e896e57cef232f3424460": "2026-10-17T16:11:01.148601+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/89605f4dd7ac65af5c70577ec5140f74edefac1f": "2026-10-17T16:11:03.454955+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/c5f5670cec4093bd8ea7be1cf0a96601090bc4ed": "2026-10-17T16:11:04.806710+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/5eb20096a484f42f5ad6913c73a2478dd93285c8": "2026-10-17T16:11:06.218692+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/ef89f004de3217ba9b4618ac7d25a38c4b68a241": "2026-10-17T16:11:07.880367+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/e651f2d1db5639e37079ee9b818d291ac53d7fcf": "2026-10-17T16:11:10.150851+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/316ed33b91c761aab89a01f4ebd68345db60b624": "2026-10-17T16:11:11.637547+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/367b29c60f947802d5c832582e64d2eec5b0eacf": "2026-10-17T16:11:13.025908+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/2e5e44caaab80bdad8f94d7de814c7d9ef37851f": "2026-10-17T16:11:14.439641+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/39b6753a16b68868d8856d4f5864632397359718": "2026-10-17T16:11:16.008922+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/0a732a914659505ec325dfc11d6adc68039a0737": "2026-10-17T16:11:19.295117+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/710a1ebb4488ec6e9965e372e3acce0b75c23995": "2026-10-17T16:17:09.244571+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/2b15d18c4e33c6d07a8635b3a1ec1dce55e2234b": "2026-10-17T16:17:11.235746+00:00",
+    "/repos/ggml-org/llama.cpp/git/blobs/f19564f90bd3a45da2ec475a272e7de2cdd20edd": "2026-10-17T16:17:12.651977+00:00",
+    "/repos/ggml-org/llama.cpp/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:11:23.930207+00:00",
+    "/repos/ggml-org/llama.cpp/pulls/29584/files?per_page=100": "2026-10-17T16:11:26.385414+00:00",
+    "/repos/ggml-org/llama.cpp/pulls/29584/reviews?per_page=100": "2026-10-17T16:11:28.155120+00:00",
+    "/repos/ggml-org/llama.cpp/actions/runs?head_sha=c0fd78626405c6d9b934efef0ec7291fcc20e3d6&per_page=10": "2026-10-17T16:11:30.824067+00:00",
+    "/repos/ggml-org/llama.cpp/actions/runs?head_sha=68f7dd242d726db6d7e6c1dd57bce2e10b3b073e&per_page=10": "2026-10-17T16:11:33.049721+00:00",
+    "/repos/ggml-org/llama.cpp/pulls/30517/files?per_page=100": "2026-10-17T16:11:34.696380+00:00",
+    "/repos/ggml-org/llama.cpp/pulls/30517/reviews?per_page=100": "2026-10-17T16:11:36.201190+00:00",
+    "/repos/ggml-org/llama.cpp/actions/runs?head_sha=2744e48d1e88d7416224e92bf58d4ffedda4a205&per_page=10": "2026-10-17T16:11:38.538052+00:00",
+    "/repos/ggml-org/llama.cpp/actions/runs?head_sha=6e9b69aa9e02709cf9469adffcc5f14ccde395ba&per_page=10": "2026-10-17T16:11:40.828959+00:00",
+    "/repos/ggml-org/llama.cpp/pulls/30674/files?per_page=100": "2026-10-17T16:11:42.292186+00:00",
+    "/repos/ggml-org/llama.cpp/pulls/30674/reviews?per_page=100": "2026-10-17T16:11:43.796853+00:00",
+    "/repos/ggml-org/llama.cpp/actions/runs?head_sha=10b8b7553494f3638da7668cf17cac089229122a&per_page=10": "2026-10-17T16:11:46.111730+00:00",
+    "/repos/ggml-org/llama.cpp/actions/runs?head_sha=92e1db7b373a6b3197ebdd0e7c1160cf7cb10665&per_page=10": "2026-10-17T16:11:48.170538+00:00",
+    "/repos/ggml-org/llama.cpp/releases?per_page=20&page=1": "2026-10-17T16:17:17.169476+00:00",
+    "/repos/ggml-org/llama.cpp/releases?per_page=20&page=2": "2026-10-17T16:17:20.709034+00:00",
+    "/repos/ggml-org/llama.cpp/releases?per_page=20&page=3": "2026-10-17T16:17:23.886912+00:00",
+    "/repos/ggml-org/llama.cpp/releases?per_page=20&page=4": "2026-10-17T16:17:27.124028+00:00",
+    "/repos/ggml-org/llama.cpp/releases?per_page=20&page=5": "2026-10-17T16:17:31.401080+00:00",
+    "/repos/ggml-org/llama.cpp/commits/v0.7.0": "2026-10-17T16:12:10.169822+00:00",
+    "/repos/ggml-org/llama.cpp/actions/runs?head_sha=620d2225cc436ab0b001e3200e590e3b286ef9ab&per_page=10": "2026-10-17T16:12:12.389544+00:00",
+    "/repos/ggml-org/llama.cpp/tags?per_page=3": "2026-10-17T16:12:14.486327+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:31.401080+00:00",
+  "status": "collected"
+}

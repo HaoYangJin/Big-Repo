@@ -1,0 +1,1865 @@
+{
+  "requested_repository": "fastapi/fastapi",
+  "category": "frameworks",
+  "collected_at": "2026-10-17T16:12:21.771374+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "fastapi/fastapi",
+  "metadata": {
+    "html_url": "https://github.com/fastapi/fastapi",
+    "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+    "homepage": "https://fastapi.tiangolo.com/",
+    "language": "Python",
+    "stargazers_count": 103166,
+    "forks_count": 10049,
+    "open_issues_count": 82,
+    "pushed_at": "2026-10-16T14:13:36Z",
+    "created_at": "2018-12-08T08:21:47Z",
+    "archived": false,
+    "default_branch": "master",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [
+      "api",
+      "async",
+      "asyncio",
+      "fastapi",
+      "framework",
+      "json",
+      "json-schema",
+      "openapi",
+      "openapi3",
+      "pydantic",
+      "python",
+      "python-types",
+      "python3",
+      "redoc",
+      "rest",
+      "starlette",
+      "swagger",
+      "swagger-ui",
+      "uvicorn",
+      "web"
+    ],
+    "owner": {
+      "login": "fastapi",
+      "type": "Organization",
+      "html_url": "https://github.com/fastapi"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6",
+      "url": "https://github.com/fastapi/fastapi/commit/bb7f314287bf36e04539c572a2256d94ea45f0d6",
+      "date": "2026-10-16T14:12:16Z",
+      "subject": "🔖 Release version 0.143.3 (#16510)"
+    },
+    {
+      "sha": "c34a14c659b52ee4dd4ff592d16221b0ceaebb76",
+      "url": "https://github.com/fastapi/fastapi/commit/c34a14c659b52ee4dd4ff592d16221b0ceaebb76",
+      "date": "2026-10-16T14:03:26Z",
+      "subject": "📝 Update release notes"
+    },
+    {
+      "sha": "d1fd422fd9c3b24b0e2bcf1cc89f1e7249b5fcd6",
+      "url": "https://github.com/fastapi/fastapi/commit/d1fd422fd9c3b24b0e2bcf1cc89f1e7249b5fcd6",
+      "date": "2026-10-16T14:03:22Z",
+      "subject": "🐛 Fix non-finite float serialization in JSONL and SSE streams (#16509)"
+    },
+    {
+      "sha": "0b919816378eaa773df7ce4204414c712c9fdbea",
+      "url": "https://github.com/fastapi/fastapi/commit/0b919816378eaa773df7ce4204414c712c9fdbea",
+      "date": "2026-10-15T14:24:57Z",
+      "subject": "📝 Update release notes"
+    },
+    {
+      "sha": "64efa4fe956c8e278960213c120d26255d852193",
+      "url": "https://github.com/fastapi/fastapi/commit/64efa4fe956c8e278960213c120d26255d852193",
+      "date": "2026-10-15T14:24:53Z",
+      "subject": "🎨 Update Python format in Markdown with Ruff (#16505)"
+    },
+    {
+      "sha": "ba24dc3bc011bad3efdbd68b9d529faae2c2993c",
+      "url": "https://github.com/fastapi/fastapi/commit/ba24dc3bc011bad3efdbd68b9d529faae2c2993c",
+      "date": "2026-10-15T13:32:44Z",
+      "subject": "🔖 Release version 0.143.2 (#16504)"
+    },
+    {
+      "sha": "98050eeaf006cf26e9a8b7f83d26fe00d74091ba",
+      "url": "https://github.com/fastapi/fastapi/commit/98050eeaf006cf26e9a8b7f83d26fe00d74091ba",
+      "date": "2026-10-15T13:22:32Z",
+      "subject": "📝 Update release notes"
+    },
+    {
+      "sha": "d0282a388b3875dfdfd69813693608676006254f",
+      "url": "https://github.com/fastapi/fastapi/commit/d0282a388b3875dfdfd69813693608676006254f",
+      "date": "2026-10-15T13:22:29Z",
+      "subject": "🐛 Fix blocking frontend fallback file checks (#16503)"
+    },
+    {
+      "sha": "db04f5b7ed05e3408be73d2c62ae04653be3b3fb",
+      "url": "https://github.com/fastapi/fastapi/commit/db04f5b7ed05e3408be73d2c62ae04653be3b3fb",
+      "date": "2026-10-15T08:29:46Z",
+      "subject": "📝 Update release notes"
+    },
+    {
+      "sha": "fd0614cac4c5eb57e08ba82c63be0824453dafe2",
+      "url": "https://github.com/fastapi/fastapi/commit/fd0614cac4c5eb57e08ba82c63be0824453dafe2",
+      "date": "2026-10-15T08:29:43Z",
+      "subject": "🌐 Update translations for zh-hant (update-outdated) (#16500)"
+    },
+    {
+      "sha": "0c83cfae23d8068c9a3a5151ae69cac2e4e894d9",
+      "url": "https://github.com/fastapi/fastapi/commit/0c83cfae23d8068c9a3a5151ae69cac2e4e894d9",
+      "date": "2026-10-15T08:29:17Z",
+      "subject": "📝 Update release notes"
+    },
+    {
+      "sha": "6955ff746c204465ccbc8d648d86f5545a3bb55f",
+      "url": "https://github.com/fastapi/fastapi/commit/6955ff746c204465ccbc8d648d86f5545a3bb55f",
+      "date": "2026-10-15T08:29:14Z",
+      "subject": "🌐 Update translations for ja (update-outdated) (#16499)"
+    },
+    {
+      "sha": "aa1c3bac294c51b99728ef155d99569047598e04",
+      "url": "https://github.com/fastapi/fastapi/commit/aa1c3bac294c51b99728ef155d99569047598e04",
+      "date": "2026-10-15T08:15:58Z",
+      "subject": "📝 Update release notes"
+    },
+    {
+      "sha": "f6f33b2cb225ce981ddfefcb869c000d945062c6",
+      "url": "https://github.com/fastapi/fastapi/commit/f6f33b2cb225ce981ddfefcb869c000d945062c6",
+      "date": "2026-10-15T08:15:54Z",
+      "subject": "🌐 Update translations for zh (update-outdated) (#16501)"
+    },
+    {
+      "sha": "0474a7e88d7f294cc0985bea0913bbafbb7a8a66",
+      "url": "https://github.com/fastapi/fastapi/commit/0474a7e88d7f294cc0985bea0913bbafbb7a8a66",
+      "date": "2026-10-15T08:14:58Z",
+      "subject": "📝 Update release notes"
+    },
+    {
+      "sha": "f1b6537367ce648bb4fb192d79d6229b70b595fb",
+      "url": "https://github.com/fastapi/fastapi/commit/f1b6537367ce648bb4fb192d79d6229b70b595fb",
+      "date": "2026-10-15T08:14:55Z",
+      "subject": "🌐 Update translations for hi (update-outdated) (#16498)"
+    },
+    {
+      "sha": "4106c301cdc9c2a8f270cfe3c9aa4c071b941bae",
+      "url": "https://github.com/fastapi/fastapi/commit/4106c301cdc9c2a8f270cfe3c9aa4c071b941bae",
+      "date": "2026-10-15T08:08:23Z",
+      "subject": "📝 Update release notes"
+    },
+    {
+      "sha": "c253c7c24493be0027856c5c2acba69222e03fe6",
+      "url": "https://github.com/fastapi/fastapi/commit/c253c7c24493be0027856c5c2acba69222e03fe6",
+      "date": "2026-10-15T08:08:20Z",
+      "subject": "🌐 Update translations for es (update-outdated) (#16497)"
+    },
+    {
+      "sha": "f3567463adb3984b97a4f2380821adc6a4654cc2",
+      "url": "https://github.com/fastapi/fastapi/commit/f3567463adb3984b97a4f2380821adc6a4654cc2",
+      "date": "2026-10-15T08:07:41Z",
+      "subject": "📝 Update release notes"
+    },
+    {
+      "sha": "3df7809a25c3952dbde35779d38ed3d2df29c6a4",
+      "url": "https://github.com/fastapi/fastapi/commit/3df7809a25c3952dbde35779d38ed3d2df29c6a4",
+      "date": "2026-10-15T08:07:37Z",
+      "subject": "🌐 Update translations for fr (update-outdated) (#16495)"
+    }
+  ],
+  "default_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6",
+  "root_and_selected_directory_paths": [
+    ".github",
+    ".github/DISCUSSION_TEMPLATE",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/privileged.yml",
+    ".github/dependabot.yml",
+    ".github/latest-changes.yml",
+    ".github/pr-push.yml",
+    ".github/pr-submit.yml",
+    ".github/workflows",
+    ".github/workflows/add-to-project.yml",
+    ".github/workflows/build-docs.yml",
+    ".github/workflows/bump-pre-commit-hooks.yml",
+    ".github/workflows/create-draft-release.yml",
+    ".github/workflows/deploy-docs.yml",
+    ".github/workflows/detect-conflicts.yml",
+    ".github/workflows/guard-dependencies.yml",
+    ".github/workflows/issue-manager.yml",
+    ".github/workflows/label-approved.yml",
+    ".github/workflows/notify-translations.yml",
+    ".github/workflows/pre-commit.yml",
+    ".github/workflows/prepare-release.yml",
+    ".github/workflows/publish.yml",
+    ".github/workflows/smokeshow.yml",
+    ".github/workflows/sponsors.yml",
+    ".github/workflows/test-redistribute.yml",
+    ".github/workflows/test.yml",
+    ".github/workflows/topic-repos.yml",
+    ".github/workflows/translate.yml",
+    ".github/workflows/zizmor.yml",
+    ".gitignore",
+    ".pre-commit-config.yaml",
+    ".python-version",
+    "CITATION.cff",
+    "LICENSE",
+    "README.md",
+    "docs",
+    "docs/de",
+    "docs/en",
+    "docs/es",
+    "docs/fr",
+    "docs/hi",
+    "docs/ja",
+    "docs/ko",
+    "docs/language_names.yml",
+    "docs/missing-translation.md",
+    "docs/pt",
+    "docs/ru",
+    "docs/tr",
+    "docs/uk",
+    "docs/zh",
+    "docs/zh-hant",
+    "docs_src",
+    "fastapi",
+    "pyproject.toml",
+    "scripts",
+    "tests",
+    "uv.lock"
+  ],
+  "workflow_paths": [
+    ".github/workflows/create-draft-release.yml",
+    ".github/workflows/guard-dependencies.yml",
+    ".github/workflows/prepare-release.yml",
+    ".github/workflows/publish.yml",
+    ".github/workflows/test-redistribute.yml",
+    ".github/workflows/test.yml",
+    ".github/workflows/add-to-project.yml",
+    ".github/workflows/build-docs.yml",
+    ".github/workflows/bump-pre-commit-hooks.yml",
+    ".github/workflows/deploy-docs.yml",
+    ".github/workflows/detect-conflicts.yml",
+    ".github/workflows/issue-manager.yml",
+    ".github/workflows/label-approved.yml",
+    ".github/workflows/notify-translations.yml",
+    ".github/workflows/pre-commit.yml",
+    ".github/workflows/smokeshow.yml",
+    ".github/workflows/sponsors.yml",
+    ".github/workflows/topic-repos.yml",
+    ".github/workflows/translate.yml",
+    ".github/workflows/zizmor.yml"
+  ],
+  "documents": [
+    {
+      "path": "README.md",
+      "sha": "3db2f525237857e1ab125615b28533e288d1833a",
+      "status": "inspected",
+      "url": "https://github.com/fastapi/fastapi/blob/bb7f314287bf36e04539c572a2256d94ea45f0d6/README.md",
+      "lines": 533,
+      "signals": {
+        "tests": [
+          436
+        ],
+        "lint": [],
+        "generated_code": [
+          395
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          9,
+          15,
+          18
+        ],
+        "media": [
+          2,
+          9,
+          12,
+          15,
+          18,
+          50,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "31b5ba84a5d73c8d9fbf45686572dad8aee659f9",
+      "status": "inspected",
+      "url": "https://github.com/fastapi/fastapi/blob/bb7f314287bf36e04539c572a2256d94ea45f0d6/pyproject.toml",
+      "lines": 422,
+      "signals": {
+        "tests": [
+          187,
+          188,
+          195,
+          196,
+          197,
+          198,
+          239
+        ],
+        "lint": [
+          144,
+          161,
+          283,
+          287,
+          298,
+          303,
+          327,
+          330
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "fd9f3b11c5830b30b1d39beb124108183c9d84af",
+      "status": "inspected",
+      "url": "https://github.com/fastapi/fastapi/blob/bb7f314287bf36e04539c572a2256d94ea45f0d6/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 16,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          4
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          7,
+          10,
+          13,
+          16
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/privileged.yml",
+      "sha": "2b85eb310b30655faa6976d429c142c98de40492",
+      "status": "inspected",
+      "url": "https://github.com/fastapi/fastapi/blob/bb7f314287bf36e04539c572a2256d94ea45f0d6/.github/ISSUE_TEMPLATE/privileged.yml",
+      "lines": 22,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          9
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "2e0061f5e5dfaeeda49d050646d0a8c35a129f0d",
+      "status": "inspected",
+      "url": "https://github.com/fastapi/fastapi/blob/bb7f314287bf36e04539c572a2256d94ea45f0d6/.github/dependabot.yml",
+      "lines": 33,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/create-draft-release.yml",
+      "sha": "5c9c3195d42b68af5031de1828e6768329625f57",
+      "status": "inspected",
+      "url": "https://github.com/fastapi/fastapi/blob/bb7f314287bf36e04539c572a2256d94ea45f0d6/.github/workflows/create-draft-release.yml",
+      "lines": 54,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          50
+        ],
+        "permissions": [
+          8,
+          15,
+          16
+        ],
+        "pinned_actions": [
+          25,
+          30,
+          34
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/guard-dependencies.yml",
+      "sha": "142c7e50edebb6068a1cf6ea24638db683ef25a6",
+      "status": "inspected",
+      "url": "https://github.com/fastapi/fastapi/blob/bb7f314287bf36e04539c572a2256d94ea45f0d6/.github/workflows/guard-dependencies.yml",
+      "lines": 53,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10
+        ],
+        "pinned_actions": [
+          21
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          40
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/prepare-release.yml",
+      "sha": "bd9eacc6fbf54894e68fe0ec672ac88e415c2c5d",
+      "status": "inspected",
+      "url": "https://github.com/fastapi/fastapi/blob/bb7f314287bf36e04539c572a2256d94ea45f0d6/.github/workflows/prepare-release.yml",
+      "lines": 80,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          19,
+          25,
+          27
+        ],
+        "pinned_actions": [
+          36,
+          40,
+          44,
+          60
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "sha": "d17cf6945bc653a25d4e2e3ba3411f2e15a3329a",
+      "status": "inspected",
+      "url": "https://github.com/fastapi/fastapi/blob/bb7f314287bf36e04539c572a2256d94ea45f0d6/.github/workflows/publish.yml",
+      "lines": 37,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8,
+          13,
+          14
+        ],
+        "pinned_actions": [
+          22,
+          26,
+          30
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test-redistribute.yml",
+      "sha": "7e90d4be6bf07b58f75ce446d7cae94859ca061c",
+      "status": "inspected",
+      "url": "https://github.com/fastapi/fastapi/blob/bb7f314287bf36e04539c572a2256d94ea45f0d6/.github/workflows/test-redistribute.yml",
+      "lines": 62,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8
+        ],
+        "pinned_actions": [
+          19,
+          23,
+          60
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "sha": "a1fa1f8a1a0b2a8cf01b6233ffea9c7b78f4a53f",
+      "status": "inspected",
+      "url": "https://github.com/fastapi/fastapi/blob/bb7f314287bf36e04539c572a2256d94ea45f0d6/.github/workflows/test.yml",
+      "lines": 332,
+      "signals": {
+        "tests": [
+          144,
+          148,
+          193,
+          198,
+          259,
+          267
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12,
+          22
+        ],
+        "pinned_actions": [
+          29,
+          33,
+          110,
+          114,
+          118,
+          152,
+          172,
+          176,
+          180,
+          190,
+          195,
+          206
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/add-to-project.yml",
+      "sha": "35d089860c07306cb8c912c67f60c5679b5d3094",
+      "status": "inspected",
+      "url": "https://github.com/fastapi/fastapi/blob/bb7f314287bf36e04539c572a2256d94ea45f0d6/.github/workflows/add-to-project.yml",
+      "lines": 21,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10
+        ],
+        "pinned_actions": [
+          18
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "sha": "a5e6af6d066af41303c4a710c668a8c0d5d986a8",
+      "status": "inspected",
+      "url": "https://github.com/fastapi/fastapi/blob/bb7f314287bf36e04539c572a2256d94ea45f0d6/.github/workflows/build-docs.yml",
+      "lines": 129,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7,
+          13
+        ],
+        "pinned_actions": [
+          20,
+          24,
+          46,
+          50,
+          54,
+          83,
+          87,
+          91,
+          105,
+          126
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/bump-pre-commit-hooks.yml",
+      "sha": "58bb20b090879360085ae7da8764d458648c54cb",
+      "status": "inspected",
+      "url": "https://github.com/fastapi/fastapi/blob/bb7f314287bf36e04539c572a2256d94ea45f0d6/.github/workflows/bump-pre-commit-hooks.yml",
+      "lines": 71,
+      "signals": {
+        "tests": [],
+        "lint": [
+          1,
+          11,
+          37,
+          49,
+          54,
+          56,
+          57,
+          64,
+          65,
+          68
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8,
+          15,
+          17
+        ],
+        "pinned_actions": [
+          23,
+          27,
+          31,
+          41
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "sha": "076d1c286bd7e1c2fab3069c289aabe9ab259c5a",
+      "status": "inspected",
+      "url": "https://github.com/fastapi/fastapi/blob/bb7f314287bf36e04539c572a2256d94ea45f0d6/.github/workflows/deploy-docs.yml",
+      "lines": 84,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9,
+          14
+        ],
+        "pinned_actions": [
+          25,
+          29,
+          33,
+          50,
+          64
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/detect-conflicts.yml",
+      "sha": "ecd288ba19b3d374f4353076bb36be677c180b89",
+      "status": "inspected",
+      "url": "https://github.com/fastapi/fastapi/blob/bb7f314287bf36e04539c572a2256d94ea45f0d6/.github/workflows/detect-conflicts.yml",
+      "lines": 22,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7,
+          11
+        ],
+        "pinned_actions": [
+          18
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/issue-manager.yml",
+      "sha": "e7f3a5f539e9330b4a85867fa7396deb4ebd043d",
+      "status": "inspected",
+      "url": "https://github.com/fastapi/fastapi/blob/bb7f314287bf36e04539c572a2256d94ea45f0d6/.github/workflows/issue-manager.yml",
+      "lines": 34,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          17,
+          23
+        ],
+        "pinned_actions": [
+          32
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 16510,
+      "title": "🔖 Release version 0.143.3",
+      "url": "https://github.com/fastapi/fastapi/pull/16510",
+      "merged_at": "2026-10-16T14:12:17Z",
+      "merge_commit_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6",
+      "files": [
+        "docs/en/docs/release-notes.md",
+        "fastapi/__init__.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "docs/en/docs/release-notes.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/fastapi/fastapi/blob/378c0d4556646dc59541bb5e493cb5d2703444e9/docs%2Fen%2Fdocs%2Frelease-notes.md"
+        },
+        {
+          "filename": "fastapi/__init__.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/fastapi/fastapi/blob/378c0d4556646dc59541bb5e493cb5d2703444e9/fastapi%2F__init__.py"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39047826183,
+          "name": "Deploy Docs",
+          "path": ".github/workflows/deploy-docs.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/39047826183",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        },
+        {
+          "id": 39047760415,
+          "name": "Smokeshow",
+          "path": ".github/workflows/smokeshow.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/39047760415",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        },
+        {
+          "id": 39032048356,
+          "name": "Label Approved",
+          "path": ".github/workflows/label-approved.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/39032048356",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        },
+        {
+          "id": 38975183533,
+          "name": "Issue Manager",
+          "path": ".github/workflows/issue-manager.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38975183533",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        },
+        {
+          "id": 38914722557,
+          "name": "Smokeshow",
+          "path": ".github/workflows/smokeshow.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38914722557",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        },
+        {
+          "id": 38914268532,
+          "name": "Deploy Docs",
+          "path": ".github/workflows/deploy-docs.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38914268532",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        },
+        {
+          "id": 38914050657,
+          "name": "Conflict detector",
+          "path": ".github/workflows/detect-conflicts.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38914050657",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        },
+        {
+          "id": 38914051073,
+          "name": "Publish",
+          "path": ".github/workflows/publish.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38914051073",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        },
+        {
+          "id": 38913878020,
+          "name": "Test",
+          "path": ".github/workflows/test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38913878020",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        },
+        {
+          "id": 38913877919,
+          "name": "Zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38913877919",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38913879975,
+          "name": "Create Draft Release",
+          "path": ".github/workflows/create-draft-release.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38913879975",
+          "head_sha": "378c0d4556646dc59541bb5e493cb5d2703444e9"
+        },
+        {
+          "id": 38913879835,
+          "name": "Notify Translations",
+          "path": ".github/workflows/notify-translations.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38913879835",
+          "head_sha": "378c0d4556646dc59541bb5e493cb5d2703444e9"
+        },
+        {
+          "id": 38912885965,
+          "name": "Add to Project",
+          "path": ".github/workflows/add-to-project.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38912885965",
+          "head_sha": "378c0d4556646dc59541bb5e493cb5d2703444e9"
+        },
+        {
+          "id": 38912886103,
+          "name": "Issue Manager",
+          "path": ".github/workflows/issue-manager.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38912886103",
+          "head_sha": "378c0d4556646dc59541bb5e493cb5d2703444e9"
+        },
+        {
+          "id": 38912885983,
+          "name": "Zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38912885983",
+          "head_sha": "378c0d4556646dc59541bb5e493cb5d2703444e9"
+        },
+        {
+          "id": 38912885281,
+          "name": "Notify Translations",
+          "path": ".github/workflows/notify-translations.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38912885281",
+          "head_sha": "378c0d4556646dc59541bb5e493cb5d2703444e9"
+        },
+        {
+          "id": 38912885595,
+          "name": "Test Redistribute",
+          "path": ".github/workflows/test-redistribute.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38912885595",
+          "head_sha": "378c0d4556646dc59541bb5e493cb5d2703444e9"
+        },
+        {
+          "id": 38912886292,
+          "name": "pre-commit",
+          "path": ".github/workflows/pre-commit.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38912886292",
+          "head_sha": "378c0d4556646dc59541bb5e493cb5d2703444e9"
+        },
+        {
+          "id": 38912885654,
+          "name": "Build Docs",
+          "path": ".github/workflows/build-docs.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38912885654",
+          "head_sha": "378c0d4556646dc59541bb5e493cb5d2703444e9"
+        },
+        {
+          "id": 38912885916,
+          "name": "Test",
+          "path": ".github/workflows/test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38912885916",
+          "head_sha": "378c0d4556646dc59541bb5e493cb5d2703444e9"
+        }
+      ]
+    },
+    {
+      "number": 16509,
+      "title": "🐛 Fix non-finite float serialization in JSONL and SSE streams",
+      "url": "https://github.com/fastapi/fastapi/pull/16509",
+      "merged_at": "2026-10-16T14:03:23Z",
+      "merge_commit_sha": "d1fd422fd9c3b24b0e2bcf1cc89f1e7249b5fcd6",
+      "files": [
+        "fastapi/routing.py",
+        "tests/test_stream_non_finite_floats.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "fastapi/routing.py",
+          "status": "modified",
+          "additions": 20,
+          "deletions": 2,
+          "blob_url": "https://github.com/fastapi/fastapi/blob/0286882b204fa521d9d2f93bf1d8c471f3970989/fastapi%2Frouting.py"
+        },
+        {
+          "filename": "tests/test_stream_non_finite_floats.py",
+          "status": "added",
+          "additions": 89,
+          "deletions": 0,
+          "blob_url": "https://github.com/fastapi/fastapi/blob/0286882b204fa521d9d2f93bf1d8c471f3970989/tests%2Ftest_stream_non_finite_floats.py"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38912689739,
+          "name": "Test Redistribute",
+          "path": ".github/workflows/test-redistribute.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38912689739",
+          "head_sha": "d1fd422fd9c3b24b0e2bcf1cc89f1e7249b5fcd6"
+        },
+        {
+          "id": 38912689810,
+          "name": "Build Docs",
+          "path": ".github/workflows/build-docs.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38912689810",
+          "head_sha": "d1fd422fd9c3b24b0e2bcf1cc89f1e7249b5fcd6"
+        },
+        {
+          "id": 38912690044,
+          "name": "Zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38912690044",
+          "head_sha": "d1fd422fd9c3b24b0e2bcf1cc89f1e7249b5fcd6"
+        },
+        {
+          "id": 38912690181,
+          "name": "Push on master",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38912690181",
+          "head_sha": "d1fd422fd9c3b24b0e2bcf1cc89f1e7249b5fcd6"
+        },
+        {
+          "id": 38912689671,
+          "name": "Conflict detector",
+          "path": ".github/workflows/detect-conflicts.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38912689671",
+          "head_sha": "d1fd422fd9c3b24b0e2bcf1cc89f1e7249b5fcd6"
+        },
+        {
+          "id": 38912689702,
+          "name": "Test",
+          "path": ".github/workflows/test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38912689702",
+          "head_sha": "d1fd422fd9c3b24b0e2bcf1cc89f1e7249b5fcd6"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38912691366,
+          "name": "Notify Translations",
+          "path": ".github/workflows/notify-translations.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38912691366",
+          "head_sha": "0286882b204fa521d9d2f93bf1d8c471f3970989"
+        },
+        {
+          "id": 38912691956,
+          "name": "Create Draft Release",
+          "path": ".github/workflows/create-draft-release.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38912691956",
+          "head_sha": "0286882b204fa521d9d2f93bf1d8c471f3970989"
+        },
+        {
+          "id": 38911866900,
+          "name": "Test",
+          "path": ".github/workflows/test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38911866900",
+          "head_sha": "0286882b204fa521d9d2f93bf1d8c471f3970989"
+        },
+        {
+          "id": 38911867379,
+          "name": "Add to Project",
+          "path": ".github/workflows/add-to-project.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38911867379",
+          "head_sha": "0286882b204fa521d9d2f93bf1d8c471f3970989"
+        },
+        {
+          "id": 38911866905,
+          "name": "Issue Manager",
+          "path": ".github/workflows/issue-manager.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38911866905",
+          "head_sha": "0286882b204fa521d9d2f93bf1d8c471f3970989"
+        },
+        {
+          "id": 38911867533,
+          "name": "Notify Translations",
+          "path": ".github/workflows/notify-translations.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38911867533",
+          "head_sha": "0286882b204fa521d9d2f93bf1d8c471f3970989"
+        },
+        {
+          "id": 38911866920,
+          "name": "Zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38911866920",
+          "head_sha": "0286882b204fa521d9d2f93bf1d8c471f3970989"
+        },
+        {
+          "id": 38911866688,
+          "name": "Build Docs",
+          "path": ".github/workflows/build-docs.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38911866688",
+          "head_sha": "0286882b204fa521d9d2f93bf1d8c471f3970989"
+        },
+        {
+          "id": 38911867086,
+          "name": "pre-commit",
+          "path": ".github/workflows/pre-commit.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38911867086",
+          "head_sha": "0286882b204fa521d9d2f93bf1d8c471f3970989"
+        },
+        {
+          "id": 38911867123,
+          "name": "Test Redistribute",
+          "path": ".github/workflows/test-redistribute.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38911867123",
+          "head_sha": "0286882b204fa521d9d2f93bf1d8c471f3970989"
+        }
+      ]
+    },
+    {
+      "number": 16503,
+      "title": "🐛 Fix blocking frontend fallback file checks",
+      "url": "https://github.com/fastapi/fastapi/pull/16503",
+      "merged_at": "2026-10-15T13:22:30Z",
+      "merge_commit_sha": "d0282a388b3875dfdfd69813693608676006254f",
+      "files": [
+        "fastapi/routing.py",
+        "tests/test_frontend.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "fastapi/routing.py",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 4,
+          "blob_url": "https://github.com/fastapi/fastapi/blob/22e2175ddf4cbbbccc72194c14d5f44f0d57a31f/fastapi%2Frouting.py"
+        },
+        {
+          "filename": "tests/test_frontend.py",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 1,
+          "blob_url": "https://github.com/fastapi/fastapi/blob/22e2175ddf4cbbbccc72194c14d5f44f0d57a31f/tests%2Ftest_frontend.py"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38742149660,
+          "name": "Test",
+          "path": ".github/workflows/test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38742149660",
+          "head_sha": "d0282a388b3875dfdfd69813693608676006254f"
+        },
+        {
+          "id": 38742149652,
+          "name": "Zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38742149652",
+          "head_sha": "d0282a388b3875dfdfd69813693608676006254f"
+        },
+        {
+          "id": 38742149753,
+          "name": "Build Docs",
+          "path": ".github/workflows/build-docs.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38742149753",
+          "head_sha": "d0282a388b3875dfdfd69813693608676006254f"
+        },
+        {
+          "id": 38742149511,
+          "name": "Test Redistribute",
+          "path": ".github/workflows/test-redistribute.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38742149511",
+          "head_sha": "d0282a388b3875dfdfd69813693608676006254f"
+        },
+        {
+          "id": 38742150143,
+          "name": "Push on master",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38742150143",
+          "head_sha": "d0282a388b3875dfdfd69813693608676006254f"
+        },
+        {
+          "id": 38742149371,
+          "name": "Conflict detector",
+          "path": ".github/workflows/detect-conflicts.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38742149371",
+          "head_sha": "d0282a388b3875dfdfd69813693608676006254f"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38742150403,
+          "name": "Create Draft Release",
+          "path": ".github/workflows/create-draft-release.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38742150403",
+          "head_sha": "22e2175ddf4cbbbccc72194c14d5f44f0d57a31f"
+        },
+        {
+          "id": 38742150209,
+          "name": "Notify Translations",
+          "path": ".github/workflows/notify-translations.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38742150209",
+          "head_sha": "22e2175ddf4cbbbccc72194c14d5f44f0d57a31f"
+        },
+        {
+          "id": 38740079264,
+          "name": "Add to Project",
+          "path": ".github/workflows/add-to-project.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38740079264",
+          "head_sha": "22e2175ddf4cbbbccc72194c14d5f44f0d57a31f"
+        },
+        {
+          "id": 38740081104,
+          "name": "Issue Manager",
+          "path": ".github/workflows/issue-manager.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38740081104",
+          "head_sha": "22e2175ddf4cbbbccc72194c14d5f44f0d57a31f"
+        },
+        {
+          "id": 38740080933,
+          "name": "Notify Translations",
+          "path": ".github/workflows/notify-translations.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38740080933",
+          "head_sha": "22e2175ddf4cbbbccc72194c14d5f44f0d57a31f"
+        },
+        {
+          "id": 38740078968,
+          "name": "Test",
+          "path": ".github/workflows/test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38740078968",
+          "head_sha": "22e2175ddf4cbbbccc72194c14d5f44f0d57a31f"
+        },
+        {
+          "id": 38740078982,
+          "name": "Test Redistribute",
+          "path": ".github/workflows/test-redistribute.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38740078982",
+          "head_sha": "22e2175ddf4cbbbccc72194c14d5f44f0d57a31f"
+        },
+        {
+          "id": 38740079010,
+          "name": "Build Docs",
+          "path": ".github/workflows/build-docs.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38740079010",
+          "head_sha": "22e2175ddf4cbbbccc72194c14d5f44f0d57a31f"
+        },
+        {
+          "id": 38740078925,
+          "name": "Zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38740078925",
+          "head_sha": "22e2175ddf4cbbbccc72194c14d5f44f0d57a31f"
+        },
+        {
+          "id": 38740078979,
+          "name": "pre-commit",
+          "path": ".github/workflows/pre-commit.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38740078979",
+          "head_sha": "22e2175ddf4cbbbccc72194c14d5f44f0d57a31f"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "0.143.3",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.143.3",
+      "published_at": "2026-10-16T14:13:36Z",
+      "target_commitish": "bb7f314287bf36e04539c572a2256d94ea45f0d6",
+      "commit_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 39047826183,
+          "name": "Deploy Docs",
+          "path": ".github/workflows/deploy-docs.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/39047826183",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        },
+        {
+          "id": 39047760415,
+          "name": "Smokeshow",
+          "path": ".github/workflows/smokeshow.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/39047760415",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        },
+        {
+          "id": 39032048356,
+          "name": "Label Approved",
+          "path": ".github/workflows/label-approved.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/39032048356",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        },
+        {
+          "id": 38975183533,
+          "name": "Issue Manager",
+          "path": ".github/workflows/issue-manager.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38975183533",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        },
+        {
+          "id": 38914722557,
+          "name": "Smokeshow",
+          "path": ".github/workflows/smokeshow.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38914722557",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        },
+        {
+          "id": 38914268532,
+          "name": "Deploy Docs",
+          "path": ".github/workflows/deploy-docs.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38914268532",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        },
+        {
+          "id": 38914050657,
+          "name": "Conflict detector",
+          "path": ".github/workflows/detect-conflicts.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38914050657",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        },
+        {
+          "id": 38914051073,
+          "name": "Publish",
+          "path": ".github/workflows/publish.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38914051073",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        },
+        {
+          "id": 38913878020,
+          "name": "Test",
+          "path": ".github/workflows/test.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38913878020",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        },
+        {
+          "id": 38913877919,
+          "name": "Zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38913877919",
+          "head_sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+        }
+      ]
+    },
+    {
+      "tag": "0.143.2",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.143.2",
+      "published_at": "2026-10-15T13:33:52Z",
+      "target_commitish": "ba24dc3bc011bad3efdbd68b9d529faae2c2993c",
+      "commit_sha": "ba24dc3bc011bad3efdbd68b9d529faae2c2993c",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38751070122,
+          "name": "Smokeshow",
+          "path": ".github/workflows/smokeshow.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38751070122",
+          "head_sha": "ba24dc3bc011bad3efdbd68b9d529faae2c2993c"
+        },
+        {
+          "id": 38750406380,
+          "name": "Deploy Docs",
+          "path": ".github/workflows/deploy-docs.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38750406380",
+          "head_sha": "ba24dc3bc011bad3efdbd68b9d529faae2c2993c"
+        },
+        {
+          "id": 38748734065,
+          "name": "Smokeshow",
+          "path": ".github/workflows/smokeshow.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38748734065",
+          "head_sha": "ba24dc3bc011bad3efdbd68b9d529faae2c2993c"
+        },
+        {
+          "id": 38748303400,
+          "name": "Deploy Docs",
+          "path": ".github/workflows/deploy-docs.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38748303400",
+          "head_sha": "ba24dc3bc011bad3efdbd68b9d529faae2c2993c"
+        },
+        {
+          "id": 38748185178,
+          "name": "Smokeshow",
+          "path": ".github/workflows/smokeshow.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38748185178",
+          "head_sha": "ba24dc3bc011bad3efdbd68b9d529faae2c2993c"
+        },
+        {
+          "id": 38747738141,
+          "name": "Issue Manager",
+          "path": ".github/workflows/issue-manager.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38747738141",
+          "head_sha": "ba24dc3bc011bad3efdbd68b9d529faae2c2993c"
+        },
+        {
+          "id": 38747691151,
+          "name": "Deploy Docs",
+          "path": ".github/workflows/deploy-docs.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38747691151",
+          "head_sha": "ba24dc3bc011bad3efdbd68b9d529faae2c2993c"
+        },
+        {
+          "id": 38744488622,
+          "name": "Smokeshow",
+          "path": ".github/workflows/smokeshow.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38744488622",
+          "head_sha": "ba24dc3bc011bad3efdbd68b9d529faae2c2993c"
+        },
+        {
+          "id": 38743996495,
+          "name": "Deploy Docs",
+          "path": ".github/workflows/deploy-docs.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38743996495",
+          "head_sha": "ba24dc3bc011bad3efdbd68b9d529faae2c2993c"
+        },
+        {
+          "id": 38743769712,
+          "name": "Conflict detector",
+          "path": ".github/workflows/detect-conflicts.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38743769712",
+          "head_sha": "ba24dc3bc011bad3efdbd68b9d529faae2c2993c"
+        }
+      ]
+    },
+    {
+      "tag": "0.143.1",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.143.1",
+      "published_at": "2026-10-14T12:52:51Z",
+      "target_commitish": "4dda4625bdc19ce5ae946c152298f70d4d4fc5ed",
+      "commit_sha": "4dda4625bdc19ce5ae946c152298f70d4d4fc5ed",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38625035855,
+          "name": "Smokeshow",
+          "path": ".github/workflows/smokeshow.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38625035855",
+          "head_sha": "4dda4625bdc19ce5ae946c152298f70d4d4fc5ed"
+        },
+        {
+          "id": 38624676536,
+          "name": "Deploy Docs",
+          "path": ".github/workflows/deploy-docs.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38624676536",
+          "head_sha": "4dda4625bdc19ce5ae946c152298f70d4d4fc5ed"
+        },
+        {
+          "id": 38624671582,
+          "name": "Issue Manager",
+          "path": ".github/workflows/issue-manager.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38624671582",
+          "head_sha": "4dda4625bdc19ce5ae946c152298f70d4d4fc5ed"
+        },
+        {
+          "id": 38622286162,
+          "name": "Issue Manager",
+          "path": ".github/workflows/issue-manager.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38622286162",
+          "head_sha": "4dda4625bdc19ce5ae946c152298f70d4d4fc5ed"
+        },
+        {
+          "id": 38595180403,
+          "name": "Issue Manager",
+          "path": ".github/workflows/issue-manager.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38595180403",
+          "head_sha": "4dda4625bdc19ce5ae946c152298f70d4d4fc5ed"
+        },
+        {
+          "id": 38567757103,
+          "name": "Smokeshow",
+          "path": ".github/workflows/smokeshow.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38567757103",
+          "head_sha": "4dda4625bdc19ce5ae946c152298f70d4d4fc5ed"
+        },
+        {
+          "id": 38567392489,
+          "name": "Deploy Docs",
+          "path": ".github/workflows/deploy-docs.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38567392489",
+          "head_sha": "4dda4625bdc19ce5ae946c152298f70d4d4fc5ed"
+        },
+        {
+          "id": 38567225809,
+          "name": "Publish",
+          "path": ".github/workflows/publish.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38567225809",
+          "head_sha": "4dda4625bdc19ce5ae946c152298f70d4d4fc5ed"
+        },
+        {
+          "id": 38567225229,
+          "name": "Conflict detector",
+          "path": ".github/workflows/detect-conflicts.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38567225229",
+          "head_sha": "4dda4625bdc19ce5ae946c152298f70d4d4fc5ed"
+        },
+        {
+          "id": 38566992399,
+          "name": "Zizmor",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/fastapi/fastapi/actions/runs/38566992399",
+          "head_sha": "4dda4625bdc19ce5ae946c152298f70d4d4fc5ed"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v0.1.16",
+      "sha": "3c08b05ea6b58b3e5564c026f071cbb0979a6797"
+    },
+    {
+      "name": "0.143.3",
+      "sha": "bb7f314287bf36e04539c572a2256d94ea45f0d6"
+    },
+    {
+      "name": "0.143.2",
+      "sha": "ba24dc3bc011bad3efdbd68b9d529faae2c2993c"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:10.273998+00:00",
+  "source_times": {
+    "/repos/fastapi/fastapi": "2026-10-17T16:12:21.771374+00:00",
+    "/repos/fastapi/fastapi/commits?sha=master&per_page=20": "2026-10-17T16:12:24.349818+00:00",
+    "/repos/fastapi/fastapi/git/trees/bb7f314287bf36e04539c572a2256d94ea45f0d6": "2026-10-17T16:12:25.717955+00:00",
+    "/repos/fastapi/fastapi/git/trees/3ba4f82fbe93b1d1159bbba6ee9b9b313d3ddce9": "2026-10-17T16:12:27.104725+00:00",
+    "/repos/fastapi/fastapi/git/trees/981dcab31790cdd4c0264324b596e3839d898414": "2026-10-17T16:12:28.530478+00:00",
+    "/repos/fastapi/fastapi/git/trees/28f3a7696580e5a5860b9c594e672692d3d70cff": "2026-10-17T16:12:30.898434+00:00",
+    "/repos/fastapi/fastapi/git/trees/4d33cdfd689b06a7849df399c8891d52cc63887e": "2026-10-17T16:12:32.342443+00:00",
+    "/repos/fastapi/fastapi/git/blobs/3db2f525237857e1ab125615b28533e288d1833a": "2026-10-17T16:12:34.911285+00:00",
+    "/repos/fastapi/fastapi/git/blobs/31b5ba84a5d73c8d9fbf45686572dad8aee659f9": "2026-10-17T16:12:36.495420+00:00",
+    "/repos/fastapi/fastapi/git/blobs/fd9f3b11c5830b30b1d39beb124108183c9d84af": "2026-10-17T16:12:37.944963+00:00",
+    "/repos/fastapi/fastapi/git/blobs/2b85eb310b30655faa6976d429c142c98de40492": "2026-10-17T16:12:39.344213+00:00",
+    "/repos/fastapi/fastapi/git/blobs/2e0061f5e5dfaeeda49d050646d0a8c35a129f0d": "2026-10-17T16:12:41.784834+00:00",
+    "/repos/fastapi/fastapi/git/blobs/5c9c3195d42b68af5031de1828e6768329625f57": "2026-10-17T16:12:43.172874+00:00",
+    "/repos/fastapi/fastapi/git/blobs/142c7e50edebb6068a1cf6ea24638db683ef25a6": "2026-10-17T16:12:44.498368+00:00",
+    "/repos/fastapi/fastapi/git/blobs/bd9eacc6fbf54894e68fe0ec672ac88e415c2c5d": "2026-10-17T16:12:45.932000+00:00",
+    "/repos/fastapi/fastapi/git/blobs/d17cf6945bc653a25d4e2e3ba3411f2e15a3329a": "2026-10-17T16:12:47.326466+00:00",
+    "/repos/fastapi/fastapi/git/blobs/7e90d4be6bf07b58f75ce446d7cae94859ca061c": "2026-10-17T16:12:49.706880+00:00",
+    "/repos/fastapi/fastapi/git/blobs/a1fa1f8a1a0b2a8cf01b6233ffea9c7b78f4a53f": "2026-10-17T16:12:51.246887+00:00",
+    "/repos/fastapi/fastapi/git/blobs/35d089860c07306cb8c912c67f60c5679b5d3094": "2026-10-17T16:12:52.647372+00:00",
+    "/repos/fastapi/fastapi/git/blobs/a5e6af6d066af41303c4a710c668a8c0d5d986a8": "2026-10-17T16:12:54.010357+00:00",
+    "/repos/fastapi/fastapi/git/blobs/58bb20b090879360085ae7da8764d458648c54cb": "2026-10-17T16:12:55.387709+00:00",
+    "/repos/fastapi/fastapi/git/blobs/076d1c286bd7e1c2fab3069c289aabe9ab259c5a": "2026-10-17T16:12:56.778849+00:00",
+    "/repos/fastapi/fastapi/git/blobs/ecd288ba19b3d374f4353076bb36be677c180b89": "2026-10-17T16:12:58.157756+00:00",
+    "/repos/fastapi/fastapi/git/blobs/e7f3a5f539e9330b4a85867fa7396deb4ebd043d": "2026-10-17T16:13:00.555747+00:00",
+    "/repos/fastapi/fastapi/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:13:05.614509+00:00",
+    "/repos/fastapi/fastapi/pulls/16510/files?per_page=100": "2026-10-17T16:13:07.143707+00:00",
+    "/repos/fastapi/fastapi/pulls/16510/reviews?per_page=100": "2026-10-17T16:13:08.623682+00:00",
+    "/repos/fastapi/fastapi/actions/runs?head_sha=bb7f314287bf36e04539c572a2256d94ea45f0d6&per_page=10": "2026-10-17T16:13:10.968473+00:00",
+    "/repos/fastapi/fastapi/actions/runs?head_sha=378c0d4556646dc59541bb5e493cb5d2703444e9&per_page=10": "2026-10-17T16:13:13.254203+00:00",
+    "/repos/fastapi/fastapi/pulls/16509/files?per_page=100": "2026-10-17T16:13:14.729245+00:00",
+    "/repos/fastapi/fastapi/pulls/16509/reviews?per_page=100": "2026-10-17T16:13:16.168743+00:00",
+    "/repos/fastapi/fastapi/actions/runs?head_sha=d1fd422fd9c3b24b0e2bcf1cc89f1e7249b5fcd6&per_page=10": "2026-10-17T16:13:18.556179+00:00",
+    "/repos/fastapi/fastapi/actions/runs?head_sha=0286882b204fa521d9d2f93bf1d8c471f3970989&per_page=10": "2026-10-17T16:13:20.626116+00:00",
+    "/repos/fastapi/fastapi/pulls/16503/files?per_page=100": "2026-10-17T16:13:23.085250+00:00",
+    "/repos/fastapi/fastapi/pulls/16503/reviews?per_page=100": "2026-10-17T16:13:24.584974+00:00",
+    "/repos/fastapi/fastapi/actions/runs?head_sha=d0282a388b3875dfdfd69813693608676006254f&per_page=10": "2026-10-17T16:13:26.732466+00:00",
+    "/repos/fastapi/fastapi/actions/runs?head_sha=22e2175ddf4cbbbccc72194c14d5f44f0d57a31f&per_page=10": "2026-10-17T16:13:29.798398+00:00",
+    "/repos/fastapi/fastapi/releases?per_page=20&page=1": "2026-10-17T16:17:10.268724+00:00",
+    "/repos/fastapi/fastapi/commits/0.143.3": "2026-10-17T16:13:33.701464+00:00",
+    "/repos/fastapi/fastapi/commits/0.143.2": "2026-10-17T16:13:35.324860+00:00",
+    "/repos/fastapi/fastapi/actions/runs?head_sha=ba24dc3bc011bad3efdbd68b9d529faae2c2993c&per_page=10": "2026-10-17T16:13:37.684787+00:00",
+    "/repos/fastapi/fastapi/commits/0.143.1": "2026-10-17T16:13:39.205621+00:00",
+    "/repos/fastapi/fastapi/actions/runs?head_sha=4dda4625bdc19ce5ae946c152298f70d4d4fc5ed&per_page=10": "2026-10-17T16:13:41.532596+00:00",
+    "/repos/fastapi/fastapi/tags?per_page=3": "2026-10-17T16:13:42.932617+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:10.268724+00:00",
+  "status": "collected"
+}

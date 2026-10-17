@@ -1,0 +1,3049 @@
+{
+  "requested_repository": "anthropics/anthropic-sdk-ruby",
+  "category": "sdk",
+  "collected_at": "2026-10-17T16:05:13.428653+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "anthropics/anthropic-sdk-ruby",
+  "metadata": {
+    "html_url": "https://github.com/anthropics/anthropic-sdk-ruby",
+    "description": null,
+    "homepage": null,
+    "language": "Ruby",
+    "stargazers_count": 374,
+    "forks_count": 74,
+    "open_issues_count": 12,
+    "pushed_at": "2026-10-15T19:45:46Z",
+    "created_at": "2025-03-07T01:48:22Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [],
+    "owner": {
+      "login": "anthropics",
+      "type": "Organization",
+      "html_url": "https://github.com/anthropics"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358",
+      "date": "2026-10-15T19:44:03Z",
+      "subject": "release: 1.80.0"
+    },
+    {
+      "sha": "ed1ae861d10cda89be8a29659489c33f946f2cbb",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/ed1ae861d10cda89be8a29659489c33f946f2cbb",
+      "date": "2026-10-15T19:34:08Z",
+      "subject": "Merge pull request #320 from anthropics/synced/published"
+    },
+    {
+      "sha": "a5fdb3ea63a78b0abf5902e86db00eb7e6066992",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/a5fdb3ea63a78b0abf5902e86db00eb7e6066992",
+      "date": "2026-10-15T18:45:04Z",
+      "subject": "feat(helpers): retry a rate-limited fast fallback at standard speed (#327)"
+    },
+    {
+      "sha": "1b088179374af3f50670ed286994dfcbd49a2e72",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/1b088179374af3f50670ed286994dfcbd49a2e72",
+      "date": "2026-10-15T18:33:59Z",
+      "subject": "chore(tests): cover trace context propagation and failing telemetry"
+    },
+    {
+      "sha": "9e473cf6bf49dfbc751a311195443bb1b5abc3f6",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/9e473cf6bf49dfbc751a311195443bb1b5abc3f6",
+      "date": "2026-10-15T16:04:51Z",
+      "subject": "feat(api): add between_tools to thinking types in model capabilities"
+    },
+    {
+      "sha": "fd0b7a49092cbcdb11925fda611f4597b531bfc0",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/fd0b7a49092cbcdb11925fda611f4597b531bfc0",
+      "date": "2026-10-15T15:38:11Z",
+      "subject": "chore(docs): describe headers on Managed Agents and telemetry endpoints"
+    },
+    {
+      "sha": "05186fa4052f6109d4d98b52ef990a95ff81b57a",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/05186fa4052f6109d4d98b52ef990a95ff81b57a",
+      "date": "2026-10-15T15:20:44Z",
+      "subject": "docs(api): note that some models need a beta header to use speed"
+    },
+    {
+      "sha": "311997877510a44fbb461d77e9d454ddf27b4d13",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/311997877510a44fbb461d77e9d454ddf27b4d13",
+      "date": "2026-10-15T13:40:09Z",
+      "subject": "fix(helpers): honour speed overrides from fallback entries when streaming (#326)"
+    },
+    {
+      "sha": "048926c1a42a984b66dec7d2a3c1456cd33383f1",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/048926c1a42a984b66dec7d2a3c1456cd33383f1",
+      "date": "2026-10-15T09:43:24Z",
+      "subject": "docs(changelog): shorten the OpenTelemetry tracing note (#325)"
+    },
+    {
+      "sha": "6fad576d02aaffd9921f4f8d4e872fb3b6aafd6a",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/6fad576d02aaffd9921f4f8d4e872fb3b6aafd6a",
+      "date": "2026-10-14T23:17:20Z",
+      "subject": "feat(api): add the speed parameter and usage.speed to Messages"
+    },
+    {
+      "sha": "38f560a8ff0d100d72667466506e1eda4f125232",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/38f560a8ff0d100d72667466506e1eda4f125232",
+      "date": "2026-10-14T22:12:25Z",
+      "subject": "codegen metadata"
+    },
+    {
+      "sha": "c7dba8814a318b7a8e99b92ed43af9ad94ab9b4b",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/c7dba8814a318b7a8e99b92ed43af9ad94ab9b4b",
+      "date": "2026-10-14T21:33:10Z",
+      "subject": "chore(ci): speed up breaking change detection"
+    },
+    {
+      "sha": "d0c89f79d134b97ec9b1e06aa276dfb1e6bd6852",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/d0c89f79d134b97ec9b1e06aa276dfb1e6bd6852",
+      "date": "2026-10-14T18:05:29Z",
+      "subject": "feat(api): return a Console organization's usage-tier spend cap as a read-only spend limit"
+    },
+    {
+      "sha": "35cead68dad75a2da8c28abfa7370f60350da125",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/35cead68dad75a2da8c28abfa7370f60350da125",
+      "date": "2026-10-14T17:45:19Z",
+      "subject": "Merge branch 'main'"
+    },
+    {
+      "sha": "62c9bb49ccc8cfb7dd4c8558c5d5403e301bd3a1",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/62c9bb49ccc8cfb7dd4c8558c5d5403e301bd3a1",
+      "date": "2026-10-14T17:10:13Z",
+      "subject": "release: 1.79.0"
+    },
+    {
+      "sha": "5cdd220469f729b9e40ebbaef1170cf06893dcd0",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/5cdd220469f729b9e40ebbaef1170cf06893dcd0",
+      "date": "2026-10-14T17:00:45Z",
+      "subject": "Merge pull request #309 from anthropics/synced/published"
+    },
+    {
+      "sha": "b4047b469eaa2299173b43e914cf4b9f36fbee45",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/b4047b469eaa2299173b43e914cf4b9f36fbee45",
+      "date": "2026-10-14T13:28:58Z",
+      "subject": "fix(api): rename telemetry destination test response model"
+    },
+    {
+      "sha": "e2e90c282450b4c5bc42942d388ab313b79b7474",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/e2e90c282450b4c5bc42942d388ab313b79b7474",
+      "date": "2026-10-14T06:04:09Z",
+      "subject": "fix(client): ignore OpenTelemetry env vars when the option is set"
+    },
+    {
+      "sha": "522849313aafc4177ddfe90411dae285fed77d77",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/522849313aafc4177ddfe90411dae285fed77d77",
+      "date": "2026-10-14T05:30:34Z",
+      "subject": "feat(api): add telemetry destination test endpoint"
+    },
+    {
+      "sha": "915fe304b1d58f94b7d6d30c1a66a6afdec30b65",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/commit/915fe304b1d58f94b7d6d30c1a66a6afdec30b65",
+      "date": "2026-10-14T02:50:50Z",
+      "subject": "feat(api): add telemetry destinations to the Admin API"
+    }
+  ],
+  "default_sha": "3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358",
+  "root_and_selected_directory_paths": [
+    ".github",
+    ".github/CODEOWNERS",
+    ".github/workflows",
+    ".github/workflows/changelog.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/dependency-versions.yml",
+    ".github/workflows/publish-gem.yml",
+    ".gitignore",
+    ".release-please-manifest.json",
+    ".rubocop.yml",
+    ".ruby-version",
+    ".solargraph.yml",
+    ".stats.yml",
+    ".yardopts",
+    "CHANGELOG.md",
+    "CLAUDE.md",
+    "CONTRIBUTING.md",
+    "Gemfile",
+    "Gemfile.lock",
+    "LICENSE",
+    "README.md",
+    "REVIEW.md",
+    "Rakefile",
+    "SECURITY.md",
+    "Steepfile",
+    "anthropic.gemspec",
+    "bin",
+    "examples",
+    "helpers.md",
+    "lib",
+    "lint",
+    "manifest.yaml",
+    "rbi",
+    "scripts",
+    "sig",
+    "sorbet",
+    "test"
+  ],
+  "workflow_paths": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/dependency-versions.yml",
+    ".github/workflows/publish-gem.yml",
+    ".github/workflows/changelog.yml"
+  ],
+  "documents": [
+    {
+      "path": ".release-please-manifest.json",
+      "sha": "73077f4afbb604fb065d46d2d88751ce2b0d0b1f",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358/.release-please-manifest.json",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "8e3856b2cc00ef75b44ca754230c52c7054bd301",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358/CHANGELOG.md",
+      "lines": 2233,
+      "signals": {
+        "tests": [],
+        "lint": [
+          2003,
+          2059
+        ],
+        "generated_code": [
+          328,
+          464,
+          583,
+          616,
+          705,
+          784,
+          1094,
+          1095,
+          1096,
+          1279,
+          1434,
+          1533
+        ],
+        "release_automation": [
+          1760
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha": "04b31ec02157f1a64887784f4de04a4ce3b0c415",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358/CLAUDE.md",
+      "lines": 83,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          7,
+          8,
+          24,
+          32
+        ],
+        "release_automation": [
+          11,
+          81
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [
+          81
+        ],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          70
+        ]
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "383bccfefb17c28943fd5c47afccbe80898fe305",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358/CONTRIBUTING.md",
+      "lines": 131,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          21
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "2ad97b9490c588f6cc4ca2791a9ab06fc67bdeb2",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358/README.md",
+      "lines": 98,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          15,
+          21
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          3
+        ],
+        "media": [
+          3
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          96
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "95b204aa321dcfadcde28fb2b77048b2e123315a",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358/SECURITY.md",
+      "lines": 15,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          9
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha": "1227adaa47421898f8038667ade1c0563002ac49",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358/.github/CODEOWNERS",
+      "lines": 4,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "835420f118f6c4ca5c518eaa1dd6086ebf50ea96",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358/.github/workflows/ci.yml",
+      "lines": 166,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          10,
+          11,
+          59
+        ],
+        "release_automation": [
+          104
+        ],
+        "permissions": [
+          18,
+          29,
+          31
+        ],
+        "pinned_actions": [
+          37,
+          39,
+          50,
+          71,
+          73,
+          89,
+          91,
+          112,
+          118
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          107
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/dependency-versions.yml",
+      "sha": "4526d545f7bf40ef28c07cf35ad92f1692df0081",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358/.github/workflows/dependency-versions.yml",
+      "lines": 90,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          10,
+          11
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          36,
+          38,
+          51,
+          82
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/publish-gem.yml",
+      "sha": "ab09ae42b90abe3128f820c6381739f5f479d728",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358/.github/workflows/publish-gem.yml",
+      "lines": 28,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          14,
+          16
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "sha": "9cb19caed5922efa3c2165b6ad086b10adb9e024",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358/.github/workflows/changelog.yml",
+      "lines": 30,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8
+        ],
+        "pinned_actions": [
+          20
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 269,
+      "title": "release: 1.77.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/269",
+      "merged_at": "2026-10-07T17:54:48Z",
+      "merge_commit_sha": "babab269898c57fd7da72a317999950d9b533b9b",
+      "files": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/dependency-versions.yml",
+        ".gitignore",
+        ".release-please-manifest.json",
+        "CHANGELOG.md",
+        "CONTRIBUTING.md",
+        "Gemfile.lock",
+        "README.md",
+        "REVIEW.md",
+        "Rakefile",
+        "Steepfile",
+        "lib/anthropic.rb",
+        "lib/anthropic/internal/util.rb",
+        "lib/anthropic/models.rb",
+        "lib/anthropic/models/beta/agent_create_params.rb",
+        "lib/anthropic/models/beta/agent_update_params.rb",
+        "lib/anthropic/models/beta/beta_browser_click_target.rb",
+        "lib/anthropic/models/beta/beta_browser_close_tab_input.rb",
+        "lib/anthropic/models/beta/beta_browser_close_tab_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_coordinate_target.rb",
+        "lib/anthropic/models/beta/beta_browser_double_click_input.rb",
+        "lib/anthropic/models/beta/beta_browser_double_click_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_file_upload_input.rb",
+        "lib/anthropic/models/beta/beta_browser_file_upload_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_find_input.rb",
+        "lib/anthropic/models/beta/beta_browser_find_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_form_input_input.rb",
+        "lib/anthropic/models/beta/beta_browser_form_input_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_form_input_value.rb",
+        "lib/anthropic/models/beta/beta_browser_get_page_text_input.rb",
+        "lib/anthropic/models/beta/beta_browser_get_page_text_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_hold_key_input.rb",
+        "lib/anthropic/models/beta/beta_browser_hold_key_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_hover_input.rb",
+        "lib/anthropic/models/beta/beta_browser_hover_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_javascript_exec_input.rb",
+        "lib/anthropic/models/beta/beta_browser_javascript_exec_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_key_input.rb",
+        "lib/anthropic/models/beta/beta_browser_key_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_left_click_drag_input.rb",
+        "lib/anthropic/models/beta/beta_browser_left_click_drag_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_left_click_input.rb",
+        "lib/anthropic/models/beta/beta_browser_left_click_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_left_mouse_down_input.rb",
+        "lib/anthropic/models/beta/beta_browser_left_mouse_down_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_left_mouse_up_input.rb",
+        "lib/anthropic/models/beta/beta_browser_left_mouse_up_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_list_tabs_input.rb",
+        "lib/anthropic/models/beta/beta_browser_list_tabs_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_middle_click_input.rb",
+        "lib/anthropic/models/beta/beta_browser_middle_click_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_mouse_move_input.rb",
+        "lib/anthropic/models/beta/beta_browser_mouse_move_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_navigate_input.rb",
+        "lib/anthropic/models/beta/beta_browser_navigate_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_new_tab_input.rb",
+        "lib/anthropic/models/beta/beta_browser_new_tab_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_read_console_input.rb",
+        "lib/anthropic/models/beta/beta_browser_read_console_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_read_network_input.rb",
+        "lib/anthropic/models/beta/beta_browser_read_network_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_read_page_filter.rb",
+        "lib/anthropic/models/beta/beta_browser_read_page_input.rb",
+        "lib/anthropic/models/beta/beta_browser_read_page_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_ref_target.rb",
+        "lib/anthropic/models/beta/beta_browser_right_click_input.rb",
+        "lib/anthropic/models/beta/beta_browser_right_click_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_screenshot_input.rb",
+        "lib/anthropic/models/beta/beta_browser_screenshot_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_scroll_direction.rb",
+        "lib/anthropic/models/beta/beta_browser_scroll_input.rb",
+        "lib/anthropic/models/beta/beta_browser_scroll_to_input.rb",
+        "lib/anthropic/models/beta/beta_browser_scroll_to_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_scroll_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_switch_tab_input.rb",
+        "lib/anthropic/models/beta/beta_browser_switch_tab_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_triple_click_input.rb",
+        "lib/anthropic/models/beta/beta_browser_triple_click_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_type_input.rb",
+        "lib/anthropic/models/beta/beta_browser_type_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_wait_input.rb",
+        "lib/anthropic/models/beta/beta_browser_wait_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_browser_zoom_input.rb",
+        "lib/anthropic/models/beta/beta_browser_zoom_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_computer_cursor_position_input.rb",
+        "lib/anthropic/models/beta/beta_computer_cursor_position_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_computer_double_click_input.rb",
+        "lib/anthropic/models/beta/beta_computer_double_click_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_computer_hold_key_input.rb",
+        "lib/anthropic/models/beta/beta_computer_hold_key_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_computer_key_input.rb",
+        "lib/anthropic/models/beta/beta_computer_key_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_computer_left_click_drag_input.rb",
+        "lib/anthropic/models/beta/beta_computer_left_click_drag_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_computer_left_click_input.rb",
+        "lib/anthropic/models/beta/beta_computer_left_click_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_computer_left_mouse_down_input.rb",
+        "lib/anthropic/models/beta/beta_computer_left_mouse_down_tool_use_block.rb",
+        "lib/anthropic/models/beta/beta_computer_left_mouse_up_input.rb"
+      ],
+      "files_may_be_truncated": true,
+      "file_changes": [
+        {
+          "filename": ".github/workflows/ci.yml",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 10,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/.github%2Fworkflows%2Fci.yml"
+        },
+        {
+          "filename": ".github/workflows/dependency-versions.yml",
+          "status": "modified",
+          "additions": 35,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/.github%2Fworkflows%2Fdependency-versions.yml"
+        },
+        {
+          "filename": ".gitignore",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/.gitignore"
+        },
+        {
+          "filename": ".release-please-manifest.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/.release-please-manifest.json"
+        },
+        {
+          "filename": "CHANGELOG.md",
+          "status": "modified",
+          "additions": 43,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/CHANGELOG.md"
+        },
+        {
+          "filename": "CONTRIBUTING.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/CONTRIBUTING.md"
+        },
+        {
+          "filename": "Gemfile.lock",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/Gemfile.lock"
+        },
+        {
+          "filename": "README.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/README.md"
+        },
+        {
+          "filename": "REVIEW.md",
+          "status": "added",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/REVIEW.md"
+        },
+        {
+          "filename": "Rakefile",
+          "status": "modified",
+          "additions": 83,
+          "deletions": 9,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/Rakefile"
+        },
+        {
+          "filename": "Steepfile",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/Steepfile"
+        },
+        {
+          "filename": "lib/anthropic.rb",
+          "status": "modified",
+          "additions": 230,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic.rb"
+        },
+        {
+          "filename": "lib/anthropic/internal/util.rb",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Finternal%2Futil.rb"
+        },
+        {
+          "filename": "lib/anthropic/models.rb",
+          "status": "modified",
+          "additions": 218,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/agent_create_params.rb",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 5,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fagent_create_params.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/agent_update_params.rb",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fagent_update_params.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_click_target.rb",
+          "status": "added",
+          "additions": 67,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_click_target.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_close_tab_input.rb",
+          "status": "added",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_close_tab_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_close_tab_tool_use_block.rb",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_close_tab_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_coordinate_target.rb",
+          "status": "added",
+          "additions": 38,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_coordinate_target.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_double_click_input.rb",
+          "status": "added",
+          "additions": 42,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_double_click_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_double_click_tool_use_block.rb",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_double_click_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_file_upload_input.rb",
+          "status": "added",
+          "additions": 53,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_file_upload_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_file_upload_tool_use_block.rb",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_file_upload_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_find_input.rb",
+          "status": "added",
+          "additions": 31,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_find_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_find_tool_use_block.rb",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_find_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_form_input_input.rb",
+          "status": "added",
+          "additions": 44,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_form_input_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_form_input_tool_use_block.rb",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_form_input_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_form_input_value.rb",
+          "status": "added",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_form_input_value.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_get_page_text_input.rb",
+          "status": "added",
+          "additions": 23,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_get_page_text_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_get_page_text_tool_use_block.rb",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_get_page_text_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_hold_key_input.rb",
+          "status": "added",
+          "additions": 39,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_hold_key_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_hold_key_tool_use_block.rb",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_hold_key_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_hover_input.rb",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_hover_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_hover_tool_use_block.rb",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_hover_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_javascript_exec_input.rb",
+          "status": "added",
+          "additions": 32,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_javascript_exec_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_javascript_exec_tool_use_block.rb",
+          "status": "added",
+          "additions": 63,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_javascript_exec_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_key_input.rb",
+          "status": "added",
+          "additions": 41,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_key_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_key_tool_use_block.rb",
+          "status": "added",
+          "additions": 63,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_key_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_left_click_drag_input.rb",
+          "status": "added",
+          "additions": 43,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_left_click_drag_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_left_click_drag_tool_use_block.rb",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_left_click_drag_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_left_click_input.rb",
+          "status": "added",
+          "additions": 42,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_left_click_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_left_click_tool_use_block.rb",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_left_click_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_left_mouse_down_input.rb",
+          "status": "added",
+          "additions": 35,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_left_mouse_down_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_left_mouse_down_tool_use_block.rb",
+          "status": "added",
+          "additions": 62,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_left_mouse_down_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_left_mouse_up_input.rb",
+          "status": "added",
+          "additions": 34,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_left_mouse_up_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_left_mouse_up_tool_use_block.rb",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_left_mouse_up_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_list_tabs_input.rb",
+          "status": "added",
+          "additions": 14,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_list_tabs_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_list_tabs_tool_use_block.rb",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_list_tabs_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_middle_click_input.rb",
+          "status": "added",
+          "additions": 42,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_middle_click_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_middle_click_tool_use_block.rb",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_middle_click_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_mouse_move_input.rb",
+          "status": "added",
+          "additions": 34,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_mouse_move_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_mouse_move_tool_use_block.rb",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_mouse_move_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_navigate_input.rb",
+          "status": "added",
+          "additions": 34,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_navigate_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_navigate_tool_use_block.rb",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_navigate_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_new_tab_input.rb",
+          "status": "added",
+          "additions": 14,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_new_tab_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_new_tab_tool_use_block.rb",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_new_tab_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_read_console_input.rb",
+          "status": "added",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_read_console_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_read_console_tool_use_block.rb",
+          "status": "added",
+          "additions": 62,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_read_console_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_read_network_input.rb",
+          "status": "added",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_read_network_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_read_network_tool_use_block.rb",
+          "status": "added",
+          "additions": 62,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_read_network_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_read_page_filter.rb",
+          "status": "added",
+          "additions": 19,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_read_page_filter.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_read_page_input.rb",
+          "status": "added",
+          "additions": 53,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_read_page_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_read_page_tool_use_block.rb",
+          "status": "added",
+          "additions": 63,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_read_page_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_ref_target.rb",
+          "status": "added",
+          "additions": 35,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_ref_target.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_right_click_input.rb",
+          "status": "added",
+          "additions": 42,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_right_click_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_right_click_tool_use_block.rb",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_right_click_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_screenshot_input.rb",
+          "status": "added",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_screenshot_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_screenshot_tool_use_block.rb",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_screenshot_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_scroll_direction.rb",
+          "status": "added",
+          "additions": 21,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_scroll_direction.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_scroll_input.rb",
+          "status": "added",
+          "additions": 49,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_scroll_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_scroll_to_input.rb",
+          "status": "added",
+          "additions": 35,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_scroll_to_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_scroll_to_tool_use_block.rb",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_scroll_to_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_scroll_tool_use_block.rb",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_scroll_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_switch_tab_input.rb",
+          "status": "added",
+          "additions": 23,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_switch_tab_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_switch_tab_tool_use_block.rb",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_switch_tab_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_tool_use_block.rb",
+          "status": "added",
+          "additions": 210,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_triple_click_input.rb",
+          "status": "added",
+          "additions": 43,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_triple_click_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_triple_click_tool_use_block.rb",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_triple_click_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_type_input.rb",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_type_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_type_tool_use_block.rb",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_type_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_wait_input.rb",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_wait_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_wait_tool_use_block.rb",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_wait_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_zoom_input.rb",
+          "status": "added",
+          "additions": 32,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_zoom_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_browser_zoom_tool_use_block.rb",
+          "status": "added",
+          "additions": 62,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_browser_zoom_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_computer_cursor_position_input.rb",
+          "status": "added",
+          "additions": 14,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_computer_cursor_position_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_computer_cursor_position_tool_use_block.rb",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_computer_cursor_position_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_computer_double_click_input.rb",
+          "status": "added",
+          "additions": 35,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_computer_double_click_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_computer_double_click_tool_use_block.rb",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_computer_double_click_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_computer_hold_key_input.rb",
+          "status": "added",
+          "additions": 31,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_computer_hold_key_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_computer_hold_key_tool_use_block.rb",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_computer_hold_key_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_computer_key_input.rb",
+          "status": "added",
+          "additions": 34,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_computer_key_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_computer_key_tool_use_block.rb",
+          "status": "added",
+          "additions": 64,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_computer_key_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_computer_left_click_drag_input.rb",
+          "status": "added",
+          "additions": 42,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_computer_left_click_drag_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_computer_left_click_drag_tool_use_block.rb",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_computer_left_click_drag_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_computer_left_click_input.rb",
+          "status": "added",
+          "additions": 35,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_computer_left_click_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_computer_left_click_tool_use_block.rb",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_computer_left_click_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_computer_left_mouse_down_input.rb",
+          "status": "added",
+          "additions": 14,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_computer_left_mouse_down_input.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_computer_left_mouse_down_tool_use_block.rb",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_computer_left_mouse_down_tool_use_block.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_computer_left_mouse_up_input.rb",
+          "status": "added",
+          "additions": 14,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/b6676bef3d5df4ec7e89ece394655514221de716/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_computer_left_mouse_up_input.rb"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 37662748406,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/37662748406",
+          "head_sha": "babab269898c57fd7da72a317999950d9b533b9b"
+        },
+        {
+          "id": 37662748452,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/37662748452",
+          "head_sha": "babab269898c57fd7da72a317999950d9b533b9b"
+        },
+        {
+          "id": 37662748521,
+          "name": "Dependency versions",
+          "path": ".github/workflows/dependency-versions.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/37662748521",
+          "head_sha": "babab269898c57fd7da72a317999950d9b533b9b"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 37662069382,
+          "name": "Dependency versions",
+          "path": ".github/workflows/dependency-versions.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/37662069382",
+          "head_sha": "b6676bef3d5df4ec7e89ece394655514221de716"
+        },
+        {
+          "id": 37662069653,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/37662069653",
+          "head_sha": "b6676bef3d5df4ec7e89ece394655514221de716"
+        },
+        {
+          "id": 37662062121,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/37662062121",
+          "head_sha": "b6676bef3d5df4ec7e89ece394655514221de716"
+        },
+        {
+          "id": 37662062274,
+          "name": "Dependency versions",
+          "path": ".github/workflows/dependency-versions.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/37662062274",
+          "head_sha": "b6676bef3d5df4ec7e89ece394655514221de716"
+        }
+      ]
+    },
+    {
+      "number": 242,
+      "title": "release: 1.76.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/242",
+      "merged_at": "2026-09-30T22:57:53Z",
+      "merge_commit_sha": "63175e8c09d6d2b28cb0ee950ea509e6b4bb549f",
+      "files": [
+        ".release-please-manifest.json",
+        ".stats.yml",
+        "CHANGELOG.md",
+        "Gemfile.lock",
+        "README.md",
+        "lib/anthropic.rb",
+        "lib/anthropic/helpers/aws/client.rb",
+        "lib/anthropic/helpers/bedrock/client.rb",
+        "lib/anthropic/helpers/bedrock/mantle_client.rb",
+        "lib/anthropic/helpers/google_cloud/client.rb",
+        "lib/anthropic/helpers/vertex/client.rb",
+        "lib/anthropic/models/anthropic_beta.rb",
+        "lib/anthropic/models/beta/beta_managed_agents_model.rb",
+        "lib/anthropic/models/beta/organization/beta_spend_limit.rb",
+        "lib/anthropic/models/beta/organization/spend_limit_list_params.rb",
+        "lib/anthropic/models/model.rb",
+        "lib/anthropic/resources/beta/messages.rb",
+        "lib/anthropic/resources/beta/organization/spend_limits.rb",
+        "lib/anthropic/resources/messages.rb",
+        "lib/anthropic/version.rb",
+        "rbi/anthropic/helpers/aws/client.rbi",
+        "rbi/anthropic/helpers/bedrock/client.rbi",
+        "rbi/anthropic/helpers/bedrock/mantle_client.rbi",
+        "rbi/anthropic/helpers/google_cloud/client.rbi",
+        "rbi/anthropic/helpers/vertex/client.rbi",
+        "rbi/anthropic/models/anthropic_beta.rbi",
+        "rbi/anthropic/models/beta/organization/beta_spend_limit.rbi",
+        "rbi/anthropic/models/beta/organization/spend_limit_list_params.rbi",
+        "rbi/anthropic/resources/beta/organization/spend_limits.rbi",
+        "scripts/mock-spec.json.gz",
+        "sig/anthropic/helpers/bedrock/client.rbs",
+        "sig/anthropic/helpers/google_cloud/client.rbs",
+        "sig/anthropic/helpers/vertex/client.rbs",
+        "sig/anthropic/models/anthropic_beta.rbs",
+        "sig/anthropic/models/beta/organization/beta_spend_limit.rbs",
+        "sig/anthropic/models/beta/organization/spend_limit_list_params.rbs",
+        "sig/anthropic/resources/beta/organization/spend_limits.rbs",
+        "test/anthropic/helpers/aws/client_test.rb",
+        "test/anthropic/helpers/bedrock/client_test.rb",
+        "test/anthropic/helpers/bedrock/mantle_client_test.rb",
+        "test/anthropic/helpers/google_cloud/client_test.rb",
+        "test/anthropic/helpers/support/platform_client_timeout.rb",
+        "test/anthropic/helpers/vertex/client_test.rb",
+        "test/anthropic/messages_timeout_test.rb",
+        "test/anthropic/resources/beta/organization/spend_limits_test.rb"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".release-please-manifest.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/.release-please-manifest.json"
+        },
+        {
+          "filename": ".stats.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/.stats.yml"
+        },
+        {
+          "filename": "CHANGELOG.md",
+          "status": "modified",
+          "additions": 19,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/CHANGELOG.md"
+        },
+        {
+          "filename": "Gemfile.lock",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/Gemfile.lock"
+        },
+        {
+          "filename": "README.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/README.md"
+        },
+        {
+          "filename": "lib/anthropic.rb",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/lib%2Fanthropic.rb"
+        },
+        {
+          "filename": "lib/anthropic/helpers/aws/client.rb",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/lib%2Fanthropic%2Fhelpers%2Faws%2Fclient.rb"
+        },
+        {
+          "filename": "lib/anthropic/helpers/bedrock/client.rb",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/lib%2Fanthropic%2Fhelpers%2Fbedrock%2Fclient.rb"
+        },
+        {
+          "filename": "lib/anthropic/helpers/bedrock/mantle_client.rb",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/lib%2Fanthropic%2Fhelpers%2Fbedrock%2Fmantle_client.rb"
+        },
+        {
+          "filename": "lib/anthropic/helpers/google_cloud/client.rb",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/lib%2Fanthropic%2Fhelpers%2Fgoogle_cloud%2Fclient.rb"
+        },
+        {
+          "filename": "lib/anthropic/helpers/vertex/client.rb",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/lib%2Fanthropic%2Fhelpers%2Fvertex%2Fclient.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/anthropic_beta.rb",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/lib%2Fanthropic%2Fmodels%2Fanthropic_beta.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_managed_agents_model.rb",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_managed_agents_model.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_spend_limit.rb",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_spend_limit.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/spend_limit_list_params.rb",
+          "status": "added",
+          "additions": 75,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fspend_limit_list_params.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/model.rb",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/lib%2Fanthropic%2Fmodels%2Fmodel.rb"
+        },
+        {
+          "filename": "lib/anthropic/resources/beta/messages.rb",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 4,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/lib%2Fanthropic%2Fresources%2Fbeta%2Fmessages.rb"
+        },
+        {
+          "filename": "lib/anthropic/resources/beta/organization/spend_limits.rb",
+          "status": "modified",
+          "additions": 40,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/lib%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fspend_limits.rb"
+        },
+        {
+          "filename": "lib/anthropic/resources/messages.rb",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 3,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/lib%2Fanthropic%2Fresources%2Fmessages.rb"
+        },
+        {
+          "filename": "lib/anthropic/version.rb",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/lib%2Fanthropic%2Fversion.rb"
+        },
+        {
+          "filename": "rbi/anthropic/helpers/aws/client.rbi",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/rbi%2Fanthropic%2Fhelpers%2Faws%2Fclient.rbi"
+        },
+        {
+          "filename": "rbi/anthropic/helpers/bedrock/client.rbi",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/rbi%2Fanthropic%2Fhelpers%2Fbedrock%2Fclient.rbi"
+        },
+        {
+          "filename": "rbi/anthropic/helpers/bedrock/mantle_client.rbi",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/rbi%2Fanthropic%2Fhelpers%2Fbedrock%2Fmantle_client.rbi"
+        },
+        {
+          "filename": "rbi/anthropic/helpers/google_cloud/client.rbi",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/rbi%2Fanthropic%2Fhelpers%2Fgoogle_cloud%2Fclient.rbi"
+        },
+        {
+          "filename": "rbi/anthropic/helpers/vertex/client.rbi",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/rbi%2Fanthropic%2Fhelpers%2Fvertex%2Fclient.rbi"
+        },
+        {
+          "filename": "rbi/anthropic/models/anthropic_beta.rbi",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/rbi%2Fanthropic%2Fmodels%2Fanthropic_beta.rbi"
+        },
+        {
+          "filename": "rbi/anthropic/models/beta/organization/beta_spend_limit.rbi",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/rbi%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_spend_limit.rbi"
+        },
+        {
+          "filename": "rbi/anthropic/models/beta/organization/spend_limit_list_params.rbi",
+          "status": "added",
+          "additions": 172,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/rbi%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fspend_limit_list_params.rbi"
+        },
+        {
+          "filename": "rbi/anthropic/resources/beta/organization/spend_limits.rbi",
+          "status": "modified",
+          "additions": 42,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/rbi%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fspend_limits.rbi"
+        },
+        {
+          "filename": "scripts/mock-spec.json.gz",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/scripts%2Fmock-spec.json.gz"
+        },
+        {
+          "filename": "sig/anthropic/helpers/bedrock/client.rbs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/sig%2Fanthropic%2Fhelpers%2Fbedrock%2Fclient.rbs"
+        },
+        {
+          "filename": "sig/anthropic/helpers/google_cloud/client.rbs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/sig%2Fanthropic%2Fhelpers%2Fgoogle_cloud%2Fclient.rbs"
+        },
+        {
+          "filename": "sig/anthropic/helpers/vertex/client.rbs",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/sig%2Fanthropic%2Fhelpers%2Fvertex%2Fclient.rbs"
+        },
+        {
+          "filename": "sig/anthropic/models/anthropic_beta.rbs",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/sig%2Fanthropic%2Fmodels%2Fanthropic_beta.rbs"
+        },
+        {
+          "filename": "sig/anthropic/models/beta/organization/beta_spend_limit.rbs",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/sig%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_spend_limit.rbs"
+        },
+        {
+          "filename": "sig/anthropic/models/beta/organization/spend_limit_list_params.rbs",
+          "status": "added",
+          "additions": 72,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/sig%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fspend_limit_list_params.rbs"
+        },
+        {
+          "filename": "sig/anthropic/resources/beta/organization/spend_limits.rbs",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/sig%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fspend_limits.rbs"
+        },
+        {
+          "filename": "test/anthropic/helpers/aws/client_test.rb",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/test%2Fanthropic%2Fhelpers%2Faws%2Fclient_test.rb"
+        },
+        {
+          "filename": "test/anthropic/helpers/bedrock/client_test.rb",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/test%2Fanthropic%2Fhelpers%2Fbedrock%2Fclient_test.rb"
+        },
+        {
+          "filename": "test/anthropic/helpers/bedrock/mantle_client_test.rb",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/test%2Fanthropic%2Fhelpers%2Fbedrock%2Fmantle_client_test.rb"
+        },
+        {
+          "filename": "test/anthropic/helpers/google_cloud/client_test.rb",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/test%2Fanthropic%2Fhelpers%2Fgoogle_cloud%2Fclient_test.rb"
+        },
+        {
+          "filename": "test/anthropic/helpers/support/platform_client_timeout.rb",
+          "status": "added",
+          "additions": 28,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/test%2Fanthropic%2Fhelpers%2Fsupport%2Fplatform_client_timeout.rb"
+        },
+        {
+          "filename": "test/anthropic/helpers/vertex/client_test.rb",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/test%2Fanthropic%2Fhelpers%2Fvertex%2Fclient_test.rb"
+        },
+        {
+          "filename": "test/anthropic/messages_timeout_test.rb",
+          "status": "added",
+          "additions": 101,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/test%2Fanthropic%2Fmessages_timeout_test.rb"
+        },
+        {
+          "filename": "test/anthropic/resources/beta/organization/spend_limits_test.rb",
+          "status": "modified",
+          "additions": 31,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/9b8fffeccea35560a83479874bf95928ea571a3c/test%2Fanthropic%2Fresources%2Fbeta%2Forganization%2Fspend_limits_test.rb"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 37575112622,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/37575112622",
+          "head_sha": "63175e8c09d6d2b28cb0ee950ea509e6b4bb549f"
+        },
+        {
+          "id": 37417291520,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/37417291520",
+          "head_sha": "63175e8c09d6d2b28cb0ee950ea509e6b4bb549f"
+        },
+        {
+          "id": 37275540766,
+          "name": "Dependency versions",
+          "path": ".github/workflows/dependency-versions.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/37275540766",
+          "head_sha": "63175e8c09d6d2b28cb0ee950ea509e6b4bb549f"
+        },
+        {
+          "id": 37267789458,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/37267789458",
+          "head_sha": "63175e8c09d6d2b28cb0ee950ea509e6b4bb549f"
+        },
+        {
+          "id": 37184142468,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/37184142468",
+          "head_sha": "63175e8c09d6d2b28cb0ee950ea509e6b4bb549f"
+        },
+        {
+          "id": 37098965799,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/37098965799",
+          "head_sha": "63175e8c09d6d2b28cb0ee950ea509e6b4bb549f"
+        },
+        {
+          "id": 36967822467,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/36967822467",
+          "head_sha": "63175e8c09d6d2b28cb0ee950ea509e6b4bb549f"
+        },
+        {
+          "id": 36818598666,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/36818598666",
+          "head_sha": "63175e8c09d6d2b28cb0ee950ea509e6b4bb549f"
+        },
+        {
+          "id": 36788532799,
+          "name": "Dependency versions",
+          "path": ".github/workflows/dependency-versions.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/36788532799",
+          "head_sha": "63175e8c09d6d2b28cb0ee950ea509e6b4bb549f"
+        },
+        {
+          "id": 36788532838,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/36788532838",
+          "head_sha": "63175e8c09d6d2b28cb0ee950ea509e6b4bb549f"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 36787725107,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/36787725107",
+          "head_sha": "9b8fffeccea35560a83479874bf95928ea571a3c"
+        },
+        {
+          "id": 36787725135,
+          "name": "Dependency versions",
+          "path": ".github/workflows/dependency-versions.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/36787725135",
+          "head_sha": "9b8fffeccea35560a83479874bf95928ea571a3c"
+        },
+        {
+          "id": 36787723040,
+          "name": "Dependency versions",
+          "path": ".github/workflows/dependency-versions.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/36787723040",
+          "head_sha": "9b8fffeccea35560a83479874bf95928ea571a3c"
+        },
+        {
+          "id": 36787723020,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/36787723020",
+          "head_sha": "9b8fffeccea35560a83479874bf95928ea571a3c"
+        }
+      ]
+    },
+    {
+      "number": 241,
+      "title": "release: 1.75.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/241",
+      "merged_at": "2026-09-30T18:30:57Z",
+      "merge_commit_sha": "ce9b929a5290997a10fc368ca91018ee7c1d42d3",
+      "files": [
+        ".release-please-manifest.json",
+        ".stats.yml",
+        "CHANGELOG.md",
+        "Gemfile.lock",
+        "README.md",
+        "examples/agents_comprehensive.rb",
+        "examples/sessions_streaming_deltas.rb",
+        "lib/anthropic.rb",
+        "lib/anthropic/client.rb",
+        "lib/anthropic/internal/bidirectional_page_cursor.rb",
+        "lib/anthropic/internal/page_cursor.rb",
+        "lib/anthropic/models.rb",
+        "lib/anthropic/models/anthropic_beta.rb",
+        "lib/anthropic/models/beta/beta_managed_agents_delta_type.rb",
+        "lib/anthropic/models/beta/beta_managed_agents_memory_store.rb",
+        "lib/anthropic/models/beta/beta_managed_agents_session.rb",
+        "lib/anthropic/models/beta/organization/analytics/apps/chat/project_list_params.rb",
+        "lib/anthropic/models/beta/organization/analytics/artifact_list_params.rb",
+        "lib/anthropic/models/beta/organization/analytics/connector_list_params.rb",
+        "lib/anthropic/models/beta/organization/analytics/cost_report_list_params.rb",
+        "lib/anthropic/models/beta/organization/analytics/plugin_list_params.rb",
+        "lib/anthropic/models/beta/organization/analytics/skill_list_params.rb",
+        "lib/anthropic/models/beta/organization/analytics/summary_list_params.rb",
+        "lib/anthropic/models/beta/organization/analytics/usage_report_list_params.rb",
+        "lib/anthropic/models/beta/organization/analytics/user_cost_report_list_params.rb",
+        "lib/anthropic/models/beta/organization/analytics/user_list_params.rb",
+        "lib/anthropic/models/beta/organization/analytics/user_usage_report_list_params.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_artifact_activity.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_chat_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_claude_code_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_claude_tag_category.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_connector_activity.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_connector_chat_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_connector_claude_code_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_connector_cowork_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_connector_office_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_connector_office_product_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_context_window.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_core_code_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_cost_bucketed_result.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_cost_report_time_bucket.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_cost_type.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_cost_users_item.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_cowork_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_design_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_inference_geo_filter.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_lines_of_code.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_office_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_office_product_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_plugin_activity.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_plugin_claude_code_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_plugin_cowork_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_product_filter.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_project_activity.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_science_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_server_tool_use.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_single_day_activity_summary.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_skill_activity.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_skill_chat_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_skill_claude_code_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_skill_cowork_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_skill_office_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_skill_office_product_metrics.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_token_type.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_tool_action_counts.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_tool_actions.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_usage_bucketed_result.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_usage_report_time_bucket.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_usage_users_item.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_user.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_user_activity.rb",
+        "lib/anthropic/models/beta/organization/beta_analytics_user_actor.rb",
+        "lib/anthropic/models/beta/organization/beta_deleted_plugin.rb",
+        "lib/anthropic/models/beta/organization/beta_plugin.rb",
+        "lib/anthropic/models/beta/organization/beta_plugin_api_actor.rb",
+        "lib/anthropic/models/beta/organization/beta_plugin_component.rb",
+        "lib/anthropic/models/beta/organization/beta_plugin_content_scan.rb",
+        "lib/anthropic/models/beta/organization/beta_plugin_marketplace.rb",
+        "lib/anthropic/models/beta/organization/beta_plugin_marketplace_validation_plugin_error.rb",
+        "lib/anthropic/models/beta/organization/beta_plugin_marketplace_validation_plugin_warning.rb",
+        "lib/anthropic/models/beta/organization/beta_plugin_marketplace_validation_plugin_warnings.rb",
+        "lib/anthropic/models/beta/organization/beta_plugin_marketplace_validation_report.rb",
+        "lib/anthropic/models/beta/organization/beta_plugin_owner_organization.rb",
+        "lib/anthropic/models/beta/organization/beta_plugin_owner_user.rb",
+        "lib/anthropic/models/beta/organization/beta_plugin_target_organization.rb",
+        "lib/anthropic/models/beta/organization/beta_plugin_target_organization_member.rb",
+        "lib/anthropic/models/beta/organization/beta_plugin_target_rbac_group.rb",
+        "lib/anthropic/models/beta/organization/beta_plugin_user_actor.rb",
+        "lib/anthropic/models/beta/organization/beta_rbac_group.rb",
+        "lib/anthropic/models/beta/organization/beta_rbac_role.rb",
+        "lib/anthropic/models/beta/organization/beta_spend_limit.rb",
+        "lib/anthropic/models/beta/organization/beta_spend_limit_organization_scope.rb",
+        "lib/anthropic/models/beta/organization/beta_spend_limit_organization_service_scope.rb",
+        "lib/anthropic/models/beta/organization/beta_spend_limit_period.rb",
+        "lib/anthropic/models/beta/organization/beta_spend_limit_rbac_group_scope.rb",
+        "lib/anthropic/models/beta/organization/beta_spend_limit_scoped_api_key_actor.rb",
+        "lib/anthropic/models/beta/organization/beta_spend_limit_seat_tier_scope.rb",
+        "lib/anthropic/models/beta/organization/beta_spend_limit_user_actor.rb",
+        "lib/anthropic/models/beta/organization/beta_spend_limit_user_scope.rb",
+        "lib/anthropic/models/beta/organization/beta_spend_limit_workspace_scope.rb"
+      ],
+      "files_may_be_truncated": true,
+      "file_changes": [
+        {
+          "filename": ".release-please-manifest.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/.release-please-manifest.json"
+        },
+        {
+          "filename": ".stats.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/.stats.yml"
+        },
+        {
+          "filename": "CHANGELOG.md",
+          "status": "modified",
+          "additions": 34,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/CHANGELOG.md"
+        },
+        {
+          "filename": "Gemfile.lock",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/Gemfile.lock"
+        },
+        {
+          "filename": "README.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/README.md"
+        },
+        {
+          "filename": "examples/agents_comprehensive.rb",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/examples%2Fagents_comprehensive.rb"
+        },
+        {
+          "filename": "examples/sessions_streaming_deltas.rb",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/examples%2Fsessions_streaming_deltas.rb"
+        },
+        {
+          "filename": "lib/anthropic.rb",
+          "status": "modified",
+          "additions": 310,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic.rb"
+        },
+        {
+          "filename": "lib/anthropic/client.rb",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fclient.rb"
+        },
+        {
+          "filename": "lib/anthropic/internal/bidirectional_page_cursor.rb",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Finternal%2Fbidirectional_page_cursor.rb"
+        },
+        {
+          "filename": "lib/anthropic/internal/page_cursor.rb",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Finternal%2Fpage_cursor.rb"
+        },
+        {
+          "filename": "lib/anthropic/models.rb",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/anthropic_beta.rb",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fanthropic_beta.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_managed_agents_delta_type.rb",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_managed_agents_delta_type.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_managed_agents_memory_store.rb",
+          "status": "modified",
+          "additions": 31,
+          "deletions": 31,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_managed_agents_memory_store.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/beta_managed_agents_session.rb",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 4,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Fbeta_managed_agents_session.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/analytics/apps/chat/project_list_params.rb",
+          "status": "added",
+          "additions": 169,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fanalytics%2Fapps%2Fchat%2Fproject_list_params.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/analytics/artifact_list_params.rb",
+          "status": "added",
+          "additions": 101,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fanalytics%2Fartifact_list_params.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/analytics/connector_list_params.rb",
+          "status": "added",
+          "additions": 168,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fanalytics%2Fconnector_list_params.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/analytics/cost_report_list_params.rb",
+          "status": "added",
+          "additions": 241,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fanalytics%2Fcost_report_list_params.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/analytics/plugin_list_params.rb",
+          "status": "added",
+          "additions": 166,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fanalytics%2Fplugin_list_params.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/analytics/skill_list_params.rb",
+          "status": "added",
+          "additions": 168,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fanalytics%2Fskill_list_params.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/analytics/summary_list_params.rb",
+          "status": "added",
+          "additions": 81,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fanalytics%2Fsummary_list_params.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/analytics/usage_report_list_params.rb",
+          "status": "added",
+          "additions": 239,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fanalytics%2Fusage_report_list_params.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/analytics/user_cost_report_list_params.rb",
+          "status": "added",
+          "additions": 308,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fanalytics%2Fuser_cost_report_list_params.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/analytics/user_list_params.rb",
+          "status": "added",
+          "additions": 167,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fanalytics%2Fuser_list_params.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/analytics/user_usage_report_list_params.rb",
+          "status": "added",
+          "additions": 303,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fanalytics%2Fuser_usage_report_list_params.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_artifact_activity.rb",
+          "status": "added",
+          "additions": 117,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_artifact_activity.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_chat_metrics.rb",
+          "status": "added",
+          "additions": 131,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_chat_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_claude_code_metrics.rb",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_claude_code_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_claude_tag_category.rb",
+          "status": "added",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_claude_tag_category.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_connector_activity.rb",
+          "status": "added",
+          "additions": 216,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_connector_activity.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_connector_chat_metrics.rb",
+          "status": "added",
+          "additions": 28,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_connector_chat_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_connector_claude_code_metrics.rb",
+          "status": "added",
+          "additions": 28,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_connector_claude_code_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_connector_cowork_metrics.rb",
+          "status": "added",
+          "additions": 28,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_connector_cowork_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_connector_office_metrics.rb",
+          "status": "added",
+          "additions": 55,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_connector_office_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_connector_office_product_metrics.rb",
+          "status": "added",
+          "additions": 29,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_connector_office_product_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_context_window.rb",
+          "status": "added",
+          "additions": 19,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_context_window.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_core_code_metrics.rb",
+          "status": "added",
+          "additions": 64,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_core_code_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_cost_bucketed_result.rb",
+          "status": "added",
+          "additions": 216,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_cost_bucketed_result.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_cost_report_time_bucket.rb",
+          "status": "added",
+          "additions": 43,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_cost_report_time_bucket.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_cost_type.rb",
+          "status": "added",
+          "additions": 20,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_cost_type.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_cost_users_item.rb",
+          "status": "added",
+          "additions": 244,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_cost_users_item.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_cowork_metrics.rb",
+          "status": "added",
+          "additions": 177,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_cowork_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_design_metrics.rb",
+          "status": "added",
+          "additions": 56,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_design_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_inference_geo_filter.rb",
+          "status": "added",
+          "additions": 20,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_inference_geo_filter.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_lines_of_code.rb",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_lines_of_code.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_office_metrics.rb",
+          "status": "added",
+          "additions": 55,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_office_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_office_product_metrics.rb",
+          "status": "added",
+          "additions": 73,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_office_product_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_plugin_activity.rb",
+          "status": "added",
+          "additions": 129,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_plugin_activity.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_plugin_claude_code_metrics.rb",
+          "status": "added",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_plugin_claude_code_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_plugin_cowork_metrics.rb",
+          "status": "added",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_plugin_cowork_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_product_filter.rb",
+          "status": "added",
+          "additions": 26,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_product_filter.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_project_activity.rb",
+          "status": "added",
+          "additions": 122,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_project_activity.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_science_metrics.rb",
+          "status": "added",
+          "additions": 61,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_science_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_server_tool_use.rb",
+          "status": "added",
+          "additions": 20,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_server_tool_use.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_single_day_activity_summary.rb",
+          "status": "added",
+          "additions": 293,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_single_day_activity_summary.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_skill_activity.rb",
+          "status": "added",
+          "additions": 267,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_skill_activity.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_skill_chat_metrics.rb",
+          "status": "added",
+          "additions": 33,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_skill_chat_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_skill_claude_code_metrics.rb",
+          "status": "added",
+          "additions": 33,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_skill_claude_code_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_skill_cowork_metrics.rb",
+          "status": "added",
+          "additions": 33,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_skill_cowork_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_skill_office_metrics.rb",
+          "status": "added",
+          "additions": 55,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_skill_office_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_skill_office_product_metrics.rb",
+          "status": "added",
+          "additions": 34,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_skill_office_product_metrics.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_token_type.rb",
+          "status": "added",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_token_type.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_tool_action_counts.rb",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_tool_action_counts.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_tool_actions.rb",
+          "status": "added",
+          "additions": 46,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_tool_actions.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_usage_bucketed_result.rb",
+          "status": "added",
+          "additions": 212,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_usage_bucketed_result.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_usage_report_time_bucket.rb",
+          "status": "added",
+          "additions": 43,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_usage_report_time_bucket.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_usage_users_item.rb",
+          "status": "added",
+          "additions": 248,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_usage_users_item.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_user.rb",
+          "status": "added",
+          "additions": 38,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_user.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_user_activity.rb",
+          "status": "added",
+          "additions": 130,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_user_activity.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_analytics_user_actor.rb",
+          "status": "added",
+          "additions": 70,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_analytics_user_actor.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_deleted_plugin.rb",
+          "status": "added",
+          "additions": 29,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_deleted_plugin.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_plugin.rb",
+          "status": "added",
+          "additions": 328,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_plugin.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_plugin_api_actor.rb",
+          "status": "added",
+          "additions": 31,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_plugin_api_actor.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_plugin_component.rb",
+          "status": "added",
+          "additions": 58,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_plugin_component.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_plugin_content_scan.rb",
+          "status": "added",
+          "additions": 75,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_plugin_content_scan.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_plugin_marketplace.rb",
+          "status": "added",
+          "additions": 227,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_plugin_marketplace.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_plugin_marketplace_validation_plugin_error.rb",
+          "status": "added",
+          "additions": 36,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_plugin_marketplace_validation_plugin_error.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_plugin_marketplace_validation_plugin_warning.rb",
+          "status": "added",
+          "additions": 28,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_plugin_marketplace_validation_plugin_warning.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_plugin_marketplace_validation_plugin_warnings.rb",
+          "status": "added",
+          "additions": 29,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_plugin_marketplace_validation_plugin_warnings.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_plugin_marketplace_validation_report.rb",
+          "status": "added",
+          "additions": 103,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_plugin_marketplace_validation_report.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_plugin_owner_organization.rb",
+          "status": "added",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_plugin_owner_organization.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_plugin_owner_user.rb",
+          "status": "added",
+          "additions": 28,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_plugin_owner_user.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_plugin_target_organization.rb",
+          "status": "added",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_plugin_target_organization.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_plugin_target_organization_member.rb",
+          "status": "added",
+          "additions": 28,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_plugin_target_organization_member.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_plugin_target_rbac_group.rb",
+          "status": "added",
+          "additions": 28,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_plugin_target_rbac_group.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_plugin_user_actor.rb",
+          "status": "added",
+          "additions": 40,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_plugin_user_actor.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_rbac_group.rb",
+          "status": "added",
+          "additions": 93,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_rbac_group.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_rbac_role.rb",
+          "status": "added",
+          "additions": 58,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_rbac_role.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_spend_limit.rb",
+          "status": "added",
+          "additions": 166,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_spend_limit.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_spend_limit_organization_scope.rb",
+          "status": "added",
+          "additions": 19,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_spend_limit_organization_scope.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_spend_limit_organization_service_scope.rb",
+          "status": "added",
+          "additions": 25,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_spend_limit_organization_service_scope.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_spend_limit_period.rb",
+          "status": "added",
+          "additions": 20,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_spend_limit_period.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_spend_limit_rbac_group_scope.rb",
+          "status": "added",
+          "additions": 25,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_spend_limit_rbac_group_scope.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_spend_limit_scoped_api_key_actor.rb",
+          "status": "added",
+          "additions": 27,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_spend_limit_scoped_api_key_actor.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_spend_limit_seat_tier_scope.rb",
+          "status": "added",
+          "additions": 25,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_spend_limit_seat_tier_scope.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_spend_limit_user_actor.rb",
+          "status": "added",
+          "additions": 62,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_spend_limit_user_actor.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_spend_limit_user_scope.rb",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_spend_limit_user_scope.rb"
+        },
+        {
+          "filename": "lib/anthropic/models/beta/organization/beta_spend_limit_workspace_scope.rb",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-ruby/blob/c87f0cd67742375e0ab792672fa661acbff2a494/lib%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fbeta_spend_limit_workspace_scope.rb"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 36759140012,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/36759140012",
+          "head_sha": "ce9b929a5290997a10fc368ca91018ee7c1d42d3"
+        },
+        {
+          "id": 36759139976,
+          "name": "Dependency versions",
+          "path": ".github/workflows/dependency-versions.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/36759139976",
+          "head_sha": "ce9b929a5290997a10fc368ca91018ee7c1d42d3"
+        },
+        {
+          "id": 36759139973,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/36759139973",
+          "head_sha": "ce9b929a5290997a10fc368ca91018ee7c1d42d3"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 36758349886,
+          "name": "Dependency versions",
+          "path": ".github/workflows/dependency-versions.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/36758349886",
+          "head_sha": "c87f0cd67742375e0ab792672fa661acbff2a494"
+        },
+        {
+          "id": 36758349829,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/36758349829",
+          "head_sha": "c87f0cd67742375e0ab792672fa661acbff2a494"
+        },
+        {
+          "id": 36758349650,
+          "name": "Dependency versions",
+          "path": ".github/workflows/dependency-versions.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/36758349650",
+          "head_sha": "c87f0cd67742375e0ab792672fa661acbff2a494"
+        },
+        {
+          "id": 36758349803,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/36758349803",
+          "head_sha": "c87f0cd67742375e0ab792672fa661acbff2a494"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v1.80.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.80.0",
+      "published_at": "2026-10-15T19:45:47Z",
+      "target_commitish": "main",
+      "commit_sha": "3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38796518866,
+          "name": "Publish Gem",
+          "path": ".github/workflows/publish-gem.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/38796518866",
+          "head_sha": "3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358"
+        },
+        {
+          "id": 38796516029,
+          "name": "Dependency versions",
+          "path": ".github/workflows/dependency-versions.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/38796516029",
+          "head_sha": "3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358"
+        },
+        {
+          "id": 38796515857,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/38796515857",
+          "head_sha": "3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358"
+        }
+      ]
+    },
+    {
+      "tag": "v1.79.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.79.0",
+      "published_at": "2026-10-14T17:12:31Z",
+      "target_commitish": "main",
+      "commit_sha": "62c9bb49ccc8cfb7dd4c8558c5d5403e301bd3a1",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38604689228,
+          "name": "Publish Gem",
+          "path": ".github/workflows/publish-gem.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/38604689228",
+          "head_sha": "62c9bb49ccc8cfb7dd4c8558c5d5403e301bd3a1"
+        },
+        {
+          "id": 38604684321,
+          "name": "Dependency versions",
+          "path": ".github/workflows/dependency-versions.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/38604684321",
+          "head_sha": "62c9bb49ccc8cfb7dd4c8558c5d5403e301bd3a1"
+        },
+        {
+          "id": 38604684573,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/38604684573",
+          "head_sha": "62c9bb49ccc8cfb7dd4c8558c5d5403e301bd3a1"
+        }
+      ]
+    },
+    {
+      "tag": "v1.78.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.78.0",
+      "published_at": "2026-10-09T15:35:07Z",
+      "target_commitish": "main",
+      "commit_sha": "96f887827b47a03106c597a236e49e5882f939e4",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38215752239,
+          "name": "Dependency versions",
+          "path": ".github/workflows/dependency-versions.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/38215752239",
+          "head_sha": "96f887827b47a03106c597a236e49e5882f939e4"
+        },
+        {
+          "id": 37952832788,
+          "name": "Publish Gem",
+          "path": ".github/workflows/publish-gem.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/37952832788",
+          "head_sha": "96f887827b47a03106c597a236e49e5882f939e4"
+        },
+        {
+          "id": 37952826424,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/37952826424",
+          "head_sha": "96f887827b47a03106c597a236e49e5882f939e4"
+        },
+        {
+          "id": 37952826391,
+          "name": "Dependency versions",
+          "path": ".github/workflows/dependency-versions.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-ruby/actions/runs/37952826391",
+          "head_sha": "96f887827b47a03106c597a236e49e5882f939e4"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v1.80.0",
+      "sha": "3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358"
+    },
+    {
+      "name": "v1.79.0",
+      "sha": "62c9bb49ccc8cfb7dd4c8558c5d5403e301bd3a1"
+    },
+    {
+      "name": "v1.78.0",
+      "sha": "96f887827b47a03106c597a236e49e5882f939e4"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:16:44.527330+00:00",
+  "source_times": {
+    "/repos/anthropics/anthropic-sdk-ruby": "2026-10-17T16:05:13.428653+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/commits?sha=main&per_page=20": "2026-10-17T16:05:15.481648+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/git/trees/3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358": "2026-10-17T16:05:16.944369+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/git/trees/577506bc0825723496a457fd0e971764b977615a": "2026-10-17T16:05:18.335022+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/git/trees/9b9e8e04c2f2eae96a9af1260ef275e53b330cd5": "2026-10-17T16:05:19.713670+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/git/blobs/73077f4afbb604fb065d46d2d88751ce2b0d0b1f": "2026-10-17T16:05:21.115942+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/git/blobs/8e3856b2cc00ef75b44ca754230c52c7054bd301": "2026-10-17T16:05:23.407212+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/git/blobs/04b31ec02157f1a64887784f4de04a4ce3b0c415": "2026-10-17T16:05:25.293658+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/git/blobs/383bccfefb17c28943fd5c47afccbe80898fe305": "2026-10-17T16:05:28.686990+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/git/blobs/2ad97b9490c588f6cc4ca2791a9ab06fc67bdeb2": "2026-10-17T16:05:30.118573+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/git/blobs/95b204aa321dcfadcde28fb2b77048b2e123315a": "2026-10-17T16:05:32.495595+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/git/blobs/1227adaa47421898f8038667ade1c0563002ac49": "2026-10-17T16:05:33.907255+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/git/blobs/835420f118f6c4ca5c518eaa1dd6086ebf50ea96": "2026-10-17T16:05:35.317981+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/git/blobs/4526d545f7bf40ef28c07cf35ad92f1692df0081": "2026-10-17T16:05:36.734682+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/git/blobs/ab09ae42b90abe3128f820c6381739f5f479d728": "2026-10-17T16:05:38.104585+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/git/blobs/9cb19caed5922efa3c2165b6ad086b10adb9e024": "2026-10-17T16:05:39.474494+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:05:46.925005+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/pulls/269/files?per_page=100": "2026-10-17T16:05:50.185467+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/pulls/269/reviews?per_page=100": "2026-10-17T16:05:51.733925+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/actions/runs?head_sha=babab269898c57fd7da72a317999950d9b533b9b&per_page=10": "2026-10-17T16:05:53.612442+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/actions/runs?head_sha=b6676bef3d5df4ec7e89ece394655514221de716&per_page=10": "2026-10-17T16:05:55.483726+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/pulls/242/files?per_page=100": "2026-10-17T16:05:57.596956+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/pulls/242/reviews?per_page=100": "2026-10-17T16:05:59.115096+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/actions/runs?head_sha=63175e8c09d6d2b28cb0ee950ea509e6b4bb549f&per_page=10": "2026-10-17T16:06:01.447212+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/actions/runs?head_sha=9b8fffeccea35560a83479874bf95928ea571a3c&per_page=10": "2026-10-17T16:06:03.298110+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/pulls/241/files?per_page=100": "2026-10-17T16:06:06.491248+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/pulls/241/reviews?per_page=100": "2026-10-17T16:06:08.331322+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/actions/runs?head_sha=ce9b929a5290997a10fc368ca91018ee7c1d42d3&per_page=10": "2026-10-17T16:06:11.151038+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/actions/runs?head_sha=c87f0cd67742375e0ab792672fa661acbff2a494&per_page=10": "2026-10-17T16:06:13.193082+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/releases?per_page=20&page=1": "2026-10-17T16:16:44.524590+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/commits/v1.80.0": "2026-10-17T16:06:17.084002+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/actions/runs?head_sha=3727c3da56c28b85105cf9d5d7b0d7ab5ff9c358&per_page=10": "2026-10-17T16:06:18.930671+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/commits/v1.79.0": "2026-10-17T16:06:20.384640+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/actions/runs?head_sha=62c9bb49ccc8cfb7dd4c8558c5d5403e301bd3a1&per_page=10": "2026-10-17T16:06:22.241544+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/commits/v1.78.0": "2026-10-17T16:06:23.712949+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/actions/runs?head_sha=96f887827b47a03106c597a236e49e5882f939e4&per_page=10": "2026-10-17T16:06:25.492051+00:00",
+    "/repos/anthropics/anthropic-sdk-ruby/tags?per_page=3": "2026-10-17T16:06:26.893251+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:16:44.524590+00:00",
+  "status": "collected"
+}

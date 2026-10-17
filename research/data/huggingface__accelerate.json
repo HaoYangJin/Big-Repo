@@ -1,0 +1,1789 @@
+{
+  "requested_repository": "huggingface/accelerate",
+  "category": "ml",
+  "collected_at": "2026-10-17T16:08:44.198801+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "huggingface/accelerate",
+  "metadata": {
+    "html_url": "https://github.com/huggingface/accelerate",
+    "description": "🚀 A simple way to launch, train, and use PyTorch models on almost any device and distributed configuration, automatic mixed precision (including fp8), and easy-to-configure FSDP and DeepSpeed support",
+    "homepage": "https://huggingface.co/docs/accelerate",
+    "language": "Python",
+    "stargazers_count": 9916,
+    "forks_count": 1547,
+    "open_issues_count": 119,
+    "pushed_at": "2026-10-16T20:57:17Z",
+    "created_at": "2020-10-30T13:27:12Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [],
+    "owner": {
+      "login": "huggingface",
+      "type": "Organization",
+      "html_url": "https://github.com/huggingface"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "2cc46162882e3e59bb1ea5d5d113191f6c1d5b73",
+      "url": "https://github.com/huggingface/accelerate/commit/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73",
+      "date": "2026-10-14T16:00:16Z",
+      "subject": "Fsdp2 keep output dtype (#4403)"
+    },
+    {
+      "sha": "b82d9cf48d536deaa15ccdcc24b11ec90f4f3c1b",
+      "url": "https://github.com/huggingface/accelerate/commit/b82d9cf48d536deaa15ccdcc24b11ec90f4f3c1b",
+      "date": "2026-10-14T15:55:45Z",
+      "subject": "enable XPU tests for activation_checkpoint_offload (#4401)"
+    },
+    {
+      "sha": "5dd7661443e34c41b171c0c7c331bc37cd0dbcf5",
+      "url": "https://github.com/huggingface/accelerate/commit/5dd7661443e34c41b171c0c7c331bc37cd0dbcf5",
+      "date": "2026-10-14T14:41:03Z",
+      "subject": "Distributed training tests (#4402)"
+    },
+    {
+      "sha": "ccfdff7dbbd6a8c455853a9e5eb6396ea51ffd45",
+      "url": "https://github.com/huggingface/accelerate/commit/ccfdff7dbbd6a8c455853a9e5eb6396ea51ffd45",
+      "date": "2026-10-12T16:20:19Z",
+      "subject": "Ask transformers whether a model supports context parallelism (#4198)"
+    },
+    {
+      "sha": "4ebc726849a2d7f03c16198847c22954e224dd87",
+      "url": "https://github.com/huggingface/accelerate/commit/4ebc726849a2d7f03c16198847c22954e224dd87",
+      "date": "2026-10-09T15:02:48Z",
+      "subject": "Skip `_no_split_modules` classes the model doesn't contain when auto-wrapping (#4384)"
+    },
+    {
+      "sha": "419d0e0c871f6dfd028787fd0eb8011511d9e512",
+      "url": "https://github.com/huggingface/accelerate/commit/419d0e0c871f6dfd028787fd0eb8011511d9e512",
+      "date": "2026-10-07T14:23:21Z",
+      "subject": "Allow tensor parallelism next to replicated data parallelism (#4193)"
+    },
+    {
+      "sha": "2f4c053a17da30ddabf0098ae579053212e70ce7",
+      "url": "https://github.com/huggingface/accelerate/commit/2f4c053a17da30ddabf0098ae579053212e70ce7",
+      "date": "2026-10-06T14:54:06Z",
+      "subject": "FSDP2: move placeholder weights to meta before the fp32 upcast (#4369)"
+    },
+    {
+      "sha": "08198562915f700e0aee3fd1c1b76dd88e6b3bbd",
+      "url": "https://github.com/huggingface/accelerate/commit/08198562915f700e0aee3fd1c1b76dd88e6b3bbd",
+      "date": "2026-10-06T09:19:51Z",
+      "subject": "Bump doc-builder workflow pin (#4368)"
+    },
+    {
+      "sha": "7d8824f10f8be1ea405d611c98d51ebfbf4821cd",
+      "url": "https://github.com/huggingface/accelerate/commit/7d8824f10f8be1ea405d611c98d51ebfbf4821cd",
+      "date": "2026-10-05T12:23:59Z",
+      "subject": "chore(deps): bump the actions group with 4 updates (#4366)"
+    },
+    {
+      "sha": "01c73fbdb9a7cdbf3c750c22160e7568f2c339c0",
+      "url": "https://github.com/huggingface/accelerate/commit/01c73fbdb9a7cdbf3c750c22160e7568f2c339c0",
+      "date": "2026-10-01T13:31:42Z",
+      "subject": "Fix metric padding removal after skip_first_batches (#4235)"
+    },
+    {
+      "sha": "a68e0d50e7afd7c3e2716ca5c5bad83063c04cdc",
+      "url": "https://github.com/huggingface/accelerate/commit/a68e0d50e7afd7c3e2716ca5c5bad83063c04cdc",
+      "date": "2026-10-01T13:09:08Z",
+      "subject": "Fix wait_for_everyone() crashing on MULTI_CPU when the machine has an accelerator (#4354)"
+    },
+    {
+      "sha": "aebbcc7bd3c254175e483af2fb947869fc988e65",
+      "url": "https://github.com/huggingface/accelerate/commit/aebbcc7bd3c254175e483af2fb947869fc988e65",
+      "date": "2026-09-30T11:30:01Z",
+      "subject": "[docs] Fix 31 dead or moved links across seven guides (#4348)"
+    },
+    {
+      "sha": "ea1311b108d8c42c4ee54460f03b73e365f9f1f2",
+      "url": "https://github.com/huggingface/accelerate/commit/ea1311b108d8c42c4ee54460f03b73e365f9f1f2",
+      "date": "2026-09-29T15:50:25Z",
+      "subject": "Fix loading checkpoints with modules offloaded to disk (#4352)"
+    },
+    {
+      "sha": "a3b865e6d6ccb2c133a2458d5b1987c8f3e85afa",
+      "url": "https://github.com/huggingface/accelerate/commit/a3b865e6d6ccb2c133a2458d5b1987c8f3e85afa",
+      "date": "2026-09-29T14:58:23Z",
+      "subject": "Fix IndexError when a tied parameter's partner module is split (#4344)"
+    },
+    {
+      "sha": "d737ded7034185e5f52de7810dd78724364d85c7",
+      "url": "https://github.com/huggingface/accelerate/commit/d737ded7034185e5f52de7810dd78724364d85c7",
+      "date": "2026-09-29T14:37:55Z",
+      "subject": "Fix notebook_launcher to propagate mixed_precision to the workers (#4331)"
+    },
+    {
+      "sha": "a7c67ecab21db2ab034b27e5874e7626f32c8f8b",
+      "url": "https://github.com/huggingface/accelerate/commit/a7c67ecab21db2ab034b27e5874e7626f32c8f8b",
+      "date": "2026-09-29T13:43:41Z",
+      "subject": "Fix skip_first_batches dropping drop_last, non_blocking, slice_fn, and mesh (#4296)"
+    },
+    {
+      "sha": "313d4839b07a51e081d96be099a2e357575f2450",
+      "url": "https://github.com/huggingface/accelerate/commit/313d4839b07a51e081d96be099a2e357575f2450",
+      "date": "2026-09-29T13:23:49Z",
+      "subject": "chore(deps): bump the actions group with 7 updates (#4350)"
+    },
+    {
+      "sha": "421af8bee5bda705d3c763f491b7a794f471818e",
+      "url": "https://github.com/huggingface/accelerate/commit/421af8bee5bda705d3c763f491b7a794f471818e",
+      "date": "2026-09-25T16:32:08Z",
+      "subject": "Fix accelerator dispatch test on minimum PyTorch (#4336)"
+    },
+    {
+      "sha": "d3c8185746196a25e52c87dc0325f52769a0355d",
+      "url": "https://github.com/huggingface/accelerate/commit/d3c8185746196a25e52c87dc0325f52769a0355d",
+      "date": "2026-09-25T16:30:16Z",
+      "subject": "Fix unwrap_model(keep_fp32_wrapper=False) breaking hooked models (#4255)"
+    },
+    {
+      "sha": "0bddf0eb1be41e57ec51663d28aeaa23be7af73b",
+      "url": "https://github.com/huggingface/accelerate/commit/0bddf0eb1be41e57ec51663d28aeaa23be7af73b",
+      "date": "2026-09-25T16:22:48Z",
+      "subject": "Fix ParallelismConfig.to_json returning None instead of the config dict (#4326)"
+    }
+  ],
+  "default_sha": "2cc46162882e3e59bb1ea5d5d113191f6c1d5b73",
+  "root_and_selected_directory_paths": [
+    ".devcontainer",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug-report.yml",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/dependabot.yml",
+    ".github/workflows",
+    ".github/workflows/build-docker-images-release.yml",
+    ".github/workflows/build_and_run_tests.yml",
+    ".github/workflows/build_docker_images.yml",
+    ".github/workflows/build_documentation.yml",
+    ".github/workflows/build_pr_documentation.yml",
+    ".github/workflows/gaudi3_scheduled.yml",
+    ".github/workflows/integration_tests.yml",
+    ".github/workflows/nightly.yml",
+    ".github/workflows/pr_style_bot.yml",
+    ".github/workflows/quality.yml",
+    ".github/workflows/run_merge_tests.yml",
+    ".github/workflows/self_hosted_integration_tests.yml",
+    ".github/workflows/stale.yml",
+    ".github/workflows/test.yml",
+    ".github/workflows/test_imports.yml",
+    ".github/workflows/trufflehog.yml",
+    ".github/workflows/upload_pr_documentation.yml",
+    ".gitignore",
+    ".pre-commit-config.yaml",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "Makefile",
+    "README.md",
+    "SECURITY.md",
+    "benchmarks",
+    "docker",
+    "docs",
+    "docs/Makefile",
+    "docs/README.md",
+    "docs/source",
+    "examples",
+    "manim_animations",
+    "pyproject.toml",
+    "setup.py",
+    "src",
+    "tests",
+    "utils"
+  ],
+  "workflow_paths": [
+    ".github/workflows/build-docker-images-release.yml",
+    ".github/workflows/build_and_run_tests.yml",
+    ".github/workflows/integration_tests.yml",
+    ".github/workflows/run_merge_tests.yml",
+    ".github/workflows/self_hosted_integration_tests.yml",
+    ".github/workflows/test.yml",
+    ".github/workflows/test_imports.yml",
+    ".github/workflows/build_docker_images.yml",
+    ".github/workflows/build_documentation.yml",
+    ".github/workflows/build_pr_documentation.yml",
+    ".github/workflows/gaudi3_scheduled.yml",
+    ".github/workflows/nightly.yml",
+    ".github/workflows/pr_style_bot.yml",
+    ".github/workflows/quality.yml",
+    ".github/workflows/stale.yml",
+    ".github/workflows/trufflehog.yml",
+    ".github/workflows/upload_pr_documentation.yml"
+  ],
+  "documents": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "c8ad966288a9faeeb71b2fad3ba12f6048e1a03f",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/CODE_OF_CONDUCT.md",
+      "lines": 129,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "48b5bec1d688717750faa5b77704f7029d945d7c",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/CONTRIBUTING.md",
+      "lines": 249,
+      "signals": {
+        "tests": [
+          146,
+          239,
+          240,
+          243
+        ],
+        "lint": [
+          158,
+          178,
+          182,
+          183
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile",
+      "sha": "c451c41861e0b5d80766d443d36c28e9a4bff125",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/Makefile",
+      "lines": 90,
+      "signals": {
+        "tests": [
+          19,
+          31,
+          34,
+          37,
+          40,
+          43,
+          45,
+          55,
+          59,
+          62,
+          65,
+          72
+        ],
+        "lint": [
+          9,
+          10,
+          14,
+          15
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "fc64f02e4fe4f570b155472720320cf165d1ede7",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/README.md",
+      "lines": 277,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          25,
+          27,
+          28,
+          29,
+          30,
+          209
+        ],
+        "media": [
+          19,
+          25,
+          27,
+          28,
+          29,
+          30,
+          38,
+          209
+        ],
+        "theme_images": [],
+        "playground": [
+          209
+        ],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "7be56d264ac08f17977f74ee040ca425584182d1",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/SECURITY.md",
+      "lines": 106,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          67,
+          101
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          7,
+          9,
+          11,
+          96
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          14
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "f12e576529271e3d68d58258abb4d09cd1c07338",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/pyproject.toml",
+      "lines": 46,
+      "signals": {
+        "tests": [],
+        "lint": [
+          1,
+          5,
+          19,
+          28,
+          34,
+          38,
+          43
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
+      "sha": "16111314f4f733d0551f3ce917a58e4ff74bda0e",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/.github/ISSUE_TEMPLATE/bug-report.yml",
+      "lines": 63,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "c382ade15d17eb9e8ef6abc43730a2698c2185d6",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/.github/PULL_REQUEST_TEMPLATE.md",
+      "lines": 47,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "15f7bdd7916ac5fca2274ad5d1239bafe0f0f5a2",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/.github/dependabot.yml",
+      "lines": 11,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/Makefile",
+      "sha": "8879933e6cda150267451c9e7d07dd22b7b0d3f1",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/docs/Makefile",
+      "lines": 19,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/README.md",
+      "sha": "4c089297dfc6f0ae4cf6022d17b4694b81db288a",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/docs/README.md",
+      "lines": 267,
+      "signals": {
+        "tests": [],
+        "lint": [
+          235
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build-docker-images-release.yml",
+      "sha": "c0138b7d392798211d5e980adc2f51611860b31e",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/.github/workflows/build-docker-images-release.yml",
+      "lines": 118,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12,
+          16,
+          33,
+          55,
+          77,
+          99
+        ],
+        "pinned_actions": [
+          22,
+          40,
+          42,
+          48,
+          62,
+          64,
+          70,
+          84,
+          86,
+          92,
+          106,
+          108
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build_and_run_tests.yml",
+      "sha": "ee82e2e81e9fa23ffe507fa03c27fd9c568fe0f9",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/.github/workflows/build_and_run_tests.yml",
+      "lines": 54,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          14
+        ],
+        "pinned_actions": [
+          21,
+          27
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/integration_tests.yml",
+      "sha": "d0c596b0994c436c7cc0d4db519a82e1b2269ace",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/.github/workflows/integration_tests.yml",
+      "lines": 62,
+      "signals": {
+        "tests": [
+          62
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          23,
+          27
+        ],
+        "pinned_actions": [
+          33,
+          35
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/run_merge_tests.yml",
+      "sha": "42f4337fe608594b6b4b52ad3f0c436d109672ef",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/.github/workflows/run_merge_tests.yml",
+      "lines": 192,
+      "signals": {
+        "tests": [
+          34,
+          87,
+          128,
+          173
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11,
+          15,
+          68,
+          109,
+          156
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/self_hosted_integration_tests.yml",
+      "sha": "480d93088247ccf128bed6f6f65fda40902f21ba",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/.github/workflows/self_hosted_integration_tests.yml",
+      "lines": 111,
+      "signals": {
+        "tests": [
+          71,
+          111
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          23,
+          27,
+          74
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "sha": "9f157379fd7fd4fc3a1ce75a40a6ad5da84dcc05",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/.github/workflows/test.yml",
+      "lines": 74,
+      "signals": {
+        "tests": [
+          59
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          18,
+          22
+        ],
+        "pinned_actions": [
+          46,
+          48
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test_imports.yml",
+      "sha": "244654aa03189ea329ec6fb3fe91e56b6ec4766b",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/.github/workflows/test_imports.yml",
+      "lines": 59,
+      "signals": {
+        "tests": [
+          44,
+          54
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          18,
+          22
+        ],
+        "pinned_actions": [
+          33,
+          35
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build_docker_images.yml",
+      "sha": "0dcf67b5631f1234db6d8aa34f6a0e67ed72252d",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/.github/workflows/build_docker_images.yml",
+      "lines": 126,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13,
+          17,
+          44,
+          71,
+          98
+        ],
+        "pinned_actions": [
+          24,
+          26,
+          35,
+          51,
+          53,
+          62,
+          78,
+          80,
+          89,
+          105,
+          107,
+          119
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build_documentation.yml",
+      "sha": "dcd3c409b2df30bb33b768ca5360d92c341505f9",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/.github/workflows/build_documentation.yml",
+      "lines": 17,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          12
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build_pr_documentation.yml",
+      "sha": "c0bd05f024c33ba2780ecbd4d9e3676f592f96d6",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/.github/workflows/build_pr_documentation.yml",
+      "lines": 16,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          12
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/gaudi3_scheduled.yml",
+      "sha": "7e73eea88bc112a9cd32a4bab3e81535250186fd",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/.github/workflows/gaudi3_scheduled.yml",
+      "lines": 91,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12,
+          16
+        ],
+        "pinned_actions": [
+          50
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "sha": "ecb498d44b98935280e9d4a3ec6da0a703def574",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/accelerate/blob/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73/.github/workflows/nightly.yml",
+      "lines": 87,
+      "signals": {
+        "tests": [
+          61
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          16
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 4401,
+      "title": "enable XPU tests for activation_checkpoint_offload",
+      "url": "https://github.com/huggingface/accelerate/pull/4401",
+      "merged_at": "2026-10-14T15:55:46Z",
+      "merge_commit_sha": "b82d9cf48d536deaa15ccdcc24b11ec90f4f3c1b",
+      "files": [
+        "tests/test_activation_checkpointing_offload.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "tests/test_activation_checkpointing_offload.py",
+          "status": "modified",
+          "additions": 17,
+          "deletions": 14,
+          "blob_url": "https://github.com/huggingface/accelerate/blob/f869fb5482c6f6c9b19b4ca2d29cbae6013a3d55/tests%2Ftest_activation_checkpointing_offload.py"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38593658534,
+          "name": "Trigger docker images and run tests",
+          "path": ".github/workflows/build_and_run_tests.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38593658534",
+          "head_sha": "b82d9cf48d536deaa15ccdcc24b11ec90f4f3c1b"
+        },
+        {
+          "id": 38593659184,
+          "name": "Build documentation",
+          "path": ".github/workflows/build_documentation.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38593659184",
+          "head_sha": "b82d9cf48d536deaa15ccdcc24b11ec90f4f3c1b"
+        },
+        {
+          "id": 38593658266,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38593658266",
+          "head_sha": "b82d9cf48d536deaa15ccdcc24b11ec90f4f3c1b"
+        },
+        {
+          "id": 38593658506,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38593658506",
+          "head_sha": "b82d9cf48d536deaa15ccdcc24b11ec90f4f3c1b"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38528477432,
+          "name": "Build PR Documentation",
+          "path": ".github/workflows/build_pr_documentation.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38528477432",
+          "head_sha": "f869fb5482c6f6c9b19b4ca2d29cbae6013a3d55"
+        },
+        {
+          "id": 38528476650,
+          "name": "Quality Check",
+          "path": ".github/workflows/quality.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38528476650",
+          "head_sha": "f869fb5482c6f6c9b19b4ca2d29cbae6013a3d55"
+        },
+        {
+          "id": 38528476799,
+          "name": "Run Import Tests",
+          "path": ".github/workflows/test_imports.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38528476799",
+          "head_sha": "f869fb5482c6f6c9b19b4ca2d29cbae6013a3d55"
+        },
+        {
+          "id": 38528476741,
+          "name": "Run Tests",
+          "path": ".github/workflows/test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38528476741",
+          "head_sha": "f869fb5482c6f6c9b19b4ca2d29cbae6013a3d55"
+        },
+        {
+          "id": 38528476692,
+          "name": "Integration Tests",
+          "path": ".github/workflows/integration_tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38528476692",
+          "head_sha": "f869fb5482c6f6c9b19b4ca2d29cbae6013a3d55"
+        }
+      ]
+    },
+    {
+      "number": 4403,
+      "title": "Fsdp2 keep output dtype",
+      "url": "https://github.com/huggingface/accelerate/pull/4403",
+      "merged_at": "2026-10-14T16:00:17Z",
+      "merge_commit_sha": "2cc46162882e3e59bb1ea5d5d113191f6c1d5b73",
+      "files": [
+        "src/accelerate/utils/dataclasses.py",
+        "tests/distributed/test_distributed_fsdp.py",
+        "tests/fsdp/test_fsdp.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "src/accelerate/utils/dataclasses.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 5,
+          "blob_url": "https://github.com/huggingface/accelerate/blob/9bcef8666a11226347d18057055a4d755eaa522b/src%2Faccelerate%2Futils%2Fdataclasses.py"
+        },
+        {
+          "filename": "tests/distributed/test_distributed_fsdp.py",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 8,
+          "blob_url": "https://github.com/huggingface/accelerate/blob/9bcef8666a11226347d18057055a4d755eaa522b/tests%2Fdistributed%2Ftest_distributed_fsdp.py"
+        },
+        {
+          "filename": "tests/fsdp/test_fsdp.py",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 4,
+          "blob_url": "https://github.com/huggingface/accelerate/blob/9bcef8666a11226347d18057055a4d755eaa522b/tests%2Ffsdp%2Ftest_fsdp.py"
+        }
+      ],
+      "review_states": [
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39044141707,
+          "name": "Stale Bot",
+          "path": ".github/workflows/stale.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/39044141707",
+          "head_sha": "2cc46162882e3e59bb1ea5d5d113191f6c1d5b73"
+        },
+        {
+          "id": 39009401015,
+          "name": "Gaudi3 tests (scheduled)",
+          "path": ".github/workflows/gaudi3_scheduled.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/39009401015",
+          "head_sha": "2cc46162882e3e59bb1ea5d5d113191f6c1d5b73"
+        },
+        {
+          "id": 38996743103,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38996743103",
+          "head_sha": "2cc46162882e3e59bb1ea5d5d113191f6c1d5b73"
+        },
+        {
+          "id": 38996742444,
+          "name": "Style Bot",
+          "path": ".github/workflows/pr_style_bot.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38996742444",
+          "head_sha": "2cc46162882e3e59bb1ea5d5d113191f6c1d5b73"
+        },
+        {
+          "id": 38993924882,
+          "name": "Self-hosted runner with slow tests (scheduled)",
+          "path": ".github/workflows/nightly.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38993924882",
+          "head_sha": "2cc46162882e3e59bb1ea5d5d113191f6c1d5b73"
+        },
+        {
+          "id": 38990557136,
+          "name": "Build Docker images (scheduled)",
+          "path": ".github/workflows/build_docker_images.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38990557136",
+          "head_sha": "2cc46162882e3e59bb1ea5d5d113191f6c1d5b73"
+        },
+        {
+          "id": 38966072023,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38966072023",
+          "head_sha": "2cc46162882e3e59bb1ea5d5d113191f6c1d5b73"
+        },
+        {
+          "id": 38965962100,
+          "name": "Style Bot",
+          "path": ".github/workflows/pr_style_bot.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38965962100",
+          "head_sha": "2cc46162882e3e59bb1ea5d5d113191f6c1d5b73"
+        },
+        {
+          "id": 38946172478,
+          "name": "Style Bot",
+          "path": ".github/workflows/pr_style_bot.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38946172478",
+          "head_sha": "2cc46162882e3e59bb1ea5d5d113191f6c1d5b73"
+        },
+        {
+          "id": 38945937513,
+          "name": "Style Bot",
+          "path": ".github/workflows/pr_style_bot.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38945937513",
+          "head_sha": "2cc46162882e3e59bb1ea5d5d113191f6c1d5b73"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38592891719,
+          "name": "Build PR Documentation",
+          "path": ".github/workflows/build_pr_documentation.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38592891719",
+          "head_sha": "9bcef8666a11226347d18057055a4d755eaa522b"
+        },
+        {
+          "id": 38592890577,
+          "name": "Quality Check",
+          "path": ".github/workflows/quality.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38592890577",
+          "head_sha": "9bcef8666a11226347d18057055a4d755eaa522b"
+        },
+        {
+          "id": 38592891000,
+          "name": "Run Import Tests",
+          "path": ".github/workflows/test_imports.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38592891000",
+          "head_sha": "9bcef8666a11226347d18057055a4d755eaa522b"
+        },
+        {
+          "id": 38592890470,
+          "name": "Integration Tests",
+          "path": ".github/workflows/integration_tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38592890470",
+          "head_sha": "9bcef8666a11226347d18057055a4d755eaa522b"
+        },
+        {
+          "id": 38592890754,
+          "name": "Run Tests",
+          "path": ".github/workflows/test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38592890754",
+          "head_sha": "9bcef8666a11226347d18057055a4d755eaa522b"
+        },
+        {
+          "id": 38592880851,
+          "name": "PR #4403",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38592880851",
+          "head_sha": "9bcef8666a11226347d18057055a4d755eaa522b"
+        },
+        {
+          "id": 38592640035,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38592640035",
+          "head_sha": "9bcef8666a11226347d18057055a4d755eaa522b"
+        }
+      ]
+    },
+    {
+      "number": 4402,
+      "title": "Distributed training tests",
+      "url": "https://github.com/huggingface/accelerate/pull/4402",
+      "merged_at": "2026-10-14T14:41:04Z",
+      "merge_commit_sha": "5dd7661443e34c41b171c0c7c331bc37cd0dbcf5",
+      "files": [
+        "Makefile",
+        "tests/distributed/__init__.py",
+        "tests/distributed/accelerate_configs/ddp.yaml",
+        "tests/distributed/accelerate_configs/fsdp2.yaml",
+        "tests/distributed/accelerate_configs/zero2.yaml",
+        "tests/distributed/accelerate_configs/zero3.yaml",
+        "tests/distributed/scripts/train.py",
+        "tests/distributed/test_distributed.py",
+        "tests/distributed/test_distributed_ddp.py",
+        "tests/distributed/test_distributed_deepspeed.py",
+        "tests/distributed/test_distributed_fsdp.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "Makefile",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1,
+          "blob_url": "https://github.com/huggingface/accelerate/blob/1b0c033a69a5782da083e4861b36fa5397dada89/Makefile"
+        },
+        {
+          "filename": "tests/distributed/__init__.py",
+          "status": "added",
+          "additions": 13,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/accelerate/blob/1b0c033a69a5782da083e4861b36fa5397dada89/tests%2Fdistributed%2F__init__.py"
+        },
+        {
+          "filename": "tests/distributed/accelerate_configs/ddp.yaml",
+          "status": "added",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/accelerate/blob/1b0c033a69a5782da083e4861b36fa5397dada89/tests%2Fdistributed%2Faccelerate_configs%2Fddp.yaml"
+        },
+        {
+          "filename": "tests/distributed/accelerate_configs/fsdp2.yaml",
+          "status": "added",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/accelerate/blob/1b0c033a69a5782da083e4861b36fa5397dada89/tests%2Fdistributed%2Faccelerate_configs%2Ffsdp2.yaml"
+        },
+        {
+          "filename": "tests/distributed/accelerate_configs/zero2.yaml",
+          "status": "added",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/accelerate/blob/1b0c033a69a5782da083e4861b36fa5397dada89/tests%2Fdistributed%2Faccelerate_configs%2Fzero2.yaml"
+        },
+        {
+          "filename": "tests/distributed/accelerate_configs/zero3.yaml",
+          "status": "added",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/accelerate/blob/1b0c033a69a5782da083e4861b36fa5397dada89/tests%2Fdistributed%2Faccelerate_configs%2Fzero3.yaml"
+        },
+        {
+          "filename": "tests/distributed/scripts/train.py",
+          "status": "added",
+          "additions": 95,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/accelerate/blob/1b0c033a69a5782da083e4861b36fa5397dada89/tests%2Fdistributed%2Fscripts%2Ftrain.py"
+        },
+        {
+          "filename": "tests/distributed/test_distributed.py",
+          "status": "added",
+          "additions": 101,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/accelerate/blob/1b0c033a69a5782da083e4861b36fa5397dada89/tests%2Fdistributed%2Ftest_distributed.py"
+        },
+        {
+          "filename": "tests/distributed/test_distributed_ddp.py",
+          "status": "added",
+          "additions": 43,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/accelerate/blob/1b0c033a69a5782da083e4861b36fa5397dada89/tests%2Fdistributed%2Ftest_distributed_ddp.py"
+        },
+        {
+          "filename": "tests/distributed/test_distributed_deepspeed.py",
+          "status": "added",
+          "additions": 73,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/accelerate/blob/1b0c033a69a5782da083e4861b36fa5397dada89/tests%2Fdistributed%2Ftest_distributed_deepspeed.py"
+        },
+        {
+          "filename": "tests/distributed/test_distributed_fsdp.py",
+          "status": "added",
+          "additions": 48,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/accelerate/blob/1b0c033a69a5782da083e4861b36fa5397dada89/tests%2Fdistributed%2Ftest_distributed_fsdp.py"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38593074462,
+          "name": "Style Bot",
+          "path": ".github/workflows/pr_style_bot.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38593074462",
+          "head_sha": "5dd7661443e34c41b171c0c7c331bc37cd0dbcf5"
+        },
+        {
+          "id": 38593022867,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38593022867",
+          "head_sha": "5dd7661443e34c41b171c0c7c331bc37cd0dbcf5"
+        },
+        {
+          "id": 38588493085,
+          "name": "Style Bot",
+          "path": ".github/workflows/pr_style_bot.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38588493085",
+          "head_sha": "5dd7661443e34c41b171c0c7c331bc37cd0dbcf5"
+        },
+        {
+          "id": 38588263085,
+          "name": "Stale Bot",
+          "path": ".github/workflows/stale.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38588263085",
+          "head_sha": "5dd7661443e34c41b171c0c7c331bc37cd0dbcf5"
+        },
+        {
+          "id": 38587616032,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38587616032",
+          "head_sha": "5dd7661443e34c41b171c0c7c331bc37cd0dbcf5"
+        },
+        {
+          "id": 38587340420,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38587340420",
+          "head_sha": "5dd7661443e34c41b171c0c7c331bc37cd0dbcf5"
+        },
+        {
+          "id": 38586882565,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38586882565",
+          "head_sha": "5dd7661443e34c41b171c0c7c331bc37cd0dbcf5"
+        },
+        {
+          "id": 38585594463,
+          "name": "Style Bot",
+          "path": ".github/workflows/pr_style_bot.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38585594463",
+          "head_sha": "5dd7661443e34c41b171c0c7c331bc37cd0dbcf5"
+        },
+        {
+          "id": 38585568789,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38585568789",
+          "head_sha": "5dd7661443e34c41b171c0c7c331bc37cd0dbcf5"
+        },
+        {
+          "id": 38582806338,
+          "name": "Style Bot",
+          "path": ".github/workflows/pr_style_bot.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38582806338",
+          "head_sha": "5dd7661443e34c41b171c0c7c331bc37cd0dbcf5"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38576614035,
+          "name": "Build PR Documentation",
+          "path": ".github/workflows/build_pr_documentation.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38576614035",
+          "head_sha": "1b0c033a69a5782da083e4861b36fa5397dada89"
+        },
+        {
+          "id": 38576612852,
+          "name": "Quality Check",
+          "path": ".github/workflows/quality.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38576612852",
+          "head_sha": "1b0c033a69a5782da083e4861b36fa5397dada89"
+        },
+        {
+          "id": 38576612641,
+          "name": "Run Import Tests",
+          "path": ".github/workflows/test_imports.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38576612641",
+          "head_sha": "1b0c033a69a5782da083e4861b36fa5397dada89"
+        },
+        {
+          "id": 38576612613,
+          "name": "Integration Tests",
+          "path": ".github/workflows/integration_tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38576612613",
+          "head_sha": "1b0c033a69a5782da083e4861b36fa5397dada89"
+        },
+        {
+          "id": 38576612647,
+          "name": "Run Tests",
+          "path": ".github/workflows/test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38576612647",
+          "head_sha": "1b0c033a69a5782da083e4861b36fa5397dada89"
+        },
+        {
+          "id": 38576602163,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38576602163",
+          "head_sha": "1b0c033a69a5782da083e4861b36fa5397dada89"
+        },
+        {
+          "id": 38576603942,
+          "name": "PR #4402",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/38576603942",
+          "head_sha": "1b0c033a69a5782da083e4861b36fa5397dada89"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v1.15.0",
+      "url": "https://github.com/huggingface/accelerate/releases/tag/v1.15.0",
+      "published_at": "2026-09-09T13:30:33Z",
+      "target_commitish": "main",
+      "commit_sha": "6afc1e5ee217051fde702b23de2813344dc0fd33",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 34357520666,
+          "name": "Build Docker images (releases)",
+          "path": ".github/workflows/build-docker-images-release.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/34357520666",
+          "head_sha": "6afc1e5ee217051fde702b23de2813344dc0fd33"
+        },
+        {
+          "id": 34354137901,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/34354137901",
+          "head_sha": "6afc1e5ee217051fde702b23de2813344dc0fd33"
+        },
+        {
+          "id": 34354137649,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/34354137649",
+          "head_sha": "6afc1e5ee217051fde702b23de2813344dc0fd33"
+        },
+        {
+          "id": 34354138660,
+          "name": "Build documentation",
+          "path": ".github/workflows/build_documentation.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/34354138660",
+          "head_sha": "6afc1e5ee217051fde702b23de2813344dc0fd33"
+        }
+      ]
+    },
+    {
+      "tag": "v1.14.0",
+      "url": "https://github.com/huggingface/accelerate/releases/tag/v1.14.0",
+      "published_at": "2026-06-11T13:58:31Z",
+      "target_commitish": "main",
+      "commit_sha": "beb0672aa8444ea7647aee056f624effe5996346",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 27352141216,
+          "name": "Build Docker images (releases)",
+          "path": ".github/workflows/build-docker-images-release.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/27352141216",
+          "head_sha": "beb0672aa8444ea7647aee056f624effe5996346"
+        },
+        {
+          "id": 27350833277,
+          "name": "Build documentation",
+          "path": ".github/workflows/build_documentation.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/27350833277",
+          "head_sha": "beb0672aa8444ea7647aee056f624effe5996346"
+        },
+        {
+          "id": 27350832849,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/27350832849",
+          "head_sha": "beb0672aa8444ea7647aee056f624effe5996346"
+        },
+        {
+          "id": 27350832693,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/27350832693",
+          "head_sha": "beb0672aa8444ea7647aee056f624effe5996346"
+        }
+      ]
+    },
+    {
+      "tag": "v1.13.0",
+      "url": "https://github.com/huggingface/accelerate/releases/tag/v1.13.0",
+      "published_at": "2026-03-04T20:15:55Z",
+      "target_commitish": "main",
+      "commit_sha": "e6ee1337014f6f97c3cf58f806aa28a0109f09a5",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 22687385391,
+          "name": "Build Docker images (releases)",
+          "path": ".github/workflows/build-docker-images-release.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/22687385391",
+          "head_sha": "e6ee1337014f6f97c3cf58f806aa28a0109f09a5"
+        },
+        {
+          "id": 22685436018,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/22685436018",
+          "head_sha": "e6ee1337014f6f97c3cf58f806aa28a0109f09a5"
+        },
+        {
+          "id": 22685374638,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/22685374638",
+          "head_sha": "e6ee1337014f6f97c3cf58f806aa28a0109f09a5"
+        },
+        {
+          "id": 22685374643,
+          "name": "Build documentation",
+          "path": ".github/workflows/build_documentation.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/accelerate/actions/runs/22685374643",
+          "head_sha": "e6ee1337014f6f97c3cf58f806aa28a0109f09a5"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v1.15.0",
+      "sha": "6afc1e5ee217051fde702b23de2813344dc0fd33"
+    },
+    {
+      "name": "v1.14.0",
+      "sha": "beb0672aa8444ea7647aee056f624effe5996346"
+    },
+    {
+      "name": "v1.13.0",
+      "sha": "e6ee1337014f6f97c3cf58f806aa28a0109f09a5"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:00.896700+00:00",
+  "source_times": {
+    "/repos/huggingface/accelerate": "2026-10-17T16:08:44.198801+00:00",
+    "/repos/huggingface/accelerate/commits?sha=main&per_page=20": "2026-10-17T16:08:46.330302+00:00",
+    "/repos/huggingface/accelerate/git/trees/2cc46162882e3e59bb1ea5d5d113191f6c1d5b73": "2026-10-17T16:08:48.744673+00:00",
+    "/repos/huggingface/accelerate/git/trees/eda8700e37fe107b001950b991c815b246da77dd": "2026-10-17T16:08:51.158372+00:00",
+    "/repos/huggingface/accelerate/git/trees/c0883fe02f5fcc98c7ed20d9524d30a6a2b5fe57": "2026-10-17T16:08:52.619685+00:00",
+    "/repos/huggingface/accelerate/git/trees/a6115e45ffdbb353c64f0152f01d1704977b04ec": "2026-10-17T16:08:54.010262+00:00",
+    "/repos/huggingface/accelerate/git/trees/d6ddbd72a02bfe7e1632f02c3a377f18fd1e4d6c": "2026-10-17T16:08:56.138716+00:00",
+    "/repos/huggingface/accelerate/git/blobs/c8ad966288a9faeeb71b2fad3ba12f6048e1a03f": "2026-10-17T16:08:57.690412+00:00",
+    "/repos/huggingface/accelerate/git/blobs/48b5bec1d688717750faa5b77704f7029d945d7c": "2026-10-17T16:08:59.111126+00:00",
+    "/repos/huggingface/accelerate/git/blobs/c451c41861e0b5d80766d443d36c28e9a4bff125": "2026-10-17T16:09:00.485912+00:00",
+    "/repos/huggingface/accelerate/git/blobs/fc64f02e4fe4f570b155472720320cf165d1ede7": "2026-10-17T16:09:02.035492+00:00",
+    "/repos/huggingface/accelerate/git/blobs/7be56d264ac08f17977f74ee040ca425584182d1": "2026-10-17T16:09:03.408091+00:00",
+    "/repos/huggingface/accelerate/git/blobs/f12e576529271e3d68d58258abb4d09cd1c07338": "2026-10-17T16:09:05.886496+00:00",
+    "/repos/huggingface/accelerate/git/blobs/16111314f4f733d0551f3ce917a58e4ff74bda0e": "2026-10-17T16:09:07.291975+00:00",
+    "/repos/huggingface/accelerate/git/blobs/c382ade15d17eb9e8ef6abc43730a2698c2185d6": "2026-10-17T16:09:08.642737+00:00",
+    "/repos/huggingface/accelerate/git/blobs/15f7bdd7916ac5fca2274ad5d1239bafe0f0f5a2": "2026-10-17T16:09:10.029342+00:00",
+    "/repos/huggingface/accelerate/git/blobs/8879933e6cda150267451c9e7d07dd22b7b0d3f1": "2026-10-17T16:09:11.379223+00:00",
+    "/repos/huggingface/accelerate/git/blobs/4c089297dfc6f0ae4cf6022d17b4694b81db288a": "2026-10-17T16:09:14.340585+00:00",
+    "/repos/huggingface/accelerate/git/blobs/c0138b7d392798211d5e980adc2f51611860b31e": "2026-10-17T16:09:15.746917+00:00",
+    "/repos/huggingface/accelerate/git/blobs/ee82e2e81e9fa23ffe507fa03c27fd9c568fe0f9": "2026-10-17T16:09:17.545511+00:00",
+    "/repos/huggingface/accelerate/git/blobs/d0c596b0994c436c7cc0d4db519a82e1b2269ace": "2026-10-17T16:09:18.961141+00:00",
+    "/repos/huggingface/accelerate/git/blobs/42f4337fe608594b6b4b52ad3f0c436d109672ef": "2026-10-17T16:09:20.422940+00:00",
+    "/repos/huggingface/accelerate/git/blobs/480d93088247ccf128bed6f6f65fda40902f21ba": "2026-10-17T16:09:21.833790+00:00",
+    "/repos/huggingface/accelerate/git/blobs/9f157379fd7fd4fc3a1ce75a40a6ad5da84dcc05": "2026-10-17T16:09:23.206762+00:00",
+    "/repos/huggingface/accelerate/git/blobs/244654aa03189ea329ec6fb3fe91e56b6ec4766b": "2026-10-17T16:09:25.774543+00:00",
+    "/repos/huggingface/accelerate/git/blobs/0dcf67b5631f1234db6d8aa34f6a0e67ed72252d": "2026-10-17T16:09:27.167126+00:00",
+    "/repos/huggingface/accelerate/git/blobs/dcd3c409b2df30bb33b768ca5360d92c341505f9": "2026-10-17T16:09:28.507224+00:00",
+    "/repos/huggingface/accelerate/git/blobs/c0bd05f024c33ba2780ecbd4d9e3676f592f96d6": "2026-10-17T16:09:29.876871+00:00",
+    "/repos/huggingface/accelerate/git/blobs/7e73eea88bc112a9cd32a4bab3e81535250186fd": "2026-10-17T16:09:31.226959+00:00",
+    "/repos/huggingface/accelerate/git/blobs/ecb498d44b98935280e9d4a3ec6da0a703def574": "2026-10-17T16:09:32.569719+00:00",
+    "/repos/huggingface/accelerate/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:09:40.685270+00:00",
+    "/repos/huggingface/accelerate/pulls/4401/files?per_page=100": "2026-10-17T16:09:42.277529+00:00",
+    "/repos/huggingface/accelerate/pulls/4401/reviews?per_page=100": "2026-10-17T16:09:43.854468+00:00",
+    "/repos/huggingface/accelerate/actions/runs?head_sha=b82d9cf48d536deaa15ccdcc24b11ec90f4f3c1b&per_page=10": "2026-10-17T16:09:45.973540+00:00",
+    "/repos/huggingface/accelerate/actions/runs?head_sha=f869fb5482c6f6c9b19b4ca2d29cbae6013a3d55&per_page=10": "2026-10-17T16:09:49.189025+00:00",
+    "/repos/huggingface/accelerate/pulls/4403/files?per_page=100": "2026-10-17T16:09:50.686695+00:00",
+    "/repos/huggingface/accelerate/pulls/4403/reviews?per_page=100": "2026-10-17T16:09:52.335415+00:00",
+    "/repos/huggingface/accelerate/actions/runs?head_sha=2cc46162882e3e59bb1ea5d5d113191f6c1d5b73&per_page=10": "2026-10-17T16:09:54.703405+00:00",
+    "/repos/huggingface/accelerate/actions/runs?head_sha=9bcef8666a11226347d18057055a4d755eaa522b&per_page=10": "2026-10-17T16:09:56.669415+00:00",
+    "/repos/huggingface/accelerate/pulls/4402/files?per_page=100": "2026-10-17T16:09:58.547148+00:00",
+    "/repos/huggingface/accelerate/pulls/4402/reviews?per_page=100": "2026-10-17T16:10:00.512772+00:00",
+    "/repos/huggingface/accelerate/actions/runs?head_sha=5dd7661443e34c41b171c0c7c331bc37cd0dbcf5&per_page=10": "2026-10-17T16:10:03.022795+00:00",
+    "/repos/huggingface/accelerate/actions/runs?head_sha=1b0c033a69a5782da083e4861b36fa5397dada89&per_page=10": "2026-10-17T16:10:05.989450+00:00",
+    "/repos/huggingface/accelerate/releases?per_page=20&page=1": "2026-10-17T16:17:00.892927+00:00",
+    "/repos/huggingface/accelerate/commits/v1.15.0": "2026-10-17T16:10:10.191480+00:00",
+    "/repos/huggingface/accelerate/actions/runs?head_sha=6afc1e5ee217051fde702b23de2813344dc0fd33&per_page=10": "2026-10-17T16:10:12.231622+00:00",
+    "/repos/huggingface/accelerate/commits/v1.14.0": "2026-10-17T16:10:13.747329+00:00",
+    "/repos/huggingface/accelerate/actions/runs?head_sha=beb0672aa8444ea7647aee056f624effe5996346&per_page=10": "2026-10-17T16:10:15.732664+00:00",
+    "/repos/huggingface/accelerate/commits/v1.13.0": "2026-10-17T16:10:17.200117+00:00",
+    "/repos/huggingface/accelerate/actions/runs?head_sha=e6ee1337014f6f97c3cf58f806aa28a0109f09a5&per_page=10": "2026-10-17T16:10:21.611636+00:00",
+    "/repos/huggingface/accelerate/tags?per_page=3": "2026-10-17T16:10:23.982850+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:00.892927+00:00",
+  "status": "collected"
+}

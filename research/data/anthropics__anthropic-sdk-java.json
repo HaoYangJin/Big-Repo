@@ -1,0 +1,2678 @@
+{
+  "requested_repository": "anthropics/anthropic-sdk-java",
+  "category": "sdk",
+  "collected_at": "2026-10-17T16:05:11.206227+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "anthropics/anthropic-sdk-java",
+  "metadata": {
+    "html_url": "https://github.com/anthropics/anthropic-sdk-java",
+    "description": null,
+    "homepage": null,
+    "language": "Kotlin",
+    "stargazers_count": 383,
+    "forks_count": 107,
+    "open_issues_count": 4,
+    "pushed_at": "2026-10-15T20:05:42Z",
+    "created_at": "2024-11-26T00:12:20Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [],
+    "owner": {
+      "login": "anthropics",
+      "type": "Organization",
+      "html_url": "https://github.com/anthropics"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "b61846c6841cbcaedfb3997f319bb0475d045744",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/b61846c6841cbcaedfb3997f319bb0475d045744",
+      "date": "2026-10-15T20:03:48Z",
+      "subject": "release: 2.73.0"
+    },
+    {
+      "sha": "a533feeb2ba47e426bf52136c61fbb145b6cc699",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/a533feeb2ba47e426bf52136c61fbb145b6cc699",
+      "date": "2026-10-15T19:52:59Z",
+      "subject": "Merge pull request #404 from anthropics/synced/published"
+    },
+    {
+      "sha": "157d17baca04e06139afa65544bc0e41cb5a4f69",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/157d17baca04e06139afa65544bc0e41cb5a4f69",
+      "date": "2026-10-15T19:42:08Z",
+      "subject": "chore(tests): build the OpenTelemetry propagation test's client without an API key (#402)"
+    },
+    {
+      "sha": "e4638a3f47d31e7860e04c8a7211e9256d29b5ba",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/e4638a3f47d31e7860e04c8a7211e9256d29b5ba",
+      "date": "2026-10-15T19:34:04Z",
+      "subject": "Merge pull request #387 from anthropics/synced/published"
+    },
+    {
+      "sha": "77980701b7a8420e3e6d0056452c75ff0e47c334",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/77980701b7a8420e3e6d0056452c75ff0e47c334",
+      "date": "2026-10-15T19:26:30Z",
+      "subject": "chore(tests): cover the OpenTelemetry propagation option"
+    },
+    {
+      "sha": "21ca54ccbf739cd80d3cc073675e481da32a532a",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/21ca54ccbf739cd80d3cc073675e481da32a532a",
+      "date": "2026-10-15T19:03:20Z",
+      "subject": "chore(internal): baseline lint findings on constructor properties (#388)"
+    },
+    {
+      "sha": "366c46e1a359bcd73d787ec8f97985f904ffc732",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/366c46e1a359bcd73d787ec8f97985f904ffc732",
+      "date": "2026-10-15T18:45:07Z",
+      "subject": "feat(helpers): retry a rate-limited fast fallback at standard speed (#397)"
+    },
+    {
+      "sha": "b2e54d0282d54e2a072d198ac3821773970998eb",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/b2e54d0282d54e2a072d198ac3821773970998eb",
+      "date": "2026-10-15T16:08:46Z",
+      "subject": "feat(api): add between_tools to thinking types in model capabilities"
+    },
+    {
+      "sha": "6d797d7e0edf966f497ff93fa60af2e86169770f",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/6d797d7e0edf966f497ff93fa60af2e86169770f",
+      "date": "2026-10-15T15:42:26Z",
+      "subject": "chore(docs): describe headers on Managed Agents and telemetry endpoints"
+    },
+    {
+      "sha": "33b665bd0c1cbe4f042b343bea5e3e9f7bf9a53b",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/33b665bd0c1cbe4f042b343bea5e3e9f7bf9a53b",
+      "date": "2026-10-15T15:23:30Z",
+      "subject": "docs(api): note that some models need a beta header to use speed"
+    },
+    {
+      "sha": "238c0c2c76c175afbaa1b87358683ea2bf8744bc",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/238c0c2c76c175afbaa1b87358683ea2bf8744bc",
+      "date": "2026-10-15T13:40:49Z",
+      "subject": "fix(helpers): honor speed overrides from fallback entries when streaming (#395)"
+    },
+    {
+      "sha": "a16e0ba1db108adc7dacf7cc6f437dda73becf1c",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/a16e0ba1db108adc7dacf7cc6f437dda73becf1c",
+      "date": "2026-10-15T09:42:55Z",
+      "subject": "docs(changelog): shorten the OpenTelemetry tracing note (#393)"
+    },
+    {
+      "sha": "a353593aeb9427ede1ee5f97de1bbdcdcaf261ab",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/a353593aeb9427ede1ee5f97de1bbdcdcaf261ab",
+      "date": "2026-10-14T23:19:23Z",
+      "subject": "feat(api): add the speed parameter and usage.speed to Messages"
+    },
+    {
+      "sha": "ad0ba1432f675a90336169f68d0877af717b8709",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/ad0ba1432f675a90336169f68d0877af717b8709",
+      "date": "2026-10-14T22:15:23Z",
+      "subject": "codegen metadata"
+    },
+    {
+      "sha": "4c406b8a9b2af9e1f7d16ff65dd27147c7333858",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/4c406b8a9b2af9e1f7d16ff65dd27147c7333858",
+      "date": "2026-10-14T21:36:08Z",
+      "subject": "chore(ci): speed up breaking change detection"
+    },
+    {
+      "sha": "7bfa23e83b46d6b6453289af3c5296221225dc44",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/7bfa23e83b46d6b6453289af3c5296221225dc44",
+      "date": "2026-10-14T20:02:24Z",
+      "subject": "chore(internal): give lint more memory in CI"
+    },
+    {
+      "sha": "ec4822d743a8f16f03501228c2697c2e69036b15",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/ec4822d743a8f16f03501228c2697c2e69036b15",
+      "date": "2026-10-14T18:08:54Z",
+      "subject": "feat(api): return a Console organization's usage-tier spend cap as a read-only spend limit"
+    },
+    {
+      "sha": "46ae04b1fe6128767270ee6db3c9b31ad9daee27",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/46ae04b1fe6128767270ee6db3c9b31ad9daee27",
+      "date": "2026-10-14T17:43:52Z",
+      "subject": "Merge branch 'main'"
+    },
+    {
+      "sha": "603f6c99238af66dfed0c4e04ae2f268ff86b18e",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/603f6c99238af66dfed0c4e04ae2f268ff86b18e",
+      "date": "2026-10-14T17:12:21Z",
+      "subject": "release: 2.72.0"
+    },
+    {
+      "sha": "ecd5757ea80f6ace87b05cab0a0fb1e81c786b9c",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/commit/ecd5757ea80f6ace87b05cab0a0fb1e81c786b9c",
+      "date": "2026-10-14T17:04:13Z",
+      "subject": "Merge pull request #372 from anthropics/synced/published"
+    }
+  ],
+  "default_sha": "b61846c6841cbcaedfb3997f319bb0475d045744",
+  "root_and_selected_directory_paths": [
+    ".devcontainer",
+    ".gitattributes",
+    ".github",
+    ".github/CODEOWNERS",
+    ".github/workflows",
+    ".github/workflows/changelog.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/publish-sonatype.yml",
+    ".gitignore",
+    ".release-please-manifest.json",
+    ".stats.yml",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "README.md",
+    "REVIEW.md",
+    "SECURITY.md",
+    "anthropic-java",
+    "anthropic-java-aws",
+    "anthropic-java-bedrock",
+    "anthropic-java-client-okhttp",
+    "anthropic-java-core",
+    "anthropic-java-detekt-rules",
+    "anthropic-java-ecosystem-test",
+    "anthropic-java-example",
+    "anthropic-java-foundry",
+    "anthropic-java-google-cloud",
+    "anthropic-java-mcp",
+    "anthropic-java-vertex",
+    "build.gradle.kts",
+    "buildSrc",
+    "config",
+    "gradle",
+    "gradle.properties",
+    "gradlew",
+    "gradlew.bat",
+    "scripts",
+    "settings-gradle.lockfile",
+    "settings.gradle.kts"
+  ],
+  "workflow_paths": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/publish-sonatype.yml",
+    ".github/workflows/changelog.yml"
+  ],
+  "documents": [
+    {
+      "path": ".release-please-manifest.json",
+      "sha": "75c62b1100183cbd2120590cae79fb7872e3cdb4",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/blob/b61846c6841cbcaedfb3997f319bb0475d045744/.release-please-manifest.json",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "387cedf30a450e3951bf3d1a7b53e6e782ac5a66",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/blob/b61846c6841cbcaedfb3997f319bb0475d045744/CHANGELOG.md",
+      "lines": 2430,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          369,
+          577,
+          648,
+          760,
+          1221,
+          1222,
+          1247,
+          1331,
+          1366,
+          1460,
+          1461,
+          1539
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "20fe2295f681e34cc302605a6226238dc25ea8c5",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/blob/b61846c6841cbcaedfb3997f319bb0475d045744/CONTRIBUTING.md",
+      "lines": 98,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          19
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "108ba062afd84e554a4e44977f9f9e59cd4cc23d",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/blob/b61846c6841cbcaedfb3997f319bb0475d045744/README.md",
+      "lines": 63,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          13,
+          31
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          3
+        ],
+        "media": [
+          3
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "95b204aa321dcfadcde28fb2b77048b2e123315a",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/blob/b61846c6841cbcaedfb3997f319bb0475d045744/SECURITY.md",
+      "lines": 15,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          9
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha": "1227adaa47421898f8038667ade1c0563002ac49",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/blob/b61846c6841cbcaedfb3997f319bb0475d045744/.github/CODEOWNERS",
+      "lines": 4,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "6636b50be2b1417365373d9bb4a3022ce851bdb8",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/blob/b61846c6841cbcaedfb3997f319bb0475d045744/.github/workflows/ci.yml",
+      "lines": 204,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          10,
+          11,
+          101
+        ],
+        "release_automation": [
+          137
+        ],
+        "permissions": [
+          53,
+          55
+        ],
+        "pinned_actions": [
+          29,
+          32,
+          40,
+          60,
+          63,
+          71,
+          92,
+          112,
+          115,
+          123,
+          145,
+          151
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          140
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/publish-sonatype.yml",
+      "sha": "e71515031b53576219e8b77075273b41c06959c9",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/blob/b61846c6841cbcaedfb3997f319bb0475d045744/.github/workflows/publish-sonatype.yml",
+      "lines": 37,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          14,
+          17,
+          25
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "sha": "6f3c87e696ad2dba8d48c774ba7f75ab8279ca99",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/blob/b61846c6841cbcaedfb3997f319bb0475d045744/.github/workflows/changelog.yml",
+      "lines": 30,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8
+        ],
+        "pinned_actions": [
+          20
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 429,
+      "title": "release: 2.69.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/pull/429",
+      "merged_at": "2026-10-07T17:59:16Z",
+      "merge_commit_sha": "010bfaebd22f8b542159fbd24fadf4c0a6d9f42c",
+      "files": [
+        ".github/workflows/ci.yml",
+        ".release-please-manifest.json",
+        "CHANGELOG.md",
+        "README.md",
+        "REVIEW.md",
+        "anthropic-java-client-okhttp/src/main/resources/META-INF/proguard/anthropic-java-client-okhttp.pro",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/client/AnthropicClientAsyncImpl.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/client/AnthropicClientImpl.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/config/ProfileConfig.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/core/http/Headers.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/core/http/HttpRequest.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentArchiveParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentCreateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentListParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentRetrieveParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentUpdateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsModel.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchToolConfig.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchToolConfigParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceAll.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceExcept.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceNone.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceOnly.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceShorthand.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceToolFilter.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceToolFilterParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceToolReference.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceUserInput.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceUserInputParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSources.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourcesParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/versions/VersionListParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deploymentruns/DeploymentRunListParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deploymentruns/DeploymentRunRetrieveParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentArchiveParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentCreateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentListParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentPauseParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentRetrieveParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentRunParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentUnpauseParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentUpdateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/DreamArchiveParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/DreamCancelParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/DreamCreateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/DreamListParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/DreamRetrieveParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentArchiveParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentCreateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentDeleteParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentListParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentRetrieveParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentUpdateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkAckParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkHeartbeatParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkListParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkPollParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkRetrieveParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkStatsParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkStopParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkUpdateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/files/FileDeleteParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/files/FileDownloadParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/files/FileListParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/files/FileRetrieveMetadataParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/files/FileUploadParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/MemoryStoreArchiveParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/MemoryStoreCreateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/MemoryStoreDeleteParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/MemoryStoreListParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/MemoryStoreRetrieveParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/MemoryStoreUpdateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memories/MemoryCreateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memories/MemoryDeleteParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memories/MemoryListParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memories/MemoryRetrieveParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memories/MemoryUpdateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memoryversions/MemoryVersionListParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memoryversions/MemoryVersionRedactParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memoryversions/MemoryVersionRetrieveParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserClickTarget.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserCloseTabInput.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserCloseTabToolUseBlock.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserCoordinateTarget.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserDoubleClickInput.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserDoubleClickToolUseBlock.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserFileUploadInput.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserFileUploadToolUseBlock.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserFindInput.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserFindToolUseBlock.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserFormInputInput.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserFormInputToolUseBlock.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserFormInputValue.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserGetPageTextInput.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserGetPageTextToolUseBlock.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserHoldKeyInput.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserHoldKeyToolUseBlock.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserHoverInput.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserHoverToolUseBlock.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserJavascriptExecInput.kt"
+      ],
+      "files_may_be_truncated": true,
+      "file_changes": [
+        {
+          "filename": ".github/workflows/ci.yml",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/.github%2Fworkflows%2Fci.yml"
+        },
+        {
+          "filename": ".release-please-manifest.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/.release-please-manifest.json"
+        },
+        {
+          "filename": "CHANGELOG.md",
+          "status": "modified",
+          "additions": 51,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/CHANGELOG.md"
+        },
+        {
+          "filename": "README.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/README.md"
+        },
+        {
+          "filename": "REVIEW.md",
+          "status": "added",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/REVIEW.md"
+        },
+        {
+          "filename": "anthropic-java-client-okhttp/src/main/resources/META-INF/proguard/anthropic-java-client-okhttp.pro",
+          "status": "added",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-client-okhttp%2Fsrc%2Fmain%2Fresources%2FMETA-INF%2Fproguard%2Fanthropic-java-client-okhttp.pro"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/client/AnthropicClientAsyncImpl.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fclient%2FAnthropicClientAsyncImpl.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/client/AnthropicClientImpl.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fclient%2FAnthropicClientImpl.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/config/ProfileConfig.kt",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fconfig%2FProfileConfig.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/core/http/Headers.kt",
+          "status": "modified",
+          "additions": 22,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fcore%2Fhttp%2FHeaders.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/core/http/HttpRequest.kt",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fcore%2Fhttp%2FHttpRequest.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentArchiveParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FAgentArchiveParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentCreateParams.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 17,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FAgentCreateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentListParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FAgentListParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentRetrieveParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FAgentRetrieveParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentUpdateParams.kt",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 5,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FAgentUpdateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsModel.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsModel.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchToolConfig.kt",
+          "status": "modified",
+          "additions": 56,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWebFetchToolConfig.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchToolConfigParams.kt",
+          "status": "modified",
+          "additions": 52,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWebFetchToolConfigParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceAll.kt",
+          "status": "added",
+          "additions": 171,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWebFetchUrlSourceAll.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceExcept.kt",
+          "status": "added",
+          "additions": 261,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWebFetchUrlSourceExcept.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceNone.kt",
+          "status": "added",
+          "additions": 171,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWebFetchUrlSourceNone.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceOnly.kt",
+          "status": "added",
+          "additions": 261,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWebFetchUrlSourceOnly.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceShorthand.kt",
+          "status": "added",
+          "additions": 163,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWebFetchUrlSourceShorthand.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceToolFilter.kt",
+          "status": "added",
+          "additions": 529,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWebFetchUrlSourceToolFilter.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceToolFilterParams.kt",
+          "status": "added",
+          "additions": 310,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWebFetchUrlSourceToolFilterParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceToolReference.kt",
+          "status": "added",
+          "additions": 232,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWebFetchUrlSourceToolReference.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceUserInput.kt",
+          "status": "added",
+          "additions": 410,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWebFetchUrlSourceUserInput.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourceUserInputParams.kt",
+          "status": "added",
+          "additions": 308,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWebFetchUrlSourceUserInputParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSources.kt",
+          "status": "added",
+          "additions": 444,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWebFetchUrlSources.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchUrlSourcesParams.kt",
+          "status": "added",
+          "additions": 387,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWebFetchUrlSourcesParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/versions/VersionListParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2Fversions%2FVersionListParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deploymentruns/DeploymentRunListParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeploymentruns%2FDeploymentRunListParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deploymentruns/DeploymentRunRetrieveParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeploymentruns%2FDeploymentRunRetrieveParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentArchiveParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FDeploymentArchiveParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentCreateParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FDeploymentCreateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentListParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FDeploymentListParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentPauseParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FDeploymentPauseParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentRetrieveParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FDeploymentRetrieveParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentRunParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FDeploymentRunParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentUnpauseParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FDeploymentUnpauseParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentUpdateParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FDeploymentUpdateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/DreamArchiveParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdreams%2FDreamArchiveParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/DreamCancelParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdreams%2FDreamCancelParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/DreamCreateParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdreams%2FDreamCreateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/DreamListParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdreams%2FDreamListParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/DreamRetrieveParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdreams%2FDreamRetrieveParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentArchiveParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2FEnvironmentArchiveParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentCreateParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2FEnvironmentCreateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentDeleteParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2FEnvironmentDeleteParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentListParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2FEnvironmentListParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentRetrieveParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2FEnvironmentRetrieveParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentUpdateParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2FEnvironmentUpdateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkAckParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2Fwork%2FWorkAckParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkHeartbeatParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2Fwork%2FWorkHeartbeatParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkListParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2Fwork%2FWorkListParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkPollParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2Fwork%2FWorkPollParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkRetrieveParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2Fwork%2FWorkRetrieveParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkStatsParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2Fwork%2FWorkStatsParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkStopParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2Fwork%2FWorkStopParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkUpdateParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2Fwork%2FWorkUpdateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/files/FileDeleteParams.kt",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Ffiles%2FFileDeleteParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/files/FileDownloadParams.kt",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Ffiles%2FFileDownloadParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/files/FileListParams.kt",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Ffiles%2FFileListParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/files/FileRetrieveMetadataParams.kt",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Ffiles%2FFileRetrieveMetadataParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/files/FileUploadParams.kt",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Ffiles%2FFileUploadParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/MemoryStoreArchiveParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2FMemoryStoreArchiveParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/MemoryStoreCreateParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2FMemoryStoreCreateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/MemoryStoreDeleteParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2FMemoryStoreDeleteParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/MemoryStoreListParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2FMemoryStoreListParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/MemoryStoreRetrieveParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2FMemoryStoreRetrieveParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/MemoryStoreUpdateParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2FMemoryStoreUpdateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memories/MemoryCreateParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2Fmemories%2FMemoryCreateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memories/MemoryDeleteParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2Fmemories%2FMemoryDeleteParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memories/MemoryListParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2Fmemories%2FMemoryListParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memories/MemoryRetrieveParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2Fmemories%2FMemoryRetrieveParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memories/MemoryUpdateParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2Fmemories%2FMemoryUpdateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memoryversions/MemoryVersionListParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2Fmemoryversions%2FMemoryVersionListParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memoryversions/MemoryVersionRedactParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2Fmemoryversions%2FMemoryVersionRedactParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memoryversions/MemoryVersionRetrieveParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2Fmemoryversions%2FMemoryVersionRetrieveParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserClickTarget.kt",
+          "status": "added",
+          "additions": 416,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserClickTarget.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserCloseTabInput.kt",
+          "status": "added",
+          "additions": 186,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserCloseTabInput.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserCloseTabToolUseBlock.kt",
+          "status": "added",
+          "additions": 413,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserCloseTabToolUseBlock.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserCoordinateTarget.kt",
+          "status": "added",
+          "additions": 258,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserCoordinateTarget.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserDoubleClickInput.kt",
+          "status": "added",
+          "additions": 293,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserDoubleClickInput.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserDoubleClickToolUseBlock.kt",
+          "status": "added",
+          "additions": 415,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserDoubleClickToolUseBlock.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserFileUploadInput.kt",
+          "status": "added",
+          "additions": 359,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserFileUploadInput.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserFileUploadToolUseBlock.kt",
+          "status": "added",
+          "additions": 419,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserFileUploadToolUseBlock.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserFindInput.kt",
+          "status": "added",
+          "additions": 229,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserFindInput.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserFindToolUseBlock.kt",
+          "status": "added",
+          "additions": 414,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserFindToolUseBlock.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserFormInputInput.kt",
+          "status": "added",
+          "additions": 283,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserFormInputInput.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserFormInputToolUseBlock.kt",
+          "status": "added",
+          "additions": 419,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserFormInputToolUseBlock.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserFormInputValue.kt",
+          "status": "added",
+          "additions": 240,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserFormInputValue.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserGetPageTextInput.kt",
+          "status": "added",
+          "additions": 172,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserGetPageTextInput.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserGetPageTextToolUseBlock.kt",
+          "status": "added",
+          "additions": 419,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserGetPageTextToolUseBlock.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserHoldKeyInput.kt",
+          "status": "added",
+          "additions": 260,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserHoldKeyInput.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserHoldKeyToolUseBlock.kt",
+          "status": "added",
+          "additions": 416,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserHoldKeyToolUseBlock.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserHoverInput.kt",
+          "status": "added",
+          "additions": 248,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserHoverInput.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserHoverToolUseBlock.kt",
+          "status": "added",
+          "additions": 410,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserHoverToolUseBlock.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserJavascriptExecInput.kt",
+          "status": "added",
+          "additions": 232,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/608e2370e31846ab7832f040c9f67936a022eda1/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserJavascriptExecInput.kt"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 37663329558,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/37663329558",
+          "head_sha": "010bfaebd22f8b542159fbd24fadf4c0a6d9f42c"
+        },
+        {
+          "id": 37663329636,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/37663329636",
+          "head_sha": "010bfaebd22f8b542159fbd24fadf4c0a6d9f42c"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 37662081630,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/37662081630",
+          "head_sha": "608e2370e31846ab7832f040c9f67936a022eda1"
+        },
+        {
+          "id": 37662077573,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/37662077573",
+          "head_sha": "608e2370e31846ab7832f040c9f67936a022eda1"
+        }
+      ]
+    },
+    {
+      "number": 410,
+      "title": "release: 2.68.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/pull/410",
+      "merged_at": "2026-09-30T22:57:57Z",
+      "merge_commit_sha": "6324b459fcde08738a255adcd88439b68851d512",
+      "files": [
+        ".release-please-manifest.json",
+        ".stats.yml",
+        "CHANGELOG.md",
+        "README.md",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/AnthropicBeta.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsModel.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/organization/spendlimits/BetaSpendLimit.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/organization/spendlimits/SpendLimitListPage.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/organization/spendlimits/SpendLimitListPageAsync.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/organization/spendlimits/SpendLimitListPageResponse.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/organization/spendlimits/SpendLimitListParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/Model.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/services/async/beta/organization/SpendLimitServiceAsync.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/services/async/beta/organization/SpendLimitServiceAsyncImpl.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/services/blocking/beta/organization/SpendLimitService.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/services/blocking/beta/organization/SpendLimitServiceImpl.kt",
+        "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/organization/spendlimits/BetaSpendLimitTest.kt",
+        "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/organization/spendlimits/SpendLimitListPageResponseTest.kt",
+        "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/organization/spendlimits/SpendLimitListParamsTest.kt",
+        "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/organization/spendlimits/increaserequests/IncreaseRequestApproveResponseTest.kt",
+        "anthropic-java-core/src/test/kotlin/com/anthropic/services/async/beta/organization/SpendLimitServiceAsyncTest.kt",
+        "anthropic-java-core/src/test/kotlin/com/anthropic/services/blocking/beta/organization/SpendLimitServiceTest.kt",
+        "build.gradle.kts",
+        "scripts/mock-spec.json.gz"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".release-please-manifest.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/.release-please-manifest.json"
+        },
+        {
+          "filename": ".stats.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/.stats.yml"
+        },
+        {
+          "filename": "CHANGELOG.md",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/CHANGELOG.md"
+        },
+        {
+          "filename": "README.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/README.md"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/AnthropicBeta.kt",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2FAnthropicBeta.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsModel.kt",
+          "status": "modified",
+          "additions": 20,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsModel.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/organization/spendlimits/BetaSpendLimit.kt",
+          "status": "modified",
+          "additions": 59,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fspendlimits%2FBetaSpendLimit.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/organization/spendlimits/SpendLimitListPage.kt",
+          "status": "added",
+          "additions": 131,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fspendlimits%2FSpendLimitListPage.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/organization/spendlimits/SpendLimitListPageAsync.kt",
+          "status": "added",
+          "additions": 146,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fspendlimits%2FSpendLimitListPageAsync.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/organization/spendlimits/SpendLimitListPageResponse.kt",
+          "status": "added",
+          "additions": 238,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fspendlimits%2FSpendLimitListPageResponse.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/organization/spendlimits/SpendLimitListParams.kt",
+          "status": "added",
+          "additions": 485,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fspendlimits%2FSpendLimitListParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/Model.kt",
+          "status": "modified",
+          "additions": 22,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fmessages%2FModel.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/services/async/beta/organization/SpendLimitServiceAsync.kt",
+          "status": "modified",
+          "additions": 52,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fservices%2Fasync%2Fbeta%2Forganization%2FSpendLimitServiceAsync.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/services/async/beta/organization/SpendLimitServiceAsyncImpl.kt",
+          "status": "modified",
+          "additions": 49,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fservices%2Fasync%2Fbeta%2Forganization%2FSpendLimitServiceAsyncImpl.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/services/blocking/beta/organization/SpendLimitService.kt",
+          "status": "modified",
+          "additions": 51,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fservices%2Fblocking%2Fbeta%2Forganization%2FSpendLimitService.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/services/blocking/beta/organization/SpendLimitServiceImpl.kt",
+          "status": "modified",
+          "additions": 45,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fservices%2Fblocking%2Fbeta%2Forganization%2FSpendLimitServiceImpl.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/organization/spendlimits/BetaSpendLimitTest.kt",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/anthropic-java-core%2Fsrc%2Ftest%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fspendlimits%2FBetaSpendLimitTest.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/organization/spendlimits/SpendLimitListPageResponseTest.kt",
+          "status": "added",
+          "additions": 74,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/anthropic-java-core%2Fsrc%2Ftest%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fspendlimits%2FSpendLimitListPageResponseTest.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/organization/spendlimits/SpendLimitListParamsTest.kt",
+          "status": "added",
+          "additions": 78,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/anthropic-java-core%2Fsrc%2Ftest%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fspendlimits%2FSpendLimitListParamsTest.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/organization/spendlimits/increaserequests/IncreaseRequestApproveResponseTest.kt",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/anthropic-java-core%2Fsrc%2Ftest%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Forganization%2Fspendlimits%2Fincreaserequests%2FIncreaseRequestApproveResponseTest.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/test/kotlin/com/anthropic/services/async/beta/organization/SpendLimitServiceAsyncTest.kt",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/anthropic-java-core%2Fsrc%2Ftest%2Fkotlin%2Fcom%2Fanthropic%2Fservices%2Fasync%2Fbeta%2Forganization%2FSpendLimitServiceAsyncTest.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/test/kotlin/com/anthropic/services/blocking/beta/organization/SpendLimitServiceTest.kt",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/anthropic-java-core%2Fsrc%2Ftest%2Fkotlin%2Fcom%2Fanthropic%2Fservices%2Fblocking%2Fbeta%2Forganization%2FSpendLimitServiceTest.kt"
+        },
+        {
+          "filename": "build.gradle.kts",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/build.gradle.kts"
+        },
+        {
+          "filename": "scripts/mock-spec.json.gz",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/ae3d69133990f61febc115adc8d2fd3793cfb153/scripts%2Fmock-spec.json.gz"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 37574506473,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/37574506473",
+          "head_sha": "6324b459fcde08738a255adcd88439b68851d512"
+        },
+        {
+          "id": 37416677628,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/37416677628",
+          "head_sha": "6324b459fcde08738a255adcd88439b68851d512"
+        },
+        {
+          "id": 37267352407,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/37267352407",
+          "head_sha": "6324b459fcde08738a255adcd88439b68851d512"
+        },
+        {
+          "id": 37183994117,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/37183994117",
+          "head_sha": "6324b459fcde08738a255adcd88439b68851d512"
+        },
+        {
+          "id": 37098581966,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/37098581966",
+          "head_sha": "6324b459fcde08738a255adcd88439b68851d512"
+        },
+        {
+          "id": 36967266517,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/36967266517",
+          "head_sha": "6324b459fcde08738a255adcd88439b68851d512"
+        },
+        {
+          "id": 36818002644,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/36818002644",
+          "head_sha": "6324b459fcde08738a255adcd88439b68851d512"
+        },
+        {
+          "id": 36788537382,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/36788537382",
+          "head_sha": "6324b459fcde08738a255adcd88439b68851d512"
+        },
+        {
+          "id": 36788537375,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/36788537375",
+          "head_sha": "6324b459fcde08738a255adcd88439b68851d512"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 36787735013,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/36787735013",
+          "head_sha": "ae3d69133990f61febc115adc8d2fd3793cfb153"
+        },
+        {
+          "id": 36787731888,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/36787731888",
+          "head_sha": "ae3d69133990f61febc115adc8d2fd3793cfb153"
+        }
+      ]
+    },
+    {
+      "number": 409,
+      "title": "release: 2.67.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/pull/409",
+      "merged_at": "2026-09-30T18:35:53Z",
+      "merge_commit_sha": "283699d4b642bb8d7ef4a75d0e3bfb6a7dc4f933",
+      "files": [
+        ".release-please-manifest.json",
+        ".stats.yml",
+        "CHANGELOG.md",
+        "README.md",
+        "anthropic-java-core/src/main/java9/module-info.java",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/client/AnthropicClient.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/client/AnthropicClientAsync.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/client/AnthropicClientAsyncImpl.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/client/AnthropicClientImpl.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/ErrorObject.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/AnthropicBeta.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/BetaError.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentCreateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentListPage.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentListPageAsync.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentUpdateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsAgent.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsAgentToolConfig.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsAgentToolConfigParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsAgentToolsetDefaultConfig.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsAgentToolsetDefaultConfigParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsBashToolConfig.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsBashToolConfigParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsEditToolConfig.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsEditToolConfigParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsGlobToolConfig.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsGlobToolConfigParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsGrepToolConfig.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsGrepToolConfigParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsMcpToolConfig.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsMcpToolConfigParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsMcpToolsetDefaultConfig.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsMcpToolsetDefaultConfigParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsModelConfig.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsModelConfigParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsMultiagentCoordinator.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsReadToolConfig.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsReadToolConfigParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsSessionThreadAgent.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsSkillParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchToolConfig.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchToolConfigParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebSearchToolConfig.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebSearchToolConfigParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWriteToolConfig.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWriteToolConfigParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/versions/VersionListPage.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/versions/VersionListPageAsync.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deploymentruns/BetaManagedAgentsDeploymentRun.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deploymentruns/BetaManagedAgentsTriggerContext.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deploymentruns/DeploymentRunListPage.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deploymentruns/DeploymentRunListPageAsync.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/BetaManagedAgentsDeploymentInitialEvent.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/BetaManagedAgentsDeploymentInitialEventParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/BetaManagedAgentsDeploymentPausedReason.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/BetaManagedAgentsDeploymentPausedReasonError.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/BetaManagedAgentsDeploymentUserDefineOutcomeEvent.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/BetaManagedAgentsDeploymentUserMessageEvent.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/BetaManagedAgentsGitHubRepositoryResourceConfig.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/BetaManagedAgentsSessionResourceConfig.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentCreateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentListPage.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentListPageAsync.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentUpdateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/BetaDreamInput.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/BetaDreamingError.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/BetaOutputBehavior.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/DreamCreateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/DreamListPage.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/DreamListPageAsync.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/BetaCloudConfig.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/BetaCloudConfigParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/BetaEnvironment.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentCreateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentListPage.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentListPageAsync.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentUpdateParams.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkListPage.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkListPageAsync.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/files/FileListPage.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/files/FileListPageAsync.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/BetaManagedAgentsMemoryStore.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/MemoryStoreListPage.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/MemoryStoreListPageAsync.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memories/BetaManagedAgentsError.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memories/BetaManagedAgentsMemoryListItem.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memories/MemoryListPage.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memories/MemoryListPageAsync.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memoryversions/BetaManagedAgentsActor.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memoryversions/MemoryVersionListPage.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memoryversions/MemoryVersionListPageAsync.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaAdvisorToolResultBlock.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaAdvisorToolResultBlockParam.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBashCodeExecutionToolResultBlock.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBashCodeExecutionToolResultBlockParam.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserStateChange.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaCacheMissReason.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaCitationsDelta.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaClearThinking20251015Edit.kt",
+        "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaClearToolUses20250919Edit.kt"
+      ],
+      "files_may_be_truncated": true,
+      "file_changes": [
+        {
+          "filename": ".release-please-manifest.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/.release-please-manifest.json"
+        },
+        {
+          "filename": ".stats.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/.stats.yml"
+        },
+        {
+          "filename": "CHANGELOG.md",
+          "status": "modified",
+          "additions": 36,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/CHANGELOG.md"
+        },
+        {
+          "filename": "README.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/README.md"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/java9/module-info.java",
+          "status": "modified",
+          "additions": 64,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fjava9%2Fmodule-info.java"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/client/AnthropicClient.kt",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fclient%2FAnthropicClient.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/client/AnthropicClientAsync.kt",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fclient%2FAnthropicClientAsync.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/client/AnthropicClientAsyncImpl.kt",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fclient%2FAnthropicClientAsyncImpl.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/client/AnthropicClientImpl.kt",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fclient%2FAnthropicClientImpl.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/ErrorObject.kt",
+          "status": "modified",
+          "additions": 48,
+          "deletions": 137,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2FErrorObject.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/AnthropicBeta.kt",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2FAnthropicBeta.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/BetaError.kt",
+          "status": "modified",
+          "additions": 48,
+          "deletions": 126,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2FBetaError.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentCreateParams.kt",
+          "status": "modified",
+          "additions": 30,
+          "deletions": 74,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FAgentCreateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentListPage.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FAgentListPage.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentListPageAsync.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FAgentListPageAsync.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentUpdateParams.kt",
+          "status": "modified",
+          "additions": 30,
+          "deletions": 74,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FAgentUpdateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsAgent.kt",
+          "status": "modified",
+          "additions": 43,
+          "deletions": 108,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsAgent.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsAgentToolConfig.kt",
+          "status": "modified",
+          "additions": 69,
+          "deletions": 189,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsAgentToolConfig.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsAgentToolConfigParams.kt",
+          "status": "modified",
+          "additions": 69,
+          "deletions": 210,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsAgentToolConfigParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsAgentToolsetDefaultConfig.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsAgentToolsetDefaultConfig.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsAgentToolsetDefaultConfigParams.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsAgentToolsetDefaultConfigParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsBashToolConfig.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsBashToolConfig.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsBashToolConfigParams.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsBashToolConfigParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsEditToolConfig.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsEditToolConfig.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsEditToolConfigParams.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsEditToolConfigParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsGlobToolConfig.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsGlobToolConfig.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsGlobToolConfigParams.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsGlobToolConfigParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsGrepToolConfig.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsGrepToolConfig.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsGrepToolConfigParams.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsGrepToolConfigParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsMcpToolConfig.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsMcpToolConfig.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsMcpToolConfigParams.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsMcpToolConfigParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsMcpToolsetDefaultConfig.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsMcpToolsetDefaultConfig.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsMcpToolsetDefaultConfigParams.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsMcpToolsetDefaultConfigParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsModelConfig.kt",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 56,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsModelConfig.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsModelConfigParams.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 68,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsModelConfigParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsMultiagentCoordinator.kt",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 34,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsMultiagentCoordinator.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsReadToolConfig.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsReadToolConfig.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsReadToolConfigParams.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsReadToolConfigParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsSessionThreadAgent.kt",
+          "status": "modified",
+          "additions": 43,
+          "deletions": 108,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsSessionThreadAgent.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsSkillParams.kt",
+          "status": "modified",
+          "additions": 26,
+          "deletions": 62,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsSkillParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchToolConfig.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWebFetchToolConfig.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebFetchToolConfigParams.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWebFetchToolConfigParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebSearchToolConfig.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWebSearchToolConfig.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWebSearchToolConfigParams.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWebSearchToolConfigParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWriteToolConfig.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWriteToolConfig.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/BetaManagedAgentsWriteToolConfigParams.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2FBetaManagedAgentsWriteToolConfigParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/versions/VersionListPage.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2Fversions%2FVersionListPage.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/versions/VersionListPageAsync.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fagents%2Fversions%2FVersionListPageAsync.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deploymentruns/BetaManagedAgentsDeploymentRun.kt",
+          "status": "modified",
+          "additions": 77,
+          "deletions": 307,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeploymentruns%2FBetaManagedAgentsDeploymentRun.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deploymentruns/BetaManagedAgentsTriggerContext.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 35,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeploymentruns%2FBetaManagedAgentsTriggerContext.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deploymentruns/DeploymentRunListPage.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeploymentruns%2FDeploymentRunListPage.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deploymentruns/DeploymentRunListPageAsync.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeploymentruns%2FDeploymentRunListPageAsync.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/BetaManagedAgentsDeploymentInitialEvent.kt",
+          "status": "modified",
+          "additions": 21,
+          "deletions": 56,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FBetaManagedAgentsDeploymentInitialEvent.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/BetaManagedAgentsDeploymentInitialEventParams.kt",
+          "status": "modified",
+          "additions": 21,
+          "deletions": 56,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FBetaManagedAgentsDeploymentInitialEventParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/BetaManagedAgentsDeploymentPausedReason.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 35,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FBetaManagedAgentsDeploymentPausedReason.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/BetaManagedAgentsDeploymentPausedReasonError.kt",
+          "status": "modified",
+          "additions": 54,
+          "deletions": 228,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FBetaManagedAgentsDeploymentPausedReasonError.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/BetaManagedAgentsDeploymentUserDefineOutcomeEvent.kt",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 30,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FBetaManagedAgentsDeploymentUserDefineOutcomeEvent.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/BetaManagedAgentsDeploymentUserMessageEvent.kt",
+          "status": "modified",
+          "additions": 21,
+          "deletions": 50,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FBetaManagedAgentsDeploymentUserMessageEvent.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/BetaManagedAgentsGitHubRepositoryResourceConfig.kt",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 34,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FBetaManagedAgentsGitHubRepositoryResourceConfig.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/BetaManagedAgentsSessionResourceConfig.kt",
+          "status": "modified",
+          "additions": 27,
+          "deletions": 68,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FBetaManagedAgentsSessionResourceConfig.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentCreateParams.kt",
+          "status": "modified",
+          "additions": 34,
+          "deletions": 92,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FDeploymentCreateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentListPage.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FDeploymentListPage.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentListPageAsync.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FDeploymentListPageAsync.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/deployments/DeploymentUpdateParams.kt",
+          "status": "modified",
+          "additions": 34,
+          "deletions": 92,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdeployments%2FDeploymentUpdateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/BetaDreamInput.kt",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 32,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdreams%2FBetaDreamInput.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/BetaDreamingError.kt",
+          "status": "modified",
+          "additions": 52,
+          "deletions": 143,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdreams%2FBetaDreamingError.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/BetaOutputBehavior.kt",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 35,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdreams%2FBetaOutputBehavior.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/DreamCreateParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 22,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdreams%2FDreamCreateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/DreamListPage.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdreams%2FDreamListPage.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/dreams/DreamListPageAsync.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fdreams%2FDreamListPageAsync.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/BetaCloudConfig.kt",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 32,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2FBetaCloudConfig.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/BetaCloudConfigParams.kt",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 34,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2FBetaCloudConfigParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/BetaEnvironment.kt",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 32,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2FBetaEnvironment.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentCreateParams.kt",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 32,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2FEnvironmentCreateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentListPage.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2FEnvironmentListPage.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentListPageAsync.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2FEnvironmentListPageAsync.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/EnvironmentUpdateParams.kt",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 32,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2FEnvironmentUpdateParams.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkListPage.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2Fwork%2FWorkListPage.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/environments/work/WorkListPageAsync.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fenvironments%2Fwork%2FWorkListPageAsync.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/files/FileListPage.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Ffiles%2FFileListPage.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/files/FileListPageAsync.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Ffiles%2FFileListPageAsync.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/BetaManagedAgentsMemoryStore.kt",
+          "status": "modified",
+          "additions": 254,
+          "deletions": 248,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2FBetaManagedAgentsMemoryStore.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/MemoryStoreListPage.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2FMemoryStoreListPage.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/MemoryStoreListPageAsync.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2FMemoryStoreListPageAsync.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memories/BetaManagedAgentsError.kt",
+          "status": "modified",
+          "additions": 60,
+          "deletions": 181,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2Fmemories%2FBetaManagedAgentsError.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memories/BetaManagedAgentsMemoryListItem.kt",
+          "status": "modified",
+          "additions": 23,
+          "deletions": 44,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2Fmemories%2FBetaManagedAgentsMemoryListItem.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memories/MemoryListPage.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2Fmemories%2FMemoryListPage.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memories/MemoryListPageAsync.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2Fmemories%2FMemoryListPageAsync.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memoryversions/BetaManagedAgentsActor.kt",
+          "status": "modified",
+          "additions": 21,
+          "deletions": 54,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2Fmemoryversions%2FBetaManagedAgentsActor.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memoryversions/MemoryVersionListPage.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2Fmemoryversions%2FMemoryVersionListPage.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/memorystores/memoryversions/MemoryVersionListPageAsync.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmemorystores%2Fmemoryversions%2FMemoryVersionListPageAsync.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaAdvisorToolResultBlock.kt",
+          "status": "modified",
+          "additions": 39,
+          "deletions": 84,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaAdvisorToolResultBlock.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaAdvisorToolResultBlockParam.kt",
+          "status": "modified",
+          "additions": 23,
+          "deletions": 56,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaAdvisorToolResultBlockParam.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBashCodeExecutionToolResultBlock.kt",
+          "status": "modified",
+          "additions": 30,
+          "deletions": 51,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBashCodeExecutionToolResultBlock.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBashCodeExecutionToolResultBlockParam.kt",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 30,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBashCodeExecutionToolResultBlockParam.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaBrowserStateChange.kt",
+          "status": "modified",
+          "additions": 35,
+          "deletions": 110,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaBrowserStateChange.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaCacheMissReason.kt",
+          "status": "modified",
+          "additions": 36,
+          "deletions": 109,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaCacheMissReason.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaCitationsDelta.kt",
+          "status": "modified",
+          "additions": 80,
+          "deletions": 256,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaCitationsDelta.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaClearThinking20251015Edit.kt",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 36,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaClearThinking20251015Edit.kt"
+        },
+        {
+          "filename": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaClearToolUses20250919Edit.kt",
+          "status": "modified",
+          "additions": 30,
+          "deletions": 60,
+          "blob_url": "https://github.com/anthropics/anthropic-sdk-java/blob/579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a/anthropic-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fanthropic%2Fmodels%2Fbeta%2Fmessages%2FBetaClearToolUses20250919Edit.kt"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 36759717217,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/36759717217",
+          "head_sha": "283699d4b642bb8d7ef4a75d0e3bfb6a7dc4f933"
+        },
+        {
+          "id": 36759717155,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/36759717155",
+          "head_sha": "283699d4b642bb8d7ef4a75d0e3bfb6a7dc4f933"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 36758379413,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/36758379413",
+          "head_sha": "579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a"
+        },
+        {
+          "id": 36758374238,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/36758374238",
+          "head_sha": "579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v2.73.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.73.0",
+      "published_at": "2026-10-15T20:05:43Z",
+      "target_commitish": "main",
+      "commit_sha": "b61846c6841cbcaedfb3997f319bb0475d045744",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38799174690,
+          "name": "Publish Sonatype",
+          "path": ".github/workflows/publish-sonatype.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/38799174690",
+          "head_sha": "b61846c6841cbcaedfb3997f319bb0475d045744"
+        },
+        {
+          "id": 38799168334,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/38799168334",
+          "head_sha": "b61846c6841cbcaedfb3997f319bb0475d045744"
+        }
+      ]
+    },
+    {
+      "tag": "v2.72.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.72.0",
+      "published_at": "2026-10-14T17:14:15Z",
+      "target_commitish": "main",
+      "commit_sha": "603f6c99238af66dfed0c4e04ae2f268ff86b18e",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38604936518,
+          "name": "Publish Sonatype",
+          "path": ".github/workflows/publish-sonatype.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/38604936518",
+          "head_sha": "603f6c99238af66dfed0c4e04ae2f268ff86b18e"
+        },
+        {
+          "id": 38604930500,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/38604930500",
+          "head_sha": "603f6c99238af66dfed0c4e04ae2f268ff86b18e"
+        }
+      ]
+    },
+    {
+      "tag": "v2.71.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.71.0",
+      "published_at": "2026-10-09T15:36:42Z",
+      "target_commitish": "main",
+      "commit_sha": "59079f010f7036c15e8839f8a032e96b2f35d074",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37953025380,
+          "name": "Publish Sonatype",
+          "path": ".github/workflows/publish-sonatype.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/37953025380",
+          "head_sha": "59079f010f7036c15e8839f8a032e96b2f35d074"
+        },
+        {
+          "id": 37953020288,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/anthropic-sdk-java/actions/runs/37953020288",
+          "head_sha": "59079f010f7036c15e8839f8a032e96b2f35d074"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v2.73.0",
+      "sha": "b61846c6841cbcaedfb3997f319bb0475d045744"
+    },
+    {
+      "name": "v2.72.0",
+      "sha": "603f6c99238af66dfed0c4e04ae2f268ff86b18e"
+    },
+    {
+      "name": "v2.71.0",
+      "sha": "59079f010f7036c15e8839f8a032e96b2f35d074"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:16:43.499770+00:00",
+  "source_times": {
+    "/repos/anthropics/anthropic-sdk-java": "2026-10-17T16:05:11.206227+00:00",
+    "/repos/anthropics/anthropic-sdk-java/commits?sha=main&per_page=20": "2026-10-17T16:05:13.050341+00:00",
+    "/repos/anthropics/anthropic-sdk-java/git/trees/b61846c6841cbcaedfb3997f319bb0475d045744": "2026-10-17T16:05:14.452179+00:00",
+    "/repos/anthropics/anthropic-sdk-java/git/trees/32bae77e1d9240b296734c5a4a8975a4ff5061f7": "2026-10-17T16:05:15.860065+00:00",
+    "/repos/anthropics/anthropic-sdk-java/git/trees/c7e7cb4e988a291dc25c92e11d320fd85f0204e5": "2026-10-17T16:05:17.274572+00:00",
+    "/repos/anthropics/anthropic-sdk-java/git/blobs/75c62b1100183cbd2120590cae79fb7872e3cdb4": "2026-10-17T16:05:18.662397+00:00",
+    "/repos/anthropics/anthropic-sdk-java/git/blobs/387cedf30a450e3951bf3d1a7b53e6e782ac5a66": "2026-10-17T16:05:20.944909+00:00",
+    "/repos/anthropics/anthropic-sdk-java/git/blobs/20fe2295f681e34cc302605a6226238dc25ea8c5": "2026-10-17T16:05:22.488970+00:00",
+    "/repos/anthropics/anthropic-sdk-java/git/blobs/108ba062afd84e554a4e44977f9f9e59cd4cc23d": "2026-10-17T16:05:23.896660+00:00",
+    "/repos/anthropics/anthropic-sdk-java/git/blobs/95b204aa321dcfadcde28fb2b77048b2e123315a": "2026-10-17T16:05:26.282342+00:00",
+    "/repos/anthropics/anthropic-sdk-java/git/blobs/1227adaa47421898f8038667ade1c0563002ac49": "2026-10-17T16:05:27.672466+00:00",
+    "/repos/anthropics/anthropic-sdk-java/git/blobs/6636b50be2b1417365373d9bb4a3022ce851bdb8": "2026-10-17T16:05:29.299906+00:00",
+    "/repos/anthropics/anthropic-sdk-java/git/blobs/e71515031b53576219e8b77075273b41c06959c9": "2026-10-17T16:05:30.763536+00:00",
+    "/repos/anthropics/anthropic-sdk-java/git/blobs/6f3c87e696ad2dba8d48c774ba7f75ab8279ca99": "2026-10-17T16:05:32.150572+00:00",
+    "/repos/anthropics/anthropic-sdk-java/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:05:37.112264+00:00",
+    "/repos/anthropics/anthropic-sdk-java/pulls/429/files?per_page=100": "2026-10-17T16:05:39.790726+00:00",
+    "/repos/anthropics/anthropic-sdk-java/pulls/429/reviews?per_page=100": "2026-10-17T16:05:41.277686+00:00",
+    "/repos/anthropics/anthropic-sdk-java/actions/runs?head_sha=010bfaebd22f8b542159fbd24fadf4c0a6d9f42c&per_page=10": "2026-10-17T16:05:42.965154+00:00",
+    "/repos/anthropics/anthropic-sdk-java/actions/runs?head_sha=608e2370e31846ab7832f040c9f67936a022eda1&per_page=10": "2026-10-17T16:05:44.704316+00:00",
+    "/repos/anthropics/anthropic-sdk-java/pulls/410/files?per_page=100": "2026-10-17T16:05:47.948537+00:00",
+    "/repos/anthropics/anthropic-sdk-java/pulls/410/reviews?per_page=100": "2026-10-17T16:05:50.519451+00:00",
+    "/repos/anthropics/anthropic-sdk-java/actions/runs?head_sha=6324b459fcde08738a255adcd88439b68851d512&per_page=10": "2026-10-17T16:05:53.683926+00:00",
+    "/repos/anthropics/anthropic-sdk-java/actions/runs?head_sha=ae3d69133990f61febc115adc8d2fd3793cfb153&per_page=10": "2026-10-17T16:05:55.591763+00:00",
+    "/repos/anthropics/anthropic-sdk-java/pulls/409/files?per_page=100": "2026-10-17T16:05:59.420329+00:00",
+    "/repos/anthropics/anthropic-sdk-java/pulls/409/reviews?per_page=100": "2026-10-17T16:06:00.958608+00:00",
+    "/repos/anthropics/anthropic-sdk-java/actions/runs?head_sha=283699d4b642bb8d7ef4a75d0e3bfb6a7dc4f933&per_page=10": "2026-10-17T16:06:02.609710+00:00",
+    "/repos/anthropics/anthropic-sdk-java/actions/runs?head_sha=579bf00caa1bb91938ede6e0e5c5bebfb3d15f8a&per_page=10": "2026-10-17T16:06:04.515465+00:00",
+    "/repos/anthropics/anthropic-sdk-java/releases?per_page=20&page=1": "2026-10-17T16:16:43.497309+00:00",
+    "/repos/anthropics/anthropic-sdk-java/commits/v2.73.0": "2026-10-17T16:06:10.600913+00:00",
+    "/repos/anthropics/anthropic-sdk-java/actions/runs?head_sha=b61846c6841cbcaedfb3997f319bb0475d045744&per_page=10": "2026-10-17T16:06:13.581783+00:00",
+    "/repos/anthropics/anthropic-sdk-java/commits/v2.72.0": "2026-10-17T16:06:15.060780+00:00",
+    "/repos/anthropics/anthropic-sdk-java/actions/runs?head_sha=603f6c99238af66dfed0c4e04ae2f268ff86b18e&per_page=10": "2026-10-17T16:06:16.722290+00:00",
+    "/repos/anthropics/anthropic-sdk-java/commits/v2.71.0": "2026-10-17T16:06:18.229490+00:00",
+    "/repos/anthropics/anthropic-sdk-java/actions/runs?head_sha=59079f010f7036c15e8839f8a032e96b2f35d074&per_page=10": "2026-10-17T16:06:19.964142+00:00",
+    "/repos/anthropics/anthropic-sdk-java/tags?per_page=3": "2026-10-17T16:06:21.350160+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:16:43.497309+00:00",
+  "status": "collected"
+}

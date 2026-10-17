@@ -1,0 +1,1953 @@
+{
+  "requested_repository": "astral-sh/uv",
+  "category": "tools",
+  "collected_at": "2026-10-17T16:17:12.822599+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "astral-sh/uv",
+  "metadata": {
+    "html_url": "https://github.com/astral-sh/uv",
+    "description": "An extremely fast Python package and project manager, written in Rust.",
+    "homepage": "https://docs.astral.sh/uv",
+    "language": "Rust",
+    "stargazers_count": 90848,
+    "forks_count": 3664,
+    "open_issues_count": 2970,
+    "pushed_at": "2026-10-17T16:12:54Z",
+    "created_at": "2023-10-02T20:24:11Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [
+      "packaging",
+      "python",
+      "resolver",
+      "uv"
+    ],
+    "owner": {
+      "login": "astral-sh",
+      "type": "Organization",
+      "html_url": "https://github.com/astral-sh"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "9db4e27e539e791fbf74340ded957d7e790be0e5",
+      "url": "https://github.com/astral-sh/uv/commit/9db4e27e539e791fbf74340ded957d7e790be0e5",
+      "date": "2026-10-17T15:07:06Z",
+      "subject": "Upgrade toml_parser to 1.1.5 (#22679)"
+    },
+    {
+      "sha": "a0a01a4d991e3f8bb612a9f726aaaf9f3a083c1d",
+      "url": "https://github.com/astral-sh/uv/commit/a0a01a4d991e3f8bb612a9f726aaaf9f3a083c1d",
+      "date": "2026-10-17T14:57:09Z",
+      "subject": "Compress benchmark artifacts with zstd (#22660)"
+    },
+    {
+      "sha": "3c2cce8f8253b35407e98361b220bd62f2d6ed2b",
+      "url": "https://github.com/astral-sh/uv/commit/3c2cce8f8253b35407e98361b220bd62f2d6ed2b",
+      "date": "2026-10-17T14:57:08Z",
+      "subject": "Build wall-time benchmarks on a larger runner (#22659)"
+    },
+    {
+      "sha": "00c97356501aafa781b287d38feffe17f0dfa71f",
+      "url": "https://github.com/astral-sh/uv/commit/00c97356501aafa781b287d38feffe17f0dfa71f",
+      "date": "2026-10-17T09:04:51Z",
+      "subject": "Retry dropped HTTP dispatch tasks (#22672)"
+    },
+    {
+      "sha": "c42c49578156177b979939f63bcdf7d205fd9483",
+      "url": "https://github.com/astral-sh/uv/commit/c42c49578156177b979939f63bcdf7d205fd9483",
+      "date": "2026-10-16T23:46:38Z",
+      "subject": "Use one codegen unit for benchmark builds (#22667)"
+    },
+    {
+      "sha": "585dcdbf84543788b460fdfb3a4d45272c93d823",
+      "url": "https://github.com/astral-sh/uv/commit/585dcdbf84543788b460fdfb3a4d45272c93d823",
+      "date": "2026-10-16T21:15:24Z",
+      "subject": "Reuse warm Git benchmark caches (#22657)"
+    },
+    {
+      "sha": "dd59612659f027c34bf4c4205c61a82f257b1b74",
+      "url": "https://github.com/astral-sh/uv/commit/dd59612659f027c34bf4c4205c61a82f257b1b74",
+      "date": "2026-10-16T20:08:53Z",
+      "subject": "Require benchmark opt-in in uv-dev (#22663)"
+    },
+    {
+      "sha": "e32cc5094fbcb9038ad3b0781109feb5776ca359",
+      "url": "https://github.com/astral-sh/uv/commit/e32cc5094fbcb9038ad3b0781109feb5776ca359",
+      "date": "2026-10-16T19:25:36Z",
+      "subject": "Seed Python builds used by managed discovery tests (#22654)"
+    },
+    {
+      "sha": "1d62f57d50090c3165063e1b16c355f7cfed644b",
+      "url": "https://github.com/astral-sh/uv/commit/1d62f57d50090c3165063e1b16c355f7cfed644b",
+      "date": "2026-10-16T19:08:45Z",
+      "subject": "Adopt stable macOS signing identifiers (#22648)"
+    },
+    {
+      "sha": "565c9b488458cb54e5b71d7f10fac844c8144a1e",
+      "url": "https://github.com/astral-sh/uv/commit/565c9b488458cb54e5b71d7f10fac844c8144a1e",
+      "date": "2026-10-16T18:56:04Z",
+      "subject": "Install only nextest in Cargo test jobs (#22653)"
+    },
+    {
+      "sha": "fcfdb19703b0423aabe6841c6ff1ef44c3e11d92",
+      "url": "https://github.com/astral-sh/uv/commit/fcfdb19703b0423aabe6841c6ff1ef44c3e11d92",
+      "date": "2026-10-16T18:51:22Z",
+      "subject": "Store parsed URLs in direct-origin metadata (#22646)"
+    },
+    {
+      "sha": "4edb182b698950be9e9f6c942eb36e9404220f29",
+      "url": "https://github.com/astral-sh/uv/commit/4edb182b698950be9e9f6c942eb36e9404220f29",
+      "date": "2026-10-16T18:51:21Z",
+      "subject": "Group VCS source metadata in `VcsUrl` (#22645)"
+    },
+    {
+      "sha": "862ab746ffd2f255beaed9ea4045a7f05b7f5550",
+      "url": "https://github.com/astral-sh/uv/commit/862ab746ffd2f255beaed9ea4045a7f05b7f5550",
+      "date": "2026-10-16T18:51:21Z",
+      "subject": "Centralize direct URL metadata reading (#22644)"
+    },
+    {
+      "sha": "f1c34ca18dcf9a48588d3a703de02badd65bbca6",
+      "url": "https://github.com/astral-sh/uv/commit/f1c34ca18dcf9a48588d3a703de02badd65bbca6",
+      "date": "2026-10-16T18:01:39Z",
+      "subject": "Seed Python variants used by Unix debug tests (#22652)"
+    },
+    {
+      "sha": "64e2ac873ff0c589024453666c2b9a5bd89dc250",
+      "url": "https://github.com/astral-sh/uv/commit/64e2ac873ff0c589024453666c2b9a5bd89dc250",
+      "date": "2026-10-16T16:18:14Z",
+      "subject": "Sync latest Python releases (#22578)"
+    },
+    {
+      "sha": "a03d0cd8a603d69a5bfc9df5ed079f00cb949394",
+      "url": "https://github.com/astral-sh/uv/commit/a03d0cd8a603d69a5bfc9df5ed079f00cb949394",
+      "date": "2026-10-16T15:26:29Z",
+      "subject": "Remove the repository Codex hooks (#22636)"
+    },
+    {
+      "sha": "71af0794c12df27e21c23dcb1249babea288db0b",
+      "url": "https://github.com/astral-sh/uv/commit/71af0794c12df27e21c23dcb1249babea288db0b",
+      "date": "2026-10-16T15:16:15Z",
+      "subject": "Disallow explicit `url::Url` references (#22632)"
+    },
+    {
+      "sha": "fcb46895b3ec93a71fd9afae983709d24372bc21",
+      "url": "https://github.com/astral-sh/uv/commit/fcb46895b3ec93a71fd9afae983709d24372bc21",
+      "date": "2026-10-16T15:16:14Z",
+      "subject": "Use `SafeUrl` for file and test URLs (#22631)"
+    },
+    {
+      "sha": "6e2b646d920f301f4552a3b92a980eb591c89f08",
+      "url": "https://github.com/astral-sh/uv/commit/6e2b646d920f301f4552a3b92a980eb591c89f08",
+      "date": "2026-10-16T15:16:14Z",
+      "subject": "Use full URLs for flat-index cache keys (#22630)"
+    },
+    {
+      "sha": "bf1847dd89d7ac7c99c6522c0f99a6fc164a1faf",
+      "url": "https://github.com/astral-sh/uv/commit/bf1847dd89d7ac7c99c6522c0f99a6fc164a1faf",
+      "date": "2026-10-16T15:16:13Z",
+      "subject": "Remove raw URL cache keys (#22629)"
+    }
+  ],
+  "default_sha": "9db4e27e539e791fbf74340ded957d7e790be0e5",
+  "root_and_selected_directory_paths": [
+    ".cargo",
+    ".codex",
+    ".config",
+    ".editorconfig",
+    ".gitattributes",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/1_bug_report.yaml",
+    ".github/ISSUE_TEMPLATE/2_feature_request.yaml",
+    ".github/ISSUE_TEMPLATE/3_question.yaml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/actions",
+    ".github/allowed-pull-request-labels.json",
+    ".github/automations-dispatch.json",
+    ".github/renovate.json5",
+    ".github/secure-token-service-release.json",
+    ".github/secure-token-service.json",
+    ".github/workflows",
+    ".github/workflows/bench.yml",
+    ".github/workflows/build-dev-binaries.yml",
+    ".github/workflows/build-docker.yml",
+    ".github/workflows/build-release-binaries.yml",
+    ".github/workflows/check-crates-policies.yml",
+    ".github/workflows/check-docs.yml",
+    ".github/workflows/check-fmt.yml",
+    ".github/workflows/check-generated-files.yml",
+    ".github/workflows/check-lint.yml",
+    ".github/workflows/check-lock.yml",
+    ".github/workflows/check-publish.yml",
+    ".github/workflows/check-release.yml",
+    ".github/workflows/check-zizmor.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/diagnose-workflow-failure.yml",
+    ".github/workflows/fix-bug.yml",
+    ".github/workflows/import-codspeed-profiles.yml",
+    ".github/workflows/issue-triage.yml",
+    ".github/workflows/plan.yml",
+    ".github/workflows/promote-pull-request.yml",
+    ".github/workflows/publish-crates.yml",
+    ".github/workflows/publish-docker-image.yml",
+    ".github/workflows/publish-docker.yml",
+    ".github/workflows/publish-docs.yml",
+    ".github/workflows/publish-mirror.yml",
+    ".github/workflows/publish-pypi.yml",
+    ".github/workflows/publish-versions.yml",
+    ".github/workflows/pull-request-code-quality-review.yml",
+    ".github/workflows/pull-request-conflicts.yml",
+    ".github/workflows/pull-request-labels.yml",
+    ".github/workflows/rebase-conflicted-pull-request.yml",
+    ".github/workflows/release-prepare.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/reproduce-bug.yml",
+    ".github/workflows/setup-dev-drive.ps1",
+    ".github/workflows/sign-release-binaries.yml",
+    ".github/workflows/sync-python-releases.yml",
+    ".github/workflows/sync-uv-dev.yml",
+    ".github/workflows/sync-uv-security.yml",
+    ".github/workflows/test-ecosystem.yml",
+    ".github/workflows/test-integration.yml",
+    ".github/workflows/test-smoke.yml",
+    ".github/workflows/test-system.yml",
+    ".github/workflows/test-windows-trampolines.yml",
+    ".github/workflows/test.yml",
+    ".github/workflows/update-issue-context.yml",
+    ".github/workflows/update-pull-request-parent.yml",
+    ".github/zizmor.yml",
+    ".gitignore",
+    ".ignore",
+    ".prettierignore",
+    ".prettierrc",
+    ".python-versions",
+    "AGENTS.md",
+    "BENCHMARKS.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "Cargo.lock",
+    "Cargo.toml",
+    "Dockerfile",
+    "LICENSE-APACHE",
+    "LICENSE-MIT",
+    "README.md",
+    "SECURITY.md",
+    "STYLE.md",
+    "_typos.toml",
+    "agents",
+    "assets",
+    "changelogs",
+    "clippy.toml",
+    "crates",
+    "dist-workspace.toml",
+    "docs",
+    "docs/.gitignore",
+    "docs/.overrides",
+    "docs/assets",
+    "docs/concepts",
+    "docs/getting-started",
+    "docs/guides",
+    "docs/index.md",
+    "docs/js",
+    "docs/pip",
+    "docs/reference",
+    "docs/stylesheets",
+    "hawk.toml",
+    "mkdocs.yml",
+    "pyproject.toml",
+    "python",
+    "ruff.toml",
+    "rust-toolchain.toml",
+    "rustfmt.toml",
+    "scripts",
+    "test",
+    "uv.lock",
+    "uv.schema.json"
+  ],
+  "workflow_paths": [
+    ".github/workflows/build-release-binaries.yml",
+    ".github/workflows/check-crates-policies.yml",
+    ".github/workflows/check-publish.yml",
+    ".github/workflows/check-release.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/publish-crates.yml",
+    ".github/workflows/publish-docker-image.yml",
+    ".github/workflows/publish-docker.yml",
+    ".github/workflows/publish-docs.yml",
+    ".github/workflows/publish-mirror.yml",
+    ".github/workflows/publish-pypi.yml",
+    ".github/workflows/publish-versions.yml",
+    ".github/workflows/release-prepare.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/sign-release-binaries.yml",
+    ".github/workflows/sync-python-releases.yml",
+    ".github/workflows/sync-uv-security.yml",
+    ".github/workflows/test-ecosystem.yml",
+    ".github/workflows/test-integration.yml",
+    ".github/workflows/test-smoke.yml",
+    ".github/workflows/test-system.yml",
+    ".github/workflows/test-windows-trampolines.yml",
+    ".github/workflows/test.yml",
+    ".github/workflows/bench.yml",
+    ".github/workflows/build-dev-binaries.yml",
+    ".github/workflows/build-docker.yml",
+    ".github/workflows/check-docs.yml",
+    ".github/workflows/check-fmt.yml",
+    ".github/workflows/check-generated-files.yml",
+    ".github/workflows/check-lint.yml",
+    ".github/workflows/check-lock.yml",
+    ".github/workflows/check-zizmor.yml",
+    ".github/workflows/diagnose-workflow-failure.yml",
+    ".github/workflows/fix-bug.yml",
+    ".github/workflows/import-codspeed-profiles.yml",
+    ".github/workflows/issue-triage.yml",
+    ".github/workflows/plan.yml",
+    ".github/workflows/promote-pull-request.yml",
+    ".github/workflows/pull-request-code-quality-review.yml",
+    ".github/workflows/pull-request-conflicts.yml",
+    ".github/workflows/pull-request-labels.yml",
+    ".github/workflows/rebase-conflicted-pull-request.yml",
+    ".github/workflows/reproduce-bug.yml",
+    ".github/workflows/setup-dev-drive.ps1",
+    ".github/workflows/sync-uv-dev.yml",
+    ".github/workflows/update-issue-context.yml",
+    ".github/workflows/update-pull-request-parent.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "ca031d6aa5243851885e5ca548fddb1c0ce69945",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/AGENTS.md",
+      "lines": 46,
+      "signals": {
+        "tests": [],
+        "lint": [
+          20,
+          22,
+          27,
+          31
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          41
+        ]
+      }
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "66778dcc1c0aa420f83f4f76a8e14accffefa162",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/CHANGELOG.md",
+      "lines": 200,
+      "signals": {
+        "tests": [],
+        "lint": [
+          3,
+          200
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "4177b3d9bd5379ff43b5a3c93c8345638155090f",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/CONTRIBUTING.md",
+      "lines": 387,
+      "signals": {
+        "tests": [
+          122
+        ],
+        "lint": [
+          166,
+          169,
+          171,
+          182,
+          186,
+          209,
+          217,
+          218,
+          250,
+          251,
+          303,
+          320
+        ],
+        "generated_code": [
+          194,
+          305
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Cargo.toml",
+      "sha": "fd573fdab234fad13c12219dae3ea5f6e73ab94a",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/Cargo.toml",
+      "lines": 571,
+      "signals": {
+        "tests": [],
+        "lint": [
+          443,
+          476
+        ],
+        "generated_code": [
+          245,
+          487,
+          531,
+          567
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "66caaf9ccc62add8c63de8e71184c9b7677377ad",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/README.md",
+      "lines": 326,
+      "signals": {
+        "tests": [],
+        "lint": [
+          42,
+          98,
+          105,
+          107,
+          173,
+          176,
+          177,
+          179,
+          180,
+          261
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          3,
+          4,
+          5
+        ],
+        "media": [
+          3,
+          4,
+          5,
+          13,
+          324
+        ],
+        "theme_images": [
+          10,
+          11,
+          12
+        ],
+        "playground": [],
+        "community": [
+          294
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "a16af65d3ce3cc12c0b422c2102cb8230a18d8fd",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/SECURITY.md",
+      "lines": 15,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          15
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "8a878357c526c63e2ecda217db120e60c901cf25",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/pyproject.toml",
+      "lines": 185,
+      "signals": {
+        "tests": [],
+        "lint": [
+          77,
+          101,
+          123
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/1_bug_report.yaml",
+      "sha": "e306551c90c27df86cc6081c1fd7b90f19d4b0e1",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/.github/ISSUE_TEMPLATE/1_bug_report.yaml",
+      "lines": 43,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/2_feature_request.yaml",
+      "sha": "a92ced04a94b09948aef4c7027d3f0426ad759d9",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/.github/ISSUE_TEMPLATE/2_feature_request.yaml",
+      "lines": 23,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/3_question.yaml",
+      "sha": "82692452f858ba76a1cf23a3a662acc42e2f0f9c",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/.github/ISSUE_TEMPLATE/3_question.yaml",
+      "lines": 31,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "a97a366a2c2ac114abb802e673d7c81ed77e941d",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 8,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "df8213b0a61c649ccc4ce73727fbdd0ab7ac4bfe",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/.github/PULL_REQUEST_TEMPLATE.md",
+      "lines": 15,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build-release-binaries.yml",
+      "sha": "6f99123d4f7c2dad11ebf631a32a5f8fb39a5127",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/.github/workflows/build-release-binaries.yml",
+      "lines": 1412,
+      "signals": {
+        "tests": [],
+        "lint": [
+          630
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          35
+        ],
+        "pinned_actions": [
+          43,
+          47,
+          59,
+          71,
+          86,
+          93,
+          105,
+          117,
+          126,
+          130,
+          143,
+          155
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/check-crates-policies.yml",
+      "sha": "049c48246f7ef847f329dec8b522fcd64d93598e",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/.github/workflows/check-crates-policies.yml",
+      "lines": 67,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          4,
+          15,
+          17,
+          46
+        ],
+        "pinned_actions": [
+          19,
+          25,
+          41
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/check-publish.yml",
+      "sha": "9c9f0e12e07788a6190e65e9e00dc029ea1bc2e0",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/.github/workflows/check-publish.yml",
+      "lines": 27,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          4
+        ],
+        "pinned_actions": [
+          20,
+          23
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/check-release.yml",
+      "sha": "c576d3c78c2a879c29d56199f2eae02274fbb6d7",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/.github/workflows/check-release.yml",
+      "lines": 31,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [
+          14,
+          20
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "5b06978732545b9b8a9d5f86b6ae387c871476be",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/.github/workflows/ci.yml",
+      "lines": 371,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          271,
+          284,
+          326
+        ],
+        "permissions": [
+          9,
+          46,
+          48,
+          57,
+          59,
+          80,
+          99,
+          101,
+          154,
+          156,
+          191,
+          193
+        ],
+        "pinned_actions": [
+          32,
+          240,
+          245,
+          250,
+          271,
+          281
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/publish-crates.yml",
+      "sha": "4a22c3baa51ced9983fa558b7dbd48d11b899c3b",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/.github/workflows/publish-crates.yml",
+      "lines": 42,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          24,
+          26
+        ],
+        "pinned_actions": [
+          28,
+          31
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/publish-docker-image.yml",
+      "sha": "4580024a23b9e4d95048d35c14b374f93efc5b6a",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/.github/workflows/publish-docker-image.yml",
+      "lines": 181,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          24,
+          38,
+          40
+        ],
+        "pinned_actions": [
+          75,
+          80,
+          82,
+          89,
+          95,
+          172,
+          178
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/publish-docker.yml",
+      "sha": "5a40b8143f01602893ead9511a55c07e4a25d104",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/.github/workflows/publish-docker.yml",
+      "lines": 76,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          19,
+          53,
+          55,
+          72,
+          74
+        ],
+        "pinned_actions": [
+          31
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/publish-docs.yml",
+      "sha": "44ab7f26bf329aefd2d9211ea3c1f4a143d47571",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/.github/workflows/publish-docs.yml",
+      "lines": 161,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          20,
+          31,
+          33,
+          99,
+          100
+        ],
+        "pinned_actions": [
+          36,
+          42,
+          82,
+          94,
+          104
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/publish-mirror.yml",
+      "sha": "28eec0916917847416dd7434b48153710a423714",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/.github/workflows/publish-mirror.yml",
+      "lines": 68,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          17
+        ],
+        "pinned_actions": [
+          32
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/publish-pypi.yml",
+      "sha": "d180f1dc50e4f833f4dd8febd48c49f2dd72537f",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/.github/workflows/publish-pypi.yml",
+      "lines": 81,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          1,
+          5,
+          55,
+          80
+        ],
+        "permissions": [
+          38,
+          39,
+          63,
+          64
+        ],
+        "pinned_actions": [
+          42,
+          50,
+          67,
+          75
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/publish-versions.yml",
+      "sha": "5a7645b35d4b236d2a6412005c5d8dee3c4e3e2f",
+      "status": "inspected",
+      "url": "https://github.com/astral-sh/uv/blob/9db4e27e539e791fbf74340ded957d7e790be0e5/.github/workflows/publish-versions.yml",
+      "lines": 108,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          14,
+          22,
+          24,
+          45,
+          46
+        ],
+        "pinned_actions": [
+          31,
+          40,
+          50,
+          59
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 22636,
+      "title": "Remove the repository Codex hooks",
+      "url": "https://github.com/astral-sh/uv/pull/22636",
+      "merged_at": "2026-10-16T15:26:29Z",
+      "merge_commit_sha": "a03d0cd8a603d69a5bfc9df5ed079f00cb949394",
+      "files": [
+        ".codex/hooks.json",
+        ".gitignore"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".codex/hooks.json",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 26,
+          "blob_url": "https://github.com/astral-sh/uv/blob/b8d3eb9afd7846749511c94e2c54e22fe68f025f/.codex%2Fhooks.json"
+        },
+        {
+          "filename": ".gitignore",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/astral-sh/uv/blob/63e91a7c1ef791ad72c0f1b0c88ccd03d5121c45/.gitignore"
+        }
+      ],
+      "review_states": [
+        "APPROVED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38929820001,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38929820001",
+          "head_sha": "a03d0cd8a603d69a5bfc9df5ed079f00cb949394"
+        },
+        {
+          "id": 38929261156,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38929261156",
+          "head_sha": "a03d0cd8a603d69a5bfc9df5ed079f00cb949394"
+        },
+        {
+          "id": 38928951259,
+          "name": "Diagnose workflow failure",
+          "path": ".github/workflows/diagnose-workflow-failure.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38928951259",
+          "head_sha": "a03d0cd8a603d69a5bfc9df5ed079f00cb949394"
+        },
+        {
+          "id": 38928744862,
+          "name": "Diagnose workflow failure",
+          "path": ".github/workflows/diagnose-workflow-failure.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38928744862",
+          "head_sha": "a03d0cd8a603d69a5bfc9df5ed079f00cb949394"
+        },
+        {
+          "id": 38926458672,
+          "name": "Diagnose workflow failure",
+          "path": ".github/workflows/diagnose-workflow-failure.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38926458672",
+          "head_sha": "a03d0cd8a603d69a5bfc9df5ed079f00cb949394"
+        },
+        {
+          "id": 38926443018,
+          "name": "Diagnose workflow failure",
+          "path": ".github/workflows/diagnose-workflow-failure.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38926443018",
+          "head_sha": "a03d0cd8a603d69a5bfc9df5ed079f00cb949394"
+        },
+        {
+          "id": 38926433054,
+          "name": "Diagnose workflow failure",
+          "path": ".github/workflows/diagnose-workflow-failure.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38926433054",
+          "head_sha": "a03d0cd8a603d69a5bfc9df5ed079f00cb949394"
+        },
+        {
+          "id": 38926157710,
+          "name": "Diagnose workflow failure",
+          "path": ".github/workflows/diagnose-workflow-failure.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38926157710",
+          "head_sha": "a03d0cd8a603d69a5bfc9df5ed079f00cb949394"
+        },
+        {
+          "id": 38926118290,
+          "name": "Diagnose workflow failure",
+          "path": ".github/workflows/diagnose-workflow-failure.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38926118290",
+          "head_sha": "a03d0cd8a603d69a5bfc9df5ed079f00cb949394"
+        },
+        {
+          "id": 38926102013,
+          "name": "Diagnose workflow failure",
+          "path": ".github/workflows/diagnose-workflow-failure.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38926102013",
+          "head_sha": "a03d0cd8a603d69a5bfc9df5ed079f00cb949394"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38905776960,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38905776960",
+          "head_sha": "63e91a7c1ef791ad72c0f1b0c88ccd03d5121c45"
+        }
+      ]
+    },
+    {
+      "number": 22679,
+      "title": "Upgrade toml_parser to 1.1.5",
+      "url": "https://github.com/astral-sh/uv/pull/22679",
+      "merged_at": "2026-10-17T15:07:07Z",
+      "merge_commit_sha": "9db4e27e539e791fbf74340ded957d7e790be0e5",
+      "files": [
+        "Cargo.lock"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "Cargo.lock",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/astral-sh/uv/blob/d2fb7306a98bb88222526c5e02e351e31ca5ea3f/Cargo.lock"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39048330549,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/39048330549",
+          "head_sha": "9db4e27e539e791fbf74340ded957d7e790be0e5"
+        },
+        {
+          "id": 39047958886,
+          "name": "Pull request labels",
+          "path": ".github/workflows/pull-request-labels.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/39047958886",
+          "head_sha": "9db4e27e539e791fbf74340ded957d7e790be0e5"
+        },
+        {
+          "id": 39045352769,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/39045352769",
+          "head_sha": "9db4e27e539e791fbf74340ded957d7e790be0e5"
+        },
+        {
+          "id": 39045296698,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/39045296698",
+          "head_sha": "9db4e27e539e791fbf74340ded957d7e790be0e5"
+        },
+        {
+          "id": 39044187268,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/39044187268",
+          "head_sha": "9db4e27e539e791fbf74340ded957d7e790be0e5"
+        },
+        {
+          "id": 39044159489,
+          "name": "Diagnose workflow failure",
+          "path": ".github/workflows/diagnose-workflow-failure.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/39044159489",
+          "head_sha": "9db4e27e539e791fbf74340ded957d7e790be0e5"
+        },
+        {
+          "id": 39043837985,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/39043837985",
+          "head_sha": "9db4e27e539e791fbf74340ded957d7e790be0e5"
+        },
+        {
+          "id": 39043798829,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/39043798829",
+          "head_sha": "9db4e27e539e791fbf74340ded957d7e790be0e5"
+        },
+        {
+          "id": 39043648487,
+          "name": "Rebase conflicted pull requests",
+          "path": ".github/workflows/pull-request-conflicts.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/39043648487",
+          "head_sha": "9db4e27e539e791fbf74340ded957d7e790be0e5"
+        },
+        {
+          "id": 39043648493,
+          "name": "Sync uv-security",
+          "path": ".github/workflows/sync-uv-security.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/39043648493",
+          "head_sha": "9db4e27e539e791fbf74340ded957d7e790be0e5"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39042450046,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/39042450046",
+          "head_sha": "d2fb7306a98bb88222526c5e02e351e31ca5ea3f"
+        }
+      ]
+    },
+    {
+      "number": 22659,
+      "title": "Build wall-time benchmarks on a larger runner",
+      "url": "https://github.com/astral-sh/uv/pull/22659",
+      "merged_at": "2026-10-17T14:57:09Z",
+      "merge_commit_sha": "3c2cce8f8253b35407e98361b220bd62f2d6ed2b",
+      "files": [
+        ".github/workflows/bench.yml"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".github/workflows/bench.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/astral-sh/uv/blob/41a001d0856a72b51cd940659f84197a97684eac/.github%2Fworkflows%2Fbench.yml"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38985960473,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38985960473",
+          "head_sha": "41a001d0856a72b51cd940659f84197a97684eac"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "0.13.1",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.1",
+      "published_at": "2026-10-14T05:15:30Z",
+      "target_commitish": "62faed3351cfee2121b3c28b937b1f4b93233a93",
+      "commit_sha": "62faed3351cfee2121b3c28b937b1f4b93233a93",
+      "assets": [
+        "dist-manifest.json",
+        "sha256.sum",
+        "source.tar.gz",
+        "source.tar.gz.sha256",
+        "uv-aarch64-apple-darwin.tar.gz",
+        "uv-aarch64-apple-darwin.tar.gz.sha256",
+        "uv-aarch64-pc-windows-msvc.zip",
+        "uv-aarch64-pc-windows-msvc.zip.sha256",
+        "uv-aarch64-unknown-linux-gnu.tar.gz",
+        "uv-aarch64-unknown-linux-gnu.tar.gz.sha256",
+        "uv-aarch64-unknown-linux-musl.tar.gz",
+        "uv-aarch64-unknown-linux-musl.tar.gz.sha256",
+        "uv-arm-unknown-linux-musleabihf.tar.gz",
+        "uv-arm-unknown-linux-musleabihf.tar.gz.sha256",
+        "uv-armv7-unknown-linux-gnueabihf.tar.gz",
+        "uv-armv7-unknown-linux-gnueabihf.tar.gz.sha256",
+        "uv-armv7-unknown-linux-musleabihf.tar.gz",
+        "uv-armv7-unknown-linux-musleabihf.tar.gz.sha256",
+        "uv-i686-pc-windows-msvc.zip",
+        "uv-i686-pc-windows-msvc.zip.sha256",
+        "uv-i686-unknown-linux-gnu.tar.gz",
+        "uv-i686-unknown-linux-gnu.tar.gz.sha256",
+        "uv-i686-unknown-linux-musl.tar.gz",
+        "uv-i686-unknown-linux-musl.tar.gz.sha256",
+        "uv-installer.ps1",
+        "uv-installer.sh",
+        "uv-powerpc64le-unknown-linux-gnu.tar.gz",
+        "uv-powerpc64le-unknown-linux-gnu.tar.gz.sha256",
+        "uv-riscv64gc-unknown-linux-gnu.tar.gz",
+        "uv-riscv64gc-unknown-linux-gnu.tar.gz.sha256",
+        "uv-riscv64gc-unknown-linux-musl.tar.gz",
+        "uv-riscv64gc-unknown-linux-musl.tar.gz.sha256",
+        "uv-s390x-unknown-linux-gnu.tar.gz",
+        "uv-s390x-unknown-linux-gnu.tar.gz.sha256",
+        "uv-x86_64-apple-darwin.tar.gz",
+        "uv-x86_64-apple-darwin.tar.gz.sha256",
+        "uv-x86_64-pc-windows-msvc.zip",
+        "uv-x86_64-pc-windows-msvc.zip.sha256",
+        "uv-x86_64-unknown-linux-gnu.tar.gz",
+        "uv-x86_64-unknown-linux-gnu.tar.gz.sha256",
+        "uv-x86_64-unknown-linux-musl.tar.gz",
+        "uv-x86_64-unknown-linux-musl.tar.gz.sha256"
+      ],
+      "workflow_runs": [
+        {
+          "id": 38545856744,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38545856744",
+          "head_sha": "62faed3351cfee2121b3c28b937b1f4b93233a93"
+        },
+        {
+          "id": 38542646540,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38542646540",
+          "head_sha": "62faed3351cfee2121b3c28b937b1f4b93233a93"
+        },
+        {
+          "id": 38542079781,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38542079781",
+          "head_sha": "62faed3351cfee2121b3c28b937b1f4b93233a93"
+        },
+        {
+          "id": 38540736121,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38540736121",
+          "head_sha": "62faed3351cfee2121b3c28b937b1f4b93233a93"
+        },
+        {
+          "id": 38537650522,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38537650522",
+          "head_sha": "62faed3351cfee2121b3c28b937b1f4b93233a93"
+        },
+        {
+          "id": 38535465205,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38535465205",
+          "head_sha": "62faed3351cfee2121b3c28b937b1f4b93233a93"
+        },
+        {
+          "id": 38535377917,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38535377917",
+          "head_sha": "62faed3351cfee2121b3c28b937b1f4b93233a93"
+        },
+        {
+          "id": 38529157428,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38529157428",
+          "head_sha": "62faed3351cfee2121b3c28b937b1f4b93233a93"
+        },
+        {
+          "id": 38524536656,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38524536656",
+          "head_sha": "62faed3351cfee2121b3c28b937b1f4b93233a93"
+        },
+        {
+          "id": 38522202448,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/38522202448",
+          "head_sha": "62faed3351cfee2121b3c28b937b1f4b93233a93"
+        }
+      ]
+    },
+    {
+      "tag": "0.13.0",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.0",
+      "published_at": "2026-10-09T19:49:55Z",
+      "target_commitish": "4ecd0eff2a81e3ffdcd7cfee10d08936e4747c17",
+      "commit_sha": "4ecd0eff2a81e3ffdcd7cfee10d08936e4747c17",
+      "assets": [
+        "dist-manifest.json",
+        "sha256.sum",
+        "source.tar.gz",
+        "source.tar.gz.sha256",
+        "uv-aarch64-apple-darwin.tar.gz",
+        "uv-aarch64-apple-darwin.tar.gz.sha256",
+        "uv-aarch64-pc-windows-msvc.zip",
+        "uv-aarch64-pc-windows-msvc.zip.sha256",
+        "uv-aarch64-unknown-linux-gnu.tar.gz",
+        "uv-aarch64-unknown-linux-gnu.tar.gz.sha256",
+        "uv-aarch64-unknown-linux-musl.tar.gz",
+        "uv-aarch64-unknown-linux-musl.tar.gz.sha256",
+        "uv-arm-unknown-linux-musleabihf.tar.gz",
+        "uv-arm-unknown-linux-musleabihf.tar.gz.sha256",
+        "uv-armv7-unknown-linux-gnueabihf.tar.gz",
+        "uv-armv7-unknown-linux-gnueabihf.tar.gz.sha256",
+        "uv-armv7-unknown-linux-musleabihf.tar.gz",
+        "uv-armv7-unknown-linux-musleabihf.tar.gz.sha256",
+        "uv-i686-pc-windows-msvc.zip",
+        "uv-i686-pc-windows-msvc.zip.sha256",
+        "uv-i686-unknown-linux-gnu.tar.gz",
+        "uv-i686-unknown-linux-gnu.tar.gz.sha256",
+        "uv-i686-unknown-linux-musl.tar.gz",
+        "uv-i686-unknown-linux-musl.tar.gz.sha256",
+        "uv-installer.ps1",
+        "uv-installer.sh",
+        "uv-powerpc64le-unknown-linux-gnu.tar.gz",
+        "uv-powerpc64le-unknown-linux-gnu.tar.gz.sha256",
+        "uv-riscv64gc-unknown-linux-gnu.tar.gz",
+        "uv-riscv64gc-unknown-linux-gnu.tar.gz.sha256",
+        "uv-riscv64gc-unknown-linux-musl.tar.gz",
+        "uv-riscv64gc-unknown-linux-musl.tar.gz.sha256",
+        "uv-s390x-unknown-linux-gnu.tar.gz",
+        "uv-s390x-unknown-linux-gnu.tar.gz.sha256",
+        "uv-x86_64-apple-darwin.tar.gz",
+        "uv-x86_64-apple-darwin.tar.gz.sha256",
+        "uv-x86_64-pc-windows-msvc.zip",
+        "uv-x86_64-pc-windows-msvc.zip.sha256",
+        "uv-x86_64-unknown-linux-gnu.tar.gz",
+        "uv-x86_64-unknown-linux-gnu.tar.gz.sha256",
+        "uv-x86_64-unknown-linux-musl.tar.gz",
+        "uv-x86_64-unknown-linux-musl.tar.gz.sha256"
+      ],
+      "workflow_runs": [
+        {
+          "id": 37979116842,
+          "name": "Diagnose workflow failure",
+          "path": ".github/workflows/diagnose-workflow-failure.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37979116842",
+          "head_sha": "4ecd0eff2a81e3ffdcd7cfee10d08936e4747c17"
+        },
+        {
+          "id": 37978413623,
+          "name": "Release",
+          "path": ".github/workflows/release.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37978413623",
+          "head_sha": "4ecd0eff2a81e3ffdcd7cfee10d08936e4747c17"
+        },
+        {
+          "id": 37978286195,
+          "name": "Diagnose workflow failure",
+          "path": ".github/workflows/diagnose-workflow-failure.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37978286195",
+          "head_sha": "4ecd0eff2a81e3ffdcd7cfee10d08936e4747c17"
+        },
+        {
+          "id": 37978182559,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37978182559",
+          "head_sha": "4ecd0eff2a81e3ffdcd7cfee10d08936e4747c17"
+        },
+        {
+          "id": 37977949632,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37977949632",
+          "head_sha": "4ecd0eff2a81e3ffdcd7cfee10d08936e4747c17"
+        },
+        {
+          "id": 37977948172,
+          "name": "Sync uv-dev",
+          "path": ".github/workflows/sync-uv-dev.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37977948172",
+          "head_sha": "4ecd0eff2a81e3ffdcd7cfee10d08936e4747c17"
+        },
+        {
+          "id": 37977948360,
+          "name": "Import CodSpeed profiles",
+          "path": ".github/workflows/import-codspeed-profiles.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37977948360",
+          "head_sha": "4ecd0eff2a81e3ffdcd7cfee10d08936e4747c17"
+        },
+        {
+          "id": 37977948945,
+          "name": "Rebase conflicted pull requests",
+          "path": ".github/workflows/pull-request-conflicts.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37977948945",
+          "head_sha": "4ecd0eff2a81e3ffdcd7cfee10d08936e4747c17"
+        },
+        {
+          "id": 37977948275,
+          "name": "Sync uv-security",
+          "path": ".github/workflows/sync-uv-security.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37977948275",
+          "head_sha": "4ecd0eff2a81e3ffdcd7cfee10d08936e4747c17"
+        }
+      ]
+    },
+    {
+      "tag": "0.12.24",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.24",
+      "published_at": "2026-10-08T20:06:20Z",
+      "target_commitish": "5411378eb76dc1ea1ad90aeb10e84e997e5bbd96",
+      "commit_sha": "5411378eb76dc1ea1ad90aeb10e84e997e5bbd96",
+      "assets": [
+        "dist-manifest.json",
+        "sha256.sum",
+        "source.tar.gz",
+        "source.tar.gz.sha256",
+        "uv-aarch64-apple-darwin.tar.gz",
+        "uv-aarch64-apple-darwin.tar.gz.sha256",
+        "uv-aarch64-pc-windows-msvc.zip",
+        "uv-aarch64-pc-windows-msvc.zip.sha256",
+        "uv-aarch64-unknown-linux-gnu.tar.gz",
+        "uv-aarch64-unknown-linux-gnu.tar.gz.sha256",
+        "uv-aarch64-unknown-linux-musl.tar.gz",
+        "uv-aarch64-unknown-linux-musl.tar.gz.sha256",
+        "uv-arm-unknown-linux-musleabihf.tar.gz",
+        "uv-arm-unknown-linux-musleabihf.tar.gz.sha256",
+        "uv-armv7-unknown-linux-gnueabihf.tar.gz",
+        "uv-armv7-unknown-linux-gnueabihf.tar.gz.sha256",
+        "uv-armv7-unknown-linux-musleabihf.tar.gz",
+        "uv-armv7-unknown-linux-musleabihf.tar.gz.sha256",
+        "uv-i686-pc-windows-msvc.zip",
+        "uv-i686-pc-windows-msvc.zip.sha256",
+        "uv-i686-unknown-linux-gnu.tar.gz",
+        "uv-i686-unknown-linux-gnu.tar.gz.sha256",
+        "uv-i686-unknown-linux-musl.tar.gz",
+        "uv-i686-unknown-linux-musl.tar.gz.sha256",
+        "uv-installer.ps1",
+        "uv-installer.sh",
+        "uv-powerpc64le-unknown-linux-gnu.tar.gz",
+        "uv-powerpc64le-unknown-linux-gnu.tar.gz.sha256",
+        "uv-riscv64gc-unknown-linux-gnu.tar.gz",
+        "uv-riscv64gc-unknown-linux-gnu.tar.gz.sha256",
+        "uv-riscv64gc-unknown-linux-musl.tar.gz",
+        "uv-riscv64gc-unknown-linux-musl.tar.gz.sha256",
+        "uv-s390x-unknown-linux-gnu.tar.gz",
+        "uv-s390x-unknown-linux-gnu.tar.gz.sha256",
+        "uv-x86_64-apple-darwin.tar.gz",
+        "uv-x86_64-apple-darwin.tar.gz.sha256",
+        "uv-x86_64-pc-windows-msvc.zip",
+        "uv-x86_64-pc-windows-msvc.zip.sha256",
+        "uv-x86_64-unknown-linux-gnu.tar.gz",
+        "uv-x86_64-unknown-linux-gnu.tar.gz.sha256",
+        "uv-x86_64-unknown-linux-musl.tar.gz",
+        "uv-x86_64-unknown-linux-musl.tar.gz.sha256"
+      ],
+      "workflow_runs": [
+        {
+          "id": 37856273371,
+          "name": "Pull request labels",
+          "path": ".github/workflows/pull-request-labels.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37856273371",
+          "head_sha": "5411378eb76dc1ea1ad90aeb10e84e997e5bbd96"
+        },
+        {
+          "id": 37856000126,
+          "name": "Pull request labels",
+          "path": ".github/workflows/pull-request-labels.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37856000126",
+          "head_sha": "5411378eb76dc1ea1ad90aeb10e84e997e5bbd96"
+        },
+        {
+          "id": 37855949237,
+          "name": "Pull request labels",
+          "path": ".github/workflows/pull-request-labels.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37855949237",
+          "head_sha": "5411378eb76dc1ea1ad90aeb10e84e997e5bbd96"
+        },
+        {
+          "id": 37855896594,
+          "name": "Pull request labels",
+          "path": ".github/workflows/pull-request-labels.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37855896594",
+          "head_sha": "5411378eb76dc1ea1ad90aeb10e84e997e5bbd96"
+        },
+        {
+          "id": 37852077382,
+          "name": "Diagnose workflow failure",
+          "path": ".github/workflows/diagnose-workflow-failure.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37852077382",
+          "head_sha": "5411378eb76dc1ea1ad90aeb10e84e997e5bbd96"
+        },
+        {
+          "id": 37848135172,
+          "name": "Diagnose workflow failure",
+          "path": ".github/workflows/diagnose-workflow-failure.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37848135172",
+          "head_sha": "5411378eb76dc1ea1ad90aeb10e84e997e5bbd96"
+        },
+        {
+          "id": 37847443428,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37847443428",
+          "head_sha": "5411378eb76dc1ea1ad90aeb10e84e997e5bbd96"
+        },
+        {
+          "id": 37845229239,
+          "name": "update-issue-context",
+          "path": ".github/workflows/update-issue-context.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37845229239",
+          "head_sha": "5411378eb76dc1ea1ad90aeb10e84e997e5bbd96"
+        },
+        {
+          "id": 37845160517,
+          "name": "Diagnose workflow failure",
+          "path": ".github/workflows/diagnose-workflow-failure.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37845160517",
+          "head_sha": "5411378eb76dc1ea1ad90aeb10e84e997e5bbd96"
+        },
+        {
+          "id": 37838267203,
+          "name": "Diagnose workflow failure",
+          "path": ".github/workflows/diagnose-workflow-failure.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/astral-sh/uv/actions/runs/37838267203",
+          "head_sha": "5411378eb76dc1ea1ad90aeb10e84e997e5bbd96"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "0.13.1",
+      "sha": "62faed3351cfee2121b3c28b937b1f4b93233a93"
+    },
+    {
+      "name": "0.13.0",
+      "sha": "4ecd0eff2a81e3ffdcd7cfee10d08936e4747c17"
+    },
+    {
+      "name": "0.12.24",
+      "sha": "5411378eb76dc1ea1ad90aeb10e84e997e5bbd96"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:20:34.296251+00:00",
+  "source_times": {
+    "/repos/astral-sh/uv": "2026-10-17T16:17:12.822599+00:00",
+    "/repos/astral-sh/uv/commits?sha=main&per_page=20": "2026-10-17T16:17:14.691264+00:00",
+    "/repos/astral-sh/uv/git/trees/9db4e27e539e791fbf74340ded957d7e790be0e5": "2026-10-17T16:17:16.111150+00:00",
+    "/repos/astral-sh/uv/git/trees/0b17e552cd94c339f6c295badf8ce24794e9b520": "2026-10-17T16:17:18.569680+00:00",
+    "/repos/astral-sh/uv/git/trees/46505182e8c4d6f2b80a11f1ef6001d0b659e6c3": "2026-10-17T16:17:19.995614+00:00",
+    "/repos/astral-sh/uv/git/trees/473048722bd534308b49b5cc9a6a4abf64a0f63c": "2026-10-17T16:17:21.482723+00:00",
+    "/repos/astral-sh/uv/git/trees/5e336e41ee0b0969b9195eef56528a0491c47255": "2026-10-17T16:17:22.842189+00:00",
+    "/repos/astral-sh/uv/git/blobs/ca031d6aa5243851885e5ca548fddb1c0ce69945": "2026-10-17T16:17:24.270555+00:00",
+    "/repos/astral-sh/uv/git/blobs/66778dcc1c0aa420f83f4f76a8e14accffefa162": "2026-10-17T16:17:25.781386+00:00",
+    "/repos/astral-sh/uv/git/blobs/4177b3d9bd5379ff43b5a3c93c8345638155090f": "2026-10-17T16:17:28.630705+00:00",
+    "/repos/astral-sh/uv/git/blobs/fd573fdab234fad13c12219dae3ea5f6e73ab94a": "2026-10-17T16:17:30.238328+00:00",
+    "/repos/astral-sh/uv/git/blobs/66caaf9ccc62add8c63de8e71184c9b7677377ad": "2026-10-17T16:17:32.098005+00:00",
+    "/repos/astral-sh/uv/git/blobs/a16af65d3ce3cc12c0b422c2102cb8230a18d8fd": "2026-10-17T16:17:33.467587+00:00",
+    "/repos/astral-sh/uv/git/blobs/8a878357c526c63e2ecda217db120e60c901cf25": "2026-10-17T16:17:34.944003+00:00",
+    "/repos/astral-sh/uv/git/blobs/e306551c90c27df86cc6081c1fd7b90f19d4b0e1": "2026-10-17T16:17:36.284590+00:00",
+    "/repos/astral-sh/uv/git/blobs/a92ced04a94b09948aef4c7027d3f0426ad759d9": "2026-10-17T16:17:37.620757+00:00",
+    "/repos/astral-sh/uv/git/blobs/82692452f858ba76a1cf23a3a662acc42e2f0f9c": "2026-10-17T16:17:38.995127+00:00",
+    "/repos/astral-sh/uv/git/blobs/a97a366a2c2ac114abb802e673d7c81ed77e941d": "2026-10-17T16:17:40.307402+00:00",
+    "/repos/astral-sh/uv/git/blobs/df8213b0a61c649ccc4ce73727fbdd0ab7ac4bfe": "2026-10-17T16:17:41.673886+00:00",
+    "/repos/astral-sh/uv/git/blobs/6f99123d4f7c2dad11ebf631a32a5f8fb39a5127": "2026-10-17T16:17:43.458490+00:00",
+    "/repos/astral-sh/uv/git/blobs/049c48246f7ef847f329dec8b522fcd64d93598e": "2026-10-17T16:17:44.899099+00:00",
+    "/repos/astral-sh/uv/git/blobs/9c9f0e12e07788a6190e65e9e00dc029ea1bc2e0": "2026-10-17T16:17:46.253011+00:00",
+    "/repos/astral-sh/uv/git/blobs/c576d3c78c2a879c29d56199f2eae02274fbb6d7": "2026-10-17T16:17:47.644986+00:00",
+    "/repos/astral-sh/uv/git/blobs/5b06978732545b9b8a9d5f86b6ae387c871476be": "2026-10-17T16:17:49.177377+00:00",
+    "/repos/astral-sh/uv/git/blobs/4a22c3baa51ced9983fa558b7dbd48d11b899c3b": "2026-10-17T16:17:50.546381+00:00",
+    "/repos/astral-sh/uv/git/blobs/4580024a23b9e4d95048d35c14b374f93efc5b6a": "2026-10-17T16:17:52.872526+00:00",
+    "/repos/astral-sh/uv/git/blobs/5a40b8143f01602893ead9511a55c07e4a25d104": "2026-10-17T16:17:54.288241+00:00",
+    "/repos/astral-sh/uv/git/blobs/44ab7f26bf329aefd2d9211ea3c1f4a143d47571": "2026-10-17T16:17:55.675877+00:00",
+    "/repos/astral-sh/uv/git/blobs/28eec0916917847416dd7434b48153710a423714": "2026-10-17T16:17:58.062766+00:00",
+    "/repos/astral-sh/uv/git/blobs/d180f1dc50e4f833f4dd8febd48c49f2dd72537f": "2026-10-17T16:17:59.530537+00:00",
+    "/repos/astral-sh/uv/git/blobs/5a7645b35d4b236d2a6412005c5d8dee3c4e3e2f": "2026-10-17T16:18:00.901588+00:00",
+    "/repos/astral-sh/uv/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:18:06.616054+00:00",
+    "/repos/astral-sh/uv/pulls/22636/files?per_page=100": "2026-10-17T16:18:08.186610+00:00",
+    "/repos/astral-sh/uv/pulls/22636/reviews?per_page=100": "2026-10-17T16:18:09.734100+00:00",
+    "/repos/astral-sh/uv/actions/runs?head_sha=a03d0cd8a603d69a5bfc9df5ed079f00cb949394&per_page=10": "2026-10-17T16:18:11.956101+00:00",
+    "/repos/astral-sh/uv/actions/runs?head_sha=63e91a7c1ef791ad72c0f1b0c88ccd03d5121c45&per_page=10": "2026-10-17T16:18:15.494523+00:00",
+    "/repos/astral-sh/uv/pulls/22679/files?per_page=100": "2026-10-17T16:18:17.025209+00:00",
+    "/repos/astral-sh/uv/pulls/22679/reviews?per_page=100": "2026-10-17T16:18:18.489082+00:00",
+    "/repos/astral-sh/uv/actions/runs?head_sha=9db4e27e539e791fbf74340ded957d7e790be0e5&per_page=10": "2026-10-17T16:18:20.713853+00:00",
+    "/repos/astral-sh/uv/actions/runs?head_sha=d2fb7306a98bb88222526c5e02e351e31ca5ea3f&per_page=10": "2026-10-17T16:18:22.305463+00:00",
+    "/repos/astral-sh/uv/pulls/22659/files?per_page=100": "2026-10-17T16:18:23.732790+00:00",
+    "/repos/astral-sh/uv/pulls/22659/reviews?per_page=100": "2026-10-17T16:18:26.682512+00:00",
+    "/repos/astral-sh/uv/actions/runs?head_sha=3c2cce8f8253b35407e98361b220bd62f2d6ed2b&per_page=10": "2026-10-17T16:18:29.031064+00:00",
+    "/repos/astral-sh/uv/actions/runs?head_sha=41a001d0856a72b51cd940659f84197a97684eac&per_page=10": "2026-10-17T16:18:30.617592+00:00",
+    "/repos/astral-sh/uv/releases?per_page=20&page=1": "2026-10-17T16:20:34.291542+00:00",
+    "/repos/astral-sh/uv/commits/0.13.1": "2026-10-17T16:18:39.984955+00:00",
+    "/repos/astral-sh/uv/actions/runs?head_sha=62faed3351cfee2121b3c28b937b1f4b93233a93&per_page=10": "2026-10-17T16:18:44.818459+00:00",
+    "/repos/astral-sh/uv/commits/0.13.0": "2026-10-17T16:18:46.224758+00:00",
+    "/repos/astral-sh/uv/actions/runs?head_sha=4ecd0eff2a81e3ffdcd7cfee10d08936e4747c17&per_page=10": "2026-10-17T16:18:48.466336+00:00",
+    "/repos/astral-sh/uv/commits/0.12.24": "2026-10-17T16:18:50.716170+00:00",
+    "/repos/astral-sh/uv/actions/runs?head_sha=5411378eb76dc1ea1ad90aeb10e84e997e5bbd96&per_page=10": "2026-10-17T16:18:52.887150+00:00",
+    "/repos/astral-sh/uv/tags?per_page=3": "2026-10-17T16:18:54.222176+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:20:34.291542+00:00",
+  "status": "collected"
+}

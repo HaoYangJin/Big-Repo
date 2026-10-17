@@ -1,0 +1,2217 @@
+{
+  "requested_repository": "containerd/containerd",
+  "category": "infrastructure",
+  "collected_at": "2026-10-17T16:13:44.369471+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "containerd/containerd",
+  "metadata": {
+    "html_url": "https://github.com/containerd/containerd",
+    "description": "An open and reliable container runtime",
+    "homepage": "https://containerd.io",
+    "language": "Go",
+    "stargazers_count": 21422,
+    "forks_count": 4168,
+    "open_issues_count": 534,
+    "pushed_at": "2026-10-17T01:39:34Z",
+    "created_at": "2015-11-13T00:27:43Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [
+      "cncf",
+      "containerd",
+      "containers",
+      "cri",
+      "docker",
+      "hacktoberfest",
+      "kubernetes",
+      "oci"
+    ],
+    "owner": {
+      "login": "containerd",
+      "type": "Organization",
+      "html_url": "https://github.com/containerd"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "ae65337745cf8e2d5f32f10fb7c1f1e479a7666d",
+      "url": "https://github.com/containerd/containerd/commit/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d",
+      "date": "2026-10-17T01:07:07Z",
+      "subject": "Merge pull request #14312 from JacobGabrielson/fix/tty-io-release-on-delete"
+    },
+    {
+      "sha": "eea131263805bb19f26d0ade516c4c375fcc9029",
+      "url": "https://github.com/containerd/containerd/commit/eea131263805bb19f26d0ade516c4c375fcc9029",
+      "date": "2026-10-16T21:43:19Z",
+      "subject": "Merge pull request #14254 from thaJeztah/bump_go_winio"
+    },
+    {
+      "sha": "82ec3865edd88796bf1b0cd746afc127d151e9fc",
+      "url": "https://github.com/containerd/containerd/commit/82ec3865edd88796bf1b0cd746afc127d151e9fc",
+      "date": "2026-10-16T16:10:33Z",
+      "subject": "Merge pull request #14131 from mikebrow/add-integration-buckets-for-runsc"
+    },
+    {
+      "sha": "fc774e4b3c52a697d98869ccee2af6c7bff2e785",
+      "url": "https://github.com/containerd/containerd/commit/fc774e4b3c52a697d98869ccee2af6c7bff2e785",
+      "date": "2026-10-16T00:07:45Z",
+      "subject": "ci: add integration-runsc CI job and script/runsc/ test helpers"
+    },
+    {
+      "sha": "c787e39387ec2de521a14985f6785c53dfefaad7",
+      "url": "https://github.com/containerd/containerd/commit/c787e39387ec2de521a14985f6785c53dfefaad7",
+      "date": "2026-10-15T21:43:34Z",
+      "subject": "Merge pull request #14322 from samuelkarp/retry-limactl-start"
+    },
+    {
+      "sha": "8d72a35ab39456fcc8c408fafc1c1e7889805e70",
+      "url": "https://github.com/containerd/containerd/commit/8d72a35ab39456fcc8c408fafc1c1e7889805e70",
+      "date": "2026-10-15T21:32:42Z",
+      "subject": "Merge pull request #14351 from thaJeztah/bump_x_net"
+    },
+    {
+      "sha": "39721705e55b43429d7d6c33fcfc0ad389ef3e80",
+      "url": "https://github.com/containerd/containerd/commit/39721705e55b43429d7d6c33fcfc0ad389ef3e80",
+      "date": "2026-10-15T20:54:41Z",
+      "subject": "Merge pull request #14373 from samuelkarp/fix_links_workflow"
+    },
+    {
+      "sha": "79ab376d3045576bb252af76f4463d348df1f9f9",
+      "url": "https://github.com/containerd/containerd/commit/79ab376d3045576bb252af76f4463d348df1f9f9",
+      "date": "2026-10-15T20:52:10Z",
+      "subject": "Merge pull request #14372 from samuelkarp/fix_release_workflow_warnings"
+    },
+    {
+      "sha": "f09d4e24d975f58987ff5739a3705b64c679df6a",
+      "url": "https://github.com/containerd/containerd/commit/f09d4e24d975f58987ff5739a3705b64c679df6a",
+      "date": "2026-10-15T19:35:22Z",
+      "subject": "Merge pull request #14378 from mike-sul/fix/erofs-trim-fsync-comments"
+    },
+    {
+      "sha": "96d26d24764f8d37cd675973745ffbbf165dffcd",
+      "url": "https://github.com/containerd/containerd/commit/96d26d24764f8d37cd675973745ffbbf165dffcd",
+      "date": "2026-10-15T18:53:28Z",
+      "subject": "docs: fix broken documentation links"
+    },
+    {
+      "sha": "3bd74e226d6cd61714af0f0a9d6b9efc71e1d43e",
+      "url": "https://github.com/containerd/containerd/commit/3bd74e226d6cd61714af0f0a9d6b9efc71e1d43e",
+      "date": "2026-10-15T17:51:28Z",
+      "subject": "Merge pull request #14321 from samuelkarp/disable-tmpfiles-clean-timer"
+    },
+    {
+      "sha": "8f3aafa29846179ef2ea4af26f471bc1b0a877db",
+      "url": "https://github.com/containerd/containerd/commit/8f3aafa29846179ef2ea4af26f471bc1b0a877db",
+      "date": "2026-10-15T10:11:10Z",
+      "subject": "erofs: trim fsync_on_commit comments"
+    },
+    {
+      "sha": "f0e5cfae13ebf7f5a9f3aadc749821f373f5ec07",
+      "url": "https://github.com/containerd/containerd/commit/f0e5cfae13ebf7f5a9f3aadc749821f373f5ec07",
+      "date": "2026-10-14T22:50:33Z",
+      "subject": "workflows: pin runner to ubuntu-24.04"
+    },
+    {
+      "sha": "41d81d082896c6ea062e10b1b0d8e782c9392ebe",
+      "url": "https://github.com/containerd/containerd/commit/41d81d082896c6ea062e10b1b0d8e782c9392ebe",
+      "date": "2026-10-14T22:10:11Z",
+      "subject": "ci: retry limactl start on VM boot failure"
+    },
+    {
+      "sha": "02771a9d6d3f1f6d10ae5b9309c3f59f8c49da79",
+      "url": "https://github.com/containerd/containerd/commit/02771a9d6d3f1f6d10ae5b9309c3f59f8c49da79",
+      "date": "2026-10-14T14:59:07Z",
+      "subject": "Merge pull request #14334 from mike-sul/fix/erofs-commit-durability"
+    },
+    {
+      "sha": "d0ed8ab2a2a1e5952769d8dc4fdeba7e5e49aedd",
+      "url": "https://github.com/containerd/containerd/commit/d0ed8ab2a2a1e5952769d8dc4fdeba7e5e49aedd",
+      "date": "2026-10-14T14:12:36Z",
+      "subject": "erofs: add fsync_on_commit to sync a layer before its commit"
+    },
+    {
+      "sha": "2467f228a02a8cce1786f495fffe4816b0afa70c",
+      "url": "https://github.com/containerd/containerd/commit/2467f228a02a8cce1786f495fffe4816b0afa70c",
+      "date": "2026-10-13T20:29:15Z",
+      "subject": "Merge pull request #14345 from thaJeztah/bump_go"
+    },
+    {
+      "sha": "819723a2396978eee922108bdc3bbe3583c8b99a",
+      "url": "https://github.com/containerd/containerd/commit/819723a2396978eee922108bdc3bbe3583c8b99a",
+      "date": "2026-10-13T19:52:58Z",
+      "subject": "vendor: golang.org/x/net v0.60.0"
+    },
+    {
+      "sha": "e4ad708fafb091cb6a773acda4a4773031fccc34",
+      "url": "https://github.com/containerd/containerd/commit/e4ad708fafb091cb6a773acda4a4773031fccc34",
+      "date": "2026-10-13T19:36:18Z",
+      "subject": "Update to go1.27.2"
+    },
+    {
+      "sha": "2b46e32d7c0be6d1ef330007d33005d61717e2e4",
+      "url": "https://github.com/containerd/containerd/commit/2b46e32d7c0be6d1ef330007d33005d61717e2e4",
+      "date": "2026-10-13T18:44:56Z",
+      "subject": "Merge commit from fork"
+    }
+  ],
+  "default_sha": "ae65337745cf8e2d5f32f10fb7c1f1e479a7666d",
+  "root_and_selected_directory_paths": [
+    ".devcontainer",
+    ".gitattributes",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug_report.yaml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/cri_kep.yaml",
+    ".github/ISSUE_TEMPLATE/feature_request.yaml",
+    ".github/actions",
+    ".github/dependabot.yml",
+    ".github/workflows",
+    ".github/workflows/api-release.yml",
+    ".github/workflows/buf-breaking.yml",
+    ".github/workflows/build-test-images.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/fuzz.yml",
+    ".github/workflows/images.yml",
+    ".github/workflows/links.yml",
+    ".github/workflows/nightly.yml",
+    ".github/workflows/node-e2e.yml",
+    ".github/workflows/release",
+    ".github/workflows/release.yml",
+    ".github/workflows/scorecards.yml",
+    ".github/workflows/stale.yml",
+    ".github/workflows/windows-hyperv-periodic-trigger.yml",
+    ".github/workflows/windows-hyperv-periodic.yml",
+    ".github/workflows/windows-periodic-trigger.yml",
+    ".github/workflows/windows-periodic.yml",
+    ".gitignore",
+    ".golangci.yml",
+    ".lycheeignore",
+    ".mailmap",
+    "ADOPTERS.md",
+    "AGENTS.md",
+    "BUILDING.md",
+    "CLAUDE.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "Makefile",
+    "Makefile.darwin",
+    "Makefile.freebsd",
+    "Makefile.linux",
+    "Makefile.windows",
+    "NOTICE",
+    "README.md",
+    "RELEASES.md",
+    "ROADMAP.md",
+    "SCOPE.md",
+    "api",
+    "client",
+    "cluster",
+    "cmd",
+    "code-of-conduct.md",
+    "codecov.yml",
+    "containerd.service",
+    "contrib",
+    "core",
+    "defaults",
+    "docs",
+    "docs/.editorconfig",
+    "docs/NRI.md",
+    "docs/PLUGINS.md",
+    "docs/RUNC.md",
+    "docs/client-opts.md",
+    "docs/containerd-2.0.md",
+    "docs/containerd-nri-integration.png",
+    "docs/content-flow.md",
+    "docs/cri",
+    "docs/features.md",
+    "docs/fsverity.md",
+    "docs/garbage-collection.md",
+    "docs/getting-started.md",
+    "docs/historical",
+    "docs/hosts.md",
+    "docs/image-verification.md",
+    "docs/man",
+    "docs/managed-opt.md",
+    "docs/mounts.md",
+    "docs/namespaces.md",
+    "docs/ops.md",
+    "docs/rootless.md",
+    "docs/runtime-v2.md",
+    "docs/sandbox-api.md",
+    "docs/security",
+    "docs/shim-capabilities.md",
+    "docs/snapshotters",
+    "docs/stream_processors.md",
+    "docs/tracing.md",
+    "docs/transfer.md",
+    "docs/user-namespaces",
+    "go.mod",
+    "go.sum",
+    "integration",
+    "internal",
+    "pkg",
+    "plugins",
+    "releases",
+    "script",
+    "test",
+    "vendor",
+    "version"
+  ],
+  "workflow_paths": [
+    ".github/workflows/api-release.yml",
+    ".github/workflows/build-test-images.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/buf-breaking.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/fuzz.yml",
+    ".github/workflows/images.yml",
+    ".github/workflows/links.yml",
+    ".github/workflows/nightly.yml",
+    ".github/workflows/node-e2e.yml",
+    ".github/workflows/scorecards.yml",
+    ".github/workflows/stale.yml",
+    ".github/workflows/windows-hyperv-periodic-trigger.yml",
+    ".github/workflows/windows-hyperv-periodic.yml",
+    ".github/workflows/windows-periodic-trigger.yml",
+    ".github/workflows/windows-periodic.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "46ebdcd4fa8d09344263e7d45bcc1f9c9ef9b2eb",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/AGENTS.md",
+      "lines": 52,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          52
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha": "47dc3e3d863cfb5727b87d785d09abf9743c0a72",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/CLAUDE.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "9383487e5fa04350652c32f2b0d9f775b6f53355",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/CONTRIBUTING.md",
+      "lines": 99,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          85,
+          98
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile",
+      "sha": "367dc73792a1984e95d268fdc48c4026a9ab3c38",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/Makefile",
+      "lines": 512,
+      "signals": {
+        "tests": [
+          150,
+          154
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile.darwin",
+      "sha": "4a12e88f28ad85f3c84e713f5b28a2afa09509e5",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/Makefile.darwin",
+      "lines": 19,
+      "signals": {
+        "tests": [
+          16
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile.freebsd",
+      "sha": "a32c3f75244d75cbdbfb7580dbcd6d6f91beb159",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/Makefile.freebsd",
+      "lines": 21,
+      "signals": {
+        "tests": [
+          18
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile.linux",
+      "sha": "6f44a29336fe484416b1a56f8106b79f1970cf3e",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/Makefile.linux",
+      "lines": 33,
+      "signals": {
+        "tests": [
+          30
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile.windows",
+      "sha": "6e62a87cf83f623f4abaceb6a6b88f47c559147f",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/Makefile.windows",
+      "lines": 32,
+      "signals": {
+        "tests": [
+          20
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "bb9220fbdfb0fd9d5d8c0be6065925e020914b2a",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/README.md",
+      "lines": 199,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          174
+        ],
+        "star_history": [],
+        "badges": [
+          5,
+          6,
+          9
+        ],
+        "media": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          17,
+          133
+        ],
+        "theme_images": [
+          1,
+          2
+        ],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "RELEASES.md",
+      "sha": "da756f62d1b61ec23c83e9d0fb831dd25bcb4a04",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/RELEASES.md",
+      "lines": 697,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          317
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          50,
+          52
+        ],
+        "story": [
+          50,
+          51,
+          53,
+          146,
+          494
+        ]
+      }
+    },
+    {
+      "path": "code-of-conduct.md",
+      "sha": "142cc3b6fdb740d77e31b7b596d87ecc75e160f8",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/code-of-conduct.md",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "go.mod",
+      "sha": "92f28d6cab4d4600c275e41cf3e65a4feebbd730",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/go.mod",
+      "lines": 161,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yaml",
+      "sha": "7e58f03566a3e2ef39496a58c400f2111cd3ea52",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/.github/ISSUE_TEMPLATE/bug_report.yaml",
+      "lines": 70,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "366187f74013fd8a2a23fc74af4ca69e109b9e7e",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 12,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          4
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/cri_kep.yaml",
+      "sha": "6cbc460e3a3cfe5e672c188f0c15a8a29c5144d3",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/.github/ISSUE_TEMPLATE/cri_kep.yaml",
+      "lines": 58,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yaml",
+      "sha": "161656e84667231bae96bbaafe418d2433cb1cbf",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/.github/ISSUE_TEMPLATE/feature_request.yaml",
+      "lines": 25,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "6035acc62d5e65311b01a56d5b4e3cb18bb59478",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/.github/dependabot.yml",
+      "lines": 36,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/api-release.yml",
+      "sha": "75eb3c0033421343095033391e18d2468f174640",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/.github/workflows/api-release.yml",
+      "lines": 81,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11,
+          62,
+          63
+        ],
+        "pinned_actions": [
+          25,
+          54,
+          69,
+          73
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build-test-images.yml",
+      "sha": "a2a62334ccb1c773cd8c1cc995aa4b00543c49a3",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/.github/workflows/build-test-images.yml",
+      "lines": 176,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          22,
+          33
+        ],
+        "pinned_actions": [
+          44,
+          76,
+          83,
+          92,
+          108,
+          130,
+          152,
+          173
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "7d0589bfc70b1e892679193aa6fea1f53cb26931",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/.github/workflows/ci.yml",
+      "lines": 910,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9,
+          20
+        ],
+        "pinned_actions": [
+          37,
+          43,
+          59,
+          67,
+          96,
+          118,
+          152,
+          213,
+          248,
+          255,
+          391,
+          423
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          901
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha": "f24c52077588dbdade282c88d635b6017b4863ac",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/.github/workflows/release.yml",
+      "lines": 169,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          15,
+          138,
+          139,
+          140
+        ],
+        "pinned_actions": [
+          29,
+          61,
+          95,
+          106,
+          109,
+          130,
+          147,
+          152,
+          158
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/buf-breaking.yml",
+      "sha": "7fa4acdf4eaa7ac9ad3cd4770a326d39471089c8",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/.github/workflows/buf-breaking.yml",
+      "lines": 38,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          15
+        ],
+        "pinned_actions": [
+          27,
+          30
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "sha": "d557b1faf7078c4e0ad75c2f8094d87632fec2bb",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/.github/workflows/codeql.yml",
+      "lines": 51,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13,
+          19
+        ],
+        "pinned_actions": [
+          33,
+          41,
+          51
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/fuzz.yml",
+      "sha": "3f3b1c9e163bef3ddd1e1f23dd552f1e8fbc5f01",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/.github/workflows/fuzz.yml",
+      "lines": 54,
+      "signals": {
+        "tests": [
+          36,
+          38
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          3
+        ],
+        "pinned_actions": [
+          17,
+          22,
+          29,
+          43,
+          49
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/images.yml",
+      "sha": "6e348e6c856e9df37b8dbb61d86437af966ef602",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/.github/workflows/images.yml",
+      "lines": 80,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12,
+          21
+        ],
+        "pinned_actions": [
+          29
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/links.yml",
+      "sha": "774e6f9582f19e54ea053ead253dc20d61827997",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/.github/workflows/links.yml",
+      "lines": 33,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [
+          21,
+          25
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "sha": "a3c048d349b3ebbc45418085cd9018797f128330",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/.github/workflows/nightly.yml",
+      "lines": 168,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9
+        ],
+        "pinned_actions": [
+          24,
+          104,
+          110,
+          116,
+          122,
+          128,
+          144,
+          165
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/node-e2e.yml",
+      "sha": "5ca3fa5273b8704e63b70b68db597205211413de",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/.github/workflows/node-e2e.yml",
+      "lines": 149,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10
+        ],
+        "pinned_actions": [
+          39,
+          46,
+          146
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/scorecards.yml",
+      "sha": "6d574dff020473a2e2aa0613accd765653940671",
+      "status": "inspected",
+      "url": "https://github.com/containerd/containerd/blob/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d/.github/workflows/scorecards.yml",
+      "lines": 56,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11,
+          19,
+          23
+        ],
+        "pinned_actions": [
+          27,
+          32,
+          46,
+          54
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 14312,
+      "title": "runc-v2: release terminal I/O on delete",
+      "url": "https://github.com/containerd/containerd/pull/14312",
+      "merged_at": "2026-10-17T01:39:34Z",
+      "merge_commit_sha": "ae65337745cf8e2d5f32f10fb7c1f1e479a7666d",
+      "files": [
+        "cmd/containerd-shim-runc-v2/process/exec.go",
+        "cmd/containerd-shim-runc-v2/process/exec_test.go",
+        "cmd/containerd-shim-runc-v2/process/init.go",
+        "cmd/containerd-shim-runc-v2/process/utils.go",
+        "cmd/containerd-shim-runc-v2/runc/platform.go",
+        "cmd/containerd-shim-runc-v2/runc/platform_linux_test.go"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "cmd/containerd-shim-runc-v2/process/exec.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 10,
+          "blob_url": "https://github.com/containerd/containerd/blob/0fa68e85e5527d44c62d80ba60d7226fb45241b6/cmd%2Fcontainerd-shim-runc-v2%2Fprocess%2Fexec.go"
+        },
+        {
+          "filename": "cmd/containerd-shim-runc-v2/process/exec_test.go",
+          "status": "added",
+          "additions": 112,
+          "deletions": 0,
+          "blob_url": "https://github.com/containerd/containerd/blob/0fa68e85e5527d44c62d80ba60d7226fb45241b6/cmd%2Fcontainerd-shim-runc-v2%2Fprocess%2Fexec_test.go"
+        },
+        {
+          "filename": "cmd/containerd-shim-runc-v2/process/init.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 9,
+          "blob_url": "https://github.com/containerd/containerd/blob/0fa68e85e5527d44c62d80ba60d7226fb45241b6/cmd%2Fcontainerd-shim-runc-v2%2Fprocess%2Finit.go"
+        },
+        {
+          "filename": "cmd/containerd-shim-runc-v2/process/utils.go",
+          "status": "modified",
+          "additions": 29,
+          "deletions": 0,
+          "blob_url": "https://github.com/containerd/containerd/blob/0fa68e85e5527d44c62d80ba60d7226fb45241b6/cmd%2Fcontainerd-shim-runc-v2%2Fprocess%2Futils.go"
+        },
+        {
+          "filename": "cmd/containerd-shim-runc-v2/runc/platform.go",
+          "status": "modified",
+          "additions": 59,
+          "deletions": 8,
+          "blob_url": "https://github.com/containerd/containerd/blob/0fa68e85e5527d44c62d80ba60d7226fb45241b6/cmd%2Fcontainerd-shim-runc-v2%2Frunc%2Fplatform.go"
+        },
+        {
+          "filename": "cmd/containerd-shim-runc-v2/runc/platform_linux_test.go",
+          "status": "added",
+          "additions": 312,
+          "deletions": 0,
+          "blob_url": "https://github.com/containerd/containerd/blob/0fa68e85e5527d44c62d80ba60d7226fb45241b6/cmd%2Fcontainerd-shim-runc-v2%2Frunc%2Fplatform_linux_test.go"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED",
+        "APPROVED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39045062218,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/39045062218",
+          "head_sha": "ae65337745cf8e2d5f32f10fb7c1f1e479a7666d"
+        },
+        {
+          "id": 39043607206,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/39043607206",
+          "head_sha": "ae65337745cf8e2d5f32f10fb7c1f1e479a7666d"
+        },
+        {
+          "id": 38999047558,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38999047558",
+          "head_sha": "ae65337745cf8e2d5f32f10fb7c1f1e479a7666d"
+        },
+        {
+          "id": 38991794263,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38991794263",
+          "head_sha": "ae65337745cf8e2d5f32f10fb7c1f1e479a7666d"
+        },
+        {
+          "id": 38991794364,
+          "name": "pages build and deployment",
+          "path": "dynamic/pages/pages-build-deployment",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38991794364",
+          "head_sha": "ae65337745cf8e2d5f32f10fb7c1f1e479a7666d"
+        },
+        {
+          "id": 38991794280,
+          "name": "Release",
+          "path": ".github/workflows/release.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38991794280",
+          "head_sha": "ae65337745cf8e2d5f32f10fb7c1f1e479a7666d"
+        },
+        {
+          "id": 38991794285,
+          "name": "CodeQL Scan",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38991794285",
+          "head_sha": "ae65337745cf8e2d5f32f10fb7c1f1e479a7666d"
+        },
+        {
+          "id": 38989493656,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38989493656",
+          "head_sha": "ae65337745cf8e2d5f32f10fb7c1f1e479a7666d"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 37807139971,
+          "name": "CodeQL Scan",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/37807139971",
+          "head_sha": "0fa68e85e5527d44c62d80ba60d7226fb45241b6"
+        },
+        {
+          "id": 37807139851,
+          "name": "Release",
+          "path": ".github/workflows/release.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/37807139851",
+          "head_sha": "0fa68e85e5527d44c62d80ba60d7226fb45241b6"
+        },
+        {
+          "id": 37807139886,
+          "name": "Fuzzing",
+          "path": ".github/workflows/fuzz.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/37807139886",
+          "head_sha": "0fa68e85e5527d44c62d80ba60d7226fb45241b6"
+        },
+        {
+          "id": 37807140589,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/37807140589",
+          "head_sha": "0fa68e85e5527d44c62d80ba60d7226fb45241b6"
+        }
+      ]
+    },
+    {
+      "number": 14321,
+      "title": "script/vm: mask systemd-tmpfiles-clean.timer",
+      "url": "https://github.com/containerd/containerd/pull/14321",
+      "merged_at": "2026-10-15T18:26:08Z",
+      "merge_commit_sha": "3bd74e226d6cd61714af0f0a9d6b9efc71e1d43e",
+      "files": [
+        "script/vm/provision.sh"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "script/vm/provision.sh",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 0,
+          "blob_url": "https://github.com/containerd/containerd/blob/91ca8d3ab4a659dd6dd871096201ce3ebc8463da/script%2Fvm%2Fprovision.sh"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "APPROVED",
+        "APPROVED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38797588296,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38797588296",
+          "head_sha": "3bd74e226d6cd61714af0f0a9d6b9efc71e1d43e"
+        },
+        {
+          "id": 38797169234,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38797169234",
+          "head_sha": "3bd74e226d6cd61714af0f0a9d6b9efc71e1d43e"
+        },
+        {
+          "id": 38789442899,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38789442899",
+          "head_sha": "3bd74e226d6cd61714af0f0a9d6b9efc71e1d43e"
+        },
+        {
+          "id": 38787180855,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38787180855",
+          "head_sha": "3bd74e226d6cd61714af0f0a9d6b9efc71e1d43e"
+        },
+        {
+          "id": 38785597592,
+          "name": "pages build and deployment",
+          "path": "dynamic/pages/pages-build-deployment",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38785597592",
+          "head_sha": "3bd74e226d6cd61714af0f0a9d6b9efc71e1d43e"
+        },
+        {
+          "id": 38785594928,
+          "name": "CodeQL Scan",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38785594928",
+          "head_sha": "3bd74e226d6cd61714af0f0a9d6b9efc71e1d43e"
+        },
+        {
+          "id": 38785594488,
+          "name": "Release",
+          "path": ".github/workflows/release.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38785594488",
+          "head_sha": "3bd74e226d6cd61714af0f0a9d6b9efc71e1d43e"
+        },
+        {
+          "id": 38785594625,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38785594625",
+          "head_sha": "3bd74e226d6cd61714af0f0a9d6b9efc71e1d43e"
+        },
+        {
+          "id": 38780841979,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38780841979",
+          "head_sha": "3bd74e226d6cd61714af0f0a9d6b9efc71e1d43e"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 37990162141,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/37990162141",
+          "head_sha": "91ca8d3ab4a659dd6dd871096201ce3ebc8463da"
+        },
+        {
+          "id": 37990161781,
+          "name": "CodeQL Scan",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/37990161781",
+          "head_sha": "91ca8d3ab4a659dd6dd871096201ce3ebc8463da"
+        },
+        {
+          "id": 37990161659,
+          "name": "Fuzzing",
+          "path": ".github/workflows/fuzz.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/37990161659",
+          "head_sha": "91ca8d3ab4a659dd6dd871096201ce3ebc8463da"
+        },
+        {
+          "id": 37990161658,
+          "name": "Release",
+          "path": ".github/workflows/release.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/37990161658",
+          "head_sha": "91ca8d3ab4a659dd6dd871096201ce3ebc8463da"
+        }
+      ]
+    },
+    {
+      "number": 14254,
+      "title": "vendor: github.com/Microsoft/go-winio v0.6.3",
+      "url": "https://github.com/containerd/containerd/pull/14254",
+      "merged_at": "2026-10-16T22:16:43Z",
+      "merge_commit_sha": "eea131263805bb19f26d0ade516c4c375fcc9029",
+      "files": [
+        "go.mod",
+        "go.sum",
+        "vendor/github.com/Microsoft/go-winio/.golangci.yml",
+        "vendor/github.com/Microsoft/go-winio/backup.go",
+        "vendor/github.com/Microsoft/go-winio/backuptar/strconv.go",
+        "vendor/github.com/Microsoft/go-winio/backuptar/tar.go",
+        "vendor/github.com/Microsoft/go-winio/ea.go",
+        "vendor/github.com/Microsoft/go-winio/file.go",
+        "vendor/github.com/Microsoft/go-winio/hvsock.go",
+        "vendor/github.com/Microsoft/go-winio/internal/fs/fs.go",
+        "vendor/github.com/Microsoft/go-winio/internal/fs/zsyscall_windows.go",
+        "vendor/github.com/Microsoft/go-winio/internal/socket/zsyscall_windows.go",
+        "vendor/github.com/Microsoft/go-winio/internal/stringbuffer/wstring.go",
+        "vendor/github.com/Microsoft/go-winio/pipe.go",
+        "vendor/github.com/Microsoft/go-winio/pkg/bindfilter/bind_filter.go",
+        "vendor/github.com/Microsoft/go-winio/pkg/bindfilter/zsyscall_windows.go",
+        "vendor/github.com/Microsoft/go-winio/pkg/etw/eventdescriptor.go",
+        "vendor/github.com/Microsoft/go-winio/pkg/etw/eventmetadata.go",
+        "vendor/github.com/Microsoft/go-winio/pkg/etw/fieldopt.go",
+        "vendor/github.com/Microsoft/go-winio/pkg/etw/level_string.go",
+        "vendor/github.com/Microsoft/go-winio/pkg/etw/opcode_string.go",
+        "vendor/github.com/Microsoft/go-winio/pkg/etw/provider.go",
+        "vendor/github.com/Microsoft/go-winio/pkg/etw/providerglobal.go",
+        "vendor/github.com/Microsoft/go-winio/pkg/etw/zsyscall_windows.go",
+        "vendor/github.com/Microsoft/go-winio/pkg/etwlogrus/hook.go",
+        "vendor/github.com/Microsoft/go-winio/pkg/guid/guid.go",
+        "vendor/github.com/Microsoft/go-winio/pkg/guid/variant_string.go",
+        "vendor/github.com/Microsoft/go-winio/pkg/security/zsyscall_windows.go",
+        "vendor/github.com/Microsoft/go-winio/reparse.go",
+        "vendor/github.com/Microsoft/go-winio/vhd/zvhd_windows.go",
+        "vendor/github.com/Microsoft/go-winio/zsyscall_windows.go",
+        "vendor/modules.txt"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "go.mod",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/go.mod"
+        },
+        {
+          "filename": "go.sum",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/go.sum"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/.golangci.yml",
+          "status": "modified",
+          "additions": 146,
+          "deletions": 124,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2F.golangci.yml"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/backup.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fbackup.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/backuptar/strconv.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fbackuptar%2Fstrconv.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/backuptar/tar.go",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 3,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fbackuptar%2Ftar.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/ea.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fea.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/file.go",
+          "status": "modified",
+          "additions": 35,
+          "deletions": 12,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Ffile.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/hvsock.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fhvsock.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/internal/fs/fs.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Finternal%2Ffs%2Ffs.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/internal/fs/zsyscall_windows.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 6,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Finternal%2Ffs%2Fzsyscall_windows.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/internal/socket/zsyscall_windows.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 6,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Finternal%2Fsocket%2Fzsyscall_windows.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/internal/stringbuffer/wstring.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Finternal%2Fstringbuffer%2Fwstring.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/pipe.go",
+          "status": "modified",
+          "additions": 31,
+          "deletions": 29,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fpipe.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/pkg/bindfilter/bind_filter.go",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fpkg%2Fbindfilter%2Fbind_filter.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/pkg/bindfilter/zsyscall_windows.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 6,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fpkg%2Fbindfilter%2Fzsyscall_windows.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/pkg/etw/eventdescriptor.go",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 2,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fpkg%2Fetw%2Feventdescriptor.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/pkg/etw/eventmetadata.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 4,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fpkg%2Fetw%2Feventmetadata.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/pkg/etw/fieldopt.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fpkg%2Fetw%2Ffieldopt.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/pkg/etw/level_string.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fpkg%2Fetw%2Flevel_string.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/pkg/etw/opcode_string.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fpkg%2Fetw%2Fopcode_string.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/pkg/etw/provider.go",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fpkg%2Fetw%2Fprovider.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/pkg/etw/providerglobal.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fpkg%2Fetw%2Fproviderglobal.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/pkg/etw/zsyscall_windows.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 6,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fpkg%2Fetw%2Fzsyscall_windows.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/pkg/etwlogrus/hook.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fpkg%2Fetwlogrus%2Fhook.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/pkg/guid/guid.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fpkg%2Fguid%2Fguid.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/pkg/guid/variant_string.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fpkg%2Fguid%2Fvariant_string.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/pkg/security/zsyscall_windows.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 6,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fpkg%2Fsecurity%2Fzsyscall_windows.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/reparse.go",
+          "status": "modified",
+          "additions": 55,
+          "deletions": 5,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Freparse.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/vhd/zvhd_windows.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 6,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fvhd%2Fzvhd_windows.go"
+        },
+        {
+          "filename": "vendor/github.com/Microsoft/go-winio/zsyscall_windows.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 6,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fgithub.com%2FMicrosoft%2Fgo-winio%2Fzsyscall_windows.go"
+        },
+        {
+          "filename": "vendor/modules.txt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/containerd/containerd/blob/b9ed50f4ea6a6d0656b1a76fc6fd97001728909c/vendor%2Fmodules.txt"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38990550494,
+          "name": "Windows Periodic Tests",
+          "path": ".github/workflows/windows-periodic-trigger.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38990550494",
+          "head_sha": "eea131263805bb19f26d0ade516c4c375fcc9029"
+        },
+        {
+          "id": 38990043757,
+          "name": "Windows Hyper-V Periodic Tests",
+          "path": ".github/workflows/windows-hyperv-periodic-trigger.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38990043757",
+          "head_sha": "eea131263805bb19f26d0ade516c4c375fcc9029"
+        },
+        {
+          "id": 38985746110,
+          "name": "Close stale issues and PRs",
+          "path": ".github/workflows/stale.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38985746110",
+          "head_sha": "eea131263805bb19f26d0ade516c4c375fcc9029"
+        },
+        {
+          "id": 38985464034,
+          "name": "Links",
+          "path": ".github/workflows/links.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38985464034",
+          "head_sha": "eea131263805bb19f26d0ade516c4c375fcc9029"
+        },
+        {
+          "id": 38984550092,
+          "name": "Nightly",
+          "path": ".github/workflows/nightly.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38984550092",
+          "head_sha": "eea131263805bb19f26d0ade516c4c375fcc9029"
+        },
+        {
+          "id": 38981038084,
+          "name": "go_modules in / for go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc, go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp, go.opentelemetry.io/contrib/propagators/envcar, go.opentelemetry.io/otel, go.opentelemetry.io/otel/exporters/otlp/otlptrace, go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc, go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp, go.opentelemetry.io/otel/sdk, go.opentelemetry.io/otel/trace - Update #1632349888",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38981038084",
+          "head_sha": "eea131263805bb19f26d0ade516c4c375fcc9029"
+        },
+        {
+          "id": 38981037227,
+          "name": "github_actions in / for github/codeql-action/init, github/codeql-action/analyze, github/codeql-action/upload-sarif - Update #1632349876",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38981037227",
+          "head_sha": "eea131263805bb19f26d0ade516c4c375fcc9029"
+        },
+        {
+          "id": 38981035777,
+          "name": "github_actions in /. - Update #1632349814",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38981035777",
+          "head_sha": "eea131263805bb19f26d0ade516c4c375fcc9029"
+        },
+        {
+          "id": 38981035854,
+          "name": "go_modules in /. - Update #1632349811",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38981035854",
+          "head_sha": "eea131263805bb19f26d0ade516c4c375fcc9029"
+        },
+        {
+          "id": 38974783527,
+          "name": "Configured Graph Update: go_modules in /. #1632276684",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38974783527",
+          "head_sha": "eea131263805bb19f26d0ade516c4c375fcc9029"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38055406311,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38055406311",
+          "head_sha": "b9ed50f4ea6a6d0656b1a76fc6fd97001728909c"
+        },
+        {
+          "id": 38055406162,
+          "name": "CodeQL Scan",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38055406162",
+          "head_sha": "b9ed50f4ea6a6d0656b1a76fc6fd97001728909c"
+        },
+        {
+          "id": 38055405977,
+          "name": "Release",
+          "path": ".github/workflows/release.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38055405977",
+          "head_sha": "b9ed50f4ea6a6d0656b1a76fc6fd97001728909c"
+        },
+        {
+          "id": 38055406023,
+          "name": "Fuzzing",
+          "path": ".github/workflows/fuzz.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38055406023",
+          "head_sha": "b9ed50f4ea6a6d0656b1a76fc6fd97001728909c"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v2.4.2",
+      "url": "https://github.com/containerd/containerd/releases/tag/v2.4.2",
+      "published_at": "2026-10-13T22:35:06Z",
+      "target_commitish": "main",
+      "commit_sha": "b7a25261e029d68978bbf290df0a62fc819b3c51",
+      "assets": [
+        "containerd-2.4.2-attestation.intoto.jsonl",
+        "containerd-2.4.2-linux-amd64.tar.gz",
+        "containerd-2.4.2-linux-amd64.tar.gz.sha256sum",
+        "containerd-2.4.2-linux-arm64.tar.gz",
+        "containerd-2.4.2-linux-arm64.tar.gz.sha256sum",
+        "containerd-2.4.2-linux-ppc64le.tar.gz",
+        "containerd-2.4.2-linux-ppc64le.tar.gz.sha256sum",
+        "containerd-2.4.2-linux-riscv64.tar.gz",
+        "containerd-2.4.2-linux-riscv64.tar.gz.sha256sum",
+        "containerd-2.4.2-linux-s390x.tar.gz",
+        "containerd-2.4.2-linux-s390x.tar.gz.sha256sum",
+        "containerd-2.4.2-windows-amd64.tar.gz",
+        "containerd-2.4.2-windows-amd64.tar.gz.sha256sum",
+        "containerd-static-2.4.2-linux-amd64.tar.gz",
+        "containerd-static-2.4.2-linux-amd64.tar.gz.sha256sum",
+        "containerd-static-2.4.2-linux-arm64.tar.gz",
+        "containerd-static-2.4.2-linux-arm64.tar.gz.sha256sum",
+        "containerd-static-2.4.2-linux-ppc64le.tar.gz",
+        "containerd-static-2.4.2-linux-ppc64le.tar.gz.sha256sum",
+        "containerd-static-2.4.2-linux-riscv64.tar.gz",
+        "containerd-static-2.4.2-linux-riscv64.tar.gz.sha256sum",
+        "containerd-static-2.4.2-linux-s390x.tar.gz",
+        "containerd-static-2.4.2-linux-s390x.tar.gz.sha256sum"
+      ],
+      "workflow_runs": [
+        {
+          "id": 38478326594,
+          "name": "Release",
+          "path": ".github/workflows/release.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38478326594",
+          "head_sha": "b7a25261e029d68978bbf290df0a62fc819b3c51"
+        },
+        {
+          "id": 38477672909,
+          "name": "Release",
+          "path": ".github/workflows/release.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38477672909",
+          "head_sha": "b7a25261e029d68978bbf290df0a62fc819b3c51"
+        },
+        {
+          "id": 38477672862,
+          "name": "CodeQL Scan",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38477672862",
+          "head_sha": "b7a25261e029d68978bbf290df0a62fc819b3c51"
+        }
+      ]
+    },
+    {
+      "tag": "v2.3.7",
+      "url": "https://github.com/containerd/containerd/releases/tag/v2.3.7",
+      "published_at": "2026-10-13T22:46:58Z",
+      "target_commitish": "main",
+      "commit_sha": "6f589cf13dc01a5b493911355427e05b2ff005d7",
+      "assets": [
+        "containerd-2.3.7-attestation.intoto.jsonl",
+        "containerd-2.3.7-linux-amd64.tar.gz",
+        "containerd-2.3.7-linux-amd64.tar.gz.sha256sum",
+        "containerd-2.3.7-linux-arm64.tar.gz",
+        "containerd-2.3.7-linux-arm64.tar.gz.sha256sum",
+        "containerd-2.3.7-linux-ppc64le.tar.gz",
+        "containerd-2.3.7-linux-ppc64le.tar.gz.sha256sum",
+        "containerd-2.3.7-linux-riscv64.tar.gz",
+        "containerd-2.3.7-linux-riscv64.tar.gz.sha256sum",
+        "containerd-2.3.7-linux-s390x.tar.gz",
+        "containerd-2.3.7-linux-s390x.tar.gz.sha256sum",
+        "containerd-2.3.7-windows-amd64.tar.gz",
+        "containerd-2.3.7-windows-amd64.tar.gz.sha256sum",
+        "containerd-static-2.3.7-linux-amd64.tar.gz",
+        "containerd-static-2.3.7-linux-amd64.tar.gz.sha256sum",
+        "containerd-static-2.3.7-linux-arm64.tar.gz",
+        "containerd-static-2.3.7-linux-arm64.tar.gz.sha256sum",
+        "containerd-static-2.3.7-linux-ppc64le.tar.gz",
+        "containerd-static-2.3.7-linux-ppc64le.tar.gz.sha256sum",
+        "containerd-static-2.3.7-linux-riscv64.tar.gz",
+        "containerd-static-2.3.7-linux-riscv64.tar.gz.sha256sum",
+        "containerd-static-2.3.7-linux-s390x.tar.gz",
+        "containerd-static-2.3.7-linux-s390x.tar.gz.sha256sum"
+      ],
+      "workflow_runs": [
+        {
+          "id": 38479611706,
+          "name": "Release",
+          "path": ".github/workflows/release.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38479611706",
+          "head_sha": "6f589cf13dc01a5b493911355427e05b2ff005d7"
+        },
+        {
+          "id": 38478609818,
+          "name": "Release",
+          "path": ".github/workflows/release.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38478609818",
+          "head_sha": "6f589cf13dc01a5b493911355427e05b2ff005d7"
+        },
+        {
+          "id": 38478609978,
+          "name": "CodeQL Scan",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38478609978",
+          "head_sha": "6f589cf13dc01a5b493911355427e05b2ff005d7"
+        }
+      ]
+    },
+    {
+      "tag": "v2.2.10",
+      "url": "https://github.com/containerd/containerd/releases/tag/v2.2.10",
+      "published_at": "2026-10-13T22:45:01Z",
+      "target_commitish": "main",
+      "commit_sha": "991ca6a8ca58b47346a42093210099e090bc6c1f",
+      "assets": [
+        "containerd-2.2.10-attestation.intoto.jsonl",
+        "containerd-2.2.10-linux-amd64.tar.gz",
+        "containerd-2.2.10-linux-amd64.tar.gz.sha256sum",
+        "containerd-2.2.10-linux-arm64.tar.gz",
+        "containerd-2.2.10-linux-arm64.tar.gz.sha256sum",
+        "containerd-2.2.10-linux-ppc64le.tar.gz",
+        "containerd-2.2.10-linux-ppc64le.tar.gz.sha256sum",
+        "containerd-2.2.10-linux-riscv64.tar.gz",
+        "containerd-2.2.10-linux-riscv64.tar.gz.sha256sum",
+        "containerd-2.2.10-linux-s390x.tar.gz",
+        "containerd-2.2.10-linux-s390x.tar.gz.sha256sum",
+        "containerd-2.2.10-windows-amd64.tar.gz",
+        "containerd-2.2.10-windows-amd64.tar.gz.sha256sum",
+        "containerd-static-2.2.10-linux-amd64.tar.gz",
+        "containerd-static-2.2.10-linux-amd64.tar.gz.sha256sum",
+        "containerd-static-2.2.10-linux-arm64.tar.gz",
+        "containerd-static-2.2.10-linux-arm64.tar.gz.sha256sum",
+        "containerd-static-2.2.10-linux-ppc64le.tar.gz",
+        "containerd-static-2.2.10-linux-ppc64le.tar.gz.sha256sum",
+        "containerd-static-2.2.10-linux-riscv64.tar.gz",
+        "containerd-static-2.2.10-linux-riscv64.tar.gz.sha256sum",
+        "containerd-static-2.2.10-linux-s390x.tar.gz",
+        "containerd-static-2.2.10-linux-s390x.tar.gz.sha256sum"
+      ],
+      "workflow_runs": [
+        {
+          "id": 38479440174,
+          "name": "Release",
+          "path": ".github/workflows/release.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38479440174",
+          "head_sha": "991ca6a8ca58b47346a42093210099e090bc6c1f"
+        },
+        {
+          "id": 38478485688,
+          "name": "Release",
+          "path": ".github/workflows/release.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38478485688",
+          "head_sha": "991ca6a8ca58b47346a42093210099e090bc6c1f"
+        },
+        {
+          "id": 38478485751,
+          "name": "CodeQL Scan",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/containerd/containerd/actions/runs/38478485751",
+          "head_sha": "991ca6a8ca58b47346a42093210099e090bc6c1f"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v2.4.2",
+      "sha": "b7a25261e029d68978bbf290df0a62fc819b3c51"
+    },
+    {
+      "name": "v2.4.1",
+      "sha": "f2551031d7276a770f65f98c9b52e57e7dad07e8"
+    },
+    {
+      "name": "v2.4.0",
+      "sha": "a7fe631d96c08fb14cf8eff0afdc280e99c30a94"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:21.745118+00:00",
+  "source_times": {
+    "/repos/containerd/containerd": "2026-10-17T16:13:44.369471+00:00",
+    "/repos/containerd/containerd/commits?sha=main&per_page=20": "2026-10-17T16:13:46.321676+00:00",
+    "/repos/containerd/containerd/git/trees/ae65337745cf8e2d5f32f10fb7c1f1e479a7666d": "2026-10-17T16:13:47.756247+00:00",
+    "/repos/containerd/containerd/git/trees/66516d54151e1392a95764ab730c7989c1801309": "2026-10-17T16:13:49.084564+00:00",
+    "/repos/containerd/containerd/git/trees/06fd49d0e965add2a385b7f67c9ed358e4d9316a": "2026-10-17T16:13:50.449916+00:00",
+    "/repos/containerd/containerd/git/trees/202bd7d92cce03294d6b456e7b31007b07568dd2": "2026-10-17T16:13:51.802822+00:00",
+    "/repos/containerd/containerd/git/trees/1faa66f63ff9d9008a996b71451fe516e9d125f6": "2026-10-17T16:13:53.194226+00:00",
+    "/repos/containerd/containerd/git/trees/2f9dbbe427f44d34ac174c3bb1afdb141d8b0f6e": "2026-10-17T16:17:12.682322+00:00",
+    "/repos/containerd/containerd/git/trees/115b5c1c4527b2cc3571e368f65f4a0578d0ab80": "2026-10-17T16:17:14.050752+00:00",
+    "/repos/containerd/containerd/git/trees/84d2379a01edc96424d6fb04f143125289886592": "2026-10-17T16:17:16.414657+00:00",
+    "/repos/containerd/containerd/git/trees/5ab5a274ca73a930c732bfef121d26784d49f277": "2026-10-17T16:17:17.782153+00:00",
+    "/repos/containerd/containerd/git/blobs/46ebdcd4fa8d09344263e7d45bcc1f9c9ef9b2eb": "2026-10-17T16:13:54.595165+00:00",
+    "/repos/containerd/containerd/git/blobs/47dc3e3d863cfb5727b87d785d09abf9743c0a72": "2026-10-17T16:13:55.922088+00:00",
+    "/repos/containerd/containerd/git/blobs/9383487e5fa04350652c32f2b0d9f775b6f53355": "2026-10-17T16:13:58.317222+00:00",
+    "/repos/containerd/containerd/git/blobs/367dc73792a1984e95d268fdc48c4026a9ab3c38": "2026-10-17T16:14:00.327883+00:00",
+    "/repos/containerd/containerd/git/blobs/4a12e88f28ad85f3c84e713f5b28a2afa09509e5": "2026-10-17T16:14:01.749746+00:00",
+    "/repos/containerd/containerd/git/blobs/a32c3f75244d75cbdbfb7580dbcd6d6f91beb159": "2026-10-17T16:14:05.592645+00:00",
+    "/repos/containerd/containerd/git/blobs/6f44a29336fe484416b1a56f8106b79f1970cf3e": "2026-10-17T16:14:07.082201+00:00",
+    "/repos/containerd/containerd/git/blobs/6e62a87cf83f623f4abaceb6a6b88f47c559147f": "2026-10-17T16:14:08.611876+00:00",
+    "/repos/containerd/containerd/git/blobs/bb9220fbdfb0fd9d5d8c0be6065925e020914b2a": "2026-10-17T16:14:10.141457+00:00",
+    "/repos/containerd/containerd/git/blobs/da756f62d1b61ec23c83e9d0fb831dd25bcb4a04": "2026-10-17T16:14:12.038825+00:00",
+    "/repos/containerd/containerd/git/blobs/142cc3b6fdb740d77e31b7b596d87ecc75e160f8": "2026-10-17T16:14:13.435674+00:00",
+    "/repos/containerd/containerd/git/blobs/92f28d6cab4d4600c275e41cf3e65a4feebbd730": "2026-10-17T16:14:14.834026+00:00",
+    "/repos/containerd/containerd/git/blobs/7e58f03566a3e2ef39496a58c400f2111cd3ea52": "2026-10-17T16:14:16.182683+00:00",
+    "/repos/containerd/containerd/git/blobs/366187f74013fd8a2a23fc74af4ca69e109b9e7e": "2026-10-17T16:14:19.927549+00:00",
+    "/repos/containerd/containerd/git/blobs/6cbc460e3a3cfe5e672c188f0c15a8a29c5144d3": "2026-10-17T16:14:21.377029+00:00",
+    "/repos/containerd/containerd/git/blobs/161656e84667231bae96bbaafe418d2433cb1cbf": "2026-10-17T16:14:22.832581+00:00",
+    "/repos/containerd/containerd/git/blobs/6035acc62d5e65311b01a56d5b4e3cb18bb59478": "2026-10-17T16:14:24.149065+00:00",
+    "/repos/containerd/containerd/git/blobs/75eb3c0033421343095033391e18d2468f174640": "2026-10-17T16:14:26.533915+00:00",
+    "/repos/containerd/containerd/git/blobs/a2a62334ccb1c773cd8c1cc995aa4b00543c49a3": "2026-10-17T16:14:27.927446+00:00",
+    "/repos/containerd/containerd/git/blobs/7d0589bfc70b1e892679193aa6fea1f53cb26931": "2026-10-17T16:14:29.607151+00:00",
+    "/repos/containerd/containerd/git/blobs/f24c52077588dbdade282c88d635b6017b4863ac": "2026-10-17T16:14:30.993478+00:00",
+    "/repos/containerd/containerd/git/blobs/7fa4acdf4eaa7ac9ad3cd4770a326d39471089c8": "2026-10-17T16:14:32.350538+00:00",
+    "/repos/containerd/containerd/git/blobs/d557b1faf7078c4e0ad75c2f8094d87632fec2bb": "2026-10-17T16:14:34.795362+00:00",
+    "/repos/containerd/containerd/git/blobs/3f3b1c9e163bef3ddd1e1f23dd552f1e8fbc5f01": "2026-10-17T16:14:36.438490+00:00",
+    "/repos/containerd/containerd/git/blobs/6e348e6c856e9df37b8dbb61d86437af966ef602": "2026-10-17T16:14:37.847035+00:00",
+    "/repos/containerd/containerd/git/blobs/774e6f9582f19e54ea053ead253dc20d61827997": "2026-10-17T16:14:39.270652+00:00",
+    "/repos/containerd/containerd/git/blobs/a3c048d349b3ebbc45418085cd9018797f128330": "2026-10-17T16:14:40.673774+00:00",
+    "/repos/containerd/containerd/git/blobs/5ca3fa5273b8704e63b70b68db597205211413de": "2026-10-17T16:14:42.953835+00:00",
+    "/repos/containerd/containerd/git/blobs/6d574dff020473a2e2aa0613accd765653940671": "2026-10-17T16:14:45.813651+00:00",
+    "/repos/containerd/containerd/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:14:50.384053+00:00",
+    "/repos/containerd/containerd/pulls/14312/files?per_page=100": "2026-10-17T16:14:52.195274+00:00",
+    "/repos/containerd/containerd/pulls/14312/reviews?per_page=100": "2026-10-17T16:14:56.550157+00:00",
+    "/repos/containerd/containerd/actions/runs?head_sha=ae65337745cf8e2d5f32f10fb7c1f1e479a7666d&per_page=10": "2026-10-17T16:14:59.944698+00:00",
+    "/repos/containerd/containerd/actions/runs?head_sha=0fa68e85e5527d44c62d80ba60d7226fb45241b6&per_page=10": "2026-10-17T16:15:01.813445+00:00",
+    "/repos/containerd/containerd/pulls/14321/files?per_page=100": "2026-10-17T16:15:04.345210+00:00",
+    "/repos/containerd/containerd/pulls/14321/reviews?per_page=100": "2026-10-17T16:15:06.073051+00:00",
+    "/repos/containerd/containerd/actions/runs?head_sha=3bd74e226d6cd61714af0f0a9d6b9efc71e1d43e&per_page=10": "2026-10-17T16:15:08.331891+00:00",
+    "/repos/containerd/containerd/actions/runs?head_sha=91ca8d3ab4a659dd6dd871096201ce3ebc8463da&per_page=10": "2026-10-17T16:15:10.232845+00:00",
+    "/repos/containerd/containerd/pulls/14254/files?per_page=100": "2026-10-17T16:15:13.119915+00:00",
+    "/repos/containerd/containerd/pulls/14254/reviews?per_page=100": "2026-10-17T16:15:14.892568+00:00",
+    "/repos/containerd/containerd/actions/runs?head_sha=eea131263805bb19f26d0ade516c4c375fcc9029&per_page=10": "2026-10-17T16:15:17.317101+00:00",
+    "/repos/containerd/containerd/actions/runs?head_sha=b9ed50f4ea6a6d0656b1a76fc6fd97001728909c&per_page=10": "2026-10-17T16:15:19.256169+00:00",
+    "/repos/containerd/containerd/releases?per_page=20&page=1": "2026-10-17T16:17:21.741520+00:00",
+    "/repos/containerd/containerd/commits/v2.4.2": "2026-10-17T16:15:25.732484+00:00",
+    "/repos/containerd/containerd/actions/runs?head_sha=b7a25261e029d68978bbf290df0a62fc819b3c51&per_page=10": "2026-10-17T16:15:27.503311+00:00",
+    "/repos/containerd/containerd/commits/v2.3.7": "2026-10-17T16:15:28.963108+00:00",
+    "/repos/containerd/containerd/actions/runs?head_sha=6f589cf13dc01a5b493911355427e05b2ff005d7&per_page=10": "2026-10-17T16:15:31.884281+00:00",
+    "/repos/containerd/containerd/commits/v2.2.10": "2026-10-17T16:15:33.864334+00:00",
+    "/repos/containerd/containerd/actions/runs?head_sha=991ca6a8ca58b47346a42093210099e090bc6c1f&per_page=10": "2026-10-17T16:15:35.737838+00:00",
+    "/repos/containerd/containerd/tags?per_page=3": "2026-10-17T16:15:38.164453+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:21.741520+00:00",
+  "status": "collected"
+}

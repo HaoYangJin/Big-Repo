@@ -1,0 +1,1638 @@
+{
+  "requested_repository": "django/django",
+  "category": "frameworks",
+  "collected_at": "2026-10-17T16:12:55.457931+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "django/django",
+  "metadata": {
+    "html_url": "https://github.com/django/django",
+    "description": "The Web framework for perfectionists with deadlines.",
+    "homepage": "https://www.djangoproject.com/",
+    "language": "Python",
+    "stargazers_count": 91407,
+    "forks_count": 37467,
+    "open_issues_count": 545,
+    "pushed_at": "2026-10-15T06:51:05Z",
+    "created_at": "2012-04-28T02:47:18Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "topics": [
+      "apps",
+      "django",
+      "framework",
+      "models",
+      "orm",
+      "python",
+      "templates",
+      "views",
+      "web"
+    ],
+    "owner": {
+      "login": "django",
+      "type": "Organization",
+      "html_url": "https://github.com/django"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "d430084791a61b31cecec132bce3dca19194f7f2",
+      "url": "https://github.com/django/django/commit/d430084791a61b31cecec132bce3dca19194f7f2",
+      "date": "2026-10-15T06:51:04Z",
+      "subject": "Pinned Playwright below 1.64.0 to avoid false WebKit CSP violation."
+    },
+    {
+      "sha": "57ddccdcb0bc23eee6e9c304f69cf1ffd099151b",
+      "url": "https://github.com/django/django/commit/57ddccdcb0bc23eee6e9c304f69cf1ffd099151b",
+      "date": "2026-10-15T01:11:59Z",
+      "subject": "Refs #37212 -- Updated docs workflow to run Sphinx extension tests."
+    },
+    {
+      "sha": "b720b73dbf490ef4b6452382b9c8f1833e869764",
+      "url": "https://github.com/django/django/commit/b720b73dbf490ef4b6452382b9c8f1833e869764",
+      "date": "2026-10-15T01:11:59Z",
+      "subject": "Refs #37212 -- Fixed console tabs bug on shared doctrees."
+    },
+    {
+      "sha": "bbd01982a1e95a3073452e7e2aba8c5308e473db",
+      "url": "https://github.com/django/django/commit/bbd01982a1e95a3073452e7e2aba8c5308e473db",
+      "date": "2026-10-15T01:11:59Z",
+      "subject": "Refs #37212 -- Added tests for djangodocs Sphinx extension."
+    },
+    {
+      "sha": "ad96d15302c2505bcc6f4699f88ba8236f96e8f2",
+      "url": "https://github.com/django/django/commit/ad96d15302c2505bcc6f4699f88ba8236f96e8f2",
+      "date": "2026-10-15T01:11:59Z",
+      "subject": "Refs #37212 -- Removed unused code in djangodocs Sphinx extension."
+    },
+    {
+      "sha": "1087f12f76426f804c680eb033c53ea92421491a",
+      "url": "https://github.com/django/django/commit/1087f12f76426f804c680eb033c53ea92421491a",
+      "date": "2026-10-15T01:10:14Z",
+      "subject": "Refs #37409 -- Corrected docs home links whose text did not match their target."
+    },
+    {
+      "sha": "6ef40f21937a585fa422ae2a6ea7e73cc2e59ff6",
+      "url": "https://github.com/django/django/commit/6ef40f21937a585fa422ae2a6ea7e73cc2e59ff6",
+      "date": "2026-10-15T01:10:14Z",
+      "subject": "Refs #37051 -- Clarified the description of topic guides in docs home page."
+    },
+    {
+      "sha": "c8906fe15f8bd280a5c0bb5e695b36c244419a16",
+      "url": "https://github.com/django/django/commit/c8906fe15f8bd280a5c0bb5e695b36c244419a16",
+      "date": "2026-10-15T01:10:14Z",
+      "subject": "Refs #37409 -- Regrouped single-link entries on the docs home page."
+    },
+    {
+      "sha": "0357fd194b2a74152b638ac110ef48a847240113",
+      "url": "https://github.com/django/django/commit/0357fd194b2a74152b638ac110ef48a847240113",
+      "date": "2026-10-15T01:10:14Z",
+      "subject": "Fixed #37409 -- Removed ambiguous \"Overview\" link text from the docs home page."
+    },
+    {
+      "sha": "80c997fc23b08897d8611b5439c1877485a4676f",
+      "url": "https://github.com/django/django/commit/80c997fc23b08897d8611b5439c1877485a4676f",
+      "date": "2026-10-14T12:29:09Z",
+      "subject": "Fixed #37424 -- Fixed whitespace handling when parsing max-age directives."
+    },
+    {
+      "sha": "adeef108afa7c6c50959cf2c94a4d4efbf1fae91",
+      "url": "https://github.com/django/django/commit/adeef108afa7c6c50959cf2c94a4d4efbf1fae91",
+      "date": "2026-10-14T01:04:34Z",
+      "subject": "Refs #32980 -- Avoided unnecessary router and connection lookups for reverse FKs."
+    },
+    {
+      "sha": "c07486b98b2dfc1dab2e97db83a95ed0ac645e1b",
+      "url": "https://github.com/django/django/commit/c07486b98b2dfc1dab2e97db83a95ed0ac645e1b",
+      "date": "2026-10-14T01:04:34Z",
+      "subject": "Fixed #32980 -- Optimized ManyRelatedManager.__init__()."
+    },
+    {
+      "sha": "9014ca519c1cc825709a8fce0934f9919861ffb9",
+      "url": "https://github.com/django/django/commit/9014ca519c1cc825709a8fce0934f9919861ffb9",
+      "date": "2026-10-13T20:14:06Z",
+      "subject": "Fixed #37418 -- Fixed JSONField/HStoreField crash on deeply nested JSON."
+    },
+    {
+      "sha": "1a9fba7a6c2a0acead19bbb45c25ceb0fdcca7c8",
+      "url": "https://github.com/django/django/commit/1a9fba7a6c2a0acead19bbb45c25ceb0fdcca7c8",
+      "date": "2026-10-13T13:20:41Z",
+      "subject": "Fixed #23424 -- Corrected tokenization of verbatim blocks."
+    },
+    {
+      "sha": "de6559094e81a55583fd6428b502fa925db8f593",
+      "url": "https://github.com/django/django/commit/de6559094e81a55583fd6428b502fa925db8f593",
+      "date": "2026-10-13T13:20:41Z",
+      "subject": "Refs #23424 -- Added tests for existing comment and verbatim behavior."
+    },
+    {
+      "sha": "31c3e4cf7544597600141d9be60bd919371114c9",
+      "url": "https://github.com/django/django/commit/31c3e4cf7544597600141d9be60bd919371114c9",
+      "date": "2026-10-13T12:42:38Z",
+      "subject": "Refs #37372 -- Simplified NULL handling logic in sql.Query.build_filter()."
+    },
+    {
+      "sha": "f1d11117c6a3e227ce7cdd263cf0743f0eb73070",
+      "url": "https://github.com/django/django/commit/f1d11117c6a3e227ce7cdd263cf0743f0eb73070",
+      "date": "2026-10-12T15:23:19Z",
+      "subject": "Fixed #28219 -- Made UnorderedObjectListWarning skip Django frames."
+    },
+    {
+      "sha": "6669d66a795029add189bebe6f7a7fdcf2c9f9d4",
+      "url": "https://github.com/django/django/commit/6669d66a795029add189bebe6f7a7fdcf2c9f9d4",
+      "date": "2026-10-12T15:02:31Z",
+      "subject": "Skipped 1-element geometry collection tests on all Oracle versions."
+    },
+    {
+      "sha": "b33bab33709bbd74f4dfc376786ba0b3912c3f53",
+      "url": "https://github.com/django/django/commit/b33bab33709bbd74f4dfc376786ba0b3912c3f53",
+      "date": "2026-10-12T09:21:09Z",
+      "subject": "Fixed #37397 -- Clarified DATA_UPLOAD_MAX_MEMORY_SIZE behavior on request.body vs request.POST."
+    },
+    {
+      "sha": "8a909f3c6b4f7805e4a274c534afbe3035bf097f",
+      "url": "https://github.com/django/django/commit/8a909f3c6b4f7805e4a274c534afbe3035bf097f",
+      "date": "2026-10-12T07:32:40Z",
+      "subject": "Fixed #37294 -- Added Firefox and WebKit to daily SQLite Playwright CI."
+    }
+  ],
+  "default_sha": "d430084791a61b31cecec132bce3dca19194f7f2",
+  "root_and_selected_directory_paths": [
+    ".editorconfig",
+    ".flake8",
+    ".git-blame-ignore-revs",
+    ".gitattributes",
+    ".github",
+    ".github/CODE_OF_CONDUCT.md",
+    ".github/FUNDING.yml",
+    ".github/SECURITY.md",
+    ".github/copilot-instructions.md",
+    ".github/pull_request_template.md",
+    ".github/workflows",
+    ".github/workflows/benchmark.yml",
+    ".github/workflows/check-migrations.yml",
+    ".github/workflows/check_commit_messages.yml",
+    ".github/workflows/check_pr_quality.yml",
+    ".github/workflows/coverage_comment.yml",
+    ".github/workflows/coverage_tests.yml",
+    ".github/workflows/data",
+    ".github/workflows/docs.yml",
+    ".github/workflows/labels.yml",
+    ".github/workflows/linters.yml",
+    ".github/workflows/playwright.yml",
+    ".github/workflows/postgis.yml",
+    ".github/workflows/python_matrix.yml",
+    ".github/workflows/schedule_tests.yml",
+    ".github/workflows/schedules.yml",
+    ".github/workflows/screenshots.yml",
+    ".github/workflows/tests.yml",
+    ".gitignore",
+    ".pre-commit-config.yaml",
+    ".readthedocs.yml",
+    ".tx",
+    "AUTHORS",
+    "CONTRIBUTING.rst",
+    "Gruntfile.js",
+    "INSTALL",
+    "LICENSE",
+    "LICENSE.python",
+    "MANIFEST.in",
+    "README.rst",
+    "biome.json",
+    "django",
+    "docs",
+    "docs/Makefile",
+    "docs/README.rst",
+    "docs/_ext",
+    "docs/_static",
+    "docs/_theme",
+    "docs/conf.py",
+    "docs/contents.txt",
+    "docs/faq",
+    "docs/glossary.txt",
+    "docs/howto",
+    "docs/index.txt",
+    "docs/internals",
+    "docs/intro",
+    "docs/lint.py",
+    "docs/make.bat",
+    "docs/man",
+    "docs/misc",
+    "docs/ref",
+    "docs/releases",
+    "docs/requirements.txt",
+    "docs/spelling_wordlist",
+    "docs/topics",
+    "extras",
+    "js_tests",
+    "package.json",
+    "pyproject.toml",
+    "scripts",
+    "tests",
+    "tox.ini",
+    "zizmor.yml"
+  ],
+  "workflow_paths": [
+    ".github/workflows/coverage_tests.yml",
+    ".github/workflows/schedule_tests.yml",
+    ".github/workflows/tests.yml",
+    ".github/workflows/benchmark.yml",
+    ".github/workflows/check-migrations.yml",
+    ".github/workflows/check_commit_messages.yml",
+    ".github/workflows/check_pr_quality.yml",
+    ".github/workflows/coverage_comment.yml",
+    ".github/workflows/docs.yml",
+    ".github/workflows/labels.yml",
+    ".github/workflows/linters.yml",
+    ".github/workflows/playwright.yml",
+    ".github/workflows/postgis.yml",
+    ".github/workflows/python_matrix.yml",
+    ".github/workflows/schedules.yml",
+    ".github/workflows/screenshots.yml"
+  ],
+  "documents": [
+    {
+      "path": "CONTRIBUTING.rst",
+      "sha": "4b2ab363660df5b4b43e8e263b70ddb96b1db54e",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/CONTRIBUTING.rst",
+      "lines": 32,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.rst",
+      "sha": "f6209e36d8c42a53ead51fa236f0b3f46fdc5e39",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/README.rst",
+      "lines": 54,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "package.json",
+      "sha": "2a0c8726f3b69ba5a4a939203c8afcb2fbcb7ed4",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/package.json",
+      "lines": 18,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "cb9d0e6b8d3113ded349eaf77a12fd2042420739",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/pyproject.toml",
+      "lines": 69,
+      "signals": {
+        "tests": [],
+        "lint": [
+          56,
+          61
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "sha": "ba898fe54574c0ab9dfecff9464a997708c72b43",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/.github/CODE_OF_CONDUCT.md",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/SECURITY.md",
+      "sha": "58d191de54b8b93de9c67ebbc1fa0b5d183b2921",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/.github/SECURITY.md",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha": "98ec88c7233eb33e85b2cdd16782d91673d60fbd",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/.github/pull_request_template.md",
+      "lines": 27,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/Makefile",
+      "sha": "706bcaf0a261b60c8f8529557aa7a13614b58b65",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/docs/Makefile",
+      "lines": 204,
+      "signals": {
+        "tests": [],
+        "lint": [
+          53,
+          172,
+          173,
+          176,
+          177,
+          195,
+          200
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/README.rst",
+      "sha": "d09fae0fcd070ac3c81ec3c3c01332a1849209f8",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/docs/README.rst",
+      "lines": 18,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/coverage_tests.yml",
+      "sha": "0020694597f3fc8e840a242390dee89a17c355b4",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/.github/workflows/coverage_tests.yml",
+      "lines": 96,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/schedule_tests.yml",
+      "sha": "34fba30ceafb7008375894d9da2de62521287f88",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/.github/workflows/schedule_tests.yml",
+      "lines": 225,
+      "signals": {
+        "tests": [
+          92
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "sha": "82f1b2058331c9b96d5550b7d8f207e565a79ab8",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/.github/workflows/tests.yml",
+      "lines": 109,
+      "signals": {
+        "tests": [
+          94,
+          109
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          17
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "sha": "d0afeaf0e7d493fcba47b7155832aab5a211b392",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/.github/workflows/benchmark.yml",
+      "lines": 49,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [
+          24
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/check-migrations.yml",
+      "sha": "21e51d08661d07efa886d7bd6cdaee0b316c22d8",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/.github/workflows/check-migrations.yml",
+      "lines": 68,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          18
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/check_commit_messages.yml",
+      "sha": "fad011d1308c1dc1b861b0f4dcdeb16f48467ccc",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/.github/workflows/check_commit_messages.yml",
+      "lines": 114,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/check_pr_quality.yml",
+      "sha": "d7dd0b54b05fa01456a960189b51d4df4c2bfaa1",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/.github/workflows/check_pr_quality.yml",
+      "lines": 52,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          15
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/coverage_comment.yml",
+      "sha": "b6270f1d8d75c383aa94aca84ac15c125ccec4f7",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/.github/workflows/coverage_comment.yml",
+      "lines": 86,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "sha": "281493428c557ec006bb29b3f1bc47761a4b7a61",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/.github/workflows/docs.yml",
+      "lines": 71,
+      "signals": {
+        "tests": [],
+        "lint": [
+          47,
+          48
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          21
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/labels.yml",
+      "sha": "de92fd998808c4c4447ae3ccbce817d0b4eef21e",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/.github/workflows/labels.yml",
+      "lines": 57,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          14
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/linters.yml",
+      "sha": "1416fd6d275d85f0e79adf7b064c94ee122a139a",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/.github/workflows/linters.yml",
+      "lines": 102,
+      "signals": {
+        "tests": [
+          60
+        ],
+        "lint": [
+          62,
+          70,
+          71
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          17
+        ],
+        "pinned_actions": [
+          37,
+          57,
+          82
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/playwright.yml",
+      "sha": "15905fe8c23decaffb8a9b5fa8d46c183d5a0651",
+      "status": "inspected",
+      "url": "https://github.com/django/django/blob/d430084791a61b31cecec132bce3dca19194f7f2/.github/workflows/playwright.yml",
+      "lines": 91,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 22141,
+      "title": "Fixed #32980 -- Reduced cost of building M2M related managers.",
+      "url": "https://github.com/django/django/pull/22141",
+      "merged_at": "2026-10-14T01:04:35Z",
+      "merge_commit_sha": "adeef108afa7c6c50959cf2c94a4d4efbf1fae91",
+      "files": [
+        "AUTHORS",
+        "django/db/models/fields/related_descriptors.py",
+        "tests/multiple_database/models.py",
+        "tests/multiple_database/tests.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "AUTHORS",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/django/django/blob/f8cff2bec3a8c35f3bd4160691092dfc49ac6f2d/AUTHORS"
+        },
+        {
+          "filename": "django/db/models/fields/related_descriptors.py",
+          "status": "modified",
+          "additions": 37,
+          "deletions": 28,
+          "blob_url": "https://github.com/django/django/blob/f8cff2bec3a8c35f3bd4160691092dfc49ac6f2d/django%2Fdb%2Fmodels%2Ffields%2Frelated_descriptors.py"
+        },
+        {
+          "filename": "tests/multiple_database/models.py",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 0,
+          "blob_url": "https://github.com/django/django/blob/f8cff2bec3a8c35f3bd4160691092dfc49ac6f2d/tests%2Fmultiple_database%2Fmodels.py"
+        },
+        {
+          "filename": "tests/multiple_database/tests.py",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 1,
+          "blob_url": "https://github.com/django/django/blob/f8cff2bec3a8c35f3bd4160691092dfc49ac6f2d/tests%2Fmultiple_database%2Ftests.py"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38562515706,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38562515706",
+          "head_sha": "adeef108afa7c6c50959cf2c94a4d4efbf1fae91"
+        },
+        {
+          "id": 38560923642,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38560923642",
+          "head_sha": "adeef108afa7c6c50959cf2c94a4d4efbf1fae91"
+        },
+        {
+          "id": 38557711573,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38557711573",
+          "head_sha": "adeef108afa7c6c50959cf2c94a4d4efbf1fae91"
+        },
+        {
+          "id": 38554393032,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38554393032",
+          "head_sha": "adeef108afa7c6c50959cf2c94a4d4efbf1fae91"
+        },
+        {
+          "id": 38554230691,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38554230691",
+          "head_sha": "adeef108afa7c6c50959cf2c94a4d4efbf1fae91"
+        },
+        {
+          "id": 38553194311,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38553194311",
+          "head_sha": "adeef108afa7c6c50959cf2c94a4d4efbf1fae91"
+        },
+        {
+          "id": 38545347308,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38545347308",
+          "head_sha": "adeef108afa7c6c50959cf2c94a4d4efbf1fae91"
+        },
+        {
+          "id": 38545246118,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38545246118",
+          "head_sha": "adeef108afa7c6c50959cf2c94a4d4efbf1fae91"
+        },
+        {
+          "id": 38542994703,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38542994703",
+          "head_sha": "adeef108afa7c6c50959cf2c94a4d4efbf1fae91"
+        },
+        {
+          "id": 38534541565,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38534541565",
+          "head_sha": "adeef108afa7c6c50959cf2c94a4d4efbf1fae91"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38412662683,
+          "name": "Tests",
+          "path": ".github/workflows/tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/38412662683",
+          "head_sha": "f8cff2bec3a8c35f3bd4160691092dfc49ac6f2d"
+        },
+        {
+          "id": 38412662977,
+          "name": "Python Matrix from config file",
+          "path": ".github/workflows/python_matrix.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38412662977",
+          "head_sha": "f8cff2bec3a8c35f3bd4160691092dfc49ac6f2d"
+        },
+        {
+          "id": 38412660387,
+          "name": "Benchmark",
+          "path": ".github/workflows/benchmark.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/38412660387",
+          "head_sha": "f8cff2bec3a8c35f3bd4160691092dfc49ac6f2d"
+        },
+        {
+          "id": 38412660987,
+          "name": "Visual Regression Tests",
+          "path": ".github/workflows/screenshots.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38412660987",
+          "head_sha": "f8cff2bec3a8c35f3bd4160691092dfc49ac6f2d"
+        },
+        {
+          "id": 38412660204,
+          "name": "Check commit prefix",
+          "path": ".github/workflows/check_commit_messages.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/38412660204",
+          "head_sha": "f8cff2bec3a8c35f3bd4160691092dfc49ac6f2d"
+        },
+        {
+          "id": 38412660371,
+          "name": "GeoDjango Tests",
+          "path": ".github/workflows/postgis.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38412660371",
+          "head_sha": "f8cff2bec3a8c35f3bd4160691092dfc49ac6f2d"
+        },
+        {
+          "id": 38412659933,
+          "name": "Coverage Tests",
+          "path": ".github/workflows/coverage_tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38412659933",
+          "head_sha": "f8cff2bec3a8c35f3bd4160691092dfc49ac6f2d"
+        },
+        {
+          "id": 38412659755,
+          "name": "Playwright Tests",
+          "path": ".github/workflows/playwright.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38412659755",
+          "head_sha": "f8cff2bec3a8c35f3bd4160691092dfc49ac6f2d"
+        },
+        {
+          "id": 38412661431,
+          "name": "Check migrations",
+          "path": ".github/workflows/check-migrations.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/38412661431",
+          "head_sha": "f8cff2bec3a8c35f3bd4160691092dfc49ac6f2d"
+        },
+        {
+          "id": 38412661091,
+          "name": "Linters",
+          "path": ".github/workflows/linters.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/38412661091",
+          "head_sha": "f8cff2bec3a8c35f3bd4160691092dfc49ac6f2d"
+        }
+      ]
+    },
+    {
+      "number": 22149,
+      "title": "Pinned Playwright below 1.64.0 to avoid false WebKit CSP violation.",
+      "url": "https://github.com/django/django/pull/22149",
+      "merged_at": "2026-10-15T06:51:05Z",
+      "merge_commit_sha": "d430084791a61b31cecec132bce3dca19194f7f2",
+      "files": [
+        "tests/requirements/py3-free-threading.txt",
+        "tests/requirements/py3.txt"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "tests/requirements/py3-free-threading.txt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/django/django/blob/6e0e2b7d64bd41e4ff92df28c155b7ed2b54f09a/tests%2Frequirements%2Fpy3-free-threading.txt"
+        },
+        {
+          "filename": "tests/requirements/py3.txt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/django/django/blob/6e0e2b7d64bd41e4ff92df28c155b7ed2b54f09a/tests%2Frequirements%2Fpy3.txt"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39034646679,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/39034646679",
+          "head_sha": "d430084791a61b31cecec132bce3dca19194f7f2"
+        },
+        {
+          "id": 39034132917,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/39034132917",
+          "head_sha": "d430084791a61b31cecec132bce3dca19194f7f2"
+        },
+        {
+          "id": 39032054869,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/39032054869",
+          "head_sha": "d430084791a61b31cecec132bce3dca19194f7f2"
+        },
+        {
+          "id": 39031157040,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/39031157040",
+          "head_sha": "d430084791a61b31cecec132bce3dca19194f7f2"
+        },
+        {
+          "id": 39029994532,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/39029994532",
+          "head_sha": "d430084791a61b31cecec132bce3dca19194f7f2"
+        },
+        {
+          "id": 39016651827,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/39016651827",
+          "head_sha": "d430084791a61b31cecec132bce3dca19194f7f2"
+        },
+        {
+          "id": 39008412937,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/39008412937",
+          "head_sha": "d430084791a61b31cecec132bce3dca19194f7f2"
+        },
+        {
+          "id": 39007968403,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/39007968403",
+          "head_sha": "d430084791a61b31cecec132bce3dca19194f7f2"
+        },
+        {
+          "id": 39005372344,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/39005372344",
+          "head_sha": "d430084791a61b31cecec132bce3dca19194f7f2"
+        },
+        {
+          "id": 38996373192,
+          "name": "Schedule",
+          "path": ".github/workflows/schedules.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/38996373192",
+          "head_sha": "d430084791a61b31cecec132bce3dca19194f7f2"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38684891038,
+          "name": "Python Matrix from config file",
+          "path": ".github/workflows/python_matrix.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38684891038",
+          "head_sha": "6e0e2b7d64bd41e4ff92df28c155b7ed2b54f09a"
+        },
+        {
+          "id": 38684890970,
+          "name": "Coverage Tests",
+          "path": ".github/workflows/coverage_tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38684890970",
+          "head_sha": "6e0e2b7d64bd41e4ff92df28c155b7ed2b54f09a"
+        },
+        {
+          "id": 38684891005,
+          "name": "GeoDjango Tests",
+          "path": ".github/workflows/postgis.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38684891005",
+          "head_sha": "6e0e2b7d64bd41e4ff92df28c155b7ed2b54f09a"
+        },
+        {
+          "id": 38684891078,
+          "name": "Visual Regression Tests",
+          "path": ".github/workflows/screenshots.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38684891078",
+          "head_sha": "6e0e2b7d64bd41e4ff92df28c155b7ed2b54f09a"
+        },
+        {
+          "id": 38684890926,
+          "name": "Benchmark",
+          "path": ".github/workflows/benchmark.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38684890926",
+          "head_sha": "6e0e2b7d64bd41e4ff92df28c155b7ed2b54f09a"
+        },
+        {
+          "id": 38684890991,
+          "name": "Playwright Tests",
+          "path": ".github/workflows/playwright.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/38684890991",
+          "head_sha": "6e0e2b7d64bd41e4ff92df28c155b7ed2b54f09a"
+        },
+        {
+          "id": 38606925866,
+          "name": "Check commit prefix",
+          "path": ".github/workflows/check_commit_messages.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/38606925866",
+          "head_sha": "6e0e2b7d64bd41e4ff92df28c155b7ed2b54f09a"
+        },
+        {
+          "id": 38606925459,
+          "name": "PR Quality Checks",
+          "path": ".github/workflows/check_pr_quality.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/38606925459",
+          "head_sha": "6e0e2b7d64bd41e4ff92df28c155b7ed2b54f09a"
+        },
+        {
+          "id": 38606925660,
+          "name": "Labels",
+          "path": ".github/workflows/labels.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/38606925660",
+          "head_sha": "6e0e2b7d64bd41e4ff92df28c155b7ed2b54f09a"
+        },
+        {
+          "id": 38606738412,
+          "name": "Labels",
+          "path": ".github/workflows/labels.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/38606738412",
+          "head_sha": "6e0e2b7d64bd41e4ff92df28c155b7ed2b54f09a"
+        }
+      ]
+    },
+    {
+      "number": 22073,
+      "title": "Refs #37212 -- Added tests and additional cleanup in djangodocs Sphinx extension.",
+      "url": "https://github.com/django/django/pull/22073",
+      "merged_at": "2026-10-15T01:12:00Z",
+      "merge_commit_sha": "57ddccdcb0bc23eee6e9c304f69cf1ffd099151b",
+      "files": [
+        ".github/workflows/docs.yml",
+        "docs/_ext/djangodocs.py",
+        "docs/conf.py",
+        "docs/requirements.txt",
+        "tests/sphinx_tests/test_djangodocs.py",
+        "tests/sphinx_tests/tests.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".github/workflows/docs.yml",
+          "status": "modified",
+          "additions": 23,
+          "deletions": 0,
+          "blob_url": "https://github.com/django/django/blob/4a9e433e153be0dd9da2748466848a1313910ce1/.github%2Fworkflows%2Fdocs.yml"
+        },
+        {
+          "filename": "docs/_ext/djangodocs.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 11,
+          "blob_url": "https://github.com/django/django/blob/4a9e433e153be0dd9da2748466848a1313910ce1/docs%2F_ext%2Fdjangodocs.py"
+        },
+        {
+          "filename": "docs/conf.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/django/django/blob/4a9e433e153be0dd9da2748466848a1313910ce1/docs%2Fconf.py"
+        },
+        {
+          "filename": "docs/requirements.txt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/django/django/blob/4a9e433e153be0dd9da2748466848a1313910ce1/docs%2Frequirements.txt"
+        },
+        {
+          "filename": "tests/sphinx_tests/test_djangodocs.py",
+          "status": "modified",
+          "additions": 375,
+          "deletions": 47,
+          "blob_url": "https://github.com/django/django/blob/4a9e433e153be0dd9da2748466848a1313910ce1/tests%2Fsphinx_tests%2Ftest_djangodocs.py"
+        },
+        {
+          "filename": "tests/sphinx_tests/tests.py",
+          "status": "modified",
+          "additions": 103,
+          "deletions": 0,
+          "blob_url": "https://github.com/django/django/blob/4a9e433e153be0dd9da2748466848a1313910ce1/tests%2Fsphinx_tests%2Ftests.py"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38684895350,
+          "name": "Coverage Comment",
+          "path": ".github/workflows/coverage_comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/38684895350",
+          "head_sha": "57ddccdcb0bc23eee6e9c304f69cf1ffd099151b"
+        },
+        {
+          "id": 38673105108,
+          "name": "Schedule tests",
+          "path": ".github/workflows/schedule_tests.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/django/django/actions/runs/38673105108",
+          "head_sha": "57ddccdcb0bc23eee6e9c304f69cf1ffd099151b"
+        },
+        {
+          "id": 38673095642,
+          "name": "Schedule",
+          "path": ".github/workflows/schedules.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/38673095642",
+          "head_sha": "57ddccdcb0bc23eee6e9c304f69cf1ffd099151b"
+        },
+        {
+          "id": 38664346958,
+          "name": "Graph Update: pip in /docs #1628552461",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/38664346958",
+          "head_sha": "57ddccdcb0bc23eee6e9c304f69cf1ffd099151b"
+        },
+        {
+          "id": 38664338259,
+          "name": "Docs",
+          "path": ".github/workflows/docs.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/38664338259",
+          "head_sha": "57ddccdcb0bc23eee6e9c304f69cf1ffd099151b"
+        },
+        {
+          "id": 38664338300,
+          "name": "Check migrations",
+          "path": ".github/workflows/check-migrations.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/38664338300",
+          "head_sha": "57ddccdcb0bc23eee6e9c304f69cf1ffd099151b"
+        },
+        {
+          "id": 38664338303,
+          "name": "Linters",
+          "path": ".github/workflows/linters.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/38664338303",
+          "head_sha": "57ddccdcb0bc23eee6e9c304f69cf1ffd099151b"
+        },
+        {
+          "id": 38664338274,
+          "name": "Tests",
+          "path": ".github/workflows/tests.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/38664338274",
+          "head_sha": "57ddccdcb0bc23eee6e9c304f69cf1ffd099151b"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 37979416148,
+          "name": "GeoDjango Tests",
+          "path": ".github/workflows/postgis.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/37979416148",
+          "head_sha": "4a9e433e153be0dd9da2748466848a1313910ce1"
+        },
+        {
+          "id": 37979416236,
+          "name": "Benchmark",
+          "path": ".github/workflows/benchmark.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/37979416236",
+          "head_sha": "4a9e433e153be0dd9da2748466848a1313910ce1"
+        },
+        {
+          "id": 37979416260,
+          "name": "Visual Regression Tests",
+          "path": ".github/workflows/screenshots.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/37979416260",
+          "head_sha": "4a9e433e153be0dd9da2748466848a1313910ce1"
+        },
+        {
+          "id": 37979416423,
+          "name": "Coverage Tests",
+          "path": ".github/workflows/coverage_tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/37979416423",
+          "head_sha": "4a9e433e153be0dd9da2748466848a1313910ce1"
+        },
+        {
+          "id": 37979416380,
+          "name": "Playwright Tests",
+          "path": ".github/workflows/playwright.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/37979416380",
+          "head_sha": "4a9e433e153be0dd9da2748466848a1313910ce1"
+        },
+        {
+          "id": 37979416223,
+          "name": "Python Matrix from config file",
+          "path": ".github/workflows/python_matrix.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/django/django/actions/runs/37979416223",
+          "head_sha": "4a9e433e153be0dd9da2748466848a1313910ce1"
+        },
+        {
+          "id": 37979416539,
+          "name": "Docs",
+          "path": ".github/workflows/docs.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/37979416539",
+          "head_sha": "4a9e433e153be0dd9da2748466848a1313910ce1"
+        },
+        {
+          "id": 37979416686,
+          "name": "Tests",
+          "path": ".github/workflows/tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/37979416686",
+          "head_sha": "4a9e433e153be0dd9da2748466848a1313910ce1"
+        },
+        {
+          "id": 37979416076,
+          "name": "Check commit prefix",
+          "path": ".github/workflows/check_commit_messages.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/37979416076",
+          "head_sha": "4a9e433e153be0dd9da2748466848a1313910ce1"
+        },
+        {
+          "id": 37979416098,
+          "name": "Linters",
+          "path": ".github/workflows/linters.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/django/django/actions/runs/37979416098",
+          "head_sha": "4a9e433e153be0dd9da2748466848a1313910ce1"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "stable/5.1.x",
+      "sha": "84d09a547fe35e10018ab242602ca76c29ca91a1"
+    },
+    {
+      "name": "stable/5.0.x",
+      "sha": "52821001bb62b764d73e63812133f199b8fef9eb"
+    },
+    {
+      "name": "stable/4.2.x",
+      "sha": "97aa3b7f08f51669e118f3af5ca91026e39664c3"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:10.897370+00:00",
+  "source_times": {
+    "/repos/django/django": "2026-10-17T16:12:55.457931+00:00",
+    "/repos/django/django/commits?sha=main&per_page=20": "2026-10-17T16:12:57.759609+00:00",
+    "/repos/django/django/git/trees/d430084791a61b31cecec132bce3dca19194f7f2": "2026-10-17T16:12:59.126642+00:00",
+    "/repos/django/django/git/trees/85b8b417fd4ff56a322d1d58ef0b0865ec63b4d9": "2026-10-17T16:13:00.485105+00:00",
+    "/repos/django/django/git/trees/e2f3468e8a88d4c35ce6880af4d3f50d7147795e": "2026-10-17T16:13:01.817574+00:00",
+    "/repos/django/django/git/trees/67fd38a2fb85c3389f404cdbd2a4755a0e49d869": "2026-10-17T16:13:03.169509+00:00",
+    "/repos/django/django/git/blobs/4b2ab363660df5b4b43e8e263b70ddb96b1db54e": "2026-10-17T16:13:04.550291+00:00",
+    "/repos/django/django/git/blobs/f6209e36d8c42a53ead51fa236f0b3f46fdc5e39": "2026-10-17T16:13:05.894152+00:00",
+    "/repos/django/django/git/blobs/2a0c8726f3b69ba5a4a939203c8afcb2fbcb7ed4": "2026-10-17T16:13:08.421909+00:00",
+    "/repos/django/django/git/blobs/cb9d0e6b8d3113ded349eaf77a12fd2042420739": "2026-10-17T16:13:09.856579+00:00",
+    "/repos/django/django/git/blobs/ba898fe54574c0ab9dfecff9464a997708c72b43": "2026-10-17T16:13:11.220763+00:00",
+    "/repos/django/django/git/blobs/58d191de54b8b93de9c67ebbc1fa0b5d183b2921": "2026-10-17T16:13:13.811089+00:00",
+    "/repos/django/django/git/blobs/98ec88c7233eb33e85b2cdd16782d91673d60fbd": "2026-10-17T16:13:15.161231+00:00",
+    "/repos/django/django/git/blobs/706bcaf0a261b60c8f8529557aa7a13614b58b65": "2026-10-17T16:13:16.514491+00:00",
+    "/repos/django/django/git/blobs/d09fae0fcd070ac3c81ec3c3c01332a1849209f8": "2026-10-17T16:13:17.850190+00:00",
+    "/repos/django/django/git/blobs/0020694597f3fc8e840a242390dee89a17c355b4": "2026-10-17T16:13:19.192514+00:00",
+    "/repos/django/django/git/blobs/34fba30ceafb7008375894d9da2de62521287f88": "2026-10-17T16:13:20.550693+00:00",
+    "/repos/django/django/git/blobs/82f1b2058331c9b96d5550b7d8f207e565a79ab8": "2026-10-17T16:13:21.893698+00:00",
+    "/repos/django/django/git/blobs/d0afeaf0e7d493fcba47b7155832aab5a211b392": "2026-10-17T16:13:23.288573+00:00",
+    "/repos/django/django/git/blobs/21e51d08661d07efa886d7bd6cdaee0b316c22d8": "2026-10-17T16:13:24.658196+00:00",
+    "/repos/django/django/git/blobs/fad011d1308c1dc1b861b0f4dcdeb16f48467ccc": "2026-10-17T16:13:27.395795+00:00",
+    "/repos/django/django/git/blobs/d7dd0b54b05fa01456a960189b51d4df4c2bfaa1": "2026-10-17T16:13:28.762793+00:00",
+    "/repos/django/django/git/blobs/b6270f1d8d75c383aa94aca84ac15c125ccec4f7": "2026-10-17T16:13:30.120419+00:00",
+    "/repos/django/django/git/blobs/281493428c557ec006bb29b3f1bc47761a4b7a61": "2026-10-17T16:13:31.462584+00:00",
+    "/repos/django/django/git/blobs/de92fd998808c4c4447ae3ccbce817d0b4eef21e": "2026-10-17T16:13:32.872183+00:00",
+    "/repos/django/django/git/blobs/1416fd6d275d85f0e79adf7b064c94ee122a139a": "2026-10-17T16:13:34.296117+00:00",
+    "/repos/django/django/git/blobs/15905fe8c23decaffb8a9b5fa8d46c183d5a0651": "2026-10-17T16:13:35.653155+00:00",
+    "/repos/django/django/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:13:39.457827+00:00",
+    "/repos/django/django/pulls/22141/files?per_page=100": "2026-10-17T16:13:40.933136+00:00",
+    "/repos/django/django/pulls/22141/reviews?per_page=100": "2026-10-17T16:13:43.401127+00:00",
+    "/repos/django/django/actions/runs?head_sha=adeef108afa7c6c50959cf2c94a4d4efbf1fae91&per_page=10": "2026-10-17T16:13:45.690199+00:00",
+    "/repos/django/django/actions/runs?head_sha=f8cff2bec3a8c35f3bd4160691092dfc49ac6f2d&per_page=10": "2026-10-17T16:13:47.685894+00:00",
+    "/repos/django/django/pulls/22149/files?per_page=100": "2026-10-17T16:13:49.325626+00:00",
+    "/repos/django/django/pulls/22149/reviews?per_page=100": "2026-10-17T16:13:50.862391+00:00",
+    "/repos/django/django/actions/runs?head_sha=d430084791a61b31cecec132bce3dca19194f7f2&per_page=10": "2026-10-17T16:13:54.526869+00:00",
+    "/repos/django/django/actions/runs?head_sha=6e0e2b7d64bd41e4ff92df28c155b7ed2b54f09a&per_page=10": "2026-10-17T16:13:56.587603+00:00",
+    "/repos/django/django/pulls/22073/files?per_page=100": "2026-10-17T16:13:58.389507+00:00",
+    "/repos/django/django/pulls/22073/reviews?per_page=100": "2026-10-17T16:14:00.409607+00:00",
+    "/repos/django/django/actions/runs?head_sha=57ddccdcb0bc23eee6e9c304f69cf1ffd099151b&per_page=10": "2026-10-17T16:14:02.560424+00:00",
+    "/repos/django/django/actions/runs?head_sha=4a9e433e153be0dd9da2748466848a1313910ce1&per_page=10": "2026-10-17T16:14:04.650450+00:00",
+    "/repos/django/django/releases?per_page=20&page=1": "2026-10-17T16:17:10.896695+00:00",
+    "/repos/django/django/tags?per_page=3": "2026-10-17T16:14:08.539170+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:10.896695+00:00",
+  "status": "collected"
+}

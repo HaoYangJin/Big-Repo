@@ -1,0 +1,2823 @@
+{
+  "requested_repository": "grafana/grafana",
+  "category": "infrastructure",
+  "collected_at": "2026-10-17T16:14:09.919885+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "grafana/grafana",
+  "metadata": {
+    "html_url": "https://github.com/grafana/grafana",
+    "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
+    "homepage": "https://grafana.com",
+    "language": "TypeScript",
+    "stargazers_count": 77330,
+    "forks_count": 14872,
+    "open_issues_count": 3343,
+    "pushed_at": "2026-10-17T15:07:54Z",
+    "created_at": "2013-12-11T15:59:56Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0",
+      "node_id": "MDc6TGljZW5zZTE="
+    },
+    "topics": [
+      "alerting",
+      "analytics",
+      "business-intelligence",
+      "dashboard",
+      "data-visualization",
+      "elasticsearch",
+      "go",
+      "grafana",
+      "hacktoberfest",
+      "influxdb",
+      "metrics",
+      "monitoring",
+      "mysql",
+      "postgres",
+      "prometheus"
+    ],
+    "owner": {
+      "login": "grafana",
+      "type": "Organization",
+      "html_url": "https://github.com/grafana"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "3392442829842df6485c9305a23c30943147ebe6",
+      "url": "https://github.com/grafana/grafana/commit/3392442829842df6485c9305a23c30943147ebe6",
+      "date": "2026-10-17T00:46:39Z",
+      "subject": "I18n: Download translations from Crowdin (#135249)"
+    },
+    {
+      "sha": "fc9c35a6696b22a2b3ef6058a1ea5061795e268d",
+      "url": "https://github.com/grafana/grafana/commit/fc9c35a6696b22a2b3ef6058a1ea5061795e268d",
+      "date": "2026-10-16T21:03:26Z",
+      "subject": "CI: Install Go before make in MySQL and Postgres integration jobs (#135240)"
+    },
+    {
+      "sha": "dfd3a9a815b06de94ef2ab6a482fa2e09b6f1bec",
+      "url": "https://github.com/grafana/grafana/commit/dfd3a9a815b06de94ef2ab6a482fa2e09b6f1bec",
+      "date": "2026-10-16T20:56:37Z",
+      "subject": "Chrome: Align floating extension sidebar with page padding (#135236)"
+    },
+    {
+      "sha": "a76c080d71d1f3fb255892160c39a4a01c8fd59a",
+      "url": "https://github.com/grafana/grafana/commit/a76c080d71d1f3fb255892160c39a4a01c8fd59a",
+      "date": "2026-10-16T20:56:22Z",
+      "subject": "unified-storage: ignore test files in compatibility check (#135239)"
+    },
+    {
+      "sha": "69ba8e88bffd831f89cb5a8a193966b8d73ed3ab",
+      "url": "https://github.com/grafana/grafana/commit/69ba8e88bffd831f89cb5a8a193966b8d73ed3ab",
+      "date": "2026-10-16T20:54:36Z",
+      "subject": "CI: Install Go before setting up Enterprise (#135237)"
+    },
+    {
+      "sha": "97a1ba699ce1de2b7c6ffb7ec666ba217d21f22a",
+      "url": "https://github.com/grafana/grafana/commit/97a1ba699ce1de2b7c6ffb7ec666ba217d21f22a",
+      "date": "2026-10-16T20:26:00Z",
+      "subject": "Provisioning: Add SetRepoValidatorOptions to APIBuilder (#135231)"
+    },
+    {
+      "sha": "7597ca5957a8c87e6d62b67b5c959d81fb6e18a6",
+      "url": "https://github.com/grafana/grafana/commit/7597ca5957a8c87e6d62b67b5c959d81fb6e18a6",
+      "date": "2026-10-16T20:13:05Z",
+      "subject": "UI: Luxon on by default (#134865)"
+    },
+    {
+      "sha": "b88e85fc79b8b7f5445df42fb1aa012df3c3dfa8",
+      "url": "https://github.com/grafana/grafana/commit/b88e85fc79b8b7f5445df42fb1aa012df3c3dfa8",
+      "date": "2026-10-16T20:10:35Z",
+      "subject": "Router: revert changes that were meant for aggregating router under ST (#135232)"
+    },
+    {
+      "sha": "fdc328f067989c4e13114b8967468348f85aca3b",
+      "url": "https://github.com/grafana/grafana/commit/fdc328f067989c4e13114b8967468348f85aca3b",
+      "date": "2026-10-16T20:08:17Z",
+      "subject": "Chore: Run more time-dependent tests in synctest bubbles (#135234)"
+    },
+    {
+      "sha": "d196c882221c32526815bdbe8a8c4b7ad2e449b4",
+      "url": "https://github.com/grafana/grafana/commit/d196c882221c32526815bdbe8a8c4b7ad2e449b4",
+      "date": "2026-10-16T19:54:52Z",
+      "subject": ":green_heart: add a \"disable recorded queries\" feature flag (#134535)"
+    },
+    {
+      "sha": "8f292f0d5ef33e2bf4ff4e59827a3db357a2f730",
+      "url": "https://github.com/grafana/grafana/commit/8f292f0d5ef33e2bf4ff4e59827a3db357a2f730",
+      "date": "2026-10-16T19:39:10Z",
+      "subject": "unified-storage: unify service permission failure metrics (#135218)"
+    },
+    {
+      "sha": "a185ea4e0cfe53ad55c4df9c03800b1696aecfd4",
+      "url": "https://github.com/grafana/grafana/commit/a185ea4e0cfe53ad55c4df9c03800b1696aecfd4",
+      "date": "2026-10-16T19:12:46Z",
+      "subject": "Notebooks: Enhance add-to modal to accept from Assistant (#134979)"
+    },
+    {
+      "sha": "3203f7bea6d1e4aa79fa20d883ee9e5d9a4cb2e6",
+      "url": "https://github.com/grafana/grafana/commit/3203f7bea6d1e4aa79fa20d883ee9e5d9a4cb2e6",
+      "date": "2026-10-16T19:10:52Z",
+      "subject": "Chore: Speed up time-dependent tests with synctest (#135221)"
+    },
+    {
+      "sha": "3b40a770d3ea3e15a3045057e15630069ef27972",
+      "url": "https://github.com/grafana/grafana/commit/3b40a770d3ea3e15a3045057e15630069ef27972",
+      "date": "2026-10-16T18:48:14Z",
+      "subject": "Revert \"Authz: Honor existing alerting config permissions\" (#135224)"
+    },
+    {
+      "sha": "d950a0fd98c2bf0fe9c5ded8c50cae86d71eabc2",
+      "url": "https://github.com/grafana/grafana/commit/d950a0fd98c2bf0fe9c5ded8c50cae86d71eabc2",
+      "date": "2026-10-16T18:19:38Z",
+      "subject": "Extension sidebar: Let the sidebar float over the page (#135185)"
+    },
+    {
+      "sha": "cd607b50ca84e9dc341020e5eb21d987dd9ad20c",
+      "url": "https://github.com/grafana/grafana/commit/cd607b50ca84e9dc341020e5eb21d987dd9ad20c",
+      "date": "2026-10-16T17:56:02Z",
+      "subject": "Table: Render grouped cell actions from typed configuration (#134878)"
+    },
+    {
+      "sha": "afdd9263018cd4fd000adfd4c84e192c7ec9c0d1",
+      "url": "https://github.com/grafana/grafana/commit/afdd9263018cd4fd000adfd4c84e192c7ec9c0d1",
+      "date": "2026-10-16T17:44:18Z",
+      "subject": "Alerting: Show only one import tool in the alert rules More menu (#135211)"
+    },
+    {
+      "sha": "b1a7f7705ae9c95b4b6b0a7c6b4c7eaa29406f53",
+      "url": "https://github.com/grafana/grafana/commit/b1a7f7705ae9c95b4b6b0a7c6b4c7eaa29406f53",
+      "date": "2026-10-16T17:12:54Z",
+      "subject": "Authz: Honor existing alerting config permissions (#134997)"
+    },
+    {
+      "sha": "1868dc6f3bd3c4275c976a6efd5a0cf6fa86d671",
+      "url": "https://github.com/grafana/grafana/commit/1868dc6f3bd3c4275c976a6efd5a0cf6fa86d671",
+      "date": "2026-10-16T16:50:16Z",
+      "subject": "Visual refresh: Pass theme string to visual refresh survey (#135192)"
+    },
+    {
+      "sha": "ff6ba3ac87c9d0ecfe98283cad0ef51944a7a8ba",
+      "url": "https://github.com/grafana/grafana/commit/ff6ba3ac87c9d0ecfe98283cad0ef51944a7a8ba",
+      "date": "2026-10-16T16:41:19Z",
+      "subject": "Docs: Add note about not supporting redis sentinel in query caching (#135217)"
+    }
+  ],
+  "default_sha": "3392442829842df6485c9305a23c30943147ebe6",
+  "root_and_selected_directory_paths": [
+    ".air.toml",
+    ".browserslistrc",
+    ".changelog-archive",
+    ".citools",
+    ".claude",
+    ".dockerignore",
+    ".editorconfig",
+    ".gitattributes",
+    ".github",
+    ".github/CODEOWNERS",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/0-bug-report.yaml",
+    ".github/ISSUE_TEMPLATE/1-feature_requests.md",
+    ".github/ISSUE_TEMPLATE/2-accessibility.md",
+    ".github/ISSUE_TEMPLATE/3-data_source_request.yaml",
+    ".github/ISSUE_TEMPLATE/4-staff_issues.md",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/actionlint.yaml",
+    ".github/actions",
+    ".github/bot.md",
+    ".github/commands.json",
+    ".github/community-champions.json",
+    ".github/issue-opened.json",
+    ".github/license_finder.yaml",
+    ".github/pr-checks.json",
+    ".github/pr-commands.json",
+    ".github/renovate.json5",
+    ".github/team-notifications-config.json",
+    ".github/workflows",
+    ".github/workflows/actionlint-format.txt",
+    ".github/workflows/actionlint.yml",
+    ".github/workflows/add-to-whats-new.yml",
+    ".github/workflows/alerting-swagger-gen.yml",
+    ".github/workflows/alerting-update-module.yml",
+    ".github/workflows/analytics-events-report.yml",
+    ".github/workflows/auto-milestone.yml",
+    ".github/workflows/auto-triager",
+    ".github/workflows/backend-code-checks.yml",
+    ".github/workflows/backend-unit-tests.yml",
+    ".github/workflows/backport-trigger.yml",
+    ".github/workflows/backport-workflow.yml",
+    ".github/workflows/build-docker-variants.yml",
+    ".github/workflows/build-go-matrix.yml",
+    ".github/workflows/bump-version.yml",
+    ".github/workflows/changelog.yml",
+    ".github/workflows/check-frontend-test-coverage.yml",
+    ".github/workflows/cleanup-branches.yml",
+    ".github/workflows/codeowners-validator.yml",
+    ".github/workflows/commands.yml",
+    ".github/workflows/community-release.yml",
+    ".github/workflows/create-next-release-branch.yml",
+    ".github/workflows/create-release-branch.yml",
+    ".github/workflows/create-release-tag.yml",
+    ".github/workflows/create-security-branch.yml",
+    ".github/workflows/create-security-patch-from-security-mirror.yml",
+    ".github/workflows/dashboards-issue-add-label.yml",
+    ".github/workflows/defaults-ini-docs-reminder.yml",
+    ".github/workflows/deploy-frontend-preview.yml",
+    ".github/workflows/deploy-pr-preview.yml",
+    ".github/workflows/deploy-storybook-preview.yml",
+    ".github/workflows/deploy-storybook.yml",
+    ".github/workflows/detect-breaking-changes-levitate.yml",
+    ".github/workflows/documentation-ci.yml",
+    ".github/workflows/ephemeral-instances-pr-comment.yml",
+    ".github/workflows/external-fr-notify.yml",
+    ".github/workflows/external-fr-type-labeler.yml",
+    ".github/workflows/external-fr-weekly-digest.yml",
+    ".github/workflows/external-issue-champion-labeler.yml",
+    ".github/workflows/external-issue-notify.yml",
+    ".github/workflows/external-issue-weekly-digest.yml",
+    ".github/workflows/external-pr-notify-handler.yml",
+    ".github/workflows/external-pr-notify-trigger.yml",
+    ".github/workflows/external-pr-weekly-digest.yml",
+    ".github/workflows/externalized-datasources-reminder.yml",
+    ".github/workflows/feature-toggles-ci.yml",
+    ".github/workflows/frontend-lint.yml",
+    ".github/workflows/frontend-perf-tests.yaml",
+    ".github/workflows/github-release.yml",
+    ".github/workflows/go-lint.yml",
+    ".github/workflows/govulncheck.yml",
+    ".github/workflows/i18n-crowdin-create-tasks.yml",
+    ".github/workflows/i18n-crowdin-download.yml",
+    ".github/workflows/i18n-crowdin-upload.yml",
+    ".github/workflows/i18n-verify.yml",
+    ".github/workflows/issue-opened.yml",
+    ".github/workflows/lint-build-docs.yml",
+    ".github/workflows/migrate-prs.yml",
+    ".github/workflows/modowners-reviewers.yml",
+    ".github/workflows/policybot.yml",
+    ".github/workflows/pr-bot-update-go-workspace.yml",
+    ".github/workflows/pr-build-grafana.yml",
+    ".github/workflows/pr-bundle-size.yml",
+    ".github/workflows/pr-checks.yml",
+    ".github/workflows/pr-commands.yml",
+    ".github/workflows/pr-diagnostics-e2e.yml",
+    ".github/workflows/pr-e2e-tests.yml",
+    ".github/workflows/pr-endpoint-feature-toggle.yml",
+    ".github/workflows/pr-external-labelling.yml",
+    ".github/workflows/pr-frontend-unit-tests.yml",
+    ".github/workflows/pr-go-workspace-check.yml",
+    ".github/workflows/pr-k8s-codegen-check.yml",
+    ".github/workflows/pr-mt-service-compatibility.yml",
+    ".github/workflows/pr-patch-check.yml",
+    ".github/workflows/pr-reembed-version-approval.yml",
+    ".github/workflows/pr-resource-search-result-format.yml",
+    ".github/workflows/pr-test-docker.yml",
+    ".github/workflows/pr-test-integration-pgvector.yml",
+    ".github/workflows/pr-test-integration.yml",
+    ".github/workflows/pr-unified-storage-compatibility.yml",
+    ".github/workflows/proto-breaking-changes.yml",
+    ".github/workflows/publish-artifact.yml",
+    ".github/workflows/reject-gh-secrets.yml",
+    ".github/workflows/release-build.yml",
+    ".github/workflows/release-comms.yml",
+    ".github/workflows/release-npm.yml",
+    ".github/workflows/release-pr.yml",
+    ".github/workflows/release-verify-packages.yml",
+    ".github/workflows/release-verify.yml",
+    ".github/workflows/relyance-scan.yml",
+    ".github/workflows/report-frontend-coverage-to-bench.yaml",
+    ".github/workflows/run-schema-v2-e2e.yml",
+    ".github/workflows/sbom-on-release.yml",
+    ".github/workflows/scripts",
+    ".github/workflows/shellcheck.yml",
+    ".github/workflows/stale.yml",
+    ".github/workflows/storybook-a11y.yml",
+    ".github/workflows/swagger-gen.yml",
+    ".github/workflows/sync-mirror-event.yml",
+    ".github/workflows/trufflehog.yml",
+    ".github/workflows/update-schema-types.yml",
+    ".github/zizmor.yml",
+    ".gitignore",
+    ".golangci.yml",
+    ".ignore",
+    ".levignore.js",
+    ".madgerc",
+    ".nvmrc",
+    ".nxignore",
+    ".policy.yml",
+    ".policy.yml.tmpl",
+    ".prettierignore",
+    ".prettierrc.js",
+    ".vale.ini",
+    ".vim",
+    ".vscode",
+    ".yarn",
+    ".yarnrc.yml",
+    ".zed",
+    "AGENTS.md",
+    "AI_POLICY.md",
+    "CHANGELOG.md",
+    "CLAUDE.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "Dockerfile",
+    "GOVERNANCE.md",
+    "HALL_OF_FAME.md",
+    "LICENSE",
+    "LICENSING.md",
+    "MAINTAINERS.md",
+    "Makefile",
+    "NOTICE.md",
+    "README.md",
+    "ROADMAP.md",
+    "SUPPORT.md",
+    "WORKFLOW.md",
+    "apps",
+    "conf",
+    "contribute",
+    "crowdin.yml",
+    "cue.mod",
+    "devenv",
+    "docs",
+    "docs/.gitignore",
+    "docs/AGENTS.md",
+    "docs/Makefile",
+    "docs/README.md",
+    "docs/docs.mk",
+    "docs/logo-horizontal-dark.png",
+    "docs/logo-horizontal.png",
+    "docs/make-docs",
+    "docs/sources",
+    "docs/variables.mk",
+    "e2e-playwright",
+    "emails",
+    "embed.go",
+    "eslint-suppressions.json",
+    "eslint.config.js",
+    "go.mod",
+    "go.sum",
+    "go.work",
+    "go.work.sum",
+    "grafana-mixin",
+    "hack",
+    "i18next.config.ts",
+    "jest.config.codeowner.js",
+    "jest.config.js",
+    "kinds",
+    "knip.config.ts",
+    "latest.json",
+    "lefthook.rc",
+    "lefthook.yml",
+    "local",
+    "mise.toml",
+    "nx.json",
+    "package.json",
+    "packages",
+    "packaging",
+    "pkg",
+    "playwright.config.ts",
+    "playwright.storybook.config.ts",
+    "project.json",
+    "public",
+    "relyance.yaml",
+    "scripts",
+    "stylelint.config.js",
+    "tools",
+    "tsconfig.json",
+    "tsconfig.smoke.json",
+    "yarn.config.cjs",
+    "yarn.lock"
+  ],
+  "workflow_paths": [
+    ".github/workflows/backend-unit-tests.yml",
+    ".github/workflows/check-frontend-test-coverage.yml",
+    ".github/workflows/community-release.yml",
+    ".github/workflows/create-next-release-branch.yml",
+    ".github/workflows/create-release-branch.yml",
+    ".github/workflows/create-release-tag.yml",
+    ".github/workflows/create-security-branch.yml",
+    ".github/workflows/create-security-patch-from-security-mirror.yml",
+    ".github/workflows/documentation-ci.yml",
+    ".github/workflows/feature-toggles-ci.yml",
+    ".github/workflows/frontend-perf-tests.yaml",
+    ".github/workflows/github-release.yml",
+    ".github/workflows/pr-e2e-tests.yml",
+    ".github/workflows/pr-frontend-unit-tests.yml",
+    ".github/workflows/pr-test-docker.yml",
+    ".github/workflows/pr-test-integration-pgvector.yml",
+    ".github/workflows/pr-test-integration.yml",
+    ".github/workflows/publish-artifact.yml",
+    ".github/workflows/release-build.yml",
+    ".github/workflows/release-comms.yml",
+    ".github/workflows/release-npm.yml",
+    ".github/workflows/release-pr.yml",
+    ".github/workflows/release-verify-packages.yml",
+    ".github/workflows/release-verify.yml",
+    ".github/workflows/sbom-on-release.yml",
+    ".github/workflows/actionlint-format.txt",
+    ".github/workflows/actionlint.yml",
+    ".github/workflows/add-to-whats-new.yml",
+    ".github/workflows/alerting-swagger-gen.yml",
+    ".github/workflows/alerting-update-module.yml",
+    ".github/workflows/analytics-events-report.yml",
+    ".github/workflows/auto-milestone.yml",
+    ".github/workflows/backend-code-checks.yml",
+    ".github/workflows/backport-trigger.yml",
+    ".github/workflows/backport-workflow.yml",
+    ".github/workflows/build-docker-variants.yml",
+    ".github/workflows/build-go-matrix.yml",
+    ".github/workflows/bump-version.yml",
+    ".github/workflows/changelog.yml",
+    ".github/workflows/cleanup-branches.yml",
+    ".github/workflows/codeowners-validator.yml",
+    ".github/workflows/commands.yml",
+    ".github/workflows/dashboards-issue-add-label.yml",
+    ".github/workflows/defaults-ini-docs-reminder.yml",
+    ".github/workflows/deploy-frontend-preview.yml",
+    ".github/workflows/deploy-pr-preview.yml",
+    ".github/workflows/deploy-storybook-preview.yml",
+    ".github/workflows/deploy-storybook.yml",
+    ".github/workflows/detect-breaking-changes-levitate.yml",
+    ".github/workflows/ephemeral-instances-pr-comment.yml",
+    ".github/workflows/external-fr-notify.yml",
+    ".github/workflows/external-fr-type-labeler.yml",
+    ".github/workflows/external-fr-weekly-digest.yml",
+    ".github/workflows/external-issue-champion-labeler.yml",
+    ".github/workflows/external-issue-notify.yml",
+    ".github/workflows/external-issue-weekly-digest.yml",
+    ".github/workflows/external-pr-notify-handler.yml",
+    ".github/workflows/external-pr-notify-trigger.yml",
+    ".github/workflows/external-pr-weekly-digest.yml",
+    ".github/workflows/externalized-datasources-reminder.yml",
+    ".github/workflows/frontend-lint.yml",
+    ".github/workflows/go-lint.yml",
+    ".github/workflows/govulncheck.yml",
+    ".github/workflows/i18n-crowdin-create-tasks.yml",
+    ".github/workflows/i18n-crowdin-download.yml",
+    ".github/workflows/i18n-crowdin-upload.yml",
+    ".github/workflows/i18n-verify.yml",
+    ".github/workflows/issue-opened.yml",
+    ".github/workflows/lint-build-docs.yml",
+    ".github/workflows/migrate-prs.yml",
+    ".github/workflows/modowners-reviewers.yml",
+    ".github/workflows/policybot.yml",
+    ".github/workflows/pr-bot-update-go-workspace.yml",
+    ".github/workflows/pr-build-grafana.yml",
+    ".github/workflows/pr-bundle-size.yml",
+    ".github/workflows/pr-checks.yml",
+    ".github/workflows/pr-commands.yml",
+    ".github/workflows/pr-diagnostics-e2e.yml",
+    ".github/workflows/pr-endpoint-feature-toggle.yml",
+    ".github/workflows/pr-external-labelling.yml",
+    ".github/workflows/pr-go-workspace-check.yml",
+    ".github/workflows/pr-k8s-codegen-check.yml",
+    ".github/workflows/pr-mt-service-compatibility.yml",
+    ".github/workflows/pr-patch-check.yml",
+    ".github/workflows/pr-reembed-version-approval.yml",
+    ".github/workflows/pr-resource-search-result-format.yml",
+    ".github/workflows/pr-unified-storage-compatibility.yml",
+    ".github/workflows/proto-breaking-changes.yml",
+    ".github/workflows/reject-gh-secrets.yml",
+    ".github/workflows/relyance-scan.yml",
+    ".github/workflows/report-frontend-coverage-to-bench.yaml",
+    ".github/workflows/run-schema-v2-e2e.yml",
+    ".github/workflows/shellcheck.yml",
+    ".github/workflows/stale.yml",
+    ".github/workflows/storybook-a11y.yml",
+    ".github/workflows/swagger-gen.yml",
+    ".github/workflows/sync-mirror-event.yml",
+    ".github/workflows/trufflehog.yml",
+    ".github/workflows/update-schema-types.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "d559f3c51205969ad6a95dbe1836135265f78aae",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/AGENTS.md",
+      "lines": 180,
+      "signals": {
+        "tests": [
+          59,
+          164,
+          178
+        ],
+        "lint": [
+          76,
+          77,
+          78,
+          100
+        ],
+        "generated_code": [
+          82
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CHANGELOG.md",
+      "status": "skipped-size",
+      "sha": "fe7d817d9398e574f2446ba8f15105e7b3108b2a"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha": "43c994c2d3617f947bcb5adf1933e21dabe46bb5",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/CLAUDE.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "ac296aad9558b03a7c48f07471ed1e1a074560ce",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/CODE_OF_CONDUCT.md",
+      "lines": 46,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "67cf9bdc5016e230497a645aaf7a2a869a9e514f",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/CONTRIBUTING.md",
+      "lines": 136,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          34,
+          84,
+          115
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "sha": "f246ca03386806893a3874073051ea270d649b99",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/GOVERNANCE.md",
+      "lines": 206,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          186
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "sha": "b1443b3372275528260ae5fda4743eb2d8ac29f0",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/MAINTAINERS.md",
+      "lines": 11,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile",
+      "sha": "1ffad5bf58ad32598bdafc4716b2abeed0f400b7",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/Makefile",
+      "lines": 860,
+      "signals": {
+        "tests": [
+          254,
+          255,
+          257,
+          261,
+          618
+        ],
+        "lint": [
+          155,
+          219,
+          641,
+          642,
+          643
+        ],
+        "generated_code": [
+          198,
+          202,
+          220,
+          222,
+          226,
+          228,
+          249,
+          255,
+          282,
+          283
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "7b768e029f8ad89feae45d31bce9a57d42d9cf5c",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/README.md",
+      "lines": 50,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          6
+        ],
+        "media": [
+          1,
+          2,
+          6
+        ],
+        "theme_images": [
+          1,
+          2
+        ],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SUPPORT.md",
+      "sha": "a8aae994618db1105f43961798b35726d7652909",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/SUPPORT.md",
+      "lines": 13,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "go.mod",
+      "sha": "61133a678583d054986357e8f965574d7ed3682c",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/go.mod",
+      "lines": 737,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "package.json",
+      "sha": "3c6306756724e453cc2ddec910522dff349cb856",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/package.json",
+      "lines": 510,
+      "signals": {
+        "tests": [
+          41,
+          43,
+          45,
+          48,
+          49,
+          50,
+          51,
+          134,
+          148,
+          205,
+          206,
+          226
+        ],
+        "lint": [
+          53,
+          64,
+          65,
+          66,
+          79,
+          113,
+          114,
+          115,
+          130,
+          184,
+          185,
+          202
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          146,
+          366,
+          452,
+          453
+        ]
+      }
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha": "b78245519437eba739a4bb20932582d456a69160",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/CODEOWNERS",
+      "lines": 1470,
+      "signals": {
+        "tests": [
+          844,
+          1198
+        ],
+        "lint": [
+          635,
+          636,
+          830,
+          1205
+        ],
+        "generated_code": [
+          420,
+          1287,
+          1306,
+          1307,
+          1410,
+          1446
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          1080
+        ],
+        "community": [
+          27
+        ],
+        "story": [
+          272,
+          274,
+          925,
+          1106,
+          1107,
+          1343
+        ]
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/0-bug-report.yaml",
+      "sha": "79d35ee6decf7536def3e184235a8c2ede406160",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/ISSUE_TEMPLATE/0-bug-report.yaml",
+      "lines": 93,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          18
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/1-feature_requests.md",
+      "sha": "67449c9af2a1fa7f67c2b6eb7b0e1e975a22391e",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/ISSUE_TEMPLATE/1-feature_requests.md",
+      "lines": 20,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/2-accessibility.md",
+      "sha": "51b3ecc255b6bcdea282ea77f343a2680fc6e946",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/ISSUE_TEMPLATE/2-accessibility.md",
+      "lines": 26,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/3-data_source_request.yaml",
+      "sha": "02e5266d2316a822b7e492207c58d81099fa9372",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/ISSUE_TEMPLATE/3-data_source_request.yaml",
+      "lines": 45,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          17
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/4-staff_issues.md",
+      "sha": "48aa91e08c9d71aa388b754ee3f5c12eef8e027a",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/ISSUE_TEMPLATE/4-staff_issues.md",
+      "lines": 5,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "8211d8ee69ce052ef4675045de046a7eeb5e26ad",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 5,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "116beb08dafb04753d99bb1ce1c2eb6db71c80f6",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/PULL_REQUEST_TEMPLATE.md",
+      "lines": 50,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/AGENTS.md",
+      "sha": "bbf099b7757ffd633f8e38c8054bdaa6ccddbd90",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/docs/AGENTS.md",
+      "lines": 150,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/Makefile",
+      "sha": "8202b11f826419189bc8968b743cb1527281e1a5",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/docs/Makefile",
+      "lines": 14,
+      "signals": {
+        "tests": [],
+        "lint": [
+          14
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/README.md",
+      "sha": "0bf4e8446b5dce0ad22b0968e7b9f927516649b3",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/docs/README.md",
+      "lines": 80,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          33,
+          38
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/backend-unit-tests.yml",
+      "sha": "8f30f59e3919a3a9d4aef3102a22883656198d65",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/workflows/backend-unit-tests.yml",
+      "lines": 144,
+      "signals": {
+        "tests": [
+          69,
+          122,
+          124,
+          144
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          14,
+          22,
+          53,
+          55,
+          85,
+          87
+        ],
+        "pinned_actions": [
+          96
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          29
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/check-frontend-test-coverage.yml",
+      "sha": "ecc4e41bd06e877deca6f616a3a532851d651267",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/workflows/check-frontend-test-coverage.yml",
+      "lines": 266,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          19,
+          43,
+          96,
+          224
+        ],
+        "pinned_actions": [
+          81
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          65
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/community-release.yml",
+      "sha": "ccf91675a3123ceaea3af095700812b27ced5f7c",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/workflows/community-release.yml",
+      "lines": 50,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          26,
+          31,
+          33
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          8,
+          19
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/create-next-release-branch.yml",
+      "sha": "4ce387e128f16512e40b4aa69fdc0fed4a9728d1",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/workflows/create-next-release-branch.yml",
+      "lines": 83,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          26,
+          31,
+          33
+        ],
+        "pinned_actions": [
+          73
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/create-release-branch.yml",
+      "sha": "eebfb4575f9b22a8c900751ecd584a1c6f5f718b",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/workflows/create-release-branch.yml",
+      "lines": 198,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          17,
+          23,
+          52,
+          53,
+          54,
+          112,
+          113,
+          114,
+          175,
+          176
+        ],
+        "pinned_actions": [
+          66,
+          93,
+          123,
+          150,
+          182
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/create-release-tag.yml",
+      "sha": "a20d40c3e4642076086fbdbd997a0f4368925d21",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/workflows/create-release-tag.yml",
+      "lines": 111,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          33,
+          38,
+          39
+        ],
+        "pinned_actions": [
+          53
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/create-security-branch.yml",
+      "sha": "1776d593e4fc24744a3412d379c1935aae4b56c6",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/workflows/create-security-branch.yml",
+      "lines": 136,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          38,
+          43,
+          46
+        ],
+        "pinned_actions": [
+          84
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/create-security-patch-from-security-mirror.yml",
+      "sha": "d5eebc8f7759c6f3fe50b23117c2cc23a1934c8a",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/workflows/create-security-patch-from-security-mirror.yml",
+      "lines": 160,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          29,
+          39,
+          40
+        ],
+        "pinned_actions": [
+          97
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/documentation-ci.yml",
+      "sha": "01bce7a7a256c145e19b7849bbb122a27af79fcc",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/workflows/documentation-ci.yml",
+      "lines": 30,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12,
+          17
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/feature-toggles-ci.yml",
+      "sha": "54f126cf17f7e7d3913e7571ac06295c6225c920",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/workflows/feature-toggles-ci.yml",
+      "lines": 57,
+      "signals": {
+        "tests": [
+          57
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10,
+          18,
+          43
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          26
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/frontend-perf-tests.yaml",
+      "sha": "dee4fe2d2d3c718880a6b538755ec23d814d2b43",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/workflows/frontend-perf-tests.yaml",
+      "lines": 132,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10,
+          12
+        ],
+        "pinned_actions": [
+          22
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/github-release.yml",
+      "sha": "d09d1b1f47f2fd1359a56da74cf57b3dc98ed55f",
+      "status": "inspected",
+      "url": "https://github.com/grafana/grafana/blob/3392442829842df6485c9305a23c30943147ebe6/.github/workflows/github-release.yml",
+      "lines": 59,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          34,
+          38,
+          39,
+          40,
+          41,
+          54,
+          56
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          7,
+          22
+        ]
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 135249,
+      "title": "I18n: Download translations from Crowdin",
+      "url": "https://github.com/grafana/grafana/pull/135249",
+      "merged_at": "2026-10-17T00:46:40Z",
+      "merge_commit_sha": "3392442829842df6485c9305a23c30943147ebe6",
+      "files": [
+        "public/locales/cs-CZ/grafana.json",
+        "public/locales/de-DE/grafana.json",
+        "public/locales/es-ES/grafana.json",
+        "public/locales/fr-FR/grafana.json",
+        "public/locales/hu-HU/grafana.json",
+        "public/locales/id-ID/grafana.json",
+        "public/locales/it-IT/grafana.json",
+        "public/locales/ja-JP/grafana.json",
+        "public/locales/ko-KR/grafana.json",
+        "public/locales/nl-NL/grafana.json",
+        "public/locales/pl-PL/grafana.json",
+        "public/locales/pt-BR/grafana.json",
+        "public/locales/pt-PT/grafana.json",
+        "public/locales/ru-RU/grafana.json",
+        "public/locales/sv-SE/grafana.json",
+        "public/locales/tr-TR/grafana.json",
+        "public/locales/zh-Hans/grafana.json",
+        "public/locales/zh-Hant/grafana.json"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "public/locales/cs-CZ/grafana.json",
+          "status": "modified",
+          "additions": 81,
+          "deletions": 3,
+          "blob_url": "https://github.com/grafana/grafana/blob/16cc594f99734e9da764521cf7d64146680fac4b/public%2Flocales%2Fcs-CZ%2Fgrafana.json"
+        },
+        {
+          "filename": "public/locales/de-DE/grafana.json",
+          "status": "modified",
+          "additions": 65,
+          "deletions": 3,
+          "blob_url": "https://github.com/grafana/grafana/blob/16cc594f99734e9da764521cf7d64146680fac4b/public%2Flocales%2Fde-DE%2Fgrafana.json"
+        },
+        {
+          "filename": "public/locales/es-ES/grafana.json",
+          "status": "modified",
+          "additions": 65,
+          "deletions": 3,
+          "blob_url": "https://github.com/grafana/grafana/blob/16cc594f99734e9da764521cf7d64146680fac4b/public%2Flocales%2Fes-ES%2Fgrafana.json"
+        },
+        {
+          "filename": "public/locales/fr-FR/grafana.json",
+          "status": "modified",
+          "additions": 65,
+          "deletions": 3,
+          "blob_url": "https://github.com/grafana/grafana/blob/16cc594f99734e9da764521cf7d64146680fac4b/public%2Flocales%2Ffr-FR%2Fgrafana.json"
+        },
+        {
+          "filename": "public/locales/hu-HU/grafana.json",
+          "status": "modified",
+          "additions": 65,
+          "deletions": 3,
+          "blob_url": "https://github.com/grafana/grafana/blob/16cc594f99734e9da764521cf7d64146680fac4b/public%2Flocales%2Fhu-HU%2Fgrafana.json"
+        },
+        {
+          "filename": "public/locales/id-ID/grafana.json",
+          "status": "modified",
+          "additions": 57,
+          "deletions": 3,
+          "blob_url": "https://github.com/grafana/grafana/blob/16cc594f99734e9da764521cf7d64146680fac4b/public%2Flocales%2Fid-ID%2Fgrafana.json"
+        },
+        {
+          "filename": "public/locales/it-IT/grafana.json",
+          "status": "modified",
+          "additions": 65,
+          "deletions": 3,
+          "blob_url": "https://github.com/grafana/grafana/blob/16cc594f99734e9da764521cf7d64146680fac4b/public%2Flocales%2Fit-IT%2Fgrafana.json"
+        },
+        {
+          "filename": "public/locales/ja-JP/grafana.json",
+          "status": "modified",
+          "additions": 57,
+          "deletions": 3,
+          "blob_url": "https://github.com/grafana/grafana/blob/16cc594f99734e9da764521cf7d64146680fac4b/public%2Flocales%2Fja-JP%2Fgrafana.json"
+        },
+        {
+          "filename": "public/locales/ko-KR/grafana.json",
+          "status": "modified",
+          "additions": 57,
+          "deletions": 3,
+          "blob_url": "https://github.com/grafana/grafana/blob/16cc594f99734e9da764521cf7d64146680fac4b/public%2Flocales%2Fko-KR%2Fgrafana.json"
+        },
+        {
+          "filename": "public/locales/nl-NL/grafana.json",
+          "status": "modified",
+          "additions": 65,
+          "deletions": 3,
+          "blob_url": "https://github.com/grafana/grafana/blob/16cc594f99734e9da764521cf7d64146680fac4b/public%2Flocales%2Fnl-NL%2Fgrafana.json"
+        },
+        {
+          "filename": "public/locales/pl-PL/grafana.json",
+          "status": "modified",
+          "additions": 81,
+          "deletions": 3,
+          "blob_url": "https://github.com/grafana/grafana/blob/16cc594f99734e9da764521cf7d64146680fac4b/public%2Flocales%2Fpl-PL%2Fgrafana.json"
+        },
+        {
+          "filename": "public/locales/pt-BR/grafana.json",
+          "status": "modified",
+          "additions": 65,
+          "deletions": 3,
+          "blob_url": "https://github.com/grafana/grafana/blob/16cc594f99734e9da764521cf7d64146680fac4b/public%2Flocales%2Fpt-BR%2Fgrafana.json"
+        },
+        {
+          "filename": "public/locales/pt-PT/grafana.json",
+          "status": "modified",
+          "additions": 65,
+          "deletions": 3,
+          "blob_url": "https://github.com/grafana/grafana/blob/16cc594f99734e9da764521cf7d64146680fac4b/public%2Flocales%2Fpt-PT%2Fgrafana.json"
+        },
+        {
+          "filename": "public/locales/ru-RU/grafana.json",
+          "status": "modified",
+          "additions": 81,
+          "deletions": 3,
+          "blob_url": "https://github.com/grafana/grafana/blob/16cc594f99734e9da764521cf7d64146680fac4b/public%2Flocales%2Fru-RU%2Fgrafana.json"
+        },
+        {
+          "filename": "public/locales/sv-SE/grafana.json",
+          "status": "modified",
+          "additions": 65,
+          "deletions": 3,
+          "blob_url": "https://github.com/grafana/grafana/blob/16cc594f99734e9da764521cf7d64146680fac4b/public%2Flocales%2Fsv-SE%2Fgrafana.json"
+        },
+        {
+          "filename": "public/locales/tr-TR/grafana.json",
+          "status": "modified",
+          "additions": 65,
+          "deletions": 3,
+          "blob_url": "https://github.com/grafana/grafana/blob/16cc594f99734e9da764521cf7d64146680fac4b/public%2Flocales%2Ftr-TR%2Fgrafana.json"
+        },
+        {
+          "filename": "public/locales/zh-Hans/grafana.json",
+          "status": "modified",
+          "additions": 57,
+          "deletions": 3,
+          "blob_url": "https://github.com/grafana/grafana/blob/16cc594f99734e9da764521cf7d64146680fac4b/public%2Flocales%2Fzh-Hans%2Fgrafana.json"
+        },
+        {
+          "filename": "public/locales/zh-Hant/grafana.json",
+          "status": "modified",
+          "additions": 57,
+          "deletions": 3,
+          "blob_url": "https://github.com/grafana/grafana/blob/16cc594f99734e9da764521cf7d64146680fac4b/public%2Flocales%2Fzh-Hant%2Fgrafana.json"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39048419011,
+          "name": "Frontend performance tests",
+          "path": ".github/workflows/frontend-perf-tests.yaml",
+          "event": "schedule",
+          "status": "in_progress",
+          "conclusion": null,
+          "html_url": "https://github.com/grafana/grafana/actions/runs/39048419011",
+          "head_sha": "3392442829842df6485c9305a23c30943147ebe6"
+        },
+        {
+          "id": 39048082197,
+          "name": "When an issue changes and it's part of the dashboards project, add the dashboards squad label",
+          "path": ".github/workflows/dashboards-issue-add-label.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/39048082197",
+          "head_sha": "3392442829842df6485c9305a23c30943147ebe6"
+        },
+        {
+          "id": 39043918090,
+          "name": "Frontend performance tests",
+          "path": ".github/workflows/frontend-perf-tests.yaml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/39043918090",
+          "head_sha": "3392442829842df6485c9305a23c30943147ebe6"
+        },
+        {
+          "id": 39043872498,
+          "name": "External PR Notify Handler",
+          "path": ".github/workflows/external-pr-notify-handler.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/39043872498",
+          "head_sha": "3392442829842df6485c9305a23c30943147ebe6"
+        },
+        {
+          "id": 39039684853,
+          "name": "Frontend performance tests",
+          "path": ".github/workflows/frontend-perf-tests.yaml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/39039684853",
+          "head_sha": "3392442829842df6485c9305a23c30943147ebe6"
+        },
+        {
+          "id": 39035500899,
+          "name": "Frontend performance tests",
+          "path": ".github/workflows/frontend-perf-tests.yaml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/39035500899",
+          "head_sha": "3392442829842df6485c9305a23c30943147ebe6"
+        },
+        {
+          "id": 39035276970,
+          "name": "When an issue changes and it's part of the dashboards project, add the dashboards squad label",
+          "path": ".github/workflows/dashboards-issue-add-label.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/39035276970",
+          "head_sha": "3392442829842df6485c9305a23c30943147ebe6"
+        },
+        {
+          "id": 39034920545,
+          "name": "Ephemeral instances",
+          "path": ".github/workflows/ephemeral-instances-pr-comment.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/39034920545",
+          "head_sha": "3392442829842df6485c9305a23c30943147ebe6"
+        },
+        {
+          "id": 39034920511,
+          "name": "Deploy frontend preview",
+          "path": ".github/workflows/deploy-frontend-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/39034920511",
+          "head_sha": "3392442829842df6485c9305a23c30943147ebe6"
+        },
+        {
+          "id": 39034921052,
+          "name": "Run commands when issues are labeled or comments added",
+          "path": ".github/workflows/commands.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/39034921052",
+          "head_sha": "3392442829842df6485c9305a23c30943147ebe6"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38987927468,
+          "name": "Post-release",
+          "path": ".github/workflows/release-comms.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38987927468",
+          "head_sha": "16cc594f99734e9da764521cf7d64146680fac4b"
+        },
+        {
+          "id": 38987927385,
+          "name": "Backport (trigger)",
+          "path": ".github/workflows/backport-trigger.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38987927385",
+          "head_sha": "16cc594f99734e9da764521cf7d64146680fac4b"
+        },
+        {
+          "id": 38987926940,
+          "name": "Auto-milestone",
+          "path": ".github/workflows/auto-milestone.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38987926940",
+          "head_sha": "16cc594f99734e9da764521cf7d64146680fac4b"
+        },
+        {
+          "id": 38987927439,
+          "name": "Ephemeral instances",
+          "path": ".github/workflows/ephemeral-instances-pr-comment.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38987927439",
+          "head_sha": "16cc594f99734e9da764521cf7d64146680fac4b"
+        },
+        {
+          "id": 38986291766,
+          "name": "Frontend tests",
+          "path": ".github/workflows/pr-frontend-unit-tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38986291766",
+          "head_sha": "16cc594f99734e9da764521cf7d64146680fac4b"
+        },
+        {
+          "id": 38986287982,
+          "name": "Add comment about adding a What's new note for either what's new or breaking changes",
+          "path": ".github/workflows/add-to-whats-new.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38986287982",
+          "head_sha": "16cc594f99734e9da764521cf7d64146680fac4b"
+        },
+        {
+          "id": 38986287882,
+          "name": "Display info box when PR contains unsigned commits",
+          "path": ".github/workflows/global-signed-commits-info.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38986287882",
+          "head_sha": "16cc594f99734e9da764521cf7d64146680fac4b"
+        },
+        {
+          "id": 38986287925,
+          "name": "Backport (trigger)",
+          "path": ".github/workflows/backport-trigger.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38986287925",
+          "head_sha": "16cc594f99734e9da764521cf7d64146680fac4b"
+        },
+        {
+          "id": 38986288505,
+          "name": "Backport (trigger)",
+          "path": ".github/workflows/backport-trigger.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38986288505",
+          "head_sha": "16cc594f99734e9da764521cf7d64146680fac4b"
+        },
+        {
+          "id": 38986288543,
+          "name": "Add comment about adding a What's new note for either what's new or breaking changes",
+          "path": ".github/workflows/add-to-whats-new.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38986288543",
+          "head_sha": "16cc594f99734e9da764521cf7d64146680fac4b"
+        }
+      ]
+    },
+    {
+      "number": 135240,
+      "title": "CI: Install Go before make in MySQL and Postgres integration jobs",
+      "url": "https://github.com/grafana/grafana/pull/135240",
+      "merged_at": "2026-10-16T21:03:27Z",
+      "merge_commit_sha": "fc9c35a6696b22a2b3ef6058a1ea5061795e268d",
+      "files": [
+        ".github/workflows/pr-test-integration.yml"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".github/workflows/pr-test-integration.yml",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 0,
+          "blob_url": "https://github.com/grafana/grafana/blob/7fe1625a2d586a8a4d8010f8fc4bc3bee3d4c8a7/.github%2Fworkflows%2Fpr-test-integration.yml"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38987160213,
+          "name": "Report Frontend Coverage to Bench",
+          "path": ".github/workflows/report-frontend-coverage-to-bench.yaml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38987160213",
+          "head_sha": "fc9c35a6696b22a2b3ef6058a1ea5061795e268d"
+        },
+        {
+          "id": 38987114961,
+          "name": "Frontend performance tests",
+          "path": ".github/workflows/frontend-perf-tests.yaml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38987114961",
+          "head_sha": "fc9c35a6696b22a2b3ef6058a1ea5061795e268d"
+        },
+        {
+          "id": 38986779391,
+          "name": "Publish NPM canary 13.3.0-38986498307",
+          "path": ".github/workflows/release-npm.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38986779391",
+          "head_sha": "fc9c35a6696b22a2b3ef6058a1ea5061795e268d"
+        },
+        {
+          "id": 38986498307,
+          "name": "Build Release Packages",
+          "path": ".github/workflows/release-build.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38986498307",
+          "head_sha": "fc9c35a6696b22a2b3ef6058a1ea5061795e268d"
+        },
+        {
+          "id": 38986477731,
+          "name": "External PR Notify Handler",
+          "path": ".github/workflows/external-pr-notify-handler.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38986477731",
+          "head_sha": "fc9c35a6696b22a2b3ef6058a1ea5061795e268d"
+        },
+        {
+          "id": 38986300519,
+          "name": "Backport for i18n_crowdin_translations #60533",
+          "path": ".github/workflows/backport-workflow.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38986300519",
+          "head_sha": "fc9c35a6696b22a2b3ef6058a1ea5061795e268d"
+        },
+        {
+          "id": 38986293459,
+          "name": "Backport for i18n_crowdin_translations #60534",
+          "path": ".github/workflows/backport-workflow.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38986293459",
+          "head_sha": "fc9c35a6696b22a2b3ef6058a1ea5061795e268d"
+        },
+        {
+          "id": 38986293067,
+          "name": "Backport for i18n_crowdin_translations #60531",
+          "path": ".github/workflows/backport-workflow.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38986293067",
+          "head_sha": "fc9c35a6696b22a2b3ef6058a1ea5061795e268d"
+        },
+        {
+          "id": 38986292936,
+          "name": "Backport for i18n_crowdin_translations #60532",
+          "path": ".github/workflows/backport-workflow.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38986292936",
+          "head_sha": "fc9c35a6696b22a2b3ef6058a1ea5061795e268d"
+        },
+        {
+          "id": 38986292755,
+          "name": "Backport for i18n_crowdin_translations #60530",
+          "path": ".github/workflows/backport-workflow.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38986292755",
+          "head_sha": "fc9c35a6696b22a2b3ef6058a1ea5061795e268d"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38966681558,
+          "name": "Ephemeral instances",
+          "path": ".github/workflows/ephemeral-instances-pr-comment.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38966681558",
+          "head_sha": "7fe1625a2d586a8a4d8010f8fc4bc3bee3d4c8a7"
+        },
+        {
+          "id": 38966681645,
+          "name": "Post-release",
+          "path": ".github/workflows/release-comms.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38966681645",
+          "head_sha": "7fe1625a2d586a8a4d8010f8fc4bc3bee3d4c8a7"
+        },
+        {
+          "id": 38966681351,
+          "name": "Backport (trigger)",
+          "path": ".github/workflows/backport-trigger.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38966681351",
+          "head_sha": "7fe1625a2d586a8a4d8010f8fc4bc3bee3d4c8a7"
+        },
+        {
+          "id": 38966680379,
+          "name": "Auto-milestone",
+          "path": ".github/workflows/auto-milestone.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38966680379",
+          "head_sha": "7fe1625a2d586a8a4d8010f8fc4bc3bee3d4c8a7"
+        },
+        {
+          "id": 38965027902,
+          "name": "Policybot",
+          "path": ".github/workflows/policybot.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38965027902",
+          "head_sha": "7fe1625a2d586a8a4d8010f8fc4bc3bee3d4c8a7"
+        },
+        {
+          "id": 38965027151,
+          "name": "Verify i18n",
+          "path": ".github/workflows/i18n-verify.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38965027151",
+          "head_sha": "7fe1625a2d586a8a4d8010f8fc4bc3bee3d4c8a7"
+        },
+        {
+          "id": 38965026220,
+          "name": "Run dashboard schema v2 e2e",
+          "path": ".github/workflows/run-schema-v2-e2e.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38965026220",
+          "head_sha": "7fe1625a2d586a8a4d8010f8fc4bc3bee3d4c8a7"
+        },
+        {
+          "id": 38965026089,
+          "name": "Display info box when PR contains unsigned commits",
+          "path": ".github/workflows/global-signed-commits-info.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38965026089",
+          "head_sha": "7fe1625a2d586a8a4d8010f8fc4bc3bee3d4c8a7"
+        },
+        {
+          "id": 38965026191,
+          "name": "Bundle size",
+          "path": ".github/workflows/pr-bundle-size.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38965026191",
+          "head_sha": "7fe1625a2d586a8a4d8010f8fc4bc3bee3d4c8a7"
+        },
+        {
+          "id": 38965026394,
+          "name": "Actionlint",
+          "path": ".github/workflows/actionlint.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38965026394",
+          "head_sha": "7fe1625a2d586a8a4d8010f8fc4bc3bee3d4c8a7"
+        }
+      ]
+    },
+    {
+      "number": 135236,
+      "title": "Chrome: Align floating extension sidebar with page padding",
+      "url": "https://github.com/grafana/grafana/pull/135236",
+      "merged_at": "2026-10-16T20:56:38Z",
+      "merge_commit_sha": "dfd3a9a815b06de94ef2ab6a482fa2e09b6f1bec",
+      "files": [
+        "public/app/core/components/AppChrome/AppChrome.tsx"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "public/app/core/components/AppChrome/AppChrome.tsx",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2,
+          "blob_url": "https://github.com/grafana/grafana/blob/ddc03ee18319d49e760e2ba4781c3973154a8b3a/public%2Fapp%2Fcore%2Fcomponents%2FAppChrome%2FAppChrome.tsx"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38966283221,
+          "name": "Ephemeral instances",
+          "path": ".github/workflows/ephemeral-instances-pr-comment.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38966283221",
+          "head_sha": "dfd3a9a815b06de94ef2ab6a482fa2e09b6f1bec"
+        },
+        {
+          "id": 38966282954,
+          "name": "Run commands when issues are labeled or comments added",
+          "path": ".github/workflows/commands.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38966282954",
+          "head_sha": "dfd3a9a815b06de94ef2ab6a482fa2e09b6f1bec"
+        },
+        {
+          "id": 38966283129,
+          "name": "Deploy frontend preview",
+          "path": ".github/workflows/deploy-frontend-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38966283129",
+          "head_sha": "dfd3a9a815b06de94ef2ab6a482fa2e09b6f1bec"
+        },
+        {
+          "id": 38966241774,
+          "name": "External PR Notify Handler",
+          "path": ".github/workflows/external-pr-notify-handler.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38966241774",
+          "head_sha": "dfd3a9a815b06de94ef2ab6a482fa2e09b6f1bec"
+        },
+        {
+          "id": 38966231710,
+          "name": "External PR Notify Handler",
+          "path": ".github/workflows/external-pr-notify-handler.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38966231710",
+          "head_sha": "dfd3a9a815b06de94ef2ab6a482fa2e09b6f1bec"
+        },
+        {
+          "id": 38965920880,
+          "name": "Publish NPM canary 13.3.0-38965873395",
+          "path": ".github/workflows/release-npm.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38965920880",
+          "head_sha": "dfd3a9a815b06de94ef2ab6a482fa2e09b6f1bec"
+        },
+        {
+          "id": 38965892137,
+          "name": "Publish NPM canary 13.3.0-38965843717",
+          "path": ".github/workflows/release-npm.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38965892137",
+          "head_sha": "dfd3a9a815b06de94ef2ab6a482fa2e09b6f1bec"
+        },
+        {
+          "id": 38965878911,
+          "name": "Backport for kristina/floating-sidebar-align-inset #60521",
+          "path": ".github/workflows/backport-workflow.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38965878911",
+          "head_sha": "dfd3a9a815b06de94ef2ab6a482fa2e09b6f1bec"
+        },
+        {
+          "id": 38965873057,
+          "name": "Deploy Storybook",
+          "path": ".github/workflows/deploy-storybook.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38965873057",
+          "head_sha": "dfd3a9a815b06de94ef2ab6a482fa2e09b6f1bec"
+        },
+        {
+          "id": 38965873254,
+          "name": "Verify i18n",
+          "path": ".github/workflows/i18n-verify.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38965873254",
+          "head_sha": "dfd3a9a815b06de94ef2ab6a482fa2e09b6f1bec"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38965871574,
+          "name": "Ephemeral instances",
+          "path": ".github/workflows/ephemeral-instances-pr-comment.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38965871574",
+          "head_sha": "ddc03ee18319d49e760e2ba4781c3973154a8b3a"
+        },
+        {
+          "id": 38965871344,
+          "name": "Auto-milestone",
+          "path": ".github/workflows/auto-milestone.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38965871344",
+          "head_sha": "ddc03ee18319d49e760e2ba4781c3973154a8b3a"
+        },
+        {
+          "id": 38965872046,
+          "name": "Post-release",
+          "path": ".github/workflows/release-comms.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38965872046",
+          "head_sha": "ddc03ee18319d49e760e2ba4781c3973154a8b3a"
+        },
+        {
+          "id": 38965871833,
+          "name": "Backport (trigger)",
+          "path": ".github/workflows/backport-trigger.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38965871833",
+          "head_sha": "ddc03ee18319d49e760e2ba4781c3973154a8b3a"
+        },
+        {
+          "id": 38962387225,
+          "name": "Lint Frontend",
+          "path": ".github/workflows/frontend-lint.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38962387225",
+          "head_sha": "ddc03ee18319d49e760e2ba4781c3973154a8b3a"
+        },
+        {
+          "id": 38962387403,
+          "name": "End-to-end tests",
+          "path": ".github/workflows/pr-e2e-tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38962387403",
+          "head_sha": "ddc03ee18319d49e760e2ba4781c3973154a8b3a"
+        },
+        {
+          "id": 38962387375,
+          "name": "Test Dockerfile",
+          "path": ".github/workflows/pr-test-docker.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38962387375",
+          "head_sha": "ddc03ee18319d49e760e2ba4781c3973154a8b3a"
+        },
+        {
+          "id": 38962387081,
+          "name": "Check Frontend Test Coverage",
+          "path": ".github/workflows/check-frontend-test-coverage.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38962387081",
+          "head_sha": "ddc03ee18319d49e760e2ba4781c3973154a8b3a"
+        },
+        {
+          "id": 38962387242,
+          "name": "PR build Docker image",
+          "path": ".github/workflows/pr-build-grafana.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38962387242",
+          "head_sha": "ddc03ee18319d49e760e2ba4781c3973154a8b3a"
+        },
+        {
+          "id": 38962386891,
+          "name": "Dispatch check for patch conflicts",
+          "path": ".github/workflows/pr-patch-check.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38962386891",
+          "head_sha": "ddc03ee18319d49e760e2ba4781c3973154a8b3a"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v13.2.4",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.2.4",
+      "published_at": "2026-10-13T11:41:03Z",
+      "target_commitish": "main",
+      "commit_sha": "af4a33e3786594ad72f72d97e6744010330c2977",
+      "assets": [
+        "grafana-enterprise-rpi_13.2.4_38252365904_linux_arm-6.deb",
+        "grafana-enterprise_13.2.4_38252365904_linux_amd64.deb",
+        "grafana-enterprise_13.2.4_38252365904_linux_amd64.rpm",
+        "grafana-enterprise_13.2.4_38252365904_linux_arm-7.deb",
+        "grafana-enterprise_13.2.4_38252365904_linux_arm64.deb",
+        "grafana-enterprise_13.2.4_38252365904_linux_arm64.rpm",
+        "grafana-rpi_13.2.4_38252365904_linux_arm-6.deb",
+        "grafana-v13.2.4.spdx.json",
+        "grafana_13.2.4_38252365904_linux_amd64.deb",
+        "grafana_13.2.4_38252365904_linux_amd64.rpm",
+        "grafana_13.2.4_38252365904_linux_arm-7.deb",
+        "grafana_13.2.4_38252365904_linux_arm64.deb",
+        "grafana_13.2.4_38252365904_linux_arm64.rpm"
+      ],
+      "workflow_runs": [
+        {
+          "id": 38391837054,
+          "name": "Build Release Packages",
+          "path": ".github/workflows/release-build.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38391837054",
+          "head_sha": "af4a33e3786594ad72f72d97e6744010330c2977"
+        },
+        {
+          "id": 38391836602,
+          "name": "Reject GitHub secrets",
+          "path": ".github/workflows/reject-gh-secrets.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38391836602",
+          "head_sha": "af4a33e3786594ad72f72d97e6744010330c2977"
+        },
+        {
+          "id": 38391836524,
+          "name": "dispatch-sync-to-mirror-release-13.2.5",
+          "path": ".github/workflows/sync-mirror-event.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38391836524",
+          "head_sha": "af4a33e3786594ad72f72d97e6744010330c2977"
+        },
+        {
+          "id": 38391835995,
+          "name": "Shellcheck",
+          "path": ".github/workflows/shellcheck.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38391835995",
+          "head_sha": "af4a33e3786594ad72f72d97e6744010330c2977"
+        },
+        {
+          "id": 38391836586,
+          "name": "Swagger generated code",
+          "path": ".github/workflows/swagger-gen.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38391836586",
+          "head_sha": "af4a33e3786594ad72f72d97e6744010330c2977"
+        },
+        {
+          "id": 38391836428,
+          "name": "Integration Tests",
+          "path": ".github/workflows/pr-test-integration.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38391836428",
+          "head_sha": "af4a33e3786594ad72f72d97e6744010330c2977"
+        },
+        {
+          "id": 38391836679,
+          "name": "Run Storybook a11y tests",
+          "path": ".github/workflows/storybook-a11y.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38391836679",
+          "head_sha": "af4a33e3786594ad72f72d97e6744010330c2977"
+        },
+        {
+          "id": 38391836202,
+          "name": "Build Go (matrix)",
+          "path": ".github/workflows/build-go-matrix.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38391836202",
+          "head_sha": "af4a33e3786594ad72f72d97e6744010330c2977"
+        },
+        {
+          "id": 38391836254,
+          "name": "Backend Unit Tests",
+          "path": ".github/workflows/backend-unit-tests.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38391836254",
+          "head_sha": "af4a33e3786594ad72f72d97e6744010330c2977"
+        },
+        {
+          "id": 38391837087,
+          "name": "Integration Tests (pgvector)",
+          "path": ".github/workflows/pr-test-integration-pgvector.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38391837087",
+          "head_sha": "af4a33e3786594ad72f72d97e6744010330c2977"
+        }
+      ]
+    },
+    {
+      "tag": "v13.1.8",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.1.8",
+      "published_at": "2026-10-13T13:01:57Z",
+      "target_commitish": "main",
+      "commit_sha": "de563aba11965c055cf713bd6ff4fd913db3ef2d",
+      "assets": [
+        "grafana-enterprise-rpi_13.1.8_38355360275_linux_arm-6.deb",
+        "grafana-enterprise_13.1.8_38355360275_linux_amd64.deb",
+        "grafana-enterprise_13.1.8_38355360275_linux_amd64.rpm",
+        "grafana-enterprise_13.1.8_38355360275_linux_arm-7.deb",
+        "grafana-enterprise_13.1.8_38355360275_linux_arm64.deb",
+        "grafana-enterprise_13.1.8_38355360275_linux_arm64.rpm",
+        "grafana-rpi_13.1.8_38355360275_linux_arm-6.deb",
+        "grafana-v13.1.8.spdx.json",
+        "grafana_13.1.8_38355360275_linux_amd64.deb",
+        "grafana_13.1.8_38355360275_linux_amd64.rpm",
+        "grafana_13.1.8_38355360275_linux_arm-7.deb",
+        "grafana_13.1.8_38355360275_linux_arm64.deb",
+        "grafana_13.1.8_38355360275_linux_arm64.rpm"
+      ],
+      "workflow_runs": [
+        {
+          "id": 38401749113,
+          "name": "Build Release Packages",
+          "path": ".github/workflows/release-build.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38401749113",
+          "head_sha": "de563aba11965c055cf713bd6ff4fd913db3ef2d"
+        },
+        {
+          "id": 38401749281,
+          "name": "Verify i18n",
+          "path": ".github/workflows/i18n-verify.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38401749281",
+          "head_sha": "de563aba11965c055cf713bd6ff4fd913db3ef2d"
+        },
+        {
+          "id": 38401748909,
+          "name": "Swagger generated code",
+          "path": ".github/workflows/swagger-gen.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38401748909",
+          "head_sha": "de563aba11965c055cf713bd6ff4fd913db3ef2d"
+        },
+        {
+          "id": 38401748969,
+          "name": "Reject GitHub secrets",
+          "path": ".github/workflows/reject-gh-secrets.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38401748969",
+          "head_sha": "de563aba11965c055cf713bd6ff4fd913db3ef2d"
+        },
+        {
+          "id": 38401748862,
+          "name": "Shellcheck",
+          "path": ".github/workflows/shellcheck.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38401748862",
+          "head_sha": "de563aba11965c055cf713bd6ff4fd913db3ef2d"
+        },
+        {
+          "id": 38401748571,
+          "name": "End-to-end tests",
+          "path": ".github/workflows/pr-e2e-tests.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38401748571",
+          "head_sha": "de563aba11965c055cf713bd6ff4fd913db3ef2d"
+        },
+        {
+          "id": 38401748677,
+          "name": "Frontend tests",
+          "path": ".github/workflows/pr-frontend-unit-tests.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38401748677",
+          "head_sha": "de563aba11965c055cf713bd6ff4fd913db3ef2d"
+        },
+        {
+          "id": 38401748554,
+          "name": "Integration Tests",
+          "path": ".github/workflows/pr-test-integration.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38401748554",
+          "head_sha": "de563aba11965c055cf713bd6ff4fd913db3ef2d"
+        },
+        {
+          "id": 38401748302,
+          "name": "Build Go (matrix)",
+          "path": ".github/workflows/build-go-matrix.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38401748302",
+          "head_sha": "de563aba11965c055cf713bd6ff4fd913db3ef2d"
+        },
+        {
+          "id": 38401748596,
+          "name": "Run Storybook a11y tests",
+          "path": ".github/workflows/storybook-a11y.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38401748596",
+          "head_sha": "de563aba11965c055cf713bd6ff4fd913db3ef2d"
+        }
+      ]
+    },
+    {
+      "tag": "v13.0.11",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.0.11",
+      "published_at": "2026-10-13T11:56:40Z",
+      "target_commitish": "main",
+      "commit_sha": "2f3692247bbb2efd98f860eebb654dba537501ef",
+      "assets": [
+        "grafana-enterprise-rpi_13.0.11_38228495433_linux_arm-6.deb",
+        "grafana-enterprise_13.0.11_38228495433_linux_amd64.deb",
+        "grafana-enterprise_13.0.11_38228495433_linux_amd64.rpm",
+        "grafana-enterprise_13.0.11_38228495433_linux_arm-7.deb",
+        "grafana-enterprise_13.0.11_38228495433_linux_arm64.deb",
+        "grafana-enterprise_13.0.11_38228495433_linux_arm64.rpm",
+        "grafana-rpi_13.0.11_38228495433_linux_arm-6.deb",
+        "grafana-v13.0.11.spdx.json",
+        "grafana_13.0.11_38228495433_linux_amd64.deb",
+        "grafana_13.0.11_38228495433_linux_amd64.rpm",
+        "grafana_13.0.11_38228495433_linux_arm-7.deb",
+        "grafana_13.0.11_38228495433_linux_arm64.deb",
+        "grafana_13.0.11_38228495433_linux_arm64.rpm"
+      ],
+      "workflow_runs": [
+        {
+          "id": 38393682812,
+          "name": "Frontend tests",
+          "path": ".github/workflows/pr-frontend-unit-tests.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38393682812",
+          "head_sha": "2f3692247bbb2efd98f860eebb654dba537501ef"
+        },
+        {
+          "id": 38393682848,
+          "name": "End-to-end tests",
+          "path": ".github/workflows/pr-e2e-tests.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38393682848",
+          "head_sha": "2f3692247bbb2efd98f860eebb654dba537501ef"
+        },
+        {
+          "id": 38393682829,
+          "name": "Shellcheck",
+          "path": ".github/workflows/shellcheck.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38393682829",
+          "head_sha": "2f3692247bbb2efd98f860eebb654dba537501ef"
+        },
+        {
+          "id": 38393683408,
+          "name": "Build Release Packages",
+          "path": ".github/workflows/release-build.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38393683408",
+          "head_sha": "2f3692247bbb2efd98f860eebb654dba537501ef"
+        },
+        {
+          "id": 38393682916,
+          "name": "Reject GitHub secrets",
+          "path": ".github/workflows/reject-gh-secrets.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38393682916",
+          "head_sha": "2f3692247bbb2efd98f860eebb654dba537501ef"
+        },
+        {
+          "id": 38393682707,
+          "name": "dispatch-sync-to-mirror-release-13.0.12",
+          "path": ".github/workflows/sync-mirror-event.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38393682707",
+          "head_sha": "2f3692247bbb2efd98f860eebb654dba537501ef"
+        },
+        {
+          "id": 38393682832,
+          "name": "Run Storybook a11y tests",
+          "path": ".github/workflows/storybook-a11y.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38393682832",
+          "head_sha": "2f3692247bbb2efd98f860eebb654dba537501ef"
+        },
+        {
+          "id": 38393682741,
+          "name": "Swagger generated code",
+          "path": ".github/workflows/swagger-gen.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38393682741",
+          "head_sha": "2f3692247bbb2efd98f860eebb654dba537501ef"
+        },
+        {
+          "id": 38393682700,
+          "name": "Build Go (matrix)",
+          "path": ".github/workflows/build-go-matrix.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38393682700",
+          "head_sha": "2f3692247bbb2efd98f860eebb654dba537501ef"
+        },
+        {
+          "id": 38393682887,
+          "name": "Lint Frontend",
+          "path": ".github/workflows/frontend-lint.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/grafana/grafana/actions/runs/38393682887",
+          "head_sha": "2f3692247bbb2efd98f860eebb654dba537501ef"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "vtest-new-release-pipeline",
+      "sha": "7eb60e3fddfa5f5683dbc3079cc0c74dadad896a"
+    },
+    {
+      "name": "v13.2.4",
+      "sha": "af4a33e3786594ad72f72d97e6744010330c2977"
+    },
+    {
+      "name": "v13.2.3",
+      "sha": "6193dc03311b631b9727b560d24369e683dc396e"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:14.543843+00:00",
+  "source_times": {
+    "/repos/grafana/grafana": "2026-10-17T16:14:09.919885+00:00",
+    "/repos/grafana/grafana/commits?sha=main&per_page=20": "2026-10-17T16:14:12.135834+00:00",
+    "/repos/grafana/grafana/git/trees/3392442829842df6485c9305a23c30943147ebe6": "2026-10-17T16:14:13.680187+00:00",
+    "/repos/grafana/grafana/git/trees/1b9ade06da2896445f7482e6f91fb1c3212652ec": "2026-10-17T16:14:15.063033+00:00",
+    "/repos/grafana/grafana/git/trees/996cbf360d32082cca36de9adf7c06142a80ff29": "2026-10-17T16:14:16.438272+00:00",
+    "/repos/grafana/grafana/git/trees/fc7c1bfe9259373789b0a9d8c6db194f1c1f2324": "2026-10-17T16:14:19.469615+00:00",
+    "/repos/grafana/grafana/git/trees/6a1cedb0579ce2f5027e473e6dffddbc2439ef68": "2026-10-17T16:14:21.252794+00:00",
+    "/repos/grafana/grafana/git/blobs/d559f3c51205969ad6a95dbe1836135265f78aae": "2026-10-17T16:14:23.880098+00:00",
+    "/repos/grafana/grafana/git/blobs/43c994c2d3617f947bcb5adf1933e21dabe46bb5": "2026-10-17T16:14:26.293382+00:00",
+    "/repos/grafana/grafana/git/blobs/ac296aad9558b03a7c48f07471ed1e1a074560ce": "2026-10-17T16:14:27.754982+00:00",
+    "/repos/grafana/grafana/git/blobs/67cf9bdc5016e230497a645aaf7a2a869a9e514f": "2026-10-17T16:14:29.387889+00:00",
+    "/repos/grafana/grafana/git/blobs/f246ca03386806893a3874073051ea270d649b99": "2026-10-17T16:14:30.913020+00:00",
+    "/repos/grafana/grafana/git/blobs/b1443b3372275528260ae5fda4743eb2d8ac29f0": "2026-10-17T16:14:32.279514+00:00",
+    "/repos/grafana/grafana/git/blobs/1ffad5bf58ad32598bdafc4716b2abeed0f400b7": "2026-10-17T16:14:34.038591+00:00",
+    "/repos/grafana/grafana/git/blobs/7b768e029f8ad89feae45d31bce9a57d42d9cf5c": "2026-10-17T16:14:35.609957+00:00",
+    "/repos/grafana/grafana/git/blobs/a8aae994618db1105f43961798b35726d7652909": "2026-10-17T16:14:37.028839+00:00",
+    "/repos/grafana/grafana/git/blobs/61133a678583d054986357e8f965574d7ed3682c": "2026-10-17T16:14:38.790545+00:00",
+    "/repos/grafana/grafana/git/blobs/3c6306756724e453cc2ddec910522dff349cb856": "2026-10-17T16:14:41.581553+00:00",
+    "/repos/grafana/grafana/git/blobs/b78245519437eba739a4bb20932582d456a69160": "2026-10-17T16:14:43.722805+00:00",
+    "/repos/grafana/grafana/git/blobs/79d35ee6decf7536def3e184235a8c2ede406160": "2026-10-17T16:14:45.197589+00:00",
+    "/repos/grafana/grafana/git/blobs/67449c9af2a1fa7f67c2b6eb7b0e1e975a22391e": "2026-10-17T16:14:46.636081+00:00",
+    "/repos/grafana/grafana/git/blobs/51b3ecc255b6bcdea282ea77f343a2680fc6e946": "2026-10-17T16:14:48.004325+00:00",
+    "/repos/grafana/grafana/git/blobs/02e5266d2316a822b7e492207c58d81099fa9372": "2026-10-17T16:14:49.368588+00:00",
+    "/repos/grafana/grafana/git/blobs/48aa91e08c9d71aa388b754ee3f5c12eef8e027a": "2026-10-17T16:14:50.819515+00:00",
+    "/repos/grafana/grafana/git/blobs/8211d8ee69ce052ef4675045de046a7eeb5e26ad": "2026-10-17T16:14:52.267576+00:00",
+    "/repos/grafana/grafana/git/blobs/116beb08dafb04753d99bb1ce1c2eb6db71c80f6": "2026-10-17T16:14:53.631114+00:00",
+    "/repos/grafana/grafana/git/blobs/bbf099b7757ffd633f8e38c8054bdaa6ccddbd90": "2026-10-17T16:14:55.002492+00:00",
+    "/repos/grafana/grafana/git/blobs/8202b11f826419189bc8968b743cb1527281e1a5": "2026-10-17T16:14:56.429557+00:00",
+    "/repos/grafana/grafana/git/blobs/0bf4e8446b5dce0ad22b0968e7b9f927516649b3": "2026-10-17T16:14:57.813903+00:00",
+    "/repos/grafana/grafana/git/blobs/8f30f59e3919a3a9d4aef3102a22883656198d65": "2026-10-17T16:14:59.198278+00:00",
+    "/repos/grafana/grafana/git/blobs/ecc4e41bd06e877deca6f616a3a532851d651267": "2026-10-17T16:15:00.829129+00:00",
+    "/repos/grafana/grafana/git/blobs/ccf91675a3123ceaea3af095700812b27ced5f7c": "2026-10-17T16:15:03.220247+00:00",
+    "/repos/grafana/grafana/git/blobs/4ce387e128f16512e40b4aa69fdc0fed4a9728d1": "2026-10-17T16:15:04.577566+00:00",
+    "/repos/grafana/grafana/git/blobs/eebfb4575f9b22a8c900751ecd584a1c6f5f718b": "2026-10-17T16:15:05.988661+00:00",
+    "/repos/grafana/grafana/git/blobs/a20d40c3e4642076086fbdbd997a0f4368925d21": "2026-10-17T16:15:07.383737+00:00",
+    "/repos/grafana/grafana/git/blobs/1776d593e4fc24744a3412d379c1935aae4b56c6": "2026-10-17T16:15:08.762553+00:00",
+    "/repos/grafana/grafana/git/blobs/d5eebc8f7759c6f3fe50b23117c2cc23a1934c8a": "2026-10-17T16:15:10.158629+00:00",
+    "/repos/grafana/grafana/git/blobs/01bce7a7a256c145e19b7849bbb122a27af79fcc": "2026-10-17T16:15:11.554605+00:00",
+    "/repos/grafana/grafana/git/blobs/54f126cf17f7e7d3913e7571ac06295c6225c920": "2026-10-17T16:15:12.909842+00:00",
+    "/repos/grafana/grafana/git/blobs/dee4fe2d2d3c718880a6b538755ec23d814d2b43": "2026-10-17T16:15:14.262213+00:00",
+    "/repos/grafana/grafana/git/blobs/d09d1b1f47f2fd1359a56da74cf57b3dc98ed55f": "2026-10-17T16:15:17.031575+00:00",
+    "/repos/grafana/grafana/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:15:23.989042+00:00",
+    "/repos/grafana/grafana/pulls/135249/files?per_page=100": "2026-10-17T16:15:26.134241+00:00",
+    "/repos/grafana/grafana/pulls/135249/reviews?per_page=100": "2026-10-17T16:15:27.708138+00:00",
+    "/repos/grafana/grafana/actions/runs?head_sha=3392442829842df6485c9305a23c30943147ebe6&per_page=10": "2026-10-17T16:15:29.904637+00:00",
+    "/repos/grafana/grafana/actions/runs?head_sha=16cc594f99734e9da764521cf7d64146680fac4b&per_page=10": "2026-10-17T16:15:32.544139+00:00",
+    "/repos/grafana/grafana/pulls/135240/files?per_page=100": "2026-10-17T16:15:34.016928+00:00",
+    "/repos/grafana/grafana/pulls/135240/reviews?per_page=100": "2026-10-17T16:15:35.596789+00:00",
+    "/repos/grafana/grafana/actions/runs?head_sha=fc9c35a6696b22a2b3ef6058a1ea5061795e268d&per_page=10": "2026-10-17T16:15:38.093140+00:00",
+    "/repos/grafana/grafana/actions/runs?head_sha=7fe1625a2d586a8a4d8010f8fc4bc3bee3d4c8a7&per_page=10": "2026-10-17T16:15:40.221092+00:00",
+    "/repos/grafana/grafana/pulls/135236/files?per_page=100": "2026-10-17T16:15:41.675720+00:00",
+    "/repos/grafana/grafana/pulls/135236/reviews?per_page=100": "2026-10-17T16:15:43.273803+00:00",
+    "/repos/grafana/grafana/actions/runs?head_sha=dfd3a9a815b06de94ef2ab6a482fa2e09b6f1bec&per_page=10": "2026-10-17T16:15:47.390565+00:00",
+    "/repos/grafana/grafana/actions/runs?head_sha=ddc03ee18319d49e760e2ba4781c3973154a8b3a&per_page=10": "2026-10-17T16:15:50.977867+00:00",
+    "/repos/grafana/grafana/releases?per_page=20&page=1": "2026-10-17T16:17:14.537950+00:00",
+    "/repos/grafana/grafana/commits/v13.2.4": "2026-10-17T16:15:56.009587+00:00",
+    "/repos/grafana/grafana/actions/runs?head_sha=af4a33e3786594ad72f72d97e6744010330c2977&per_page=10": "2026-10-17T16:15:58.200474+00:00",
+    "/repos/grafana/grafana/commits/v13.1.8": "2026-10-17T16:16:00.568263+00:00",
+    "/repos/grafana/grafana/actions/runs?head_sha=de563aba11965c055cf713bd6ff4fd913db3ef2d&per_page=10": "2026-10-17T16:16:02.765957+00:00",
+    "/repos/grafana/grafana/commits/v13.0.11": "2026-10-17T16:16:04.945628+00:00",
+    "/repos/grafana/grafana/actions/runs?head_sha=2f3692247bbb2efd98f860eebb654dba537501ef&per_page=10": "2026-10-17T16:16:07.284180+00:00",
+    "/repos/grafana/grafana/tags?per_page=3": "2026-10-17T16:16:09.655573+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:14.537950+00:00",
+  "status": "collected"
+}

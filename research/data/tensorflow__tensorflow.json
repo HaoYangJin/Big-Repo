@@ -1,0 +1,1469 @@
+{
+  "requested_repository": "tensorflow/tensorflow",
+  "category": "ml",
+  "collected_at": "2026-10-17T16:09:34.357893+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "tensorflow/tensorflow",
+  "metadata": {
+    "html_url": "https://github.com/tensorflow/tensorflow",
+    "description": "An Open Source Machine Learning Framework for Everyone",
+    "homepage": "https://tensorflow.org",
+    "language": "C++",
+    "stargazers_count": 201076,
+    "forks_count": 79641,
+    "open_issues_count": 3373,
+    "pushed_at": "2026-10-17T15:52:17Z",
+    "created_at": "2015-11-07T01:19:20Z",
+    "archived": false,
+    "default_branch": "master",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [
+      "deep-learning",
+      "deep-neural-networks",
+      "distributed",
+      "machine-learning",
+      "ml",
+      "neural-network",
+      "python",
+      "tensorflow"
+    ],
+    "owner": {
+      "login": "tensorflow",
+      "type": "Organization",
+      "html_url": "https://github.com/tensorflow"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "d34b7e701f320d4a265f67357bd6a3a53a4c1ccf",
+      "url": "https://github.com/tensorflow/tensorflow/commit/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf",
+      "date": "2026-10-17T15:52:09Z",
+      "subject": "Refactor CostModel into extensible base and introduce DenseCostModel"
+    },
+    {
+      "sha": "af59db942b61f68d2e320be3249a1c2339adb41e",
+      "url": "https://github.com/tensorflow/tensorflow/commit/af59db942b61f68d2e320be3249a1c2339adb41e",
+      "date": "2026-10-17T13:17:29Z",
+      "subject": "Automated Code Change"
+    },
+    {
+      "sha": "8329f1bc2bdffaecb9ae935aec723f89da67a50e",
+      "url": "https://github.com/tensorflow/tensorflow/commit/8329f1bc2bdffaecb9ae935aec723f89da67a50e",
+      "date": "2026-10-17T10:21:09Z",
+      "subject": "Lower `lax.exp2_p` and `lax.log2_p` directly to `stablehlo.exp2` and `stablehlo.log2`"
+    },
+    {
+      "sha": "9223b75468a239ec00058eead2b9b8206ccbaebe",
+      "url": "https://github.com/tensorflow/tensorflow/commit/9223b75468a239ec00058eead2b9b8206ccbaebe",
+      "date": "2026-10-17T08:11:16Z",
+      "subject": "[XLA] Remove deprecated HloPassInterface::Run(std::unique_ptr<HloModule>&)."
+    },
+    {
+      "sha": "fceefffb2c92b346b7e1178fb5f87bcc39a11c3a",
+      "url": "https://github.com/tensorflow/tensorflow/commit/fceefffb2c92b346b7e1178fb5f87bcc39a11c3a",
+      "date": "2026-10-17T08:01:39Z",
+      "subject": "Merge pull request #128629 from vishwakt:fix-xla-nms-threshold-dtype"
+    },
+    {
+      "sha": "f83e85bae0b39efe1127e211cdd20999dde3a286",
+      "url": "https://github.com/tensorflow/tensorflow/commit/f83e85bae0b39efe1127e211cdd20999dde3a286",
+      "date": "2026-10-17T07:47:12Z",
+      "subject": "Merge pull request #123572 from madib06ops:uncompress-zero-element-component"
+    },
+    {
+      "sha": "b9b04b174ab779066680ea3fe65f056e5f88854e",
+      "url": "https://github.com/tensorflow/tensorflow/commit/b9b04b174ab779066680ea3fe65f056e5f88854e",
+      "date": "2026-10-17T07:37:00Z",
+      "subject": "[XLA:TSL] Deduplicate Eigen spatial convolution contraction mappers across alignment and contiguity parameters"
+    },
+    {
+      "sha": "f601a92cdb5b7a38d85d7733b655f1215ae1d8bc",
+      "url": "https://github.com/tensorflow/tensorflow/commit/f601a92cdb5b7a38d85d7733b655f1215ae1d8bc",
+      "date": "2026-10-17T06:06:45Z",
+      "subject": "Clean up dedup_meshes.cc and preserve reductionOp in replaceAxesInSharding."
+    },
+    {
+      "sha": "ec591b48038d4e5f0a2123d5216dc9439e54eb2a",
+      "url": "https://github.com/tensorflow/tensorflow/commit/ec591b48038d4e5f0a2123d5216dc9439e54eb2a",
+      "date": "2026-10-17T04:54:44Z",
+      "subject": "Fix two problems in handling sub axes in rewriteReplicaGroupAttr."
+    },
+    {
+      "sha": "0bb599ee9143fea0ee0d4469d07ca62eaf9a5375",
+      "url": "https://github.com/tensorflow/tensorflow/commit/0bb599ee9143fea0ee0d4469d07ca62eaf9a5375",
+      "date": "2026-10-17T03:32:57Z",
+      "subject": "Copy host<->device transfers directly under GPU Confidential Computing."
+    },
+    {
+      "sha": "cae52ab735293bcf2743802662108207ee86402e",
+      "url": "https://github.com/tensorflow/tensorflow/commit/cae52ab735293bcf2743802662108207ee86402e",
+      "date": "2026-10-17T01:26:52Z",
+      "subject": "Wait for receiver allocation sync points before cross-host GPU recv."
+    },
+    {
+      "sha": "6d648305df6b05e4d62651f0ca1fead0654374dd",
+      "url": "https://github.com/tensorflow/tensorflow/commit/6d648305df6b05e4d62651f0ca1fead0654374dd",
+      "date": "2026-10-17T00:43:06Z",
+      "subject": "[XLA:CPU] Fold sin(-x) and cos(-x) before intrinsic lowering."
+    },
+    {
+      "sha": "3b5883f49798646a739d15961856dd4a1314aa53",
+      "url": "https://github.com/tensorflow/tensorflow/commit/3b5883f49798646a739d15961856dd4a1314aa53",
+      "date": "2026-10-17T00:28:38Z",
+      "subject": "Use relative tolerance in `DefaultSchedulerCore::AddOccupierToResource` latency check."
+    },
+    {
+      "sha": "ae7e665e5f29fda9ed1548d523ca7f16c0121e2c",
+      "url": "https://github.com/tensorflow/tensorflow/commit/ae7e665e5f29fda9ed1548d523ca7f16c0121e2c",
+      "date": "2026-10-17T00:13:17Z",
+      "subject": "Add `spanner_fdo_key` field to `SparseCoreTableLayout` proto for non-abbreviated Spanner FDO table keys."
+    },
+    {
+      "sha": "883ec7a57c2ad3a7eb2bb344bdc8553af940bd35",
+      "url": "https://github.com/tensorflow/tensorflow/commit/883ec7a57c2ad3a7eb2bb344bdc8553af940bd35",
+      "date": "2026-10-17T00:09:30Z",
+      "subject": "Integrate LLVM at llvm/llvm-project@4fa92e8e51e6"
+    },
+    {
+      "sha": "25ca0f0b536e4ccfe1e3151193f46e66a4825d32",
+      "url": "https://github.com/tensorflow/tensorflow/commit/25ca0f0b536e4ccfe1e3151193f46e66a4825d32",
+      "date": "2026-10-17T00:01:46Z",
+      "subject": "Add protobuf serialization and deserialization to tensorflow::RequestCost."
+    },
+    {
+      "sha": "77ab63cfaae1589716aacfc7e191de0e6edbac8f",
+      "url": "https://github.com/tensorflow/tensorflow/commit/77ab63cfaae1589716aacfc7e191de0e6edbac8f",
+      "date": "2026-10-16T23:49:27Z",
+      "subject": "[XLA Highway] Switch XLA transpose kernels to Highway & clean up legacy intrinsics"
+    },
+    {
+      "sha": "55310b93b77ae7741a26b9b8a463e2b8ef11f45e",
+      "url": "https://github.com/tensorflow/tensorflow/commit/55310b93b77ae7741a26b9b8a463e2b8ef11f45e",
+      "date": "2026-10-16T23:27:26Z",
+      "subject": "Add an executable checks option to deserialization and add LaunchOnDevice."
+    },
+    {
+      "sha": "f6a32b7a75fe2e9c61ef4d8f7be75d115a201876",
+      "url": "https://github.com/tensorflow/tensorflow/commit/f6a32b7a75fe2e9c61ef4d8f7be75d115a201876",
+      "date": "2026-10-16T23:22:47Z",
+      "subject": "Roll forward of \"[Mosaic] Fix tpu.memref_squeeze...\" with relaxed verifier"
+    },
+    {
+      "sha": "9dd1241c2a15417ac0c9eb3940f67bd7639b4646",
+      "url": "https://github.com/tensorflow/tensorflow/commit/9dd1241c2a15417ac0c9eb3940f67bd7639b4646",
+      "date": "2026-10-16T22:49:27Z",
+      "subject": "[XLA Highway] Add 8x32 byte transpose microkernel"
+    }
+  ],
+  "default_sha": "d34b7e701f320d4a265f67357bd6a3a53a4c1ccf",
+  "root_and_selected_directory_paths": [
+    ".bazelignore",
+    ".bazelrc",
+    ".bazelversion",
+    ".clang-format",
+    ".gemini",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/tensorflow_issue_template.yaml",
+    ".github/ISSUE_TEMPLATE/tflite-converter-issue.md",
+    ".github/ISSUE_TEMPLATE/tflite-in-play-services.md",
+    ".github/ISSUE_TEMPLATE/tflite-op-request.md",
+    ".github/ISSUE_TEMPLATE/tflite-other.md",
+    ".github/bot_config.yml",
+    ".github/dependabot.yml",
+    ".github/workflows",
+    ".github/workflows/arm-cd.yml",
+    ".github/workflows/arm-ci-extended-cpp.yml",
+    ".github/workflows/arm-ci-extended.yml",
+    ".github/workflows/arm-ci.yml",
+    ".github/workflows/build-reusable.yml",
+    ".github/workflows/cffconvert.yml",
+    ".github/workflows/check_license.yml",
+    ".github/workflows/ci-build.yml",
+    ".github/workflows/create_issue.js",
+    ".github/workflows/gemini.yml",
+    ".github/workflows/issue-on-pr-rollback.yml",
+    ".github/workflows/osv-scanner-scheduled.yml",
+    ".github/workflows/pylint-presubmit.yml",
+    ".github/workflows/release-branch-cherrypick.yml",
+    ".github/workflows/scorecards-analysis.yml",
+    ".github/workflows/stale-issues.yml",
+    ".github/workflows/update-nightly.yml",
+    ".github/workflows/update-rbe.yml",
+    ".gitignore",
+    ".pylintrc",
+    ".zenodo.json",
+    "AUTHORS",
+    "BUILD",
+    "CITATION.cff",
+    "CODEOWNERS",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "ISSUES.md",
+    "LICENSE",
+    "MODULE.bazel",
+    "README.md",
+    "RELEASE.md",
+    "SECURITY.md",
+    "WORKSPACE",
+    "arm_compiler.BUILD",
+    "bazel_downloader.cfg",
+    "ci",
+    "configure",
+    "configure.cmd",
+    "configure.py",
+    "models.BUILD",
+    "requirements_lock_3_10.txt",
+    "requirements_lock_3_11.txt",
+    "requirements_lock_3_12.txt",
+    "requirements_lock_3_13.txt",
+    "requirements_lock_3_14.txt",
+    "requirements_lock_3_14_freethreaded.txt",
+    "tensorflow",
+    "third_party",
+    "tools"
+  ],
+  "workflow_paths": [
+    ".github/workflows/arm-ci-extended-cpp.yml",
+    ".github/workflows/arm-ci-extended.yml",
+    ".github/workflows/arm-ci.yml",
+    ".github/workflows/ci-build.yml",
+    ".github/workflows/release-branch-cherrypick.yml",
+    ".github/workflows/arm-cd.yml",
+    ".github/workflows/build-reusable.yml",
+    ".github/workflows/cffconvert.yml",
+    ".github/workflows/check_license.yml",
+    ".github/workflows/create_issue.js",
+    ".github/workflows/gemini.yml",
+    ".github/workflows/issue-on-pr-rollback.yml",
+    ".github/workflows/osv-scanner-scheduled.yml",
+    ".github/workflows/pylint-presubmit.yml",
+    ".github/workflows/scorecards-analysis.yml",
+    ".github/workflows/stale-issues.yml",
+    ".github/workflows/update-nightly.yml",
+    ".github/workflows/update-rbe.yml"
+  ],
+  "documents": [
+    {
+      "path": "CODEOWNERS",
+      "sha": "a574493352c31d88a968a0dfa2f7b806bbf96db2",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/CODEOWNERS",
+      "lines": 18,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "e5203a7cf2286eeb309ce4ea099c41fb2f872c65",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/CODE_OF_CONDUCT.md",
+      "lines": 79,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "1a1f2350cd69c1e7e29347e7df55e6fbb1c1a9b8",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/CONTRIBUTING.md",
+      "lines": 375,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [
+          18,
+          74
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          107
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "2ada91b134b2bc6daa60ca6265f1290f38a748c1",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/README.md",
+      "lines": 168,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          5,
+          6,
+          12,
+          13,
+          17
+        ],
+        "media": [
+          2,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          17
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          151
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "RELEASE.md",
+      "status": "skipped-size",
+      "sha": "bc6ed23056fdb4ba04da7bff62c3df2c9cf398e5"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "4d52d02cb53d17ecbd16a0e6ce3cae5e6e7331ca",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/SECURITY.md",
+      "lines": 187,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          147
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          66
+        ]
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "531e35ed48afcb0d5f78bf56544fe3fbb25b731d",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 16,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/tensorflow_issue_template.yaml",
+      "sha": "a39d5b2a956a0d1b1f28c8cf052b5cbf37b5d980",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/ISSUE_TEMPLATE/tensorflow_issue_template.yaml",
+      "lines": 141,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/tflite-converter-issue.md",
+      "sha": "70be52989048c21e3523fd4318f3827408177b5f",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/ISSUE_TEMPLATE/tflite-converter-issue.md",
+      "lines": 47,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          20,
+          21
+        ],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/tflite-in-play-services.md",
+      "sha": "429b842a2d05fba7059d5a9b1a6569f024c003cc",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/ISSUE_TEMPLATE/tflite-in-play-services.md",
+      "lines": 23,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/tflite-op-request.md",
+      "sha": "4f1e60b553abeb5248b47f591f7f7936d1df0afb",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/ISSUE_TEMPLATE/tflite-op-request.md",
+      "lines": 30,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/tflite-other.md",
+      "sha": "8b8246f2b72afc60c79865cb09a9784f30ecd7a4",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/ISSUE_TEMPLATE/tflite-other.md",
+      "lines": 62,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "dc2cd714664a0b420d649a140dd717b94e9cb78f",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/dependabot.yml",
+      "lines": 45,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/arm-ci-extended-cpp.yml",
+      "sha": "06a6e9bdf4113a60d6ef846f4fcd2c40de4a3b22",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/workflows/arm-ci-extended-cpp.yml",
+      "lines": 64,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          25
+        ],
+        "pinned_actions": [
+          53,
+          58
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/arm-ci-extended.yml",
+      "sha": "e67407140e00171cbd3b2c417cabdb0b96d680ec",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/workflows/arm-ci-extended.yml",
+      "lines": 65,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          25
+        ],
+        "pinned_actions": [
+          54,
+          59
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/arm-ci.yml",
+      "sha": "9189e14bc79bc4a6ebde4dd80c68b7d0738e7e96",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/workflows/arm-ci.yml",
+      "lines": 55,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          23
+        ],
+        "pinned_actions": [
+          50
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci-build.yml",
+      "sha": "0af4c3a03ee0cab3fabf428f0269b32d60874729",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/workflows/ci-build.yml",
+      "lines": 61,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          23
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release-branch-cherrypick.yml",
+      "sha": "9cc30dd9b3073d7fbb75328651681b50afa00693",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/workflows/release-branch-cherrypick.yml",
+      "lines": 71,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          38
+        ],
+        "pinned_actions": [
+          48,
+          61
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/arm-cd.yml",
+      "sha": "58b4908e1c1509d1d0bfe886ae3aaa4ad39e3548",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/workflows/arm-cd.yml",
+      "lines": 71,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          27
+        ],
+        "pinned_actions": [
+          55,
+          60
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build-reusable.yml",
+      "sha": "e330cf1d099e020a7c3494b459739fc3ee1e03c5",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/workflows/build-reusable.yml",
+      "lines": 71,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          33
+        ],
+        "pinned_actions": [
+          50,
+          67
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/cffconvert.yml",
+      "sha": "55c95389f5161d886dcafaac02f2d99f13dbc93b",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/workflows/cffconvert.yml",
+      "lines": 38,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          23
+        ],
+        "pinned_actions": [
+          33,
+          36
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/check_license.yml",
+      "sha": "b810e78633137d0e2e69ff9e35a7c8b97e8a3b64",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/workflows/check_license.yml",
+      "lines": 57,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          17
+        ],
+        "pinned_actions": [
+          34,
+          38,
+          43
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/create_issue.js",
+      "sha": "eca20953f8484adad41f390347407339bdd573a0",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/workflows/create_issue.js",
+      "lines": 64,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/gemini.yml",
+      "sha": "28cff13f49e2f192ad0f65af2972c1f987f10104",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/workflows/gemini.yml",
+      "lines": 39,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          22
+        ],
+        "pinned_actions": [
+          33
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/issue-on-pr-rollback.yml",
+      "sha": "4795c11da8806163a37765b904df7cbfce6279cd",
+      "status": "inspected",
+      "url": "https://github.com/tensorflow/tensorflow/blob/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf/.github/workflows/issue-on-pr-rollback.yml",
+      "lines": 43,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          22,
+          27
+        ],
+        "pinned_actions": [
+          36,
+          38
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 128629,
+      "title": "Convert NMS thresholds to the boxes' type in XLA",
+      "url": "https://github.com/tensorflow/tensorflow/pull/128629",
+      "merged_at": "2026-10-17T08:02:04Z",
+      "merge_commit_sha": "fceefffb2c92b346b7e1178fb5f87bcc39a11c3a",
+      "files": [
+        "tensorflow/compiler/tests/image_ops_test.py",
+        "tensorflow/compiler/tf2xla/kernels/image_ops.cc"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "tensorflow/compiler/tests/image_ops_test.py",
+          "status": "modified",
+          "additions": 83,
+          "deletions": 0,
+          "blob_url": "https://github.com/tensorflow/tensorflow/blob/2e27301941712c7ccb99de7575220a0334c9742b/tensorflow%2Fcompiler%2Ftests%2Fimage_ops_test.py"
+        },
+        {
+          "filename": "tensorflow/compiler/tf2xla/kernels/image_ops.cc",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 2,
+          "blob_url": "https://github.com/tensorflow/tensorflow/blob/2e27301941712c7ccb99de7575220a0334c9742b/tensorflow%2Fcompiler%2Ftf2xla%2Fkernels%2Fimage_ops.cc"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "CHANGES_REQUESTED",
+        "APPROVED",
+        "CHANGES_REQUESTED",
+        "APPROVED",
+        "CHANGES_REQUESTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39015844333,
+          "name": "Creates a GitHub Issue when a PR Rolled back via Commit to Master",
+          "path": ".github/workflows/issue-on-pr-rollback.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/39015844333",
+          "head_sha": "fceefffb2c92b346b7e1178fb5f87bcc39a11c3a"
+        },
+        {
+          "id": 39015844296,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards-analysis.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/39015844296",
+          "head_sha": "fceefffb2c92b346b7e1178fb5f87bcc39a11c3a"
+        },
+        {
+          "id": 39015844204,
+          "name": "Push on master",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/39015844204",
+          "head_sha": "fceefffb2c92b346b7e1178fb5f87bcc39a11c3a"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38820934357,
+          "name": "Gemini PR Review",
+          "path": ".github/workflows/gemini.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38820934357",
+          "head_sha": "2e27301941712c7ccb99de7575220a0334c9742b"
+        },
+        {
+          "id": 38315248689,
+          "name": "CI",
+          "path": ".github/workflows/ci-build.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38315248689",
+          "head_sha": "2e27301941712c7ccb99de7575220a0334c9742b"
+        },
+        {
+          "id": 38315248468,
+          "name": "PyLint",
+          "path": ".github/workflows/pylint-presubmit.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38315248468",
+          "head_sha": "2e27301941712c7ccb99de7575220a0334c9742b"
+        },
+        {
+          "id": 38315248240,
+          "name": "License Check",
+          "path": ".github/workflows/check_license.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38315248240",
+          "head_sha": "2e27301941712c7ccb99de7575220a0334c9742b"
+        },
+        {
+          "id": 38315244065,
+          "name": "GitHub Actions Scan",
+          "path": ".github/workflows/github_actions_scan.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38315244065",
+          "head_sha": "2e27301941712c7ccb99de7575220a0334c9742b"
+        }
+      ]
+    },
+    {
+      "number": 123572,
+      "title": "reject zero-element non-memcpyable components in UncompressElement",
+      "url": "https://github.com/tensorflow/tensorflow/pull/123572",
+      "merged_at": "2026-10-17T07:47:35Z",
+      "merge_commit_sha": "f83e85bae0b39efe1127e211cdd20999dde3a286",
+      "files": [
+        "tensorflow/core/data/compression_utils.cc",
+        "tensorflow/core/data/compression_utils_test.cc"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "tensorflow/core/data/compression_utils.cc",
+          "status": "modified",
+          "additions": 54,
+          "deletions": 25,
+          "blob_url": "https://github.com/tensorflow/tensorflow/blob/9b5ee2bea81d796cd66ea048f48b0847a10c1b17/tensorflow%2Fcore%2Fdata%2Fcompression_utils.cc"
+        },
+        {
+          "filename": "tensorflow/core/data/compression_utils_test.cc",
+          "status": "modified",
+          "additions": 140,
+          "deletions": 0,
+          "blob_url": "https://github.com/tensorflow/tensorflow/blob/9b5ee2bea81d796cd66ea048f48b0847a10c1b17/tensorflow%2Fcore%2Fdata%2Fcompression_utils_test.cc"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED",
+        "DISMISSED",
+        "CHANGES_REQUESTED",
+        "APPROVED",
+        "APPROVED",
+        "CHANGES_REQUESTED",
+        "CHANGES_REQUESTED",
+        "CHANGES_REQUESTED",
+        "CHANGES_REQUESTED",
+        "APPROVED",
+        "CHANGES_REQUESTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39014957364,
+          "name": "Creates a GitHub Issue when a PR Rolled back via Commit to Master",
+          "path": ".github/workflows/issue-on-pr-rollback.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/39014957364",
+          "head_sha": "f83e85bae0b39efe1127e211cdd20999dde3a286"
+        },
+        {
+          "id": 39014957314,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards-analysis.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/39014957314",
+          "head_sha": "f83e85bae0b39efe1127e211cdd20999dde3a286"
+        },
+        {
+          "id": 39014957182,
+          "name": "Push on master",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/39014957182",
+          "head_sha": "f83e85bae0b39efe1127e211cdd20999dde3a286"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 37732328306,
+          "name": "Gemini PR Review",
+          "path": ".github/workflows/gemini.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/37732328306",
+          "head_sha": "9b5ee2bea81d796cd66ea048f48b0847a10c1b17"
+        },
+        {
+          "id": 37732327657,
+          "name": "Gemini PR Review",
+          "path": ".github/workflows/gemini.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/37732327657",
+          "head_sha": "9b5ee2bea81d796cd66ea048f48b0847a10c1b17"
+        },
+        {
+          "id": 37725811244,
+          "name": "License Check",
+          "path": ".github/workflows/check_license.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/37725811244",
+          "head_sha": "9b5ee2bea81d796cd66ea048f48b0847a10c1b17"
+        },
+        {
+          "id": 37725811358,
+          "name": "CI",
+          "path": ".github/workflows/ci-build.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/37725811358",
+          "head_sha": "9b5ee2bea81d796cd66ea048f48b0847a10c1b17"
+        },
+        {
+          "id": 37725807805,
+          "name": "GitHub Actions Scan",
+          "path": ".github/workflows/github_actions_scan.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/37725807805",
+          "head_sha": "9b5ee2bea81d796cd66ea048f48b0847a10c1b17"
+        }
+      ]
+    },
+    {
+      "number": 129161,
+      "title": "Add `spanner_fdo_key` field to `SparseCoreTableLayout` proto for non-abbreviated Spanner FDO table keys.",
+      "url": "https://github.com/tensorflow/tensorflow/pull/129161",
+      "merged_at": "2026-10-17T00:13:30Z",
+      "merge_commit_sha": "ae7e665e5f29fda9ed1548d523ca7f16c0121e2c",
+      "files": [
+        "tensorflow/core/tpu/kernels/sparse_core_layout.proto"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "tensorflow/core/tpu/kernels/sparse_core_layout.proto",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/tensorflow/tensorflow/blob/ae7e665e5f29fda9ed1548d523ca7f16c0121e2c/tensorflow%2Fcore%2Ftpu%2Fkernels%2Fsparse_core_layout.proto"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38985368775,
+          "name": "Creates a GitHub Issue when a PR Rolled back via Commit to Master",
+          "path": ".github/workflows/issue-on-pr-rollback.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38985368775",
+          "head_sha": "ae7e665e5f29fda9ed1548d523ca7f16c0121e2c"
+        },
+        {
+          "id": 38985368773,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards-analysis.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38985368773",
+          "head_sha": "ae7e665e5f29fda9ed1548d523ca7f16c0121e2c"
+        },
+        {
+          "id": 38985368185,
+          "name": "CI",
+          "path": ".github/workflows/ci-build.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38985368185",
+          "head_sha": "ae7e665e5f29fda9ed1548d523ca7f16c0121e2c"
+        },
+        {
+          "id": 38985368154,
+          "name": "License Check",
+          "path": ".github/workflows/check_license.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38985368154",
+          "head_sha": "ae7e665e5f29fda9ed1548d523ca7f16c0121e2c"
+        },
+        {
+          "id": 38985367712,
+          "name": "Push on master",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38985367712",
+          "head_sha": "ae7e665e5f29fda9ed1548d523ca7f16c0121e2c"
+        },
+        {
+          "id": 38985365730,
+          "name": "GitHub Actions Scan",
+          "path": ".github/workflows/github_actions_scan.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38985365730",
+          "head_sha": "ae7e665e5f29fda9ed1548d523ca7f16c0121e2c"
+        },
+        {
+          "id": 38985364213,
+          "name": "PR #129161",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38985364213",
+          "head_sha": "ae7e665e5f29fda9ed1548d523ca7f16c0121e2c"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38985368775,
+          "name": "Creates a GitHub Issue when a PR Rolled back via Commit to Master",
+          "path": ".github/workflows/issue-on-pr-rollback.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38985368775",
+          "head_sha": "ae7e665e5f29fda9ed1548d523ca7f16c0121e2c"
+        },
+        {
+          "id": 38985368773,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards-analysis.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38985368773",
+          "head_sha": "ae7e665e5f29fda9ed1548d523ca7f16c0121e2c"
+        },
+        {
+          "id": 38985368185,
+          "name": "CI",
+          "path": ".github/workflows/ci-build.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38985368185",
+          "head_sha": "ae7e665e5f29fda9ed1548d523ca7f16c0121e2c"
+        },
+        {
+          "id": 38985368154,
+          "name": "License Check",
+          "path": ".github/workflows/check_license.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38985368154",
+          "head_sha": "ae7e665e5f29fda9ed1548d523ca7f16c0121e2c"
+        },
+        {
+          "id": 38985367712,
+          "name": "Push on master",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38985367712",
+          "head_sha": "ae7e665e5f29fda9ed1548d523ca7f16c0121e2c"
+        },
+        {
+          "id": 38985365730,
+          "name": "GitHub Actions Scan",
+          "path": ".github/workflows/github_actions_scan.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38985365730",
+          "head_sha": "ae7e665e5f29fda9ed1548d523ca7f16c0121e2c"
+        },
+        {
+          "id": 38985364213,
+          "name": "PR #129161",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/38985364213",
+          "head_sha": "ae7e665e5f29fda9ed1548d523ca7f16c0121e2c"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v2.21.0",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.21.0",
+      "published_at": "2026-03-06T19:48:15Z",
+      "target_commitish": "r2.21",
+      "commit_sha": "a481b10260dfdf833a1b16007eead49c1d7febf3",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 22779376435,
+          "name": "cffconvert",
+          "path": ".github/workflows/cffconvert.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/22779376435",
+          "head_sha": "a481b10260dfdf833a1b16007eead49c1d7febf3"
+        },
+        {
+          "id": 22690380026,
+          "name": "Push on r2.21",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/tensorflow/tensorflow/actions/runs/22690380026",
+          "head_sha": "a481b10260dfdf833a1b16007eead49c1d7febf3"
+        }
+      ]
+    },
+    {
+      "tag": "v2.19.1",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.19.1",
+      "published_at": "2025-08-13T17:45:03Z",
+      "target_commitish": "r2.19",
+      "commit_sha": "f4247ebb6f9e7421f38c3f01a9a5d5cd54bd24fd",
+      "assets": [],
+      "workflow_runs": []
+    },
+    {
+      "tag": "v2.20.0",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.20.0",
+      "published_at": "2025-08-13T17:45:14Z",
+      "target_commitish": "r2.20",
+      "commit_sha": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+      "assets": [],
+      "workflow_runs": []
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v2.22.0-rc0",
+      "sha": "160ece53b82229862412699ff770232d2c3e1313"
+    },
+    {
+      "name": "v2.21.0",
+      "sha": "a481b10260dfdf833a1b16007eead49c1d7febf3"
+    },
+    {
+      "name": "v2.21.0-rc1",
+      "sha": "00a1ba7b4fd31bf1c75482bfff620a1cf21c5815"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:01.824188+00:00",
+  "source_times": {
+    "/repos/tensorflow/tensorflow": "2026-10-17T16:09:34.357893+00:00",
+    "/repos/tensorflow/tensorflow/commits?sha=master&per_page=20": "2026-10-17T16:09:36.318015+00:00",
+    "/repos/tensorflow/tensorflow/git/trees/d34b7e701f320d4a265f67357bd6a3a53a4c1ccf": "2026-10-17T16:09:38.705642+00:00",
+    "/repos/tensorflow/tensorflow/git/trees/b0129fcb6c46c95852652a45cdd1f69ace02c18c": "2026-10-17T16:09:40.103426+00:00",
+    "/repos/tensorflow/tensorflow/git/trees/d7e9eb967a529234eadc19ae7f36746324aa0259": "2026-10-17T16:09:41.511710+00:00",
+    "/repos/tensorflow/tensorflow/git/trees/3afc3673de2bdbb4efc3bbfc3254daa64c48f9f7": "2026-10-17T16:09:45.320910+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/a574493352c31d88a968a0dfa2f7b806bbf96db2": "2026-10-17T16:09:46.727156+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/e5203a7cf2286eeb309ce4ea099c41fb2f872c65": "2026-10-17T16:09:48.088665+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/1a1f2350cd69c1e7e29347e7df55e6fbb1c1a9b8": "2026-10-17T16:09:50.762637+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/2ada91b134b2bc6daa60ca6265f1290f38a748c1": "2026-10-17T16:09:52.256382+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/4d52d02cb53d17ecbd16a0e6ce3cae5e6e7331ca": "2026-10-17T16:09:53.809267+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/531e35ed48afcb0d5f78bf56544fe3fbb25b731d": "2026-10-17T16:09:56.565772+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/a39d5b2a956a0d1b1f28c8cf052b5cbf37b5d980": "2026-10-17T16:09:57.938231+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/70be52989048c21e3523fd4318f3827408177b5f": "2026-10-17T16:10:00.214954+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/429b842a2d05fba7059d5a9b1a6569f024c003cc": "2026-10-17T16:10:01.550159+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/4f1e60b553abeb5248b47f591f7f7936d1df0afb": "2026-10-17T16:10:02.946890+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/8b8246f2b72afc60c79865cb09a9784f30ecd7a4": "2026-10-17T16:10:04.359004+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/dc2cd714664a0b420d649a140dd717b94e9cb78f": "2026-10-17T16:10:05.821620+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/06a6e9bdf4113a60d6ef846f4fcd2c40de4a3b22": "2026-10-17T16:10:07.235972+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/e67407140e00171cbd3b2c417cabdb0b96d680ec": "2026-10-17T16:10:08.615871+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/9189e14bc79bc4a6ebde4dd80c68b7d0738e7e96": "2026-10-17T16:10:09.982139+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/0af4c3a03ee0cab3fabf428f0269b32d60874729": "2026-10-17T16:10:11.453264+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/9cc30dd9b3073d7fbb75328651681b50afa00693": "2026-10-17T16:10:12.849239+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/58b4908e1c1509d1d0bfe886ae3aaa4ad39e3548": "2026-10-17T16:10:14.250127+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/e330cf1d099e020a7c3494b459739fc3ee1e03c5": "2026-10-17T16:10:15.652467+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/55c95389f5161d886dcafaac02f2d99f13dbc93b": "2026-10-17T16:10:17.040295+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/b810e78633137d0e2e69ff9e35a7c8b97e8a3b64": "2026-10-17T16:10:18.472526+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/eca20953f8484adad41f390347407339bdd573a0": "2026-10-17T16:10:19.884025+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/28cff13f49e2f192ad0f65af2972c1f987f10104": "2026-10-17T16:10:21.403103+00:00",
+    "/repos/tensorflow/tensorflow/git/blobs/4795c11da8806163a37765b904df7cbfce6279cd": "2026-10-17T16:10:22.953546+00:00",
+    "/repos/tensorflow/tensorflow/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:10:26.336468+00:00",
+    "/repos/tensorflow/tensorflow/pulls/128629/files?per_page=100": "2026-10-17T16:10:27.852851+00:00",
+    "/repos/tensorflow/tensorflow/pulls/128629/reviews?per_page=100": "2026-10-17T16:10:29.720626+00:00",
+    "/repos/tensorflow/tensorflow/actions/runs?head_sha=fceefffb2c92b346b7e1178fb5f87bcc39a11c3a&per_page=10": "2026-10-17T16:10:32.069183+00:00",
+    "/repos/tensorflow/tensorflow/actions/runs?head_sha=2e27301941712c7ccb99de7575220a0334c9742b&per_page=10": "2026-10-17T16:10:34.128089+00:00",
+    "/repos/tensorflow/tensorflow/pulls/123572/files?per_page=100": "2026-10-17T16:10:35.908228+00:00",
+    "/repos/tensorflow/tensorflow/pulls/123572/reviews?per_page=100": "2026-10-17T16:10:37.954147+00:00",
+    "/repos/tensorflow/tensorflow/actions/runs?head_sha=f83e85bae0b39efe1127e211cdd20999dde3a286&per_page=10": "2026-10-17T16:10:40.153543+00:00",
+    "/repos/tensorflow/tensorflow/actions/runs?head_sha=9b5ee2bea81d796cd66ea048f48b0847a10c1b17&per_page=10": "2026-10-17T16:10:43.143986+00:00",
+    "/repos/tensorflow/tensorflow/pulls/129161/files?per_page=100": "2026-10-17T16:10:44.710540+00:00",
+    "/repos/tensorflow/tensorflow/pulls/129161/reviews?per_page=100": "2026-10-17T16:10:46.181176+00:00",
+    "/repos/tensorflow/tensorflow/actions/runs?head_sha=ae7e665e5f29fda9ed1548d523ca7f16c0121e2c&per_page=10": "2026-10-17T16:10:48.513761+00:00",
+    "/repos/tensorflow/tensorflow/releases?per_page=20&page=1": "2026-10-17T16:17:01.821547+00:00",
+    "/repos/tensorflow/tensorflow/commits/v2.21.0": "2026-10-17T16:10:52.742658+00:00",
+    "/repos/tensorflow/tensorflow/actions/runs?head_sha=a481b10260dfdf833a1b16007eead49c1d7febf3&per_page=10": "2026-10-17T16:10:55.616287+00:00",
+    "/repos/tensorflow/tensorflow/commits/v2.19.1": "2026-10-17T16:10:57.530157+00:00",
+    "/repos/tensorflow/tensorflow/actions/runs?head_sha=f4247ebb6f9e7421f38c3f01a9a5d5cd54bd24fd&per_page=10": "2026-10-17T16:10:59.001787+00:00",
+    "/repos/tensorflow/tensorflow/commits/v2.20.0": "2026-10-17T16:11:00.395041+00:00",
+    "/repos/tensorflow/tensorflow/actions/runs?head_sha=72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa&per_page=10": "2026-10-17T16:11:01.911273+00:00",
+    "/repos/tensorflow/tensorflow/tags?per_page=3": "2026-10-17T16:11:03.531725+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:01.821547+00:00",
+  "status": "collected"
+}

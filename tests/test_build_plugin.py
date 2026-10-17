@@ -1,0 +1,78 @@
+import importlib.util
+import json
+from pathlib import Path, PurePosixPath
+import tempfile
+import unittest
+import zipfile
+from contextlib import redirect_stdout
+from io import StringIO
+from unittest.mock import patch
+
+FILE = Path(__file__).parents[1] / 'scripts/build_plugin.py'
+
+
+class BuildPluginTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        spec = importlib.util.spec_from_file_location('build_plugin', FILE)
+        cls.m = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(cls.m)
+
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name)
+        self.plugin = self.root / 'repo-maintainer'
+        for folder in ('.codex-plugin', '.claude-plugin', 'skills/demo', 'scripts', '__pycache__', 'work'):
+            (self.plugin / folder).mkdir(parents=True)
+        for name in ('.codex-plugin', '.claude-plugin'):
+            (self.plugin / name / 'plugin.json').write_text(json.dumps({'name': 'repo-maintainer', 'version': '0.2.0'}))
+        (self.plugin / 'skills/demo/SKILL.md').write_bytes(b'---\r\nname: demo\r\n---\r\n')
+        (self.plugin / 'scripts/tool.py').write_text('print(1)\n')
+        (self.plugin / '__pycache__/test.pyc').write_bytes(b'cache')
+        (self.plugin / 'work/secret.txt').write_text('must not ship')
+
+    def test_archive_reproducible_and_filtered(self):
+        first = self.m.build(self.plugin, self.root / 'out1')
+        second = self.m.build(self.plugin, self.root / 'out2')
+        self.assertEqual(Path(first['archive']).read_bytes(), Path(second['archive']).read_bytes())
+        self.assertEqual(first['sha256'], second['sha256'])
+        with zipfile.ZipFile(first['archive']) as archive:
+            self.assertIsNone(archive.testzip())
+            self.assertFalse(any('secret' in name or '__pycache__' in name for name in archive.namelist()))
+            self.assertNotIn(b'\r', archive.read('repo-maintainer/skills/demo/SKILL.md'))
+        self.assertTrue(Path(first['checksum']).exists())
+
+    def test_version_mismatch_and_output_inside_plugin_blocked(self):
+        with self.assertRaises(ValueError):
+            self.m.build(self.plugin, self.plugin / 'dist')
+        (self.plugin / '.claude-plugin/plugin.json').write_text('{"name":"repo-maintainer","version":"0.1.0"}')
+        with self.assertRaises(ValueError):
+            self.m.build(self.plugin, self.root / 'out')
+
+    def test_sort_order_portable_with_mixed_case(self):
+        (self.plugin / 'scripts/Z.py').write_text('print(2)')
+        (self.plugin / 'scripts/a.py').write_text('print(3)')
+        result = self.m.build(self.plugin, self.root / 'out')
+        with zipfile.ZipFile(result['archive']) as archive:
+            self.assertEqual(archive.namelist(), sorted(archive.namelist()))
+
+    def test_unsafe_archive_names_rejected(self):
+        for name in ['scripts/a\\b.txt', 'scripts/a:b.txt', 'scripts/CON.txt', 'scripts/trailing.']:
+            with self.assertRaises(ValueError):
+                self.m.portable_member(PurePosixPath(name))
+
+    def test_resolved_resource_must_stay_inside_plugin(self):
+        resource = self.plugin / 'scripts/tool.py'
+        original = Path.resolve
+        def resolve(path, *args, **kwargs):
+            return self.root / 'outside.txt' if path == resource else original(path, *args, **kwargs)
+        with patch.object(Path, 'resolve', resolve):
+            with self.assertRaises(ValueError):
+                self.m.checked_path(resource, self.plugin)
+
+    def test_cli_success_and_invalid_input(self):
+        with patch('sys.argv', ['build', '--plugin', str(self.plugin), '--output', str(self.root / 'out')]), redirect_stdout(StringIO()):
+            self.assertEqual(self.m.main(), 0)
+        with patch('sys.argv', ['build', '--plugin', str(self.plugin), '--output', str(self.plugin / 'out')]), redirect_stdout(StringIO()):
+            self.assertEqual(self.m.main(), 2)

@@ -1,0 +1,1100 @@
+{
+  "requested_repository": "expressjs/express",
+  "category": "frameworks",
+  "collected_at": "2026-10-17T16:12:21.698007+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "expressjs/express",
+  "metadata": {
+    "html_url": "https://github.com/expressjs/express",
+    "description": "Fast, unopinionated, minimalist web framework for node.",
+    "homepage": "https://expressjs.com",
+    "language": "JavaScript",
+    "stargazers_count": 69571,
+    "forks_count": 25258,
+    "open_issues_count": 241,
+    "pushed_at": "2026-10-09T16:24:39Z",
+    "created_at": "2009-06-26T18:56:01Z",
+    "archived": false,
+    "default_branch": "master",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [
+      "express",
+      "javascript",
+      "nodejs",
+      "server"
+    ],
+    "owner": {
+      "login": "expressjs",
+      "type": "Organization",
+      "html_url": "https://github.com/expressjs"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "a419aa7350389a275ab45fde2e849ed1f02449ef",
+      "url": "https://github.com/expressjs/express/commit/a419aa7350389a275ab45fde2e849ed1f02449ef",
+      "date": "2026-10-09T16:24:38Z",
+      "subject": "Revert \"build(deps-dev): bump supertest from 6.3.0 to 7.3.0 (#7494)\" (#7518)"
+    },
+    {
+      "sha": "6d2df035a95f3d1002be3e29997b7a4bfe976b5f",
+      "url": "https://github.com/expressjs/express/commit/6d2df035a95f3d1002be3e29997b7a4bfe976b5f",
+      "date": "2026-10-09T15:54:30Z",
+      "subject": "build(deps-dev): bump supertest from 6.3.0 to 7.3.0 (#7494)"
+    },
+    {
+      "sha": "cf6722bf89a86905281d9160b6482e08166b5ef0",
+      "url": "https://github.com/expressjs/express/commit/cf6722bf89a86905281d9160b6482e08166b5ef0",
+      "date": "2026-10-09T12:47:46Z",
+      "subject": "5.3.0 (#7468)"
+    },
+    {
+      "sha": "8c2fcfcb7d37c9c2e89363b7b86a092768c3a8a3",
+      "url": "https://github.com/expressjs/express/commit/8c2fcfcb7d37c9c2e89363b7b86a092768c3a8a3",
+      "date": "2026-10-09T11:53:54Z",
+      "subject": "docs: fix typos and a stale API reference in lib comments (#7512)"
+    },
+    {
+      "sha": "9efc29e280018dafc1f0617f3a3d28f4e463b7be",
+      "url": "https://github.com/expressjs/express/commit/9efc29e280018dafc1f0617f3a3d28f4e463b7be",
+      "date": "2026-10-06T21:19:38Z",
+      "subject": "docs: fix pass-through typos (#7509)"
+    },
+    {
+      "sha": "2717ae3cbf2bdc3f946d22ea6a4e0b5bd438b87b",
+      "url": "https://github.com/expressjs/express/commit/2717ae3cbf2bdc3f946d22ea6a4e0b5bd438b87b",
+      "date": "2026-10-06T21:16:14Z",
+      "subject": "build(deps): bump the github-actions group with 3 updates (#7499)"
+    },
+    {
+      "sha": "de777714df3fb1e81ac2d95f509c421478ab1e56",
+      "url": "https://github.com/expressjs/express/commit/de777714df3fb1e81ac2d95f509c421478ab1e56",
+      "date": "2026-10-06T21:15:31Z",
+      "subject": "build(deps-dev): bump hbs from 4.3.0 to 4.3.1 (#7500)"
+    },
+    {
+      "sha": "9169cbe1127ed1f9bc4f80a70b82c412467dd156",
+      "url": "https://github.com/expressjs/express/commit/9169cbe1127ed1f9bc4f80a70b82c412467dd156",
+      "date": "2026-10-06T18:57:44Z",
+      "subject": "docs: add missing apostrophe in example (#7483)"
+    },
+    {
+      "sha": "7ef98448f8b38099ab1ded55e458538ad47a51e7",
+      "url": "https://github.com/expressjs/express/commit/7ef98448f8b38099ab1ded55e458538ad47a51e7",
+      "date": "2026-09-29T04:59:24Z",
+      "subject": "build(deps-dev): bump morgan from 1.12.0 to 1.12.1 (#7493)"
+    },
+    {
+      "sha": "3b7e39fe74371ddabc77fed736dd22aa71c14f5c",
+      "url": "https://github.com/expressjs/express/commit/3b7e39fe74371ddabc77fed736dd22aa71c14f5c",
+      "date": "2026-09-29T01:34:58Z",
+      "subject": "deps: bump qs minimum to 6.16.0 (#7478)"
+    },
+    {
+      "sha": "98bd4cd96b250d25e1672c36f49cfc743bc801e7",
+      "url": "https://github.com/expressjs/express/commit/98bd4cd96b250d25e1672c36f49cfc743bc801e7",
+      "date": "2026-09-28T13:25:04Z",
+      "subject": "deps: proxy-addr@^2.0.8 (#7474)"
+    },
+    {
+      "sha": "9a34acf03cb818ff3f8bc40e44176e277a25cbb9",
+      "url": "https://github.com/expressjs/express/commit/9a34acf03cb818ff3f8bc40e44176e277a25cbb9",
+      "date": "2026-09-15T17:52:26Z",
+      "subject": "fix(res.send): preserve ETag generation with Transfer-Encoding (#7459)"
+    },
+    {
+      "sha": "3ce6d0eb86e9d93529ff3191c6bb5db8ce6e72c8",
+      "url": "https://github.com/expressjs/express/commit/3ce6d0eb86e9d93529ff3191c6bb5db8ce6e72c8",
+      "date": "2026-09-13T11:55:13Z",
+      "subject": "ci: add npm staged publication with dist-tag support (#7464)"
+    },
+    {
+      "sha": "53d4a0d606c0388f764f192b306ce0e90200e7e8",
+      "url": "https://github.com/expressjs/express/commit/53d4a0d606c0388f764f192b306ce0e90200e7e8",
+      "date": "2026-09-11T12:54:15Z",
+      "subject": "docs: fix capitalization of GitHub Discussions in Readme (#7426)"
+    },
+    {
+      "sha": "bed501c695a61886399ee622875f3be933c716d8",
+      "url": "https://github.com/expressjs/express/commit/bed501c695a61886399ee622875f3be933c716d8",
+      "date": "2026-09-08T13:33:05Z",
+      "subject": "build(deps-dev): bump morgan from 1.11.0 to 1.12.0 (#7461)"
+    },
+    {
+      "sha": "4e65ec983d332edc0dfc0e8b5efb7fa4fbb432d8",
+      "url": "https://github.com/expressjs/express/commit/4e65ec983d332edc0dfc0e8b5efb7fa4fbb432d8",
+      "date": "2026-09-08T13:32:19Z",
+      "subject": "build(deps): bump the github-actions group with 5 updates (#7462)"
+    },
+    {
+      "sha": "4fe723dad4c93de3a2c37f923563a06798d98db6",
+      "url": "https://github.com/expressjs/express/commit/4fe723dad4c93de3a2c37f923563a06798d98db6",
+      "date": "2026-09-08T13:08:49Z",
+      "subject": "build(deps-dev): bump hbs from 4.2.1 to 4.3.0 (#7450)"
+    },
+    {
+      "sha": "c35284ee7afddb267da747b8c1d66de71982c026",
+      "url": "https://github.com/expressjs/express/commit/c35284ee7afddb267da747b8c1d66de71982c026",
+      "date": "2026-09-08T13:07:34Z",
+      "subject": "chore: group github actions updates (#7460)"
+    },
+    {
+      "sha": "023767fe9872e029271df1418f73401bff20ff40",
+      "url": "https://github.com/expressjs/express/commit/023767fe9872e029271df1418f73401bff20ff40",
+      "date": "2026-08-22T20:59:54Z",
+      "subject": "build(deps): bump github/codeql-action/upload-sarif (#7400)"
+    },
+    {
+      "sha": "2574a53bbc52cbb3c2a68c080a931d8624fdb5c7",
+      "url": "https://github.com/expressjs/express/commit/2574a53bbc52cbb3c2a68c080a931d8624fdb5c7",
+      "date": "2026-08-22T20:57:13Z",
+      "subject": "build(deps): bump coverallsapp/github-action from 2.3.7 to 2.3.8 (#7399)"
+    }
+  ],
+  "default_sha": "a419aa7350389a275ab45fde2e849ed1f02449ef",
+  "root_and_selected_directory_paths": [
+    ".editorconfig",
+    ".eslintignore",
+    ".eslintrc.yml",
+    ".github",
+    ".github/dependabot.yml",
+    ".github/workflows",
+    ".github/workflows/ci.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/legacy.yml",
+    ".github/workflows/npm-publish.yml",
+    ".github/workflows/scorecard.yml",
+    ".gitignore",
+    ".npmrc",
+    "History.md",
+    "LICENSE",
+    "Readme.md",
+    "examples",
+    "index.js",
+    "lib",
+    "package.json",
+    "test"
+  ],
+  "workflow_paths": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/npm-publish.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/legacy.yml",
+    ".github/workflows/scorecard.yml"
+  ],
+  "documents": [
+    {
+      "path": "Readme.md",
+      "sha": "9a77c30335dd2176165b811813a92fc8be3ac34b",
+      "status": "inspected",
+      "url": "https://github.com/expressjs/express/blob/a419aa7350389a275ab45fde2e849ed1f02449ef/Readme.md",
+      "lines": 282,
+      "signals": {
+        "tests": [
+          171,
+          174
+        ],
+        "lint": [
+          4
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          271,
+          273,
+          275,
+          278
+        ],
+        "media": [
+          4
+        ],
+        "theme_images": [
+          2,
+          3
+        ],
+        "playground": [],
+        "community": [
+          85,
+          179
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "package.json",
+      "sha": "a7fae5a21b005a1684e94eb09bb8156aaaa388ba",
+      "status": "inspected",
+      "url": "https://github.com/expressjs/express/blob/a419aa7350389a275ab45fde2e849ed1f02449ef/package.json",
+      "lines": 99,
+      "signals": {
+        "tests": [
+          95,
+          96
+        ],
+        "lint": [
+          70,
+          92,
+          93
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "21a820a7ae52e81025dc6d9940b47f3a8ff77745",
+      "status": "inspected",
+      "url": "https://github.com/expressjs/express/blob/a419aa7350389a275ab45fde2e849ed1f02449ef/.github/dependabot.yml",
+      "lines": 21,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "e29004c274f8900f837c9ff3e5c55edecafeb706",
+      "status": "inspected",
+      "url": "https://github.com/expressjs/express/blob/a419aa7350389a275ab45fde2e849ed1f02449ef/.github/workflows/ci.yml",
+      "lines": 117,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          16,
+          92
+        ],
+        "pinned_actions": [
+          30,
+          34,
+          56,
+          61,
+          83,
+          96,
+          105,
+          115
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/npm-publish.yml",
+      "sha": "f0408ac94fb5b44255ed99010db8af6e3b44a9b0",
+      "status": "inspected",
+      "url": "https://github.com/expressjs/express/blob/a419aa7350389a275ab45fde2e849ed1f02449ef/.github/workflows/npm-publish.yml",
+      "lines": 78,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12,
+          19,
+          21
+        ],
+        "pinned_actions": [
+          23,
+          28
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "sha": "1fc300dba5a901b69ca524dd67edab72795483a7",
+      "status": "inspected",
+      "url": "https://github.com/expressjs/express/blob/a419aa7350389a275ab45fde2e849ed1f02449ef/.github/workflows/codeql.yml",
+      "lines": 74,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          24,
+          31
+        ],
+        "pinned_actions": [
+          42,
+          48,
+          61,
+          74
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/legacy.yml",
+      "sha": "d015c745df1ce9eccae32bf4d0701cf2834f209f",
+      "status": "inspected",
+      "url": "https://github.com/expressjs/express/blob/a419aa7350389a275ab45fde2e849ed1f02449ef/.github/workflows/legacy.yml",
+      "lines": 101,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          18,
+          76
+        ],
+        "pinned_actions": [
+          40,
+          45,
+          67,
+          80,
+          89,
+          99
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "sha": "90ad71344719cf8bc2eba6092fa0ac731496d813",
+      "status": "inspected",
+      "url": "https://github.com/expressjs/express/blob/a419aa7350389a275ab45fde2e849ed1f02449ef/.github/workflows/scorecard.yml",
+      "lines": 72,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          18,
+          24,
+          28
+        ],
+        "pinned_actions": [
+          35,
+          40,
+          62,
+          70
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 7518,
+      "title": "Revert \"build(deps-dev): bump supertest from 6.3.0 to 7.3.0\"",
+      "url": "https://github.com/expressjs/express/pull/7518",
+      "merged_at": "2026-10-09T16:24:39Z",
+      "merge_commit_sha": "a419aa7350389a275ab45fde2e849ed1f02449ef",
+      "files": [
+        "package.json",
+        "test/acceptance/downloads.js",
+        "test/express.static.js",
+        "test/support/utils.js"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "package.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/expressjs/express/blob/561714a120bcd59c168cb48f0ae26433c72f4803/package.json"
+        },
+        {
+          "filename": "test/acceptance/downloads.js",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/expressjs/express/blob/561714a120bcd59c168cb48f0ae26433c72f4803/test%2Facceptance%2Fdownloads.js"
+        },
+        {
+          "filename": "test/express.static.js",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 5,
+          "blob_url": "https://github.com/expressjs/express/blob/561714a120bcd59c168cb48f0ae26433c72f4803/test%2Fexpress.static.js"
+        },
+        {
+          "filename": "test/support/utils.js",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 15,
+          "blob_url": "https://github.com/expressjs/express/blob/561714a120bcd59c168cb48f0ae26433c72f4803/test%2Fsupport%2Futils.js"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38310536868,
+          "name": "Scorecard supply-chain security",
+          "path": ".github/workflows/scorecard.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/38310536868",
+          "head_sha": "a419aa7350389a275ab45fde2e849ed1f02449ef"
+        },
+        {
+          "id": 38190166617,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/38190166617",
+          "head_sha": "a419aa7350389a275ab45fde2e849ed1f02449ef"
+        },
+        {
+          "id": 37958916430,
+          "name": "Scorecard supply-chain security",
+          "path": ".github/workflows/scorecard.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37958916430",
+          "head_sha": "a419aa7350389a275ab45fde2e849ed1f02449ef"
+        },
+        {
+          "id": 37958916503,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37958916503",
+          "head_sha": "a419aa7350389a275ab45fde2e849ed1f02449ef"
+        },
+        {
+          "id": 37958916407,
+          "name": "legacy",
+          "path": ".github/workflows/legacy.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37958916407",
+          "head_sha": "a419aa7350389a275ab45fde2e849ed1f02449ef"
+        },
+        {
+          "id": 37958916431,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37958916431",
+          "head_sha": "a419aa7350389a275ab45fde2e849ed1f02449ef"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 37958397401,
+          "name": "legacy",
+          "path": ".github/workflows/legacy.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37958397401",
+          "head_sha": "561714a120bcd59c168cb48f0ae26433c72f4803"
+        },
+        {
+          "id": 37958397397,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37958397397",
+          "head_sha": "561714a120bcd59c168cb48f0ae26433c72f4803"
+        },
+        {
+          "id": 37958397446,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37958397446",
+          "head_sha": "561714a120bcd59c168cb48f0ae26433c72f4803"
+        }
+      ]
+    },
+    {
+      "number": 7494,
+      "title": "build(deps-dev): bump supertest from 6.3.0 to 7.3.0",
+      "url": "https://github.com/expressjs/express/pull/7494",
+      "merged_at": "2026-10-09T15:54:31Z",
+      "merge_commit_sha": "6d2df035a95f3d1002be3e29997b7a4bfe976b5f",
+      "files": [
+        "package.json",
+        "test/acceptance/downloads.js",
+        "test/express.static.js",
+        "test/support/utils.js"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "package.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/expressjs/express/blob/a7472b404baf42397b65601b5a18b7e53ce7c70a/package.json"
+        },
+        {
+          "filename": "test/acceptance/downloads.js",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/expressjs/express/blob/a7472b404baf42397b65601b5a18b7e53ce7c70a/test%2Facceptance%2Fdownloads.js"
+        },
+        {
+          "filename": "test/express.static.js",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 10,
+          "blob_url": "https://github.com/expressjs/express/blob/a7472b404baf42397b65601b5a18b7e53ce7c70a/test%2Fexpress.static.js"
+        },
+        {
+          "filename": "test/support/utils.js",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 0,
+          "blob_url": "https://github.com/expressjs/express/blob/a7472b404baf42397b65601b5a18b7e53ce7c70a/test%2Fsupport%2Futils.js"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 37955202326,
+          "name": "legacy",
+          "path": ".github/workflows/legacy.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37955202326",
+          "head_sha": "6d2df035a95f3d1002be3e29997b7a4bfe976b5f"
+        },
+        {
+          "id": 37955202236,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37955202236",
+          "head_sha": "6d2df035a95f3d1002be3e29997b7a4bfe976b5f"
+        },
+        {
+          "id": 37955202324,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37955202324",
+          "head_sha": "6d2df035a95f3d1002be3e29997b7a4bfe976b5f"
+        },
+        {
+          "id": 37955202205,
+          "name": "Scorecard supply-chain security",
+          "path": ".github/workflows/scorecard.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37955202205",
+          "head_sha": "6d2df035a95f3d1002be3e29997b7a4bfe976b5f"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 36600618418,
+          "name": "legacy",
+          "path": ".github/workflows/legacy.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/36600618418",
+          "head_sha": "a7472b404baf42397b65601b5a18b7e53ce7c70a"
+        },
+        {
+          "id": 36600618172,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/36600618172",
+          "head_sha": "a7472b404baf42397b65601b5a18b7e53ce7c70a"
+        },
+        {
+          "id": 36600618389,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/36600618389",
+          "head_sha": "a7472b404baf42397b65601b5a18b7e53ce7c70a"
+        }
+      ]
+    },
+    {
+      "number": 7468,
+      "title": "Release: 5.3.0",
+      "url": "https://github.com/expressjs/express/pull/7468",
+      "merged_at": "2026-10-09T12:47:47Z",
+      "merge_commit_sha": "cf6722bf89a86905281d9160b6482e08166b5ef0",
+      "files": [
+        "History.md",
+        "package.json"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "History.md",
+          "status": "modified",
+          "additions": 606,
+          "deletions": 601,
+          "blob_url": "https://github.com/expressjs/express/blob/f7240f149e7227dba363abb3e8ff5f359cf8df79/History.md"
+        },
+        {
+          "filename": "package.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/expressjs/express/blob/f7240f149e7227dba363abb3e8ff5f359cf8df79/package.json"
+        }
+      ],
+      "review_states": [
+        "CHANGES_REQUESTED",
+        "APPROVED",
+        "APPROVED",
+        "APPROVED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 37932701007,
+          "name": "Publish package to npm",
+          "path": ".github/workflows/npm-publish.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37932701007",
+          "head_sha": "cf6722bf89a86905281d9160b6482e08166b5ef0"
+        },
+        {
+          "id": 37932399555,
+          "name": "Scorecard supply-chain security",
+          "path": ".github/workflows/scorecard.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37932399555",
+          "head_sha": "cf6722bf89a86905281d9160b6482e08166b5ef0"
+        },
+        {
+          "id": 37932399608,
+          "name": "legacy",
+          "path": ".github/workflows/legacy.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37932399608",
+          "head_sha": "cf6722bf89a86905281d9160b6482e08166b5ef0"
+        },
+        {
+          "id": 37932399789,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37932399789",
+          "head_sha": "cf6722bf89a86905281d9160b6482e08166b5ef0"
+        },
+        {
+          "id": 37932399492,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37932399492",
+          "head_sha": "cf6722bf89a86905281d9160b6482e08166b5ef0"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 37931530440,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37931530440",
+          "head_sha": "f7240f149e7227dba363abb3e8ff5f359cf8df79"
+        },
+        {
+          "id": 37931530667,
+          "name": "legacy",
+          "path": ".github/workflows/legacy.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37931530667",
+          "head_sha": "f7240f149e7227dba363abb3e8ff5f359cf8df79"
+        },
+        {
+          "id": 37931530456,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37931530456",
+          "head_sha": "f7240f149e7227dba363abb3e8ff5f359cf8df79"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v5.3.0",
+      "url": "https://github.com/expressjs/express/releases/tag/v5.3.0",
+      "published_at": "2026-10-09T12:50:31Z",
+      "target_commitish": "master",
+      "commit_sha": "cf6722bf89a86905281d9160b6482e08166b5ef0",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37932701007,
+          "name": "Publish package to npm",
+          "path": ".github/workflows/npm-publish.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37932701007",
+          "head_sha": "cf6722bf89a86905281d9160b6482e08166b5ef0"
+        },
+        {
+          "id": 37932399555,
+          "name": "Scorecard supply-chain security",
+          "path": ".github/workflows/scorecard.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37932399555",
+          "head_sha": "cf6722bf89a86905281d9160b6482e08166b5ef0"
+        },
+        {
+          "id": 37932399608,
+          "name": "legacy",
+          "path": ".github/workflows/legacy.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37932399608",
+          "head_sha": "cf6722bf89a86905281d9160b6482e08166b5ef0"
+        },
+        {
+          "id": 37932399789,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37932399789",
+          "head_sha": "cf6722bf89a86905281d9160b6482e08166b5ef0"
+        },
+        {
+          "id": 37932399492,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/37932399492",
+          "head_sha": "cf6722bf89a86905281d9160b6482e08166b5ef0"
+        }
+      ]
+    },
+    {
+      "tag": "v4.22.2",
+      "url": "https://github.com/expressjs/express/releases/tag/v4.22.2",
+      "published_at": "2026-05-11T18:54:02Z",
+      "target_commitish": "4.x",
+      "commit_sha": "df0abc9333a3398b97b71f6ea7cd77d5ea3e9f97",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 25690079678,
+          "name": "iojs-ci",
+          "path": ".github/workflows/iojs.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/25690079678",
+          "head_sha": "df0abc9333a3398b97b71f6ea7cd77d5ea3e9f97"
+        },
+        {
+          "id": 25690079662,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/expressjs/express/actions/runs/25690079662",
+          "head_sha": "df0abc9333a3398b97b71f6ea7cd77d5ea3e9f97"
+        }
+      ]
+    },
+    {
+      "tag": "v5.2.1",
+      "url": "https://github.com/expressjs/express/releases/tag/v5.2.1",
+      "published_at": "2025-12-01T20:54:44Z",
+      "target_commitish": "master",
+      "commit_sha": "dbac741a49a5a64336b70c06e85c2e2706e36336",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 20043285502,
+          "name": "Scorecard supply-chain security",
+          "path": ".github/workflows/scorecard.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/20043285502",
+          "head_sha": "dbac741a49a5a64336b70c06e85c2e2706e36336"
+        },
+        {
+          "id": 20012951204,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/20012951204",
+          "head_sha": "dbac741a49a5a64336b70c06e85c2e2706e36336"
+        },
+        {
+          "id": 19844543868,
+          "name": "npm_and_yarn in /. - Update #1171105201",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/19844543868",
+          "head_sha": "dbac741a49a5a64336b70c06e85c2e2706e36336"
+        },
+        {
+          "id": 19844367906,
+          "name": "npm_and_yarn in /. - Update #1171066555",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/19844367906",
+          "head_sha": "dbac741a49a5a64336b70c06e85c2e2706e36336"
+        },
+        {
+          "id": 19837985753,
+          "name": "Scorecard supply-chain security",
+          "path": ".github/workflows/scorecard.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/19837985753",
+          "head_sha": "dbac741a49a5a64336b70c06e85c2e2706e36336"
+        },
+        {
+          "id": 19836471246,
+          "name": "Scorecard supply-chain security",
+          "path": ".github/workflows/scorecard.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/19836471246",
+          "head_sha": "dbac741a49a5a64336b70c06e85c2e2706e36336"
+        },
+        {
+          "id": 19836471277,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/19836471277",
+          "head_sha": "dbac741a49a5a64336b70c06e85c2e2706e36336"
+        },
+        {
+          "id": 19836471255,
+          "name": "legacy",
+          "path": ".github/workflows/legacy.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/19836471255",
+          "head_sha": "dbac741a49a5a64336b70c06e85c2e2706e36336"
+        },
+        {
+          "id": 19836471263,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/expressjs/express/actions/runs/19836471263",
+          "head_sha": "dbac741a49a5a64336b70c06e85c2e2706e36336"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v5.3.0",
+      "sha": "cf6722bf89a86905281d9160b6482e08166b5ef0"
+    },
+    {
+      "name": "v5.2.1",
+      "sha": "dbac741a49a5a64336b70c06e85c2e2706e36336"
+    },
+    {
+      "name": "v5.2.0",
+      "sha": "4007ad103ba29f6426b2ec9eccfb1ceb792682a8"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:08.402782+00:00",
+  "source_times": {
+    "/repos/expressjs/express": "2026-10-17T16:12:21.698007+00:00",
+    "/repos/expressjs/express/commits?sha=master&per_page=20": "2026-10-17T16:12:23.614446+00:00",
+    "/repos/expressjs/express/git/trees/a419aa7350389a275ab45fde2e849ed1f02449ef": "2026-10-17T16:12:25.005902+00:00",
+    "/repos/expressjs/express/git/trees/e41775862cc5c59728304129c6b772d57cdd453c": "2026-10-17T16:12:26.393013+00:00",
+    "/repos/expressjs/express/git/trees/3df3da5e27e015dc67b3c77216d3f8bfafc3354e": "2026-10-17T16:12:28.740074+00:00",
+    "/repos/expressjs/express/git/blobs/9a77c30335dd2176165b811813a92fc8be3ac34b": "2026-10-17T16:12:30.258007+00:00",
+    "/repos/expressjs/express/git/blobs/a7fae5a21b005a1684e94eb09bb8156aaaa388ba": "2026-10-17T16:12:31.623601+00:00",
+    "/repos/expressjs/express/git/blobs/21a820a7ae52e81025dc6d9940b47f3a8ff77745": "2026-10-17T16:12:33.989266+00:00",
+    "/repos/expressjs/express/git/blobs/e29004c274f8900f837c9ff3e5c55edecafeb706": "2026-10-17T16:12:35.697058+00:00",
+    "/repos/expressjs/express/git/blobs/f0408ac94fb5b44255ed99010db8af6e3b44a9b0": "2026-10-17T16:12:37.154103+00:00",
+    "/repos/expressjs/express/git/blobs/1fc300dba5a901b69ca524dd67edab72795483a7": "2026-10-17T16:12:38.588280+00:00",
+    "/repos/expressjs/express/git/blobs/d015c745df1ce9eccae32bf4d0701cf2834f209f": "2026-10-17T16:12:40.002850+00:00",
+    "/repos/expressjs/express/git/blobs/90ad71344719cf8bc2eba6092fa0ac731496d813": "2026-10-17T16:12:41.344719+00:00",
+    "/repos/expressjs/express/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:12:47.547948+00:00",
+    "/repos/expressjs/express/pulls/7518/files?per_page=100": "2026-10-17T16:12:49.024003+00:00",
+    "/repos/expressjs/express/pulls/7518/reviews?per_page=100": "2026-10-17T16:12:50.508330+00:00",
+    "/repos/expressjs/express/actions/runs?head_sha=a419aa7350389a275ab45fde2e849ed1f02449ef&per_page=10": "2026-10-17T16:12:52.717736+00:00",
+    "/repos/expressjs/express/actions/runs?head_sha=561714a120bcd59c168cb48f0ae26433c72f4803&per_page=10": "2026-10-17T16:12:54.403341+00:00",
+    "/repos/expressjs/express/pulls/7494/files?per_page=100": "2026-10-17T16:12:56.850154+00:00",
+    "/repos/expressjs/express/pulls/7494/reviews?per_page=100": "2026-10-17T16:12:58.346561+00:00",
+    "/repos/expressjs/express/actions/runs?head_sha=6d2df035a95f3d1002be3e29997b7a4bfe976b5f&per_page=10": "2026-10-17T16:13:00.241260+00:00",
+    "/repos/expressjs/express/actions/runs?head_sha=a7472b404baf42397b65601b5a18b7e53ce7c70a&per_page=10": "2026-10-17T16:13:01.909887+00:00",
+    "/repos/expressjs/express/pulls/7468/files?per_page=100": "2026-10-17T16:13:03.816742+00:00",
+    "/repos/expressjs/express/pulls/7468/reviews?per_page=100": "2026-10-17T16:13:05.496214+00:00",
+    "/repos/expressjs/express/actions/runs?head_sha=cf6722bf89a86905281d9160b6482e08166b5ef0&per_page=10": "2026-10-17T16:13:07.485099+00:00",
+    "/repos/expressjs/express/actions/runs?head_sha=f7240f149e7227dba363abb3e8ff5f359cf8df79&per_page=10": "2026-10-17T16:13:09.262534+00:00",
+    "/repos/expressjs/express/releases?per_page=20&page=1": "2026-10-17T16:17:08.399745+00:00",
+    "/repos/expressjs/express/commits/v5.3.0": "2026-10-17T16:13:14.656040+00:00",
+    "/repos/expressjs/express/commits/v4.22.2": "2026-10-17T16:13:17.050984+00:00",
+    "/repos/expressjs/express/actions/runs?head_sha=df0abc9333a3398b97b71f6ea7cd77d5ea3e9f97&per_page=10": "2026-10-17T16:13:18.866937+00:00",
+    "/repos/expressjs/express/commits/v5.2.1": "2026-10-17T16:13:21.680327+00:00",
+    "/repos/expressjs/express/actions/runs?head_sha=dbac741a49a5a64336b70c06e85c2e2706e36336&per_page=10": "2026-10-17T16:13:26.548719+00:00",
+    "/repos/expressjs/express/tags?per_page=3": "2026-10-17T16:13:27.981127+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:08.399745+00:00",
+  "status": "collected"
+}

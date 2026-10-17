@@ -1,0 +1,1797 @@
+{
+  "requested_repository": "openai/openai-dotnet",
+  "category": "sdk",
+  "collected_at": "2026-10-17T16:03:37.048943+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "openai/openai-dotnet",
+  "metadata": {
+    "html_url": "https://github.com/openai/openai-dotnet",
+    "description": "The official .NET library for the OpenAI API",
+    "homepage": "https://www.nuget.org/packages/OpenAI",
+    "language": "C#",
+    "stargazers_count": 2712,
+    "forks_count": 423,
+    "open_issues_count": 84,
+    "pushed_at": "2026-10-17T07:47:46Z",
+    "created_at": "2024-04-25T23:27:40Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [
+      "csharp",
+      "dotnet",
+      "openai"
+    ],
+    "owner": {
+      "login": "openai",
+      "type": "Organization",
+      "html_url": "https://github.com/openai"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "25f107e53ad5f2500d6b33088056fca2404db305",
+      "url": "https://github.com/openai/openai-dotnet/commit/25f107e53ad5f2500d6b33088056fca2404db305",
+      "date": "2026-10-16T21:54:16Z",
+      "subject": "fix(chat): honor patch precedence in serialization (#1360)"
+    },
+    {
+      "sha": "fa443c8c194c0671708cb780e193e651368f418f",
+      "url": "https://github.com/openai/openai-dotnet/commit/fa443c8c194c0671708cb780e193e651368f418f",
+      "date": "2026-10-16T21:46:45Z",
+      "subject": "Expand OpenTelemetry support for Responses streaming (#1412)"
+    },
+    {
+      "sha": "44c6311ffd7ef1e3fd66fef92457152dc412c416",
+      "url": "https://github.com/openai/openai-dotnet/commit/44c6311ffd7ef1e3fd66fef92457152dc412c416",
+      "date": "2026-10-16T21:02:10Z",
+      "subject": "[CODEOWNERS] Swap Jesse for Jonathan (#1439)"
+    },
+    {
+      "sha": "1f0e8829acac4e004ebe0960fa24f3a0f0e59e40",
+      "url": "https://github.com/openai/openai-dotnet/commit/1f0e8829acac4e004ebe0960fa24f3a0f0e59e40",
+      "date": "2026-10-07T05:02:12Z",
+      "subject": "Fix cancellation in synchronous ModifyAssistant (#1378)"
+    },
+    {
+      "sha": "f06dc5636d8edadaafaa1a934d08467641cd1cb2",
+      "url": "https://github.com/openai/openai-dotnet/commit/f06dc5636d8edadaafaa1a934d08467641cd1cb2",
+      "date": "2026-10-06T23:16:05Z",
+      "subject": "Bump NUnit across 2 directories (#1422)"
+    },
+    {
+      "sha": "7c7b7ec3ce16292caf14be2440a9876e1bd4510f",
+      "url": "https://github.com/openai/openai-dotnet/commit/7c7b7ec3ce16292caf14be2440a9876e1bd4510f",
+      "date": "2026-10-06T16:06:55Z",
+      "subject": "Bump source-map-js from 1.2.1 to 1.2.2 (#1415)"
+    },
+    {
+      "sha": "669494d20480329be5f3ff8508bd1e4f54eb9d50",
+      "url": "https://github.com/openai/openai-dotnet/commit/669494d20480329be5f3ff8508bd1e4f54eb9d50",
+      "date": "2026-10-06T15:55:56Z",
+      "subject": "Bump System.Diagnostics.DiagnosticSource (#1423)"
+    },
+    {
+      "sha": "c7b1893a67f13ea8adef5f29bdfd17803979432b",
+      "url": "https://github.com/openai/openai-dotnet/commit/c7b1893a67f13ea8adef5f29bdfd17803979432b",
+      "date": "2026-10-06T15:53:21Z",
+      "subject": "Bump Azure.Core (#1421)"
+    },
+    {
+      "sha": "02276a7b34fa1b0afb0f8cd7fe790fd75d6a1a3a",
+      "url": "https://github.com/openai/openai-dotnet/commit/02276a7b34fa1b0afb0f8cd7fe790fd75d6a1a3a",
+      "date": "2026-10-06T15:51:04Z",
+      "subject": "Bump System.Linq.AsyncEnumerable (#1424)"
+    },
+    {
+      "sha": "17edb5bb6bbd0a90c036e9cd69575e61ab9f25f6",
+      "url": "https://github.com/openai/openai-dotnet/commit/17edb5bb6bbd0a90c036e9cd69575e61ab9f25f6",
+      "date": "2026-10-06T15:50:40Z",
+      "subject": "Bump System.Net.ServerSentEvents (#1425)"
+    },
+    {
+      "sha": "3c8862ceaa913a77bcf833339f60a09fe9f725a6",
+      "url": "https://github.com/openai/openai-dotnet/commit/3c8862ceaa913a77bcf833339f60a09fe9f725a6",
+      "date": "2026-10-06T06:37:44Z",
+      "subject": "docs: fix standalone sample setup guidance (#1362)"
+    },
+    {
+      "sha": "9b85a2aa41c9cc9962f99b62fd900ca69e702a02",
+      "url": "https://github.com/openai/openai-dotnet/commit/9b85a2aa41c9cc9962f99b62fd900ca69e702a02",
+      "date": "2026-10-02T18:41:02Z",
+      "subject": "Update .NET SDK references to 10.0.401 (#1403)"
+    },
+    {
+      "sha": "e7e07af7e79bee04afc0bab52d396e48ad96856b",
+      "url": "https://github.com/openai/openai-dotnet/commit/e7e07af7e79bee04afc0bab52d396e48ad96856b",
+      "date": "2026-10-02T06:35:24Z",
+      "subject": "Fix NullReferenceException in CreateThreadAndRun when thread options are omitted (#1394)"
+    },
+    {
+      "sha": "d6b43f03e32b36e2a6d013f2149e0b2990c716a8",
+      "url": "https://github.com/openai/openai-dotnet/commit/d6b43f03e32b36e2a6d013f2149e0b2990c716a8",
+      "date": "2026-10-01T06:47:08Z",
+      "subject": "Fix synchronous CreateThreadAndRun discarding the caller's RequestOptions (#1393)"
+    },
+    {
+      "sha": "292ef0d1bbefeca49ae908f6fe0e5609d5fb0c38",
+      "url": "https://github.com/openai/openai-dotnet/commit/292ef0d1bbefeca49ae908f6fe0e5609d5fb0c38",
+      "date": "2026-09-29T21:25:31Z",
+      "subject": "Bump the nuget-dependencies group with 6 updates (#1398)"
+    },
+    {
+      "sha": "0fd4792d25d585360c73e316e9dc43dfd8674e65",
+      "url": "https://github.com/openai/openai-dotnet/commit/0fd4792d25d585360c73e316e9dc43dfd8674e65",
+      "date": "2026-09-28T16:27:19Z",
+      "subject": "Update @typespec/http-client-csharp to 1.0.0-alpha.20260924.3 (#1395)"
+    },
+    {
+      "sha": "4e5ae90621089e0b1f5571546a75cea6b0cc713f",
+      "url": "https://github.com/openai/openai-dotnet/commit/4e5ae90621089e0b1f5571546a75cea6b0cc713f",
+      "date": "2026-09-25T21:05:54Z",
+      "subject": "Stop generating the unused OpenAIModelFactory (#1382)"
+    },
+    {
+      "sha": "f0c5a8037caa573f27fbc249e014fe787efd186a",
+      "url": "https://github.com/openai/openai-dotnet/commit/f0c5a8037caa573f27fbc249e014fe787efd186a",
+      "date": "2026-09-25T17:04:36Z",
+      "subject": "[Docs] Document SDK security and support policies (#1392)"
+    },
+    {
+      "sha": "e448956d768144367818c334dfd1f526c568382d",
+      "url": "https://github.com/openai/openai-dotnet/commit/e448956d768144367818c334dfd1f526c568382d",
+      "date": "2026-09-24T07:46:03Z",
+      "subject": "Use shared pagination option models in TypeSpec (#1293)"
+    },
+    {
+      "sha": "8156f3a94f4a6bcadfd026ac9e65e485707a3064",
+      "url": "https://github.com/openai/openai-dotnet/commit/8156f3a94f4a6bcadfd026ac9e65e485707a3064",
+      "date": "2026-09-23T23:28:00Z",
+      "subject": "Generator version upgrade, fix package-lock delete to avoid npm bug (#1389)"
+    }
+  ],
+  "default_sha": "25f107e53ad5f2500d6b33088056fca2404db305",
+  "root_and_selected_directory_paths": [
+    ".config",
+    ".devcontainer",
+    ".editorconfig",
+    ".env.sample",
+    ".gitattributes",
+    ".github",
+    ".github/CODEOWNERS",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/01_question.yaml",
+    ".github/ISSUE_TEMPLATE/02_bug_report.yaml",
+    ".github/ISSUE_TEMPLATE/03_feature_request.yaml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/actions",
+    ".github/copilot-instructions.md",
+    ".github/dependabot.yml",
+    ".github/skills",
+    ".github/workflows",
+    ".github/workflows.md",
+    ".github/workflows/integrity-checks.yml",
+    ".github/workflows/live-test.yml",
+    ".github/workflows/main.yml",
+    ".github/workflows/needs-triage.yml",
+    ".github/workflows/record-test.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/update-generator.yml",
+    ".gitignore",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "Directory.Build.props",
+    "Directory.Build.targets",
+    "Directory.Packages.props",
+    "LICENSE",
+    "OpenAI",
+    "OpenAI.Responses",
+    "OpenAI.slnx",
+    "README.md",
+    "SECURITY.md",
+    "SUPPORT.md",
+    "api",
+    "codegen",
+    "docs",
+    "docs/FeatureLifecycle.md",
+    "docs/MigrationGuide.md",
+    "docs/Observability.md",
+    "docs/README.md",
+    "docs/guides",
+    "docs/overview",
+    "docs/quickstart",
+    "eng",
+    "examples",
+    "global.json",
+    "nuget.config",
+    "package-lock.json",
+    "package.json",
+    "schema",
+    "scripts",
+    "specification",
+    "tests"
+  ],
+  "workflow_paths": [
+    ".github/workflows/live-test.yml",
+    ".github/workflows/record-test.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/integrity-checks.yml",
+    ".github/workflows/main.yml",
+    ".github/workflows/needs-triage.yml",
+    ".github/workflows/update-generator.yml"
+  ],
+  "documents": [
+    {
+      "path": "CHANGELOG.md",
+      "sha": "a5b99253dd35d5dc90ebb5fab239c21d2f89b683",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/CHANGELOG.md",
+      "lines": 1540,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          156,
+          157,
+          950,
+          951
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          5,
+          45,
+          147,
+          178,
+          248,
+          439,
+          637,
+          667,
+          733
+        ],
+        "story": [
+          1,
+          1478
+        ]
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "9bd36b9ff781f5a32bc330eb9dbaaf2fb4669a71",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/CONTRIBUTING.md",
+      "lines": 154,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          10,
+          13,
+          15,
+          23,
+          86,
+          88,
+          97,
+          102,
+          154
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          26,
+          28
+        ],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "9e45eb84bb07f8ed9c0cc554db2733c0928d6eae",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/README.md",
+      "lines": 1188,
+      "signals": {
+        "tests": [],
+        "lint": [
+          638
+        ],
+        "generated_code": [
+          1171,
+          1172,
+          1173,
+          1174,
+          1175,
+          1176
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          3
+        ],
+        "media": [
+          3
+        ],
+        "theme_images": [],
+        "playground": [
+          759
+        ],
+        "community": [
+          707
+        ],
+        "story": [
+          291,
+          298,
+          426,
+          720
+        ]
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "12544b410b7a3b2a0341b3d4900a685452e8ad45",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/SECURITY.md",
+      "lines": 161,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          134,
+          149
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          3,
+          5,
+          9,
+          22,
+          53
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SUPPORT.md",
+      "sha": "0de11f4c40039789927f50ba087fb38c3cb14b33",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/SUPPORT.md",
+      "lines": 40,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          23,
+          24
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "package.json",
+      "sha": "1083eef851b163c05f9188df2297c728c4f2da93",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/package.json",
+      "lines": 12,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          4,
+          9
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha": "966f786c7e8f7b0b272a8724072d3b9ede05297b",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/.github/CODEOWNERS",
+      "lines": 5,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/01_question.yaml",
+      "sha": "21e32446a7a1e248326dfd54a0fa7cb07f32571f",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/.github/ISSUE_TEMPLATE/01_question.yaml",
+      "lines": 16,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/02_bug_report.yaml",
+      "sha": "28006c6a7476e1772230371a88440ad9206f4bc0",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/.github/ISSUE_TEMPLATE/02_bug_report.yaml",
+      "lines": 55,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/03_feature_request.yaml",
+      "sha": "23ed81253292f701ef63615f5b40d0a6cc41eaf9",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/.github/ISSUE_TEMPLATE/03_feature_request.yaml",
+      "lines": 21,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "0ec55bbb47a77f4455ecb183e871eb79f24a9528",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 7,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "9d1216a93cb8efcf80ba6894ceded09ee2d89381",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/.github/dependabot.yml",
+      "lines": 102,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          9,
+          38,
+          39
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/README.md",
+      "sha": "5c2aae6d89d80544e85495492f64f7fb7467d744",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/docs/README.md",
+      "lines": 232,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/live-test.yml",
+      "sha": "ed0c71be1a9431689a27fc010cbfec15a3cf52e7",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/.github/workflows/live-test.yml",
+      "lines": 58,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10
+        ],
+        "pinned_actions": [
+          23,
+          26,
+          31,
+          36,
+          54
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/record-test.yml",
+      "sha": "1788c4231e7cef16465e1c43596ac3e5ad6a767f",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/.github/workflows/record-test.yml",
+      "lines": 313,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          21,
+          189,
+          190
+        ],
+        "pinned_actions": [
+          45,
+          50,
+          55,
+          60,
+          168,
+          176,
+          212,
+          237
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha": "7ed8ca57b56333e35bb18ace4fe1d164e5de208d",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/.github/workflows/release.yml",
+      "lines": 201,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          14,
+          76,
+          77,
+          124,
+          159,
+          160,
+          161
+        ],
+        "pinned_actions": [
+          26,
+          29,
+          34,
+          39,
+          66,
+          81,
+          87,
+          95,
+          115,
+          128,
+          134,
+          164
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/integrity-checks.yml",
+      "sha": "3bc358c4349e7ca0c8ad1d0190581fa8da20ceda",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/.github/workflows/integrity-checks.yml",
+      "lines": 143,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          1,
+          8,
+          16,
+          30,
+          31,
+          49,
+          52,
+          53,
+          56,
+          60,
+          65,
+          67
+        ],
+        "release_automation": [],
+        "permissions": [
+          26
+        ],
+        "pinned_actions": [
+          36,
+          39,
+          44,
+          75,
+          87,
+          90,
+          119,
+          122
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "sha": "ed2ff86d2749989501cabd640746889274398c27",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/.github/workflows/main.yml",
+      "lines": 68,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13
+        ],
+        "pinned_actions": [
+          24,
+          27,
+          32,
+          37,
+          64
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/needs-triage.yml",
+      "sha": "d2e9e5ba32f332d818f6de002f4f5b6f3fa3bc23",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/.github/workflows/needs-triage.yml",
+      "lines": 64,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [
+          17,
+          28,
+          56
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/update-generator.yml",
+      "sha": "55d3360e459362ef1b3b0223c559b63adb6d0b16",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-dotnet/blob/25f107e53ad5f2500d6b33088056fca2404db305/.github/workflows/update-generator.yml",
+      "lines": 77,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          41
+        ],
+        "release_automation": [],
+        "permissions": [
+          16,
+          17
+        ],
+        "pinned_actions": [
+          22,
+          27,
+          32
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 1360,
+      "title": "fix(chat): honor patch precedence in serialization",
+      "url": "https://github.com/openai/openai-dotnet/pull/1360",
+      "merged_at": "2026-10-16T21:54:17Z",
+      "merge_commit_sha": "25f107e53ad5f2500d6b33088056fca2404db305",
+      "files": [
+        "CHANGELOG.md",
+        "OpenAI/src/Custom/Chat/ChatMessageContentPart.Serialization.cs",
+        "OpenAI/src/Custom/Chat/Messages/ChatMessage.Serialization.cs",
+        "OpenAI/src/Custom/Chat/Messages/FunctionChatMessage.Serialization.cs",
+        "tests/Chat/ChatSmokeTests.cs"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "CHANGELOG.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/cb1195a10c4c04eadae363d85e04be07e503b2b9/CHANGELOG.md"
+        },
+        {
+          "filename": "OpenAI/src/Custom/Chat/ChatMessageContentPart.Serialization.cs",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 9,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/cb1195a10c4c04eadae363d85e04be07e503b2b9/OpenAI%2Fsrc%2FCustom%2FChat%2FChatMessageContentPart.Serialization.cs"
+        },
+        {
+          "filename": "OpenAI/src/Custom/Chat/Messages/ChatMessage.Serialization.cs",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/cb1195a10c4c04eadae363d85e04be07e503b2b9/OpenAI%2Fsrc%2FCustom%2FChat%2FMessages%2FChatMessage.Serialization.cs"
+        },
+        {
+          "filename": "OpenAI/src/Custom/Chat/Messages/FunctionChatMessage.Serialization.cs",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/cb1195a10c4c04eadae363d85e04be07e503b2b9/OpenAI%2Fsrc%2FCustom%2FChat%2FMessages%2FFunctionChatMessage.Serialization.cs"
+        },
+        {
+          "filename": "tests/Chat/ChatSmokeTests.cs",
+          "status": "modified",
+          "additions": 60,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/cb1195a10c4c04eadae363d85e04be07e503b2b9/tests%2FChat%2FChatSmokeTests.cs"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "CHANGES_REQUESTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38987695076,
+          "name": "Release package",
+          "path": ".github/workflows/release.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38987695076",
+          "head_sha": "25f107e53ad5f2500d6b33088056fca2404db305"
+        },
+        {
+          "id": 38972443119,
+          "name": "Build and run playback tests",
+          "path": ".github/workflows/main.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38972443119",
+          "head_sha": "25f107e53ad5f2500d6b33088056fca2404db305"
+        },
+        {
+          "id": 38972442446,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38972442446",
+          "head_sha": "25f107e53ad5f2500d6b33088056fca2404db305"
+        },
+        {
+          "id": 38972443140,
+          "name": "Code Quality: Push on main",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38972443140",
+          "head_sha": "25f107e53ad5f2500d6b33088056fca2404db305"
+        },
+        {
+          "id": 38972441873,
+          "name": "Automatic Dependency Submission (NuGet)",
+          "path": "dynamic/dependency-graph/auto-submission",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38972441873",
+          "head_sha": "25f107e53ad5f2500d6b33088056fca2404db305"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38967135251,
+          "name": "Code integrity checks",
+          "path": ".github/workflows/integrity-checks.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38967135251",
+          "head_sha": "cb1195a10c4c04eadae363d85e04be07e503b2b9"
+        },
+        {
+          "id": 38967135431,
+          "name": "Build and run playback tests",
+          "path": ".github/workflows/main.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38967135431",
+          "head_sha": "cb1195a10c4c04eadae363d85e04be07e503b2b9"
+        }
+      ]
+    },
+    {
+      "number": 1412,
+      "title": "Expand OpenTelemetry support for Responses streaming",
+      "url": "https://github.com/openai/openai-dotnet/pull/1412",
+      "merged_at": "2026-10-16T21:46:45Z",
+      "merge_commit_sha": "fa443c8c194c0671708cb780e193e651368f418f",
+      "files": [
+        "CHANGELOG.md",
+        "Directory.Packages.props",
+        "OpenAI.Responses/src/Custom/ResponsesClient.cs",
+        "OpenAI/src/Custom/Chat/ChatClient.cs",
+        "OpenAI/src/Custom/OpenAIClient.cs",
+        "OpenAI/src/Utility/AsyncSseUpdateCollection.cs",
+        "OpenAI/src/Utility/SseCompletionKind.cs",
+        "OpenAI/src/Utility/SseLifecycle.cs",
+        "OpenAI/src/Utility/SseUpdateCollection.cs",
+        "OpenAI/src/Utility/Telemetry/OpenTelemetryConstants.cs",
+        "OpenAI/src/Utility/Telemetry/OpenTelemetryExceptionLogger.cs",
+        "OpenAI/src/Utility/Telemetry/OpenTelemetryResponseMetadata.cs",
+        "OpenAI/src/Utility/Telemetry/OpenTelemetryResponseStream.cs",
+        "OpenAI/src/Utility/Telemetry/OpenTelemetryScope.Streaming.cs",
+        "OpenAI/src/Utility/Telemetry/OpenTelemetryScope.cs",
+        "OpenAI/src/Utility/Telemetry/OpenTelemetrySource.cs",
+        "OpenAI/src/Utility/Telemetry/OpenTelemetryTokenMetrics.cs",
+        "OpenAI/src/Utility/Telemetry/OpenTelemetryTokenUsage.cs",
+        "docs/Observability.md",
+        "tests/OpenAI.Tests.csproj",
+        "tests/Telemetry/ChatTelemetryTests.cs",
+        "tests/Telemetry/ExceptionLoggingTests.cs",
+        "tests/Telemetry/InferenceTokenMetricsTests.cs",
+        "tests/Telemetry/LatestSpanTelemetryTests.cs",
+        "tests/Telemetry/ResponseStreamTelemetryTests.cs",
+        "tests/Telemetry/ResponsesTelemetryTests.cs",
+        "tests/Telemetry/TestMeterListener.cs",
+        "tests/Telemetry/TokenSubsetNormalizationTests.cs",
+        "tests/Utility/SseUpdateCollectionTests.cs"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "CHANGELOG.md",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/CHANGELOG.md"
+        },
+        {
+          "filename": "Directory.Packages.props",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/Directory.Packages.props"
+        },
+        {
+          "filename": "OpenAI.Responses/src/Custom/ResponsesClient.cs",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 4,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/OpenAI.Responses%2Fsrc%2FCustom%2FResponsesClient.cs"
+        },
+        {
+          "filename": "OpenAI/src/Custom/Chat/ChatClient.cs",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/OpenAI%2Fsrc%2FCustom%2FChat%2FChatClient.cs"
+        },
+        {
+          "filename": "OpenAI/src/Custom/OpenAIClient.cs",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/OpenAI%2Fsrc%2FCustom%2FOpenAIClient.cs"
+        },
+        {
+          "filename": "OpenAI/src/Utility/AsyncSseUpdateCollection.cs",
+          "status": "modified",
+          "additions": 130,
+          "deletions": 22,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/OpenAI%2Fsrc%2FUtility%2FAsyncSseUpdateCollection.cs"
+        },
+        {
+          "filename": "OpenAI/src/Utility/SseCompletionKind.cs",
+          "status": "added",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/OpenAI%2Fsrc%2FUtility%2FSseCompletionKind.cs"
+        },
+        {
+          "filename": "OpenAI/src/Utility/SseLifecycle.cs",
+          "status": "added",
+          "additions": 25,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/OpenAI%2Fsrc%2FUtility%2FSseLifecycle.cs"
+        },
+        {
+          "filename": "OpenAI/src/Utility/SseUpdateCollection.cs",
+          "status": "modified",
+          "additions": 121,
+          "deletions": 18,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/OpenAI%2Fsrc%2FUtility%2FSseUpdateCollection.cs"
+        },
+        {
+          "filename": "OpenAI/src/Utility/Telemetry/OpenTelemetryConstants.cs",
+          "status": "modified",
+          "additions": 17,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/OpenAI%2Fsrc%2FUtility%2FTelemetry%2FOpenTelemetryConstants.cs"
+        },
+        {
+          "filename": "OpenAI/src/Utility/Telemetry/OpenTelemetryExceptionLogger.cs",
+          "status": "added",
+          "additions": 55,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/OpenAI%2Fsrc%2FUtility%2FTelemetry%2FOpenTelemetryExceptionLogger.cs"
+        },
+        {
+          "filename": "OpenAI/src/Utility/Telemetry/OpenTelemetryResponseMetadata.cs",
+          "status": "added",
+          "additions": 19,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/OpenAI%2Fsrc%2FUtility%2FTelemetry%2FOpenTelemetryResponseMetadata.cs"
+        },
+        {
+          "filename": "OpenAI/src/Utility/Telemetry/OpenTelemetryResponseStream.cs",
+          "status": "added",
+          "additions": 212,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/OpenAI%2Fsrc%2FUtility%2FTelemetry%2FOpenTelemetryResponseStream.cs"
+        },
+        {
+          "filename": "OpenAI/src/Utility/Telemetry/OpenTelemetryScope.Streaming.cs",
+          "status": "added",
+          "additions": 295,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/OpenAI%2Fsrc%2FUtility%2FTelemetry%2FOpenTelemetryScope.Streaming.cs"
+        },
+        {
+          "filename": "OpenAI/src/Utility/Telemetry/OpenTelemetryScope.cs",
+          "status": "modified",
+          "additions": 218,
+          "deletions": 38,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/OpenAI%2Fsrc%2FUtility%2FTelemetry%2FOpenTelemetryScope.cs"
+        },
+        {
+          "filename": "OpenAI/src/Utility/Telemetry/OpenTelemetrySource.cs",
+          "status": "modified",
+          "additions": 43,
+          "deletions": 9,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/OpenAI%2Fsrc%2FUtility%2FTelemetry%2FOpenTelemetrySource.cs"
+        },
+        {
+          "filename": "OpenAI/src/Utility/Telemetry/OpenTelemetryTokenMetrics.cs",
+          "status": "added",
+          "additions": 81,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/OpenAI%2Fsrc%2FUtility%2FTelemetry%2FOpenTelemetryTokenMetrics.cs"
+        },
+        {
+          "filename": "OpenAI/src/Utility/Telemetry/OpenTelemetryTokenUsage.cs",
+          "status": "added",
+          "additions": 98,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/OpenAI%2Fsrc%2FUtility%2FTelemetry%2FOpenTelemetryTokenUsage.cs"
+        },
+        {
+          "filename": "docs/Observability.md",
+          "status": "modified",
+          "additions": 171,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/docs%2FObservability.md"
+        },
+        {
+          "filename": "tests/OpenAI.Tests.csproj",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/tests%2FOpenAI.Tests.csproj"
+        },
+        {
+          "filename": "tests/Telemetry/ChatTelemetryTests.cs",
+          "status": "modified",
+          "additions": 49,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/tests%2FTelemetry%2FChatTelemetryTests.cs"
+        },
+        {
+          "filename": "tests/Telemetry/ExceptionLoggingTests.cs",
+          "status": "added",
+          "additions": 860,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/tests%2FTelemetry%2FExceptionLoggingTests.cs"
+        },
+        {
+          "filename": "tests/Telemetry/InferenceTokenMetricsTests.cs",
+          "status": "added",
+          "additions": 419,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/tests%2FTelemetry%2FInferenceTokenMetricsTests.cs"
+        },
+        {
+          "filename": "tests/Telemetry/LatestSpanTelemetryTests.cs",
+          "status": "added",
+          "additions": 667,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/tests%2FTelemetry%2FLatestSpanTelemetryTests.cs"
+        },
+        {
+          "filename": "tests/Telemetry/ResponseStreamTelemetryTests.cs",
+          "status": "added",
+          "additions": 343,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/tests%2FTelemetry%2FResponseStreamTelemetryTests.cs"
+        },
+        {
+          "filename": "tests/Telemetry/ResponsesTelemetryTests.cs",
+          "status": "modified",
+          "additions": 998,
+          "deletions": 7,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/tests%2FTelemetry%2FResponsesTelemetryTests.cs"
+        },
+        {
+          "filename": "tests/Telemetry/TestMeterListener.cs",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/tests%2FTelemetry%2FTestMeterListener.cs"
+        },
+        {
+          "filename": "tests/Telemetry/TokenSubsetNormalizationTests.cs",
+          "status": "added",
+          "additions": 235,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/tests%2FTelemetry%2FTokenSubsetNormalizationTests.cs"
+        },
+        {
+          "filename": "tests/Utility/SseUpdateCollectionTests.cs",
+          "status": "modified",
+          "additions": 409,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256/tests%2FUtility%2FSseUpdateCollectionTests.cs"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38971643443,
+          "name": "Code Quality: Push on main",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38971643443",
+          "head_sha": "fa443c8c194c0671708cb780e193e651368f418f"
+        },
+        {
+          "id": 38971644168,
+          "name": "Build and run playback tests",
+          "path": ".github/workflows/main.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38971644168",
+          "head_sha": "fa443c8c194c0671708cb780e193e651368f418f"
+        },
+        {
+          "id": 38971643090,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38971643090",
+          "head_sha": "fa443c8c194c0671708cb780e193e651368f418f"
+        },
+        {
+          "id": 38971643017,
+          "name": "Automatic Dependency Submission (NuGet)",
+          "path": "dynamic/dependency-graph/auto-submission",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38971643017",
+          "head_sha": "fa443c8c194c0671708cb780e193e651368f418f"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38005447877,
+          "name": "Code integrity checks",
+          "path": ".github/workflows/integrity-checks.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38005447877",
+          "head_sha": "0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256"
+        },
+        {
+          "id": 38005447843,
+          "name": "Build and run playback tests",
+          "path": ".github/workflows/main.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38005447843",
+          "head_sha": "0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256"
+        }
+      ]
+    },
+    {
+      "number": 1439,
+      "title": "[CODEOWNERS] Swap Jesse for Jonathan",
+      "url": "https://github.com/openai/openai-dotnet/pull/1439",
+      "merged_at": "2026-10-16T21:02:10Z",
+      "merge_commit_sha": "44c6311ffd7ef1e3fd66fef92457152dc412c416",
+      "files": [
+        ".github/CODEOWNERS"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".github/CODEOWNERS",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-dotnet/blob/7cc34ab407e603d38d3a28d8ec4c350e3f951068/.github%2FCODEOWNERS"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38966524336,
+          "name": "Automatic Dependency Submission (NuGet)",
+          "path": "dynamic/dependency-graph/auto-submission",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38966524336",
+          "head_sha": "44c6311ffd7ef1e3fd66fef92457152dc412c416"
+        },
+        {
+          "id": 38966525133,
+          "name": "Build and run playback tests",
+          "path": ".github/workflows/main.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38966525133",
+          "head_sha": "44c6311ffd7ef1e3fd66fef92457152dc412c416"
+        },
+        {
+          "id": 38966524445,
+          "name": "Code Quality: Push on main",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38966524445",
+          "head_sha": "44c6311ffd7ef1e3fd66fef92457152dc412c416"
+        },
+        {
+          "id": 38966524480,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38966524480",
+          "head_sha": "44c6311ffd7ef1e3fd66fef92457152dc412c416"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38965993314,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38965993314",
+          "head_sha": "7cc34ab407e603d38d3a28d8ec4c350e3f951068"
+        },
+        {
+          "id": 38965989542,
+          "name": "Automatic Dependency Submission (NuGet)",
+          "path": "dynamic/dependency-graph/auto-submission",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38965989542",
+          "head_sha": "7cc34ab407e603d38d3a28d8ec4c350e3f951068"
+        },
+        {
+          "id": 38965983029,
+          "name": "Live Test",
+          "path": ".github/workflows/live-test.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38965983029",
+          "head_sha": "7cc34ab407e603d38d3a28d8ec4c350e3f951068"
+        },
+        {
+          "id": 38965982303,
+          "name": "Build and run playback tests",
+          "path": ".github/workflows/main.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38965982303",
+          "head_sha": "7cc34ab407e603d38d3a28d8ec4c350e3f951068"
+        },
+        {
+          "id": 38965978163,
+          "name": "PR #1439",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38965978163",
+          "head_sha": "7cc34ab407e603d38d3a28d8ec4c350e3f951068"
+        },
+        {
+          "id": 38965978130,
+          "name": "Code Quality: PR #1439",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/38965978130",
+          "head_sha": "7cc34ab407e603d38d3a28d8ec4c350e3f951068"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "OpenAI_2.14.0",
+      "url": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.14.0",
+      "published_at": "2026-09-15T17:55:00Z",
+      "target_commitish": "main",
+      "commit_sha": "2e77b08828145f658ec04e49aec87abb1543c553",
+      "assets": [
+        "OpenAI.2.14.0.nupkg",
+        "OpenAI.2.14.0.snupkg"
+      ],
+      "workflow_runs": [
+        {
+          "id": 35050356243,
+          "name": "Code Quality: Scheduled",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/35050356243",
+          "head_sha": "2e77b08828145f658ec04e49aec87abb1543c553"
+        },
+        {
+          "id": 35041442476,
+          "name": "Release package",
+          "path": ".github/workflows/release.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/35041442476",
+          "head_sha": "2e77b08828145f658ec04e49aec87abb1543c553"
+        },
+        {
+          "id": 35004216415,
+          "name": "Release package",
+          "path": ".github/workflows/release.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/35004216415",
+          "head_sha": "2e77b08828145f658ec04e49aec87abb1543c553"
+        },
+        {
+          "id": 35003740404,
+          "name": "Build and run playback tests",
+          "path": ".github/workflows/main.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/35003740404",
+          "head_sha": "2e77b08828145f658ec04e49aec87abb1543c553"
+        },
+        {
+          "id": 35003737708,
+          "name": "Code Quality: Push on main",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/35003737708",
+          "head_sha": "2e77b08828145f658ec04e49aec87abb1543c553"
+        },
+        {
+          "id": 35003738175,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/35003738175",
+          "head_sha": "2e77b08828145f658ec04e49aec87abb1543c553"
+        },
+        {
+          "id": 35003737068,
+          "name": "Automatic Dependency Submission (NuGet)",
+          "path": "dynamic/dependency-graph/auto-submission",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/35003737068",
+          "head_sha": "2e77b08828145f658ec04e49aec87abb1543c553"
+        }
+      ]
+    },
+    {
+      "tag": "OpenAI_2.13.0",
+      "url": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.13.0",
+      "published_at": "2026-08-10T22:26:32Z",
+      "target_commitish": "main",
+      "commit_sha": "0aafb4c006c69db476607940b10c26fc07de8607",
+      "assets": [
+        "OpenAI.2.13.0.nupkg",
+        "OpenAI.2.13.0.snupkg"
+      ],
+      "workflow_runs": [
+        {
+          "id": 31446067734,
+          "name": "Release package",
+          "path": ".github/workflows/release.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/31446067734",
+          "head_sha": "0aafb4c006c69db476607940b10c26fc07de8607"
+        },
+        {
+          "id": 31438309303,
+          "name": "Release package",
+          "path": ".github/workflows/release.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/31438309303",
+          "head_sha": "0aafb4c006c69db476607940b10c26fc07de8607"
+        },
+        {
+          "id": 31437740974,
+          "name": "Build and run playback tests",
+          "path": ".github/workflows/main.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/31437740974",
+          "head_sha": "0aafb4c006c69db476607940b10c26fc07de8607"
+        },
+        {
+          "id": 31437740734,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/31437740734",
+          "head_sha": "0aafb4c006c69db476607940b10c26fc07de8607"
+        },
+        {
+          "id": 31437740915,
+          "name": "Code Quality: Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/31437740915",
+          "head_sha": "0aafb4c006c69db476607940b10c26fc07de8607"
+        }
+      ]
+    },
+    {
+      "tag": "OpenAI_2.12.0",
+      "url": "https://github.com/openai/openai-dotnet/releases/tag/OpenAI_2.12.0",
+      "published_at": "2026-07-01T17:35:59Z",
+      "target_commitish": "main",
+      "commit_sha": "6450c84ae936944613b1844d725466c9b450fa77",
+      "assets": [
+        "OpenAI.2.12.0.nupkg",
+        "OpenAI.2.12.0.snupkg"
+      ],
+      "workflow_runs": [
+        {
+          "id": 28833781482,
+          "name": "Release package",
+          "path": ".github/workflows/release.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/28833781482",
+          "head_sha": "6450c84ae936944613b1844d725466c9b450fa77"
+        },
+        {
+          "id": 28785172820,
+          "name": "Update TypeSpec Generator Version",
+          "path": ".github/workflows/update-generator.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/28785172820",
+          "head_sha": "6450c84ae936944613b1844d725466c9b450fa77"
+        },
+        {
+          "id": 28761111344,
+          "name": "Release package",
+          "path": ".github/workflows/release.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/28761111344",
+          "head_sha": "6450c84ae936944613b1844d725466c9b450fa77"
+        },
+        {
+          "id": 28725007446,
+          "name": "Release package",
+          "path": ".github/workflows/release.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/28725007446",
+          "head_sha": "6450c84ae936944613b1844d725466c9b450fa77"
+        },
+        {
+          "id": 28689850556,
+          "name": "Release package",
+          "path": ".github/workflows/release.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/28689850556",
+          "head_sha": "6450c84ae936944613b1844d725466c9b450fa77"
+        },
+        {
+          "id": 28666851009,
+          "name": "Add needs-triage label",
+          "path": ".github/workflows/needs-triage.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/28666851009",
+          "head_sha": "6450c84ae936944613b1844d725466c9b450fa77"
+        },
+        {
+          "id": 28631158095,
+          "name": "Release package",
+          "path": ".github/workflows/release.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/28631158095",
+          "head_sha": "6450c84ae936944613b1844d725466c9b450fa77"
+        },
+        {
+          "id": 28619909010,
+          "name": "Add needs-triage label",
+          "path": ".github/workflows/needs-triage.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/28619909010",
+          "head_sha": "6450c84ae936944613b1844d725466c9b450fa77"
+        },
+        {
+          "id": 28619662922,
+          "name": "Add needs-triage label",
+          "path": ".github/workflows/needs-triage.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/28619662922",
+          "head_sha": "6450c84ae936944613b1844d725466c9b450fa77"
+        },
+        {
+          "id": 28613172801,
+          "name": "Running Copilot cloud agent",
+          "path": "dynamic/copilot-swe-agent/copilot",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-dotnet/actions/runs/28613172801",
+          "head_sha": "6450c84ae936944613b1844d725466c9b450fa77"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "OpenAI_2.14.0",
+      "sha": "2e77b08828145f658ec04e49aec87abb1543c553"
+    },
+    {
+      "name": "OpenAI_2.13.0",
+      "sha": "0aafb4c006c69db476607940b10c26fc07de8607"
+    },
+    {
+      "name": "OpenAI_2.12.0",
+      "sha": "6450c84ae936944613b1844d725466c9b450fa77"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:16:41.165456+00:00",
+  "source_times": {
+    "/repos/openai/openai-dotnet": "2026-10-17T16:03:37.048943+00:00",
+    "/repos/openai/openai-dotnet/commits?sha=main&per_page=20": "2026-10-17T16:03:39.260349+00:00",
+    "/repos/openai/openai-dotnet/git/trees/25f107e53ad5f2500d6b33088056fca2404db305": "2026-10-17T16:03:40.777181+00:00",
+    "/repos/openai/openai-dotnet/git/trees/4c53c094c7a604e52dc9ab1b3c83209b4ecc22b4": "2026-10-17T16:03:42.241762+00:00",
+    "/repos/openai/openai-dotnet/git/trees/dded43f962198861864e073def37f4844df9d99e": "2026-10-17T16:03:43.656450+00:00",
+    "/repos/openai/openai-dotnet/git/trees/2fccea11a520b132bef2b445a03a1b448e356bff": "2026-10-17T16:03:45.086323+00:00",
+    "/repos/openai/openai-dotnet/git/trees/8a377faf054a87551480a602c3a65a36dfcbcb22": "2026-10-17T16:03:47.953804+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/a5b99253dd35d5dc90ebb5fab239c21d2f89b683": "2026-10-17T16:03:50.248751+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/9bd36b9ff781f5a32bc330eb9dbaaf2fb4669a71": "2026-10-17T16:03:51.696102+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/9e45eb84bb07f8ed9c0cc554db2733c0928d6eae": "2026-10-17T16:03:53.485922+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/12544b410b7a3b2a0341b3d4900a685452e8ad45": "2026-10-17T16:03:54.934638+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/0de11f4c40039789927f50ba087fb38c3cb14b33": "2026-10-17T16:03:57.355687+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/1083eef851b163c05f9188df2297c728c4f2da93": "2026-10-17T16:03:58.761212+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/966f786c7e8f7b0b272a8724072d3b9ede05297b": "2026-10-17T16:04:01.176076+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/21e32446a7a1e248326dfd54a0fa7cb07f32571f": "2026-10-17T16:04:02.946262+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/28006c6a7476e1772230371a88440ad9206f4bc0": "2026-10-17T16:04:04.368996+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/23ed81253292f701ef63615f5b40d0a6cc41eaf9": "2026-10-17T16:04:05.787028+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/0ec55bbb47a77f4455ecb183e871eb79f24a9528": "2026-10-17T16:04:07.190406+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/9d1216a93cb8efcf80ba6894ceded09ee2d89381": "2026-10-17T16:04:08.727743+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/5c2aae6d89d80544e85495492f64f7fb7467d744": "2026-10-17T16:04:10.353544+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/ed0c71be1a9431689a27fc010cbfec15a3cf52e7": "2026-10-17T16:04:11.924623+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/1788c4231e7cef16465e1c43596ac3e5ad6a767f": "2026-10-17T16:04:13.673703+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/7ed8ca57b56333e35bb18ace4fe1d164e5de208d": "2026-10-17T16:04:15.138033+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/3bc358c4349e7ca0c8ad1d0190581fa8da20ceda": "2026-10-17T16:04:16.670539+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/ed2ff86d2749989501cabd640746889274398c27": "2026-10-17T16:04:18.159019+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/d2e9e5ba32f332d818f6de002f4f5b6f3fa3bc23": "2026-10-17T16:04:19.579103+00:00",
+    "/repos/openai/openai-dotnet/git/blobs/55d3360e459362ef1b3b0223c559b63adb6d0b16": "2026-10-17T16:04:21.981275+00:00",
+    "/repos/openai/openai-dotnet/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:04:26.303373+00:00",
+    "/repos/openai/openai-dotnet/pulls/1360/files?per_page=100": "2026-10-17T16:04:27.976642+00:00",
+    "/repos/openai/openai-dotnet/pulls/1360/reviews?per_page=100": "2026-10-17T16:04:29.671582+00:00",
+    "/repos/openai/openai-dotnet/actions/runs?head_sha=25f107e53ad5f2500d6b33088056fca2404db305&per_page=10": "2026-10-17T16:04:31.541279+00:00",
+    "/repos/openai/openai-dotnet/actions/runs?head_sha=cb1195a10c4c04eadae363d85e04be07e503b2b9&per_page=10": "2026-10-17T16:04:33.342604+00:00",
+    "/repos/openai/openai-dotnet/pulls/1412/files?per_page=100": "2026-10-17T16:04:35.769986+00:00",
+    "/repos/openai/openai-dotnet/pulls/1412/reviews?per_page=100": "2026-10-17T16:04:37.696491+00:00",
+    "/repos/openai/openai-dotnet/actions/runs?head_sha=fa443c8c194c0671708cb780e193e651368f418f&per_page=10": "2026-10-17T16:04:39.524142+00:00",
+    "/repos/openai/openai-dotnet/actions/runs?head_sha=0af9f8f491f99aa5c8f63f869b75b4dbf2b9f256&per_page=10": "2026-10-17T16:04:41.302737+00:00",
+    "/repos/openai/openai-dotnet/pulls/1439/files?per_page=100": "2026-10-17T16:04:42.799779+00:00",
+    "/repos/openai/openai-dotnet/pulls/1439/reviews?per_page=100": "2026-10-17T16:04:45.785406+00:00",
+    "/repos/openai/openai-dotnet/actions/runs?head_sha=44c6311ffd7ef1e3fd66fef92457152dc412c416&per_page=10": "2026-10-17T16:04:47.879186+00:00",
+    "/repos/openai/openai-dotnet/actions/runs?head_sha=7cc34ab407e603d38d3a28d8ec4c350e3f951068&per_page=10": "2026-10-17T16:04:49.765862+00:00",
+    "/repos/openai/openai-dotnet/releases?per_page=20&page=1": "2026-10-17T16:16:41.005355+00:00",
+    "/repos/openai/openai-dotnet/commits/OpenAI_2.14.0": "2026-10-17T16:04:55.209732+00:00",
+    "/repos/openai/openai-dotnet/actions/runs?head_sha=2e77b08828145f658ec04e49aec87abb1543c553&per_page=10": "2026-10-17T16:04:57.192867+00:00",
+    "/repos/openai/openai-dotnet/commits/OpenAI_2.13.0": "2026-10-17T16:04:59.124325+00:00",
+    "/repos/openai/openai-dotnet/actions/runs?head_sha=0aafb4c006c69db476607940b10c26fc07de8607&per_page=10": "2026-10-17T16:05:01.036090+00:00",
+    "/repos/openai/openai-dotnet/commits/OpenAI_2.12.0": "2026-10-17T16:05:02.555685+00:00",
+    "/repos/openai/openai-dotnet/actions/runs?head_sha=6450c84ae936944613b1844d725466c9b450fa77&per_page=10": "2026-10-17T16:05:07.292220+00:00",
+    "/repos/openai/openai-dotnet/tags?per_page=3": "2026-10-17T16:05:08.699602+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:16:41.005355+00:00",
+  "status": "collected"
+}

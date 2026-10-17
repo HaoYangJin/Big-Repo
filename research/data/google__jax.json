@@ -1,0 +1,2426 @@
+{
+  "requested_repository": "google/jax",
+  "category": "ml",
+  "collected_at": "2026-10-17T16:09:42.721199+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "jax-ml/jax",
+  "metadata": {
+    "html_url": "https://github.com/jax-ml/jax",
+    "description": "Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more",
+    "homepage": "https://docs.jax.dev",
+    "language": "Python",
+    "stargazers_count": 36456,
+    "forks_count": 3862,
+    "open_issues_count": 2572,
+    "pushed_at": "2026-10-17T12:19:08Z",
+    "created_at": "2018-10-25T21:25:02Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [
+      "jax"
+    ],
+    "owner": {
+      "login": "jax-ml",
+      "type": "Organization",
+      "html_url": "https://github.com/jax-ml"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "db8a3af8605827a88de809c369c961de8bcc69e9",
+      "url": "https://github.com/jax-ml/jax/commit/db8a3af8605827a88de809c369c961de8bcc69e9",
+      "date": "2026-10-17T10:16:42Z",
+      "subject": "Lower `lax.exp2_p` and `lax.log2_p` directly to `stablehlo.exp2` and `stablehlo.log2`"
+    },
+    {
+      "sha": "43f40bf038d944269401c58c059ed86a02aaf32b",
+      "url": "https://github.com/jax-ml/jax/commit/43f40bf038d944269401c58c059ed86a02aaf32b",
+      "date": "2026-10-17T10:13:46Z",
+      "subject": "Automated Code Change"
+    },
+    {
+      "sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1",
+      "url": "https://github.com/jax-ml/jax/commit/b20317e414e081cdbee43acf1c515a9bb84e78a1",
+      "date": "2026-10-17T09:46:04Z",
+      "subject": "Use lax.polynomial for Horner evaluations in lgamma, random, and scipy.special."
+    },
+    {
+      "sha": "fe179121114c283d7f0cb0660d5626e59fad05c7",
+      "url": "https://github.com/jax-ml/jax/commit/fe179121114c283d7f0cb0660d5626e59fad05c7",
+      "date": "2026-10-17T09:42:18Z",
+      "subject": "Skip `test_emit_pipeline_multicore_no_pipelining` on TPU generations < 4."
+    },
+    {
+      "sha": "cb0dac63548ce743c24b4c69d86b104bcf34d86a",
+      "url": "https://github.com/jax-ml/jax/commit/cb0dac63548ce743c24b4c69d86b104bcf34d86a",
+      "date": "2026-10-17T09:23:02Z",
+      "subject": "Disable `ragged_collective_test` under ASan on GPU and ASan/TSan on TPU."
+    },
+    {
+      "sha": "0e0c7874eae1e79c0b12672b2f8ea7eeb708bdfe",
+      "url": "https://github.com/jax-ml/jax/commit/0e0c7874eae1e79c0b12672b2f8ea7eeb708bdfe",
+      "date": "2026-10-17T09:08:40Z",
+      "subject": "Merge pull request #41331 from ROCm:araganes/rocm-pip-extras"
+    },
+    {
+      "sha": "aec4abdfe0983ab07b29921e97a4ce1bd1971f57",
+      "url": "https://github.com/jax-ml/jax/commit/aec4abdfe0983ab07b29921e97a4ce1bd1971f57",
+      "date": "2026-10-17T08:09:35Z",
+      "subject": "Update XLA dependency to use revision http://github.com/openxla/xla/commit/23d273a75c335d5e7a72f691109bdf8ed964a334"
+    },
+    {
+      "sha": "638248e5fc858e7f55d8983ef547899a67ecc2af",
+      "url": "https://github.com/jax-ml/jax/commit/638248e5fc858e7f55d8983ef547899a67ecc2af",
+      "date": "2026-10-17T05:09:34Z",
+      "subject": "Merge pull request #41717 from mattjj:push-zwymxyrkkwtw"
+    },
+    {
+      "sha": "fb326e7153a7bae49006a8714d2871831d06ce67",
+      "url": "https://github.com/jax-ml/jax/commit/fb326e7153a7bae49006a8714d2871831d06ce67",
+      "date": "2026-10-17T04:32:17Z",
+      "subject": "Compute a two-term Maclaurin series in `lax_numpy._i1_maclaurin`"
+    },
+    {
+      "sha": "8ff5d87c8fda879438b47bf75f38740daf5499e7",
+      "url": "https://github.com/jax-ml/jax/commit/8ff5d87c8fda879438b47bf75f38740daf5499e7",
+      "date": "2026-10-17T03:47:22Z",
+      "subject": "[custom_vjp] pass gradient refs to rules that take accumulators under remat, jit and scan"
+    },
+    {
+      "sha": "137ce85adbd0c4d8941566b603fa3c9f9992d311",
+      "url": "https://github.com/jax-ml/jax/commit/137ce85adbd0c4d8941566b603fa3c9f9992d311",
+      "date": "2026-10-17T01:33:48Z",
+      "subject": "Apply core grid offsets in Pallas emit_pipeline when no_pipelining=True."
+    },
+    {
+      "sha": "bf35efbe9e1312aaf3da4d823472eae20fa7ad12",
+      "url": "https://github.com/jax-ml/jax/commit/bf35efbe9e1312aaf3da4d823472eae20fa7ad12",
+      "date": "2026-10-17T00:40:41Z",
+      "subject": "Merge pull request #41073 from mattjj:push-nwmmzykntoov"
+    },
+    {
+      "sha": "52ee148da6afad6f6b72a47049ce204aa85781e4",
+      "url": "https://github.com/jax-ml/jax/commit/52ee148da6afad6f6b72a47049ce204aa85781e4",
+      "date": "2026-10-17T00:21:49Z",
+      "subject": "[state] raise instead of repeating Ref writes in a disable_jit while_loop"
+    },
+    {
+      "sha": "92c033c4a6a46c2984260ff0696c2702c75c85e3",
+      "url": "https://github.com/jax-ml/jax/commit/92c033c4a6a46c2984260ff0696c2702c75c85e3",
+      "date": "2026-10-17T00:16:31Z",
+      "subject": "[state] carry the predicate in while_loops whose cond uses a ref"
+    },
+    {
+      "sha": "1de8a0cfdfdcf02424a63c0ae42279b70ce49b91",
+      "url": "https://github.com/jax-ml/jax/commit/1de8a0cfdfdcf02424a63c0ae42279b70ce49b91",
+      "date": "2026-10-16T23:59:34Z",
+      "subject": "Merge pull request #41693 from mattjj:push-oltnumtxtxul"
+    },
+    {
+      "sha": "fb4820b04116db8263be0e9e3d3f5dd1b20d4652",
+      "url": "https://github.com/jax-ml/jax/commit/fb4820b04116db8263be0e9e3d3f5dd1b20d4652",
+      "date": "2026-10-16T23:43:01Z",
+      "subject": "Merge pull request #41701 from mattjj:push-kxpyoqknwxkt"
+    },
+    {
+      "sha": "81ea1606cdb7fd0bfb592ff639b09c4a855407ab",
+      "url": "https://github.com/jax-ml/jax/commit/81ea1606cdb7fd0bfb592ff639b09c4a855407ab",
+      "date": "2026-10-16T23:00:54Z",
+      "subject": "Support Format in jax.dlpack.from_dlpack to override imported layout."
+    },
+    {
+      "sha": "1d157c7f3d022db324ecb38e99ed5107d607bdb7",
+      "url": "https://github.com/jax-ml/jax/commit/1d157c7f3d022db324ecb38e99ed5107d607bdb7",
+      "date": "2026-10-16T22:27:56Z",
+      "subject": "Align Pallas erf_inv lowering with lax.erf_inv in accurate mode."
+    },
+    {
+      "sha": "4d3c84a845600aa5e9208f36b45cb6ddd86a0578",
+      "url": "https://github.com/jax-ml/jax/commit/4d3c84a845600aa5e9208f36b45cb6ddd86a0578",
+      "date": "2026-10-16T21:57:00Z",
+      "subject": "Add `include_in_jaxpr_eqn_ctx` to configs to make it easier to add configs into jaxpr eqn context"
+    },
+    {
+      "sha": "c271102963bd64ab46d248a34fb48144eff6062d",
+      "url": "https://github.com/jax-ml/jax/commit/c271102963bd64ab46d248a34fb48144eff6062d",
+      "date": "2026-10-16T21:20:33Z",
+      "subject": "Preserve HLO op_name metadata when full tracebacks are disabled."
+    }
+  ],
+  "default_sha": "db8a3af8605827a88de809c369c961de8bcc69e9",
+  "root_and_selected_directory_paths": [
+    ".bazelrc",
+    ".bazelversion",
+    ".editorconfig",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/Feature_request.md",
+    ".github/ISSUE_TEMPLATE/bug-report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/actionlint.yaml",
+    ".github/actions",
+    ".github/dependabot.yml",
+    ".github/workflows",
+    ".github/workflows/README.md",
+    ".github/workflows/asan.yaml",
+    ".github/workflows/bazel_cpu.yml",
+    ".github/workflows/bazel_cpu_presubmit.yml",
+    ".github/workflows/bazel_cuda.yml",
+    ".github/workflows/bazel_cuda_b200_mosaic_presubmit.yml",
+    ".github/workflows/bazel_cuda_h100_b200.yml",
+    ".github/workflows/bazel_cuda_presubmit.yml",
+    ".github/workflows/bazel_nobuild.yml",
+    ".github/workflows/bazel_oneapi_presubmit.yml",
+    ".github/workflows/bazel_rocm.yml",
+    ".github/workflows/bazel_rocm_presubmit.yml",
+    ".github/workflows/bazel_test_tpu.yml",
+    ".github/workflows/build_artifacts.yml",
+    ".github/workflows/build_oneapi_artifacts.yml",
+    ".github/workflows/build_rocm_artifacts.yml",
+    ".github/workflows/ci-build.yaml",
+    ".github/workflows/cloud-tpu-ci-presubmit.yml",
+    ".github/workflows/community_release_actions.yml",
+    ".github/workflows/documentation.yml",
+    ".github/workflows/jax-array-api.yml",
+    ".github/workflows/k8s.yaml",
+    ".github/workflows/lint.yml",
+    ".github/workflows/numpy_nightly.yml",
+    ".github/workflows/oldest_supported_numpy.yml",
+    ".github/workflows/pytest_cpu.yml",
+    ".github/workflows/pytest_cuda.yml",
+    ".github/workflows/pytest_rocm.yml",
+    ".github/workflows/pytest_tpu.yml",
+    ".github/workflows/release-notification.yml",
+    ".github/workflows/scripts",
+    ".github/workflows/security.yml",
+    ".github/workflows/self_hosted_runner_utils",
+    ".github/workflows/tsan.yaml",
+    ".github/workflows/upload_metadata.yml",
+    ".github/workflows/upstream-nightly.yml",
+    ".github/workflows/verify-squash.yml",
+    ".github/workflows/wheel_tests_continuous.yml",
+    ".github/workflows/wheel_tests_nightly_release.yml",
+    ".github/zizmor.yml",
+    ".gitignore",
+    ".pre-commit-config.yaml",
+    ".readthedocs.yml",
+    "AUTHORS",
+    "BUILD.bazel",
+    "CHANGELOG.md",
+    "CITATION.bib",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "MODULE.bazel",
+    "README.md",
+    "bazel_downloader.cfg",
+    "benchmarks",
+    "build",
+    "build_wheel.py",
+    "ci",
+    "cloud_tpu_colabs",
+    "conftest.py",
+    "docs",
+    "docs/101",
+    "docs/201",
+    "docs/301",
+    "docs/401",
+    "docs/501",
+    "docs/601",
+    "docs/README.md",
+    "docs/__init__.py",
+    "docs/_static",
+    "docs/_templates",
+    "docs/_tutorials",
+    "docs/about.md",
+    "docs/accuracy.md",
+    "docs/advanced_autodiff.md",
+    "docs/advanced_guides.rst",
+    "docs/aot.md",
+    "docs/api_compatibility.md",
+    "docs/array_refs.ipynb",
+    "docs/array_refs.md",
+    "docs/array_refs.py",
+    "docs/async_dispatch.rst",
+    "docs/autodidax.ipynb",
+    "docs/autodidax.md",
+    "docs/autodidax.py",
+    "docs/autodidax2_part1.ipynb",
+    "docs/autodidax2_part1.md",
+    "docs/autodidax2_part1.py",
+    "docs/automatic-differentiation.md",
+    "docs/automatic-vectorization.md",
+    "docs/beginner_guide.rst",
+    "docs/benchmarking.md",
+    "docs/buffer_donation.md",
+    "docs/build_custom_gpu.sh",
+    "docs/building_on_jax.md",
+    "docs/changelog.md",
+    "docs/complex-differentiation.md",
+    "docs/concurrency.rst",
+    "docs/conf.py",
+    "docs/config_options.rst",
+    "docs/contributing.md",
+    "docs/contributor_guide.rst",
+    "docs/control-flow.md",
+    "docs/debugging",
+    "docs/debugging.md",
+    "docs/deprecation.md",
+    "docs/developer.md",
+    "docs/device_memory_profiling.md",
+    "docs/direct_linearize_migration.md",
+    "docs/distributed_data_loading.md",
+    "docs/errors.rst",
+    "docs/export",
+    "docs/extensions.rst",
+    "docs/external-callbacks.md",
+    "docs/faq.rst",
+    "docs/fault_tolerance.rst",
+    "docs/ffi",
+    "docs/ffi.ipynb",
+    "docs/ffi.md",
+    "docs/ffi.py",
+    "docs/glossary.rst",
+    "docs/gpu_memory_allocation.rst",
+    "docs/gpu_performance_tips.md",
+    "docs/gradient-checkpointing.md",
+    "docs/hero.html",
+    "docs/higher-order.md",
+    "docs/hijax_custom_derivatives.ipynb",
+    "docs/hijax_custom_derivatives.md",
+    "docs/hijax_custom_derivatives.py",
+    "docs/hijax_types.ipynb",
+    "docs/hijax_types.md",
+    "docs/hijax_types.py",
+    "docs/index.rst",
+    "docs/installation.md",
+    "docs/internals",
+    "docs/investigating_a_regression.md",
+    "docs/jacobian-vector-products.md",
+    "docs/jax-101.rst",
+    "docs/jax.ad_checkpoint.rst",
+    "docs/jax.debug.rst",
+    "docs/jax.distributed.rst",
+    "docs/jax.dlpack.rst",
+    "docs/jax.dtypes.rst",
+    "docs/jax.example_libraries.optimizers.rst",
+    "docs/jax.example_libraries.rst",
+    "docs/jax.example_libraries.stax.rst",
+    "docs/jax.experimental.checkify.rst",
+    "docs/jax.experimental.compilation_cache.rst",
+    "docs/jax.experimental.custom_partitioning.rst",
+    "docs/jax.experimental.jet.rst",
+    "docs/jax.experimental.key_reuse.rst",
+    "docs/jax.experimental.mesh_utils.rst",
+    "docs/jax.experimental.multihost_utils.rst",
+    "docs/jax.experimental.pallas.mosaic_gpu.rst",
+    "docs/jax.experimental.pallas.rst",
+    "docs/jax.experimental.pallas.tpu.rst",
+    "docs/jax.experimental.pallas.triton.rst",
+    "docs/jax.experimental.random.rst",
+    "docs/jax.experimental.rst",
+    "docs/jax.experimental.serialize_executable.rst",
+    "docs/jax.experimental.sparse.rst",
+    "docs/jax.experimental.xla_metadata.rst",
+    "docs/jax.export.rst",
+    "docs/jax.extend.backend.rst",
+    "docs/jax.extend.core.rst",
+    "docs/jax.extend.linear_util.rst",
+    "docs/jax.extend.lowering.rst",
+    "docs/jax.extend.mlir.rst",
+    "docs/jax.extend.pallas.rst",
+    "docs/jax.extend.random.rst",
+    "docs/jax.extend.rst",
+    "docs/jax.extend.xla.rst",
+    "docs/jax.ffi.rst",
+    "docs/jax.flatten_util.rst",
+    "docs/jax.image.rst",
+    "docs/jax.lax.rst",
+    "docs/jax.nn.initializers.rst",
+    "docs/jax.nn.rst",
+    "docs/jax.numpy.rst",
+    "docs/jax.ops.rst",
+    "docs/jax.profiler.rst",
+    "docs/jax.random.rst",
+    "docs/jax.ref.rst",
+    "docs/jax.rst",
+    "docs/jax.scipy.rst",
+    "docs/jax.sharding.rst",
+    "docs/jax.stages.rst",
+    "docs/jax.test_util.rst",
+    "docs/jax.tree.rst",
+    "docs/jax.tree_util.rst",
+    "docs/jax.typing.rst",
+    "docs/jax_array_migration.md",
+    "docs/jep",
+    "docs/jit-compilation.md",
+    "docs/key-concepts.md",
+    "docs/migrate_pmap.md",
+    "docs/multi_process.md",
+    "docs/notebooks",
+    "docs/pallas",
+    "docs/parallel.ipynb",
+    "docs/parallel.md",
+    "docs/parallel.py",
+    "docs/persistent_compilation_cache.md",
+    "docs/profiling.md",
+    "docs/pytrees.md",
+    "docs/random-numbers.md",
+    "docs/requirements.txt",
+    "docs/security.md",
+    "docs/shardy_jax_migration.md",
+    "docs/sphinxext",
+    "docs/stateful-computations.md",
+    "docs/superseded.rst",
+    "docs/the-training-cookbook.py",
+    "docs/the-training-cookbook.rst",
+    "docs/thunky.md",
+    "docs/tracing.md",
+    "docs/transfer_guard.rst",
+    "docs/whats-new.md",
+    "docs/xla_flags.md",
+    "examples",
+    "images",
+    "jax",
+    "jax_plugins",
+    "jaxlib",
+    "platform_mappings",
+    "pyproject.toml",
+    "setup.py",
+    "test_shard_count.bzl",
+    "tests",
+    "third_party"
+  ],
+  "workflow_paths": [
+    ".github/workflows/bazel_test_tpu.yml",
+    ".github/workflows/ci-build.yaml",
+    ".github/workflows/cloud-tpu-ci-presubmit.yml",
+    ".github/workflows/community_release_actions.yml",
+    ".github/workflows/pytest_cpu.yml",
+    ".github/workflows/pytest_cuda.yml",
+    ".github/workflows/pytest_rocm.yml",
+    ".github/workflows/pytest_tpu.yml",
+    ".github/workflows/release-notification.yml",
+    ".github/workflows/security.yml",
+    ".github/workflows/wheel_tests_continuous.yml",
+    ".github/workflows/wheel_tests_nightly_release.yml",
+    ".github/workflows/README.md",
+    ".github/workflows/asan.yaml",
+    ".github/workflows/bazel_cpu.yml",
+    ".github/workflows/bazel_cpu_presubmit.yml",
+    ".github/workflows/bazel_cuda.yml",
+    ".github/workflows/bazel_cuda_b200_mosaic_presubmit.yml",
+    ".github/workflows/bazel_cuda_h100_b200.yml",
+    ".github/workflows/bazel_cuda_presubmit.yml",
+    ".github/workflows/bazel_nobuild.yml",
+    ".github/workflows/bazel_oneapi_presubmit.yml",
+    ".github/workflows/bazel_rocm.yml",
+    ".github/workflows/bazel_rocm_presubmit.yml",
+    ".github/workflows/build_artifacts.yml",
+    ".github/workflows/build_oneapi_artifacts.yml",
+    ".github/workflows/build_rocm_artifacts.yml",
+    ".github/workflows/documentation.yml",
+    ".github/workflows/jax-array-api.yml",
+    ".github/workflows/k8s.yaml",
+    ".github/workflows/lint.yml",
+    ".github/workflows/numpy_nightly.yml",
+    ".github/workflows/oldest_supported_numpy.yml",
+    ".github/workflows/tsan.yaml",
+    ".github/workflows/upload_metadata.yml",
+    ".github/workflows/upstream-nightly.yml",
+    ".github/workflows/verify-squash.yml"
+  ],
+  "documents": [
+    {
+      "path": "CHANGELOG.md",
+      "sha": "baaa62df17086a798f32e1e1ea0cdc844d6fb17c",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/CHANGELOG.md",
+      "lines": 4197,
+      "signals": {
+        "tests": [
+          3017
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          1112,
+          1116
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "046d3df3195c3198bfcc260d1fcd8ff021cc45f0",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/CONTRIBUTING.md",
+      "lines": 4,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "6c1da50d9a243065cf6a24245ecc4d757379262c",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/README.md",
+      "lines": 283,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          7,
+          8
+        ],
+        "media": [
+          2,
+          7,
+          8
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "a553babacb8907640022c81c400fc43e566c31dd",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/pyproject.toml",
+      "lines": 164,
+      "signals": {
+        "tests": [
+          5,
+          34,
+          36,
+          40,
+          82
+        ],
+        "lint": [
+          97,
+          108,
+          144,
+          147
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/Feature_request.md",
+      "sha": "94f302686f23f60ea1177ecf58719cc601c55c42",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/.github/ISSUE_TEMPLATE/Feature_request.md",
+      "lines": 10,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
+      "sha": "1f8c2b2ac254536157c906624ddf7f4cb097baa8",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/.github/ISSUE_TEMPLATE/bug-report.yml",
+      "lines": 51,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          23
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "f078e8e941820c732d79f44a9ad0934a613d2bdd",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 5,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          4
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "f3d0c825282129932abf3d4a4df3abe10e257f98",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/.github/PULL_REQUEST_TEMPLATE.md",
+      "lines": 11,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          9
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "7919120795b84767bb5e98fb288a04a50770487f",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/.github/dependabot.yml",
+      "lines": 19,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/README.md",
+      "sha": "54b8a67477b0923292d9ac1e8cfecf651d33029b",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/docs/README.md",
+      "lines": 2,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/changelog.md",
+      "sha": "66efc0fecd1554e6e4681fcb149692591f388bf2",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/docs/changelog.md",
+      "lines": 2,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/contributing.md",
+      "sha": "04319c14027b727ae07ad2509149115b6025ff55",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/docs/contributing.md",
+      "lines": 333,
+      "signals": {
+        "tests": [
+          108,
+          114,
+          121,
+          124,
+          128
+        ],
+        "lint": [
+          98,
+          99,
+          201,
+          203,
+          206,
+          207
+        ],
+        "generated_code": [
+          26,
+          32
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          8,
+          19,
+          23,
+          50
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/contributor_guide.rst",
+      "sha": "7e677b7bb53b788a8f75820d8a8d98259b5ad0e3",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/docs/contributor_guide.rst",
+      "lines": 27,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/security.md",
+      "sha": "0d1140e5dce4434085932b62efa2e6d3c7a19389",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/docs/security.md",
+      "lines": 106,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/bazel_test_tpu.yml",
+      "sha": "f4ca9341c02553ec4946594b4bce7d2a45df4973",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/.github/workflows/bazel_test_tpu.yml",
+      "lines": 171,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          97
+        ],
+        "permissions": [
+          94
+        ],
+        "pinned_actions": [
+          122,
+          158
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci-build.yaml",
+      "sha": "e3e97e533651c2d4358eca342cc9adb71062f592",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/.github/workflows/ci-build.yaml",
+      "lines": 131,
+      "signals": {
+        "tests": [
+          1,
+          90,
+          124,
+          129
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          20,
+          22
+        ],
+        "permissions": [
+          13
+        ],
+        "pinned_actions": [
+          56,
+          61,
+          100,
+          105
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/cloud-tpu-ci-presubmit.yml",
+      "sha": "cf6cd140ef7dc6289d402705ed7957c55a1711c7",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/.github/workflows/cloud-tpu-ci-presubmit.yml",
+      "lines": 48,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          26
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/community_release_actions.yml",
+      "sha": "f97ca5f822b7a0c30723632f9ed77f7d77475bbf",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/.github/workflows/community_release_actions.yml",
+      "lines": 34,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7
+        ],
+        "pinned_actions": [
+          21,
+          31
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pytest_cpu.yml",
+      "sha": "7ae8318b0d32481fce92fc2280bdaf895db2ae6d",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/.github/workflows/pytest_cpu.yml",
+      "lines": 114,
+      "signals": {
+        "tests": [
+          1,
+          3,
+          4,
+          9,
+          11,
+          12,
+          42,
+          104,
+          106,
+          112
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          54,
+          55
+        ],
+        "permissions": [
+          51
+        ],
+        "pinned_actions": [
+          78,
+          101
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pytest_cuda.yml",
+      "sha": "625812a2dcff37cc18f14fecedcc4c987d154dba",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/.github/workflows/pytest_cuda.yml",
+      "lines": 126,
+      "signals": {
+        "tests": [
+          1,
+          3,
+          4,
+          9,
+          11,
+          12,
+          116,
+          118,
+          124
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          57
+        ],
+        "permissions": [
+          54
+        ],
+        "pinned_actions": [
+          80,
+          113
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pytest_rocm.yml",
+      "sha": "f2cbccf9ef1e477073bc0732c68af4060dae7d9f",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/.github/workflows/pytest_rocm.yml",
+      "lines": 210,
+      "signals": {
+        "tests": [
+          1,
+          3,
+          11,
+          13,
+          14,
+          180,
+          186,
+          188
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          129
+        ],
+        "permissions": [
+          124,
+          125
+        ],
+        "pinned_actions": [
+          161,
+          183,
+          196
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/pytest_tpu.yml",
+      "sha": "86a27871dee37e0860b058eac10241c67337a177",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/.github/workflows/pytest_tpu.yml",
+      "lines": 138,
+      "signals": {
+        "tests": [
+          1,
+          3,
+          4,
+          10,
+          12,
+          13,
+          125,
+          128,
+          136
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          69
+        ],
+        "permissions": [
+          66
+        ],
+        "pinned_actions": [
+          89,
+          122
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/release-notification.yml",
+      "sha": "e2ef755d954abb7aa1148d828a45d05834b73871",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/.github/workflows/release-notification.yml",
+      "lines": 22,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          5
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/security.yml",
+      "sha": "298dca18777f8b6eb564f03ad3d2a809fac38d31",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/.github/workflows/security.yml",
+      "lines": 37,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13
+        ],
+        "pinned_actions": [
+          28,
+          32
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/wheel_tests_continuous.yml",
+      "sha": "24b1149314ee700ae45c057a491199adb82076b4",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/.github/workflows/wheel_tests_continuous.yml",
+      "lines": 648,
+      "signals": {
+        "tests": [
+          8,
+          16,
+          21,
+          27,
+          56,
+          86,
+          106,
+          110,
+          112,
+          169,
+          248,
+          249
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          36,
+          500,
+          501,
+          544,
+          545,
+          579,
+          580,
+          620
+        ],
+        "pinned_actions": [
+          89,
+          154
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/wheel_tests_nightly_release.yml",
+      "sha": "73be1edfcb3df8c0263ebed8fa8d845b093346b6",
+      "status": "inspected",
+      "url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/.github/workflows/wheel_tests_nightly_release.yml",
+      "lines": 573,
+      "signals": {
+        "tests": [
+          5,
+          9,
+          13,
+          15,
+          65,
+          67,
+          81,
+          117,
+          119,
+          158,
+          252,
+          259
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          62
+        ],
+        "permissions": [
+          59,
+          202,
+          203,
+          255,
+          256,
+          291,
+          292
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 41683,
+      "title": "Lower `lax.exp2_p` and `lax.log2_p` directly to `stablehlo.exp2` and `stablehlo.log2`",
+      "url": "https://github.com/jax-ml/jax/pull/41683",
+      "merged_at": "2026-10-17T10:16:56Z",
+      "merge_commit_sha": "db8a3af8605827a88de809c369c961de8bcc69e9",
+      "files": [
+        "docs/accuracy.md",
+        "jax/_src/lax/lax.py",
+        "jax/experimental/jax2tf/tests/tf_test_util.py",
+        "tests/export_harnesses_multi_platform_test.py",
+        "tests/numerics/exp_test.py",
+        "tests/numerics/log_test.py",
+        "tests/shape_poly_test.py",
+        "tests/unary_ops_accuracy_test.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "docs/accuracy.md",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 8,
+          "blob_url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/docs%2Faccuracy.md"
+        },
+        {
+          "filename": "jax/_src/lax/lax.py",
+          "status": "modified",
+          "additions": 28,
+          "deletions": 23,
+          "blob_url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/jax%2F_src%2Flax%2Flax.py"
+        },
+        {
+          "filename": "jax/experimental/jax2tf/tests/tf_test_util.py",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 2,
+          "blob_url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/jax%2Fexperimental%2Fjax2tf%2Ftests%2Ftf_test_util.py"
+        },
+        {
+          "filename": "tests/export_harnesses_multi_platform_test.py",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 1,
+          "blob_url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/tests%2Fexport_harnesses_multi_platform_test.py"
+        },
+        {
+          "filename": "tests/numerics/exp_test.py",
+          "status": "modified",
+          "additions": 45,
+          "deletions": 12,
+          "blob_url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/tests%2Fnumerics%2Fexp_test.py"
+        },
+        {
+          "filename": "tests/numerics/log_test.py",
+          "status": "modified",
+          "additions": 46,
+          "deletions": 7,
+          "blob_url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/tests%2Fnumerics%2Flog_test.py"
+        },
+        {
+          "filename": "tests/shape_poly_test.py",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 1,
+          "blob_url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/tests%2Fshape_poly_test.py"
+        },
+        {
+          "filename": "tests/unary_ops_accuracy_test.py",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 0,
+          "blob_url": "https://github.com/jax-ml/jax/blob/db8a3af8605827a88de809c369c961de8bcc69e9/tests%2Funary_ops_accuracy_test.py"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39047567793,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39047567793",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        },
+        {
+          "id": 39047534869,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39047534869",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        },
+        {
+          "id": 39047526255,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39047526255",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        },
+        {
+          "id": 39047447300,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39047447300",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        },
+        {
+          "id": 39047399327,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39047399327",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        },
+        {
+          "id": 39047241149,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39047241149",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        },
+        {
+          "id": 39047088365,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39047088365",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        },
+        {
+          "id": 39046908587,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39046908587",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        },
+        {
+          "id": 39046805843,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39046805843",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        },
+        {
+          "id": 39046741274,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39046741274",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39047567793,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39047567793",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        },
+        {
+          "id": 39047534869,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39047534869",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        },
+        {
+          "id": 39047526255,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39047526255",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        },
+        {
+          "id": 39047447300,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39047447300",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        },
+        {
+          "id": 39047399327,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39047399327",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        },
+        {
+          "id": 39047241149,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39047241149",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        },
+        {
+          "id": 39047088365,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39047088365",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        },
+        {
+          "id": 39046908587,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39046908587",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        },
+        {
+          "id": 39046805843,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39046805843",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        },
+        {
+          "id": 39046741274,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39046741274",
+          "head_sha": "db8a3af8605827a88de809c369c961de8bcc69e9"
+        }
+      ]
+    },
+    {
+      "number": 41728,
+      "title": "Automated Code Change",
+      "url": "https://github.com/jax-ml/jax/pull/41728",
+      "merged_at": "2026-10-17T10:14:01Z",
+      "merge_commit_sha": "43f40bf038d944269401c58c059ed86a02aaf32b",
+      "files": [
+        "jaxlib/mlir.cc"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "jaxlib/mlir.cc",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/jax-ml/jax/blob/43f40bf038d944269401c58c059ed86a02aaf32b/jaxlib%2Fmlir.cc"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39024240130,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024240130",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        },
+        {
+          "id": 39024207028,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024207028",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        },
+        {
+          "id": 39024206389,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024206389",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        },
+        {
+          "id": 39024203130,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024203130",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        },
+        {
+          "id": 39024135290,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024135290",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        },
+        {
+          "id": 39024132548,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024132548",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        },
+        {
+          "id": 39024124853,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024124853",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        },
+        {
+          "id": 39024120226,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024120226",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        },
+        {
+          "id": 39024113190,
+          "name": "Security",
+          "path": ".github/workflows/security.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024113190",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        },
+        {
+          "id": 39024113217,
+          "name": "Lint",
+          "path": ".github/workflows/lint.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024113217",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39024240130,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024240130",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        },
+        {
+          "id": 39024207028,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024207028",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        },
+        {
+          "id": 39024206389,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024206389",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        },
+        {
+          "id": 39024203130,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024203130",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        },
+        {
+          "id": 39024135290,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024135290",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        },
+        {
+          "id": 39024132548,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024132548",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        },
+        {
+          "id": 39024124853,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024124853",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        },
+        {
+          "id": 39024120226,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024120226",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        },
+        {
+          "id": 39024113190,
+          "name": "Security",
+          "path": ".github/workflows/security.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024113190",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        },
+        {
+          "id": 39024113217,
+          "name": "Lint",
+          "path": ".github/workflows/lint.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024113217",
+          "head_sha": "43f40bf038d944269401c58c059ed86a02aaf32b"
+        }
+      ]
+    },
+    {
+      "number": 41730,
+      "title": "Use lax.polynomial for Horner evaluations in lgamma, random, and scipy.special.",
+      "url": "https://github.com/jax-ml/jax/pull/41730",
+      "merged_at": "2026-10-17T09:46:16Z",
+      "merge_commit_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1",
+      "files": [
+        "jax/_src/lax/lgamma.py",
+        "jax/_src/random/core.py",
+        "jax/_src/scipy/special.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "jax/_src/lax/lgamma.py",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 18,
+          "blob_url": "https://github.com/jax-ml/jax/blob/b20317e414e081cdbee43acf1c515a9bb84e78a1/jax%2F_src%2Flax%2Flgamma.py"
+        },
+        {
+          "filename": "jax/_src/random/core.py",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 4,
+          "blob_url": "https://github.com/jax-ml/jax/blob/b20317e414e081cdbee43acf1c515a9bb84e78a1/jax%2F_src%2Frandom%2Fcore.py"
+        },
+        {
+          "filename": "jax/_src/scipy/special.py",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 10,
+          "blob_url": "https://github.com/jax-ml/jax/blob/b20317e414e081cdbee43acf1c515a9bb84e78a1/jax%2F_src%2Fscipy%2Fspecial.py"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39024008081,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024008081",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        },
+        {
+          "id": 39024007665,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024007665",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        },
+        {
+          "id": 39024004502,
+          "name": "CI - Bazel H100 and B200 CUDA tests",
+          "path": ".github/workflows/bazel_cuda_h100_b200.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024004502",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        },
+        {
+          "id": 39023914787,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39023914787",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        },
+        {
+          "id": 39023732881,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39023732881",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        },
+        {
+          "id": 39023636037,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39023636037",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        },
+        {
+          "id": 39023503595,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39023503595",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        },
+        {
+          "id": 39023389087,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39023389087",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        },
+        {
+          "id": 39023348103,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39023348103",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        },
+        {
+          "id": 39023348141,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39023348141",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39024008081,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024008081",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        },
+        {
+          "id": 39024007665,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024007665",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        },
+        {
+          "id": 39024004502,
+          "name": "CI - Bazel H100 and B200 CUDA tests",
+          "path": ".github/workflows/bazel_cuda_h100_b200.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39024004502",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        },
+        {
+          "id": 39023914787,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39023914787",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        },
+        {
+          "id": 39023732881,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39023732881",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        },
+        {
+          "id": 39023636037,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39023636037",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        },
+        {
+          "id": 39023503595,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39023503595",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        },
+        {
+          "id": 39023389087,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39023389087",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        },
+        {
+          "id": 39023348103,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39023348103",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        },
+        {
+          "id": 39023348141,
+          "name": "Upload Workflow Metadata",
+          "path": ".github/workflows/upload_metadata.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/39023348141",
+          "head_sha": "b20317e414e081cdbee43acf1c515a9bb84e78a1"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "jax-v0.11.2",
+      "url": "https://github.com/jax-ml/jax/releases/tag/jax-v0.11.2",
+      "published_at": "2026-09-17T23:43:51Z",
+      "target_commitish": "release/0.11.2",
+      "commit_sha": "32544801e26115ac1794926d027148abf3baf009",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 35288130083,
+          "name": "Release Actions",
+          "path": ".github/workflows/community_release_actions.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "startup_failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/35288130083",
+          "head_sha": "32544801e26115ac1794926d027148abf3baf009"
+        },
+        {
+          "id": 35288129394,
+          "name": "Google Chat Release Notification",
+          "path": ".github/workflows/release-notification.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/35288129394",
+          "head_sha": "32544801e26115ac1794926d027148abf3baf009"
+        },
+        {
+          "id": 35277440545,
+          "name": "CI - Wheel Tests (Nightly/Release)",
+          "path": ".github/workflows/wheel_tests_nightly_release.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/35277440545",
+          "head_sha": "32544801e26115ac1794926d027148abf3baf009"
+        },
+        {
+          "id": 35233230687,
+          "name": "Bazel oneAPI",
+          "path": ".github/workflows/bazel_oneapi_presubmit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/35233230687",
+          "head_sha": "32544801e26115ac1794926d027148abf3baf009"
+        },
+        {
+          "id": 35233230513,
+          "name": "Bazel TPU",
+          "path": ".github/workflows/cloud-tpu-ci-presubmit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/35233230513",
+          "head_sha": "32544801e26115ac1794926d027148abf3baf009"
+        },
+        {
+          "id": 35233230487,
+          "name": "Bazel CPU",
+          "path": ".github/workflows/bazel_cpu_presubmit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/35233230487",
+          "head_sha": "32544801e26115ac1794926d027148abf3baf009"
+        },
+        {
+          "id": 35233230117,
+          "name": "Bazel nobuild",
+          "path": ".github/workflows/bazel_nobuild.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/35233230117",
+          "head_sha": "32544801e26115ac1794926d027148abf3baf009"
+        },
+        {
+          "id": 35233230527,
+          "name": "Bazel CUDA",
+          "path": ".github/workflows/bazel_cuda_presubmit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/35233230527",
+          "head_sha": "32544801e26115ac1794926d027148abf3baf009"
+        },
+        {
+          "id": 35233230480,
+          "name": "Bazel ROCm",
+          "path": ".github/workflows/bazel_rocm_presubmit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/35233230480",
+          "head_sha": "32544801e26115ac1794926d027148abf3baf009"
+        },
+        {
+          "id": 35233229234,
+          "name": "Push on release/0.11.2",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/35233229234",
+          "head_sha": "32544801e26115ac1794926d027148abf3baf009"
+        }
+      ]
+    },
+    {
+      "tag": "jax-v0.11.1",
+      "url": "https://github.com/jax-ml/jax/releases/tag/jax-v0.11.1",
+      "published_at": "2026-08-17T20:45:31Z",
+      "target_commitish": "release/0.11.1",
+      "commit_sha": "2d66622450e2c8633cda2307688ef7aa294bd6eb",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 32067509967,
+          "name": "Release Actions",
+          "path": ".github/workflows/community_release_actions.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "startup_failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/32067509967",
+          "head_sha": "2d66622450e2c8633cda2307688ef7aa294bd6eb"
+        },
+        {
+          "id": 32067509261,
+          "name": "Google Chat Release Notification",
+          "path": ".github/workflows/release-notification.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/32067509261",
+          "head_sha": "2d66622450e2c8633cda2307688ef7aa294bd6eb"
+        },
+        {
+          "id": 32061773428,
+          "name": "CI - Wheel Tests (Nightly/Release)",
+          "path": ".github/workflows/wheel_tests_nightly_release.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/32061773428",
+          "head_sha": "2d66622450e2c8633cda2307688ef7aa294bd6eb"
+        },
+        {
+          "id": 32050824715,
+          "name": "Bazel TPU",
+          "path": ".github/workflows/cloud-tpu-ci-presubmit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/32050824715",
+          "head_sha": "2d66622450e2c8633cda2307688ef7aa294bd6eb"
+        },
+        {
+          "id": 32050824712,
+          "name": "Bazel CUDA",
+          "path": ".github/workflows/bazel_cuda_presubmit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/32050824712",
+          "head_sha": "2d66622450e2c8633cda2307688ef7aa294bd6eb"
+        },
+        {
+          "id": 32050824407,
+          "name": "Bazel nobuild",
+          "path": ".github/workflows/bazel_nobuild.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/32050824407",
+          "head_sha": "2d66622450e2c8633cda2307688ef7aa294bd6eb"
+        },
+        {
+          "id": 32050824176,
+          "name": "Push on release/0.11.1",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/32050824176",
+          "head_sha": "2d66622450e2c8633cda2307688ef7aa294bd6eb"
+        },
+        {
+          "id": 32050824701,
+          "name": "Bazel oneAPI",
+          "path": ".github/workflows/bazel_oneapi_presubmit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/32050824701",
+          "head_sha": "2d66622450e2c8633cda2307688ef7aa294bd6eb"
+        },
+        {
+          "id": 32050824656,
+          "name": "Bazel CPU",
+          "path": ".github/workflows/bazel_cpu_presubmit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/32050824656",
+          "head_sha": "2d66622450e2c8633cda2307688ef7aa294bd6eb"
+        },
+        {
+          "id": 32050824687,
+          "name": "Bazel ROCm",
+          "path": ".github/workflows/bazel_rocm_presubmit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/32050824687",
+          "head_sha": "2d66622450e2c8633cda2307688ef7aa294bd6eb"
+        }
+      ]
+    },
+    {
+      "tag": "jax-v0.11.0",
+      "url": "https://github.com/jax-ml/jax/releases/tag/jax-v0.11.0",
+      "published_at": "2026-07-16T19:53:29Z",
+      "target_commitish": "release/0.11.0",
+      "commit_sha": "a1521744c6dc074443fe549f19f48d7197abf759",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 29529790249,
+          "name": "Release Actions",
+          "path": ".github/workflows/community_release_actions.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "startup_failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/29529790249",
+          "head_sha": "a1521744c6dc074443fe549f19f48d7197abf759"
+        },
+        {
+          "id": 29529789535,
+          "name": "Google Chat Release Notification",
+          "path": ".github/workflows/release-notification.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/29529789535",
+          "head_sha": "a1521744c6dc074443fe549f19f48d7197abf759"
+        },
+        {
+          "id": 29516317994,
+          "name": "CI - Wheel Tests (Nightly/Release)",
+          "path": ".github/workflows/wheel_tests_nightly_release.yml",
+          "event": "workflow_dispatch",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/29516317994",
+          "head_sha": "a1521744c6dc074443fe549f19f48d7197abf759"
+        },
+        {
+          "id": 29496664612,
+          "name": "Bazel ROCm",
+          "path": ".github/workflows/bazel_rocm_presubmit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/29496664612",
+          "head_sha": "a1521744c6dc074443fe549f19f48d7197abf759"
+        },
+        {
+          "id": 29496664530,
+          "name": "Bazel CUDA",
+          "path": ".github/workflows/bazel_cuda_presubmit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/29496664530",
+          "head_sha": "a1521744c6dc074443fe549f19f48d7197abf759"
+        },
+        {
+          "id": 29496663697,
+          "name": "Bazel TPU",
+          "path": ".github/workflows/cloud-tpu-ci-presubmit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/29496663697",
+          "head_sha": "a1521744c6dc074443fe549f19f48d7197abf759"
+        },
+        {
+          "id": 29496663443,
+          "name": "Bazel nobuild",
+          "path": ".github/workflows/bazel_nobuild.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/29496663443",
+          "head_sha": "a1521744c6dc074443fe549f19f48d7197abf759"
+        },
+        {
+          "id": 29496663763,
+          "name": "Bazel CPU",
+          "path": ".github/workflows/bazel_cpu_presubmit.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/29496663763",
+          "head_sha": "a1521744c6dc074443fe549f19f48d7197abf759"
+        },
+        {
+          "id": 29496662170,
+          "name": "Push on release/0.11.0",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/jax-ml/jax/actions/runs/29496662170",
+          "head_sha": "a1521744c6dc074443fe549f19f48d7197abf759"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "workflow_test",
+      "sha": "2308d0f29f9d4f5d7c15de5a7dec628ba90333ad"
+    },
+    {
+      "name": "test-jaxlib",
+      "sha": "45d96c490e05b598704cd2246f4cc4173dd10d19"
+    },
+    {
+      "name": "test-docs",
+      "sha": "909fee6a2d4b0cdb70bb3c85d5cb9a317996c596"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:03.401442+00:00",
+  "source_times": {
+    "/repos/google/jax": "2026-10-17T16:09:42.721199+00:00",
+    "/repos/jax-ml/jax/commits?sha=main&per_page=20": "2026-10-17T16:09:44.478132+00:00",
+    "/repos/jax-ml/jax/git/trees/db8a3af8605827a88de809c369c961de8bcc69e9": "2026-10-17T16:09:45.842596+00:00",
+    "/repos/jax-ml/jax/git/trees/54827119e519392f228dc7664d3c03128514c5d7": "2026-10-17T16:09:48.574923+00:00",
+    "/repos/jax-ml/jax/git/trees/077638c0c6044b3f64d36f112fb08313a11f78a0": "2026-10-17T16:09:49.956487+00:00",
+    "/repos/jax-ml/jax/git/trees/1c193163356a78c851df8c06385819f50319a815": "2026-10-17T16:09:51.393833+00:00",
+    "/repos/jax-ml/jax/git/trees/6a22bae10ddb2cc839b1bfcd833e8ce8ef390cae": "2026-10-17T16:09:52.998011+00:00",
+    "/repos/jax-ml/jax/git/blobs/baaa62df17086a798f32e1e1ea0cdc844d6fb17c": "2026-10-17T16:09:55.260123+00:00",
+    "/repos/jax-ml/jax/git/blobs/046d3df3195c3198bfcc260d1fcd8ff021cc45f0": "2026-10-17T16:09:56.758483+00:00",
+    "/repos/jax-ml/jax/git/blobs/6c1da50d9a243065cf6a24245ecc4d757379262c": "2026-10-17T16:09:58.166610+00:00",
+    "/repos/jax-ml/jax/git/blobs/a553babacb8907640022c81c400fc43e566c31dd": "2026-10-17T16:10:00.288050+00:00",
+    "/repos/jax-ml/jax/git/blobs/94f302686f23f60ea1177ecf58719cc601c55c42": "2026-10-17T16:10:02.835021+00:00",
+    "/repos/jax-ml/jax/git/blobs/1f8c2b2ac254536157c906624ddf7f4cb097baa8": "2026-10-17T16:10:04.288828+00:00",
+    "/repos/jax-ml/jax/git/blobs/f078e8e941820c732d79f44a9ad0934a613d2bdd": "2026-10-17T16:10:05.626212+00:00",
+    "/repos/jax-ml/jax/git/blobs/f3d0c825282129932abf3d4a4df3abe10e257f98": "2026-10-17T16:10:07.009584+00:00",
+    "/repos/jax-ml/jax/git/blobs/7919120795b84767bb5e98fb288a04a50770487f": "2026-10-17T16:10:08.375054+00:00",
+    "/repos/jax-ml/jax/git/blobs/54b8a67477b0923292d9ac1e8cfecf651d33029b": "2026-10-17T16:10:09.810854+00:00",
+    "/repos/jax-ml/jax/git/blobs/66efc0fecd1554e6e4681fcb149692591f388bf2": "2026-10-17T16:10:11.173180+00:00",
+    "/repos/jax-ml/jax/git/blobs/04319c14027b727ae07ad2509149115b6025ff55": "2026-10-17T16:10:12.769669+00:00",
+    "/repos/jax-ml/jax/git/blobs/7e677b7bb53b788a8f75820d8a8d98259b5ad0e3": "2026-10-17T16:10:14.173446+00:00",
+    "/repos/jax-ml/jax/git/blobs/0d1140e5dce4434085932b62efa2e6d3c7a19389": "2026-10-17T16:10:15.574692+00:00",
+    "/repos/jax-ml/jax/git/blobs/f4ca9341c02553ec4946594b4bce7d2a45df4973": "2026-10-17T16:10:16.962587+00:00",
+    "/repos/jax-ml/jax/git/blobs/e3e97e533651c2d4358eca342cc9adb71062f592": "2026-10-17T16:10:18.395748+00:00",
+    "/repos/jax-ml/jax/git/blobs/cf6cd140ef7dc6289d402705ed7957c55a1711c7": "2026-10-17T16:10:19.805631+00:00",
+    "/repos/jax-ml/jax/git/blobs/f97ca5f822b7a0c30723632f9ed77f7d77475bbf": "2026-10-17T16:10:21.324321+00:00",
+    "/repos/jax-ml/jax/git/blobs/7ae8318b0d32481fce92fc2280bdaf895db2ae6d": "2026-10-17T16:10:22.816380+00:00",
+    "/repos/jax-ml/jax/git/blobs/625812a2dcff37cc18f14fecedcc4c987d154dba": "2026-10-17T16:10:24.207313+00:00",
+    "/repos/jax-ml/jax/git/blobs/f2cbccf9ef1e477073bc0732c68af4060dae7d9f": "2026-10-17T16:10:25.692131+00:00",
+    "/repos/jax-ml/jax/git/blobs/86a27871dee37e0860b058eac10241c67337a177": "2026-10-17T16:10:28.097698+00:00",
+    "/repos/jax-ml/jax/git/blobs/e2ef755d954abb7aa1148d828a45d05834b73871": "2026-10-17T16:10:30.841876+00:00",
+    "/repos/jax-ml/jax/git/blobs/298dca18777f8b6eb564f03ad3d2a809fac38d31": "2026-10-17T16:10:32.245699+00:00",
+    "/repos/jax-ml/jax/git/blobs/24b1149314ee700ae45c057a491199adb82076b4": "2026-10-17T16:10:33.928186+00:00",
+    "/repos/jax-ml/jax/git/blobs/73be1edfcb3df8c0263ebed8fa8d845b093346b6": "2026-10-17T16:10:35.660979+00:00",
+    "/repos/jax-ml/jax/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:10:39.581454+00:00",
+    "/repos/jax-ml/jax/pulls/41683/files?per_page=100": "2026-10-17T16:10:41.304557+00:00",
+    "/repos/jax-ml/jax/pulls/41683/reviews?per_page=100": "2026-10-17T16:10:42.752747+00:00",
+    "/repos/jax-ml/jax/actions/runs?head_sha=db8a3af8605827a88de809c369c961de8bcc69e9&per_page=10": "2026-10-17T16:10:44.812418+00:00",
+    "/repos/jax-ml/jax/pulls/41728/files?per_page=100": "2026-10-17T16:10:46.310697+00:00",
+    "/repos/jax-ml/jax/pulls/41728/reviews?per_page=100": "2026-10-17T16:10:47.711482+00:00",
+    "/repos/jax-ml/jax/actions/runs?head_sha=43f40bf038d944269401c58c059ed86a02aaf32b&per_page=10": "2026-10-17T16:10:50.008511+00:00",
+    "/repos/jax-ml/jax/pulls/41730/files?per_page=100": "2026-10-17T16:10:51.558942+00:00",
+    "/repos/jax-ml/jax/pulls/41730/reviews?per_page=100": "2026-10-17T16:10:52.958854+00:00",
+    "/repos/jax-ml/jax/actions/runs?head_sha=b20317e414e081cdbee43acf1c515a9bb84e78a1&per_page=10": "2026-10-17T16:10:55.119505+00:00",
+    "/repos/jax-ml/jax/releases?per_page=20&page=1": "2026-10-17T16:17:03.398047+00:00",
+    "/repos/jax-ml/jax/commits/jax-v0.11.2": "2026-10-17T16:10:59.173790+00:00",
+    "/repos/jax-ml/jax/actions/runs?head_sha=32544801e26115ac1794926d027148abf3baf009&per_page=10": "2026-10-17T16:11:01.484189+00:00",
+    "/repos/jax-ml/jax/commits/jax-v0.11.1": "2026-10-17T16:11:03.606384+00:00",
+    "/repos/jax-ml/jax/actions/runs?head_sha=2d66622450e2c8633cda2307688ef7aa294bd6eb&per_page=10": "2026-10-17T16:11:05.905167+00:00",
+    "/repos/jax-ml/jax/commits/jax-v0.11.0": "2026-10-17T16:11:07.960329+00:00",
+    "/repos/jax-ml/jax/actions/runs?head_sha=a1521744c6dc074443fe549f19f48d7197abf759&per_page=10": "2026-10-17T16:11:10.954014+00:00",
+    "/repos/jax-ml/jax/tags?per_page=3": "2026-10-17T16:11:12.342177+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:03.398047+00:00",
+  "status": "collected"
+}

@@ -1,0 +1,2347 @@
+{
+  "requested_repository": "openai/openai-python",
+  "category": "sdk",
+  "collected_at": "2026-10-17T16:03:37.046691+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "openai/openai-python",
+  "metadata": {
+    "html_url": "https://github.com/openai/openai-python",
+    "description": "The official Python library for the OpenAI API",
+    "homepage": "https://pypi.org/project/openai/",
+    "language": "Python",
+    "stargazers_count": 31868,
+    "forks_count": 8319,
+    "open_issues_count": 141,
+    "pushed_at": "2026-10-17T08:19:49Z",
+    "created_at": "2020-10-25T23:23:54Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [
+      "openai",
+      "python"
+    ],
+    "owner": {
+      "login": "openai",
+      "type": "Organization",
+      "html_url": "https://github.com/openai"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "bfada5040b0171cd0ae61aefae8c78fcf83c804a",
+      "url": "https://github.com/openai/openai-python/commit/bfada5040b0171cd0ae61aefae8c78fcf83c804a",
+      "date": "2026-10-17T08:13:42Z",
+      "subject": "feat(api): add Realtime Translation WebSocket sessions (#4095)"
+    },
+    {
+      "sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1",
+      "url": "https://github.com/openai/openai-python/commit/b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1",
+      "date": "2026-10-17T00:23:10Z",
+      "subject": "release: 3.33.0 (#4094)"
+    },
+    {
+      "sha": "c969e32ebb325b5910aff4543187fedc5527e172",
+      "url": "https://github.com/openai/openai-python/commit/c969e32ebb325b5910aff4543187fedc5527e172",
+      "date": "2026-10-16T21:55:57Z",
+      "subject": "feat(api): add safety identifiers to image requests and responses (#4093)"
+    },
+    {
+      "sha": "f7cefdaf059a3e6856d49b4bc2e2e5fbdef8193b",
+      "url": "https://github.com/openai/openai-python/commit/f7cefdaf059a3e6856d49b4bc2e2e5fbdef8193b",
+      "date": "2026-10-16T21:23:22Z",
+      "subject": "feat(api): share Decisions cache breakpoint parameter type (#4092)"
+    },
+    {
+      "sha": "6ea95a6d1f250840eda4cb99737a90fef31c7a14",
+      "url": "https://github.com/openai/openai-python/commit/6ea95a6d1f250840eda4cb99737a90fef31c7a14",
+      "date": "2026-10-16T20:11:43Z",
+      "subject": "release: 3.32.0 (#4080)"
+    },
+    {
+      "sha": "2e39db79e2f0ec41ce5d87b379be1e88c8298ea4",
+      "url": "https://github.com/openai/openai-python/commit/2e39db79e2f0ec41ce5d87b379be1e88c8298ea4",
+      "date": "2026-10-16T19:34:09Z",
+      "subject": "feat(api): add prompt-based voice creation (#4091)"
+    },
+    {
+      "sha": "230a923faba5574ebdc5b45a505a26b6bad79f61",
+      "url": "https://github.com/openai/openai-python/commit/230a923faba5574ebdc5b45a505a26b6bad79f61",
+      "date": "2026-10-16T03:11:09Z",
+      "subject": "feat(api): support Decisions in Live sessions (#4088)"
+    },
+    {
+      "sha": "325da45934ddb1c1b6a0bed1681a8cf46c9a8712",
+      "url": "https://github.com/openai/openai-python/commit/325da45934ddb1c1b6a0bed1681a8cf46c9a8712",
+      "date": "2026-10-16T02:17:05Z",
+      "subject": "feat(api): add cache settings and key options [2/2] (#4087)"
+    },
+    {
+      "sha": "9998c1a3806afda55cb3923de1f7f49adcff5a7f",
+      "url": "https://github.com/openai/openai-python/commit/9998c1a3806afda55cb3923de1f7f49adcff5a7f",
+      "date": "2026-10-15T22:23:47Z",
+      "subject": "feat(api): support audio fixture playback in Live sessions (#4085)"
+    },
+    {
+      "sha": "e71d781ac5e7b3f365ac130bf338baaf13ae720d",
+      "url": "https://github.com/openai/openai-python/commit/e71d781ac5e7b3f365ac130bf338baaf13ae720d",
+      "date": "2026-10-15T06:01:34Z",
+      "subject": "feat(api): add response error diagnostics and model notices (#4086)"
+    },
+    {
+      "sha": "70d473892f7c427a02a3b566add9c86072842e25",
+      "url": "https://github.com/openai/openai-python/commit/70d473892f7c427a02a3b566add9c86072842e25",
+      "date": "2026-10-15T03:54:34Z",
+      "subject": "refactor: share WebSocket connection handling (#4084)"
+    },
+    {
+      "sha": "95dbee9ee406587053a0a21296eb82418073f2aa",
+      "url": "https://github.com/openai/openai-python/commit/95dbee9ee406587053a0a21296eb82418073f2aa",
+      "date": "2026-10-15T00:31:52Z",
+      "subject": "fix(api): declare Realtime response error messages (#4083)"
+    },
+    {
+      "sha": "21ce0c2eae47b389f25d79095d2ac5aec7812806",
+      "url": "https://github.com/openai/openai-python/commit/21ce0c2eae47b389f25d79095d2ac5aec7812806",
+      "date": "2026-10-14T21:06:19Z",
+      "subject": "feat(api): add regional processing residency options (#4081)"
+    },
+    {
+      "sha": "d42accb1a2d1b75b79edf694b8bfee78c4e90e6a",
+      "url": "https://github.com/openai/openai-python/commit/d42accb1a2d1b75b79edf694b8bfee78c4e90e6a",
+      "date": "2026-10-14T17:30:55Z",
+      "subject": "chore(api): clarify Decisions request and response fields (#4079)"
+    },
+    {
+      "sha": "86cae50785fb7b7bf2a5d2383370b214b304acd2",
+      "url": "https://github.com/openai/openai-python/commit/86cae50785fb7b7bf2a5d2383370b214b304acd2",
+      "date": "2026-10-14T05:32:50Z",
+      "subject": "release: 3.31.0 (#4078)"
+    },
+    {
+      "sha": "47b9e4e95e44b1e825dc4e0753967c65d0733445",
+      "url": "https://github.com/openai/openai-python/commit/47b9e4e95e44b1e825dc4e0753967c65d0733445",
+      "date": "2026-10-14T05:09:37Z",
+      "subject": "feat: add browser and computer toolsets (1/4) (#4073)"
+    },
+    {
+      "sha": "16a83409b7b1879ef515f9424d92ecb6fa42996a",
+      "url": "https://github.com/openai/openai-python/commit/16a83409b7b1879ef515f9424d92ecb6fa42996a",
+      "date": "2026-10-14T03:55:51Z",
+      "subject": "release: 3.30.0 (#4059)"
+    },
+    {
+      "sha": "1f6cfe1148e6cb3cc37eead5e552dc0fefb1c7a0",
+      "url": "https://github.com/openai/openai-python/commit/1f6cfe1148e6cb3cc37eead5e552dc0fefb1c7a0",
+      "date": "2026-10-14T03:41:19Z",
+      "subject": "fix(streaming): restore async HTTP/1.1 connection reuse (#4041)"
+    },
+    {
+      "sha": "c5452afb7ebb0378fa351d0ccdefa097625c7998",
+      "url": "https://github.com/openai/openai-python/commit/c5452afb7ebb0378fa351d0ccdefa097625c7998",
+      "date": "2026-10-13T21:14:00Z",
+      "subject": "feat(api): expose image tool error and moderation details (#4072)"
+    },
+    {
+      "sha": "1f05e33eaca67e4a6913888aec279b66ac1db206",
+      "url": "https://github.com/openai/openai-python/commit/1f05e33eaca67e4a6913888aec279b66ac1db206",
+      "date": "2026-10-13T02:30:47Z",
+      "subject": "feat(api): support updating project API key expiry (#4066)"
+    }
+  ],
+  "default_sha": "bfada5040b0171cd0ae61aefae8c78fcf83c804a",
+  "root_and_selected_directory_paths": [
+    ".castiron-ratchet.json",
+    ".castiron.stats.yml",
+    ".devcontainer",
+    ".github",
+    ".github/CODEOWNERS",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug_report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/feature_request.yml",
+    ".github/actions",
+    ".github/codex",
+    ".github/dependabot.yml",
+    ".github/pull_request_template.md",
+    ".github/scripts",
+    ".github/workflows",
+    ".github/workflows/castiron-custom-code-comment.yml",
+    ".github/workflows/castiron-custom-code.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/create-releases.yml",
+    ".github/workflows/detect-breaking-changes.yml",
+    ".github/workflows/publish-pypi.yml",
+    ".github/workflows/python-version-review.yml",
+    ".gitignore",
+    ".inline-snapshot",
+    ".node-version",
+    ".python-version",
+    ".release-please-manifest.json",
+    ".vscode",
+    "AGENTS.md",
+    "Brewfile",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "PYTHON_VERSION_POLICY.md",
+    "README.md",
+    "SECURITY.md",
+    "api.md",
+    "api_reference",
+    "bedrock.md",
+    "docs",
+    "docs/architecture",
+    "docs/browser-forms.md",
+    "docs/browser-navigation.md",
+    "docs/browser-providers.md",
+    "docs/browser.md",
+    "docs/realtime-translation.md",
+    "examples",
+    "helpers.md",
+    "httpx2.md",
+    "package.json",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "pyproject.toml",
+    "release-please-config.json",
+    "scripts",
+    "src",
+    "tests",
+    "uv.lock"
+  ],
+  "workflow_paths": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/create-releases.yml",
+    ".github/workflows/publish-pypi.yml",
+    ".github/workflows/castiron-custom-code-comment.yml",
+    ".github/workflows/castiron-custom-code.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/detect-breaking-changes.yml",
+    ".github/workflows/python-version-review.yml"
+  ],
+  "documents": [
+    {
+      "path": ".release-please-manifest.json",
+      "sha": "df68d3d2693def5ae164c0377f1da56b3b75e441",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/.release-please-manifest.json",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "AGENTS.md",
+      "sha": "35458edfde40eeaba666de74845afd2b4d4c16ea",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/AGENTS.md",
+      "lines": 128,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          6
+        ],
+        "release_automation": [
+          40
+        ],
+        "permissions": [
+          39
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          46
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "92fb2be38ba748a5da779ad7f520f9e1bbad075c",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/CHANGELOG.md",
+      "lines": 4942,
+      "signals": {
+        "tests": [
+          2913,
+          3288
+        ],
+        "lint": [
+          1570,
+          1990,
+          2835,
+          3309,
+          3310,
+          3483,
+          3672,
+          4524,
+          4624,
+          4642
+        ],
+        "generated_code": [
+          583,
+          584,
+          673,
+          847,
+          857,
+          908,
+          1164,
+          1165,
+          1196,
+          1197,
+          1362,
+          1452
+        ],
+        "release_automation": [
+          545
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          4050
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "57ed4c4fd55181eac61ad3baec0fef07303a905c",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/CONTRIBUTING.md",
+      "lines": 253,
+      "signals": {
+        "tests": [],
+        "lint": [
+          228,
+          236
+        ],
+        "generated_code": [
+          99
+        ],
+        "release_automation": [
+          136,
+          244,
+          249,
+          253
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          14,
+          15,
+          143,
+          144
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "04f773f4f8851361b4ed858c2efc28da02df097a",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/README.md",
+      "lines": 1257,
+      "signals": {
+        "tests": [],
+        "lint": [
+          3
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1257
+        ],
+        "star_history": [],
+        "badges": [
+          4
+        ],
+        "media": [
+          4
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          1231
+        ]
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "119fbe4cb34e9078483f2b67687482f45baf073e",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/SECURITY.md",
+      "lines": 44,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          3,
+          5,
+          23
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "package.json",
+      "sha": "7809ebaa3b7ccb201df245720ae643439b8440c6",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/package.json",
+      "lines": 11,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "0bc42d9f79bb4118a396e06220063b305185f44a",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/pyproject.toml",
+      "lines": 329,
+      "signals": {
+        "tests": [
+          57,
+          58,
+          67,
+          149
+        ],
+        "lint": [
+          60,
+          160,
+          263,
+          272,
+          278,
+          281,
+          315,
+          318,
+          325
+        ],
+        "generated_code": [
+          257
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "release-please-config.json",
+      "sha": "4419fa0381f7482b88c4dddde7fdf1d1950605e3",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/release-please-config.json",
+      "lines": 65,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          2
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha": "d58c8454c5ee826d54d1b73e96ab0935d285bb6b",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/.github/CODEOWNERS",
+      "lines": 4,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha": "fa09dbe5b02c66bed575d37ad30f168555ef3c4f",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "lines": 64,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "0498cf7f6f76af40107553ee8cb5ea419f3cc304",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 7,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "sha": "b529547d0877e00dc53d6fcd74b956f6f865e289",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/.github/ISSUE_TEMPLATE/feature_request.yml",
+      "lines": 28,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "b83f1f536f5ed78d5f7ae6841a1010658f04a4bb",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/.github/dependabot.yml",
+      "lines": 48,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha": "a0d583cc186f1671cd85a9f20b6ffda0ac0a6640",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/.github/pull_request_template.md",
+      "lines": 9,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "8839e4efa392a0f98065e1918ac7008eaff5c2cb",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/.github/workflows/ci.yml",
+      "lines": 408,
+      "signals": {
+        "tests": [
+          405
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          66
+        ],
+        "permissions": [
+          18,
+          99
+        ],
+        "pinned_actions": [
+          33,
+          58,
+          76,
+          83,
+          103,
+          108,
+          131,
+          139,
+          153,
+          163,
+          196,
+          206
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/create-releases.yml",
+      "sha": "2cf0d4fa730de72ea383ccec885463a9c75538ea",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/.github/workflows/create-releases.yml",
+      "lines": 87,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          28,
+          33,
+          34,
+          86,
+          87
+        ],
+        "permissions": [
+          15,
+          24,
+          43,
+          74,
+          76,
+          77
+        ],
+        "pinned_actions": [
+          20,
+          28,
+          47,
+          52,
+          62,
+          81,
+          87
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/publish-pypi.yml",
+      "sha": "8aeb6487e8e60b5844640e81ac0b5fbe94b1872a",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/.github/workflows/publish-pypi.yml",
+      "lines": 59,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          1,
+          2,
+          3,
+          58,
+          59
+        ],
+        "permissions": [
+          14,
+          46,
+          48,
+          49
+        ],
+        "pinned_actions": [
+          18,
+          23,
+          33,
+          53,
+          59
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/castiron-custom-code-comment.yml",
+      "sha": "43f3a1da2adab96f2f0bc4acc3d16f6ba60336f8",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/.github/workflows/castiron-custom-code-comment.yml",
+      "lines": 304,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9,
+          22,
+          128,
+          244
+        ],
+        "pinned_actions": [
+          40,
+          73,
+          115,
+          136,
+          250,
+          257,
+          283
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/castiron-custom-code.yml",
+      "sha": "0fb4c3c759d0ea1387be7e5d1eb5b69df48258b5",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/.github/workflows/castiron-custom-code.yml",
+      "lines": 96,
+      "signals": {
+        "tests": [
+          60
+        ],
+        "lint": [],
+        "generated_code": [
+          62
+        ],
+        "release_automation": [],
+        "permissions": [
+          11,
+          26
+        ],
+        "pinned_actions": [
+          50,
+          91
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "sha": "bf48e49a57edddcc1af055eb9d4a4274c94bef7d",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/.github/workflows/codeql.yml",
+      "lines": 38,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          15
+        ],
+        "pinned_actions": [
+          28,
+          33,
+          38
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/detect-breaking-changes.yml",
+      "sha": "0a28afad09e93889365534ce16769ee830f35b77",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/.github/workflows/detect-breaking-changes.yml",
+      "lines": 57,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [
+          28,
+          43
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/python-version-review.yml",
+      "sha": "cfcd0df2eea3f7675a9d5f76b0ac09d2f83d979d",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/.github/workflows/python-version-review.yml",
+      "lines": 232,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11,
+          177
+        ],
+        "pinned_actions": [
+          45,
+          106,
+          164,
+          181
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 4095,
+      "title": "feat(api): add Realtime Translation WebSocket sessions",
+      "url": "https://github.com/openai/openai-python/pull/4095",
+      "merged_at": "2026-10-17T08:19:12Z",
+      "merge_commit_sha": "bfada5040b0171cd0ae61aefae8c78fcf83c804a",
+      "files": [
+        ".castiron.stats.yml",
+        "README.md",
+        "docs/realtime-translation.md",
+        "scripts/castiron/generated-files.json",
+        "src/openai/lib/realtime_translation.py",
+        "src/openai/resources/live/forks.py",
+        "src/openai/resources/live/live.py",
+        "src/openai/resources/live/sideband.py",
+        "src/openai/resources/realtime/api.md",
+        "src/openai/resources/realtime/translations/translations.py",
+        "src/openai/types/realtime/__init__.py",
+        "src/openai/types/realtime/connect_client_event_param.py",
+        "src/openai/types/realtime/realtime_translation_client_event.py",
+        "src/openai/types/realtime/realtime_translation_client_event_param.py",
+        "src/openai/types/realtime/realtime_translation_input_audio_buffer_append_event.py",
+        "src/openai/types/realtime/realtime_translation_input_audio_buffer_append_event_param.py",
+        "src/openai/types/realtime/realtime_translation_input_transcript_delta_event.py",
+        "src/openai/types/realtime/realtime_translation_output_audio_delta_event.py",
+        "src/openai/types/realtime/realtime_translation_output_transcript_delta_event.py",
+        "src/openai/types/realtime/realtime_translation_server_event.py",
+        "src/openai/types/realtime/realtime_translation_session_close_event.py",
+        "src/openai/types/realtime/realtime_translation_session_close_event_param.py",
+        "src/openai/types/realtime/realtime_translation_session_closed_event.py",
+        "src/openai/types/realtime/realtime_translation_session_created_event.py",
+        "src/openai/types/realtime/realtime_translation_session_update_event.py",
+        "src/openai/types/realtime/realtime_translation_session_update_event_param.py",
+        "src/openai/types/realtime/realtime_translation_session_update_request.py",
+        "src/openai/types/realtime/realtime_translation_session_update_request_param.py",
+        "src/openai/types/realtime/realtime_translation_session_updated_event.py",
+        "tests/api_resources/_websocket_resources.py",
+        "tests/api_resources/realtime/test_translations.py",
+        "tests/lib/test_realtime_translation.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".castiron.stats.yml",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 5,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/.castiron.stats.yml"
+        },
+        {
+          "filename": "README.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/README.md"
+        },
+        {
+          "filename": "docs/realtime-translation.md",
+          "status": "added",
+          "additions": 45,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/docs%2Frealtime-translation.md"
+        },
+        {
+          "filename": "scripts/castiron/generated-files.json",
+          "status": "modified",
+          "additions": 85,
+          "deletions": 9,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/scripts%2Fcastiron%2Fgenerated-files.json"
+        },
+        {
+          "filename": "src/openai/lib/realtime_translation.py",
+          "status": "added",
+          "additions": 246,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Flib%2Frealtime_translation.py"
+        },
+        {
+          "filename": "src/openai/resources/live/forks.py",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Fresources%2Flive%2Fforks.py"
+        },
+        {
+          "filename": "src/openai/resources/live/live.py",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Fresources%2Flive%2Flive.py"
+        },
+        {
+          "filename": "src/openai/resources/live/sideband.py",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Fresources%2Flive%2Fsideband.py"
+        },
+        {
+          "filename": "src/openai/resources/realtime/api.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Fresources%2Frealtime%2Fapi.md"
+        },
+        {
+          "filename": "src/openai/resources/realtime/translations/translations.py",
+          "status": "modified",
+          "additions": 1010,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Fresources%2Frealtime%2Ftranslations%2Ftranslations.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/__init__.py",
+          "status": "modified",
+          "additions": 48,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2F__init__.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/connect_client_event_param.py",
+          "status": "added",
+          "additions": 20,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2Fconnect_client_event_param.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/realtime_translation_client_event.py",
+          "status": "added",
+          "additions": 20,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2Frealtime_translation_client_event.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/realtime_translation_client_event_param.py",
+          "status": "added",
+          "additions": 20,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2Frealtime_translation_client_event_param.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/realtime_translation_input_audio_buffer_append_event.py",
+          "status": "added",
+          "additions": 37,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2Frealtime_translation_input_audio_buffer_append_event.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/realtime_translation_input_audio_buffer_append_event_param.py",
+          "status": "added",
+          "additions": 36,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2Frealtime_translation_input_audio_buffer_append_event_param.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/realtime_translation_input_transcript_delta_event.py",
+          "status": "added",
+          "additions": 36,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2Frealtime_translation_input_transcript_delta_event.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/realtime_translation_output_audio_delta_event.py",
+          "status": "added",
+          "additions": 42,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2Frealtime_translation_output_audio_delta_event.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/realtime_translation_output_transcript_delta_event.py",
+          "status": "added",
+          "additions": 33,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2Frealtime_translation_output_transcript_delta_event.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/realtime_translation_server_event.py",
+          "status": "added",
+          "additions": 28,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2Frealtime_translation_server_event.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/realtime_translation_session_close_event.py",
+          "status": "added",
+          "additions": 23,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2Frealtime_translation_session_close_event.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/realtime_translation_session_close_event_param.py",
+          "status": "added",
+          "additions": 22,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2Frealtime_translation_session_close_event_param.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/realtime_translation_session_closed_event.py",
+          "status": "added",
+          "additions": 17,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2Frealtime_translation_session_closed_event.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/realtime_translation_session_created_event.py",
+          "status": "added",
+          "additions": 26,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2Frealtime_translation_session_created_event.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/realtime_translation_session_update_event.py",
+          "status": "added",
+          "additions": 31,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2Frealtime_translation_session_update_event.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/realtime_translation_session_update_event_param.py",
+          "status": "added",
+          "additions": 31,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2Frealtime_translation_session_update_event_param.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/realtime_translation_session_update_request.py",
+          "status": "added",
+          "additions": 70,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2Frealtime_translation_session_update_request.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/realtime_translation_session_update_request_param.py",
+          "status": "added",
+          "additions": 72,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2Frealtime_translation_session_update_request_param.py"
+        },
+        {
+          "filename": "src/openai/types/realtime/realtime_translation_session_updated_event.py",
+          "status": "added",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/src%2Fopenai%2Ftypes%2Frealtime%2Frealtime_translation_session_updated_event.py"
+        },
+        {
+          "filename": "tests/api_resources/_websocket_resources.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/tests%2Fapi_resources%2F_websocket_resources.py"
+        },
+        {
+          "filename": "tests/api_resources/realtime/test_translations.py",
+          "status": "added",
+          "additions": 19,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/tests%2Fapi_resources%2Frealtime%2Ftest_translations.py"
+        },
+        {
+          "filename": "tests/lib/test_realtime_translation.py",
+          "status": "added",
+          "additions": 771,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/e645ecf02aff36e9941c9b9c3981574fafe2e480/tests%2Flib%2Ftest_realtime_translation.py"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "CHANGES_REQUESTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39024628299,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39024628299",
+          "head_sha": "bfada5040b0171cd0ae61aefae8c78fcf83c804a"
+        },
+        {
+          "id": 39022662440,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39022662440",
+          "head_sha": "bfada5040b0171cd0ae61aefae8c78fcf83c804a"
+        },
+        {
+          "id": 39016985305,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39016985305",
+          "head_sha": "bfada5040b0171cd0ae61aefae8c78fcf83c804a"
+        },
+        {
+          "id": 39016949853,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39016949853",
+          "head_sha": "bfada5040b0171cd0ae61aefae8c78fcf83c804a"
+        },
+        {
+          "id": 39016915539,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39016915539",
+          "head_sha": "bfada5040b0171cd0ae61aefae8c78fcf83c804a"
+        },
+        {
+          "id": 39016915081,
+          "name": "Code Quality: Push on main",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39016915081",
+          "head_sha": "bfada5040b0171cd0ae61aefae8c78fcf83c804a"
+        },
+        {
+          "id": 39016915559,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39016915559",
+          "head_sha": "bfada5040b0171cd0ae61aefae8c78fcf83c804a"
+        },
+        {
+          "id": 39016915542,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39016915542",
+          "head_sha": "bfada5040b0171cd0ae61aefae8c78fcf83c804a"
+        },
+        {
+          "id": 39016587309,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39016587309",
+          "head_sha": "bfada5040b0171cd0ae61aefae8c78fcf83c804a"
+        },
+        {
+          "id": 39016587302,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39016587302",
+          "head_sha": "bfada5040b0171cd0ae61aefae8c78fcf83c804a"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39015495606,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39015495606",
+          "head_sha": "e645ecf02aff36e9941c9b9c3981574fafe2e480"
+        },
+        {
+          "id": 39015378913,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39015378913",
+          "head_sha": "e645ecf02aff36e9941c9b9c3981574fafe2e480"
+        },
+        {
+          "id": 39015378920,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39015378920",
+          "head_sha": "e645ecf02aff36e9941c9b9c3981574fafe2e480"
+        },
+        {
+          "id": 39015378973,
+          "name": "CI",
+          "path": ".github/workflows/detect-breaking-changes.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39015378973",
+          "head_sha": "e645ecf02aff36e9941c9b9c3981574fafe2e480"
+        },
+        {
+          "id": 39015378919,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39015378919",
+          "head_sha": "e645ecf02aff36e9941c9b9c3981574fafe2e480"
+        },
+        {
+          "id": 39015378178,
+          "name": "Code Quality: PR #4095",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39015378178",
+          "head_sha": "e645ecf02aff36e9941c9b9c3981574fafe2e480"
+        },
+        {
+          "id": 39015376730,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39015376730",
+          "head_sha": "e645ecf02aff36e9941c9b9c3981574fafe2e480"
+        }
+      ]
+    },
+    {
+      "number": 4094,
+      "title": "release: 3.33.0",
+      "url": "https://github.com/openai/openai-python/pull/4094",
+      "merged_at": "2026-10-17T00:28:43Z",
+      "merge_commit_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1",
+      "files": [
+        ".release-please-manifest.json",
+        "CHANGELOG.md",
+        "pyproject.toml",
+        "src/openai/_version.py",
+        "uv.lock"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".release-please-manifest.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-python/blob/85683bf5fe075468661d2e4b58c0dddd9b711796/.release-please-manifest.json"
+        },
+        {
+          "filename": "CHANGELOG.md",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/85683bf5fe075468661d2e4b58c0dddd9b711796/CHANGELOG.md"
+        },
+        {
+          "filename": "pyproject.toml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-python/blob/85683bf5fe075468661d2e4b58c0dddd9b711796/pyproject.toml"
+        },
+        {
+          "filename": "src/openai/_version.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-python/blob/85683bf5fe075468661d2e4b58c0dddd9b711796/src%2Fopenai%2F_version.py"
+        },
+        {
+          "filename": "uv.lock",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-python/blob/85683bf5fe075468661d2e4b58c0dddd9b711796/uv.lock"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39016597241,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39016597241",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        },
+        {
+          "id": 39015518988,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39015518988",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        },
+        {
+          "id": 39015417429,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39015417429",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        },
+        {
+          "id": 39013607355,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39013607355",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        },
+        {
+          "id": 39013585915,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39013585915",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        },
+        {
+          "id": 39013163712,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39013163712",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        },
+        {
+          "id": 39013118507,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39013118507",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        },
+        {
+          "id": 38987195290,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38987195290",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        },
+        {
+          "id": 38987049482,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38987049482",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        },
+        {
+          "id": 38986810258,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38986810258",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38973268668,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38973268668",
+          "head_sha": "85683bf5fe075468661d2e4b58c0dddd9b711796"
+        },
+        {
+          "id": 38973267490,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38973267490",
+          "head_sha": "85683bf5fe075468661d2e4b58c0dddd9b711796"
+        },
+        {
+          "id": 38973267432,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38973267432",
+          "head_sha": "85683bf5fe075468661d2e4b58c0dddd9b711796"
+        },
+        {
+          "id": 38973267311,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38973267311",
+          "head_sha": "85683bf5fe075468661d2e4b58c0dddd9b711796"
+        },
+        {
+          "id": 38973267300,
+          "name": "CI",
+          "path": ".github/workflows/detect-breaking-changes.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38973267300",
+          "head_sha": "85683bf5fe075468661d2e4b58c0dddd9b711796"
+        },
+        {
+          "id": 38973265849,
+          "name": "Code Quality: PR #4094",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38973265849",
+          "head_sha": "85683bf5fe075468661d2e4b58c0dddd9b711796"
+        },
+        {
+          "id": 38973263604,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38973263604",
+          "head_sha": "85683bf5fe075468661d2e4b58c0dddd9b711796"
+        }
+      ]
+    },
+    {
+      "number": 4093,
+      "title": "feat(api): add safety identifiers to image requests and responses",
+      "url": "https://github.com/openai/openai-python/pull/4093",
+      "merged_at": "2026-10-16T22:01:30Z",
+      "merge_commit_sha": "c969e32ebb325b5910aff4543187fedc5527e172",
+      "files": [
+        ".castiron.stats.yml",
+        "api_reference/openapi.transformed.yml",
+        "scripts/castiron/generated-files.json",
+        "src/openai/resources/images.py",
+        "src/openai/types/image_edit_completed_event.py",
+        "src/openai/types/image_edit_params.py",
+        "src/openai/types/image_gen_completed_event.py",
+        "src/openai/types/image_generate_params.py",
+        "src/openai/types/images_response.py",
+        "tests/api_resources/test_images.py",
+        "tests/test_image_safety_identifier.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".castiron.stats.yml",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 6,
+          "blob_url": "https://github.com/openai/openai-python/blob/73a42a8d560ec7e95f7efdbce35c372e7935e494/.castiron.stats.yml"
+        },
+        {
+          "filename": "api_reference/openapi.transformed.yml",
+          "status": "modified",
+          "additions": 42,
+          "deletions": 7,
+          "blob_url": "https://github.com/openai/openai-python/blob/73a42a8d560ec7e95f7efdbce35c372e7935e494/api_reference%2Fopenapi.transformed.yml"
+        },
+        {
+          "filename": "scripts/castiron/generated-files.json",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 7,
+          "blob_url": "https://github.com/openai/openai-python/blob/73a42a8d560ec7e95f7efdbce35c372e7935e494/scripts%2Fcastiron%2Fgenerated-files.json"
+        },
+        {
+          "filename": "src/openai/resources/images.py",
+          "status": "modified",
+          "additions": 140,
+          "deletions": 24,
+          "blob_url": "https://github.com/openai/openai-python/blob/73a42a8d560ec7e95f7efdbce35c372e7935e494/src%2Fopenai%2Fresources%2Fimages.py"
+        },
+        {
+          "filename": "src/openai/types/image_edit_completed_event.py",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-python/blob/73a42a8d560ec7e95f7efdbce35c372e7935e494/src%2Fopenai%2Ftypes%2Fimage_edit_completed_event.py"
+        },
+        {
+          "filename": "src/openai/types/image_edit_params.py",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-python/blob/73a42a8d560ec7e95f7efdbce35c372e7935e494/src%2Fopenai%2Ftypes%2Fimage_edit_params.py"
+        },
+        {
+          "filename": "src/openai/types/image_gen_completed_event.py",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-python/blob/73a42a8d560ec7e95f7efdbce35c372e7935e494/src%2Fopenai%2Ftypes%2Fimage_gen_completed_event.py"
+        },
+        {
+          "filename": "src/openai/types/image_generate_params.py",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-python/blob/73a42a8d560ec7e95f7efdbce35c372e7935e494/src%2Fopenai%2Ftypes%2Fimage_generate_params.py"
+        },
+        {
+          "filename": "src/openai/types/images_response.py",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/73a42a8d560ec7e95f7efdbce35c372e7935e494/src%2Fopenai%2Ftypes%2Fimages_response.py"
+        },
+        {
+          "filename": "tests/api_resources/test_images.py",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/73a42a8d560ec7e95f7efdbce35c372e7935e494/tests%2Fapi_resources%2Ftest_images.py"
+        },
+        {
+          "filename": "tests/test_image_safety_identifier.py",
+          "status": "added",
+          "additions": 106,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-python/blob/73a42a8d560ec7e95f7efdbce35c372e7935e494/tests%2Ftest_image_safety_identifier.py"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38986158527,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38986158527",
+          "head_sha": "c969e32ebb325b5910aff4543187fedc5527e172"
+        },
+        {
+          "id": 38983206708,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38983206708",
+          "head_sha": "c969e32ebb325b5910aff4543187fedc5527e172"
+        },
+        {
+          "id": 38973344517,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38973344517",
+          "head_sha": "c969e32ebb325b5910aff4543187fedc5527e172"
+        },
+        {
+          "id": 38973310631,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38973310631",
+          "head_sha": "c969e32ebb325b5910aff4543187fedc5527e172"
+        },
+        {
+          "id": 38973196123,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38973196123",
+          "head_sha": "c969e32ebb325b5910aff4543187fedc5527e172"
+        },
+        {
+          "id": 38973196066,
+          "name": "Code Quality: Push on main",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38973196066",
+          "head_sha": "c969e32ebb325b5910aff4543187fedc5527e172"
+        },
+        {
+          "id": 38973195945,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38973195945",
+          "head_sha": "c969e32ebb325b5910aff4543187fedc5527e172"
+        },
+        {
+          "id": 38973196041,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38973196041",
+          "head_sha": "c969e32ebb325b5910aff4543187fedc5527e172"
+        },
+        {
+          "id": 38972642055,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38972642055",
+          "head_sha": "c969e32ebb325b5910aff4543187fedc5527e172"
+        },
+        {
+          "id": 38972641916,
+          "name": "CI",
+          "path": ".github/workflows/detect-breaking-changes.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38972641916",
+          "head_sha": "c969e32ebb325b5910aff4543187fedc5527e172"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38972148433,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38972148433",
+          "head_sha": "73a42a8d560ec7e95f7efdbce35c372e7935e494"
+        },
+        {
+          "id": 38972102298,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38972102298",
+          "head_sha": "73a42a8d560ec7e95f7efdbce35c372e7935e494"
+        },
+        {
+          "id": 38972102240,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38972102240",
+          "head_sha": "73a42a8d560ec7e95f7efdbce35c372e7935e494"
+        },
+        {
+          "id": 38972102271,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38972102271",
+          "head_sha": "73a42a8d560ec7e95f7efdbce35c372e7935e494"
+        },
+        {
+          "id": 38972102302,
+          "name": "CI",
+          "path": ".github/workflows/detect-breaking-changes.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38972102302",
+          "head_sha": "73a42a8d560ec7e95f7efdbce35c372e7935e494"
+        },
+        {
+          "id": 38972098288,
+          "name": "Code Quality: PR #4093",
+          "path": "dynamic/github-code-quality/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38972098288",
+          "head_sha": "73a42a8d560ec7e95f7efdbce35c372e7935e494"
+        },
+        {
+          "id": 38972097184,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38972097184",
+          "head_sha": "73a42a8d560ec7e95f7efdbce35c372e7935e494"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v3.33.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.33.0",
+      "published_at": "2026-10-17T00:29:04Z",
+      "target_commitish": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1",
+      "commit_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 39016597241,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39016597241",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        },
+        {
+          "id": 39015518988,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39015518988",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        },
+        {
+          "id": 39015417429,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39015417429",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        },
+        {
+          "id": 39013607355,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39013607355",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        },
+        {
+          "id": 39013585915,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39013585915",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        },
+        {
+          "id": 39013163712,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39013163712",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        },
+        {
+          "id": 39013118507,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/39013118507",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        },
+        {
+          "id": 38987195290,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38987195290",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        },
+        {
+          "id": 38987049482,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38987049482",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        },
+        {
+          "id": 38986810258,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38986810258",
+          "head_sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+        }
+      ]
+    },
+    {
+      "tag": "v3.32.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.32.0",
+      "published_at": "2026-10-16T20:17:26Z",
+      "target_commitish": "6ea95a6d1f250840eda4cb99737a90fef31c7a14",
+      "commit_sha": "6ea95a6d1f250840eda4cb99737a90fef31c7a14",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38969079774,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38969079774",
+          "head_sha": "6ea95a6d1f250840eda4cb99737a90fef31c7a14"
+        },
+        {
+          "id": 38967967675,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38967967675",
+          "head_sha": "6ea95a6d1f250840eda4cb99737a90fef31c7a14"
+        },
+        {
+          "id": 38966306429,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38966306429",
+          "head_sha": "6ea95a6d1f250840eda4cb99737a90fef31c7a14"
+        },
+        {
+          "id": 38964601291,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38964601291",
+          "head_sha": "6ea95a6d1f250840eda4cb99737a90fef31c7a14"
+        },
+        {
+          "id": 38962045059,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38962045059",
+          "head_sha": "6ea95a6d1f250840eda4cb99737a90fef31c7a14"
+        },
+        {
+          "id": 38961993179,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38961993179",
+          "head_sha": "6ea95a6d1f250840eda4cb99737a90fef31c7a14"
+        },
+        {
+          "id": 38961544083,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38961544083",
+          "head_sha": "6ea95a6d1f250840eda4cb99737a90fef31c7a14"
+        },
+        {
+          "id": 38961534535,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38961534535",
+          "head_sha": "6ea95a6d1f250840eda4cb99737a90fef31c7a14"
+        },
+        {
+          "id": 38961486142,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38961486142",
+          "head_sha": "6ea95a6d1f250840eda4cb99737a90fef31c7a14"
+        },
+        {
+          "id": 38961486253,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38961486253",
+          "head_sha": "6ea95a6d1f250840eda4cb99737a90fef31c7a14"
+        }
+      ]
+    },
+    {
+      "tag": "v3.31.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.31.0",
+      "published_at": "2026-10-14T05:38:46Z",
+      "target_commitish": "86cae50785fb7b7bf2a5d2383370b214b304acd2",
+      "commit_sha": "86cae50785fb7b7bf2a5d2383370b214b304acd2",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38607364626,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38607364626",
+          "head_sha": "86cae50785fb7b7bf2a5d2383370b214b304acd2"
+        },
+        {
+          "id": 38602224251,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38602224251",
+          "head_sha": "86cae50785fb7b7bf2a5d2383370b214b304acd2"
+        },
+        {
+          "id": 38602181839,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38602181839",
+          "head_sha": "86cae50785fb7b7bf2a5d2383370b214b304acd2"
+        },
+        {
+          "id": 38545563326,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38545563326",
+          "head_sha": "86cae50785fb7b7bf2a5d2383370b214b304acd2"
+        },
+        {
+          "id": 38518401034,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38518401034",
+          "head_sha": "86cae50785fb7b7bf2a5d2383370b214b304acd2"
+        },
+        {
+          "id": 38518379172,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38518379172",
+          "head_sha": "86cae50785fb7b7bf2a5d2383370b214b304acd2"
+        },
+        {
+          "id": 38518027387,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38518027387",
+          "head_sha": "86cae50785fb7b7bf2a5d2383370b214b304acd2"
+        },
+        {
+          "id": 38518008605,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38518008605",
+          "head_sha": "86cae50785fb7b7bf2a5d2383370b214b304acd2"
+        },
+        {
+          "id": 38517989299,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38517989299",
+          "head_sha": "86cae50785fb7b7bf2a5d2383370b214b304acd2"
+        },
+        {
+          "id": 38517980721,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-python/actions/runs/38517980721",
+          "head_sha": "86cae50785fb7b7bf2a5d2383370b214b304acd2"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v3.33.0",
+      "sha": "b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1"
+    },
+    {
+      "name": "v3.32.0",
+      "sha": "6ea95a6d1f250840eda4cb99737a90fef31c7a14"
+    },
+    {
+      "name": "v3.31.0",
+      "sha": "86cae50785fb7b7bf2a5d2383370b214b304acd2"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:16:41.864881+00:00",
+  "source_times": {
+    "/repos/openai/openai-python": "2026-10-17T16:03:37.046691+00:00",
+    "/repos/openai/openai-python/commits?sha=main&per_page=20": "2026-10-17T16:03:39.188477+00:00",
+    "/repos/openai/openai-python/git/trees/bfada5040b0171cd0ae61aefae8c78fcf83c804a": "2026-10-17T16:03:40.533926+00:00",
+    "/repos/openai/openai-python/git/trees/699625b81d04c0a9237fe46e16ca3167568ba9e2": "2026-10-17T16:03:41.948189+00:00",
+    "/repos/openai/openai-python/git/trees/71fb3da2485028be57a8ac93a60a3d44089e7fdf": "2026-10-17T16:03:43.343580+00:00",
+    "/repos/openai/openai-python/git/trees/53437bf0bbaa68c7896c3c609577fc9461e9520f": "2026-10-17T16:03:44.771668+00:00",
+    "/repos/openai/openai-python/git/trees/1d8f2848f5d627093083655a89e024b00e11c0f4": "2026-10-17T16:03:47.750029+00:00",
+    "/repos/openai/openai-python/git/blobs/df68d3d2693def5ae164c0377f1da56b3b75e441": "2026-10-17T16:03:49.238879+00:00",
+    "/repos/openai/openai-python/git/blobs/35458edfde40eeaba666de74845afd2b4d4c16ea": "2026-10-17T16:03:50.718007+00:00",
+    "/repos/openai/openai-python/git/blobs/92fb2be38ba748a5da779ad7f520f9e1bbad075c": "2026-10-17T16:03:54.438530+00:00",
+    "/repos/openai/openai-python/git/blobs/57ed4c4fd55181eac61ad3baec0fef07303a905c": "2026-10-17T16:03:56.164405+00:00",
+    "/repos/openai/openai-python/git/blobs/04f773f4f8851361b4ed858c2efc28da02df097a": "2026-10-17T16:03:58.922457+00:00",
+    "/repos/openai/openai-python/git/blobs/119fbe4cb34e9078483f2b67687482f45baf073e": "2026-10-17T16:04:00.298815+00:00",
+    "/repos/openai/openai-python/git/blobs/7809ebaa3b7ccb201df245720ae643439b8440c6": "2026-10-17T16:04:01.722405+00:00",
+    "/repos/openai/openai-python/git/blobs/0bc42d9f79bb4118a396e06220063b305185f44a": "2026-10-17T16:04:03.198928+00:00",
+    "/repos/openai/openai-python/git/blobs/4419fa0381f7482b88c4dddde7fdf1d1950605e3": "2026-10-17T16:04:04.623560+00:00",
+    "/repos/openai/openai-python/git/blobs/d58c8454c5ee826d54d1b73e96ab0935d285bb6b": "2026-10-17T16:04:06.034773+00:00",
+    "/repos/openai/openai-python/git/blobs/fa09dbe5b02c66bed575d37ad30f168555ef3c4f": "2026-10-17T16:04:07.388066+00:00",
+    "/repos/openai/openai-python/git/blobs/0498cf7f6f76af40107553ee8cb5ea419f3cc304": "2026-10-17T16:04:08.862532+00:00",
+    "/repos/openai/openai-python/git/blobs/b529547d0877e00dc53d6fcd74b956f6f865e289": "2026-10-17T16:04:10.434308+00:00",
+    "/repos/openai/openai-python/git/blobs/b83f1f536f5ed78d5f7ae6841a1010658f04a4bb": "2026-10-17T16:04:11.900403+00:00",
+    "/repos/openai/openai-python/git/blobs/a0d583cc186f1671cd85a9f20b6ffda0ac0a6640": "2026-10-17T16:04:13.443790+00:00",
+    "/repos/openai/openai-python/git/blobs/8839e4efa392a0f98065e1918ac7008eaff5c2cb": "2026-10-17T16:04:15.055362+00:00",
+    "/repos/openai/openai-python/git/blobs/2cf0d4fa730de72ea383ccec885463a9c75538ea": "2026-10-17T16:04:16.510423+00:00",
+    "/repos/openai/openai-python/git/blobs/8aeb6487e8e60b5844640e81ac0b5fbe94b1872a": "2026-10-17T16:04:18.088019+00:00",
+    "/repos/openai/openai-python/git/blobs/43f3a1da2adab96f2f0bc4acc3d16f6ba60336f8": "2026-10-17T16:04:19.811254+00:00",
+    "/repos/openai/openai-python/git/blobs/0fb4c3c759d0ea1387be7e5d1eb5b69df48258b5": "2026-10-17T16:04:21.380015+00:00",
+    "/repos/openai/openai-python/git/blobs/bf48e49a57edddcc1af055eb9d4a4274c94bef7d": "2026-10-17T16:04:22.746789+00:00",
+    "/repos/openai/openai-python/git/blobs/0a28afad09e93889365534ce16769ee830f35b77": "2026-10-17T16:04:27.903632+00:00",
+    "/repos/openai/openai-python/git/blobs/cfcd0df2eea3f7675a9d5f76b0ac09d2f83d979d": "2026-10-17T16:04:29.350985+00:00",
+    "/repos/openai/openai-python/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:04:32.447739+00:00",
+    "/repos/openai/openai-python/pulls/4095/files?per_page=100": "2026-10-17T16:04:35.589709+00:00",
+    "/repos/openai/openai-python/pulls/4095/reviews?per_page=100": "2026-10-17T16:04:37.274643+00:00",
+    "/repos/openai/openai-python/actions/runs?head_sha=bfada5040b0171cd0ae61aefae8c78fcf83c804a&per_page=10": "2026-10-17T16:04:39.595215+00:00",
+    "/repos/openai/openai-python/actions/runs?head_sha=e645ecf02aff36e9941c9b9c3981574fafe2e480&per_page=10": "2026-10-17T16:04:41.642356+00:00",
+    "/repos/openai/openai-python/pulls/4094/files?per_page=100": "2026-10-17T16:04:43.105525+00:00",
+    "/repos/openai/openai-python/pulls/4094/reviews?per_page=100": "2026-10-17T16:04:45.675873+00:00",
+    "/repos/openai/openai-python/actions/runs?head_sha=b7c5e5d67ee67d2f49a98f14a43abb8e7e502bb1&per_page=10": "2026-10-17T16:04:48.041319+00:00",
+    "/repos/openai/openai-python/actions/runs?head_sha=85683bf5fe075468661d2e4b58c0dddd9b711796&per_page=10": "2026-10-17T16:04:50.042054+00:00",
+    "/repos/openai/openai-python/pulls/4093/files?per_page=100": "2026-10-17T16:04:53.372144+00:00",
+    "/repos/openai/openai-python/pulls/4093/reviews?per_page=100": "2026-10-17T16:04:54.887842+00:00",
+    "/repos/openai/openai-python/actions/runs?head_sha=c969e32ebb325b5910aff4543187fedc5527e172&per_page=10": "2026-10-17T16:04:57.099138+00:00",
+    "/repos/openai/openai-python/actions/runs?head_sha=73a42a8d560ec7e95f7efdbce35c372e7935e494&per_page=10": "2026-10-17T16:04:59.266282+00:00",
+    "/repos/openai/openai-python/releases?per_page=20&page=1": "2026-10-17T16:16:41.860585+00:00",
+    "/repos/openai/openai-python/commits/v3.33.0": "2026-10-17T16:05:03.458560+00:00",
+    "/repos/openai/openai-python/commits/v3.32.0": "2026-10-17T16:05:06.044124+00:00",
+    "/repos/openai/openai-python/actions/runs?head_sha=6ea95a6d1f250840eda4cb99737a90fef31c7a14&per_page=10": "2026-10-17T16:05:08.557497+00:00",
+    "/repos/openai/openai-python/commits/v3.31.0": "2026-10-17T16:05:10.093554+00:00",
+    "/repos/openai/openai-python/actions/runs?head_sha=86cae50785fb7b7bf2a5d2383370b214b304acd2&per_page=10": "2026-10-17T16:05:12.435884+00:00",
+    "/repos/openai/openai-python/tags?per_page=3": "2026-10-17T16:05:13.823260+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:16:41.860585+00:00",
+  "status": "collected"
+}

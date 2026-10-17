@@ -12,6 +12,8 @@ tmp/
 __pycache__/
 *.py[cod]
 .venv/
+dist/
+.coverage
 
 # Editor / OS
 .idea/

@@ -1,0 +1,1640 @@
+{
+  "requested_repository": "huggingface/peft",
+  "category": "ml",
+  "collected_at": "2026-10-17T16:08:42.965421+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "huggingface/peft",
+  "metadata": {
+    "html_url": "https://github.com/huggingface/peft",
+    "description": "🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.",
+    "homepage": "https://huggingface.co/docs/peft",
+    "language": "Python",
+    "stargazers_count": 21796,
+    "forks_count": 2649,
+    "open_issues_count": 121,
+    "pushed_at": "2026-10-16T08:36:52Z",
+    "created_at": "2022-11-25T03:51:09Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [
+      "adapter",
+      "diffusion",
+      "fine-tuning",
+      "llm",
+      "lora",
+      "parameter-efficient-learning",
+      "peft",
+      "python",
+      "pytorch",
+      "transformers"
+    ],
+    "owner": {
+      "login": "huggingface",
+      "type": "Organization",
+      "html_url": "https://github.com/huggingface"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "c2d5f697fbb30063cbde6f39e2734883b70b8753",
+      "url": "https://github.com/huggingface/peft/commit/c2d5f697fbb30063cbde6f39e2734883b70b8753",
+      "date": "2026-10-16T08:36:52Z",
+      "subject": "FIX Old, unused torchao install breaking adapter injection (#3989)"
+    },
+    {
+      "sha": "410b5e6c6021c6c721faf13ec7c0e20a2e845369",
+      "url": "https://github.com/huggingface/peft/commit/410b5e6c6021c6c721faf13ec7c0e20a2e845369",
+      "date": "2026-10-16T08:34:04Z",
+      "subject": "FIX LN Tuning KeyError when the active adapter does not target a layer (#3980)"
+    },
+    {
+      "sha": "a6a4234d403dbd0d9827f54c6e09c4d954318c43",
+      "url": "https://github.com/huggingface/peft/commit/a6a4234d403dbd0d9827f54c6e09c4d954318c43",
+      "date": "2026-10-16T08:28:15Z",
+      "subject": "FIX Avoid mutating caller input_type_mask in CPT forward  (#3969)"
+    },
+    {
+      "sha": "cc91e390eea7bb4fb0ffdcadccd045ba79a44120",
+      "url": "https://github.com/huggingface/peft/commit/cc91e390eea7bb4fb0ffdcadccd045ba79a44120",
+      "date": "2026-10-16T08:26:30Z",
+      "subject": "FIX Enable gradients in LoRA-FA optimizer closures (#3966)"
+    },
+    {
+      "sha": "1c10f7b3e4532a17e95d170ab20301a10b934219",
+      "url": "https://github.com/huggingface/peft/commit/1c10f7b3e4532a17e95d170ab20301a10b934219",
+      "date": "2026-10-16T08:19:24Z",
+      "subject": "FIX Respect adapter module training state in explicit inference mode (#3809)"
+    },
+    {
+      "sha": "ecd5b7a4f87142162a84bd725e542c8ad058016e",
+      "url": "https://github.com/huggingface/peft/commit/ecd5b7a4f87142162a84bd725e542c8ad058016e",
+      "date": "2026-10-16T08:13:07Z",
+      "subject": "TST Enable supertuning tests on XPU (#3975)"
+    },
+    {
+      "sha": "9e3f132ed995626a6c018ae3e6966731cf6be186",
+      "url": "https://github.com/huggingface/peft/commit/9e3f132ed995626a6c018ae3e6966731cf6be186",
+      "date": "2026-10-16T08:12:40Z",
+      "subject": "FIX MoE conversion skipping routed experts with shared name (#3946)"
+    },
+    {
+      "sha": "3bb502b8e9ba899ba5a07913bbbdadf0ae6aff1a",
+      "url": "https://github.com/huggingface/peft/commit/3bb502b8e9ba899ba5a07913bbbdadf0ae6aff1a",
+      "date": "2026-10-16T08:10:48Z",
+      "subject": "FIX OFT and GraLoRA with Linear inputs of more than 3 dims (#3974)"
+    },
+    {
+      "sha": "09d5b012299c134e40fa1c59e256c02f92d1bc66",
+      "url": "https://github.com/huggingface/peft/commit/09d5b012299c134e40fa1c59e256c02f92d1bc66",
+      "date": "2026-10-16T08:09:25Z",
+      "subject": "CHORE Add Pauline to allowed users for triage bot (#3904)"
+    },
+    {
+      "sha": "e8e8a7c40af177652ad88a3682d64e0480f5f919",
+      "url": "https://github.com/huggingface/peft/commit/e8e8a7c40af177652ad88a3682d64e0480f5f919",
+      "date": "2026-10-15T08:03:38Z",
+      "subject": "Keep dtype and device when loading an adapter with low_cpu_mem_usage (#3509)"
+    },
+    {
+      "sha": "da530b7bbc107d4e15d3e4588542b26d0dc145fb",
+      "url": "https://github.com/huggingface/peft/commit/da530b7bbc107d4e15d3e4588542b26d0dc145fb",
+      "date": "2026-10-14T18:20:53Z",
+      "subject": "FIX Clarify PeftModel.set_adapter errors for non-string names (#3902)"
+    },
+    {
+      "sha": "85894f184918460af16eea3c66b72ce17df89a2c",
+      "url": "https://github.com/huggingface/peft/commit/85894f184918460af16eea3c66b72ce17df89a2c",
+      "date": "2026-10-14T18:19:56Z",
+      "subject": "FIX Save/load with multiple adapters when only one uses trainable tokens (#3950)"
+    },
+    {
+      "sha": "98d4849e3ecc30142782ec0c418a1f86f78fb562",
+      "url": "https://github.com/huggingface/peft/commit/98d4849e3ecc30142782ec0c418a1f86f78fb562",
+      "date": "2026-10-14T14:36:47Z",
+      "subject": "CHORE Triage bot: Make it possible to assign contributor by name (#3971)"
+    },
+    {
+      "sha": "20f82b52cb690b249cb90cbab43af49d005ab510",
+      "url": "https://github.com/huggingface/peft/commit/20f82b52cb690b249cb90cbab43af49d005ab510",
+      "date": "2026-10-14T07:54:37Z",
+      "subject": "CHORE Python 3.10 is EOL, remove it, add 3.14 (#3939)"
+    },
+    {
+      "sha": "da5e2aa8c8539739107bd6288f05cc20e4c21e09",
+      "url": "https://github.com/huggingface/peft/commit/da5e2aa8c8539739107bd6288f05cc20e4c21e09",
+      "date": "2026-10-14T07:53:46Z",
+      "subject": "FIX Keep the order of rank_pattern and alpha_pattern keys on save (#3947)"
+    },
+    {
+      "sha": "f29e8ce2c78bcab0dc1f3cf65c3b9e8b59395673",
+      "url": "https://github.com/huggingface/peft/commit/f29e8ce2c78bcab0dc1f3cf65c3b9e8b59395673",
+      "date": "2026-10-14T07:49:23Z",
+      "subject": "DOC Add Relation Extraction LoRA script and notebook examples (#3368)"
+    },
+    {
+      "sha": "eac46efeef6e5f63ecc38de5c9148513df602b29",
+      "url": "https://github.com/huggingface/peft/commit/eac46efeef6e5f63ecc38de5c9148513df602b29",
+      "date": "2026-10-13T11:25:51Z",
+      "subject": "FIX add_weighted_adapter SVD combination types for Conv1d and Conv3d LoRA layers (#3903)"
+    },
+    {
+      "sha": "b3f11aa390319ca076182ae472dc9e08f11caf59",
+      "url": "https://github.com/huggingface/peft/commit/b3f11aa390319ca076182ae472dc9e08f11caf59",
+      "date": "2026-10-13T03:26:29Z",
+      "subject": "FIX format_healthcheck ignores sep and indent (#3940)"
+    },
+    {
+      "sha": "8314d7c8606a901953261c5582d1bdc98dacd6be",
+      "url": "https://github.com/huggingface/peft/commit/8314d7c8606a901953261c5582d1bdc98dacd6be",
+      "date": "2026-10-12T15:32:40Z",
+      "subject": "Fix OSF merge applying the delta twice on repeated merge (#3825) (#3886)"
+    },
+    {
+      "sha": "37119d53981f154a68730081423790338f0314b9",
+      "url": "https://github.com/huggingface/peft/commit/37119d53981f154a68730081423790338f0314b9",
+      "date": "2026-10-12T07:23:28Z",
+      "subject": "FIX Method comparison: Fix run.py crash after healthcheck change (#3936)"
+    }
+  ],
+  "default_sha": "c2d5f697fbb30063cbde6f39e2734883b70b8753",
+  "root_and_selected_directory_paths": [
+    ".ai",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug-report.yml",
+    ".github/ISSUE_TEMPLATE/feature-request.yml",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/dependabot.yml",
+    ".github/workflows",
+    ".github/workflows/build_docker_images.yml",
+    ".github/workflows/build_documentation.yml",
+    ".github/workflows/build_pr_documentation.yml",
+    ".github/workflows/deploy_method_comparison_app.yml",
+    ".github/workflows/deploy_peft_shop_app.yml",
+    ".github/workflows/integrations_tests.yml",
+    ".github/workflows/nightly.yml",
+    ".github/workflows/stale.yml",
+    ".github/workflows/test-docker-build.yml",
+    ".github/workflows/tests-main.yml",
+    ".github/workflows/tests.yml",
+    ".github/workflows/torch_compile_tests.yml",
+    ".github/workflows/triage_prs.yml",
+    ".github/workflows/trufflehog.yml",
+    ".github/workflows/upload_pr_documentation.yml",
+    ".github/workflows/zizmor.yaml",
+    ".github/zizmor.yml",
+    ".gitignore",
+    ".pre-commit-config.yaml",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "Makefile",
+    "README.md",
+    "SECURITY.md",
+    "docker",
+    "docs",
+    "docs/Makefile",
+    "docs/README.md",
+    "docs/source",
+    "examples",
+    "method_comparison",
+    "pyproject.toml",
+    "requirements.txt",
+    "scripts",
+    "setup.py",
+    "src",
+    "tests"
+  ],
+  "workflow_paths": [
+    ".github/workflows/integrations_tests.yml",
+    ".github/workflows/test-docker-build.yml",
+    ".github/workflows/tests-main.yml",
+    ".github/workflows/tests.yml",
+    ".github/workflows/torch_compile_tests.yml",
+    ".github/workflows/build_docker_images.yml",
+    ".github/workflows/build_documentation.yml",
+    ".github/workflows/build_pr_documentation.yml",
+    ".github/workflows/deploy_method_comparison_app.yml",
+    ".github/workflows/deploy_peft_shop_app.yml",
+    ".github/workflows/nightly.yml",
+    ".github/workflows/stale.yml",
+    ".github/workflows/triage_prs.yml",
+    ".github/workflows/trufflehog.yml",
+    ".github/workflows/upload_pr_documentation.yml",
+    ".github/workflows/zizmor.yaml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "b28461c924a4217b9478062bea99d2306d7d4d05",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/AGENTS.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha": "b28461c924a4217b9478062bea99d2306d7d4d05",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/CLAUDE.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "446f7fd7f801f4e78f0907f0f3ae4f95a262828d",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/CONTRIBUTING.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile",
+      "sha": "010851815d793db1cc8ab3c38c454bb4c61ab8ae",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/Makefile",
+      "lines": 77,
+      "signals": {
+        "tests": [
+          21,
+          24,
+          27,
+          30,
+          33,
+          40,
+          41,
+          42,
+          45,
+          48,
+          51,
+          54
+        ],
+        "lint": [
+          9,
+          10,
+          16,
+          17
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "ed2dcd70d8a0e07a365bdecca1a1a1deb0f840de",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/README.md",
+      "lines": 191,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          113,
+          132
+        ],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "f8e50016eb43375e93a8b85ad8c9410e23af3c2a",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/SECURITY.md",
+      "lines": 108,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          69,
+          103
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          8,
+          10,
+          12
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          15
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "96566330e5bed664cb14c35bf82069c686266aec",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/pyproject.toml",
+      "lines": 68,
+      "signals": {
+        "tests": [
+          22,
+          47
+        ],
+        "lint": [
+          1,
+          6,
+          12,
+          28,
+          43
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
+      "sha": "82ad94acbca3dbeb54bf360c3b93462d75b22b82",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/.github/ISSUE_TEMPLATE/bug-report.yml",
+      "lines": 54,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature-request.yml",
+      "sha": "5e0b73e1f3afa9a865220346bc0ff2586c542ec8",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/.github/ISSUE_TEMPLATE/feature-request.yml",
+      "lines": 21,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "5b49c411ecb5db089d1068cba1d9ffc1e32db078",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/.github/PULL_REQUEST_TEMPLATE.md",
+      "lines": 9,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "0501ce05b7350306050c78a6ef52a02a45acd181",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/.github/dependabot.yml",
+      "lines": 17,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/Makefile",
+      "sha": "8879933e6cda150267451c9e7d07dd22b7b0d3f1",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/docs/Makefile",
+      "lines": 19,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/README.md",
+      "sha": "0b76173a66db251756401a35e1dfef5ae69794bb",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/docs/README.md",
+      "lines": 267,
+      "signals": {
+        "tests": [],
+        "lint": [
+          235
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/integrations_tests.yml",
+      "sha": "b8fba257e4cec95b30e5a851953fb900c793bb07",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/.github/workflows/integrations_tests.yml",
+      "lines": 86,
+      "signals": {
+        "tests": [
+          48,
+          86
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10
+        ],
+        "pinned_actions": [
+          20,
+          26,
+          57,
+          63
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test-docker-build.yml",
+      "sha": "f3a24e279f076d620ccfe4f2ccd998312e9cb075",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/.github/workflows/test-docker-build.yml",
+      "lines": 66,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9
+        ],
+        "pinned_actions": [
+          19,
+          24,
+          56,
+          58,
+          62
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/tests-main.yml",
+      "sha": "513772d89bbeb74520770ea8bda0c5d18fc1aa37",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/.github/workflows/tests-main.yml",
+      "lines": 91,
+      "signals": {
+        "tests": [
+          78
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9
+        ],
+        "pinned_actions": [
+          19,
+          67,
+          86
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "sha": "2d3a24151e8b20da37c58551187a8cea3ff12f2c",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/.github/workflows/tests.yml",
+      "lines": 172,
+      "signals": {
+        "tests": [
+          132,
+          142,
+          144,
+          147
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          19
+        ],
+        "pinned_actions": [
+          25,
+          29,
+          53,
+          101,
+          121,
+          163
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/torch_compile_tests.yml",
+      "sha": "845b48621097df8dec204b84d87d0d475ffa357f",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/.github/workflows/torch_compile_tests.yml",
+      "lines": 55,
+      "signals": {
+        "tests": [
+          46,
+          47,
+          51
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          20
+        ],
+        "pinned_actions": [
+          38
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build_docker_images.yml",
+      "sha": "6fe64c59adeddd727a26bccfa95f71c64cfa514f",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/.github/workflows/build_docker_images.yml",
+      "lines": 91,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13
+        ],
+        "pinned_actions": [
+          29,
+          31,
+          35,
+          41,
+          49,
+          66,
+          68,
+          72,
+          78,
+          86
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build_documentation.yml",
+      "sha": "46a801e8a33156c0b476f1778d85fe23a56b0d46",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/.github/workflows/build_documentation.yml",
+      "lines": 26,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10,
+          16
+        ],
+        "pinned_actions": [
+          18
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/build_pr_documentation.yml",
+      "sha": "ce795acac294c3583bd2f25abe49f165489c5c85",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/.github/workflows/build_pr_documentation.yml",
+      "lines": 21,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10,
+          14
+        ],
+        "pinned_actions": [
+          16
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/deploy_method_comparison_app.yml",
+      "sha": "dde28d5d5725cc33597f7afcb8f0cde292875abb",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/.github/workflows/deploy_method_comparison_app.yml",
+      "lines": 63,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12
+        ],
+        "pinned_actions": [
+          23
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          46,
+          60
+        ],
+        "community": [],
+        "story": [
+          25
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/deploy_peft_shop_app.yml",
+      "sha": "b1494d314970599cb62a4198fb6d2e2858c507f7",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/.github/workflows/deploy_peft_shop_app.yml",
+      "lines": 80,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          16
+        ],
+        "pinned_actions": [
+          27,
+          32
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [
+          74
+        ],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "sha": "f46d444fa6e28108c17b67891f8079b20d39ca91",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/.github/workflows/nightly.yml",
+      "lines": 156,
+      "signals": {
+        "tests": [
+          42,
+          112
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          15
+        ],
+        "pinned_actions": [
+          35,
+          105
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "sha": "1aa055a064404f25743ea5f16a8159b6dc899c00",
+      "status": "inspected",
+      "url": "https://github.com/huggingface/peft/blob/c2d5f697fbb30063cbde6f39e2734883b70b8753/.github/workflows/stale.yml",
+      "lines": 34,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7,
+          14
+        ],
+        "pinned_actions": [
+          20,
+          25
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 3989,
+      "title": "FIX Old, unused torchao install breaking adapter injection",
+      "url": "https://github.com/huggingface/peft/pull/3989",
+      "merged_at": "2026-10-16T08:36:52Z",
+      "merge_commit_sha": "c2d5f697fbb30063cbde6f39e2734883b70b8753",
+      "files": [
+        "src/peft/import_utils.py",
+        "tests/test_initialization.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "src/peft/import_utils.py",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 2,
+          "blob_url": "https://github.com/huggingface/peft/blob/195822fd56787a996d4b9c07d761540114506a1c/src%2Fpeft%2Fimport_utils.py"
+        },
+        {
+          "filename": "tests/test_initialization.py",
+          "status": "modified",
+          "additions": 72,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/peft/blob/195822fd56787a996d4b9c07d761540114506a1c/tests%2Ftest_initialization.py"
+        }
+      ],
+      "review_states": [
+        "CHANGES_REQUESTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39043657982,
+          "name": "Stale Bot",
+          "path": ".github/workflows/stale.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/39043657982",
+          "head_sha": "c2d5f697fbb30063cbde6f39e2734883b70b8753"
+        },
+        {
+          "id": 39032841746,
+          "name": "PR triage",
+          "path": ".github/workflows/triage_prs.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/39032841746",
+          "head_sha": "c2d5f697fbb30063cbde6f39e2734883b70b8753"
+        },
+        {
+          "id": 39017522508,
+          "name": "PR triage",
+          "path": ".github/workflows/triage_prs.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/39017522508",
+          "head_sha": "c2d5f697fbb30063cbde6f39e2734883b70b8753"
+        },
+        {
+          "id": 39004598962,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/39004598962",
+          "head_sha": "c2d5f697fbb30063cbde6f39e2734883b70b8753"
+        },
+        {
+          "id": 39002637418,
+          "name": "PR triage",
+          "path": ".github/workflows/triage_prs.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/39002637418",
+          "head_sha": "c2d5f697fbb30063cbde6f39e2734883b70b8753"
+        },
+        {
+          "id": 38998125151,
+          "name": "Self-hosted runner with slow tests (scheduled)",
+          "path": ".github/workflows/nightly.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38998125151",
+          "head_sha": "c2d5f697fbb30063cbde6f39e2734883b70b8753"
+        },
+        {
+          "id": 38990523018,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38990523018",
+          "head_sha": "c2d5f697fbb30063cbde6f39e2734883b70b8753"
+        },
+        {
+          "id": 38990144373,
+          "name": "Build Docker images (scheduled)",
+          "path": ".github/workflows/build_docker_images.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38990144373",
+          "head_sha": "c2d5f697fbb30063cbde6f39e2734883b70b8753"
+        },
+        {
+          "id": 38988566361,
+          "name": "PR triage",
+          "path": ".github/workflows/triage_prs.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38988566361",
+          "head_sha": "c2d5f697fbb30063cbde6f39e2734883b70b8753"
+        },
+        {
+          "id": 38962240663,
+          "name": "PR triage",
+          "path": ".github/workflows/triage_prs.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38962240663",
+          "head_sha": "c2d5f697fbb30063cbde6f39e2734883b70b8753"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38861866782,
+          "name": "tests",
+          "path": ".github/workflows/tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38861866782",
+          "head_sha": "195822fd56787a996d4b9c07d761540114506a1c"
+        },
+        {
+          "id": 38861867312,
+          "name": "Build PR Documentation",
+          "path": ".github/workflows/build_pr_documentation.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38861867312",
+          "head_sha": "195822fd56787a996d4b9c07d761540114506a1c"
+        }
+      ]
+    },
+    {
+      "number": 3980,
+      "title": "FIX LN Tuning KeyError when the active adapter does not target a layer",
+      "url": "https://github.com/huggingface/peft/pull/3980",
+      "merged_at": "2026-10-16T08:34:05Z",
+      "merge_commit_sha": "410b5e6c6021c6c721faf13ec7c0e20a2e845369",
+      "files": [
+        "src/peft/tuners/ln_tuning/layer.py",
+        "tests/test_custom_models.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "src/peft/tuners/ln_tuning/layer.py",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 1,
+          "blob_url": "https://github.com/huggingface/peft/blob/b4069570e5b544442122768d55cf645b791c9566/src%2Fpeft%2Ftuners%2Fln_tuning%2Flayer.py"
+        },
+        {
+          "filename": "tests/test_custom_models.py",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/peft/blob/b4069570e5b544442122768d55cf645b791c9566/tests%2Ftest_custom_models.py"
+        }
+      ],
+      "review_states": [
+        "CHANGES_REQUESTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38874558977,
+          "name": "tests",
+          "path": ".github/workflows/tests.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38874558977",
+          "head_sha": "410b5e6c6021c6c721faf13ec7c0e20a2e845369"
+        },
+        {
+          "id": 38874559550,
+          "name": "Build documentation",
+          "path": ".github/workflows/build_documentation.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38874559550",
+          "head_sha": "410b5e6c6021c6c721faf13ec7c0e20a2e845369"
+        },
+        {
+          "id": 38874559032,
+          "name": "CI security linting",
+          "path": ".github/workflows/zizmor.yaml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38874559032",
+          "head_sha": "410b5e6c6021c6c721faf13ec7c0e20a2e845369"
+        },
+        {
+          "id": 38874560091,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38874560091",
+          "head_sha": "410b5e6c6021c6c721faf13ec7c0e20a2e845369"
+        },
+        {
+          "id": 38874559084,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38874559084",
+          "head_sha": "410b5e6c6021c6c721faf13ec7c0e20a2e845369"
+        },
+        {
+          "id": 38874559019,
+          "name": "tests on transformers main",
+          "path": ".github/workflows/tests-main.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38874559019",
+          "head_sha": "410b5e6c6021c6c721faf13ec7c0e20a2e845369"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38851850563,
+          "name": "Build PR Documentation",
+          "path": ".github/workflows/build_pr_documentation.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38851850563",
+          "head_sha": "b4069570e5b544442122768d55cf645b791c9566"
+        },
+        {
+          "id": 38851850314,
+          "name": "tests",
+          "path": ".github/workflows/tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38851850314",
+          "head_sha": "b4069570e5b544442122768d55cf645b791c9566"
+        }
+      ]
+    },
+    {
+      "number": 3969,
+      "title": "FIX CPT forward mutates caller-provided input_type_mask in place",
+      "url": "https://github.com/huggingface/peft/pull/3969",
+      "merged_at": "2026-10-16T08:28:16Z",
+      "merge_commit_sha": "a6a4234d403dbd0d9827f54c6e09c4d954318c43",
+      "files": [
+        "src/peft/peft_model.py",
+        "tests/test_cpt.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "src/peft/peft_model.py",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1,
+          "blob_url": "https://github.com/huggingface/peft/blob/0eca103acb736c152f8d8136e6155b0d3ba8810f/src%2Fpeft%2Fpeft_model.py"
+        },
+        {
+          "filename": "tests/test_cpt.py",
+          "status": "modified",
+          "additions": 42,
+          "deletions": 0,
+          "blob_url": "https://github.com/huggingface/peft/blob/0eca103acb736c152f8d8136e6155b0d3ba8810f/tests%2Ftest_cpt.py"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38874454987,
+          "name": "PR triage",
+          "path": ".github/workflows/triage_prs.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38874454987",
+          "head_sha": "a6a4234d403dbd0d9827f54c6e09c4d954318c43"
+        },
+        {
+          "id": 38873904240,
+          "name": "tests",
+          "path": ".github/workflows/tests.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38873904240",
+          "head_sha": "a6a4234d403dbd0d9827f54c6e09c4d954318c43"
+        },
+        {
+          "id": 38873904112,
+          "name": "tests on transformers main",
+          "path": ".github/workflows/tests-main.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38873904112",
+          "head_sha": "a6a4234d403dbd0d9827f54c6e09c4d954318c43"
+        },
+        {
+          "id": 38873904275,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38873904275",
+          "head_sha": "a6a4234d403dbd0d9827f54c6e09c4d954318c43"
+        },
+        {
+          "id": 38873904551,
+          "name": "Build documentation",
+          "path": ".github/workflows/build_documentation.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38873904551",
+          "head_sha": "a6a4234d403dbd0d9827f54c6e09c4d954318c43"
+        },
+        {
+          "id": 38873904175,
+          "name": "CI security linting",
+          "path": ".github/workflows/zizmor.yaml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38873904175",
+          "head_sha": "a6a4234d403dbd0d9827f54c6e09c4d954318c43"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38546761694,
+          "name": "tests",
+          "path": ".github/workflows/tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38546761694",
+          "head_sha": "0eca103acb736c152f8d8136e6155b0d3ba8810f"
+        },
+        {
+          "id": 38546762203,
+          "name": "Build PR Documentation",
+          "path": ".github/workflows/build_pr_documentation.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/38546762203",
+          "head_sha": "0eca103acb736c152f8d8136e6155b0d3ba8810f"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v0.21.2",
+      "url": "https://github.com/huggingface/peft/releases/tag/v0.21.2",
+      "published_at": "2026-10-01T10:29:50Z",
+      "target_commitish": "main",
+      "commit_sha": "eaa35c777c7ba554a2a3639ac9c79bb690f39a57",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 36848599391,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/36848599391",
+          "head_sha": "eaa35c777c7ba554a2a3639ac9c79bb690f39a57"
+        },
+        {
+          "id": 36848390265,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/36848390265",
+          "head_sha": "eaa35c777c7ba554a2a3639ac9c79bb690f39a57"
+        }
+      ]
+    },
+    {
+      "tag": "v0.21.1",
+      "url": "https://github.com/huggingface/peft/releases/tag/v0.21.1",
+      "published_at": "2026-09-29T09:28:26Z",
+      "target_commitish": "main",
+      "commit_sha": "c9e74748db00f6637551ebeb12e3f9d4eb2e659b",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 36843958375,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/36843958375",
+          "head_sha": "c9e74748db00f6637551ebeb12e3f9d4eb2e659b"
+        },
+        {
+          "id": 36547876116,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/36547876116",
+          "head_sha": "c9e74748db00f6637551ebeb12e3f9d4eb2e659b"
+        },
+        {
+          "id": 36547483605,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/36547483605",
+          "head_sha": "c9e74748db00f6637551ebeb12e3f9d4eb2e659b"
+        }
+      ]
+    },
+    {
+      "tag": "v0.21.0",
+      "url": "https://github.com/huggingface/peft/releases/tag/v0.21.0",
+      "published_at": "2026-09-15T15:31:52Z",
+      "target_commitish": "main",
+      "commit_sha": "9dc6fa2d2093853dec3889b790d4f251efe7fcac",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 36429822182,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/36429822182",
+          "head_sha": "9dc6fa2d2093853dec3889b790d4f251efe7fcac"
+        },
+        {
+          "id": 34986479125,
+          "name": "Stale Bot",
+          "path": ".github/workflows/stale.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/34986479125",
+          "head_sha": "9dc6fa2d2093853dec3889b790d4f251efe7fcac"
+        },
+        {
+          "id": 34983384931,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/34983384931",
+          "head_sha": "9dc6fa2d2093853dec3889b790d4f251efe7fcac"
+        },
+        {
+          "id": 34976782973,
+          "name": "Upload PR Documentation",
+          "path": ".github/workflows/upload_pr_documentation.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/34976782973",
+          "head_sha": "9dc6fa2d2093853dec3889b790d4f251efe7fcac"
+        },
+        {
+          "id": 34969146701,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/34969146701",
+          "head_sha": "9dc6fa2d2093853dec3889b790d4f251efe7fcac"
+        },
+        {
+          "id": 34969054448,
+          "name": "Graph Update: pip in /. #1577375031",
+          "path": "dynamic/dependabot/update-graph",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/34969054448",
+          "head_sha": "9dc6fa2d2093853dec3889b790d4f251efe7fcac"
+        },
+        {
+          "id": 34969052055,
+          "name": "Secret Leaks",
+          "path": ".github/workflows/trufflehog.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/34969052055",
+          "head_sha": "9dc6fa2d2093853dec3889b790d4f251efe7fcac"
+        },
+        {
+          "id": 34969052758,
+          "name": "Build documentation",
+          "path": ".github/workflows/build_documentation.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/34969052758",
+          "head_sha": "9dc6fa2d2093853dec3889b790d4f251efe7fcac"
+        },
+        {
+          "id": 34969052135,
+          "name": "CI security linting",
+          "path": ".github/workflows/zizmor.yaml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/34969052135",
+          "head_sha": "9dc6fa2d2093853dec3889b790d4f251efe7fcac"
+        },
+        {
+          "id": 34969052088,
+          "name": "tests",
+          "path": ".github/workflows/tests.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/huggingface/peft/actions/runs/34969052088",
+          "head_sha": "9dc6fa2d2093853dec3889b790d4f251efe7fcac"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v0.21.2",
+      "sha": "eaa35c777c7ba554a2a3639ac9c79bb690f39a57"
+    },
+    {
+      "name": "v0.21.1",
+      "sha": "c9e74748db00f6637551ebeb12e3f9d4eb2e659b"
+    },
+    {
+      "name": "v0.21.0",
+      "sha": "9dc6fa2d2093853dec3889b790d4f251efe7fcac"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:00.793009+00:00",
+  "source_times": {
+    "/repos/huggingface/peft": "2026-10-17T16:08:42.965421+00:00",
+    "/repos/huggingface/peft/commits?sha=main&per_page=20": "2026-10-17T16:08:44.904365+00:00",
+    "/repos/huggingface/peft/git/trees/c2d5f697fbb30063cbde6f39e2734883b70b8753": "2026-10-17T16:08:46.257317+00:00",
+    "/repos/huggingface/peft/git/trees/12c7f3c6e5500860b5c17966eddcdb0d109545d1": "2026-10-17T16:08:49.030560+00:00",
+    "/repos/huggingface/peft/git/trees/24ace9fb824313e03967b1b8cf90da24b931d849": "2026-10-17T16:08:50.468603+00:00",
+    "/repos/huggingface/peft/git/trees/02e6939f3ffa184a422e29fdddb78dc366c73c71": "2026-10-17T16:08:51.825812+00:00",
+    "/repos/huggingface/peft/git/trees/4d919e90d03d04317401dc840cc72e108c34e2fb": "2026-10-17T16:08:53.271395+00:00",
+    "/repos/huggingface/peft/git/blobs/b28461c924a4217b9478062bea99d2306d7d4d05": "2026-10-17T16:08:55.644696+00:00",
+    "/repos/huggingface/peft/git/blobs/446f7fd7f801f4e78f0907f0f3ae4f95a262828d": "2026-10-17T16:08:57.044586+00:00",
+    "/repos/huggingface/peft/git/blobs/010851815d793db1cc8ab3c38c454bb4c61ab8ae": "2026-10-17T16:08:59.413599+00:00",
+    "/repos/huggingface/peft/git/blobs/ed2dcd70d8a0e07a365bdecca1a1a1deb0f840de": "2026-10-17T16:09:00.948511+00:00",
+    "/repos/huggingface/peft/git/blobs/f8e50016eb43375e93a8b85ad8c9410e23af3c2a": "2026-10-17T16:09:02.403806+00:00",
+    "/repos/huggingface/peft/git/blobs/96566330e5bed664cb14c35bf82069c686266aec": "2026-10-17T16:09:05.200970+00:00",
+    "/repos/huggingface/peft/git/blobs/82ad94acbca3dbeb54bf360c3b93462d75b22b82": "2026-10-17T16:09:06.580829+00:00",
+    "/repos/huggingface/peft/git/blobs/5e0b73e1f3afa9a865220346bc0ff2586c542ec8": "2026-10-17T16:09:07.941213+00:00",
+    "/repos/huggingface/peft/git/blobs/5b49c411ecb5db089d1068cba1d9ffc1e32db078": "2026-10-17T16:09:09.489211+00:00",
+    "/repos/huggingface/peft/git/blobs/0501ce05b7350306050c78a6ef52a02a45acd181": "2026-10-17T16:09:10.881134+00:00",
+    "/repos/huggingface/peft/git/blobs/8879933e6cda150267451c9e7d07dd22b7b0d3f1": "2026-10-17T16:09:12.209593+00:00",
+    "/repos/huggingface/peft/git/blobs/0b76173a66db251756401a35e1dfef5ae69794bb": "2026-10-17T16:09:13.741827+00:00",
+    "/repos/huggingface/peft/git/blobs/b8fba257e4cec95b30e5a851953fb900c793bb07": "2026-10-17T16:09:15.147171+00:00",
+    "/repos/huggingface/peft/git/blobs/f3a24e279f076d620ccfe4f2ccd998312e9cb075": "2026-10-17T16:09:20.914870+00:00",
+    "/repos/huggingface/peft/git/blobs/513772d89bbeb74520770ea8bda0c5d18fc1aa37": "2026-10-17T16:09:22.281609+00:00",
+    "/repos/huggingface/peft/git/blobs/2d3a24151e8b20da37c58551187a8cea3ff12f2c": "2026-10-17T16:09:23.654841+00:00",
+    "/repos/huggingface/peft/git/blobs/845b48621097df8dec204b84d87d0d475ffa357f": "2026-10-17T16:09:26.044180+00:00",
+    "/repos/huggingface/peft/git/blobs/6fe64c59adeddd727a26bccfa95f71c64cfa514f": "2026-10-17T16:09:27.384601+00:00",
+    "/repos/huggingface/peft/git/blobs/46a801e8a33156c0b476f1778d85fe23a56b0d46": "2026-10-17T16:09:28.800891+00:00",
+    "/repos/huggingface/peft/git/blobs/ce795acac294c3583bd2f25abe49f165489c5c85": "2026-10-17T16:09:30.179432+00:00",
+    "/repos/huggingface/peft/git/blobs/dde28d5d5725cc33597f7afcb8f0cde292875abb": "2026-10-17T16:09:31.569912+00:00",
+    "/repos/huggingface/peft/git/blobs/b1494d314970599cb62a4198fb6d2e2858c507f7": "2026-10-17T16:09:32.927052+00:00",
+    "/repos/huggingface/peft/git/blobs/f46d444fa6e28108c17b67891f8079b20d39ca91": "2026-10-17T16:09:34.357893+00:00",
+    "/repos/huggingface/peft/git/blobs/1aa055a064404f25743ea5f16a8159b6dc899c00": "2026-10-17T16:09:35.866958+00:00",
+    "/repos/huggingface/peft/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:09:39.811327+00:00",
+    "/repos/huggingface/peft/pulls/3989/files?per_page=100": "2026-10-17T16:09:41.397785+00:00",
+    "/repos/huggingface/peft/pulls/3989/reviews?per_page=100": "2026-10-17T16:09:43.075294+00:00",
+    "/repos/huggingface/peft/actions/runs?head_sha=c2d5f697fbb30063cbde6f39e2734883b70b8753&per_page=10": "2026-10-17T16:09:45.398883+00:00",
+    "/repos/huggingface/peft/actions/runs?head_sha=195822fd56787a996d4b9c07d761540114506a1c&per_page=10": "2026-10-17T16:09:47.240597+00:00",
+    "/repos/huggingface/peft/pulls/3980/files?per_page=100": "2026-10-17T16:09:48.861025+00:00",
+    "/repos/huggingface/peft/pulls/3980/reviews?per_page=100": "2026-10-17T16:09:50.455935+00:00",
+    "/repos/huggingface/peft/actions/runs?head_sha=410b5e6c6021c6c721faf13ec7c0e20a2e845369&per_page=10": "2026-10-17T16:09:52.463147+00:00",
+    "/repos/huggingface/peft/actions/runs?head_sha=b4069570e5b544442122768d55cf645b791c9566&per_page=10": "2026-10-17T16:09:54.131877+00:00",
+    "/repos/huggingface/peft/pulls/3969/files?per_page=100": "2026-10-17T16:09:55.715160+00:00",
+    "/repos/huggingface/peft/pulls/3969/reviews?per_page=100": "2026-10-17T16:09:57.266292+00:00",
+    "/repos/huggingface/peft/actions/runs?head_sha=a6a4234d403dbd0d9827f54c6e09c4d954318c43&per_page=10": "2026-10-17T16:10:00.684779+00:00",
+    "/repos/huggingface/peft/actions/runs?head_sha=0eca103acb736c152f8d8136e6155b0d3ba8810f&per_page=10": "2026-10-17T16:10:03.382774+00:00",
+    "/repos/huggingface/peft/releases?per_page=20&page=1": "2026-10-17T16:17:00.789091+00:00",
+    "/repos/huggingface/peft/commits/v0.21.2": "2026-10-17T16:10:07.323477+00:00",
+    "/repos/huggingface/peft/actions/runs?head_sha=eaa35c777c7ba554a2a3639ac9c79bb690f39a57&per_page=10": "2026-10-17T16:10:08.971206+00:00",
+    "/repos/huggingface/peft/commits/v0.21.1": "2026-10-17T16:10:10.849373+00:00",
+    "/repos/huggingface/peft/actions/runs?head_sha=c9e74748db00f6637551ebeb12e3f9d4eb2e659b&per_page=10": "2026-10-17T16:10:12.704649+00:00",
+    "/repos/huggingface/peft/commits/v0.21.0": "2026-10-17T16:10:17.856030+00:00",
+    "/repos/huggingface/peft/actions/runs?head_sha=9dc6fa2d2093853dec3889b790d4f251efe7fcac&per_page=10": "2026-10-17T16:10:20.020161+00:00",
+    "/repos/huggingface/peft/tags?per_page=3": "2026-10-17T16:10:21.457405+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:00.789091+00:00",
+  "status": "collected"
+}

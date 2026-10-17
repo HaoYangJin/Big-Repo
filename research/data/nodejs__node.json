@@ -1,0 +1,2349 @@
+{
+  "requested_repository": "nodejs/node",
+  "category": "frameworks",
+  "collected_at": "2026-10-17T16:12:09.987821+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "nodejs/node",
+  "metadata": {
+    "html_url": "https://github.com/nodejs/node",
+    "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+    "homepage": "https://nodejs.org",
+    "language": "JavaScript",
+    "stargazers_count": 122386,
+    "forks_count": 40083,
+    "open_issues_count": 1236,
+    "pushed_at": "2026-10-17T09:45:08Z",
+    "created_at": "2014-11-26T19:57:11Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "topics": [
+      "javascript",
+      "js",
+      "linux",
+      "macos",
+      "mit",
+      "node",
+      "nodejs",
+      "runtime",
+      "windows"
+    ],
+    "owner": {
+      "login": "nodejs",
+      "type": "Organization",
+      "html_url": "https://github.com/nodejs"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "269cab632090e50d75e7180ed22df773ab7fba0a",
+      "url": "https://github.com/nodejs/node/commit/269cab632090e50d75e7180ed22df773ab7fba0a",
+      "date": "2026-10-17T09:45:08Z",
+      "subject": "net: fail closed when BlockList peer address is unavailable"
+    },
+    {
+      "sha": "b5b07a0772e99b6999d37e452fd2a3d023b20ea0",
+      "url": "https://github.com/nodejs/node/commit/b5b07a0772e99b6999d37e452fd2a3d023b20ea0",
+      "date": "2026-10-17T09:19:57Z",
+      "subject": "crypto: use `OPENSSL_SIZE_T` instead of hard coding `int`"
+    },
+    {
+      "sha": "9347db1df97ba81b7817122ce941db7f82d4ab4c",
+      "url": "https://github.com/nodejs/node/commit/9347db1df97ba81b7817122ce941db7f82d4ab4c",
+      "date": "2026-10-17T06:47:05Z",
+      "subject": "test: deflake test-filehandle-close"
+    },
+    {
+      "sha": "4e75b714df611f0721b19f4d9dcdf85e694cf5a2",
+      "url": "https://github.com/nodejs/node/commit/4e75b714df611f0721b19f4d9dcdf85e694cf5a2",
+      "date": "2026-10-17T06:20:05Z",
+      "subject": "stream: trim TransformStream construction costs"
+    },
+    {
+      "sha": "62ca1bae5a2ba9fd63041464e90a6073e7dd0392",
+      "url": "https://github.com/nodejs/node/commit/62ca1bae5a2ba9fd63041464e90a6073e7dd0392",
+      "date": "2026-10-17T00:53:49Z",
+      "subject": "vfs: allow mounting in permission audit mode"
+    },
+    {
+      "sha": "a4231cfc6bffdf5e4e8e24c908cc76129641e683",
+      "url": "https://github.com/nodejs/node/commit/a4231cfc6bffdf5e4e8e24c908cc76129641e683",
+      "date": "2026-10-17T00:53:36Z",
+      "subject": "benchmark: honor n in perf_hooks usertiming"
+    },
+    {
+      "sha": "f513ec7e7cad019368f26528041e9684ab12fba6",
+      "url": "https://github.com/nodejs/node/commit/f513ec7e7cad019368f26528041e9684ab12fba6",
+      "date": "2026-10-16T18:06:44Z",
+      "subject": "test_runner: add mockReturnValue and promise helpers"
+    },
+    {
+      "sha": "f59539b514344ed0a0945f8790d61121df88a5d4",
+      "url": "https://github.com/nodejs/node/commit/f59539b514344ed0a0945f8790d61121df88a5d4",
+      "date": "2026-10-16T16:59:40Z",
+      "subject": "url: skip plain prefixes in percent-escape checks"
+    },
+    {
+      "sha": "5926201795d89fbf58ac6b18c0c05fd7b73eff9b",
+      "url": "https://github.com/nodejs/node/commit/5926201795d89fbf58ac6b18c0c05fd7b73eff9b",
+      "date": "2026-10-16T15:59:30Z",
+      "subject": "doc: add doc on when to backport V8 patches to main"
+    },
+    {
+      "sha": "9df97a7c2bdcf1966c691f217e4002f54f08a2b7",
+      "url": "https://github.com/nodejs/node/commit/9df97a7c2bdcf1966c691f217e4002f54f08a2b7",
+      "date": "2026-10-16T14:53:36Z",
+      "subject": "doc: reserve NMV 154 for Electron 46"
+    },
+    {
+      "sha": "ba4d9bf94b9a41382f08799a3364affdb0b0c076",
+      "url": "https://github.com/nodejs/node/commit/ba4d9bf94b9a41382f08799a3364affdb0b0c076",
+      "date": "2026-10-16T14:00:45Z",
+      "subject": "doc: add hoondongkang as triager"
+    },
+    {
+      "sha": "77609be7c009420c71af0687a44bbfd35eb6ebf1",
+      "url": "https://github.com/nodejs/node/commit/77609be7c009420c71af0687a44bbfd35eb6ebf1",
+      "date": "2026-10-16T13:24:14Z",
+      "subject": "benchmark: use process.execPath when pinning CPUs in run.js"
+    },
+    {
+      "sha": "4096767d365e4296c36fbc52aa5e568d948141d6",
+      "url": "https://github.com/nodejs/node/commit/4096767d365e4296c36fbc52aa5e568d948141d6",
+      "date": "2026-10-16T13:03:04Z",
+      "subject": "deps: update undici to 8.12.2"
+    },
+    {
+      "sha": "c0c8ce80a881a76485370d548fb10643f68fe670",
+      "url": "https://github.com/nodejs/node/commit/c0c8ce80a881a76485370d548fb10643f68fe670",
+      "date": "2026-10-16T12:44:49Z",
+      "subject": "doc: warn against awaiting replies in module hooks"
+    },
+    {
+      "sha": "9f2fb935fd65e2296e5cd2253619b6fd93046eba",
+      "url": "https://github.com/nodejs/node/commit/9f2fb935fd65e2296e5cd2253619b6fd93046eba",
+      "date": "2026-10-16T12:44:35Z",
+      "subject": "sea: mount vfsArchive at layer 0 and in workers"
+    },
+    {
+      "sha": "2d908f48d986902be2d594abfc867446b841dd8a",
+      "url": "https://github.com/nodejs/node/commit/2d908f48d986902be2d594abfc867446b841dd8a",
+      "date": "2026-10-16T12:44:22Z",
+      "subject": "benchmark: fix hideStackFrames error benchmarks"
+    },
+    {
+      "sha": "bc5af1c67cd8e029f86ec992688dde9307f4d61a",
+      "url": "https://github.com/nodejs/node/commit/bc5af1c67cd8e029f86ec992688dde9307f4d61a",
+      "date": "2026-10-16T09:48:42Z",
+      "subject": "test: wait for shared-isolate Worker exit"
+    },
+    {
+      "sha": "0c2949dd9d484adf3942a59d1aa23bed5ba4b882",
+      "url": "https://github.com/nodejs/node/commit/0c2949dd9d484adf3942a59d1aa23bed5ba4b882",
+      "date": "2026-10-16T09:48:41Z",
+      "subject": "test: move large SQLite string cases to pummel"
+    },
+    {
+      "sha": "c172bcd8a8e3547b3858a0e0e0203849fcf6c491",
+      "url": "https://github.com/nodejs/node/commit/c172bcd8a8e3547b3858a0e0e0203849fcf6c491",
+      "date": "2026-10-16T09:48:40Z",
+      "subject": "test: allow periodic flush to finish under load"
+    },
+    {
+      "sha": "592a0bd89c5f1e1857f0eb6420e71f29e3ac307a",
+      "url": "https://github.com/nodejs/node/commit/592a0bd89c5f1e1857f0eb6420e71f29e3ac307a",
+      "date": "2026-10-16T09:48:39Z",
+      "subject": "test: wait for inspector restart before exit"
+    }
+  ],
+  "default_sha": "269cab632090e50d75e7180ed22df773ab7fba0a",
+  "root_and_selected_directory_paths": [
+    ".clang-format",
+    ".configurations",
+    ".cpplint",
+    ".devcontainer",
+    ".editorconfig",
+    ".gitattributes",
+    ".github",
+    ".github/CODEOWNERS",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/1-bug-report.yml",
+    ".github/ISSUE_TEMPLATE/2-feature-request.yml",
+    ".github/ISSUE_TEMPLATE/3-api-ref-docs-problem.yml",
+    ".github/ISSUE_TEMPLATE/4-report-a-flaky-test.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/SUPPORT.md",
+    ".github/actions",
+    ".github/codeql-config.yml",
+    ".github/dependabot.yml",
+    ".github/label-pr-config.yml",
+    ".github/workflows",
+    ".github/workflows/author-ready-conflicts.yml",
+    ".github/workflows/auto-start-ci.yml",
+    ".github/workflows/benchmark.yml",
+    ".github/workflows/build-shared.yml",
+    ".github/workflows/build-tarball.yml",
+    ".github/workflows/close-stalled.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/comment-labeled.yml",
+    ".github/workflows/commit-lint.yml",
+    ".github/workflows/commit-queue.yml",
+    ".github/workflows/contributor-guidance.yml",
+    ".github/workflows/coverage-linux-without-intl.yml",
+    ".github/workflows/coverage-linux.yml",
+    ".github/workflows/coverage-windows.yml",
+    ".github/workflows/create-release-proposal.yml",
+    ".github/workflows/daily-wpt-fyi.yml",
+    ".github/workflows/daily.yml",
+    ".github/workflows/doc.yml",
+    ".github/workflows/find-inactive-collaborators.yml",
+    ".github/workflows/find-inactive-tsc.yml",
+    ".github/workflows/label-flaky-test-issue.yml",
+    ".github/workflows/label-pr.yml",
+    ".github/workflows/license-builder.yml",
+    ".github/workflows/lint-release-proposal.yml",
+    ".github/workflows/linters.yml",
+    ".github/workflows/major-release.yml",
+    ".github/workflows/nix-changes-comment.yml",
+    ".github/workflows/nix-changes.yml",
+    ".github/workflows/notify-on-push.yml",
+    ".github/workflows/notify-on-review-wanted.yml",
+    ".github/workflows/post-release.yml",
+    ".github/workflows/remark-lint-problem-matcher.json",
+    ".github/workflows/scorecard.yml",
+    ".github/workflows/stale.yml",
+    ".github/workflows/stress-test.yml",
+    ".github/workflows/test-internet.yml",
+    ".github/workflows/test-linux-perfetto.yml",
+    ".github/workflows/test-linux-quic.yml",
+    ".github/workflows/test-linux.yml",
+    ".github/workflows/test-macos.yml",
+    ".github/workflows/test-shared.yml",
+    ".github/workflows/timezone-update.yml",
+    ".github/workflows/tools.yml",
+    ".github/workflows/update-openssl.yml",
+    ".github/workflows/update-v8.yml",
+    ".github/workflows/update-wpt.yml",
+    ".gitignore",
+    ".gitpod.yml",
+    ".mailmap",
+    ".npmrc",
+    ".nycrc",
+    ".yamllint.yaml",
+    "AGENTS.md",
+    "BSDmakefile",
+    "BUILD.gn",
+    "BUILDING.md",
+    "CHANGELOG.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "GOVERNANCE.md",
+    "LICENSE",
+    "Makefile",
+    "README.md",
+    "SECURITY.md",
+    "android-configure",
+    "android-patches",
+    "android_configure.py",
+    "benchmark",
+    "codecov.yml",
+    "common.gypi",
+    "configure",
+    "configure.py",
+    "deps",
+    "doc",
+    "doc/README.md",
+    "doc/abi_version_registry.json",
+    "doc/api",
+    "doc/changelogs",
+    "doc/contributing",
+    "doc/eslint.config_partial.mjs",
+    "doc/full-white-stripe.jpg",
+    "doc/node-config-schema.json",
+    "doc/node.1",
+    "doc/osx_installer_logo.png",
+    "doc/thin-white-stripe.jpg",
+    "doc/type-map.json",
+    "eslint.config.mjs",
+    "glossary.md",
+    "lib",
+    "node.gni",
+    "node.gyp",
+    "node.gypi",
+    "onboarding.md",
+    "pyproject.toml",
+    "shell.nix",
+    "src",
+    "test",
+    "tools",
+    "tsconfig.json",
+    "typings",
+    "unofficial.gni",
+    "vcbuild.bat"
+  ],
+  "workflow_paths": [
+    ".github/workflows/auto-start-ci.yml",
+    ".github/workflows/create-release-proposal.yml",
+    ".github/workflows/label-flaky-test-issue.yml",
+    ".github/workflows/lint-release-proposal.yml",
+    ".github/workflows/major-release.yml",
+    ".github/workflows/post-release.yml",
+    ".github/workflows/stress-test.yml",
+    ".github/workflows/test-internet.yml",
+    ".github/workflows/test-linux-perfetto.yml",
+    ".github/workflows/test-linux-quic.yml",
+    ".github/workflows/test-linux.yml",
+    ".github/workflows/test-macos.yml",
+    ".github/workflows/test-shared.yml",
+    ".github/workflows/author-ready-conflicts.yml",
+    ".github/workflows/benchmark.yml",
+    ".github/workflows/build-shared.yml",
+    ".github/workflows/build-tarball.yml",
+    ".github/workflows/close-stalled.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/comment-labeled.yml",
+    ".github/workflows/commit-lint.yml",
+    ".github/workflows/commit-queue.yml",
+    ".github/workflows/contributor-guidance.yml",
+    ".github/workflows/coverage-linux-without-intl.yml",
+    ".github/workflows/coverage-linux.yml",
+    ".github/workflows/coverage-windows.yml",
+    ".github/workflows/daily-wpt-fyi.yml",
+    ".github/workflows/daily.yml",
+    ".github/workflows/doc.yml",
+    ".github/workflows/find-inactive-collaborators.yml",
+    ".github/workflows/find-inactive-tsc.yml",
+    ".github/workflows/label-pr.yml",
+    ".github/workflows/license-builder.yml",
+    ".github/workflows/linters.yml",
+    ".github/workflows/nix-changes-comment.yml",
+    ".github/workflows/nix-changes.yml",
+    ".github/workflows/notify-on-push.yml",
+    ".github/workflows/notify-on-review-wanted.yml",
+    ".github/workflows/remark-lint-problem-matcher.json",
+    ".github/workflows/scorecard.yml",
+    ".github/workflows/stale.yml",
+    ".github/workflows/timezone-update.yml",
+    ".github/workflows/tools.yml",
+    ".github/workflows/update-openssl.yml",
+    ".github/workflows/update-v8.yml",
+    ".github/workflows/update-wpt.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "0e00d2fc5496242333d9ae532ed8e3305c9ea32b",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/AGENTS.md",
+      "lines": 64,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          31
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "af4e1e21aceadef041f576a94d9b70113b0b45fc",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/CHANGELOG.md",
+      "lines": 1396,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          3
+        ]
+      }
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "d724027fd9aadb9987b8213c66e78de32c31e042",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/CODE_OF_CONDUCT.md",
+      "lines": 4,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "cfc1bf72b47f15e36bf3f95ff9cc550182c6f00e",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/CONTRIBUTING.md",
+      "lines": 107,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          75
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "sha": "c71ec5ee96a14927c9b085ea902c6d32e041c6a7",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/GOVERNANCE.md",
+      "lines": 375,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          370
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile",
+      "sha": "31d7d911c98757005a92af12e4329e0dff72ffcb",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/Makefile",
+      "lines": 1781,
+      "signals": {
+        "tests": [
+          333,
+          747,
+          748
+        ],
+        "lint": [
+          5,
+          1332,
+          1333,
+          1334,
+          1336,
+          1342,
+          1527,
+          1529,
+          1534,
+          1535,
+          1538,
+          1545
+        ],
+        "generated_code": [],
+        "release_automation": [
+          751
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "ff4d05e1cd9b29072f15eedde1ce10234a6d2b31",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/README.md",
+      "lines": 929,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          138,
+          139
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "ff66cd097e615d2f2f51185929ecff9ad186a6ce",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/SECURITY.md",
+      "lines": 738,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          65
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          7,
+          18,
+          22
+        ],
+        "story": [
+          614
+        ]
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "ffa083bafaf78b5fdae349075dd3adc7328b35c6",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/pyproject.toml",
+      "lines": 48,
+      "signals": {
+        "tests": [],
+        "lint": [
+          1,
+          7,
+          12,
+          26,
+          41,
+          44
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha": "2a27e611350ff324b512aee6d964f19b777a3760",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/CODEOWNERS",
+      "lines": 256,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          20
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/1-bug-report.yml",
+      "sha": "4637a2fa86e17b2bb75dbc7a82cc9f1b63f1b2bb",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/ISSUE_TEMPLATE/1-bug-report.yml",
+      "lines": 60,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/2-feature-request.yml",
+      "sha": "26a77a3617cbebacd6a214a231db89a1bd4917a9",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/ISSUE_TEMPLATE/2-feature-request.yml",
+      "lines": 26,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/3-api-ref-docs-problem.yml",
+      "sha": "753e2d9e58a9d518ebc9010758c5636cc07eafeb",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/ISSUE_TEMPLATE/3-api-ref-docs-problem.yml",
+      "lines": 18,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/4-report-a-flaky-test.yml",
+      "sha": "a3f45b377b6332db5b815e0427f96330d03bf99f",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/ISSUE_TEMPLATE/4-report-a-flaky-test.yml",
+      "lines": 59,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "dc01fd3fdac591e9dc8f10166d7425e48c388fed",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 14,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "3950bc702eb58b517ec9ef5103098e46ea1ee4f0",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/PULL_REQUEST_TEMPLATE.md",
+      "lines": 45,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/SUPPORT.md",
+      "sha": "4613512bf2d01f9eccbb22ef8d228074cb6ee43a",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/SUPPORT.md",
+      "lines": 27,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "a2c7c77500f91dfa7dcdb78a6bcab915faa9904f",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/dependabot.yml",
+      "lines": 70,
+      "signals": {
+        "tests": [],
+        "lint": [
+          19,
+          30
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "doc/README.md",
+      "sha": "a026746ff713a0ad94c3819a218c21288c7ad2b2",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/doc/README.md",
+      "lines": 234,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/auto-start-ci.yml",
+      "sha": "85f3e92f2ffbd201f28afb9eaf948cd0c1e3032c",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/workflows/auto-start-ci.yml",
+      "lines": 93,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          22,
+          27,
+          56
+        ],
+        "pinned_actions": [
+          66
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/create-release-proposal.yml",
+      "sha": "735b15ffd12f2d896bdb5cc4599183a502f52b13",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/workflows/create-release-proposal.yml",
+      "lines": 81,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          23,
+          24
+        ],
+        "pinned_actions": [
+          36,
+          43
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/label-flaky-test-issue.yml",
+      "sha": "35d780ae6652269420711cafd3428367cabae3da",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/workflows/label-flaky-test-issue.yml",
+      "lines": 53,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7,
+          14
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/lint-release-proposal.yml",
+      "sha": "9652eea91b89f7fd2a3ede48ff7016a1d9b6e65c",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/workflows/lint-release-proposal.yml",
+      "lines": 119,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          16,
+          22
+        ],
+        "pinned_actions": [
+          26
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/major-release.yml",
+      "sha": "1b15a00c8df1622cf1b27d328666413267fea8a6",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/workflows/major-release.yml",
+      "lines": 49,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          7,
+          14
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/post-release.yml",
+      "sha": "2fb374e912d10fbca8de18728cd85c042c6784af",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/workflows/post-release.yml",
+      "lines": 33,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/stress-test.yml",
+      "sha": "f715815afc40c34931fe7674e45b6769f83a7c70",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/workflows/stress-test.yml",
+      "lines": 114,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          41
+        ],
+        "pinned_actions": [
+          57,
+          70,
+          79
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test-internet.yml",
+      "sha": "fc569f4a53e5f258a5a41817e606d815f724074d",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/workflows/test-internet.yml",
+      "lines": 78,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          50
+        ],
+        "pinned_actions": [
+          58,
+          66,
+          72
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test-linux-perfetto.yml",
+      "sha": "edc7e5c3a7722d7e5f8bcec8f0b70c1afd4dc9ff",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/workflows/test-linux-perfetto.yml",
+      "lines": 73,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          32
+        ],
+        "pinned_actions": [
+          40,
+          53,
+          59
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test-linux-quic.yml",
+      "sha": "08c10537ecd0380b968b6bd412fc3d999150ed35",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/workflows/test-linux-quic.yml",
+      "lines": 81,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          43
+        ],
+        "pinned_actions": [
+          51,
+          64,
+          70
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test-linux.yml",
+      "sha": "8f02723bb64e0e0b29c202120c6f47f85472171f",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/workflows/test-linux.yml",
+      "lines": 100,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          51
+        ],
+        "pinned_actions": [
+          63,
+          76,
+          82
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/test-macos.yml",
+      "sha": "c64cb77241bb65997a11bb6dee6425be8e13b366",
+      "status": "inspected",
+      "url": "https://github.com/nodejs/node/blob/269cab632090e50d75e7180ed22df773ab7fba0a/.github/workflows/test-macos.yml",
+      "lines": 142,
+      "signals": {
+        "tests": [],
+        "lint": [
+          9,
+          10,
+          23,
+          24,
+          40,
+          41,
+          54,
+          55
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          73
+        ],
+        "pinned_actions": [
+          88,
+          93,
+          105
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 66640,
+      "title": "net: fail closed when BlockList peer address is unavailable",
+      "url": "https://github.com/nodejs/node/pull/66640",
+      "merged_at": "2026-10-17T09:45:09Z",
+      "merge_commit_sha": "269cab632090e50d75e7180ed22df773ab7fba0a",
+      "files": [
+        "lib/net.js",
+        "test/parallel/test-net-server-blocklist-fail-closed.js"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "lib/net.js",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 1,
+          "blob_url": "https://github.com/nodejs/node/blob/2841c917bec73c600c2cc8a418d30998d2d9354c/lib%2Fnet.js"
+        },
+        {
+          "filename": "test/parallel/test-net-server-blocklist-fail-closed.js",
+          "status": "added",
+          "additions": 33,
+          "deletions": 0,
+          "blob_url": "https://github.com/nodejs/node/blob/2841c917bec73c600c2cc8a418d30998d2d9354c/test%2Fparallel%2Ftest-net-server-blocklist-fail-closed.js"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39048226268,
+          "name": "Auto Start CI",
+          "path": ".github/workflows/auto-start-ci.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39048226268",
+          "head_sha": "269cab632090e50d75e7180ed22df773ab7fba0a"
+        },
+        {
+          "id": 39047475940,
+          "name": "Commit Queue",
+          "path": ".github/workflows/commit-queue.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39047475940",
+          "head_sha": "269cab632090e50d75e7180ed22df773ab7fba0a"
+        },
+        {
+          "id": 39047092168,
+          "name": "Auto Start CI",
+          "path": ".github/workflows/auto-start-ci.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39047092168",
+          "head_sha": "269cab632090e50d75e7180ed22df773ab7fba0a"
+        },
+        {
+          "id": 39046814965,
+          "name": "Commit Queue",
+          "path": ".github/workflows/commit-queue.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39046814965",
+          "head_sha": "269cab632090e50d75e7180ed22df773ab7fba0a"
+        },
+        {
+          "id": 39046492630,
+          "name": "Auto Start CI",
+          "path": ".github/workflows/auto-start-ci.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39046492630",
+          "head_sha": "269cab632090e50d75e7180ed22df773ab7fba0a"
+        },
+        {
+          "id": 39046079253,
+          "name": "Commit Queue",
+          "path": ".github/workflows/commit-queue.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39046079253",
+          "head_sha": "269cab632090e50d75e7180ed22df773ab7fba0a"
+        },
+        {
+          "id": 39045857569,
+          "name": "Auto Start CI",
+          "path": ".github/workflows/auto-start-ci.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39045857569",
+          "head_sha": "269cab632090e50d75e7180ed22df773ab7fba0a"
+        },
+        {
+          "id": 39045286171,
+          "name": "Commit Queue",
+          "path": ".github/workflows/commit-queue.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39045286171",
+          "head_sha": "269cab632090e50d75e7180ed22df773ab7fba0a"
+        },
+        {
+          "id": 39045028853,
+          "name": "Auto Start CI",
+          "path": ".github/workflows/auto-start-ci.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39045028853",
+          "head_sha": "269cab632090e50d75e7180ed22df773ab7fba0a"
+        },
+        {
+          "id": 39044391106,
+          "name": "Commit Queue",
+          "path": ".github/workflows/commit-queue.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39044391106",
+          "head_sha": "269cab632090e50d75e7180ed22df773ab7fba0a"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38968201907,
+          "name": "Notify on Review Wanted",
+          "path": ".github/workflows/notify-on-review-wanted.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38968201907",
+          "head_sha": "2841c917bec73c600c2cc8a418d30998d2d9354c"
+        },
+        {
+          "id": 38968201959,
+          "name": "Comment on issues and PRs when labeled",
+          "path": ".github/workflows/comment-labeled.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38968201959",
+          "head_sha": "2841c917bec73c600c2cc8a418d30998d2d9354c"
+        },
+        {
+          "id": 38966238691,
+          "name": "Notify on Review Wanted",
+          "path": ".github/workflows/notify-on-review-wanted.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38966238691",
+          "head_sha": "2841c917bec73c600c2cc8a418d30998d2d9354c"
+        },
+        {
+          "id": 38966238776,
+          "name": "Comment on issues and PRs when labeled",
+          "path": ".github/workflows/comment-labeled.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38966238776",
+          "head_sha": "2841c917bec73c600c2cc8a418d30998d2d9354c"
+        },
+        {
+          "id": 38883841768,
+          "name": "Comment on issues and PRs when labeled",
+          "path": ".github/workflows/comment-labeled.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38883841768",
+          "head_sha": "2841c917bec73c600c2cc8a418d30998d2d9354c"
+        },
+        {
+          "id": 38883841951,
+          "name": "Notify on Review Wanted",
+          "path": ".github/workflows/notify-on-review-wanted.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38883841951",
+          "head_sha": "2841c917bec73c600c2cc8a418d30998d2d9354c"
+        },
+        {
+          "id": 38854672905,
+          "name": "Notify on Review Wanted",
+          "path": ".github/workflows/notify-on-review-wanted.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38854672905",
+          "head_sha": "2841c917bec73c600c2cc8a418d30998d2d9354c"
+        },
+        {
+          "id": 38854672890,
+          "name": "Comment on issues and PRs when labeled",
+          "path": ".github/workflows/comment-labeled.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38854672890",
+          "head_sha": "2841c917bec73c600c2cc8a418d30998d2d9354c"
+        },
+        {
+          "id": 38393287528,
+          "name": "Comment on issues and PRs when labeled",
+          "path": ".github/workflows/comment-labeled.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38393287528",
+          "head_sha": "2841c917bec73c600c2cc8a418d30998d2d9354c"
+        },
+        {
+          "id": 38393287522,
+          "name": "Notify on Review Wanted",
+          "path": ".github/workflows/notify-on-review-wanted.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38393287522",
+          "head_sha": "2841c917bec73c600c2cc8a418d30998d2d9354c"
+        }
+      ]
+    },
+    {
+      "number": 66752,
+      "title": "crypto: use `OPENSSL_SIZE_T` instead of hard coding `int`",
+      "url": "https://github.com/nodejs/node/pull/66752",
+      "merged_at": "2026-10-17T09:19:58Z",
+      "merge_commit_sha": "b5b07a0772e99b6999d37e452fd2a3d023b20ea0",
+      "files": [
+        "src/crypto/crypto_common.cc",
+        "src/crypto/crypto_context.cc",
+        "src/crypto/crypto_hash.cc",
+        "src/crypto/crypto_x509.cc"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "src/crypto/crypto_common.cc",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/nodejs/node/blob/e437aa9532bdfbe9d35763bd560e1c530db71180/src%2Fcrypto%2Fcrypto_common.cc"
+        },
+        {
+          "filename": "src/crypto/crypto_context.cc",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/nodejs/node/blob/e437aa9532bdfbe9d35763bd560e1c530db71180/src%2Fcrypto%2Fcrypto_context.cc"
+        },
+        {
+          "filename": "src/crypto/crypto_hash.cc",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/nodejs/node/blob/e437aa9532bdfbe9d35763bd560e1c530db71180/src%2Fcrypto%2Fcrypto_hash.cc"
+        },
+        {
+          "filename": "src/crypto/crypto_x509.cc",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1,
+          "blob_url": "https://github.com/nodejs/node/blob/e437aa9532bdfbe9d35763bd560e1c530db71180/src%2Fcrypto%2Fcrypto_x509.cc"
+        }
+      ],
+      "review_states": [
+        "APPROVED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39022141751,
+          "name": "Auto Start CI",
+          "path": ".github/workflows/auto-start-ci.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39022141751",
+          "head_sha": "b5b07a0772e99b6999d37e452fd2a3d023b20ea0"
+        },
+        {
+          "id": 39022104337,
+          "name": "Commit Queue",
+          "path": ".github/workflows/commit-queue.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39022104337",
+          "head_sha": "b5b07a0772e99b6999d37e452fd2a3d023b20ea0"
+        },
+        {
+          "id": 39021491642,
+          "name": "Auto Start CI",
+          "path": ".github/workflows/auto-start-ci.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39021491642",
+          "head_sha": "b5b07a0772e99b6999d37e452fd2a3d023b20ea0"
+        },
+        {
+          "id": 39021369167,
+          "name": "Commit Queue",
+          "path": ".github/workflows/commit-queue.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39021369167",
+          "head_sha": "b5b07a0772e99b6999d37e452fd2a3d023b20ea0"
+        },
+        {
+          "id": 39020717155,
+          "name": "Coverage Linux",
+          "path": ".github/workflows/coverage-linux.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39020717155",
+          "head_sha": "b5b07a0772e99b6999d37e452fd2a3d023b20ea0"
+        },
+        {
+          "id": 39020717040,
+          "name": "Test Linux",
+          "path": ".github/workflows/test-linux.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39020717040",
+          "head_sha": "b5b07a0772e99b6999d37e452fd2a3d023b20ea0"
+        },
+        {
+          "id": 39020717111,
+          "name": "Test macOS",
+          "path": ".github/workflows/test-macos.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39020717111",
+          "head_sha": "b5b07a0772e99b6999d37e452fd2a3d023b20ea0"
+        },
+        {
+          "id": 39020717292,
+          "name": "Test Shared libraries",
+          "path": ".github/workflows/test-shared.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39020717292",
+          "head_sha": "b5b07a0772e99b6999d37e452fd2a3d023b20ea0"
+        },
+        {
+          "id": 39020717125,
+          "name": "Build from tarball",
+          "path": ".github/workflows/build-tarball.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39020717125",
+          "head_sha": "b5b07a0772e99b6999d37e452fd2a3d023b20ea0"
+        },
+        {
+          "id": 39020717094,
+          "name": "Linters",
+          "path": ".github/workflows/linters.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39020717094",
+          "head_sha": "b5b07a0772e99b6999d37e452fd2a3d023b20ea0"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38732950296,
+          "name": "Notify on Review Wanted",
+          "path": ".github/workflows/notify-on-review-wanted.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38732950296",
+          "head_sha": "e437aa9532bdfbe9d35763bd560e1c530db71180"
+        },
+        {
+          "id": 38732950298,
+          "name": "Comment on issues and PRs when labeled",
+          "path": ".github/workflows/comment-labeled.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38732950298",
+          "head_sha": "e437aa9532bdfbe9d35763bd560e1c530db71180"
+        },
+        {
+          "id": 38719734448,
+          "name": "Comment on issues and PRs when labeled",
+          "path": ".github/workflows/comment-labeled.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38719734448",
+          "head_sha": "e437aa9532bdfbe9d35763bd560e1c530db71180"
+        },
+        {
+          "id": 38719734343,
+          "name": "Notify on Review Wanted",
+          "path": ".github/workflows/notify-on-review-wanted.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38719734343",
+          "head_sha": "e437aa9532bdfbe9d35763bd560e1c530db71180"
+        },
+        {
+          "id": 38719733945,
+          "name": "Comment on issues and PRs when labeled",
+          "path": ".github/workflows/comment-labeled.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38719733945",
+          "head_sha": "e437aa9532bdfbe9d35763bd560e1c530db71180"
+        },
+        {
+          "id": 38719733896,
+          "name": "Notify on Review Wanted",
+          "path": ".github/workflows/notify-on-review-wanted.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38719733896",
+          "head_sha": "e437aa9532bdfbe9d35763bd560e1c530db71180"
+        },
+        {
+          "id": 38711049605,
+          "name": "Notify on Review Wanted",
+          "path": ".github/workflows/notify-on-review-wanted.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38711049605",
+          "head_sha": "e437aa9532bdfbe9d35763bd560e1c530db71180"
+        },
+        {
+          "id": 38711050394,
+          "name": "Notify on Review Wanted",
+          "path": ".github/workflows/notify-on-review-wanted.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38711050394",
+          "head_sha": "e437aa9532bdfbe9d35763bd560e1c530db71180"
+        },
+        {
+          "id": 38711049556,
+          "name": "Comment on issues and PRs when labeled",
+          "path": ".github/workflows/comment-labeled.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38711049556",
+          "head_sha": "e437aa9532bdfbe9d35763bd560e1c530db71180"
+        },
+        {
+          "id": 38711050395,
+          "name": "Comment on issues and PRs when labeled",
+          "path": ".github/workflows/comment-labeled.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38711050395",
+          "head_sha": "e437aa9532bdfbe9d35763bd560e1c530db71180"
+        }
+      ]
+    },
+    {
+      "number": 66750,
+      "title": "test: deflake test-filehandle-close",
+      "url": "https://github.com/nodejs/node/pull/66750",
+      "merged_at": "2026-10-17T06:47:05Z",
+      "merge_commit_sha": "9347db1df97ba81b7817122ce941db7f82d4ab4c",
+      "files": [
+        "test/parallel/test-filehandle-close.js"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "test/parallel/test-filehandle-close.js",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 5,
+          "blob_url": "https://github.com/nodejs/node/blob/67b7a95b0409cc2dd8b7b42a6f5a80a1de335cd5/test%2Fparallel%2Ftest-filehandle-close.js"
+        }
+      ],
+      "review_states": [
+        "APPROVED",
+        "APPROVED",
+        "APPROVED",
+        "APPROVED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39020686994,
+          "name": "Auto Start CI",
+          "path": ".github/workflows/auto-start-ci.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39020686994",
+          "head_sha": "9347db1df97ba81b7817122ce941db7f82d4ab4c"
+        },
+        {
+          "id": 39020482306,
+          "name": "Commit Queue",
+          "path": ".github/workflows/commit-queue.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39020482306",
+          "head_sha": "9347db1df97ba81b7817122ce941db7f82d4ab4c"
+        },
+        {
+          "id": 39019478108,
+          "name": "Auto Start CI",
+          "path": ".github/workflows/auto-start-ci.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39019478108",
+          "head_sha": "9347db1df97ba81b7817122ce941db7f82d4ab4c"
+        },
+        {
+          "id": 39019139710,
+          "name": "Commit Queue",
+          "path": ".github/workflows/commit-queue.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39019139710",
+          "head_sha": "9347db1df97ba81b7817122ce941db7f82d4ab4c"
+        },
+        {
+          "id": 39018980346,
+          "name": "Auto Start CI",
+          "path": ".github/workflows/auto-start-ci.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39018980346",
+          "head_sha": "9347db1df97ba81b7817122ce941db7f82d4ab4c"
+        },
+        {
+          "id": 39018570374,
+          "name": "Commit Queue",
+          "path": ".github/workflows/commit-queue.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39018570374",
+          "head_sha": "9347db1df97ba81b7817122ce941db7f82d4ab4c"
+        },
+        {
+          "id": 39018396177,
+          "name": "Auto Start CI",
+          "path": ".github/workflows/auto-start-ci.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39018396177",
+          "head_sha": "9347db1df97ba81b7817122ce941db7f82d4ab4c"
+        },
+        {
+          "id": 39017756426,
+          "name": "Commit Queue",
+          "path": ".github/workflows/commit-queue.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39017756426",
+          "head_sha": "9347db1df97ba81b7817122ce941db7f82d4ab4c"
+        },
+        {
+          "id": 39017371554,
+          "name": "Auto Start CI",
+          "path": ".github/workflows/auto-start-ci.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39017371554",
+          "head_sha": "9347db1df97ba81b7817122ce941db7f82d4ab4c"
+        },
+        {
+          "id": 39016644262,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/39016644262",
+          "head_sha": "9347db1df97ba81b7817122ce941db7f82d4ab4c"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38711294185,
+          "name": "Notify on Review Wanted",
+          "path": ".github/workflows/notify-on-review-wanted.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38711294185",
+          "head_sha": "67b7a95b0409cc2dd8b7b42a6f5a80a1de335cd5"
+        },
+        {
+          "id": 38711294157,
+          "name": "Comment on issues and PRs when labeled",
+          "path": ".github/workflows/comment-labeled.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38711294157",
+          "head_sha": "67b7a95b0409cc2dd8b7b42a6f5a80a1de335cd5"
+        },
+        {
+          "id": 38697148083,
+          "name": "Notify on Review Wanted",
+          "path": ".github/workflows/notify-on-review-wanted.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38697148083",
+          "head_sha": "67b7a95b0409cc2dd8b7b42a6f5a80a1de335cd5"
+        },
+        {
+          "id": 38697148054,
+          "name": "Comment on issues and PRs when labeled",
+          "path": ".github/workflows/comment-labeled.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38697148054",
+          "head_sha": "67b7a95b0409cc2dd8b7b42a6f5a80a1de335cd5"
+        },
+        {
+          "id": 38692899843,
+          "name": "Notify on Review Wanted",
+          "path": ".github/workflows/notify-on-review-wanted.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38692899843",
+          "head_sha": "67b7a95b0409cc2dd8b7b42a6f5a80a1de335cd5"
+        },
+        {
+          "id": 38692899696,
+          "name": "Notify on Review Wanted",
+          "path": ".github/workflows/notify-on-review-wanted.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38692899696",
+          "head_sha": "67b7a95b0409cc2dd8b7b42a6f5a80a1de335cd5"
+        },
+        {
+          "id": 38692899829,
+          "name": "Comment on issues and PRs when labeled",
+          "path": ".github/workflows/comment-labeled.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38692899829",
+          "head_sha": "67b7a95b0409cc2dd8b7b42a6f5a80a1de335cd5"
+        },
+        {
+          "id": 38692899724,
+          "name": "Comment on issues and PRs when labeled",
+          "path": ".github/workflows/comment-labeled.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38692899724",
+          "head_sha": "67b7a95b0409cc2dd8b7b42a6f5a80a1de335cd5"
+        },
+        {
+          "id": 38692885751,
+          "name": "Test and upload documentation to artifacts",
+          "path": ".github/workflows/doc.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38692885751",
+          "head_sha": "67b7a95b0409cc2dd8b7b42a6f5a80a1de335cd5"
+        },
+        {
+          "id": 38692885862,
+          "name": "Linters",
+          "path": ".github/workflows/linters.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38692885862",
+          "head_sha": "67b7a95b0409cc2dd8b7b42a6f5a80a1de335cd5"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v26.12.0",
+      "url": "https://github.com/nodejs/node/releases/tag/v26.12.0",
+      "published_at": "2026-10-14T15:22:04Z",
+      "target_commitish": "main",
+      "commit_sha": "26e72d85a611e222e3f06025de8a3c496923bacd",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38588683371,
+          "name": "Post-Release actions",
+          "path": ".github/workflows/post-release.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38588683371",
+          "head_sha": "26e72d85a611e222e3f06025de8a3c496923bacd"
+        },
+        {
+          "id": 38435869098,
+          "name": "Comment on issues and PRs when labeled",
+          "path": ".github/workflows/comment-labeled.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38435869098",
+          "head_sha": "26e72d85a611e222e3f06025de8a3c496923bacd"
+        },
+        {
+          "id": 38435868939,
+          "name": "Notify on Review Wanted",
+          "path": ".github/workflows/notify-on-review-wanted.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38435868939",
+          "head_sha": "26e72d85a611e222e3f06025de8a3c496923bacd"
+        },
+        {
+          "id": 38435426650,
+          "name": "Test Shared libraries",
+          "path": ".github/workflows/test-shared.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38435426650",
+          "head_sha": "26e72d85a611e222e3f06025de8a3c496923bacd"
+        },
+        {
+          "id": 38435426421,
+          "name": "Build from tarball",
+          "path": ".github/workflows/build-tarball.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38435426421",
+          "head_sha": "26e72d85a611e222e3f06025de8a3c496923bacd"
+        },
+        {
+          "id": 38435426553,
+          "name": "Test Linux (with QUIC)",
+          "path": ".github/workflows/test-linux-quic.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38435426553",
+          "head_sha": "26e72d85a611e222e3f06025de8a3c496923bacd"
+        },
+        {
+          "id": 38435426479,
+          "name": "Test macOS",
+          "path": ".github/workflows/test-macos.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38435426479",
+          "head_sha": "26e72d85a611e222e3f06025de8a3c496923bacd"
+        },
+        {
+          "id": 38435426498,
+          "name": "Test Linux",
+          "path": ".github/workflows/test-linux.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38435426498",
+          "head_sha": "26e72d85a611e222e3f06025de8a3c496923bacd"
+        },
+        {
+          "id": 38435426584,
+          "name": "Coverage Linux",
+          "path": ".github/workflows/coverage-linux.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38435426584",
+          "head_sha": "26e72d85a611e222e3f06025de8a3c496923bacd"
+        },
+        {
+          "id": 38435426395,
+          "name": "Test Linux (with Perfetto)",
+          "path": ".github/workflows/test-linux-perfetto.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38435426395",
+          "head_sha": "26e72d85a611e222e3f06025de8a3c496923bacd"
+        }
+      ]
+    },
+    {
+      "tag": "v24.22.0",
+      "url": "https://github.com/nodejs/node/releases/tag/v24.22.0",
+      "published_at": "2026-10-14T15:12:46Z",
+      "target_commitish": "main",
+      "commit_sha": "f14cd3aa7bf9ca8df2cc5b8bb14beb0f335b1d93",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38587344337,
+          "name": "Post-Release actions",
+          "path": ".github/workflows/post-release.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38587344337",
+          "head_sha": "f14cd3aa7bf9ca8df2cc5b8bb14beb0f335b1d93"
+        },
+        {
+          "id": 38411075823,
+          "name": "Coverage Windows",
+          "path": ".github/workflows/coverage-windows.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38411075823",
+          "head_sha": "f14cd3aa7bf9ca8df2cc5b8bb14beb0f335b1d93"
+        },
+        {
+          "id": 38411075117,
+          "name": "Test and upload documentation to artifacts",
+          "path": ".github/workflows/doc.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38411075117",
+          "head_sha": "f14cd3aa7bf9ca8df2cc5b8bb14beb0f335b1d93"
+        },
+        {
+          "id": 38411075169,
+          "name": "Linters",
+          "path": ".github/workflows/linters.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38411075169",
+          "head_sha": "f14cd3aa7bf9ca8df2cc5b8bb14beb0f335b1d93"
+        },
+        {
+          "id": 38411075304,
+          "name": "Test macOS",
+          "path": ".github/workflows/test-macos.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38411075304",
+          "head_sha": "f14cd3aa7bf9ca8df2cc5b8bb14beb0f335b1d93"
+        },
+        {
+          "id": 38411075041,
+          "name": "Build from tarball",
+          "path": ".github/workflows/build-tarball.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38411075041",
+          "head_sha": "f14cd3aa7bf9ca8df2cc5b8bb14beb0f335b1d93"
+        },
+        {
+          "id": 38411075180,
+          "name": "Coverage Linux",
+          "path": ".github/workflows/coverage-linux.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38411075180",
+          "head_sha": "f14cd3aa7bf9ca8df2cc5b8bb14beb0f335b1d93"
+        },
+        {
+          "id": 38411075199,
+          "name": "Test Linux",
+          "path": ".github/workflows/test-linux.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38411075199",
+          "head_sha": "f14cd3aa7bf9ca8df2cc5b8bb14beb0f335b1d93"
+        },
+        {
+          "id": 38411075048,
+          "name": "Test internet",
+          "path": ".github/workflows/test-internet.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38411075048",
+          "head_sha": "f14cd3aa7bf9ca8df2cc5b8bb14beb0f335b1d93"
+        },
+        {
+          "id": 38411075182,
+          "name": "Test Linux (with QUIC)",
+          "path": ".github/workflows/test-linux-quic.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/38411075182",
+          "head_sha": "f14cd3aa7bf9ca8df2cc5b8bb14beb0f335b1d93"
+        }
+      ]
+    },
+    {
+      "tag": "v26.11.1",
+      "url": "https://github.com/nodejs/node/releases/tag/v26.11.1",
+      "published_at": "2026-10-07T23:55:23Z",
+      "target_commitish": "main",
+      "commit_sha": "364593d0631def13e3043dd84f77ebca2c767ce5",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37704969444,
+          "name": "Post-Release actions",
+          "path": ".github/workflows/post-release.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/37704969444",
+          "head_sha": "364593d0631def13e3043dd84f77ebca2c767ce5"
+        },
+        {
+          "id": 37653032860,
+          "name": "Test and upload documentation to artifacts",
+          "path": ".github/workflows/doc.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/37653032860",
+          "head_sha": "364593d0631def13e3043dd84f77ebca2c767ce5"
+        },
+        {
+          "id": 37653033016,
+          "name": "Linters",
+          "path": ".github/workflows/linters.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/37653033016",
+          "head_sha": "364593d0631def13e3043dd84f77ebca2c767ce5"
+        },
+        {
+          "id": 37653033360,
+          "name": "Test Shared libraries",
+          "path": ".github/workflows/test-shared.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/37653033360",
+          "head_sha": "364593d0631def13e3043dd84f77ebca2c767ce5"
+        },
+        {
+          "id": 37653032898,
+          "name": "Coverage Linux",
+          "path": ".github/workflows/coverage-linux.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/37653032898",
+          "head_sha": "364593d0631def13e3043dd84f77ebca2c767ce5"
+        },
+        {
+          "id": 37653032903,
+          "name": "Test macOS",
+          "path": ".github/workflows/test-macos.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/37653032903",
+          "head_sha": "364593d0631def13e3043dd84f77ebca2c767ce5"
+        },
+        {
+          "id": 37653033039,
+          "name": "Build from tarball",
+          "path": ".github/workflows/build-tarball.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/37653033039",
+          "head_sha": "364593d0631def13e3043dd84f77ebca2c767ce5"
+        },
+        {
+          "id": 37653032934,
+          "name": "Test Linux",
+          "path": ".github/workflows/test-linux.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/37653032934",
+          "head_sha": "364593d0631def13e3043dd84f77ebca2c767ce5"
+        },
+        {
+          "id": 37653032908,
+          "name": "Coverage Windows",
+          "path": ".github/workflows/coverage-windows.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/nodejs/node/actions/runs/37653032908",
+          "head_sha": "364593d0631def13e3043dd84f77ebca2c767ce5"
+        },
+        {
+          "id": 37653023980,
+          "name": "Linters (release proposals)",
+          "path": ".github/workflows/lint-release-proposal.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/nodejs/node/actions/runs/37653023980",
+          "head_sha": "364593d0631def13e3043dd84f77ebca2c767ce5"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v26.12.0",
+      "sha": "26e72d85a611e222e3f06025de8a3c496923bacd"
+    },
+    {
+      "name": "v26.11.1",
+      "sha": "364593d0631def13e3043dd84f77ebca2c767ce5"
+    },
+    {
+      "name": "v26.11.0",
+      "sha": "49072a0be4c7410982557aebf5b5c924fe7db597"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:08.258470+00:00",
+  "source_times": {
+    "/repos/nodejs/node": "2026-10-17T16:12:09.987821+00:00",
+    "/repos/nodejs/node/commits?sha=main&per_page=20": "2026-10-17T16:12:12.101775+00:00",
+    "/repos/nodejs/node/git/trees/269cab632090e50d75e7180ed22df773ab7fba0a": "2026-10-17T16:12:14.486001+00:00",
+    "/repos/nodejs/node/git/trees/6195adda522310401827a9f5cab5e8630d8eba5d": "2026-10-17T16:12:15.949864+00:00",
+    "/repos/nodejs/node/git/trees/1cf2d038979ca674d565dafc41107446236a5ac5": "2026-10-17T16:12:17.338001+00:00",
+    "/repos/nodejs/node/git/trees/648a04396e77edd3da4dfec15ed93f09d95c986a": "2026-10-17T16:12:18.769660+00:00",
+    "/repos/nodejs/node/git/trees/a6f24d11ce369d27f793350dece79e7ecc580fbc": "2026-10-17T16:12:21.248628+00:00",
+    "/repos/nodejs/node/git/blobs/0e00d2fc5496242333d9ae532ed8e3305c9ea32b": "2026-10-17T16:12:22.623454+00:00",
+    "/repos/nodejs/node/git/blobs/af4e1e21aceadef041f576a94d9b70113b0b45fc": "2026-10-17T16:12:24.437891+00:00",
+    "/repos/nodejs/node/git/blobs/d724027fd9aadb9987b8213c66e78de32c31e042": "2026-10-17T16:12:29.213757+00:00",
+    "/repos/nodejs/node/git/blobs/cfc1bf72b47f15e36bf3f95ff9cc550182c6f00e": "2026-10-17T16:12:30.548307+00:00",
+    "/repos/nodejs/node/git/blobs/c71ec5ee96a14927c9b085ea902c6d32e041c6a7": "2026-10-17T16:12:32.189481+00:00",
+    "/repos/nodejs/node/git/blobs/31d7d911c98757005a92af12e4329e0dff72ffcb": "2026-10-17T16:12:34.061074+00:00",
+    "/repos/nodejs/node/git/blobs/ff4d05e1cd9b29072f15eedde1ce10234a6d2b31": "2026-10-17T16:12:37.060520+00:00",
+    "/repos/nodejs/node/git/blobs/ff66cd097e615d2f2f51185929ecff9ad186a6ce": "2026-10-17T16:12:38.812372+00:00",
+    "/repos/nodejs/node/git/blobs/ffa083bafaf78b5fdae349075dd3adc7328b35c6": "2026-10-17T16:12:40.310747+00:00",
+    "/repos/nodejs/node/git/blobs/2a27e611350ff324b512aee6d964f19b777a3760": "2026-10-17T16:12:41.735385+00:00",
+    "/repos/nodejs/node/git/blobs/4637a2fa86e17b2bb75dbc7a82cc9f1b63f1b2bb": "2026-10-17T16:12:43.089930+00:00",
+    "/repos/nodejs/node/git/blobs/26a77a3617cbebacd6a214a231db89a1bd4917a9": "2026-10-17T16:12:45.853911+00:00",
+    "/repos/nodejs/node/git/blobs/753e2d9e58a9d518ebc9010758c5636cc07eafeb": "2026-10-17T16:12:47.255641+00:00",
+    "/repos/nodejs/node/git/blobs/a3f45b377b6332db5b815e0427f96330d03bf99f": "2026-10-17T16:12:51.015131+00:00",
+    "/repos/nodejs/node/git/blobs/dc01fd3fdac591e9dc8f10166d7425e48c388fed": "2026-10-17T16:12:52.372284+00:00",
+    "/repos/nodejs/node/git/blobs/3950bc702eb58b517ec9ef5103098e46ea1ee4f0": "2026-10-17T16:12:53.732385+00:00",
+    "/repos/nodejs/node/git/blobs/4613512bf2d01f9eccbb22ef8d228074cb6ee43a": "2026-10-17T16:12:55.109304+00:00",
+    "/repos/nodejs/node/git/blobs/a2c7c77500f91dfa7dcdb78a6bcab915faa9904f": "2026-10-17T16:12:56.666162+00:00",
+    "/repos/nodejs/node/git/blobs/a026746ff713a0ad94c3819a218c21288c7ad2b2": "2026-10-17T16:12:58.064834+00:00",
+    "/repos/nodejs/node/git/blobs/85f3e92f2ffbd201f28afb9eaf948cd0c1e3032c": "2026-10-17T16:12:59.446483+00:00",
+    "/repos/nodejs/node/git/blobs/735b15ffd12f2d896bdb5cc4599183a502f52b13": "2026-10-17T16:13:00.821295+00:00",
+    "/repos/nodejs/node/git/blobs/35d780ae6652269420711cafd3428367cabae3da": "2026-10-17T16:13:02.283295+00:00",
+    "/repos/nodejs/node/git/blobs/9652eea91b89f7fd2a3ede48ff7016a1d9b6e65c": "2026-10-17T16:13:03.664546+00:00",
+    "/repos/nodejs/node/git/blobs/1b15a00c8df1622cf1b27d328666413267fea8a6": "2026-10-17T16:13:05.068723+00:00",
+    "/repos/nodejs/node/git/blobs/2fb374e912d10fbca8de18728cd85c042c6784af": "2026-10-17T16:13:06.482763+00:00",
+    "/repos/nodejs/node/git/blobs/f715815afc40c34931fe7674e45b6769f83a7c70": "2026-10-17T16:13:07.929615+00:00",
+    "/repos/nodejs/node/git/blobs/fc569f4a53e5f258a5a41817e606d815f724074d": "2026-10-17T16:13:09.332680+00:00",
+    "/repos/nodejs/node/git/blobs/edc7e5c3a7722d7e5f8bcec8f0b70c1afd4dc9ff": "2026-10-17T16:13:11.717129+00:00",
+    "/repos/nodejs/node/git/blobs/08c10537ecd0380b968b6bd412fc3d999150ed35": "2026-10-17T16:13:13.112761+00:00",
+    "/repos/nodejs/node/git/blobs/8f02723bb64e0e0b29c202120c6f47f85472171f": "2026-10-17T16:13:14.509041+00:00",
+    "/repos/nodejs/node/git/blobs/c64cb77241bb65997a11bb6dee6425be8e13b366": "2026-10-17T16:13:15.870986+00:00",
+    "/repos/nodejs/node/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:13:23.897767+00:00",
+    "/repos/nodejs/node/pulls/66640/files?per_page=100": "2026-10-17T16:13:25.378973+00:00",
+    "/repos/nodejs/node/pulls/66640/reviews?per_page=100": "2026-10-17T16:13:26.901875+00:00",
+    "/repos/nodejs/node/actions/runs?head_sha=269cab632090e50d75e7180ed22df773ab7fba0a&per_page=10": "2026-10-17T16:13:31.769934+00:00",
+    "/repos/nodejs/node/actions/runs?head_sha=2841c917bec73c600c2cc8a418d30998d2d9354c&per_page=10": "2026-10-17T16:13:33.793702+00:00",
+    "/repos/nodejs/node/pulls/66752/files?per_page=100": "2026-10-17T16:13:35.251760+00:00",
+    "/repos/nodejs/node/pulls/66752/reviews?per_page=100": "2026-10-17T16:13:38.191642+00:00",
+    "/repos/nodejs/node/actions/runs?head_sha=b5b07a0772e99b6999d37e452fd2a3d023b20ea0&per_page=10": "2026-10-17T16:13:40.752758+00:00",
+    "/repos/nodejs/node/actions/runs?head_sha=e437aa9532bdfbe9d35763bd560e1c530db71180&per_page=10": "2026-10-17T16:13:42.777172+00:00",
+    "/repos/nodejs/node/pulls/66750/files?per_page=100": "2026-10-17T16:13:45.269096+00:00",
+    "/repos/nodejs/node/pulls/66750/reviews?per_page=100": "2026-10-17T16:13:46.839879+00:00",
+    "/repos/nodejs/node/actions/runs?head_sha=9347db1df97ba81b7817122ce941db7f82d4ab4c&per_page=10": "2026-10-17T16:13:49.255043+00:00",
+    "/repos/nodejs/node/actions/runs?head_sha=67b7a95b0409cc2dd8b7b42a6f5a80a1de335cd5&per_page=10": "2026-10-17T16:13:51.513101+00:00",
+    "/repos/nodejs/node/releases?per_page=20&page=1": "2026-10-17T16:17:08.253504+00:00",
+    "/repos/nodejs/node/commits/v26.12.0": "2026-10-17T16:13:56.891453+00:00",
+    "/repos/nodejs/node/actions/runs?head_sha=26e72d85a611e222e3f06025de8a3c496923bacd&per_page=10": "2026-10-17T16:13:59.228593+00:00",
+    "/repos/nodejs/node/commits/v24.22.0": "2026-10-17T16:14:01.166500+00:00",
+    "/repos/nodejs/node/actions/runs?head_sha=f14cd3aa7bf9ca8df2cc5b8bb14beb0f335b1d93&per_page=10": "2026-10-17T16:14:03.250492+00:00",
+    "/repos/nodejs/node/commits/v26.11.1": "2026-10-17T16:14:04.754496+00:00",
+    "/repos/nodejs/node/actions/runs?head_sha=364593d0631def13e3043dd84f77ebca2c767ce5&per_page=10": "2026-10-17T16:14:06.944570+00:00",
+    "/repos/nodejs/node/tags?per_page=3": "2026-10-17T16:14:08.267905+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:08.253504+00:00",
+  "status": "collected"
+}

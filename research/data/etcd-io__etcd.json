@@ -1,0 +1,1591 @@
+{
+  "requested_repository": "etcd-io/etcd",
+  "category": "infrastructure",
+  "collected_at": "2026-10-17T16:15:39.631383+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "etcd-io/etcd",
+  "metadata": {
+    "html_url": "https://github.com/etcd-io/etcd",
+    "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+    "homepage": "https://etcd.io",
+    "language": "Go",
+    "stargazers_count": 52372,
+    "forks_count": 10539,
+    "open_issues_count": 388,
+    "pushed_at": "2026-10-16T21:12:29Z",
+    "created_at": "2013-07-06T21:57:21Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [
+      "cncf",
+      "consensus",
+      "database",
+      "distributed-database",
+      "distributed-systems",
+      "etcd",
+      "go",
+      "key-value",
+      "kubernetes",
+      "raft"
+    ],
+    "owner": {
+      "login": "etcd-io",
+      "type": "Organization",
+      "html_url": "https://github.com/etcd-io"
+    },
+    "has_discussions": true
+  },
+  "commits": [
+    {
+      "sha": "b25719d10cdc41fb707b0d9f819c2529dec5d590",
+      "url": "https://github.com/etcd-io/etcd/commit/b25719d10cdc41fb707b0d9f819c2529dec5d590",
+      "date": "2026-10-16T21:12:28Z",
+      "subject": "Merge pull request #22603 from Jefftree/changelog-3.7-rangestream"
+    },
+    {
+      "sha": "368cc4a40a79d6b0c96fe1a8ffa2a1d2e6e3bc0b",
+      "url": "https://github.com/etcd-io/etcd/commit/368cc4a40a79d6b0c96fe1a8ffa2a1d2e6e3bc0b",
+      "date": "2026-10-16T19:21:24Z",
+      "subject": "CHANGELOG(3.7): add keys-only RangeStream data race fix"
+    },
+    {
+      "sha": "ea8b59433d82e8fc3f1365618740395e0028bd03",
+      "url": "https://github.com/etcd-io/etcd/commit/ea8b59433d82e8fc3f1365618740395e0028bd03",
+      "date": "2026-10-16T15:15:41Z",
+      "subject": "Merge pull request #22600 from tobiabidoye/changelog-cve-bumps"
+    },
+    {
+      "sha": "bbe743d12ce7a34faedfa1c2904cd53d0177b50c",
+      "url": "https://github.com/etcd-io/etcd/commit/bbe743d12ce7a34faedfa1c2904cd53d0177b50c",
+      "date": "2026-10-16T15:14:36Z",
+      "subject": "Merge pull request #22599 from xadips/etcdserver-process-messages-order-test"
+    },
+    {
+      "sha": "ec7668a544daf2ed7a9283cc633d02e5c34660a3",
+      "url": "https://github.com/etcd-io/etcd/commit/ec7668a544daf2ed7a9283cc633d02e5c34660a3",
+      "date": "2026-10-16T14:42:16Z",
+      "subject": "Merge pull request #22596 from Jefftree/fix-rangestream-keysonly-race"
+    },
+    {
+      "sha": "7387d62dc1be8869e88e6730f45a550178ef181d",
+      "url": "https://github.com/etcd-io/etcd/commit/7387d62dc1be8869e88e6730f45a550178ef181d",
+      "date": "2026-10-16T13:23:09Z",
+      "subject": "CHANGELOG: add otel and x/net dependency bumps for v3.5.35, v3.6.16 and v3.7.3"
+    },
+    {
+      "sha": "22fa99668f01f6b09b342bb5106a3c33975d830d",
+      "url": "https://github.com/etcd-io/etcd/commit/22fa99668f01f6b09b342bb5106a3c33975d830d",
+      "date": "2026-10-16T11:59:26Z",
+      "subject": "etcdserver: add test for processMessages output order"
+    },
+    {
+      "sha": "f22475263b89fbc231e1589839427c354bcf237c",
+      "url": "https://github.com/etcd-io/etcd/commit/f22475263b89fbc231e1589839427c354bcf237c",
+      "date": "2026-10-15T19:36:45Z",
+      "subject": "build(deps): bump actions/upload-artifact from 7.0.1 to 7.0.2"
+    },
+    {
+      "sha": "9acc0ebe37a7ef891e6d91428bcd7ab3641702e9",
+      "url": "https://github.com/etcd-io/etcd/commit/9acc0ebe37a7ef891e6d91428bcd7ab3641702e9",
+      "date": "2026-10-15T18:36:28Z",
+      "subject": "etcdserver: fix data race in keys-only RangeStream"
+    },
+    {
+      "sha": "d3c8a155909211c6681f3075802a4aacf11528b4",
+      "url": "https://github.com/etcd-io/etcd/commit/d3c8a155909211c6681f3075802a4aacf11528b4",
+      "date": "2026-10-13T14:25:37Z",
+      "subject": "Merge pull request #22572 from ivanvc/20261012-dependency-bump"
+    },
+    {
+      "sha": "5b8902209b4ab3366b535a02b11166903025902e",
+      "url": "https://github.com/etcd-io/etcd/commit/5b8902209b4ab3366b535a02b11166903025902e",
+      "date": "2026-10-12T23:04:41Z",
+      "subject": "dependency: bump golang.org/x/net from 0.59.0 to 0.61.0"
+    },
+    {
+      "sha": "877752e84aa7a95b2b5b64c8b890262f4c3d00df",
+      "url": "https://github.com/etcd-io/etcd/commit/877752e84aa7a95b2b5b64c8b890262f4c3d00df",
+      "date": "2026-10-12T22:11:59Z",
+      "subject": "dependency: bump github.com/cloudflare/cfssl from 1.7.0 to 1.7.1"
+    },
+    {
+      "sha": "a2b3d9fe864358c87a91176f388bc0cbe0da18dd",
+      "url": "https://github.com/etcd-io/etcd/commit/a2b3d9fe864358c87a91176f388bc0cbe0da18dd",
+      "date": "2026-10-12T20:15:54Z",
+      "subject": "tests: pass --log-level to e2e etcd processes (#22565)"
+    },
+    {
+      "sha": "88235ecd0c1031cc0293f3887ef11dab64b14758",
+      "url": "https://github.com/etcd-io/etcd/commit/88235ecd0c1031cc0293f3887ef11dab64b14758",
+      "date": "2026-10-12T12:53:33Z",
+      "subject": "Merge pull request #22553 from charankooram/bump-go-1.27.2"
+    },
+    {
+      "sha": "1fa2b222386bd0b7840bb6006cd5452fb2d539e1",
+      "url": "https://github.com/etcd-io/etcd/commit/1fa2b222386bd0b7840bb6006cd5452fb2d539e1",
+      "date": "2026-10-12T11:13:46Z",
+      "subject": "Merge pull request #22559 from charankooram/changelog-go-1.26.9"
+    },
+    {
+      "sha": "900e148cf88faccc3436353fa37fcdb99de77cce",
+      "url": "https://github.com/etcd-io/etcd/commit/900e148cf88faccc3436353fa37fcdb99de77cce",
+      "date": "2026-10-12T09:04:40Z",
+      "subject": "Merge pull request #22548 from skitt/otel"
+    },
+    {
+      "sha": "7107767120b4c5d4bd4d26b53d16ec271b1203cb",
+      "url": "https://github.com/etcd-io/etcd/commit/7107767120b4c5d4bd4d26b53d16ec271b1203cb",
+      "date": "2026-10-09T20:10:09Z",
+      "subject": "CHANGELOG(3.5,3.6,3.7): add Go 1.26.9 entries"
+    },
+    {
+      "sha": "2fa0857bb392106c239d8ca86620a1c4bf46c313",
+      "url": "https://github.com/etcd-io/etcd/commit/2fa0857bb392106c239d8ca86620a1c4bf46c313",
+      "date": "2026-10-09T19:14:03Z",
+      "subject": "Bump Go to 1.27.2"
+    },
+    {
+      "sha": "31beae919d4183ad7d2316ecc18f7b99eb5e9dc1",
+      "url": "https://github.com/etcd-io/etcd/commit/31beae919d4183ad7d2316ecc18f7b99eb5e9dc1",
+      "date": "2026-10-08T16:18:46Z",
+      "subject": "Bump to otel semconv v1.43.0"
+    },
+    {
+      "sha": "ba4e7918cdb186174316aa35025140aa56174fe4",
+      "url": "https://github.com/etcd-io/etcd/commit/ba4e7918cdb186174316aa35025140aa56174fe4",
+      "date": "2026-10-08T16:18:45Z",
+      "subject": "Bump otelgrpc to v0.72.0"
+    }
+  ],
+  "default_sha": "b25719d10cdc41fb707b0d9f819c2529dec5d590",
+  "root_and_selected_directory_paths": [
+    ".devcontainer",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug-report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/feature-request.yml",
+    ".github/ISSUE_TEMPLATE/test-flake.yml",
+    ".github/OWNERS",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/SECURITY.md",
+    ".github/dependabot.yml",
+    ".github/workflows",
+    ".github/workflows/OWNERS",
+    ".github/workflows/antithesis-test.yml",
+    ".github/workflows/antithesis-verify.yml",
+    ".github/workflows/antithesis.debugger.yml",
+    ".github/workflows/bump-devcontainer-version.yml",
+    ".github/workflows/cherrypick-bot-ok-to-test.yaml",
+    ".github/workflows/codeql-analysis.yml",
+    ".github/workflows/gh-workflow-approve.yaml",
+    ".github/workflows/measure-testgrid-flakiness.yaml",
+    ".github/workflows/scorecards.yml",
+    ".github/workflows/stale.yaml",
+    ".github/workflows/verify-released-assets.yaml",
+    ".gitignore",
+    ".go-version",
+    ".header",
+    "ADOPTERS.md",
+    "CHANGELOG",
+    "CONTRIBUTING.md",
+    "DCO",
+    "Dockerfile",
+    "Documentation",
+    "GOVERNANCE.md",
+    "LICENSE",
+    "Makefile",
+    "OWNERS",
+    "OWNERS_ALIASES",
+    "Procfile",
+    "README.md",
+    "THREAT_MODEL.md",
+    "api",
+    "bill-of-materials.json",
+    "bill-of-materials.override.json",
+    "cache",
+    "client",
+    "code-of-conduct.md",
+    "codecov.yml",
+    "contrib",
+    "dummy.go",
+    "etcd.conf.yml.sample",
+    "etcdctl",
+    "etcdutl",
+    "go.mod",
+    "go.sum",
+    "go.work",
+    "go.work.sum",
+    "hack",
+    "logos",
+    "pkg",
+    "scripts",
+    "security",
+    "server",
+    "tests",
+    "tools"
+  ],
+  "workflow_paths": [
+    ".github/workflows/antithesis-test.yml",
+    ".github/workflows/cherrypick-bot-ok-to-test.yaml",
+    ".github/workflows/measure-testgrid-flakiness.yaml",
+    ".github/workflows/verify-released-assets.yaml",
+    ".github/workflows/OWNERS",
+    ".github/workflows/antithesis-verify.yml",
+    ".github/workflows/antithesis.debugger.yml",
+    ".github/workflows/bump-devcontainer-version.yml",
+    ".github/workflows/codeql-analysis.yml",
+    ".github/workflows/gh-workflow-approve.yaml",
+    ".github/workflows/scorecards.yml",
+    ".github/workflows/stale.yaml"
+  ],
+  "documents": [
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "cfa13034f277b74463cea8d46cc7b0d58f024a25",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/CONTRIBUTING.md",
+      "lines": 197,
+      "signals": {
+        "tests": [
+          72
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          124
+        ],
+        "media": [
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          124
+        ],
+        "theme_images": [],
+        "playground": [
+          120,
+          124,
+          128
+        ],
+        "community": [
+          35,
+          42
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "sha": "5ad9997685777abf779acbb2fd7ea292fad5247e",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/GOVERNANCE.md",
+      "lines": 47,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile",
+      "sha": "d86741d90a4b0a8ef2b03849e9aef6875eab8bdd",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/Makefile",
+      "lines": 245,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "OWNERS",
+      "sha": "5272d73d0e3b1ef191312d0949f5d3ded1816236",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/OWNERS",
+      "lines": 19,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "OWNERS_ALIASES",
+      "sha": "fa01c25e646362dd1cfc192d8f41b01ae291de27",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/OWNERS_ALIASES",
+      "lines": 9,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "19b0b357f67647f5326d96e0da0a3ac4dd020ccf",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/README.md",
+      "lines": 204,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          188,
+          190
+        ],
+        "star_history": [],
+        "badges": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "media": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          18,
+          34
+        ],
+        "theme_images": [
+          15,
+          16,
+          17
+        ],
+        "playground": [],
+        "community": [
+          180
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "code-of-conduct.md",
+      "sha": "d79cc5488d3a44f8206776aed5a0aaf19b806289",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/code-of-conduct.md",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "go.mod",
+      "sha": "c831b10d9105601873166978dcf391e1b40eb421",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/go.mod",
+      "lines": 106,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
+      "sha": "928daab2e55c650ab51657251aa39826e097484e",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/ISSUE_TEMPLATE/bug-report.yml",
+      "lines": 102,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          14
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "b48f29b9061cc581663c4111afcb600c36a02ab6",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 6,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          5
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature-request.yml",
+      "sha": "d18dec24567c4b00c522672fb0bcd53e1866dd53",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/ISSUE_TEMPLATE/feature-request.yml",
+      "lines": 19,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/test-flake.yml",
+      "sha": "6ecf32392a4973c7ec4fdd2a93c1b518c7d8a3de",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/ISSUE_TEMPLATE/test-flake.yml",
+      "lines": 35,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/OWNERS",
+      "sha": "efdfed26735598099056289828a2936fe3289e82",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/OWNERS",
+      "lines": 4,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "43b38bbfe9099583e5cb864374127dcdfa030fd6",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/PULL_REQUEST_TEMPLATE.md",
+      "lines": 6,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/SECURITY.md",
+      "sha": "7ce4e8e01b7fbc2d6a3007a251be7ace26ac3733",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/SECURITY.md",
+      "lines": 2,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "c4ebb1c11766adfe49afa0e6a5bde0c1d4d3106e",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/dependabot.yml",
+      "lines": 58,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/antithesis-test.yml",
+      "sha": "b7dde272c3d95a0d8ec0710dda37e5e8c449b606",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/workflows/antithesis-test.yml",
+      "lines": 109,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          33
+        ],
+        "pinned_actions": [
+          45,
+          57,
+          95
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/cherrypick-bot-ok-to-test.yaml",
+      "sha": "64fcb1942d1163c470b0001869b0974c203314a7",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/workflows/cherrypick-bot-ok-to-test.yaml",
+      "lines": 46,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          3,
+          22
+        ],
+        "pinned_actions": [
+          26
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/measure-testgrid-flakiness.yaml",
+      "sha": "fd77c2d61874856cdac13c59272b0f5e4fb50761",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/workflows/measure-testgrid-flakiness.yaml",
+      "lines": 26,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8
+        ],
+        "pinned_actions": [
+          15,
+          18
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/verify-released-assets.yaml",
+      "sha": "3db5e98c8f83716ae52ab9ad39b079e1f885de18",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/workflows/verify-released-assets.yaml",
+      "lines": 44,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          3
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/OWNERS",
+      "sha": "0dbba06bbadcd335655820dba7032109e94a45c0",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/workflows/OWNERS",
+      "lines": 4,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/antithesis-verify.yml",
+      "sha": "63764560eb494f10ad26fdc8ab2d10ec3bea9216",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/workflows/antithesis-verify.yml",
+      "lines": 73,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          4
+        ],
+        "pinned_actions": [
+          28
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/antithesis.debugger.yml",
+      "sha": "1688fa60e76fd161883f144c836f45ba0bd75e32",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/workflows/antithesis.debugger.yml",
+      "lines": 44,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          25
+        ],
+        "pinned_actions": [
+          33
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/bump-devcontainer-version.yml",
+      "sha": "aa7a28ff6e43ea00c6d7601571dc81ca8738c00a",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/workflows/bump-devcontainer-version.yml",
+      "lines": 44,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          4,
+          5
+        ],
+        "pinned_actions": [
+          17,
+          26
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "sha": "73560842b897cee803be1ffe0ce77b69c3a717f8",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/workflows/codeql-analysis.yml",
+      "lines": 55,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          22,
+          27
+        ],
+        "pinned_actions": [
+          40,
+          43,
+          53,
+          55
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/gh-workflow-approve.yaml",
+      "sha": "6a4c30691eddb61cac28513ec5ee9f5dd9fe4818",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/workflows/gh-workflow-approve.yaml",
+      "lines": 46,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          3,
+          21
+        ],
+        "pinned_actions": [
+          25
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/scorecards.yml",
+      "sha": "db1953a148ae928e1419e2e31dc042e568780841",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/workflows/scorecards.yml",
+      "lines": 55,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12,
+          18,
+          22
+        ],
+        "pinned_actions": [
+          26,
+          31,
+          45,
+          53
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "sha": "05f14dd68ded3a0c5f77f4faa2b8bef16dbe3fbd",
+      "status": "inspected",
+      "url": "https://github.com/etcd-io/etcd/blob/b25719d10cdc41fb707b0d9f819c2529dec5d590/.github/workflows/stale.yaml",
+      "lines": 30,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8
+        ],
+        "pinned_actions": [
+          16
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          24
+        ]
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 22603,
+      "title": "CHANGELOG(3.7): add keys-only RangeStream data race fix",
+      "url": "https://github.com/etcd-io/etcd/pull/22603",
+      "merged_at": "2026-10-16T21:12:29Z",
+      "merge_commit_sha": "b25719d10cdc41fb707b0d9f819c2529dec5d590",
+      "files": [
+        "CHANGELOG/CHANGELOG-3.7.md"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "CHANGELOG/CHANGELOG-3.7.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/etcd-io/etcd/blob/368cc4a40a79d6b0c96fe1a8ffa2a1d2e6e3bc0b/CHANGELOG%2FCHANGELOG-3.7.md"
+        }
+      ],
+      "review_states": [
+        "APPROVED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38987819015,
+          "name": "Measure TestGrid Flakiness",
+          "path": ".github/workflows/measure-testgrid-flakiness.yaml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38987819015",
+          "head_sha": "b25719d10cdc41fb707b0d9f819c2529dec5d590"
+        },
+        {
+          "id": 38985577897,
+          "name": "Mark and close stale issues and PRs",
+          "path": ".github/workflows/stale.yaml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38985577897",
+          "head_sha": "b25719d10cdc41fb707b0d9f819c2529dec5d590"
+        },
+        {
+          "id": 38984811010,
+          "name": "Build and trigger Antithesis exploration",
+          "path": ".github/workflows/antithesis-test.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38984811010",
+          "head_sha": "b25719d10cdc41fb707b0d9f819c2529dec5d590"
+        },
+        {
+          "id": 38967746950,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38967746950",
+          "head_sha": "b25719d10cdc41fb707b0d9f819c2529dec5d590"
+        },
+        {
+          "id": 38967746979,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38967746979",
+          "head_sha": "b25719d10cdc41fb707b0d9f819c2529dec5d590"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38957111671,
+          "name": "Approve GitHub Workflows",
+          "path": ".github/workflows/gh-workflow-approve.yaml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38957111671",
+          "head_sha": "368cc4a40a79d6b0c96fe1a8ffa2a1d2e6e3bc0b"
+        },
+        {
+          "id": 38957107343,
+          "name": "Approve GitHub Workflows",
+          "path": ".github/workflows/gh-workflow-approve.yaml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38957107343",
+          "head_sha": "368cc4a40a79d6b0c96fe1a8ffa2a1d2e6e3bc0b"
+        },
+        {
+          "id": 38955897236,
+          "name": "Approve GitHub Workflows",
+          "path": ".github/workflows/gh-workflow-approve.yaml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38955897236",
+          "head_sha": "368cc4a40a79d6b0c96fe1a8ffa2a1d2e6e3bc0b"
+        },
+        {
+          "id": 38955864352,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38955864352",
+          "head_sha": "368cc4a40a79d6b0c96fe1a8ffa2a1d2e6e3bc0b"
+        },
+        {
+          "id": 38955864367,
+          "name": "Bump devcontainer version",
+          "path": ".github/workflows/bump-devcontainer-version.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38955864367",
+          "head_sha": "368cc4a40a79d6b0c96fe1a8ffa2a1d2e6e3bc0b"
+        }
+      ]
+    },
+    {
+      "number": 22596,
+      "title": "etcdserver: fix data race in keys-only RangeStream",
+      "url": "https://github.com/etcd-io/etcd/pull/22596",
+      "merged_at": "2026-10-16T14:42:17Z",
+      "merge_commit_sha": "ec7668a544daf2ed7a9283cc633d02e5c34660a3",
+      "files": [
+        "server/etcdserver/v3_server.go",
+        "tests/integration/v3_grpc_test.go"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "server/etcdserver/v3_server.go",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1,
+          "blob_url": "https://github.com/etcd-io/etcd/blob/9acc0ebe37a7ef891e6d91428bcd7ab3641702e9/server%2Fetcdserver%2Fv3_server.go"
+        },
+        {
+          "filename": "tests/integration/v3_grpc_test.go",
+          "status": "modified",
+          "additions": 25,
+          "deletions": 21,
+          "blob_url": "https://github.com/etcd-io/etcd/blob/9acc0ebe37a7ef891e6d91428bcd7ab3641702e9/tests%2Fintegration%2Fv3_grpc_test.go"
+        }
+      ],
+      "review_states": [
+        "APPROVED",
+        "APPROVED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38917919769,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38917919769",
+          "head_sha": "ec7668a544daf2ed7a9283cc633d02e5c34660a3"
+        },
+        {
+          "id": 38917919829,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38917919829",
+          "head_sha": "ec7668a544daf2ed7a9283cc633d02e5c34660a3"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38905279686,
+          "name": "Approve GitHub Workflows",
+          "path": ".github/workflows/gh-workflow-approve.yaml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38905279686",
+          "head_sha": "9acc0ebe37a7ef891e6d91428bcd7ab3641702e9"
+        },
+        {
+          "id": 38787040034,
+          "name": "Bump devcontainer version",
+          "path": ".github/workflows/bump-devcontainer-version.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38787040034",
+          "head_sha": "9acc0ebe37a7ef891e6d91428bcd7ab3641702e9"
+        },
+        {
+          "id": 38787040081,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38787040081",
+          "head_sha": "9acc0ebe37a7ef891e6d91428bcd7ab3641702e9"
+        },
+        {
+          "id": 38787034027,
+          "name": "Approve GitHub Workflows",
+          "path": ".github/workflows/gh-workflow-approve.yaml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38787034027",
+          "head_sha": "9acc0ebe37a7ef891e6d91428bcd7ab3641702e9"
+        }
+      ]
+    },
+    {
+      "number": 22600,
+      "title": "CHANGELOG: add otel and x/net dependency bumps for v3.5.35, v3.6.16 a…",
+      "url": "https://github.com/etcd-io/etcd/pull/22600",
+      "merged_at": "2026-10-16T15:15:42Z",
+      "merge_commit_sha": "ea8b59433d82e8fc3f1365618740395e0028bd03",
+      "files": [
+        "CHANGELOG/CHANGELOG-3.5.md",
+        "CHANGELOG/CHANGELOG-3.6.md",
+        "CHANGELOG/CHANGELOG-3.7.md"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "CHANGELOG/CHANGELOG-3.5.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/etcd-io/etcd/blob/7387d62dc1be8869e88e6730f45a550178ef181d/CHANGELOG%2FCHANGELOG-3.5.md"
+        },
+        {
+          "filename": "CHANGELOG/CHANGELOG-3.6.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/etcd-io/etcd/blob/7387d62dc1be8869e88e6730f45a550178ef181d/CHANGELOG%2FCHANGELOG-3.6.md"
+        },
+        {
+          "filename": "CHANGELOG/CHANGELOG-3.7.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0,
+          "blob_url": "https://github.com/etcd-io/etcd/blob/7387d62dc1be8869e88e6730f45a550178ef181d/CHANGELOG%2FCHANGELOG-3.7.md"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38922483126,
+          "name": "Scorecards supply-chain security",
+          "path": ".github/workflows/scorecards.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38922483126",
+          "head_sha": "ea8b59433d82e8fc3f1365618740395e0028bd03"
+        },
+        {
+          "id": 38922483128,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38922483128",
+          "head_sha": "ea8b59433d82e8fc3f1365618740395e0028bd03"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38922480048,
+          "name": "Approve GitHub Workflows",
+          "path": ".github/workflows/gh-workflow-approve.yaml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38922480048",
+          "head_sha": "7387d62dc1be8869e88e6730f45a550178ef181d"
+        },
+        {
+          "id": 38914227799,
+          "name": "Approve GitHub Workflows",
+          "path": ".github/workflows/gh-workflow-approve.yaml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38914227799",
+          "head_sha": "7387d62dc1be8869e88e6730f45a550178ef181d"
+        },
+        {
+          "id": 38907585678,
+          "name": "Approve GitHub Workflows",
+          "path": ".github/workflows/gh-workflow-approve.yaml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38907585678",
+          "head_sha": "7387d62dc1be8869e88e6730f45a550178ef181d"
+        },
+        {
+          "id": 38907574713,
+          "name": "Approve GitHub Workflows",
+          "path": ".github/workflows/gh-workflow-approve.yaml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38907574713",
+          "head_sha": "7387d62dc1be8869e88e6730f45a550178ef181d"
+        },
+        {
+          "id": 38907558407,
+          "name": "Bump devcontainer version",
+          "path": ".github/workflows/bump-devcontainer-version.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38907558407",
+          "head_sha": "7387d62dc1be8869e88e6730f45a550178ef181d"
+        },
+        {
+          "id": 38907558406,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/38907558406",
+          "head_sha": "7387d62dc1be8869e88e6730f45a550178ef181d"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v3.7.2",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.7.2",
+      "published_at": "2026-09-22T21:22:39Z",
+      "target_commitish": "main",
+      "commit_sha": "68c065e562994b89e333e77b039ad066f933c586",
+      "assets": [
+        "etcd-v3.7.2-darwin-amd64.zip",
+        "etcd-v3.7.2-darwin-arm64.zip",
+        "etcd-v3.7.2-linux-amd64.tar.gz",
+        "etcd-v3.7.2-linux-arm64.tar.gz",
+        "etcd-v3.7.2-linux-ppc64le.tar.gz",
+        "etcd-v3.7.2-linux-s390x.tar.gz",
+        "etcd-v3.7.2-windows-amd64.zip",
+        "SHA256SUMS"
+      ],
+      "workflow_runs": [
+        {
+          "id": 36901430875,
+          "name": "docker in /. - Update #1603286619",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/36901430875",
+          "head_sha": "68c065e562994b89e333e77b039ad066f933c586"
+        },
+        {
+          "id": 35786261424,
+          "name": "Verify released binary assets",
+          "path": ".github/workflows/verify-released-assets.yaml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/35786261424",
+          "head_sha": "68c065e562994b89e333e77b039ad066f933c586"
+        }
+      ]
+    },
+    {
+      "tag": "v3.6.15",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.6.15",
+      "published_at": "2026-09-22T21:06:14Z",
+      "target_commitish": "main",
+      "commit_sha": "a3346427fbe6e456e9b6d6e429346481c6be7c71",
+      "assets": [
+        "etcd-v3.6.15-darwin-amd64.zip",
+        "etcd-v3.6.15-darwin-arm64.zip",
+        "etcd-v3.6.15-linux-amd64.tar.gz",
+        "etcd-v3.6.15-linux-arm64.tar.gz",
+        "etcd-v3.6.15-linux-ppc64le.tar.gz",
+        "etcd-v3.6.15-linux-s390x.tar.gz",
+        "etcd-v3.6.15-windows-amd64.zip",
+        "SHA256SUMS"
+      ],
+      "workflow_runs": [
+        {
+          "id": 36901321869,
+          "name": "docker in /. - Update #1603283762",
+          "path": "dynamic/dependabot/dependabot-updates",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/36901321869",
+          "head_sha": "a3346427fbe6e456e9b6d6e429346481c6be7c71"
+        },
+        {
+          "id": 35784537824,
+          "name": "Verify released binary assets",
+          "path": ".github/workflows/verify-released-assets.yaml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/35784537824",
+          "head_sha": "a3346427fbe6e456e9b6d6e429346481c6be7c71"
+        },
+        {
+          "id": 35783229774,
+          "name": "CodeQL",
+          "path": ".github/workflows/codeql-analysis.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/35783229774",
+          "head_sha": "a3346427fbe6e456e9b6d6e429346481c6be7c71"
+        }
+      ]
+    },
+    {
+      "tag": "v3.5.34",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.5.34",
+      "published_at": "2026-09-22T20:50:57Z",
+      "target_commitish": "main",
+      "commit_sha": "38e57443c51fc9a3cc6a943fa8ed10381f66ce5c",
+      "assets": [
+        "etcd-v3.5.34-darwin-amd64.zip",
+        "etcd-v3.5.34-darwin-arm64.zip",
+        "etcd-v3.5.34-linux-amd64.tar.gz",
+        "etcd-v3.5.34-linux-arm64.tar.gz",
+        "etcd-v3.5.34-linux-ppc64le.tar.gz",
+        "etcd-v3.5.34-linux-s390x.tar.gz",
+        "etcd-v3.5.34-windows-amd64.zip",
+        "SHA256SUMS"
+      ],
+      "workflow_runs": [
+        {
+          "id": 35782932331,
+          "name": "Verify released binary assets",
+          "path": ".github/workflows/verify-released-assets.yaml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/etcd-io/etcd/actions/runs/35782932331",
+          "head_sha": "38e57443c51fc9a3cc6a943fa8ed10381f66ce5c"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v3.8.0-alpha.0",
+      "sha": "b68cc7088ec334678281426c020b46000317747c"
+    },
+    {
+      "name": "v3.7.2",
+      "sha": "68c065e562994b89e333e77b039ad066f933c586"
+    },
+    {
+      "name": "v3.7.1",
+      "sha": "5e7fd0de9a57db03ecc11794dc40403a734c07bb"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:20:30.669251+00:00",
+  "source_times": {
+    "/repos/etcd-io/etcd": "2026-10-17T16:15:39.631383+00:00",
+    "/repos/etcd-io/etcd/commits?sha=main&per_page=20": "2026-10-17T16:15:42.864515+00:00",
+    "/repos/etcd-io/etcd/git/trees/b25719d10cdc41fb707b0d9f819c2529dec5d590": "2026-10-17T16:15:44.443118+00:00",
+    "/repos/etcd-io/etcd/git/trees/14e25a2869fe72dc4bc4ae44f7d86902db9377c9": "2026-10-17T16:15:51.731210+00:00",
+    "/repos/etcd-io/etcd/git/trees/61fedce84a36eac284fdde5d73f31241ac546411": "2026-10-17T16:15:53.114798+00:00",
+    "/repos/etcd-io/etcd/git/trees/f1abb8263eda49db5a2c1b542957419fc293186a": "2026-10-17T16:15:54.531594+00:00",
+    "/repos/etcd-io/etcd/git/blobs/cfa13034f277b74463cea8d46cc7b0d58f024a25": "2026-10-17T16:15:57.063839+00:00",
+    "/repos/etcd-io/etcd/git/blobs/5ad9997685777abf779acbb2fd7ea292fad5247e": "2026-10-17T16:15:58.493920+00:00",
+    "/repos/etcd-io/etcd/git/blobs/d86741d90a4b0a8ef2b03849e9aef6875eab8bdd": "2026-10-17T16:15:59.853816+00:00",
+    "/repos/etcd-io/etcd/git/blobs/5272d73d0e3b1ef191312d0949f5d3ded1816236": "2026-10-17T16:16:01.199726+00:00",
+    "/repos/etcd-io/etcd/git/blobs/fa01c25e646362dd1cfc192d8f41b01ae291de27": "2026-10-17T16:16:02.673436+00:00",
+    "/repos/etcd-io/etcd/git/blobs/19b0b357f67647f5326d96e0da0a3ac4dd020ccf": "2026-10-17T16:16:04.256924+00:00",
+    "/repos/etcd-io/etcd/git/blobs/d79cc5488d3a44f8206776aed5a0aaf19b806289": "2026-10-17T16:16:05.726492+00:00",
+    "/repos/etcd-io/etcd/git/blobs/c831b10d9105601873166978dcf391e1b40eb421": "2026-10-17T16:16:07.610093+00:00",
+    "/repos/etcd-io/etcd/git/blobs/928daab2e55c650ab51657251aa39826e097484e": "2026-10-17T16:16:09.237900+00:00",
+    "/repos/etcd-io/etcd/git/blobs/b48f29b9061cc581663c4111afcb600c36a02ab6": "2026-10-17T16:16:10.651633+00:00",
+    "/repos/etcd-io/etcd/git/blobs/d18dec24567c4b00c522672fb0bcd53e1866dd53": "2026-10-17T16:16:13.416732+00:00",
+    "/repos/etcd-io/etcd/git/blobs/6ecf32392a4973c7ec4fdd2a93c1b518c7d8a3de": "2026-10-17T16:16:14.756703+00:00",
+    "/repos/etcd-io/etcd/git/blobs/efdfed26735598099056289828a2936fe3289e82": "2026-10-17T16:16:16.121104+00:00",
+    "/repos/etcd-io/etcd/git/blobs/43b38bbfe9099583e5cb864374127dcdfa030fd6": "2026-10-17T16:16:17.485398+00:00",
+    "/repos/etcd-io/etcd/git/blobs/7ce4e8e01b7fbc2d6a3007a251be7ace26ac3733": "2026-10-17T16:16:18.995819+00:00",
+    "/repos/etcd-io/etcd/git/blobs/c4ebb1c11766adfe49afa0e6a5bde0c1d4d3106e": "2026-10-17T16:16:20.395974+00:00",
+    "/repos/etcd-io/etcd/git/blobs/b7dde272c3d95a0d8ec0710dda37e5e8c449b606": "2026-10-17T16:16:21.771226+00:00",
+    "/repos/etcd-io/etcd/git/blobs/64fcb1942d1163c470b0001869b0974c203314a7": "2026-10-17T16:16:23.154832+00:00",
+    "/repos/etcd-io/etcd/git/blobs/fd77c2d61874856cdac13c59272b0f5e4fb50761": "2026-10-17T16:16:24.542933+00:00",
+    "/repos/etcd-io/etcd/git/blobs/3db5e98c8f83716ae52ab9ad39b079e1f885de18": "2026-10-17T16:16:26.008364+00:00",
+    "/repos/etcd-io/etcd/git/blobs/0dbba06bbadcd335655820dba7032109e94a45c0": "2026-10-17T16:16:28.392728+00:00",
+    "/repos/etcd-io/etcd/git/blobs/63764560eb494f10ad26fdc8ab2d10ec3bea9216": "2026-10-17T16:16:29.769131+00:00",
+    "/repos/etcd-io/etcd/git/blobs/1688fa60e76fd161883f144c836f45ba0bd75e32": "2026-10-17T16:16:31.123102+00:00",
+    "/repos/etcd-io/etcd/git/blobs/aa7a28ff6e43ea00c6d7601571dc81ca8738c00a": "2026-10-17T16:16:32.523095+00:00",
+    "/repos/etcd-io/etcd/git/blobs/73560842b897cee803be1ffe0ce77b69c3a717f8": "2026-10-17T16:16:33.876666+00:00",
+    "/repos/etcd-io/etcd/git/blobs/6a4c30691eddb61cac28513ec5ee9f5dd9fe4818": "2026-10-17T16:16:35.294737+00:00",
+    "/repos/etcd-io/etcd/git/blobs/db1953a148ae928e1419e2e31dc042e568780841": "2026-10-17T16:16:36.667025+00:00",
+    "/repos/etcd-io/etcd/git/blobs/05f14dd68ded3a0c5f77f4faa2b8bef16dbe3fbd": "2026-10-17T16:16:38.057613+00:00",
+    "/repos/etcd-io/etcd/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:16:41.789623+00:00",
+    "/repos/etcd-io/etcd/pulls/22603/files?per_page=100": "2026-10-17T16:16:43.370235+00:00",
+    "/repos/etcd-io/etcd/pulls/22603/reviews?per_page=100": "2026-10-17T16:16:44.909765+00:00",
+    "/repos/etcd-io/etcd/actions/runs?head_sha=b25719d10cdc41fb707b0d9f819c2529dec5d590&per_page=10": "2026-10-17T16:16:46.870540+00:00",
+    "/repos/etcd-io/etcd/actions/runs?head_sha=368cc4a40a79d6b0c96fe1a8ffa2a1d2e6e3bc0b&per_page=10": "2026-10-17T16:16:48.674973+00:00",
+    "/repos/etcd-io/etcd/pulls/22596/files?per_page=100": "2026-10-17T16:16:50.208310+00:00",
+    "/repos/etcd-io/etcd/pulls/22596/reviews?per_page=100": "2026-10-17T16:16:51.770992+00:00",
+    "/repos/etcd-io/etcd/actions/runs?head_sha=ec7668a544daf2ed7a9283cc633d02e5c34660a3&per_page=10": "2026-10-17T16:16:53.543643+00:00",
+    "/repos/etcd-io/etcd/actions/runs?head_sha=9acc0ebe37a7ef891e6d91428bcd7ab3641702e9&per_page=10": "2026-10-17T16:16:55.300000+00:00",
+    "/repos/etcd-io/etcd/pulls/22600/files?per_page=100": "2026-10-17T16:16:56.811416+00:00",
+    "/repos/etcd-io/etcd/pulls/22600/reviews?per_page=100": "2026-10-17T16:16:58.401746+00:00",
+    "/repos/etcd-io/etcd/actions/runs?head_sha=ea8b59433d82e8fc3f1365618740395e0028bd03&per_page=10": "2026-10-17T16:17:00.225898+00:00",
+    "/repos/etcd-io/etcd/actions/runs?head_sha=7387d62dc1be8869e88e6730f45a550178ef181d&per_page=10": "2026-10-17T16:17:02.280980+00:00",
+    "/repos/etcd-io/etcd/releases?per_page=20&page=1": "2026-10-17T16:20:30.650038+00:00",
+    "/repos/etcd-io/etcd/commits/v3.7.2": "2026-10-17T16:17:08.265300+00:00",
+    "/repos/etcd-io/etcd/actions/runs?head_sha=68c065e562994b89e333e77b039ad066f933c586&per_page=10": "2026-10-17T16:17:10.063841+00:00",
+    "/repos/etcd-io/etcd/commits/v3.6.15": "2026-10-17T16:17:11.472230+00:00",
+    "/repos/etcd-io/etcd/actions/runs?head_sha=a3346427fbe6e456e9b6d6e429346481c6be7c71&per_page=10": "2026-10-17T16:17:13.390792+00:00",
+    "/repos/etcd-io/etcd/commits/v3.5.34": "2026-10-17T16:17:14.982218+00:00",
+    "/repos/etcd-io/etcd/actions/runs?head_sha=38e57443c51fc9a3cc6a943fa8ed10381f66ce5c&per_page=10": "2026-10-17T16:17:16.622833+00:00",
+    "/repos/etcd-io/etcd/tags?per_page=3": "2026-10-17T16:17:17.984204+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:20:30.650038+00:00",
+  "status": "collected"
+}

@@ -1,0 +1,2595 @@
+{
+  "requested_repository": "openai/openai-java",
+  "category": "sdk",
+  "collected_at": "2026-10-17T16:03:37.050135+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "openai/openai-java",
+  "metadata": {
+    "html_url": "https://github.com/openai/openai-java",
+    "description": "The official Java library for the OpenAI API",
+    "homepage": null,
+    "language": "Kotlin",
+    "stargazers_count": 1549,
+    "forks_count": 270,
+    "open_issues_count": 66,
+    "pushed_at": "2026-10-17T10:07:56Z",
+    "created_at": "2024-10-31T17:42:57Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [],
+    "owner": {
+      "login": "openai",
+      "type": "Organization",
+      "html_url": "https://github.com/openai"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "71916f9f8a456f3055b56b6b12d4334479fdc280",
+      "url": "https://github.com/openai/openai-java/commit/71916f9f8a456f3055b56b6b12d4334479fdc280",
+      "date": "2026-10-17T09:03:43Z",
+      "subject": "feat(api): add Live events with compatible service and visitor defaults (#1213)"
+    },
+    {
+      "sha": "224aec1fa1b57dbbc8938778e47e66cb8ea73ea8",
+      "url": "https://github.com/openai/openai-java/commit/224aec1fa1b57dbbc8938778e47e66cb8ea73ea8",
+      "date": "2026-10-17T06:10:43Z",
+      "subject": "chore(api): add Assistants model shutdown notices (#1212)"
+    },
+    {
+      "sha": "ef1bcd55ef8a6ac630547f940235d0a9827c2174",
+      "url": "https://github.com/openai/openai-java/commit/ef1bcd55ef8a6ac630547f940235d0a9827c2174",
+      "date": "2026-10-17T04:17:07Z",
+      "subject": "chore(api): add shutdown notices for GPT-4 model aliases (#1211)"
+    },
+    {
+      "sha": "9d1919c5343d69d6bc8b14857a109c13be1670bf",
+      "url": "https://github.com/openai/openai-java/commit/9d1919c5343d69d6bc8b14857a109c13be1670bf",
+      "date": "2026-10-17T03:02:51Z",
+      "subject": "chore: clarify Live limits and refresh generated-file verification (#1209)"
+    },
+    {
+      "sha": "05c1a2d5d88f05fecadb72a954d54e6a0397a579",
+      "url": "https://github.com/openai/openai-java/commit/05c1a2d5d88f05fecadb72a954d54e6a0397a579",
+      "date": "2026-10-16T23:35:38Z",
+      "subject": "release: 4.83.0 (#1189)"
+    },
+    {
+      "sha": "65eb975cfda61c1cc2c310f81af2af8612e09d47",
+      "url": "https://github.com/openai/openai-java/commit/65eb975cfda61c1cc2c310f81af2af8612e09d47",
+      "date": "2026-10-16T23:28:49Z",
+      "subject": "feat(api): add Decisions prompt caching options (#1206)"
+    },
+    {
+      "sha": "f15a828c9a14a8f8b06d3ad3f13cfb825720affb",
+      "url": "https://github.com/openai/openai-java/commit/f15a828c9a14a8f8b06d3ad3f13cfb825720affb",
+      "date": "2026-10-16T22:42:45Z",
+      "subject": "feat(api): add safety identifiers to image requests and responses (#1208)"
+    },
+    {
+      "sha": "8a27c62b9a0934e67d47d0834acd8055f6ccc00c",
+      "url": "https://github.com/openai/openai-java/commit/8a27c62b9a0934e67d47d0834acd8055f6ccc00c",
+      "date": "2026-10-16T21:44:27Z",
+      "subject": "fix(core): omit missing multipart values in JSON conversion (#1207)"
+    },
+    {
+      "sha": "ffdc02379cf629ea7c8c246606efdb8e935a85a9",
+      "url": "https://github.com/openai/openai-java/commit/ffdc02379cf629ea7c8c246606efdb8e935a85a9",
+      "date": "2026-10-16T20:23:51Z",
+      "subject": "feat(api): add prompt-based voice creation (#1205)"
+    },
+    {
+      "sha": "e17430d5c3b04b1b81d34b4de250ae5e28fd4dd1",
+      "url": "https://github.com/openai/openai-java/commit/e17430d5c3b04b1b81d34b4de250ae5e28fd4dd1",
+      "date": "2026-10-16T19:42:17Z",
+      "subject": "feat: add client and JVM telemetry opt-out (#1199)"
+    },
+    {
+      "sha": "e26eb17bcb5e9b4cdd13c7ecbde64617e7ff1e73",
+      "url": "https://github.com/openai/openai-java/commit/e26eb17bcb5e9b4cdd13c7ecbde64617e7ff1e73",
+      "date": "2026-10-16T19:06:59Z",
+      "subject": "fix: settle async retry sleeps during shutdown (#1201)"
+    },
+    {
+      "sha": "24b0441506c837fed9369b678d50e7b7760c094e",
+      "url": "https://github.com/openai/openai-java/commit/24b0441506c837fed9369b678d50e7b7760c094e",
+      "date": "2026-10-16T19:03:41Z",
+      "subject": "ci: compact SDK caches and share the shrinker fixture (#1203)"
+    },
+    {
+      "sha": "b3b7ed6acd4bd91f6131cc5536490b4fac02f8cc",
+      "url": "https://github.com/openai/openai-java/commit/b3b7ed6acd4bd91f6131cc5536490b4fac02f8cc",
+      "date": "2026-10-16T18:50:33Z",
+      "subject": "fix: make phantom cleanup registration explicit and close once (#1204)"
+    },
+    {
+      "sha": "9a4f6fc32ef4177487d294e2dafea8a32e793c31",
+      "url": "https://github.com/openai/openai-java/commit/9a4f6fc32ef4177487d294e2dafea8a32e793c31",
+      "date": "2026-10-16T18:22:28Z",
+      "subject": "fix(responses): defer repeated text-done metadata copies (#1198)"
+    },
+    {
+      "sha": "9185d8ac9ecf1528c4314bcbb9debf3f81af0132",
+      "url": "https://github.com/openai/openai-java/commit/9185d8ac9ecf1528c4314bcbb9debf3f81af0132",
+      "date": "2026-10-16T18:20:03Z",
+      "subject": "fix(core): retry synchronous async-transport failures (#1200)"
+    },
+    {
+      "sha": "ee0cd94a3f2b7c6e89385a8287d997133843a098",
+      "url": "https://github.com/openai/openai-java/commit/ee0cd94a3f2b7c6e89385a8287d997133843a098",
+      "date": "2026-10-16T17:29:33Z",
+      "subject": "feat(api): support project API key scope updates (#1180)"
+    },
+    {
+      "sha": "169f511e0a66678cbaf15ea8f559fac59e3c007c",
+      "url": "https://github.com/openai/openai-java/commit/169f511e0a66678cbaf15ea8f559fac59e3c007c",
+      "date": "2026-10-16T16:32:36Z",
+      "subject": "fix(live): avoid contextual transcript casing scans (#1195)"
+    },
+    {
+      "sha": "85d1780e788c4433908fced6891cb02a685bed2a",
+      "url": "https://github.com/openai/openai-java/commit/85d1780e788c4433908fced6891cb02a685bed2a",
+      "date": "2026-10-16T15:49:55Z",
+      "subject": "ci: run SDK and shrinker checks on separate runners (#1196)"
+    },
+    {
+      "sha": "848ef53c94498e795587d571900202ea383601d4",
+      "url": "https://github.com/openai/openai-java/commit/848ef53c94498e795587d571900202ea383601d4",
+      "date": "2026-10-16T08:57:20Z",
+      "subject": "refactor: reuse Java WebSocket connection helpers (#1194)"
+    },
+    {
+      "sha": "812a4fb74885f69b130c82d024f44541f73b8f5e",
+      "url": "https://github.com/openai/openai-java/commit/812a4fb74885f69b130c82d024f44541f73b8f5e",
+      "date": "2026-10-16T05:45:44Z",
+      "subject": "chore: strengthen generated file verification (#1192)"
+    }
+  ],
+  "default_sha": "71916f9f8a456f3055b56b6b12d4334479fdc280",
+  "root_and_selected_directory_paths": [
+    ".castiron-ratchet.json",
+    ".castiron.stats.yml",
+    ".devcontainer",
+    ".gitattributes",
+    ".github",
+    ".github/CODEOWNERS",
+    ".github/dependabot.yml",
+    ".github/scripts",
+    ".github/workflows",
+    ".github/workflows/castiron-custom-code-comment.yml",
+    ".github/workflows/castiron-custom-code.yml",
+    ".github/workflows/ci.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/create-releases.yml",
+    ".github/workflows/examples.yml",
+    ".github/workflows/runtime-compatibility.yml",
+    ".github/workflows/x509-live-smoke.yml",
+    ".gitignore",
+    ".release-please-manifest.json",
+    "AGENTS.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "api_reference",
+    "bedrock.md",
+    "build.gradle.kts",
+    "buildSrc",
+    "docs",
+    "docs/architecture",
+    "docs/beta-agents-results.md",
+    "docs/ci-performance.md",
+    "docs/helpers",
+    "docs/responses-websocket.md",
+    "docs/spring-boot-2-eol.md",
+    "docs/version-support-policy.md",
+    "docs/x509-live-verification.md",
+    "gradle",
+    "gradle.properties",
+    "gradlew",
+    "gradlew.bat",
+    "openai-java",
+    "openai-java-bedrock",
+    "openai-java-client-okhttp",
+    "openai-java-core",
+    "openai-java-core-client-base",
+    "openai-java-core-models-admin",
+    "openai-java-core-models-beta",
+    "openai-java-core-models-beta-responses",
+    "openai-java-core-models-common",
+    "openai-java-core-models-evals",
+    "openai-java-core-models-foundation",
+    "openai-java-core-models-general",
+    "openai-java-core-models-realtime",
+    "openai-java-core-runtime",
+    "openai-java-core-services-admin",
+    "openai-java-core-services-beta",
+    "openai-java-core-services-general",
+    "openai-java-core-services-responses",
+    "openai-java-example",
+    "openai-java-lib",
+    "openai-java-proguard-test",
+    "openai-java-runtime-compatibility",
+    "release-please-config.json",
+    "scripts",
+    "settings.gradle.kts"
+  ],
+  "workflow_paths": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/create-releases.yml",
+    ".github/workflows/castiron-custom-code-comment.yml",
+    ".github/workflows/castiron-custom-code.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/examples.yml",
+    ".github/workflows/runtime-compatibility.yml",
+    ".github/workflows/x509-live-smoke.yml"
+  ],
+  "documents": [
+    {
+      "path": ".release-please-manifest.json",
+      "sha": "c782f54e07c10a49bb91815b342d2e53098ff839",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-java/blob/71916f9f8a456f3055b56b6b12d4334479fdc280/.release-please-manifest.json",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "AGENTS.md",
+      "sha": "86eecb2976c34dd280adb2a0c2ca8ff242e52e91",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-java/blob/71916f9f8a456f3055b56b6b12d4334479fdc280/AGENTS.md",
+      "lines": 66,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          3,
+          46
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "a1d7e0770569ee1659d301ccbf3da6543f4174f0",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-java/blob/71916f9f8a456f3055b56b6b12d4334479fdc280/CHANGELOG.md",
+      "lines": 3897,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          27,
+          638,
+          639,
+          797,
+          807,
+          847,
+          1090,
+          1121,
+          1136,
+          1309,
+          1327,
+          1615
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "a29208ea6001e2bf7caa3019a0e43e098f8c25a0",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-java/blob/71916f9f8a456f3055b56b6b12d4334479fdc280/CONTRIBUTING.md",
+      "lines": 361,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          93
+        ],
+        "release_automation": [
+          131,
+          145
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          14,
+          15,
+          62
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          84,
+          339
+        ]
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "1813fdd8404a8dc67ae37ebb53dc401671a1745d",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-java/blob/71916f9f8a456f3055b56b6b12d4334479fdc280/README.md",
+      "lines": 2157,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          1612
+        ],
+        "release_automation": [
+          13,
+          31,
+          99,
+          105
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          2157
+        ],
+        "star_history": [],
+        "badges": [
+          4
+        ],
+        "media": [
+          4,
+          5
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "13cc95c7a5521fa5e6c1be49d5a14896ebe2b508",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-java/blob/71916f9f8a456f3055b56b6b12d4334479fdc280/SECURITY.md",
+      "lines": 46,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          3,
+          5,
+          9,
+          18
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "release-please-config.json",
+      "sha": "d13c6399e22e1d4eda354f6af0fbfaee3b075db7",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-java/blob/71916f9f8a456f3055b56b6b12d4334479fdc280/release-please-config.json",
+      "lines": 65,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          5
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha": "d58c8454c5ee826d54d1b73e96ab0935d285bb6b",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-java/blob/71916f9f8a456f3055b56b6b12d4334479fdc280/.github/CODEOWNERS",
+      "lines": 4,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "6c77c5380caa296864ef0f27bc24fce3b159b4d6",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-java/blob/71916f9f8a456f3055b56b6b12d4334479fdc280/.github/dependabot.yml",
+      "lines": 65,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "c8ef687b288d859a8141e92873e348c5fd8df16f",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-java/blob/71916f9f8a456f3055b56b6b12d4334479fdc280/.github/workflows/ci.yml",
+      "lines": 504,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          19,
+          310
+        ],
+        "pinned_actions": [
+          38,
+          43,
+          51,
+          96,
+          101,
+          109,
+          125,
+          130,
+          138,
+          149,
+          186,
+          201
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          164
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/create-releases.yml",
+      "sha": "ea996db743307b553ef26464a85c130d8c886326",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-java/blob/71916f9f8a456f3055b56b6b12d4334479fdc280/.github/workflows/create-releases.yml",
+      "lines": 610,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          62,
+          82,
+          88,
+          92,
+          93,
+          158
+        ],
+        "permissions": [
+          21,
+          40,
+          55,
+          101,
+          180,
+          240,
+          256,
+          258,
+          528
+        ],
+        "pinned_actions": [
+          51,
+          88,
+          125,
+          266,
+          274,
+          280,
+          302,
+          317,
+          429
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/castiron-custom-code-comment.yml",
+      "sha": "43f3a1da2adab96f2f0bc4acc3d16f6ba60336f8",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-java/blob/71916f9f8a456f3055b56b6b12d4334479fdc280/.github/workflows/castiron-custom-code-comment.yml",
+      "lines": 304,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9,
+          22,
+          128,
+          244
+        ],
+        "pinned_actions": [
+          40,
+          73,
+          115,
+          136,
+          250,
+          257,
+          283
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/castiron-custom-code.yml",
+      "sha": "0fb4c3c759d0ea1387be7e5d1eb5b69df48258b5",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-java/blob/71916f9f8a456f3055b56b6b12d4334479fdc280/.github/workflows/castiron-custom-code.yml",
+      "lines": 96,
+      "signals": {
+        "tests": [
+          60
+        ],
+        "lint": [],
+        "generated_code": [
+          62
+        ],
+        "release_automation": [],
+        "permissions": [
+          11,
+          26
+        ],
+        "pinned_actions": [
+          50,
+          91
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "sha": "8582ee88be12c9ea013fd538df0a4b0b7715d166",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-java/blob/71916f9f8a456f3055b56b6b12d4334479fdc280/.github/workflows/codeql.yml",
+      "lines": 116,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          50
+        ],
+        "pinned_actions": [
+          91,
+          96,
+          102,
+          105,
+          116
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/examples.yml",
+      "sha": "b1ed0e816e7cc8ab6fc8f01de93b6e1dfaf8ef89",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-java/blob/71916f9f8a456f3055b56b6b12d4334479fdc280/.github/workflows/examples.yml",
+      "lines": 46,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          20
+        ],
+        "release_automation": [],
+        "permissions": [
+          8
+        ],
+        "pinned_actions": [
+          26,
+          31,
+          39
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/runtime-compatibility.yml",
+      "sha": "98e09de5d6937fef5db94ec1559da60ced06091d",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-java/blob/71916f9f8a456f3055b56b6b12d4334479fdc280/.github/workflows/runtime-compatibility.yml",
+      "lines": 96,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          17
+        ],
+        "pinned_actions": [
+          34,
+          40,
+          46,
+          68,
+          74,
+          80,
+          86
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/x509-live-smoke.yml",
+      "sha": "9bed96f97f2ddd4d69efebd87d63b4863978f90d",
+      "status": "inspected",
+      "url": "https://github.com/openai/openai-java/blob/71916f9f8a456f3055b56b6b12d4334479fdc280/.github/workflows/x509-live-smoke.yml",
+      "lines": 142,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          12,
+          23,
+          63
+        ],
+        "pinned_actions": [
+          66,
+          72,
+          92
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 1213,
+      "title": "feat(api): add Live events with compatible service and visitor defaults",
+      "url": "https://github.com/openai/openai-java/pull/1213",
+      "merged_at": "2026-10-17T09:18:30Z",
+      "merge_commit_sha": "71916f9f8a456f3055b56b6b12d4334479fdc280",
+      "files": [
+        ".castiron.stats.yml",
+        "api_reference/openapi.transformed.yml",
+        "openai-java-client-okhttp/src/test/kotlin/com/openai/client/okhttp/LiveConnectionTest.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/admin/organization/auditlogs/AuditLogListResponse.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/audio/transcriptions/Transcription.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/audio/transcriptions/TranscriptionTextDeltaEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/audio/transcriptions/TranscriptionTextDoneEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/audio/transcriptions/TranscriptionVerbose.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/audio/translations/TranslationVerbose.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/batches/Batch.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/agents/AgentToolParam.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/agents/EnvironmentParam.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/agents/McpTransportParam.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/agents/PersistedAgentToolParam.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/agents/PersistedMcpTransportParam.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/agents/environments/EnvironmentCreateParams.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/agents/environments/templates/TemplateCreateParams.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/agents/environments/templates/TemplateUpdateParams.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/agents/sessions/SessionCreateParams.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/assistants/Assistant.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/assistants/AssistantCreateParams.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/assistants/AssistantUpdateParams.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaApplyPatchTool.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaComputerAction.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaContainerAuto.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaContainerNetworkPolicyAllowlist.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaCustomTool.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaFunctionShellTool.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaFunctionTool.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaLocalEnvironment.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaNamespaceTool.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseComputerToolCall.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseComputerToolCallOutputItem.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseFileSearchToolCall.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseFunctionWebSearch.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseInputItem.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseOutputText.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseReasoningItem.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseTextDeltaEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseTextDoneEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseToolSearchOutputItemParam.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponsesClientEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaTool.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaToolSearchOutputNamespaceTool.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaWebSearchPreviewTool.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaWebSearchTool.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/Thread.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/ThreadCreateAndRunParams.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/ThreadCreateParams.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/ThreadUpdateParams.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/messages/Message.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/messages/MessageCreateParams.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/messages/MessageDelta.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/messages/TextDelta.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/runs/RunCreateParams.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/runs/steps/CodeInterpreterToolCallDelta.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/runs/steps/FileSearchToolCall.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/runs/steps/ToolCallDeltaObject.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/chat/completions/ChatCompletionAssistantMessageParam.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/chat/completions/ChatCompletionChunk.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/chat/completions/ChatCompletionMessage.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/chat/completions/ChatCompletionStoreMessage.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/completions/CompletionChoice.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/containers/ContainerCreateResponse.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/containers/ContainerListResponse.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/containers/ContainerRetrieveResponse.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/evals/EvalCreateParams.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/evals/EvalCreateResponse.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/evals/EvalListResponse.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/evals/EvalRetrieveResponse.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/evals/EvalUpdateResponse.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/evals/runs/CreateEvalCompletionsRunDataSource.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/evals/runs/RunCancelResponse.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/evals/runs/RunCreateParams.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/evals/runs/RunCreateResponse.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/evals/runs/RunListResponse.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/evals/runs/RunRetrieveResponse.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/finetuning/jobs/FineTuningJob.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/finetuning/jobs/FineTuningJobWandbIntegration.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/finetuning/jobs/JobCreateParams.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/graders/gradermodels/ScoreModelGrader.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/images/ImagesResponse.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/live/ClientEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/live/CommentaryAppendEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/live/DecisionCreateEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/live/DecisionEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/live/DecisionItemCreateEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/live/DecisionItemCreatedEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/live/DecisionItemDeleteEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/live/DecisionItemDeletedEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/live/DecisionTrigger.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/live/DecisionsDelegationConfig.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/live/DecisionsDelegationUpdateConfig.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/live/DelegationCreatedEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/live/InputAudioMutedEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/live/InputAudioUnmuteEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/live/InputAudioUnmutedEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/live/InstructionsAppendEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/live/MediaSessionConfig.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/live/ResponsesDelegationConfig.kt"
+      ],
+      "files_may_be_truncated": true,
+      "file_changes": [
+        {
+          "filename": ".castiron.stats.yml",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 7,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/.castiron.stats.yml"
+        },
+        {
+          "filename": "api_reference/openapi.transformed.yml",
+          "status": "modified",
+          "additions": 713,
+          "deletions": 16,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/api_reference%2Fopenapi.transformed.yml"
+        },
+        {
+          "filename": "openai-java-client-okhttp/src/test/kotlin/com/openai/client/okhttp/LiveConnectionTest.kt",
+          "status": "modified",
+          "additions": 140,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-client-okhttp%2Fsrc%2Ftest%2Fkotlin%2Fcom%2Fopenai%2Fclient%2Fokhttp%2FLiveConnectionTest.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/admin/organization/auditlogs/AuditLogListResponse.kt",
+          "status": "modified",
+          "additions": 28,
+          "deletions": 38,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fadmin%2Forganization%2Fauditlogs%2FAuditLogListResponse.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/audio/transcriptions/Transcription.kt",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Faudio%2Ftranscriptions%2FTranscription.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/audio/transcriptions/TranscriptionTextDeltaEvent.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Faudio%2Ftranscriptions%2FTranscriptionTextDeltaEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/audio/transcriptions/TranscriptionTextDoneEvent.kt",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Faudio%2Ftranscriptions%2FTranscriptionTextDoneEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/audio/transcriptions/TranscriptionVerbose.kt",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Faudio%2Ftranscriptions%2FTranscriptionVerbose.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/audio/translations/TranslationVerbose.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Faudio%2Ftranslations%2FTranslationVerbose.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/batches/Batch.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbatches%2FBatch.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/agents/AgentToolParam.kt",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 6,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fagents%2FAgentToolParam.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/agents/EnvironmentParam.kt",
+          "status": "modified",
+          "additions": 25,
+          "deletions": 27,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fagents%2FEnvironmentParam.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/agents/McpTransportParam.kt",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fagents%2FMcpTransportParam.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/agents/PersistedAgentToolParam.kt",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 6,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fagents%2FPersistedAgentToolParam.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/agents/PersistedMcpTransportParam.kt",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fagents%2FPersistedMcpTransportParam.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/agents/environments/EnvironmentCreateParams.kt",
+          "status": "modified",
+          "additions": 22,
+          "deletions": 24,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fagents%2Fenvironments%2FEnvironmentCreateParams.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/agents/environments/templates/TemplateCreateParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 15,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fagents%2Fenvironments%2Ftemplates%2FTemplateCreateParams.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/agents/environments/templates/TemplateUpdateParams.kt",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 15,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fagents%2Fenvironments%2Ftemplates%2FTemplateUpdateParams.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/agents/sessions/SessionCreateParams.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fagents%2Fsessions%2FSessionCreateParams.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/assistants/Assistant.kt",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 6,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fassistants%2FAssistant.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/assistants/AssistantCreateParams.kt",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 12,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fassistants%2FAssistantCreateParams.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/assistants/AssistantUpdateParams.kt",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 6,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fassistants%2FAssistantUpdateParams.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaApplyPatchTool.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaApplyPatchTool.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaComputerAction.kt",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 4,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaComputerAction.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaContainerAuto.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaContainerAuto.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaContainerNetworkPolicyAllowlist.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaContainerNetworkPolicyAllowlist.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaCustomTool.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaCustomTool.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaFunctionShellTool.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaFunctionShellTool.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaFunctionTool.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaFunctionTool.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaLocalEnvironment.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaLocalEnvironment.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaNamespaceTool.kt",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaNamespaceTool.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseComputerToolCall.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaResponseComputerToolCall.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseComputerToolCallOutputItem.kt",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaResponseComputerToolCallOutputItem.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseFileSearchToolCall.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaResponseFileSearchToolCall.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseFunctionWebSearch.kt",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 6,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaResponseFunctionWebSearch.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseInputItem.kt",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 6,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaResponseInputItem.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseOutputText.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaResponseOutputText.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseReasoningItem.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaResponseReasoningItem.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseTextDeltaEvent.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaResponseTextDeltaEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseTextDoneEvent.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaResponseTextDoneEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponseToolSearchOutputItemParam.kt",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 18,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaResponseToolSearchOutputItemParam.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponsesClientEvent.kt",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 7,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaResponsesClientEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaTool.kt",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 18,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaTool.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaToolSearchOutputNamespaceTool.kt",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaToolSearchOutputNamespaceTool.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaWebSearchPreviewTool.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaWebSearchPreviewTool.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaWebSearchTool.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaWebSearchTool.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/Thread.kt",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 6,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fthreads%2FThread.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/ThreadCreateAndRunParams.kt",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 27,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fthreads%2FThreadCreateAndRunParams.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/ThreadCreateParams.kt",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 18,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fthreads%2FThreadCreateParams.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/ThreadUpdateParams.kt",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 6,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fthreads%2FThreadUpdateParams.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/messages/Message.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fthreads%2Fmessages%2FMessage.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/messages/MessageCreateParams.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fthreads%2Fmessages%2FMessageCreateParams.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/messages/MessageDelta.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fthreads%2Fmessages%2FMessageDelta.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/messages/TextDelta.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fthreads%2Fmessages%2FTextDelta.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/runs/RunCreateParams.kt",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 6,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fthreads%2Fruns%2FRunCreateParams.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/runs/steps/CodeInterpreterToolCallDelta.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fthreads%2Fruns%2Fsteps%2FCodeInterpreterToolCallDelta.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/runs/steps/FileSearchToolCall.kt",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fthreads%2Fruns%2Fsteps%2FFileSearchToolCall.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/threads/runs/steps/ToolCallDeltaObject.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fthreads%2Fruns%2Fsteps%2FToolCallDeltaObject.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/chat/completions/ChatCompletionAssistantMessageParam.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fchat%2Fcompletions%2FChatCompletionAssistantMessageParam.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/chat/completions/ChatCompletionChunk.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fchat%2Fcompletions%2FChatCompletionChunk.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/chat/completions/ChatCompletionMessage.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fchat%2Fcompletions%2FChatCompletionMessage.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/chat/completions/ChatCompletionStoreMessage.kt",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 5,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fchat%2Fcompletions%2FChatCompletionStoreMessage.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/completions/CompletionChoice.kt",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 10,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fcompletions%2FCompletionChoice.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/containers/ContainerCreateResponse.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fcontainers%2FContainerCreateResponse.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/containers/ContainerListResponse.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fcontainers%2FContainerListResponse.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/containers/ContainerRetrieveResponse.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fcontainers%2FContainerRetrieveResponse.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/evals/EvalCreateParams.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fevals%2FEvalCreateParams.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/evals/EvalCreateResponse.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fevals%2FEvalCreateResponse.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/evals/EvalListResponse.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fevals%2FEvalListResponse.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/evals/EvalRetrieveResponse.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fevals%2FEvalRetrieveResponse.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/evals/EvalUpdateResponse.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fevals%2FEvalUpdateResponse.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/evals/runs/CreateEvalCompletionsRunDataSource.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fevals%2Fruns%2FCreateEvalCompletionsRunDataSource.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/evals/runs/RunCancelResponse.kt",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 9,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fevals%2Fruns%2FRunCancelResponse.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/evals/runs/RunCreateParams.kt",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 9,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fevals%2Fruns%2FRunCreateParams.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/evals/runs/RunCreateResponse.kt",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 9,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fevals%2Fruns%2FRunCreateResponse.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/evals/runs/RunListResponse.kt",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 9,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fevals%2Fruns%2FRunListResponse.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/evals/runs/RunRetrieveResponse.kt",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 9,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fevals%2Fruns%2FRunRetrieveResponse.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/finetuning/jobs/FineTuningJob.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Ffinetuning%2Fjobs%2FFineTuningJob.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/finetuning/jobs/FineTuningJobWandbIntegration.kt",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Ffinetuning%2Fjobs%2FFineTuningJobWandbIntegration.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/finetuning/jobs/JobCreateParams.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Ffinetuning%2Fjobs%2FJobCreateParams.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/graders/gradermodels/ScoreModelGrader.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fgraders%2Fgradermodels%2FScoreModelGrader.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/images/ImagesResponse.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fimages%2FImagesResponse.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/live/ClientEvent.kt",
+          "status": "modified",
+          "additions": 189,
+          "deletions": 28,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Flive%2FClientEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/live/CommentaryAppendEvent.kt",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Flive%2FCommentaryAppendEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/live/DecisionCreateEvent.kt",
+          "status": "added",
+          "additions": 221,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Flive%2FDecisionCreateEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/live/DecisionEvent.kt",
+          "status": "added",
+          "additions": 822,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Flive%2FDecisionEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/live/DecisionItemCreateEvent.kt",
+          "status": "added",
+          "additions": 1859,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Flive%2FDecisionItemCreateEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/live/DecisionItemCreatedEvent.kt",
+          "status": "added",
+          "additions": 1893,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Flive%2FDecisionItemCreatedEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/live/DecisionItemDeleteEvent.kt",
+          "status": "added",
+          "additions": 264,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Flive%2FDecisionItemDeleteEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/live/DecisionItemDeletedEvent.kt",
+          "status": "added",
+          "additions": 298,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Flive%2FDecisionItemDeletedEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/live/DecisionTrigger.kt",
+          "status": "added",
+          "additions": 1979,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Flive%2FDecisionTrigger.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/live/DecisionsDelegationConfig.kt",
+          "status": "added",
+          "additions": 1598,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Flive%2FDecisionsDelegationConfig.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/live/DecisionsDelegationUpdateConfig.kt",
+          "status": "added",
+          "additions": 1587,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Flive%2FDecisionsDelegationUpdateConfig.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/live/DelegationCreatedEvent.kt",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 14,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Flive%2FDelegationCreatedEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/live/InputAudioMutedEvent.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Flive%2FInputAudioMutedEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/live/InputAudioUnmuteEvent.kt",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Flive%2FInputAudioUnmuteEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/live/InputAudioUnmutedEvent.kt",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Flive%2FInputAudioUnmutedEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/live/InstructionsAppendEvent.kt",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 2,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Flive%2FInstructionsAppendEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/live/MediaSessionConfig.kt",
+          "status": "modified",
+          "additions": 333,
+          "deletions": 11,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Flive%2FMediaSessionConfig.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/live/ResponsesDelegationConfig.kt",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/d0f7eb438d40592a3a32661a12106cc28253b71b/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Flive%2FResponsesDelegationConfig.kt"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39023795984,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39023795984",
+          "head_sha": "71916f9f8a456f3055b56b6b12d4334479fdc280"
+        },
+        {
+          "id": 39023760911,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39023760911",
+          "head_sha": "71916f9f8a456f3055b56b6b12d4334479fdc280"
+        },
+        {
+          "id": 39020714252,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39020714252",
+          "head_sha": "71916f9f8a456f3055b56b6b12d4334479fdc280"
+        },
+        {
+          "id": 39020688238,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39020688238",
+          "head_sha": "71916f9f8a456f3055b56b6b12d4334479fdc280"
+        },
+        {
+          "id": 39020626874,
+          "name": "Automatic Dependency Submission (Gradle)",
+          "path": "dynamic/dependency-graph/auto-submission",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39020626874",
+          "head_sha": "71916f9f8a456f3055b56b6b12d4334479fdc280"
+        },
+        {
+          "id": 39020624840,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39020624840",
+          "head_sha": "71916f9f8a456f3055b56b6b12d4334479fdc280"
+        },
+        {
+          "id": 39020624757,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39020624757",
+          "head_sha": "71916f9f8a456f3055b56b6b12d4334479fdc280"
+        },
+        {
+          "id": 39020624732,
+          "name": "Examples smoke test",
+          "path": ".github/workflows/examples.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39020624732",
+          "head_sha": "71916f9f8a456f3055b56b6b12d4334479fdc280"
+        },
+        {
+          "id": 39019711369,
+          "name": "Automatic Dependency Submission (Gradle)",
+          "path": "dynamic/dependency-graph/auto-submission",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39019711369",
+          "head_sha": "71916f9f8a456f3055b56b6b12d4334479fdc280"
+        },
+        {
+          "id": 39019709530,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39019709530",
+          "head_sha": "71916f9f8a456f3055b56b6b12d4334479fdc280"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39019150427,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39019150427",
+          "head_sha": "d0f7eb438d40592a3a32661a12106cc28253b71b"
+        },
+        {
+          "id": 39018800019,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39018800019",
+          "head_sha": "d0f7eb438d40592a3a32661a12106cc28253b71b"
+        },
+        {
+          "id": 39018237883,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39018237883",
+          "head_sha": "d0f7eb438d40592a3a32661a12106cc28253b71b"
+        },
+        {
+          "id": 39018237912,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39018237912",
+          "head_sha": "d0f7eb438d40592a3a32661a12106cc28253b71b"
+        },
+        {
+          "id": 39018234239,
+          "name": "Automatic Dependency Submission (Gradle)",
+          "path": "dynamic/dependency-graph/auto-submission",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39018234239",
+          "head_sha": "d0f7eb438d40592a3a32661a12106cc28253b71b"
+        }
+      ]
+    },
+    {
+      "number": 1212,
+      "title": "chore(api): add Assistants model shutdown notices",
+      "url": "https://github.com/openai/openai-java/pull/1212",
+      "merged_at": "2026-10-17T06:22:40Z",
+      "merge_commit_sha": "224aec1fa1b57dbbc8938778e47e66cb8ea73ea8",
+      "files": [
+        ".castiron.stats.yml",
+        "api_reference/openapi.transformed.yml",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/assistants/AssistantUpdateParams.kt",
+        "scripts/castiron/generated-files.json"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".castiron.stats.yml",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 6,
+          "blob_url": "https://github.com/openai/openai-java/blob/eed7075f7afbdb076d0808a8ffe786acf5b19032/.castiron.stats.yml"
+        },
+        {
+          "filename": "api_reference/openapi.transformed.yml",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-java/blob/eed7075f7afbdb076d0808a8ffe786acf5b19032/api_reference%2Fopenapi.transformed.yml"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/assistants/AssistantUpdateParams.kt",
+          "status": "modified",
+          "additions": 44,
+          "deletions": 4,
+          "blob_url": "https://github.com/openai/openai-java/blob/eed7075f7afbdb076d0808a8ffe786acf5b19032/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fassistants%2FAssistantUpdateParams.kt"
+        },
+        {
+          "filename": "scripts/castiron/generated-files.json",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/openai/openai-java/blob/eed7075f7afbdb076d0808a8ffe786acf5b19032/scripts%2Fcastiron%2Fgenerated-files.json"
+        }
+      ],
+      "review_states": [
+        "APPROVED",
+        "APPROVED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39019720697,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39019720697",
+          "head_sha": "224aec1fa1b57dbbc8938778e47e66cb8ea73ea8"
+        },
+        {
+          "id": 39019183218,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39019183218",
+          "head_sha": "224aec1fa1b57dbbc8938778e47e66cb8ea73ea8"
+        },
+        {
+          "id": 39018830983,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39018830983",
+          "head_sha": "224aec1fa1b57dbbc8938778e47e66cb8ea73ea8"
+        },
+        {
+          "id": 39018269439,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39018269439",
+          "head_sha": "224aec1fa1b57dbbc8938778e47e66cb8ea73ea8"
+        },
+        {
+          "id": 39012226613,
+          "name": "Runtime compatibility",
+          "path": ".github/workflows/runtime-compatibility.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39012226613",
+          "head_sha": "224aec1fa1b57dbbc8938778e47e66cb8ea73ea8"
+        },
+        {
+          "id": 39010837134,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39010837134",
+          "head_sha": "224aec1fa1b57dbbc8938778e47e66cb8ea73ea8"
+        },
+        {
+          "id": 39009787918,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39009787918",
+          "head_sha": "224aec1fa1b57dbbc8938778e47e66cb8ea73ea8"
+        },
+        {
+          "id": 39009756828,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39009756828",
+          "head_sha": "224aec1fa1b57dbbc8938778e47e66cb8ea73ea8"
+        },
+        {
+          "id": 39009679209,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39009679209",
+          "head_sha": "224aec1fa1b57dbbc8938778e47e66cb8ea73ea8"
+        },
+        {
+          "id": 39009678606,
+          "name": "Automatic Dependency Submission (Gradle)",
+          "path": "dynamic/dependency-graph/auto-submission",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39009678606",
+          "head_sha": "224aec1fa1b57dbbc8938778e47e66cb8ea73ea8"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39008121600,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39008121600",
+          "head_sha": "eed7075f7afbdb076d0808a8ffe786acf5b19032"
+        },
+        {
+          "id": 39008058841,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39008058841",
+          "head_sha": "eed7075f7afbdb076d0808a8ffe786acf5b19032"
+        },
+        {
+          "id": 39008058873,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39008058873",
+          "head_sha": "eed7075f7afbdb076d0808a8ffe786acf5b19032"
+        },
+        {
+          "id": 39008057383,
+          "name": "Automatic Dependency Submission (Gradle)",
+          "path": "dynamic/dependency-graph/auto-submission",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39008057383",
+          "head_sha": "eed7075f7afbdb076d0808a8ffe786acf5b19032"
+        }
+      ]
+    },
+    {
+      "number": 1211,
+      "title": "chore(api): add shutdown notices for GPT-4 model aliases",
+      "url": "https://github.com/openai/openai-java/pull/1211",
+      "merged_at": "2026-10-17T04:31:05Z",
+      "merge_commit_sha": "ef1bcd55ef8a6ac630547f940235d0a9827c2174",
+      "files": [
+        ".castiron.stats.yml",
+        "api_reference/openapi.transformed.yml",
+        "openai-java-core/src/main/kotlin/com/openai/models/ChatModel.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponse.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponsesClientEvent.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/ResponseCompactParams.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/ResponseCreateParams.kt",
+        "openai-java-core/src/main/kotlin/com/openai/models/responses/ResponseCompactParams.kt",
+        "scripts/castiron/generated-files.json"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".castiron.stats.yml",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 6,
+          "blob_url": "https://github.com/openai/openai-java/blob/8d7fc9370f6225e864542f249ab79f826523bfdd/.castiron.stats.yml"
+        },
+        {
+          "filename": "api_reference/openapi.transformed.yml",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/openai/openai-java/blob/8d7fc9370f6225e864542f249ab79f826523bfdd/api_reference%2Fopenapi.transformed.yml"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/ChatModel.kt",
+          "status": "modified",
+          "additions": 44,
+          "deletions": 4,
+          "blob_url": "https://github.com/openai/openai-java/blob/8d7fc9370f6225e864542f249ab79f826523bfdd/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2FChatModel.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponse.kt",
+          "status": "modified",
+          "additions": 44,
+          "deletions": 4,
+          "blob_url": "https://github.com/openai/openai-java/blob/8d7fc9370f6225e864542f249ab79f826523bfdd/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaResponse.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/BetaResponsesClientEvent.kt",
+          "status": "modified",
+          "additions": 44,
+          "deletions": 4,
+          "blob_url": "https://github.com/openai/openai-java/blob/8d7fc9370f6225e864542f249ab79f826523bfdd/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FBetaResponsesClientEvent.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/ResponseCompactParams.kt",
+          "status": "modified",
+          "additions": 44,
+          "deletions": 4,
+          "blob_url": "https://github.com/openai/openai-java/blob/8d7fc9370f6225e864542f249ab79f826523bfdd/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FResponseCompactParams.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/beta/responses/ResponseCreateParams.kt",
+          "status": "modified",
+          "additions": 44,
+          "deletions": 4,
+          "blob_url": "https://github.com/openai/openai-java/blob/8d7fc9370f6225e864542f249ab79f826523bfdd/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fbeta%2Fresponses%2FResponseCreateParams.kt"
+        },
+        {
+          "filename": "openai-java-core/src/main/kotlin/com/openai/models/responses/ResponseCompactParams.kt",
+          "status": "modified",
+          "additions": 44,
+          "deletions": 4,
+          "blob_url": "https://github.com/openai/openai-java/blob/8d7fc9370f6225e864542f249ab79f826523bfdd/openai-java-core%2Fsrc%2Fmain%2Fkotlin%2Fcom%2Fopenai%2Fmodels%2Fresponses%2FResponseCompactParams.kt"
+        },
+        {
+          "filename": "scripts/castiron/generated-files.json",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 6,
+          "blob_url": "https://github.com/openai/openai-java/blob/8d7fc9370f6225e864542f249ab79f826523bfdd/scripts%2Fcastiron%2Fgenerated-files.json"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED",
+        "APPROVED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39008971176,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39008971176",
+          "head_sha": "ef1bcd55ef8a6ac630547f940235d0a9827c2174"
+        },
+        {
+          "id": 39008149716,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39008149716",
+          "head_sha": "ef1bcd55ef8a6ac630547f940235d0a9827c2174"
+        },
+        {
+          "id": 39008088025,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39008088025",
+          "head_sha": "ef1bcd55ef8a6ac630547f940235d0a9827c2174"
+        },
+        {
+          "id": 39004980514,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39004980514",
+          "head_sha": "ef1bcd55ef8a6ac630547f940235d0a9827c2174"
+        },
+        {
+          "id": 39004188636,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39004188636",
+          "head_sha": "ef1bcd55ef8a6ac630547f940235d0a9827c2174"
+        },
+        {
+          "id": 39004157368,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39004157368",
+          "head_sha": "ef1bcd55ef8a6ac630547f940235d0a9827c2174"
+        },
+        {
+          "id": 39002963783,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39002963783",
+          "head_sha": "ef1bcd55ef8a6ac630547f940235d0a9827c2174"
+        },
+        {
+          "id": 39002931154,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39002931154",
+          "head_sha": "ef1bcd55ef8a6ac630547f940235d0a9827c2174"
+        },
+        {
+          "id": 39002868519,
+          "name": "Automatic Dependency Submission (Gradle)",
+          "path": "dynamic/dependency-graph/auto-submission",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39002868519",
+          "head_sha": "ef1bcd55ef8a6ac630547f940235d0a9827c2174"
+        },
+        {
+          "id": 39002865011,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39002865011",
+          "head_sha": "ef1bcd55ef8a6ac630547f940235d0a9827c2174"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39001209067,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39001209067",
+          "head_sha": "8d7fc9370f6225e864542f249ab79f826523bfdd"
+        },
+        {
+          "id": 39001209767,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39001209767",
+          "head_sha": "8d7fc9370f6225e864542f249ab79f826523bfdd"
+        },
+        {
+          "id": 39001091510,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39001091510",
+          "head_sha": "8d7fc9370f6225e864542f249ab79f826523bfdd"
+        },
+        {
+          "id": 39001091441,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39001091441",
+          "head_sha": "8d7fc9370f6225e864542f249ab79f826523bfdd"
+        },
+        {
+          "id": 39001087526,
+          "name": "Automatic Dependency Submission (Gradle)",
+          "path": "dynamic/dependency-graph/auto-submission",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/39001087526",
+          "head_sha": "8d7fc9370f6225e864542f249ab79f826523bfdd"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v4.83.0",
+      "url": "https://github.com/openai/openai-java/releases/tag/v4.83.0",
+      "published_at": "2026-10-16T23:48:19Z",
+      "target_commitish": "05c1a2d5d88f05fecadb72a954d54e6a0397a579",
+      "commit_sha": "05c1a2d5d88f05fecadb72a954d54e6a0397a579",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38997306775,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38997306775",
+          "head_sha": "05c1a2d5d88f05fecadb72a954d54e6a0397a579"
+        },
+        {
+          "id": 38996565463,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38996565463",
+          "head_sha": "05c1a2d5d88f05fecadb72a954d54e6a0397a579"
+        },
+        {
+          "id": 38995705249,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38995705249",
+          "head_sha": "05c1a2d5d88f05fecadb72a954d54e6a0397a579"
+        },
+        {
+          "id": 38995638074,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38995638074",
+          "head_sha": "05c1a2d5d88f05fecadb72a954d54e6a0397a579"
+        },
+        {
+          "id": 38983305562,
+          "name": "Automatic Dependency Submission (Gradle)",
+          "path": "dynamic/dependency-graph/auto-submission",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38983305562",
+          "head_sha": "05c1a2d5d88f05fecadb72a954d54e6a0397a579"
+        },
+        {
+          "id": 38983306242,
+          "name": "Examples smoke test",
+          "path": ".github/workflows/examples.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38983306242",
+          "head_sha": "05c1a2d5d88f05fecadb72a954d54e6a0397a579"
+        },
+        {
+          "id": 38983306234,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38983306234",
+          "head_sha": "05c1a2d5d88f05fecadb72a954d54e6a0397a579"
+        },
+        {
+          "id": 38983306324,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38983306324",
+          "head_sha": "05c1a2d5d88f05fecadb72a954d54e6a0397a579"
+        },
+        {
+          "id": 38982272551,
+          "name": "Automatic Dependency Submission (Gradle)",
+          "path": "dynamic/dependency-graph/auto-submission",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38982272551",
+          "head_sha": "05c1a2d5d88f05fecadb72a954d54e6a0397a579"
+        },
+        {
+          "id": 38982266062,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38982266062",
+          "head_sha": "05c1a2d5d88f05fecadb72a954d54e6a0397a579"
+        }
+      ]
+    },
+    {
+      "tag": "v4.82.0",
+      "url": "https://github.com/openai/openai-java/releases/tag/v4.82.0",
+      "published_at": "2026-10-15T20:29:50Z",
+      "target_commitish": "75b46c0b774cadd323b9b31d24ce150a56700d91",
+      "commit_sha": "75b46c0b774cadd323b9b31d24ce150a56700d91",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38829460994,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38829460994",
+          "head_sha": "75b46c0b774cadd323b9b31d24ce150a56700d91"
+        },
+        {
+          "id": 38821281267,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38821281267",
+          "head_sha": "75b46c0b774cadd323b9b31d24ce150a56700d91"
+        },
+        {
+          "id": 38813993405,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38813993405",
+          "head_sha": "75b46c0b774cadd323b9b31d24ce150a56700d91"
+        },
+        {
+          "id": 38802370706,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38802370706",
+          "head_sha": "75b46c0b774cadd323b9b31d24ce150a56700d91"
+        },
+        {
+          "id": 38802370913,
+          "name": "Examples smoke test",
+          "path": ".github/workflows/examples.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38802370913",
+          "head_sha": "75b46c0b774cadd323b9b31d24ce150a56700d91"
+        },
+        {
+          "id": 38802370930,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38802370930",
+          "head_sha": "75b46c0b774cadd323b9b31d24ce150a56700d91"
+        },
+        {
+          "id": 38802367460,
+          "name": "Automatic Dependency Submission (Gradle)",
+          "path": "dynamic/dependency-graph/auto-submission",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38802367460",
+          "head_sha": "75b46c0b774cadd323b9b31d24ce150a56700d91"
+        },
+        {
+          "id": 38800297268,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38800297268",
+          "head_sha": "75b46c0b774cadd323b9b31d24ce150a56700d91"
+        },
+        {
+          "id": 38800297650,
+          "name": "Automatic Dependency Submission (Gradle)",
+          "path": "dynamic/dependency-graph/auto-submission",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38800297650",
+          "head_sha": "75b46c0b774cadd323b9b31d24ce150a56700d91"
+        },
+        {
+          "id": 38800297170,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38800297170",
+          "head_sha": "75b46c0b774cadd323b9b31d24ce150a56700d91"
+        }
+      ]
+    },
+    {
+      "tag": "v4.81.0",
+      "url": "https://github.com/openai/openai-java/releases/tag/v4.81.0",
+      "published_at": "2026-10-13T15:27:21Z",
+      "target_commitish": "a24ccd7bef8d9f3f4f172ee5b2e4723556c02121",
+      "commit_sha": "a24ccd7bef8d9f3f4f172ee5b2e4723556c02121",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38429624261,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38429624261",
+          "head_sha": "a24ccd7bef8d9f3f4f172ee5b2e4723556c02121"
+        },
+        {
+          "id": 38428779112,
+          "name": "Castiron custom code comment",
+          "path": ".github/workflows/castiron-custom-code-comment.yml",
+          "event": "workflow_run",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38428779112",
+          "head_sha": "a24ccd7bef8d9f3f4f172ee5b2e4723556c02121"
+        },
+        {
+          "id": 38422162960,
+          "name": "Create releases",
+          "path": ".github/workflows/create-releases.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38422162960",
+          "head_sha": "a24ccd7bef8d9f3f4f172ee5b2e4723556c02121"
+        },
+        {
+          "id": 38422162611,
+          "name": "Examples smoke test",
+          "path": ".github/workflows/examples.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38422162611",
+          "head_sha": "a24ccd7bef8d9f3f4f172ee5b2e4723556c02121"
+        },
+        {
+          "id": 38422162685,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38422162685",
+          "head_sha": "a24ccd7bef8d9f3f4f172ee5b2e4723556c02121"
+        },
+        {
+          "id": 38420858881,
+          "name": "Automatic Dependency Submission (Gradle)",
+          "path": "dynamic/dependency-graph/auto-submission",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38420858881",
+          "head_sha": "a24ccd7bef8d9f3f4f172ee5b2e4723556c02121"
+        },
+        {
+          "id": 38420859394,
+          "name": "Castiron custom code",
+          "path": ".github/workflows/castiron-custom-code.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38420859394",
+          "head_sha": "a24ccd7bef8d9f3f4f172ee5b2e4723556c02121"
+        },
+        {
+          "id": 38420859530,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "event": "merge_group",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/openai/openai-java/actions/runs/38420859530",
+          "head_sha": "a24ccd7bef8d9f3f4f172ee5b2e4723556c02121"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v4.83.0",
+      "sha": "05c1a2d5d88f05fecadb72a954d54e6a0397a579"
+    },
+    {
+      "name": "v4.82.0",
+      "sha": "75b46c0b774cadd323b9b31d24ce150a56700d91"
+    },
+    {
+      "name": "v4.81.0",
+      "sha": "a24ccd7bef8d9f3f4f172ee5b2e4723556c02121"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:16:40.890587+00:00",
+  "source_times": {
+    "/repos/openai/openai-java": "2026-10-17T16:03:37.050135+00:00",
+    "/repos/openai/openai-java/commits?sha=main&per_page=20": "2026-10-17T16:03:39.261029+00:00",
+    "/repos/openai/openai-java/git/trees/71916f9f8a456f3055b56b6b12d4334479fdc280": "2026-10-17T16:03:40.708140+00:00",
+    "/repos/openai/openai-java/git/trees/0d177cc5f972f4afb2a0979ac3dfbc364e13e8a2": "2026-10-17T16:03:42.152355+00:00",
+    "/repos/openai/openai-java/git/trees/28e1ec89dce790b8e1f55a3ca7486e41a52836dc": "2026-10-17T16:03:43.585186+00:00",
+    "/repos/openai/openai-java/git/trees/6badaf573abf5a30b2938c81ed7129de97b05223": "2026-10-17T16:03:45.018044+00:00",
+    "/repos/openai/openai-java/git/blobs/c782f54e07c10a49bb91815b342d2e53098ff839": "2026-10-17T16:03:47.953804+00:00",
+    "/repos/openai/openai-java/git/blobs/86eecb2976c34dd280adb2a0c2ca8ff242e52e91": "2026-10-17T16:03:49.519305+00:00",
+    "/repos/openai/openai-java/git/blobs/a1d7e0770569ee1659d301ccbf3da6543f4174f0": "2026-10-17T16:03:52.113377+00:00",
+    "/repos/openai/openai-java/git/blobs/a29208ea6001e2bf7caa3019a0e43e098f8c25a0": "2026-10-17T16:03:54.789779+00:00",
+    "/repos/openai/openai-java/git/blobs/1813fdd8404a8dc67ae37ebb53dc401671a1745d": "2026-10-17T16:03:57.926175+00:00",
+    "/repos/openai/openai-java/git/blobs/13cc95c7a5521fa5e6c1be49d5a14896ebe2b508": "2026-10-17T16:03:59.368121+00:00",
+    "/repos/openai/openai-java/git/blobs/d13c6399e22e1d4eda354f6af0fbfaee3b075db7": "2026-10-17T16:04:03.708505+00:00",
+    "/repos/openai/openai-java/git/blobs/d58c8454c5ee826d54d1b73e96ab0935d285bb6b": "2026-10-17T16:04:05.094910+00:00",
+    "/repos/openai/openai-java/git/blobs/6c77c5380caa296864ef0f27bc24fce3b159b4d6": "2026-10-17T16:04:06.479302+00:00",
+    "/repos/openai/openai-java/git/blobs/c8ef687b288d859a8141e92873e348c5fd8df16f": "2026-10-17T16:04:08.204446+00:00",
+    "/repos/openai/openai-java/git/blobs/ea996db743307b553ef26464a85c130d8c886326": "2026-10-17T16:04:10.074542+00:00",
+    "/repos/openai/openai-java/git/blobs/43f3a1da2adab96f2f0bc4acc3d16f6ba60336f8": "2026-10-17T16:04:11.662012+00:00",
+    "/repos/openai/openai-java/git/blobs/0fb4c3c759d0ea1387be7e5d1eb5b69df48258b5": "2026-10-17T16:04:14.028348+00:00",
+    "/repos/openai/openai-java/git/blobs/8582ee88be12c9ea013fd538df0a4b0b7715d166": "2026-10-17T16:04:15.381146+00:00",
+    "/repos/openai/openai-java/git/blobs/b1ed0e816e7cc8ab6fc8f01de93b6e1dfaf8ef89": "2026-10-17T16:04:16.920371+00:00",
+    "/repos/openai/openai-java/git/blobs/98e09de5d6937fef5db94ec1559da60ced06091d": "2026-10-17T16:04:19.280702+00:00",
+    "/repos/openai/openai-java/git/blobs/9bed96f97f2ddd4d69efebd87d63b4863978f90d": "2026-10-17T16:04:20.618692+00:00",
+    "/repos/openai/openai-java/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:04:23.953229+00:00",
+    "/repos/openai/openai-java/pulls/1213/files?per_page=100": "2026-10-17T16:04:26.692884+00:00",
+    "/repos/openai/openai-java/pulls/1213/reviews?per_page=100": "2026-10-17T16:04:28.174545+00:00",
+    "/repos/openai/openai-java/actions/runs?head_sha=71916f9f8a456f3055b56b6b12d4334479fdc280&per_page=10": "2026-10-17T16:04:30.418889+00:00",
+    "/repos/openai/openai-java/actions/runs?head_sha=d0f7eb438d40592a3a32661a12106cc28253b71b&per_page=10": "2026-10-17T16:04:32.276243+00:00",
+    "/repos/openai/openai-java/pulls/1212/files?per_page=100": "2026-10-17T16:04:36.283897+00:00",
+    "/repos/openai/openai-java/pulls/1212/reviews?per_page=100": "2026-10-17T16:04:37.856154+00:00",
+    "/repos/openai/openai-java/actions/runs?head_sha=224aec1fa1b57dbbc8938778e47e66cb8ea73ea8&per_page=10": "2026-10-17T16:04:40.003666+00:00",
+    "/repos/openai/openai-java/actions/runs?head_sha=eed7075f7afbdb076d0808a8ffe786acf5b19032&per_page=10": "2026-10-17T16:04:41.778458+00:00",
+    "/repos/openai/openai-java/pulls/1211/files?per_page=100": "2026-10-17T16:04:43.978557+00:00",
+    "/repos/openai/openai-java/pulls/1211/reviews?per_page=100": "2026-10-17T16:04:45.784901+00:00",
+    "/repos/openai/openai-java/actions/runs?head_sha=ef1bcd55ef8a6ac630547f940235d0a9827c2174&per_page=10": "2026-10-17T16:04:48.112621+00:00",
+    "/repos/openai/openai-java/actions/runs?head_sha=8d7fc9370f6225e864542f249ab79f826523bfdd&per_page=10": "2026-10-17T16:04:49.939337+00:00",
+    "/repos/openai/openai-java/releases?per_page=20&page=1": "2026-10-17T16:16:40.716443+00:00",
+    "/repos/openai/openai-java/commits/v4.83.0": "2026-10-17T16:04:55.115532+00:00",
+    "/repos/openai/openai-java/actions/runs?head_sha=05c1a2d5d88f05fecadb72a954d54e6a0397a579&per_page=10": "2026-10-17T16:04:57.483397+00:00",
+    "/repos/openai/openai-java/commits/v4.82.0": "2026-10-17T16:05:01.886314+00:00",
+    "/repos/openai/openai-java/actions/runs?head_sha=75b46c0b774cadd323b9b31d24ce150a56700d91&per_page=10": "2026-10-17T16:05:04.150814+00:00",
+    "/repos/openai/openai-java/commits/v4.81.0": "2026-10-17T16:05:08.455991+00:00",
+    "/repos/openai/openai-java/actions/runs?head_sha=a24ccd7bef8d9f3f4f172ee5b2e4723556c02121&per_page=10": "2026-10-17T16:05:10.555136+00:00",
+    "/repos/openai/openai-java/tags?per_page=3": "2026-10-17T16:05:11.958521+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:16:40.716443+00:00",
+  "status": "collected"
+}

@@ -1,0 +1,2092 @@
+{
+  "requested_repository": "modelcontextprotocol/python-sdk",
+  "category": "agents",
+  "collected_at": "2026-10-17T16:07:01.967135+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "modelcontextprotocol/python-sdk",
+  "metadata": {
+    "html_url": "https://github.com/modelcontextprotocol/python-sdk",
+    "description": "The official Python SDK for Model Context Protocol servers and clients",
+    "homepage": "https://py.sdk.modelcontextprotocol.io/",
+    "language": "Python",
+    "stargazers_count": 24596,
+    "forks_count": 4126,
+    "open_issues_count": 359,
+    "pushed_at": "2026-10-17T13:54:39Z",
+    "created_at": "2024-09-24T21:01:35Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [
+      "mcp",
+      "mcp-client",
+      "mcp-server",
+      "python"
+    ],
+    "owner": {
+      "login": "modelcontextprotocol",
+      "type": "Organization",
+      "html_url": "https://github.com/modelcontextprotocol"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "2af9e3089ac66b35c1550c500aae86a82efb1e17",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/2af9e3089ac66b35c1550c500aae86a82efb1e17",
+      "date": "2026-10-17T13:54:35Z",
+      "subject": "Give each SSE response its own header list (#3726)"
+    },
+    {
+      "sha": "9f66f376d486e84e9810b368cf8be9d5908661ab",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/9f66f376d486e84e9810b368cf8be9d5908661ab",
+      "date": "2026-10-16T11:08:26Z",
+      "subject": "Add cache fields to directory read and `_meta` to `Skill` (#3719)"
+    },
+    {
+      "sha": "754254c08fe1c3eda18b69da3d336106fe8d72d6",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/754254c08fe1c3eda18b69da3d336106fe8d72d6",
+      "date": "2026-10-13T09:20:58Z",
+      "subject": "Return invalid params for unknown prompts and missing arguments (#3696)"
+    },
+    {
+      "sha": "9db497ed31e7b8a87febe0f3bb8c2ba35e4f21dc",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/9db497ed31e7b8a87febe0f3bb8c2ba35e4f21dc",
+      "date": "2026-10-13T08:59:41Z",
+      "subject": "Read MCP Apps tool results from notification params (#3679)"
+    },
+    {
+      "sha": "c9356a2a8fb805ac2202e44c05371cf005edc923",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/c9356a2a8fb805ac2202e44c05371cf005edc923",
+      "date": "2026-10-12T12:37:35Z",
+      "subject": "Update httpx2 and datamodel-code-generator (#3645)"
+    },
+    {
+      "sha": "c4492554da517f93ddd52b072d9c4d07292f1161",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/c4492554da517f93ddd52b072d9c4d07292f1161",
+      "date": "2026-10-12T12:16:21Z",
+      "subject": "Drop support for Python 3.10 (#3690)"
+    },
+    {
+      "sha": "9535c0e81a8bd373d4172067a73c1deab4d4b639",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/9535c0e81a8bd373d4172067a73c1deab4d4b639",
+      "date": "2026-10-12T12:13:14Z",
+      "subject": "Update uv to 0.12.24 across the project (#3689)"
+    },
+    {
+      "sha": "3ecd2af67b09cdc9309d3b3e50606f83b2deda35",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/3ecd2af67b09cdc9309d3b3e50606f83b2deda35",
+      "date": "2026-10-12T11:48:15Z",
+      "subject": "Add support for Python 3.15 (#3688)"
+    },
+    {
+      "sha": "4b5fe5afeb5a6391a167d124d8ee0c21a5f2abec",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/4b5fe5afeb5a6391a167d124d8ee0c21a5f2abec",
+      "date": "2026-10-11T14:45:05Z",
+      "subject": "Remove unused chatbot stdio context attribute (#3678)"
+    },
+    {
+      "sha": "9a754b0aabb873d9707d52dc165b569fb442ec8c",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/9a754b0aabb873d9707d52dc165b569fb442ec8c",
+      "date": "2026-10-11T14:44:19Z",
+      "subject": "Add `Skills` extension (#3485)"
+    },
+    {
+      "sha": "91941ed4d3985d59def99e090baa3f880c626cc8",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/91941ed4d3985d59def99e090baa3f880c626cc8",
+      "date": "2026-10-05T13:22:35Z",
+      "subject": "Bump pyjwt from 2.13.0 to 2.15.0 (#3608)"
+    },
+    {
+      "sha": "2118f14f8a19bc158d8a1cf90af58d85d187f849",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/2118f14f8a19bc158d8a1cf90af58d85d187f849",
+      "date": "2026-10-02T21:56:10Z",
+      "subject": "docs: refresh translations for recent English changes (#3636)"
+    },
+    {
+      "sha": "ed9b2d61823b3800de4c48abb23b951ad3a50834",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/ed9b2d61823b3800de4c48abb23b951ad3a50834",
+      "date": "2026-10-02T21:40:58Z",
+      "subject": "Stop counting an interactive OAuth login against request timeouts (#3635)"
+    },
+    {
+      "sha": "d5cebd13defe97bf5bacb93496f132d4173cda23",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/d5cebd13defe97bf5bacb93496f132d4173cda23",
+      "date": "2026-10-02T21:17:49Z",
+      "subject": "Keep inline-snapshot disabled when pytest runs in a terminal (#3634)"
+    },
+    {
+      "sha": "c15566c9dd4828b8082fb7693060e3a0fd67e657",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/c15566c9dd4828b8082fb7693060e3a0fd67e657",
+      "date": "2026-10-02T17:51:17Z",
+      "subject": "Link What's new to the Header parameters page (#3632)"
+    },
+    {
+      "sha": "4d29994023576e4b04e06c9ff2f32757abc50463",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/4d29994023576e4b04e06c9ff2f32757abc50463",
+      "date": "2026-10-02T17:51:00Z",
+      "subject": "Let a newer Deploy Docs run cancel the one in progress (#3633)"
+    },
+    {
+      "sha": "0acea605135759a2228a33eaa7d792fea2c2282b",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/0acea605135759a2228a33eaa7d792fea2c2282b",
+      "date": "2026-10-02T15:58:15Z",
+      "subject": "Bump urllib3 from 2.7.0 to 2.8.0 (#3607)"
+    },
+    {
+      "sha": "c54075ccb8793e9b0d37f0c9e2c58dfd0256c23d",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/c54075ccb8793e9b0d37f0c9e2c58dfd0256c23d",
+      "date": "2026-10-02T14:15:39Z",
+      "subject": "Look the tool schema up by name for Mcp-Param-* validation instead of running tools/list (#3630)"
+    },
+    {
+      "sha": "9afccae3d0bff4062add01b7fb746634b9aad2a7",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/9afccae3d0bff4062add01b7fb746634b9aad2a7",
+      "date": "2026-10-02T14:02:49Z",
+      "subject": "Retry a tool call once after a HeaderMismatch rejection (#3627)"
+    },
+    {
+      "sha": "cafa33b3530b0af2e4a8467d11f92bc1cb00368e",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/commit/cafa33b3530b0af2e4a8467d11f92bc1cb00368e",
+      "date": "2026-10-02T13:53:06Z",
+      "subject": "Record JSON-RPC error responses on the client OpenTelemetry span (#3629)"
+    }
+  ],
+  "default_sha": "2af9e3089ac66b35c1550c500aae86a82efb1e17",
+  "root_and_selected_directory_paths": [
+    ".claude",
+    ".git-blame-ignore-revs",
+    ".gitattributes",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug.yaml",
+    ".github/ISSUE_TEMPLATE/config.yaml",
+    ".github/ISSUE_TEMPLATE/feature-request.yaml",
+    ".github/ISSUE_TEMPLATE/question.yaml",
+    ".github/ISSUE_TEMPLATE/v2-feedback.yaml",
+    ".github/actions",
+    ".github/dependabot.yml",
+    ".github/pull_request_template.md",
+    ".github/scripts",
+    ".github/workflows",
+    ".github/workflows/claude.yml",
+    ".github/workflows/conformance.yml",
+    ".github/workflows/deploy-docs.yml",
+    ".github/workflows/docs-preview-cleanup.yml",
+    ".github/workflows/docs-preview.yml",
+    ".github/workflows/main.yml",
+    ".github/workflows/publish-pypi.yml",
+    ".github/workflows/require-linked-issue.yml",
+    ".github/workflows/shared.yml",
+    ".github/workflows/zizmor.yml",
+    ".gitignore",
+    ".pre-commit-config.yaml",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "DEPENDENCY_POLICY.md",
+    "LICENSE",
+    "README.md",
+    "RELEASE.md",
+    "ROADMAP.md",
+    "SECURITY.md",
+    "VERSIONING.md",
+    "docs",
+    "docs/.overrides",
+    "docs/advanced",
+    "docs/client",
+    "docs/deprecated.md",
+    "docs/extra.css",
+    "docs/favicon.svg",
+    "docs/get-started",
+    "docs/handlers",
+    "docs/index.md",
+    "docs/js",
+    "docs/migration.md",
+    "docs/protocol-versions.md",
+    "docs/run",
+    "docs/servers",
+    "docs/translations.md",
+    "docs/troubleshooting.md",
+    "docs/whats-new.md",
+    "docs_src",
+    "examples",
+    "i18n",
+    "mkdocs.yml",
+    "pyproject.toml",
+    "schema",
+    "scripts",
+    "src",
+    "tests",
+    "uv.lock"
+  ],
+  "workflow_paths": [
+    ".github/workflows/publish-pypi.yml",
+    ".github/workflows/claude.yml",
+    ".github/workflows/conformance.yml",
+    ".github/workflows/deploy-docs.yml",
+    ".github/workflows/docs-preview-cleanup.yml",
+    ".github/workflows/docs-preview.yml",
+    ".github/workflows/main.yml",
+    ".github/workflows/require-linked-issue.yml",
+    ".github/workflows/shared.yml",
+    ".github/workflows/zizmor.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "4a94783bea501b7f3d2a8a0c9611f9fbdb1fd280",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/AGENTS.md",
+      "lines": 166,
+      "signals": {
+        "tests": [
+          37,
+          63,
+          70,
+          88,
+          110
+        ],
+        "lint": [
+          152,
+          153,
+          155,
+          156
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha": "43c994c2d3617f947bcb5adf1933e21dabe46bb5",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/CLAUDE.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "985a28566c0c986d2a6317a2ea4abe0083193900",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/CODE_OF_CONDUCT.md",
+      "lines": 128,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "005cf2360d66b484bc811241a3b43c83cba0e456",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/CONTRIBUTING.md",
+      "lines": 192,
+      "signals": {
+        "tests": [
+          116
+        ],
+        "lint": [
+          91,
+          94,
+          128,
+          129,
+          138,
+          141,
+          148
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          77
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          30,
+          60,
+          68
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "50ea0ed227b72de82917d67d678d1d24783ab2e9",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/README.md",
+      "lines": 126,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          115,
+          117,
+          119,
+          121,
+          123,
+          125
+        ],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "RELEASE.md",
+      "sha": "cada37480cb810a1fa3be653e06e4a0160e7e764",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/RELEASE.md",
+      "lines": 139,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          20,
+          35,
+          68,
+          103,
+          131
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "5a69875124adf2ab3a8d5bccc58f6545b0c9712a",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/SECURITY.md",
+      "lines": 35,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          22,
+          25
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "6d7626d79b4a78c66e5dd1837b28530e677a0d34",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/pyproject.toml",
+      "lines": 340,
+      "signals": {
+        "tests": [
+          65,
+          68,
+          69,
+          70,
+          71,
+          259,
+          279,
+          288,
+          289
+        ],
+        "lint": [
+          66,
+          206,
+          210,
+          220,
+          224,
+          229,
+          232,
+          243,
+          340
+        ],
+        "generated_code": [
+          114
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug.yaml",
+      "sha": "42b2d4b16b6a71eb4fdb1893e7ce0a69771f9c14",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/.github/ISSUE_TEMPLATE/bug.yaml",
+      "lines": 68,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yaml",
+      "sha": "3ba13e0cec6cbbfd462e9ebf529dd2093148cd69",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/.github/ISSUE_TEMPLATE/config.yaml",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature-request.yaml",
+      "sha": "bec9b77b154627bbc9c49c72841629c9ec7e5dd5",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/.github/ISSUE_TEMPLATE/feature-request.yaml",
+      "lines": 29,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/question.yaml",
+      "sha": "87a7894f120c5620126fce3f8ffbf7fc0451eea6",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/.github/ISSUE_TEMPLATE/question.yaml",
+      "lines": 33,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/v2-feedback.yaml",
+      "sha": "cfa699698955fc882c223b0b3929a37f4a259222",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/.github/ISSUE_TEMPLATE/v2-feedback.yaml",
+      "lines": 59,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha": "754d5b0a57463896ed27125dfff72d2910e7e9fd",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/.github/dependabot.yml",
+      "lines": 26,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha": "d32f0079f5d79f75f75c5dcea292f2c87cf42369",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/.github/pull_request_template.md",
+      "lines": 38,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/publish-pypi.yml",
+      "sha": "86b2aeab2159c7f9159cf46088f0798f65423513",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/.github/workflows/publish-pypi.yml",
+      "lines": 64,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          59,
+          60
+        ],
+        "permissions": [
+          7,
+          49,
+          50
+        ],
+        "pinned_actions": [
+          16,
+          21,
+          35,
+          54,
+          60
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "sha": "ace6ed4d5bf64daa5e2081e3bff83a100c17599a",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/.github/workflows/claude.yml",
+      "lines": 42,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          22,
+          26
+        ],
+        "pinned_actions": [
+          30,
+          37
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/conformance.yml",
+      "sha": "20c4b049b59549b29b05aba9cc49e765ebaf416b",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/.github/workflows/conformance.yml",
+      "lines": 142,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          13
+        ],
+        "pinned_actions": [
+          41,
+          44,
+          48,
+          77,
+          87,
+          90,
+          94,
+          138
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "sha": "494960708f837a1f99e298ad8ffd1a5bfe90c6c9",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/.github/workflows/deploy-docs.yml",
+      "lines": 73,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          40,
+          43
+        ],
+        "pinned_actions": [
+          50,
+          55,
+          64,
+          67,
+          73
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/docs-preview-cleanup.yml",
+      "sha": "136a50eff824a8c1fe0b666afa64c9c37fa27640",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/.github/workflows/docs-preview-cleanup.yml",
+      "lines": 44,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          11
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/docs-preview.yml",
+      "sha": "0cefe3d3e423322a4715e68baab71bf9114c9d4b",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/.github/workflows/docs-preview.yml",
+      "lines": 187,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          100
+        ],
+        "permissions": [
+          36,
+          57,
+          85,
+          132,
+          163
+        ],
+        "pinned_actions": [
+          67,
+          75,
+          88,
+          94,
+          119,
+          137,
+          144,
+          168,
+          175
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "sha": "ea214bc85214efd16ffd79452bc45168d44cebbd",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/.github/workflows/main.yml",
+      "lines": 23,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9
+        ],
+        "pinned_actions": [
+          21
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/require-linked-issue.yml",
+      "sha": "3ebeccf1e3448ea1aa8d59c88c3356db03d1d333",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/.github/workflows/require-linked-issue.yml",
+      "lines": 86,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          41,
+          67
+        ],
+        "pinned_actions": [
+          76,
+          82
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/shared.yml",
+      "sha": "f14ff819ffe4836ea351550186d916d7c8315aeb",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/.github/workflows/shared.yml",
+      "lines": 145,
+      "signals": {
+        "tests": [
+          83,
+          89,
+          90,
+          94
+        ],
+        "lint": [
+          13,
+          29
+        ],
+        "generated_code": [
+          44,
+          45
+        ],
+        "release_automation": [],
+        "permissions": [
+          6
+        ],
+        "pinned_actions": [
+          16,
+          21,
+          29,
+          33,
+          70,
+          75,
+          105,
+          110,
+          134,
+          139
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/zizmor.yml",
+      "sha": "267783c4cebd7bddc15512b6518b2bfc7582c2c9",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/blob/2af9e3089ac66b35c1550c500aae86a82efb1e17/.github/workflows/zizmor.yml",
+      "lines": 25,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          9,
+          15
+        ],
+        "pinned_actions": [
+          20,
+          25
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 3726,
+      "title": "Give each SSE response its own header list",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/pull/3726",
+      "merged_at": "2026-10-17T13:54:36Z",
+      "merge_commit_sha": "2af9e3089ac66b35c1550c500aae86a82efb1e17",
+      "files": [
+        "src/mcp/server/_streamable_http_modern.py",
+        "tests/server/test_streamable_http_modern.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "src/mcp/server/_streamable_http_modern.py",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 12,
+          "blob_url": "https://github.com/modelcontextprotocol/python-sdk/blob/76d9e34bf38a86b0e06b4f58696cd9390fb992a5/src%2Fmcp%2Fserver%2F_streamable_http_modern.py"
+        },
+        {
+          "filename": "tests/server/test_streamable_http_modern.py",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/python-sdk/blob/76d9e34bf38a86b0e06b4f58696cd9390fb992a5/tests%2Fserver%2Ftest_streamable_http_modern.py"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39041352101,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39041352101",
+          "head_sha": "2af9e3089ac66b35c1550c500aae86a82efb1e17"
+        },
+        {
+          "id": 39041352166,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39041352166",
+          "head_sha": "2af9e3089ac66b35c1550c500aae86a82efb1e17"
+        },
+        {
+          "id": 39038570770,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39038570770",
+          "head_sha": "2af9e3089ac66b35c1550c500aae86a82efb1e17"
+        },
+        {
+          "id": 39038570724,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39038570724",
+          "head_sha": "2af9e3089ac66b35c1550c500aae86a82efb1e17"
+        },
+        {
+          "id": 39038504580,
+          "name": "GitHub Actions Security Analysis",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39038504580",
+          "head_sha": "2af9e3089ac66b35c1550c500aae86a82efb1e17"
+        },
+        {
+          "id": 39038504448,
+          "name": "Conformance Tests",
+          "path": ".github/workflows/conformance.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39038504448",
+          "head_sha": "2af9e3089ac66b35c1550c500aae86a82efb1e17"
+        },
+        {
+          "id": 39038504603,
+          "name": "Deploy Docs",
+          "path": ".github/workflows/deploy-docs.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39038504603",
+          "head_sha": "2af9e3089ac66b35c1550c500aae86a82efb1e17"
+        },
+        {
+          "id": 39038504542,
+          "name": "CI",
+          "path": ".github/workflows/main.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39038504542",
+          "head_sha": "2af9e3089ac66b35c1550c500aae86a82efb1e17"
+        },
+        {
+          "id": 39038503751,
+          "name": "Push on main",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39038503751",
+          "head_sha": "2af9e3089ac66b35c1550c500aae86a82efb1e17"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 39038504313,
+          "name": "Docs Preview Cleanup",
+          "path": ".github/workflows/docs-preview-cleanup.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39038504313",
+          "head_sha": "76d9e34bf38a86b0e06b4f58696cd9390fb992a5"
+        },
+        {
+          "id": 39038430437,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39038430437",
+          "head_sha": "76d9e34bf38a86b0e06b4f58696cd9390fb992a5"
+        },
+        {
+          "id": 39038278217,
+          "name": "GitHub Actions Security Analysis",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39038278217",
+          "head_sha": "76d9e34bf38a86b0e06b4f58696cd9390fb992a5"
+        },
+        {
+          "id": 39038278249,
+          "name": "Conformance Tests",
+          "path": ".github/workflows/conformance.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39038278249",
+          "head_sha": "76d9e34bf38a86b0e06b4f58696cd9390fb992a5"
+        },
+        {
+          "id": 39038278211,
+          "name": "CI",
+          "path": ".github/workflows/main.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39038278211",
+          "head_sha": "76d9e34bf38a86b0e06b4f58696cd9390fb992a5"
+        },
+        {
+          "id": 39038277251,
+          "name": "PR #3726",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39038277251",
+          "head_sha": "76d9e34bf38a86b0e06b4f58696cd9390fb992a5"
+        }
+      ]
+    },
+    {
+      "number": 3719,
+      "title": "Add cache fields to directory read and `_meta` to `Skill`",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/pull/3719",
+      "merged_at": "2026-10-16T11:08:26Z",
+      "merge_commit_sha": "9f66f376d486e84e9810b368cf8be9d5908661ab",
+      "files": [
+        "docs/advanced/skills.md",
+        "src/mcp/server/skills.py",
+        "src/mcp/shared/skills.py",
+        "tests/client/extensions/test_skills.py",
+        "tests/server/test_skills.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "docs/advanced/skills.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 2,
+          "blob_url": "https://github.com/modelcontextprotocol/python-sdk/blob/c0c86b7ac7d5438eba0b273b253061ed46123a92/docs%2Fadvanced%2Fskills.md"
+        },
+        {
+          "filename": "src/mcp/server/skills.py",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/modelcontextprotocol/python-sdk/blob/c0c86b7ac7d5438eba0b273b253061ed46123a92/src%2Fmcp%2Fserver%2Fskills.py"
+        },
+        {
+          "filename": "src/mcp/shared/skills.py",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 2,
+          "blob_url": "https://github.com/modelcontextprotocol/python-sdk/blob/c0c86b7ac7d5438eba0b273b253061ed46123a92/src%2Fmcp%2Fshared%2Fskills.py"
+        },
+        {
+          "filename": "tests/client/extensions/test_skills.py",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/python-sdk/blob/c0c86b7ac7d5438eba0b273b253061ed46123a92/tests%2Fclient%2Fextensions%2Ftest_skills.py"
+        },
+        {
+          "filename": "tests/server/test_skills.py",
+          "status": "modified",
+          "additions": 36,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/python-sdk/blob/c0c86b7ac7d5438eba0b273b253061ed46123a92/tests%2Fserver%2Ftest_skills.py"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39038493088,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39038493088",
+          "head_sha": "9f66f376d486e84e9810b368cf8be9d5908661ab"
+        },
+        {
+          "id": 39038493200,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39038493200",
+          "head_sha": "9f66f376d486e84e9810b368cf8be9d5908661ab"
+        },
+        {
+          "id": 39037990651,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39037990651",
+          "head_sha": "9f66f376d486e84e9810b368cf8be9d5908661ab"
+        },
+        {
+          "id": 39037990665,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39037990665",
+          "head_sha": "9f66f376d486e84e9810b368cf8be9d5908661ab"
+        },
+        {
+          "id": 39037742307,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39037742307",
+          "head_sha": "9f66f376d486e84e9810b368cf8be9d5908661ab"
+        },
+        {
+          "id": 39037742207,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39037742207",
+          "head_sha": "9f66f376d486e84e9810b368cf8be9d5908661ab"
+        },
+        {
+          "id": 39037283938,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39037283938",
+          "head_sha": "9f66f376d486e84e9810b368cf8be9d5908661ab"
+        },
+        {
+          "id": 39037283994,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39037283994",
+          "head_sha": "9f66f376d486e84e9810b368cf8be9d5908661ab"
+        },
+        {
+          "id": 39032198874,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39032198874",
+          "head_sha": "9f66f376d486e84e9810b368cf8be9d5908661ab"
+        },
+        {
+          "id": 39022659899,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/39022659899",
+          "head_sha": "9f66f376d486e84e9810b368cf8be9d5908661ab"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38892314883,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "pull_request_review_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38892314883",
+          "head_sha": "c0c86b7ac7d5438eba0b273b253061ed46123a92"
+        },
+        {
+          "id": 38892315289,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38892315289",
+          "head_sha": "c0c86b7ac7d5438eba0b273b253061ed46123a92"
+        },
+        {
+          "id": 38891811763,
+          "name": "Docs Preview Cleanup",
+          "path": ".github/workflows/docs-preview-cleanup.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38891811763",
+          "head_sha": "c0c86b7ac7d5438eba0b273b253061ed46123a92"
+        },
+        {
+          "id": 38891368629,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38891368629",
+          "head_sha": "c0c86b7ac7d5438eba0b273b253061ed46123a92"
+        },
+        {
+          "id": 38891369236,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "pull_request_review_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38891369236",
+          "head_sha": "c0c86b7ac7d5438eba0b273b253061ed46123a92"
+        },
+        {
+          "id": 38891369159,
+          "name": "GitHub Actions Security Analysis",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38891369159",
+          "head_sha": "c0c86b7ac7d5438eba0b273b253061ed46123a92"
+        },
+        {
+          "id": 38891369145,
+          "name": "Conformance Tests",
+          "path": ".github/workflows/conformance.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38891369145",
+          "head_sha": "c0c86b7ac7d5438eba0b273b253061ed46123a92"
+        },
+        {
+          "id": 38891369156,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38891369156",
+          "head_sha": "c0c86b7ac7d5438eba0b273b253061ed46123a92"
+        },
+        {
+          "id": 38891368986,
+          "name": "CI",
+          "path": ".github/workflows/main.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38891368986",
+          "head_sha": "c0c86b7ac7d5438eba0b273b253061ed46123a92"
+        },
+        {
+          "id": 38891367058,
+          "name": "PR #3719",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38891367058",
+          "head_sha": "c0c86b7ac7d5438eba0b273b253061ed46123a92"
+        }
+      ]
+    },
+    {
+      "number": 3696,
+      "title": "Return invalid params for unknown prompts and missing arguments",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/pull/3696",
+      "merged_at": "2026-10-13T09:20:59Z",
+      "merge_commit_sha": "754254c08fe1c3eda18b69da3d336106fe8d72d6",
+      "files": [
+        "docs/servers/prompts.md",
+        "src/mcp/server/mcpserver/prompts/base.py",
+        "src/mcp/server/mcpserver/prompts/manager.py",
+        "src/mcp/server/mcpserver/server.py",
+        "tests/docs_src/test_prompts.py",
+        "tests/interaction/_requirements.py",
+        "tests/interaction/mcpserver/test_prompts.py",
+        "tests/server/mcpserver/prompts/test_base.py",
+        "tests/server/mcpserver/prompts/test_manager.py",
+        "tests/server/mcpserver/test_server.py"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "docs/servers/prompts.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/modelcontextprotocol/python-sdk/blob/ecbe43050744bd4cd39587f1ab1094988f7bdc1b/docs%2Fservers%2Fprompts.md"
+        },
+        {
+          "filename": "src/mcp/server/mcpserver/prompts/base.py",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 3,
+          "blob_url": "https://github.com/modelcontextprotocol/python-sdk/blob/ecbe43050744bd4cd39587f1ab1094988f7bdc1b/src%2Fmcp%2Fserver%2Fmcpserver%2Fprompts%2Fbase.py"
+        },
+        {
+          "filename": "src/mcp/server/mcpserver/prompts/manager.py",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 3,
+          "blob_url": "https://github.com/modelcontextprotocol/python-sdk/blob/ecbe43050744bd4cd39587f1ab1094988f7bdc1b/src%2Fmcp%2Fserver%2Fmcpserver%2Fprompts%2Fmanager.py"
+        },
+        {
+          "filename": "src/mcp/server/mcpserver/server.py",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 1,
+          "blob_url": "https://github.com/modelcontextprotocol/python-sdk/blob/ecbe43050744bd4cd39587f1ab1094988f7bdc1b/src%2Fmcp%2Fserver%2Fmcpserver%2Fserver.py"
+        },
+        {
+          "filename": "tests/docs_src/test_prompts.py",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4,
+          "blob_url": "https://github.com/modelcontextprotocol/python-sdk/blob/ecbe43050744bd4cd39587f1ab1094988f7bdc1b/tests%2Fdocs_src%2Ftest_prompts.py"
+        },
+        {
+          "filename": "tests/interaction/_requirements.py",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 14,
+          "blob_url": "https://github.com/modelcontextprotocol/python-sdk/blob/ecbe43050744bd4cd39587f1ab1094988f7bdc1b/tests%2Finteraction%2F_requirements.py"
+        },
+        {
+          "filename": "tests/interaction/mcpserver/test_prompts.py",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 7,
+          "blob_url": "https://github.com/modelcontextprotocol/python-sdk/blob/ecbe43050744bd4cd39587f1ab1094988f7bdc1b/tests%2Finteraction%2Fmcpserver%2Ftest_prompts.py"
+        },
+        {
+          "filename": "tests/server/mcpserver/prompts/test_base.py",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 1,
+          "blob_url": "https://github.com/modelcontextprotocol/python-sdk/blob/ecbe43050744bd4cd39587f1ab1094988f7bdc1b/tests%2Fserver%2Fmcpserver%2Fprompts%2Ftest_base.py"
+        },
+        {
+          "filename": "tests/server/mcpserver/prompts/test_manager.py",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 3,
+          "blob_url": "https://github.com/modelcontextprotocol/python-sdk/blob/ecbe43050744bd4cd39587f1ab1094988f7bdc1b/tests%2Fserver%2Fmcpserver%2Fprompts%2Ftest_manager.py"
+        },
+        {
+          "filename": "tests/server/mcpserver/test_server.py",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 2,
+          "blob_url": "https://github.com/modelcontextprotocol/python-sdk/blob/ecbe43050744bd4cd39587f1ab1094988f7bdc1b/tests%2Fserver%2Fmcpserver%2Ftest_server.py"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38890610674,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38890610674",
+          "head_sha": "754254c08fe1c3eda18b69da3d336106fe8d72d6"
+        },
+        {
+          "id": 38890610680,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38890610680",
+          "head_sha": "754254c08fe1c3eda18b69da3d336106fe8d72d6"
+        },
+        {
+          "id": 38887891310,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38887891310",
+          "head_sha": "754254c08fe1c3eda18b69da3d336106fe8d72d6"
+        },
+        {
+          "id": 38887891272,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38887891272",
+          "head_sha": "754254c08fe1c3eda18b69da3d336106fe8d72d6"
+        },
+        {
+          "id": 38884612752,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38884612752",
+          "head_sha": "754254c08fe1c3eda18b69da3d336106fe8d72d6"
+        },
+        {
+          "id": 38884612721,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38884612721",
+          "head_sha": "754254c08fe1c3eda18b69da3d336106fe8d72d6"
+        },
+        {
+          "id": 38860432077,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38860432077",
+          "head_sha": "754254c08fe1c3eda18b69da3d336106fe8d72d6"
+        },
+        {
+          "id": 38812789602,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38812789602",
+          "head_sha": "754254c08fe1c3eda18b69da3d336106fe8d72d6"
+        },
+        {
+          "id": 38812789531,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38812789531",
+          "head_sha": "754254c08fe1c3eda18b69da3d336106fe8d72d6"
+        },
+        {
+          "id": 38808327477,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38808327477",
+          "head_sha": "754254c08fe1c3eda18b69da3d336106fe8d72d6"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38375704832,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "pull_request_review",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38375704832",
+          "head_sha": "ecbe43050744bd4cd39587f1ab1094988f7bdc1b"
+        },
+        {
+          "id": 38375666549,
+          "name": "Docs Preview Cleanup",
+          "path": ".github/workflows/docs-preview-cleanup.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38375666549",
+          "head_sha": "ecbe43050744bd4cd39587f1ab1094988f7bdc1b"
+        },
+        {
+          "id": 38375412251,
+          "name": "Conformance Tests",
+          "path": ".github/workflows/conformance.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38375412251",
+          "head_sha": "ecbe43050744bd4cd39587f1ab1094988f7bdc1b"
+        },
+        {
+          "id": 38375412199,
+          "name": "GitHub Actions Security Analysis",
+          "path": ".github/workflows/zizmor.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38375412199",
+          "head_sha": "ecbe43050744bd4cd39587f1ab1094988f7bdc1b"
+        },
+        {
+          "id": 38375412233,
+          "name": "CI",
+          "path": ".github/workflows/main.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38375412233",
+          "head_sha": "ecbe43050744bd4cd39587f1ab1094988f7bdc1b"
+        },
+        {
+          "id": 38375412434,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "pull_request_target",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38375412434",
+          "head_sha": "ecbe43050744bd4cd39587f1ab1094988f7bdc1b"
+        },
+        {
+          "id": 38375410871,
+          "name": "PR #3696",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/38375410871",
+          "head_sha": "ecbe43050744bd4cd39587f1ab1094988f7bdc1b"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v2.3.0",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/releases/tag/v2.3.0",
+      "published_at": "2026-10-02T22:02:27Z",
+      "target_commitish": "main",
+      "commit_sha": "2118f14f8a19bc158d8a1cf90af58d85d187f849",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 37304894946,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/37304894946",
+          "head_sha": "2118f14f8a19bc158d8a1cf90af58d85d187f849"
+        },
+        {
+          "id": 37304894830,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/37304894830",
+          "head_sha": "2118f14f8a19bc158d8a1cf90af58d85d187f849"
+        },
+        {
+          "id": 37304734476,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/37304734476",
+          "head_sha": "2118f14f8a19bc158d8a1cf90af58d85d187f849"
+        },
+        {
+          "id": 37304734523,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/37304734523",
+          "head_sha": "2118f14f8a19bc158d8a1cf90af58d85d187f849"
+        },
+        {
+          "id": 37303870415,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/37303870415",
+          "head_sha": "2118f14f8a19bc158d8a1cf90af58d85d187f849"
+        },
+        {
+          "id": 37303858979,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/37303858979",
+          "head_sha": "2118f14f8a19bc158d8a1cf90af58d85d187f849"
+        },
+        {
+          "id": 37303859025,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/37303859025",
+          "head_sha": "2118f14f8a19bc158d8a1cf90af58d85d187f849"
+        },
+        {
+          "id": 37303850076,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/37303850076",
+          "head_sha": "2118f14f8a19bc158d8a1cf90af58d85d187f849"
+        },
+        {
+          "id": 37303849990,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/37303849990",
+          "head_sha": "2118f14f8a19bc158d8a1cf90af58d85d187f849"
+        },
+        {
+          "id": 37303839986,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/37303839986",
+          "head_sha": "2118f14f8a19bc158d8a1cf90af58d85d187f849"
+        }
+      ]
+    },
+    {
+      "tag": "v2.2.0",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/releases/tag/v2.2.0",
+      "published_at": "2026-09-07T15:53:57Z",
+      "target_commitish": "main",
+      "commit_sha": "9972c21aa42054fb1450c5fc614761ed11847ec6",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 35074484999,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/35074484999",
+          "head_sha": "9972c21aa42054fb1450c5fc614761ed11847ec6"
+        },
+        {
+          "id": 35074485068,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/35074485068",
+          "head_sha": "9972c21aa42054fb1450c5fc614761ed11847ec6"
+        },
+        {
+          "id": 35062257758,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/35062257758",
+          "head_sha": "9972c21aa42054fb1450c5fc614761ed11847ec6"
+        },
+        {
+          "id": 35062257746,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/35062257746",
+          "head_sha": "9972c21aa42054fb1450c5fc614761ed11847ec6"
+        },
+        {
+          "id": 35050253012,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/35050253012",
+          "head_sha": "9972c21aa42054fb1450c5fc614761ed11847ec6"
+        },
+        {
+          "id": 35050253040,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/35050253040",
+          "head_sha": "9972c21aa42054fb1450c5fc614761ed11847ec6"
+        },
+        {
+          "id": 35048844085,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/35048844085",
+          "head_sha": "9972c21aa42054fb1450c5fc614761ed11847ec6"
+        },
+        {
+          "id": 35048844182,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/35048844182",
+          "head_sha": "9972c21aa42054fb1450c5fc614761ed11847ec6"
+        },
+        {
+          "id": 35048257409,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/35048257409",
+          "head_sha": "9972c21aa42054fb1450c5fc614761ed11847ec6"
+        },
+        {
+          "id": 35048257408,
+          "name": "Docs Preview",
+          "path": ".github/workflows/docs-preview.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/35048257408",
+          "head_sha": "9972c21aa42054fb1450c5fc614761ed11847ec6"
+        }
+      ]
+    },
+    {
+      "tag": "v1.30.0",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/releases/tag/v1.30.0",
+      "published_at": "2026-09-07T14:03:59Z",
+      "target_commitish": "v1.x",
+      "commit_sha": "8c2fa6eabacde869d75568e33b9d466b58c2f512",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 34130886167,
+          "name": "Main branch checks",
+          "path": ".github/workflows/main-checks.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/34130886167",
+          "head_sha": "8c2fa6eabacde869d75568e33b9d466b58c2f512"
+        },
+        {
+          "id": 34130885954,
+          "name": "Publishing",
+          "path": ".github/workflows/publish-pypi.yml",
+          "event": "release",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/34130885954",
+          "head_sha": "8c2fa6eabacde869d75568e33b9d466b58c2f512"
+        },
+        {
+          "id": 33940290793,
+          "name": "Main branch checks",
+          "path": ".github/workflows/main-checks.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/33940290793",
+          "head_sha": "8c2fa6eabacde869d75568e33b9d466b58c2f512"
+        },
+        {
+          "id": 33940290653,
+          "name": "Conformance Tests",
+          "path": ".github/workflows/conformance.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/python-sdk/actions/runs/33940290653",
+          "head_sha": "8c2fa6eabacde869d75568e33b9d466b58c2f512"
+        }
+      ]
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v2.3.0",
+      "sha": "2118f14f8a19bc158d8a1cf90af58d85d187f849"
+    },
+    {
+      "name": "v2.2.0",
+      "sha": "9972c21aa42054fb1450c5fc614761ed11847ec6"
+    },
+    {
+      "name": "v2.1.1",
+      "sha": "0921d94a74db900dccd2d534842aa7b6160542d2"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:16:47.829128+00:00",
+  "source_times": {
+    "/repos/modelcontextprotocol/python-sdk": "2026-10-17T16:07:01.967135+00:00",
+    "/repos/modelcontextprotocol/python-sdk/commits?sha=main&per_page=20": "2026-10-17T16:07:03.856797+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/trees/2af9e3089ac66b35c1550c500aae86a82efb1e17": "2026-10-17T16:07:05.229457+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/trees/f1865cca82372ddc0c87314e090b0ab3f45f4958": "2026-10-17T16:07:06.654316+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/trees/af46711db447a09a9f55d00a14c34ee25dee2309": "2026-10-17T16:07:08.048317+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/trees/acf8b79ea988cacfe1d1672ccd95785283e32e82": "2026-10-17T16:07:09.428561+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/trees/f3083a02f161e642c12bc1560c1ea57ef28a7910": "2026-10-17T16:07:11.865695+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/4a94783bea501b7f3d2a8a0c9611f9fbdb1fd280": "2026-10-17T16:07:13.947984+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/43c994c2d3617f947bcb5adf1933e21dabe46bb5": "2026-10-17T16:07:15.398113+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/985a28566c0c986d2a6317a2ea4abe0083193900": "2026-10-17T16:07:16.805924+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/005cf2360d66b484bc811241a3b43c83cba0e456": "2026-10-17T16:07:18.498547+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/50ea0ed227b72de82917d67d678d1d24783ab2e9": "2026-10-17T16:07:19.912315+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/cada37480cb810a1fa3be653e06e4a0160e7e764": "2026-10-17T16:07:21.334517+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/5a69875124adf2ab3a8d5bccc58f6545b0c9712a": "2026-10-17T16:07:25.141948+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/6d7626d79b4a78c66e5dd1837b28530e677a0d34": "2026-10-17T16:07:26.656812+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/42b2d4b16b6a71eb4fdb1893e7ce0a69771f9c14": "2026-10-17T16:07:28.012100+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/3ba13e0cec6cbbfd462e9ebf529dd2093148cd69": "2026-10-17T16:07:29.394382+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/bec9b77b154627bbc9c49c72841629c9ec7e5dd5": "2026-10-17T16:07:31.699889+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/87a7894f120c5620126fce3f8ffbf7fc0451eea6": "2026-10-17T16:07:33.053393+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/cfa699698955fc882c223b0b3929a37f4a259222": "2026-10-17T16:07:34.393307+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/754d5b0a57463896ed27125dfff72d2910e7e9fd": "2026-10-17T16:07:35.775592+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/d32f0079f5d79f75f75c5dcea292f2c87cf42369": "2026-10-17T16:07:37.203273+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/86b2aeab2159c7f9159cf46088f0798f65423513": "2026-10-17T16:07:38.615739+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/ace6ed4d5bf64daa5e2081e3bff83a100c17599a": "2026-10-17T16:07:40.087803+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/20c4b049b59549b29b05aba9cc49e765ebaf416b": "2026-10-17T16:07:41.501488+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/494960708f837a1f99e298ad8ffd1a5bfe90c6c9": "2026-10-17T16:07:42.857274+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/136a50eff824a8c1fe0b666afa64c9c37fa27640": "2026-10-17T16:07:44.226916+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/0cefe3d3e423322a4715e68baab71bf9114c9d4b": "2026-10-17T16:07:45.633150+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/ea214bc85214efd16ffd79452bc45168d44cebbd": "2026-10-17T16:07:47.212648+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/3ebeccf1e3448ea1aa8d59c88c3356db03d1d333": "2026-10-17T16:07:48.602734+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/f14ff819ffe4836ea351550186d916d7c8315aeb": "2026-10-17T16:07:49.941319+00:00",
+    "/repos/modelcontextprotocol/python-sdk/git/blobs/267783c4cebd7bddc15512b6518b2bfc7582c2c9": "2026-10-17T16:07:51.275950+00:00",
+    "/repos/modelcontextprotocol/python-sdk/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:07:56.449007+00:00",
+    "/repos/modelcontextprotocol/python-sdk/pulls/3726/files?per_page=100": "2026-10-17T16:07:57.890466+00:00",
+    "/repos/modelcontextprotocol/python-sdk/pulls/3726/reviews?per_page=100": "2026-10-17T16:07:59.491967+00:00",
+    "/repos/modelcontextprotocol/python-sdk/actions/runs?head_sha=2af9e3089ac66b35c1550c500aae86a82efb1e17&per_page=10": "2026-10-17T16:08:01.624995+00:00",
+    "/repos/modelcontextprotocol/python-sdk/actions/runs?head_sha=76d9e34bf38a86b0e06b4f58696cd9390fb992a5&per_page=10": "2026-10-17T16:08:03.639860+00:00",
+    "/repos/modelcontextprotocol/python-sdk/pulls/3719/files?per_page=100": "2026-10-17T16:08:05.128436+00:00",
+    "/repos/modelcontextprotocol/python-sdk/pulls/3719/reviews?per_page=100": "2026-10-17T16:08:07.899929+00:00",
+    "/repos/modelcontextprotocol/python-sdk/actions/runs?head_sha=9f66f376d486e84e9810b368cf8be9d5908661ab&per_page=10": "2026-10-17T16:08:10.312293+00:00",
+    "/repos/modelcontextprotocol/python-sdk/actions/runs?head_sha=c0c86b7ac7d5438eba0b273b253061ed46123a92&per_page=10": "2026-10-17T16:08:12.582654+00:00",
+    "/repos/modelcontextprotocol/python-sdk/pulls/3696/files?per_page=100": "2026-10-17T16:08:14.209854+00:00",
+    "/repos/modelcontextprotocol/python-sdk/pulls/3696/reviews?per_page=100": "2026-10-17T16:08:15.992786+00:00",
+    "/repos/modelcontextprotocol/python-sdk/actions/runs?head_sha=754254c08fe1c3eda18b69da3d336106fe8d72d6&per_page=10": "2026-10-17T16:08:20.078841+00:00",
+    "/repos/modelcontextprotocol/python-sdk/actions/runs?head_sha=ecbe43050744bd4cd39587f1ab1094988f7bdc1b&per_page=10": "2026-10-17T16:08:22.355147+00:00",
+    "/repos/modelcontextprotocol/python-sdk/releases?per_page=20&page=1": "2026-10-17T16:16:47.822005+00:00",
+    "/repos/modelcontextprotocol/python-sdk/commits/v2.3.0": "2026-10-17T16:08:27.956526+00:00",
+    "/repos/modelcontextprotocol/python-sdk/actions/runs?head_sha=2118f14f8a19bc158d8a1cf90af58d85d187f849&per_page=10": "2026-10-17T16:08:30.260786+00:00",
+    "/repos/modelcontextprotocol/python-sdk/commits/v2.2.0": "2026-10-17T16:08:33.525097+00:00",
+    "/repos/modelcontextprotocol/python-sdk/actions/runs?head_sha=9972c21aa42054fb1450c5fc614761ed11847ec6&per_page=10": "2026-10-17T16:08:35.852797+00:00",
+    "/repos/modelcontextprotocol/python-sdk/commits/v1.30.0": "2026-10-17T16:08:37.489348+00:00",
+    "/repos/modelcontextprotocol/python-sdk/actions/runs?head_sha=8c2fa6eabacde869d75568e33b9d466b58c2f512&per_page=10": "2026-10-17T16:08:40.306082+00:00",
+    "/repos/modelcontextprotocol/python-sdk/tags?per_page=3": "2026-10-17T16:08:41.660152+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:16:47.822005+00:00",
+  "status": "collected"
+}

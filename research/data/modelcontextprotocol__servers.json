@@ -1,0 +1,2372 @@
+{
+  "requested_repository": "modelcontextprotocol/servers",
+  "category": "agents",
+  "collected_at": "2026-10-17T16:07:28.401233+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "modelcontextprotocol/servers",
+  "metadata": {
+    "html_url": "https://github.com/modelcontextprotocol/servers",
+    "description": "Model Context Protocol Servers",
+    "homepage": "https://modelcontextprotocol.io",
+    "language": "JavaScript",
+    "stargazers_count": 91330,
+    "forks_count": 11795,
+    "open_issues_count": 478,
+    "pushed_at": "2026-10-13T05:54:47Z",
+    "created_at": "2024-11-19T01:10:17Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "topics": [],
+    "owner": {
+      "login": "modelcontextprotocol",
+      "type": "Organization",
+      "html_url": "https://github.com/modelcontextprotocol"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c",
+      "date": "2026-10-11T05:10:42Z",
+      "subject": "Merge pull request #5122 from modelcontextprotocol/v2/chore/5119-main-source-bootstrap"
+    },
+    {
+      "sha": "f39bc6bbe7d9a74b6e6d9a6f0bb3e34ef1dd1810",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/f39bc6bbe7d9a74b6e6d9a6f0bb3e34ef1dd1810",
+      "date": "2026-10-11T05:06:59Z",
+      "subject": "ci: bring the main-source guard to main ahead of the next milestone merge"
+    },
+    {
+      "sha": "c003d0d807409b22fa640d1f8e11f38f15755721",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/c003d0d807409b22fa640d1f8e11f38f15755721",
+      "date": "2026-10-11T02:25:14Z",
+      "subject": "Merge pull request #5090 from modelcontextprotocol/v2/chore/5080-release-v1.0.0-sdk1"
+    },
+    {
+      "sha": "89701afa07f451e9f17285a7a0d7ce0984718ae7",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/89701afa07f451e9f17285a7a0d7ce0984718ae7",
+      "date": "2026-10-11T02:08:53Z",
+      "subject": "Merge pull request #5113 from modelcontextprotocol/v2/fix/3572-release-1.0.0"
+    },
+    {
+      "sha": "01c274fab3235a9ca9546b97f17287bb70892c6b",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/01c274fab3235a9ca9546b97f17287bb70892c6b",
+      "date": "2026-10-10T17:33:02Z",
+      "subject": "fix(fetch): annotate the fetch tool"
+    },
+    {
+      "sha": "db5e5ded66e499afca872c70fe8e315367c674f8",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/db5e5ded66e499afca872c70fe8e315367c674f8",
+      "date": "2026-10-10T17:20:01Z",
+      "subject": "Merge pull request #5106 from modelcontextprotocol/v2/chore/5104-release-1.0.0-cherry-pick"
+    },
+    {
+      "sha": "dd4826afc91ef159b63a028d66c9bfa38cf141d2",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/dd4826afc91ef159b63a028d66c9bfa38cf141d2",
+      "date": "2026-10-10T17:05:44Z",
+      "subject": "test(release): pin the ./ tarball path npm publish needs"
+    },
+    {
+      "sha": "77e9a3c2c864630427302422d8f7bbfa2a651ed1",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/77e9a3c2c864630427302422d8f7bbfa2a651ed1",
+      "date": "2026-10-10T17:02:38Z",
+      "subject": "test(release): pin the publish job's npm floor check and its no-install shape"
+    },
+    {
+      "sha": "0a174e939a1ccbd87d22498291df3daf2957540a",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/0a174e939a1ccbd87d22498291df3daf2957540a",
+      "date": "2026-10-10T16:53:27Z",
+      "subject": "ci(release): publish with Node 24's bundled npm instead of installing one"
+    },
+    {
+      "sha": "6e93db08f582aa9c01a48667e34b7f561081c68f",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/6e93db08f582aa9c01a48667e34b7f561081c68f",
+      "date": "2026-10-10T09:04:22Z",
+      "subject": "Merge pull request #5103 from modelcontextprotocol/v2/fix/5101-release-1.0.0-cherry-pick"
+    },
+    {
+      "sha": "c6f2dda9f4ad75f85bd53dc46d7d6a707f23878c",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/c6f2dda9f4ad75f85bd53dc46d7d6a707f23878c",
+      "date": "2026-10-10T08:56:42Z",
+      "subject": "fix(filesystem): wake calls waiting on a replaced roots refresh"
+    },
+    {
+      "sha": "4d2d9e52dc38d3c9f66ed6d4b1fde0cabd42cbbe",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/4d2d9e52dc38d3c9f66ed6d4b1fde0cabd42cbbe",
+      "date": "2026-10-10T08:47:53Z",
+      "subject": "fix(filesystem): claim the initial roots load's generation before deferring it"
+    },
+    {
+      "sha": "3836cf8d0261f53923283d4b8a25a5b1f8c2f568",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/3836cf8d0261f53923283d4b8a25a5b1f8c2f568",
+      "date": "2026-10-10T08:36:14Z",
+      "subject": "fix(filesystem): install each roots refresh barrier before its roots/list is sent"
+    },
+    {
+      "sha": "9f3197e7a8717d017e38ff1d200fc3414ad5a8e6",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/9f3197e7a8717d017e38ff1d200fc3414ad5a8e6",
+      "date": "2026-10-10T08:24:54Z",
+      "subject": "chore(filesystem): fold the #5101 changeset into the 1.0.0 CHANGELOG"
+    },
+    {
+      "sha": "3f6aaf4ff6b3d48243f8a94f1ea8dafb574de5ad",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/3f6aaf4ff6b3d48243f8a94f1ea8dafb574de5ad",
+      "date": "2026-10-10T08:24:52Z",
+      "subject": "fix(filesystem): hold tool calls while any roots refresh is pending"
+    },
+    {
+      "sha": "29db105a8beb16eb887ef5421cc4121bb2e987c1",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/29db105a8beb16eb887ef5421cc4121bb2e987c1",
+      "date": "2026-10-10T08:15:30Z",
+      "subject": "Merge pull request #5099 from modelcontextprotocol/v2/fix/5097-release-1.0.0-cherry-pick"
+    },
+    {
+      "sha": "ee1ad25df4200e5026900fda6471fa5c2608e99b",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/ee1ad25df4200e5026900fda6471fa5c2608e99b",
+      "date": "2026-10-10T08:06:08Z",
+      "subject": "test(filesystem): wait for the stale initial answer before teardown"
+    },
+    {
+      "sha": "c88c3bff8fb0b22bb477117b1bf72c22c4bb65c7",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/c88c3bff8fb0b22bb477117b1bf72c22c4bb65c7",
+      "date": "2026-10-10T07:56:54Z",
+      "subject": "test(filesystem): assert waiting calls are released before the initial answer arrives"
+    },
+    {
+      "sha": "0f8bfe3b1f5562dd4f5bd304edb553c34ef53693",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/0f8bfe3b1f5562dd4f5bd304edb553c34ef53693",
+      "date": "2026-10-10T07:19:39Z",
+      "subject": "test(filesystem): expect SDK 1.x's wrapped roots/list error in the #5097 test"
+    },
+    {
+      "sha": "b503c69613bc69425efe3ff72ca0e741f0f4708d",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/b503c69613bc69425efe3ff72ca0e741f0f4708d",
+      "date": "2026-10-10T07:19:14Z",
+      "subject": "fix(filesystem): keep tool calls waiting for the update that overtook the initial roots"
+    }
+  ],
+  "default_sha": "bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c",
+  "root_and_selected_directory_paths": [
+    ".changeset",
+    ".claude",
+    ".gitattributes",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/1-bug_report.yml",
+    ".github/ISSUE_TEMPLATE/2-feature_request.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/pull_request_template.md",
+    ".github/workflows",
+    ".github/workflows/claude.yml",
+    ".github/workflows/dco.yml",
+    ".github/workflows/dependabot-alerts.yml",
+    ".github/workflows/dependency-refresh.yml",
+    ".github/workflows/main-source.yml",
+    ".github/workflows/prepare-python-release.yml",
+    ".github/workflows/python.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/sdk-watch.yml",
+    ".github/workflows/typescript.yml",
+    ".github/workflows/version-packages.yml",
+    ".gitignore",
+    ".mcp.json",
+    ".npmrc",
+    ".prettierignore",
+    "ADDITIONAL.md",
+    "AGENTS.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "README.md",
+    "RELEASING.md",
+    "SECURITY.md",
+    "docs",
+    "docs/agent-guidance-inception.md",
+    "docs/ai-software-factory.md",
+    "docs/contribution-model.md",
+    "docs/quality-gate.md",
+    "docs/skill-authoring.md",
+    "eslint.config.js",
+    "package-lock.json",
+    "package.json",
+    "scripts",
+    "src",
+    "tsconfig.json"
+  ],
+  "workflow_paths": [
+    ".github/workflows/dependabot-alerts.yml",
+    ".github/workflows/dependency-refresh.yml",
+    ".github/workflows/prepare-python-release.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/claude.yml",
+    ".github/workflows/dco.yml",
+    ".github/workflows/main-source.yml",
+    ".github/workflows/python.yml",
+    ".github/workflows/sdk-watch.yml",
+    ".github/workflows/typescript.yml",
+    ".github/workflows/version-packages.yml"
+  ],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "bba09c93db1c735cd4166cc0eef7176c95be95be",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/AGENTS.md",
+      "lines": 643,
+      "signals": {
+        "tests": [
+          106,
+          112,
+          131,
+          149,
+          189,
+          530,
+          531,
+          536,
+          553,
+          640
+        ],
+        "lint": [
+          114,
+          130,
+          141,
+          143,
+          637
+        ],
+        "generated_code": [],
+        "release_automation": [
+          5,
+          54,
+          63,
+          281,
+          365
+        ],
+        "permissions": [
+          164
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          29
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          25,
+          33,
+          225,
+          226,
+          236,
+          239,
+          265,
+          268,
+          320,
+          348,
+          351,
+          359
+        ]
+      }
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "05c32c6053c1edd9a2faaf1b6ebf565c6650fa28",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/CODE_OF_CONDUCT.md",
+      "lines": 128,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "99464a5090953350301c6fae298a96c6784e3201",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/CONTRIBUTING.md",
+      "lines": 169,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          63
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          58,
+          59
+        ]
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "9c388c80a43c12db37f25049d031c98e1d26b5e0",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/README.md",
+      "lines": 170,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          154
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          162
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "3b0235c2f498279b5db8a574c804cb94b215b71c",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/SECURITY.md",
+      "lines": 86,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          4,
+          7,
+          12,
+          14,
+          16
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "package.json",
+      "sha": "1314868a79fdab93a73deac9e7c7fc9f3ffbce50",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/package.json",
+      "lines": 80,
+      "signals": {
+        "tests": [],
+        "lint": [
+          29,
+          31,
+          33,
+          60,
+          62,
+          64,
+          67
+        ],
+        "generated_code": [],
+        "release_automation": [
+          18,
+          58,
+          59
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/1-bug_report.yml",
+      "sha": "752ceb698cc2eee9027edfa4f6ef8d6202569c06",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/.github/ISSUE_TEMPLATE/1-bug_report.yml",
+      "lines": 204,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          28
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          197
+        ],
+        "story": [
+          11
+        ]
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/2-feature_request.yml",
+      "sha": "32ca5fe8301e46353db84a114c7b5b622d078c39",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/.github/ISSUE_TEMPLATE/2-feature_request.yml",
+      "lines": 135,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          128
+        ],
+        "story": [
+          11
+        ]
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "e05ce1099fe2d579fe620b5b7170034e4ccbd588",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 58,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          23
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          17
+        ]
+      }
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha": "90f4c2921eef5249f8182900fefe0a6ee9e671df",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/.github/pull_request_template.md",
+      "lines": 6,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/contribution-model.md",
+      "sha": "496fe1c2c8a2ead9cfa26a6a8ad2a6e9e4f51616",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/docs/contribution-model.md",
+      "lines": 191,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          33
+        ],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          37,
+          120,
+          167
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/dependabot-alerts.yml",
+      "sha": "19eacea041bde203d9897d78606cab867069770e",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/.github/workflows/dependabot-alerts.yml",
+      "lines": 82,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          51
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          23
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/dependency-refresh.yml",
+      "sha": "1582074ad27a7341d9a248761a0cfdec83c5c01c",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/.github/workflows/dependency-refresh.yml",
+      "lines": 69,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          35
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          13,
+          17
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/prepare-python-release.yml",
+      "sha": "8acd858d8982b91d2f23cac016bc87e8e56e4f8e",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/.github/workflows/prepare-python-release.yml",
+      "lines": 119,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          6
+        ],
+        "permissions": [
+          32,
+          33
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          13,
+          38,
+          46
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha": "f47a6982604a9296dfe1c3ef2c31b5f5757415c9",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/.github/workflows/release.yml",
+      "lines": 478,
+      "signals": {
+        "tests": [
+          164,
+          397
+        ],
+        "lint": [
+          397
+        ],
+        "generated_code": [],
+        "release_automation": [
+          7,
+          223,
+          264,
+          285,
+          366,
+          422,
+          431,
+          474,
+          475
+        ],
+        "permissions": [
+          19,
+          77,
+          78,
+          208,
+          211,
+          219,
+          433,
+          434
+        ],
+        "pinned_actions": [
+          94,
+          140,
+          142,
+          183,
+          224,
+          245,
+          381,
+          384,
+          387,
+          391,
+          415,
+          438
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          93,
+          98
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "sha": "905697e03fea3cf13d096c56e43241db060f6c0d",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/.github/workflows/claude.yml",
+      "lines": 55,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          14,
+          27,
+          31
+        ],
+        "pinned_actions": [
+          35,
+          41
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/dco.yml",
+      "sha": "295bce83463a7f56ce612723f743cc048f222c79",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/.github/workflows/dco.yml",
+      "lines": 52,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          22
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          12,
+          38
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/main-source.yml",
+      "sha": "7a2ee9e5e649086ad110661266f66bdbd2900f3d",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/.github/workflows/main-source.yml",
+      "lines": 59,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          21
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          2,
+          41
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/python.yml",
+      "sha": "4f71471f89db003d10da2881a39dd94a6036a111",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/.github/workflows/python.yml",
+      "lines": 169,
+      "signals": {
+        "tests": [
+          69,
+          105,
+          130,
+          132
+        ],
+        "lint": [
+          69,
+          105
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/sdk-watch.yml",
+      "sha": "e7813bc161cad26f96428565bebc4175af973ebc",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/.github/workflows/sdk-watch.yml",
+      "lines": 334,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          48,
+          96,
+          279
+        ],
+        "pinned_actions": [
+          62,
+          67,
+          105,
+          140,
+          264,
+          292
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          24
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/typescript.yml",
+      "sha": "ce55bd4477579388afb8334bc9ed5b051753bf32",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/.github/workflows/typescript.yml",
+      "lines": 195,
+      "signals": {
+        "tests": [
+          96,
+          98,
+          130,
+          156
+        ],
+        "lint": [
+          85
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/version-packages.yml",
+      "sha": "15c19b1f221382a8188d8f66ee8df625110ae2e9",
+      "status": "inspected",
+      "url": "https://github.com/modelcontextprotocol/servers/blob/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c/.github/workflows/version-packages.yml",
+      "lines": 70,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [
+          1,
+          3,
+          6,
+          45,
+          51,
+          52,
+          58,
+          66,
+          69
+        ],
+        "permissions": [
+          34,
+          35
+        ],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 1,
+      "title": "Port over Slack server",
+      "url": "https://github.com/modelcontextprotocol/servers/pull/1",
+      "merged_at": "2024-11-19T14:44:56Z",
+      "merge_commit_sha": "0a1e41dd669ded998446584a1572e54d9624bbc1",
+      "files": [
+        "src/slack/index.ts"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "src/slack/index.ts",
+          "status": "added",
+          "additions": 615,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/fb3f8ee571daae580605f64b8e51555d41bdd7d3/src%2Fslack%2Findex.ts"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [],
+      "head_commit_workflow_runs": []
+    },
+    {
+      "number": 5122,
+      "title": "ci: bring the main-source guard to main (bootstrap for #5119)",
+      "url": "https://github.com/modelcontextprotocol/servers/pull/5122",
+      "merged_at": "2026-10-11T05:10:42Z",
+      "merge_commit_sha": "bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c",
+      "files": [
+        ".github/workflows/main-source.yml",
+        "scripts/verify-main-source.mjs",
+        "scripts/verify-main-source.test.mjs"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": ".github/workflows/main-source.yml",
+          "status": "added",
+          "additions": 59,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/f39bc6bbe7d9a74b6e6d9a6f0bb3e34ef1dd1810/.github%2Fworkflows%2Fmain-source.yml"
+        },
+        {
+          "filename": "scripts/verify-main-source.mjs",
+          "status": "added",
+          "additions": 142,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/f39bc6bbe7d9a74b6e6d9a6f0bb3e34ef1dd1810/scripts%2Fverify-main-source.mjs"
+        },
+        {
+          "filename": "scripts/verify-main-source.test.mjs",
+          "status": "added",
+          "additions": 219,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/f39bc6bbe7d9a74b6e6d9a6f0bb3e34ef1dd1810/scripts%2Fverify-main-source.test.mjs"
+        }
+      ],
+      "review_states": [
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 39044777824,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/39044777824",
+          "head_sha": "bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c"
+        },
+        {
+          "id": 39020673458,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/39020673458",
+          "head_sha": "bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c"
+        },
+        {
+          "id": 39020623985,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/39020623985",
+          "head_sha": "bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c"
+        },
+        {
+          "id": 39010604191,
+          "name": "Dependabot Alert Sweep",
+          "path": ".github/workflows/dependabot-alerts.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/39010604191",
+          "head_sha": "bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c"
+        },
+        {
+          "id": 39009813763,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/39009813763",
+          "head_sha": "bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c"
+        },
+        {
+          "id": 39009693599,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/39009693599",
+          "head_sha": "bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c"
+        },
+        {
+          "id": 39007439844,
+          "name": "SDK Watch",
+          "path": ".github/workflows/sdk-watch.yml",
+          "event": "schedule",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/39007439844",
+          "head_sha": "bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c"
+        },
+        {
+          "id": 38916564461,
+          "name": "Scheduled",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38916564461",
+          "head_sha": "bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c"
+        },
+        {
+          "id": 38912361379,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38912361379",
+          "head_sha": "bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c"
+        },
+        {
+          "id": 38911497986,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38911497986",
+          "head_sha": "bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38113787062,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38113787062",
+          "head_sha": "f39bc6bbe7d9a74b6e6d9a6f0bb3e34ef1dd1810"
+        },
+        {
+          "id": 38113779620,
+          "name": "PR #5122",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38113779620",
+          "head_sha": "f39bc6bbe7d9a74b6e6d9a6f0bb3e34ef1dd1810"
+        },
+        {
+          "id": 38113777884,
+          "name": "TypeScript",
+          "path": ".github/workflows/typescript.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38113777884",
+          "head_sha": "f39bc6bbe7d9a74b6e6d9a6f0bb3e34ef1dd1810"
+        },
+        {
+          "id": 38113777902,
+          "name": "Python",
+          "path": ".github/workflows/python.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38113777902",
+          "head_sha": "f39bc6bbe7d9a74b6e6d9a6f0bb3e34ef1dd1810"
+        }
+      ]
+    },
+    {
+      "number": 5090,
+      "title": "Release v1.0.0: merge v2/release/1.0.0 into main",
+      "url": "https://github.com/modelcontextprotocol/servers/pull/5090",
+      "merged_at": "2026-10-11T02:25:15Z",
+      "merge_commit_sha": "c003d0d807409b22fa640d1f8e11f38f15755721",
+      "files": [
+        ".changeset/README.md",
+        ".changeset/config.json",
+        ".claude/skills/board-ops/SKILL.md",
+        ".claude/skills/board-ops/evals/evals.json",
+        ".claude/skills/client-smoke/SKILL.md",
+        ".claude/skills/client-smoke/evals/evals.json",
+        ".claude/skills/issue-create/SKILL.md",
+        ".claude/skills/issue-create/evals/evals.json",
+        ".claude/skills/issue-triage/SKILL.md",
+        ".claude/skills/issue-triage/evals/evals.json",
+        ".claude/skills/local-dev/SKILL.md",
+        ".claude/skills/local-dev/evals/evals.json",
+        ".claude/skills/pr-flow/SKILL.md",
+        ".claude/skills/pr-flow/evals/evals.json",
+        ".claude/skills/pre-push-gate/SKILL.md",
+        ".claude/skills/pre-push-gate/evals/evals.json",
+        ".claude/skills/project-structure/SKILL.md",
+        ".claude/skills/project-structure/evals/evals.json",
+        ".claude/skills/release/SKILL.md",
+        ".claude/skills/security-advisory/SKILL.md",
+        ".claude/skills/security-advisory/evals/evals.json",
+        ".claude/skills/testing/SKILL.md",
+        ".claude/skills/testing/evals/evals.json",
+        ".github/ISSUE_TEMPLATE/1-bug_report.yml",
+        ".github/ISSUE_TEMPLATE/2-feature_request.yml",
+        ".github/ISSUE_TEMPLATE/config.yml",
+        ".github/dependabot.yml",
+        ".github/pull_request_template.md",
+        ".github/workflows/claude.yml",
+        ".github/workflows/dco.yml",
+        ".github/workflows/dependabot-alerts.yml",
+        ".github/workflows/dependency-refresh.yml",
+        ".github/workflows/prepare-python-release.yml",
+        ".github/workflows/python.yml",
+        ".github/workflows/readme-pr-check.yml",
+        ".github/workflows/release.yml",
+        ".github/workflows/sdk-watch.yml",
+        ".github/workflows/typescript.yml",
+        ".github/workflows/version-packages.yml",
+        ".gitignore",
+        ".prettierignore",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "CONTRIBUTING.md",
+        "RELEASING.md",
+        "SECURITY.md",
+        "docs/agent-guidance-inception.md",
+        "docs/ai-software-factory.md",
+        "docs/contribution-model.md",
+        "docs/quality-gate.md",
+        "docs/skill-authoring.md",
+        "eslint.config.js",
+        "package-lock.json",
+        "package.json",
+        "scripts/coverage-py.mjs",
+        "scripts/coverage-py.test.mjs",
+        "scripts/dependabot-alerts.mjs",
+        "scripts/dependabot-alerts.test.mjs",
+        "scripts/dependency-refresh.mjs",
+        "scripts/dependency-refresh.test.mjs",
+        "scripts/gate-lease.mjs",
+        "scripts/gate-lease.test.mjs",
+        "scripts/lib/action-refs.mjs",
+        "scripts/lib/action-refs.test.mjs",
+        "scripts/lib/claude-cli.mjs",
+        "scripts/lib/claude-cli.test.mjs",
+        "scripts/lib/npm-scripts.mjs",
+        "scripts/lib/npm-scripts.test.mjs",
+        "scripts/lib/pep440.mjs",
+        "scripts/lib/pep440.test.mjs",
+        "scripts/lib/py-coverage.mjs",
+        "scripts/lib/py-coverage.test.mjs",
+        "scripts/lib/resolve-node-bin.mjs",
+        "scripts/lib/resolve-node-bin.test.mjs",
+        "scripts/lib/skill-manifest.mjs",
+        "scripts/lib/skill-manifest.test.mjs",
+        "scripts/lib/sweep.mjs",
+        "scripts/lib/sweep.test.mjs",
+        "scripts/lib/tsc-program.mjs",
+        "scripts/lib/tsc-program.test.mjs",
+        "scripts/lib/uv-lock.mjs",
+        "scripts/lib/uv-lock.test.mjs",
+        "scripts/lib/win-shell-args.mjs",
+        "scripts/lib/win-shell-args.test.mjs",
+        "scripts/lib/workflow-gate.mjs",
+        "scripts/lib/workflow-gate.test.mjs",
+        "scripts/lib/workspaces.mjs",
+        "scripts/lib/workspaces.test.mjs",
+        "scripts/npm-publish-guard.mjs",
+        "scripts/npm-publish-guard.test.mjs",
+        "scripts/pack-and-verify.mjs",
+        "scripts/pack-and-verify.test.mjs",
+        "scripts/prepare-python-release.mjs",
+        "scripts/prepare-python-release.test.mjs",
+        "scripts/release-dist-tag.test.mjs",
+        "scripts/release-manifest.mjs",
+        "scripts/release-manifest.test.mjs",
+        "scripts/release-notes.mjs",
+        "scripts/release-notes.test.mjs",
+        "scripts/release-npm-floor.test.mjs"
+      ],
+      "files_may_be_truncated": true,
+      "file_changes": [
+        {
+          "filename": ".changeset/README.md",
+          "status": "added",
+          "additions": 34,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.changeset%2FREADME.md"
+        },
+        {
+          "filename": ".changeset/config.json",
+          "status": "added",
+          "additions": 14,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.changeset%2Fconfig.json"
+        },
+        {
+          "filename": ".claude/skills/board-ops/SKILL.md",
+          "status": "added",
+          "additions": 461,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Fboard-ops%2FSKILL.md"
+        },
+        {
+          "filename": ".claude/skills/board-ops/evals/evals.json",
+          "status": "added",
+          "additions": 38,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Fboard-ops%2Fevals%2Fevals.json"
+        },
+        {
+          "filename": ".claude/skills/client-smoke/SKILL.md",
+          "status": "added",
+          "additions": 271,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Fclient-smoke%2FSKILL.md"
+        },
+        {
+          "filename": ".claude/skills/client-smoke/evals/evals.json",
+          "status": "added",
+          "additions": 34,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Fclient-smoke%2Fevals%2Fevals.json"
+        },
+        {
+          "filename": ".claude/skills/issue-create/SKILL.md",
+          "status": "added",
+          "additions": 197,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Fissue-create%2FSKILL.md"
+        },
+        {
+          "filename": ".claude/skills/issue-create/evals/evals.json",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Fissue-create%2Fevals%2Fevals.json"
+        },
+        {
+          "filename": ".claude/skills/issue-triage/SKILL.md",
+          "status": "added",
+          "additions": 693,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Fissue-triage%2FSKILL.md"
+        },
+        {
+          "filename": ".claude/skills/issue-triage/evals/evals.json",
+          "status": "added",
+          "additions": 34,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Fissue-triage%2Fevals%2Fevals.json"
+        },
+        {
+          "filename": ".claude/skills/local-dev/SKILL.md",
+          "status": "added",
+          "additions": 165,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Flocal-dev%2FSKILL.md"
+        },
+        {
+          "filename": ".claude/skills/local-dev/evals/evals.json",
+          "status": "added",
+          "additions": 34,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Flocal-dev%2Fevals%2Fevals.json"
+        },
+        {
+          "filename": ".claude/skills/pr-flow/SKILL.md",
+          "status": "added",
+          "additions": 393,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Fpr-flow%2FSKILL.md"
+        },
+        {
+          "filename": ".claude/skills/pr-flow/evals/evals.json",
+          "status": "added",
+          "additions": 34,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Fpr-flow%2Fevals%2Fevals.json"
+        },
+        {
+          "filename": ".claude/skills/pre-push-gate/SKILL.md",
+          "status": "added",
+          "additions": 308,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Fpre-push-gate%2FSKILL.md"
+        },
+        {
+          "filename": ".claude/skills/pre-push-gate/evals/evals.json",
+          "status": "added",
+          "additions": 38,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Fpre-push-gate%2Fevals%2Fevals.json"
+        },
+        {
+          "filename": ".claude/skills/project-structure/SKILL.md",
+          "status": "added",
+          "additions": 119,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Fproject-structure%2FSKILL.md"
+        },
+        {
+          "filename": ".claude/skills/project-structure/evals/evals.json",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Fproject-structure%2Fevals%2Fevals.json"
+        },
+        {
+          "filename": ".claude/skills/release/SKILL.md",
+          "status": "added",
+          "additions": 576,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Frelease%2FSKILL.md"
+        },
+        {
+          "filename": ".claude/skills/security-advisory/SKILL.md",
+          "status": "added",
+          "additions": 337,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Fsecurity-advisory%2FSKILL.md"
+        },
+        {
+          "filename": ".claude/skills/security-advisory/evals/evals.json",
+          "status": "added",
+          "additions": 34,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Fsecurity-advisory%2Fevals%2Fevals.json"
+        },
+        {
+          "filename": ".claude/skills/testing/SKILL.md",
+          "status": "added",
+          "additions": 338,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Ftesting%2FSKILL.md"
+        },
+        {
+          "filename": ".claude/skills/testing/evals/evals.json",
+          "status": "added",
+          "additions": 34,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.claude%2Fskills%2Ftesting%2Fevals%2Fevals.json"
+        },
+        {
+          "filename": ".github/ISSUE_TEMPLATE/1-bug_report.yml",
+          "status": "added",
+          "additions": 204,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.github%2FISSUE_TEMPLATE%2F1-bug_report.yml"
+        },
+        {
+          "filename": ".github/ISSUE_TEMPLATE/2-feature_request.yml",
+          "status": "added",
+          "additions": 135,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.github%2FISSUE_TEMPLATE%2F2-feature_request.yml"
+        },
+        {
+          "filename": ".github/ISSUE_TEMPLATE/config.yml",
+          "status": "added",
+          "additions": 58,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.github%2FISSUE_TEMPLATE%2Fconfig.yml"
+        },
+        {
+          "filename": ".github/dependabot.yml",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 6,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/f46d9578190b476b3501923ea8977d899e8db2cb/.github%2Fdependabot.yml"
+        },
+        {
+          "filename": ".github/pull_request_template.md",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 44,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.github%2Fpull_request_template.md"
+        },
+        {
+          "filename": ".github/workflows/claude.yml",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 2,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.github%2Fworkflows%2Fclaude.yml"
+        },
+        {
+          "filename": ".github/workflows/dco.yml",
+          "status": "added",
+          "additions": 52,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.github%2Fworkflows%2Fdco.yml"
+        },
+        {
+          "filename": ".github/workflows/dependabot-alerts.yml",
+          "status": "added",
+          "additions": 82,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.github%2Fworkflows%2Fdependabot-alerts.yml"
+        },
+        {
+          "filename": ".github/workflows/dependency-refresh.yml",
+          "status": "added",
+          "additions": 69,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.github%2Fworkflows%2Fdependency-refresh.yml"
+        },
+        {
+          "filename": ".github/workflows/prepare-python-release.yml",
+          "status": "added",
+          "additions": 119,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.github%2Fworkflows%2Fprepare-python-release.yml"
+        },
+        {
+          "filename": ".github/workflows/python.yml",
+          "status": "modified",
+          "additions": 85,
+          "deletions": 15,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.github%2Fworkflows%2Fpython.yml"
+        },
+        {
+          "filename": ".github/workflows/readme-pr-check.yml",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 114,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/f46d9578190b476b3501923ea8977d899e8db2cb/.github%2Fworkflows%2Freadme-pr-check.yml"
+        },
+        {
+          "filename": ".github/workflows/release.yml",
+          "status": "modified",
+          "additions": 421,
+          "deletions": 186,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.github%2Fworkflows%2Frelease.yml"
+        },
+        {
+          "filename": ".github/workflows/sdk-watch.yml",
+          "status": "added",
+          "additions": 334,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.github%2Fworkflows%2Fsdk-watch.yml"
+        },
+        {
+          "filename": ".github/workflows/typescript.yml",
+          "status": "modified",
+          "additions": 136,
+          "deletions": 13,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.github%2Fworkflows%2Ftypescript.yml"
+        },
+        {
+          "filename": ".github/workflows/version-packages.yml",
+          "status": "added",
+          "additions": 70,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.github%2Fworkflows%2Fversion-packages.yml"
+        },
+        {
+          "filename": ".gitignore",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.gitignore"
+        },
+        {
+          "filename": ".prettierignore",
+          "status": "added",
+          "additions": 7,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/.prettierignore"
+        },
+        {
+          "filename": "AGENTS.md",
+          "status": "added",
+          "additions": 643,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/AGENTS.md"
+        },
+        {
+          "filename": "CLAUDE.md",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 104,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/f46d9578190b476b3501923ea8977d899e8db2cb/CLAUDE.md"
+        },
+        {
+          "filename": "CONTRIBUTING.md",
+          "status": "modified",
+          "additions": 162,
+          "deletions": 33,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/CONTRIBUTING.md"
+        },
+        {
+          "filename": "RELEASING.md",
+          "status": "modified",
+          "additions": 87,
+          "deletions": 22,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/RELEASING.md"
+        },
+        {
+          "filename": "SECURITY.md",
+          "status": "modified",
+          "additions": 77,
+          "deletions": 12,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/SECURITY.md"
+        },
+        {
+          "filename": "docs/agent-guidance-inception.md",
+          "status": "added",
+          "additions": 731,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/docs%2Fagent-guidance-inception.md"
+        },
+        {
+          "filename": "docs/ai-software-factory.md",
+          "status": "added",
+          "additions": 246,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/docs%2Fai-software-factory.md"
+        },
+        {
+          "filename": "docs/contribution-model.md",
+          "status": "added",
+          "additions": 191,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/docs%2Fcontribution-model.md"
+        },
+        {
+          "filename": "docs/quality-gate.md",
+          "status": "added",
+          "additions": 212,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/docs%2Fquality-gate.md"
+        },
+        {
+          "filename": "docs/skill-authoring.md",
+          "status": "added",
+          "additions": 594,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/docs%2Fskill-authoring.md"
+        },
+        {
+          "filename": "eslint.config.js",
+          "status": "added",
+          "additions": 95,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/eslint.config.js"
+        },
+        {
+          "filename": "package-lock.json",
+          "status": "modified",
+          "additions": 1944,
+          "deletions": 369,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/package-lock.json"
+        },
+        {
+          "filename": "package.json",
+          "status": "modified",
+          "additions": 53,
+          "deletions": 4,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/package.json"
+        },
+        {
+          "filename": "scripts/coverage-py.mjs",
+          "status": "added",
+          "additions": 227,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Fcoverage-py.mjs"
+        },
+        {
+          "filename": "scripts/coverage-py.test.mjs",
+          "status": "added",
+          "additions": 164,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Fcoverage-py.test.mjs"
+        },
+        {
+          "filename": "scripts/dependabot-alerts.mjs",
+          "status": "added",
+          "additions": 1290,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Fdependabot-alerts.mjs"
+        },
+        {
+          "filename": "scripts/dependabot-alerts.test.mjs",
+          "status": "added",
+          "additions": 1182,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Fdependabot-alerts.test.mjs"
+        },
+        {
+          "filename": "scripts/dependency-refresh.mjs",
+          "status": "added",
+          "additions": 679,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Fdependency-refresh.mjs"
+        },
+        {
+          "filename": "scripts/dependency-refresh.test.mjs",
+          "status": "added",
+          "additions": 660,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Fdependency-refresh.test.mjs"
+        },
+        {
+          "filename": "scripts/gate-lease.mjs",
+          "status": "added",
+          "additions": 810,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Fgate-lease.mjs"
+        },
+        {
+          "filename": "scripts/gate-lease.test.mjs",
+          "status": "added",
+          "additions": 727,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Fgate-lease.test.mjs"
+        },
+        {
+          "filename": "scripts/lib/action-refs.mjs",
+          "status": "added",
+          "additions": 53,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Faction-refs.mjs"
+        },
+        {
+          "filename": "scripts/lib/action-refs.test.mjs",
+          "status": "added",
+          "additions": 49,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Faction-refs.test.mjs"
+        },
+        {
+          "filename": "scripts/lib/claude-cli.mjs",
+          "status": "added",
+          "additions": 108,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fclaude-cli.mjs"
+        },
+        {
+          "filename": "scripts/lib/claude-cli.test.mjs",
+          "status": "added",
+          "additions": 106,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fclaude-cli.test.mjs"
+        },
+        {
+          "filename": "scripts/lib/npm-scripts.mjs",
+          "status": "added",
+          "additions": 166,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fnpm-scripts.mjs"
+        },
+        {
+          "filename": "scripts/lib/npm-scripts.test.mjs",
+          "status": "added",
+          "additions": 144,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fnpm-scripts.test.mjs"
+        },
+        {
+          "filename": "scripts/lib/pep440.mjs",
+          "status": "added",
+          "additions": 274,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fpep440.mjs"
+        },
+        {
+          "filename": "scripts/lib/pep440.test.mjs",
+          "status": "added",
+          "additions": 140,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fpep440.test.mjs"
+        },
+        {
+          "filename": "scripts/lib/py-coverage.mjs",
+          "status": "added",
+          "additions": 216,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fpy-coverage.mjs"
+        },
+        {
+          "filename": "scripts/lib/py-coverage.test.mjs",
+          "status": "added",
+          "additions": 252,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fpy-coverage.test.mjs"
+        },
+        {
+          "filename": "scripts/lib/resolve-node-bin.mjs",
+          "status": "added",
+          "additions": 120,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fresolve-node-bin.mjs"
+        },
+        {
+          "filename": "scripts/lib/resolve-node-bin.test.mjs",
+          "status": "added",
+          "additions": 217,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fresolve-node-bin.test.mjs"
+        },
+        {
+          "filename": "scripts/lib/skill-manifest.mjs",
+          "status": "added",
+          "additions": 492,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fskill-manifest.mjs"
+        },
+        {
+          "filename": "scripts/lib/skill-manifest.test.mjs",
+          "status": "added",
+          "additions": 816,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fskill-manifest.test.mjs"
+        },
+        {
+          "filename": "scripts/lib/sweep.mjs",
+          "status": "added",
+          "additions": 426,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fsweep.mjs"
+        },
+        {
+          "filename": "scripts/lib/sweep.test.mjs",
+          "status": "added",
+          "additions": 370,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fsweep.test.mjs"
+        },
+        {
+          "filename": "scripts/lib/tsc-program.mjs",
+          "status": "added",
+          "additions": 312,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Ftsc-program.mjs"
+        },
+        {
+          "filename": "scripts/lib/tsc-program.test.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Ftsc-program.test.mjs"
+        },
+        {
+          "filename": "scripts/lib/uv-lock.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fuv-lock.mjs"
+        },
+        {
+          "filename": "scripts/lib/uv-lock.test.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fuv-lock.test.mjs"
+        },
+        {
+          "filename": "scripts/lib/win-shell-args.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fwin-shell-args.mjs"
+        },
+        {
+          "filename": "scripts/lib/win-shell-args.test.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fwin-shell-args.test.mjs"
+        },
+        {
+          "filename": "scripts/lib/workflow-gate.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fworkflow-gate.mjs"
+        },
+        {
+          "filename": "scripts/lib/workflow-gate.test.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fworkflow-gate.test.mjs"
+        },
+        {
+          "filename": "scripts/lib/workspaces.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fworkspaces.mjs"
+        },
+        {
+          "filename": "scripts/lib/workspaces.test.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Flib%2Fworkspaces.test.mjs"
+        },
+        {
+          "filename": "scripts/npm-publish-guard.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Fnpm-publish-guard.mjs"
+        },
+        {
+          "filename": "scripts/npm-publish-guard.test.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Fnpm-publish-guard.test.mjs"
+        },
+        {
+          "filename": "scripts/pack-and-verify.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Fpack-and-verify.mjs"
+        },
+        {
+          "filename": "scripts/pack-and-verify.test.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Fpack-and-verify.test.mjs"
+        },
+        {
+          "filename": "scripts/prepare-python-release.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Fprepare-python-release.mjs"
+        },
+        {
+          "filename": "scripts/prepare-python-release.test.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Fprepare-python-release.test.mjs"
+        },
+        {
+          "filename": "scripts/release-dist-tag.test.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Frelease-dist-tag.test.mjs"
+        },
+        {
+          "filename": "scripts/release-manifest.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Frelease-manifest.mjs"
+        },
+        {
+          "filename": "scripts/release-manifest.test.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Frelease-manifest.test.mjs"
+        },
+        {
+          "filename": "scripts/release-notes.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Frelease-notes.mjs"
+        },
+        {
+          "filename": "scripts/release-notes.test.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Frelease-notes.test.mjs"
+        },
+        {
+          "filename": "scripts/release-npm-floor.test.mjs",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/modelcontextprotocol/servers/blob/89701afa07f451e9f17285a7a0d7ce0984718ae7/scripts%2Frelease-npm-floor.test.mjs"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38113783575,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38113783575",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        },
+        {
+          "id": 38113737111,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38113737111",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        },
+        {
+          "id": 38113669096,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38113669096",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        },
+        {
+          "id": 38113246660,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38113246660",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        },
+        {
+          "id": 38112721086,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38112721086",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        },
+        {
+          "id": 38112699844,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38112699844",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        },
+        {
+          "id": 38112493270,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38112493270",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        },
+        {
+          "id": 38112481015,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38112481015",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        },
+        {
+          "id": 38112028767,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38112028767",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        },
+        {
+          "id": 38110999502,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38110999502",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38104216355,
+          "name": "Running Copilot Code Review",
+          "path": "dynamic/agents/copilot-pull-request-reviewer",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38104216355",
+          "head_sha": "89701afa07f451e9f17285a7a0d7ce0984718ae7"
+        },
+        {
+          "id": 38104210264,
+          "name": "PR #5090",
+          "path": "dynamic/github-code-scanning/codeql",
+          "event": "dynamic",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38104210264",
+          "head_sha": "89701afa07f451e9f17285a7a0d7ce0984718ae7"
+        },
+        {
+          "id": 38104207881,
+          "name": "TypeScript",
+          "path": ".github/workflows/typescript.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38104207881",
+          "head_sha": "89701afa07f451e9f17285a7a0d7ce0984718ae7"
+        },
+        {
+          "id": 38104207943,
+          "name": "Python",
+          "path": ".github/workflows/python.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38104207943",
+          "head_sha": "89701afa07f451e9f17285a7a0d7ce0984718ae7"
+        },
+        {
+          "id": 38104200093,
+          "name": "TypeScript",
+          "path": ".github/workflows/typescript.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38104200093",
+          "head_sha": "89701afa07f451e9f17285a7a0d7ce0984718ae7"
+        },
+        {
+          "id": 38104200124,
+          "name": "Python",
+          "path": ".github/workflows/python.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38104200124",
+          "head_sha": "89701afa07f451e9f17285a7a0d7ce0984718ae7"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v1.0.0",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
+      "published_at": "2026-10-11T02:40:29Z",
+      "target_commitish": "c003d0d807409b22fa640d1f8e11f38f15755721",
+      "commit_sha": "c003d0d807409b22fa640d1f8e11f38f15755721",
+      "assets": [],
+      "workflow_runs": [
+        {
+          "id": 38113783575,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38113783575",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        },
+        {
+          "id": 38113737111,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38113737111",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        },
+        {
+          "id": 38113669096,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38113669096",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        },
+        {
+          "id": 38113246660,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38113246660",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        },
+        {
+          "id": 38112721086,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38112721086",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        },
+        {
+          "id": 38112699844,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38112699844",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        },
+        {
+          "id": 38112493270,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38112493270",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        },
+        {
+          "id": 38112481015,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issues",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38112481015",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        },
+        {
+          "id": 38112028767,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38112028767",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        },
+        {
+          "id": 38110999502,
+          "name": "Claude Code",
+          "path": ".github/workflows/claude.yml",
+          "event": "issue_comment",
+          "status": "completed",
+          "conclusion": "skipped",
+          "html_url": "https://github.com/modelcontextprotocol/servers/actions/runs/38110999502",
+          "head_sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+        }
+      ]
+    },
+    {
+      "tag": "2026.8.31",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.31",
+      "published_at": "2026-08-31T20:34:32Z",
+      "target_commitish": "main",
+      "commit_sha": "a40bc270fb5ece62673f8a1196f57116d885c5eb",
+      "assets": [],
+      "workflow_runs": []
+    },
+    {
+      "tag": "2026.8.18",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.18",
+      "published_at": "2026-08-18T16:16:12Z",
+      "target_commitish": "main",
+      "commit_sha": "644cbe65648f1d6c687b3b647683e1aaa4ed1eba",
+      "assets": [],
+      "workflow_runs": []
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v1.0.0",
+      "sha": "c003d0d807409b22fa640d1f8e11f38f15755721"
+    },
+    {
+      "name": "typescript-servers-0.6.2",
+      "sha": "94a36286d2ea49d095704167846283f0c2c2d5d1"
+    },
+    {
+      "name": "typescript-servers-0.6.1",
+      "sha": "a096c95e8eaa718b0efbce64ee77e2ddda4fdcd8"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:16:57.074524+00:00",
+  "source_times": {
+    "/repos/modelcontextprotocol/servers": "2026-10-17T16:07:28.401233+00:00",
+    "/repos/modelcontextprotocol/servers/commits?sha=main&per_page=20": "2026-10-17T16:07:30.425468+00:00",
+    "/repos/modelcontextprotocol/servers/git/trees/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c": "2026-10-17T16:07:31.821663+00:00",
+    "/repos/modelcontextprotocol/servers/git/trees/6e01fbfe1eaeb32ebad7349c87c8a2f2bc8e76f0": "2026-10-17T16:07:33.180750+00:00",
+    "/repos/modelcontextprotocol/servers/git/trees/cca4791ee4c428863e60670ec2db53f80dd33a22": "2026-10-17T16:07:34.561705+00:00",
+    "/repos/modelcontextprotocol/servers/git/trees/7e00ed729ac4ea24e10225e2bbab2bbc523ff8a9": "2026-10-17T16:07:35.952402+00:00",
+    "/repos/modelcontextprotocol/servers/git/trees/5d03db45e6e62c920255697c8ca5a06d326f5655": "2026-10-17T16:07:37.373717+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/bba09c93db1c735cd4166cc0eef7176c95be95be": "2026-10-17T16:07:39.104375+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/05c32c6053c1edd9a2faaf1b6ebf565c6650fa28": "2026-10-17T16:07:40.545518+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/99464a5090953350301c6fae298a96c6784e3201": "2026-10-17T16:07:41.988818+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/9c388c80a43c12db37f25049d031c98e1d26b5e0": "2026-10-17T16:07:43.395517+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/3b0235c2f498279b5db8a574c804cb94b215b71c": "2026-10-17T16:07:44.820493+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/1314868a79fdab93a73deac9e7c7fc9f3ffbce50": "2026-10-17T16:07:46.244709+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/752ceb698cc2eee9027edfa4f6ef8d6202569c06": "2026-10-17T16:07:47.657659+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/32ca5fe8301e46353db84a114c7b5b622d078c39": "2026-10-17T16:07:49.010474+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/e05ce1099fe2d579fe620b5b7170034e4ccbd588": "2026-10-17T16:07:50.370875+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/90f4c2921eef5249f8182900fefe0a6ee9e671df": "2026-10-17T16:07:52.687466+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/496fe1c2c8a2ead9cfa26a6a8ad2a6e9e4f51616": "2026-10-17T16:07:55.221605+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/19eacea041bde203d9897d78606cab867069770e": "2026-10-17T16:07:56.609988+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/1582074ad27a7341d9a248761a0cfdec83c5c01c": "2026-10-17T16:07:57.983526+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/8acd858d8982b91d2f23cac016bc87e8e56e4f8e": "2026-10-17T16:07:59.412832+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/f47a6982604a9296dfe1c3ef2c31b5f5757415c9": "2026-10-17T16:08:01.015024+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/905697e03fea3cf13d096c56e43241db060f6c0d": "2026-10-17T16:08:02.404312+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/295bce83463a7f56ce612723f743cc048f222c79": "2026-10-17T16:08:03.832935+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/7a2ee9e5e649086ad110661266f66bdbd2900f3d": "2026-10-17T16:08:05.200798+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/4f71471f89db003d10da2881a39dd94a6036a111": "2026-10-17T16:08:06.563298+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/e7813bc161cad26f96428565bebc4175af973ebc": "2026-10-17T16:08:08.184269+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/ce55bd4477579388afb8334bc9ed5b051753bf32": "2026-10-17T16:08:09.561492+00:00",
+    "/repos/modelcontextprotocol/servers/git/blobs/15c19b1f221382a8188d8f66ee8df625110ae2e9": "2026-10-17T16:08:10.942731+00:00",
+    "/repos/modelcontextprotocol/servers/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:08:14.620145+00:00",
+    "/repos/modelcontextprotocol/servers/pulls/1/files?per_page=100": "2026-10-17T16:08:17.358312+00:00",
+    "/repos/modelcontextprotocol/servers/pulls/1/reviews?per_page=100": "2026-10-17T16:08:18.796931+00:00",
+    "/repos/modelcontextprotocol/servers/actions/runs?head_sha=0a1e41dd669ded998446584a1572e54d9624bbc1&per_page=10": "2026-10-17T16:08:20.175869+00:00",
+    "/repos/modelcontextprotocol/servers/actions/runs?head_sha=fb3f8ee571daae580605f64b8e51555d41bdd7d3&per_page=10": "2026-10-17T16:08:21.653403+00:00",
+    "/repos/modelcontextprotocol/servers/pulls/5122/files?per_page=100": "2026-10-17T16:08:23.418593+00:00",
+    "/repos/modelcontextprotocol/servers/pulls/5122/reviews?per_page=100": "2026-10-17T16:08:25.055533+00:00",
+    "/repos/modelcontextprotocol/servers/actions/runs?head_sha=bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c&per_page=10": "2026-10-17T16:08:27.379224+00:00",
+    "/repos/modelcontextprotocol/servers/actions/runs?head_sha=f39bc6bbe7d9a74b6e6d9a6f0bb3e34ef1dd1810&per_page=10": "2026-10-17T16:08:29.217066+00:00",
+    "/repos/modelcontextprotocol/servers/pulls/5090/files?per_page=100": "2026-10-17T16:08:33.711695+00:00",
+    "/repos/modelcontextprotocol/servers/pulls/5090/reviews?per_page=100": "2026-10-17T16:08:36.255045+00:00",
+    "/repos/modelcontextprotocol/servers/actions/runs?head_sha=c003d0d807409b22fa640d1f8e11f38f15755721&per_page=10": "2026-10-17T16:08:38.611743+00:00",
+    "/repos/modelcontextprotocol/servers/actions/runs?head_sha=89701afa07f451e9f17285a7a0d7ce0984718ae7&per_page=10": "2026-10-17T16:08:40.507187+00:00",
+    "/repos/modelcontextprotocol/servers/releases?per_page=20&page=1": "2026-10-17T16:16:57.066360+00:00",
+    "/repos/modelcontextprotocol/servers/commits/v1.0.0": "2026-10-17T16:08:46.701758+00:00",
+    "/repos/modelcontextprotocol/servers/commits/2026.8.31": "2026-10-17T16:08:48.185382+00:00",
+    "/repos/modelcontextprotocol/servers/actions/runs?head_sha=a40bc270fb5ece62673f8a1196f57116d885c5eb&per_page=10": "2026-10-17T16:08:49.558518+00:00",
+    "/repos/modelcontextprotocol/servers/commits/2026.8.18": "2026-10-17T16:08:51.090825+00:00",
+    "/repos/modelcontextprotocol/servers/actions/runs?head_sha=644cbe65648f1d6c687b3b647683e1aaa4ed1eba&per_page=10": "2026-10-17T16:08:52.691551+00:00",
+    "/repos/modelcontextprotocol/servers/tags?per_page=3": "2026-10-17T16:08:55.436131+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:16:57.066360+00:00",
+  "status": "collected"
+}

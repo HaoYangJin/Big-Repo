@@ -1,0 +1,1681 @@
+{
+  "requested_repository": "anthropics/anthropic-cookbook",
+  "category": "agents",
+  "collected_at": "2026-10-17T16:06:51.034828+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "anthropics/claude-cookbooks",
+  "metadata": {
+    "html_url": "https://github.com/anthropics/claude-cookbooks",
+    "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+    "homepage": null,
+    "language": "Jupyter Notebook",
+    "stargazers_count": 53512,
+    "forks_count": 6441,
+    "open_issues_count": 362,
+    "pushed_at": "2026-10-17T00:28:09Z",
+    "created_at": "2023-08-15T20:23:51Z",
+    "archived": false,
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "topics": [],
+    "owner": {
+      "login": "anthropics",
+      "type": "Organization",
+      "html_url": "https://github.com/anthropics"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "a162e0184e71b60290808a43961a6cbc8060123c",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/a162e0184e71b60290808a43961a6cbc8060123c",
+      "date": "2026-10-17T00:28:08Z",
+      "subject": "feat(managed_agents): add agent security review cookbook (#926)"
+    },
+    {
+      "sha": "b2b0aa1ff7d8980b005b225d3802969c87bedad5",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/b2b0aa1ff7d8980b005b225d3802969c87bedad5",
+      "date": "2026-10-14T17:15:24Z",
+      "subject": "feat(observability): add OpenTelemetry tracing cookbook (#922)"
+    },
+    {
+      "sha": "39cd5a7a3a29a73e7391e17b7644c51f34a6aaa1",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/39cd5a7a3a29a73e7391e17b7644c51f34a6aaa1",
+      "date": "2026-10-14T02:56:52Z",
+      "subject": "feat(managed_agents): move plan-big-execute-small to multiagent_20261001 (#915)"
+    },
+    {
+      "sha": "9c1e493ddd2b82df399d2a61b9c806c539e18be6",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/9c1e493ddd2b82df399d2a61b9c806c539e18be6",
+      "date": "2026-10-10T09:24:54Z",
+      "subject": "docs(managed_agents): move the self-hosted sandbox variants to claude-quickstarts (#888)"
+    },
+    {
+      "sha": "d7265d6ae994ccd8429db0594b000073b2f9ad43",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/d7265d6ae994ccd8429db0594b000073b2f9ad43",
+      "date": "2026-09-28T16:56:35Z",
+      "subject": "Merge pull request #898 from anthropics/benlehrburger/cost-optimization-model-agnostic-caveats"
+    },
+    {
+      "sha": "bf24d45f2b5facc35f60452ac1ad5c0b054ea680",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/bf24d45f2b5facc35f60452ac1ad5c0b054ea680",
+      "date": "2026-09-28T16:47:00Z",
+      "subject": "docs(cost_optimization): add model-agnostic caveats for preserved thinking, cache reads and effort"
+    },
+    {
+      "sha": "813fbeec03cdedfda7808529438d1c7af71f26eb",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/813fbeec03cdedfda7808529438d1c7af71f26eb",
+      "date": "2026-09-24T18:19:10Z",
+      "subject": "feat(managed_agents): tag cookbook agents with anthropic_cookbook metadata (#886)"
+    },
+    {
+      "sha": "c5ff1dc523e28d9b8fbd5c6ecd63204e20b8a0ed",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/c5ff1dc523e28d9b8fbd5c6ecd63204e20b8a0ed",
+      "date": "2026-09-24T17:05:05Z",
+      "subject": "docs(fable_5_fallback_billing): update billing text for pre-stream refusal billing (#890)"
+    },
+    {
+      "sha": "a4b0d89061bc65769fea7947c080b3b11d938515",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/a4b0d89061bc65769fea7947c080b3b11d938515",
+      "date": "2026-09-22T17:28:03Z",
+      "subject": "feat(patterns): add multi-agent teams under latency pressure and budgets cookbook (#885)"
+    },
+    {
+      "sha": "daac2acb91544767804e42cf720df07c232fd5b6",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/daac2acb91544767804e42cf720df07c232fd5b6",
+      "date": "2026-09-21T14:58:24Z",
+      "subject": "docs(managed_agents): move the Linear, road trip planner, and MCP server apps to claude-quickstarts (#884)"
+    },
+    {
+      "sha": "6b671ef60ada2a8d3b0c07cadb424172da5135f5",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/6b671ef60ada2a8d3b0c07cadb424172da5135f5",
+      "date": "2026-09-18T19:07:32Z",
+      "subject": "feat(misc): add Admin API organization management cookbook (#881)"
+    },
+    {
+      "sha": "c245d39f91e5bbc0bf88f6a66a9af5e15f5c3462",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/c245d39f91e5bbc0bf88f6a66a9af5e15f5c3462",
+      "date": "2026-09-16T16:50:30Z",
+      "subject": "Merge pull request #879 from anthropics/cj-ant/move-slack-sentry-apps-to-quickstarts"
+    },
+    {
+      "sha": "b18fd7f01197976a622ec6a99d3176cd15740bb8",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/b18fd7f01197976a622ec6a99d3176cd15740bb8",
+      "date": "2026-09-16T16:44:30Z",
+      "subject": "docs(managed_agents): move the Slack and Sentry apps to claude-quickstarts"
+    },
+    {
+      "sha": "a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5",
+      "date": "2026-09-03T22:18:29Z",
+      "subject": "feat(claude_agent_sdk): add scheduled repository reviewer recipe (#860)"
+    },
+    {
+      "sha": "26b5cdce81d357596f5df7f44f50908a80be40cf",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/26b5cdce81d357596f5df7f44f50908a80be40cf",
+      "date": "2026-09-02T13:40:24Z",
+      "subject": "Retire claude-opus-4-1 across cookbooks; align validator model mappings to CLAUDE.md; !pip -> %pip (#807)"
+    },
+    {
+      "sha": "bbfab1bbbe5d4c353241a6df4e7d9a112a1ba356",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/bbfab1bbbe5d4c353241a6df4e7d9a112a1ba356",
+      "date": "2026-08-28T21:53:42Z",
+      "subject": "docs(managed_agents): remove cost and latency ratios from CMA_plan_big_execute_small (#851)"
+    },
+    {
+      "sha": "35f2eec7e44897c537e44441b7dff2f0ecbfb804",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/35f2eec7e44897c537e44441b7dff2f0ecbfb804",
+      "date": "2026-08-14T20:50:15Z",
+      "subject": "Merge pull request #834 from anthropics/aravind-ant/fix-mdx-compile"
+    },
+    {
+      "sha": "2a3204e9f784da1c3d2352dfa2c236b9c9abb2ba",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/2a3204e9f784da1c3d2352dfa2c236b9c9abb2ba",
+      "date": "2026-08-14T20:46:37Z",
+      "subject": "Replace bare <link> token that fails the site's MDX compile"
+    },
+    {
+      "sha": "7eca2b4f6f1b7849e4500d55ce65ae6ab8292173",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/7eca2b4f6f1b7849e4500d55ce65ae6ab8292173",
+      "date": "2026-08-14T20:11:57Z",
+      "subject": "Merge pull request #833 from anthropics/aravind-ant/fix-md-fences"
+    },
+    {
+      "sha": "21b9fe1f9dfa671a0a6b273c02c7826c1f6cf468",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/21b9fe1f9dfa671a0a6b273c02c7826c1f6cf468",
+      "date": "2026-08-14T19:52:19Z",
+      "subject": "Fix markdown code fences for the cookbook site renderer"
+    }
+  ],
+  "default_sha": "a162e0184e71b60290808a43961a6cbc8060123c",
+  "root_and_selected_directory_paths": [
+    ".claude",
+    ".env.example",
+    ".github",
+    ".github/ISSUE_GUIDELINES.md",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug_report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/cookbook_proposal.yml",
+    ".github/ISSUE_TEMPLATE/question.yml",
+    ".github/authors_schema.json",
+    ".github/pull_request_template.md",
+    ".github/registry_schema.json",
+    ".github/scripts",
+    ".github/workflows",
+    ".github/workflows/claude-link-review.yml",
+    ".github/workflows/claude-model-check.yml",
+    ".github/workflows/claude-pr-review.yml",
+    ".github/workflows/links.yml",
+    ".github/workflows/lint-format.yml",
+    ".github/workflows/notebook-diff-comment.yml",
+    ".github/workflows/notebook-quality.yml",
+    ".github/workflows/notebook-tests.yml",
+    ".github/workflows/verify-authors.yml",
+    ".gitignore",
+    ".pre-commit-config.yaml",
+    "CLAUDE.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "Makefile",
+    "README.md",
+    "anthropic_cookbook",
+    "authors.yaml",
+    "capabilities",
+    "claude_agent_sdk",
+    "coding",
+    "cost_optimization",
+    "evals",
+    "extended_thinking",
+    "fable_5_fallback_billing",
+    "finetuning",
+    "images",
+    "lychee.toml",
+    "managed_agents",
+    "misc",
+    "multimodal",
+    "observability",
+    "patterns",
+    "pyproject.toml",
+    "registry.yaml",
+    "requirements-dev.txt",
+    "scripts",
+    "skills",
+    "tests",
+    "third_party",
+    "tool_evaluation",
+    "tool_use",
+    "tox.ini",
+    "uv.lock",
+    "uv.toml"
+  ],
+  "workflow_paths": [
+    ".github/workflows/notebook-tests.yml",
+    ".github/workflows/claude-link-review.yml",
+    ".github/workflows/claude-model-check.yml",
+    ".github/workflows/claude-pr-review.yml",
+    ".github/workflows/links.yml",
+    ".github/workflows/lint-format.yml",
+    ".github/workflows/notebook-diff-comment.yml",
+    ".github/workflows/notebook-quality.yml",
+    ".github/workflows/verify-authors.yml"
+  ],
+  "documents": [
+    {
+      "path": "CLAUDE.md",
+      "sha": "0c54d4a4113643f91bb0ee2a767a13f2cd9a00e4",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/CLAUDE.md",
+      "lines": 111,
+      "signals": {
+        "tests": [
+          26
+        ],
+        "lint": [
+          11,
+          12,
+          22,
+          32,
+          33,
+          34,
+          35,
+          42,
+          81
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [
+          50,
+          52,
+          53
+        ],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "f06e5c86274722a692f24da694c61121c5bf15c8",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/CONTRIBUTING.md",
+      "lines": 237,
+      "signals": {
+        "tests": [],
+        "lint": [
+          39,
+          41,
+          42,
+          58,
+          86,
+          87,
+          100,
+          102,
+          104,
+          208,
+          209,
+          217
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [
+          156,
+          171,
+          172
+        ],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile",
+      "sha": "369e841f6a16fea4745b14cb23cad3ac6c8049df",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/Makefile",
+      "lines": 128,
+      "signals": {
+        "tests": [
+          15,
+          62,
+          73,
+          90,
+          92,
+          94,
+          101,
+          103,
+          105,
+          119
+        ],
+        "lint": [
+          9,
+          10,
+          12,
+          34,
+          36,
+          37,
+          41,
+          42,
+          44,
+          46,
+          47,
+          53
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "b6c1dee32ef16aade023b8c16ceeb82dff9b6699",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/README.md",
+      "lines": 69,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "76449e377b88757c43552f7fd3c000141806f297",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/pyproject.toml",
+      "lines": 97,
+      "signals": {
+        "tests": [
+          30,
+          37,
+          73
+        ],
+        "lint": [
+          29,
+          32,
+          43,
+          46,
+          48,
+          53,
+          64
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha": "bdcc6631bd8a78aac077f56d186bbe78de0b1f07",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "lines": 82,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "0729b88b1740eebd561d437e0652dee21f9478c8",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 11,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/cookbook_proposal.yml",
+      "sha": "b1dd2b204b47119d987be963add1e6c51c016465",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/.github/ISSUE_TEMPLATE/cookbook_proposal.yml",
+      "lines": 77,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/question.yml",
+      "sha": "2a37b6bb2c7faa92e6d6554c40c8a3116afe8abf",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/.github/ISSUE_TEMPLATE/question.yml",
+      "lines": 59,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha": "b2517d08e3f57c4f0793b9184136410015dbef81",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/.github/pull_request_template.md",
+      "lines": 43,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/notebook-tests.yml",
+      "sha": "bd0eb6260ca6ac88d8ba630ed096135e7d7334ab",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/.github/workflows/notebook-tests.yml",
+      "lines": 260,
+      "signals": {
+        "tests": [
+          89,
+          90,
+          200
+        ],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          16,
+          19,
+          133
+        ],
+        "pinned_actions": [
+          31,
+          130
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          28
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/claude-link-review.yml",
+      "sha": "b9a74c5bc489ac12b2f61f6e01cb9ba5c3f50861",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/.github/workflows/claude-link-review.yml",
+      "lines": 87,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          23,
+          26,
+          73
+        ],
+        "pinned_actions": [
+          70
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/claude-model-check.yml",
+      "sha": "2688c4b2fc109d5aabd9a23bf39153edc4ce1030",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/.github/workflows/claude-model-check.yml",
+      "lines": 88,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          17,
+          20,
+          74
+        ],
+        "pinned_actions": [
+          71
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/claude-pr-review.yml",
+      "sha": "48d1b352162967679f2f21239b6d8d9c9124e69f",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/.github/workflows/claude-pr-review.yml",
+      "lines": 59,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          24,
+          27,
+          48
+        ],
+        "pinned_actions": [
+          45
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/links.yml",
+      "sha": "26ee62b32a518c044ff6b01c907e347df72ea59c",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/.github/workflows/links.yml",
+      "lines": 157,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          10
+        ],
+        "pinned_actions": [
+          116,
+          130,
+          145
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/lint-format.yml",
+      "sha": "166895b080c74c807c47fcf9dd741e67311b5a24",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/.github/workflows/lint-format.yml",
+      "lines": 163,
+      "signals": {
+        "tests": [],
+        "lint": [
+          68,
+          81,
+          91,
+          104,
+          110
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          17,
+          20,
+          124
+        ],
+        "pinned_actions": [
+          30,
+          121
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/notebook-diff-comment.yml",
+      "sha": "e12d5c29b7aba87473bdadd43e207a02fa2d918d",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/.github/workflows/notebook-diff-comment.yml",
+      "lines": 97,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          8
+        ],
+        "pinned_actions": [
+          22
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": [
+          19
+        ]
+      }
+    },
+    {
+      "path": ".github/workflows/notebook-quality.yml",
+      "sha": "abf23ba6b5eaa7ff1ba6d60cfb041d19bd9dd154",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/.github/workflows/notebook-quality.yml",
+      "lines": 138,
+      "signals": {
+        "tests": [],
+        "lint": [
+          39,
+          41,
+          42
+        ],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [
+          14,
+          17,
+          62
+        ],
+        "pinned_actions": [
+          27,
+          59
+        ],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/workflows/verify-authors.yml",
+      "sha": "191f891ac004534888119d5f99a79b88236f233d",
+      "status": "inspected",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/a162e0184e71b60290808a43961a6cbc8060123c/.github/workflows/verify-authors.yml",
+      "lines": 33,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 926,
+      "title": "feat(managed_agents): add agent security review cookbook",
+      "url": "https://github.com/anthropics/claude-cookbooks/pull/926",
+      "merged_at": "2026-10-17T00:28:09Z",
+      "merge_commit_sha": "a162e0184e71b60290808a43961a6cbc8060123c",
+      "files": [
+        "managed_agents/CMA_agent_security_review.ipynb",
+        "managed_agents/README.md",
+        "managed_agents/example_data/OVERVIEW.md",
+        "managed_agents/example_data/agent_log_review/DRAFT_PROMPT.md",
+        "managed_agents/example_data/agent_log_review/REFERENCE.md",
+        "managed_agents/example_data/agent_log_review/TEMPLATE.txt",
+        "managed_agents/example_data/agent_log_review/architecture_diagram.png",
+        "managed_agents/example_data/agent_log_review/logs/agent_sdk/sdk_brief_01.json",
+        "managed_agents/example_data/agent_log_review/logs/agent_sdk/sdk_brief_02.json",
+        "managed_agents/example_data/agent_log_review/logs/agent_sdk/sdk_brief_03.json",
+        "managed_agents/example_data/agent_log_review/logs/agent_sdk/sdk_brief_04.json",
+        "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv01.json",
+        "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv02.json",
+        "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv03.json",
+        "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv04.json",
+        "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv05.json",
+        "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv06.json",
+        "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv07.json",
+        "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv08.json",
+        "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv09.json",
+        "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv10.json",
+        "managed_agents/example_data/agent_log_review/logs/messages_api/msgs_support_01.json",
+        "managed_agents/example_data/agent_log_review/logs/messages_api/msgs_support_02.json",
+        "managed_agents/example_data/agent_log_review/logs/messages_api/msgs_support_03.json",
+        "managed_agents/example_data/agent_log_review/logs/messages_api/msgs_support_04.json",
+        "managed_agents/example_data/agent_log_review/logs/messages_api/msgs_support_05.json",
+        "managed_agents/example_data/agent_log_review/logs/messages_api/msgs_support_06.json",
+        "managed_agents/example_data/agent_log_review/prompts/report_prompt.txt",
+        "managed_agents/example_data/agent_log_review/prompts/review_system.txt",
+        "managed_agents/example_data/agent_log_review/prompts/verdict_schema.json",
+        "managed_agents/example_data/agent_log_review/review_workflow_diagram.png",
+        "managed_agents/example_data/agent_log_review/rules/additional_rules.json",
+        "managed_agents/example_data/agent_log_review/rules/transcript_rules.json",
+        "managed_agents/example_data/agent_log_review/sample_report.txt",
+        "managed_agents/example_data/agent_log_review/sample_verdict_sesn_011Inv09.json",
+        "managed_agents/log_review_utils.py",
+        "registry.yaml"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "managed_agents/CMA_agent_security_review.ipynb",
+          "status": "added",
+          "additions": 2255,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2FCMA_agent_security_review.ipynb"
+        },
+        {
+          "filename": "managed_agents/README.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2FREADME.md"
+        },
+        {
+          "filename": "managed_agents/example_data/OVERVIEW.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2FOVERVIEW.md"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/DRAFT_PROMPT.md",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2FDRAFT_PROMPT.md"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/REFERENCE.md",
+          "status": "added",
+          "additions": 369,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2FREFERENCE.md"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/TEMPLATE.txt",
+          "status": "added",
+          "additions": 19,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2FTEMPLATE.txt"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/architecture_diagram.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Farchitecture_diagram.png"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/agent_sdk/sdk_brief_01.json",
+          "status": "added",
+          "additions": 419,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fagent_sdk%2Fsdk_brief_01.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/agent_sdk/sdk_brief_02.json",
+          "status": "added",
+          "additions": 569,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fagent_sdk%2Fsdk_brief_02.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/agent_sdk/sdk_brief_03.json",
+          "status": "added",
+          "additions": 569,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fagent_sdk%2Fsdk_brief_03.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/agent_sdk/sdk_brief_04.json",
+          "status": "added",
+          "additions": 685,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fagent_sdk%2Fsdk_brief_04.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv01.json",
+          "status": "added",
+          "additions": 369,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fmanaged_agents%2Fsesn_011Inv01.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv02.json",
+          "status": "added",
+          "additions": 328,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fmanaged_agents%2Fsesn_011Inv02.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv03.json",
+          "status": "added",
+          "additions": 414,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fmanaged_agents%2Fsesn_011Inv03.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv04.json",
+          "status": "added",
+          "additions": 350,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fmanaged_agents%2Fsesn_011Inv04.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv05.json",
+          "status": "added",
+          "additions": 485,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fmanaged_agents%2Fsesn_011Inv05.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv06.json",
+          "status": "added",
+          "additions": 354,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fmanaged_agents%2Fsesn_011Inv06.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv07.json",
+          "status": "added",
+          "additions": 366,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fmanaged_agents%2Fsesn_011Inv07.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv08.json",
+          "status": "added",
+          "additions": 379,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fmanaged_agents%2Fsesn_011Inv08.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv09.json",
+          "status": "added",
+          "additions": 485,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fmanaged_agents%2Fsesn_011Inv09.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/managed_agents/sesn_011Inv10.json",
+          "status": "added",
+          "additions": 379,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fmanaged_agents%2Fsesn_011Inv10.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/messages_api/msgs_support_01.json",
+          "status": "added",
+          "additions": 783,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fmessages_api%2Fmsgs_support_01.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/messages_api/msgs_support_02.json",
+          "status": "added",
+          "additions": 1037,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fmessages_api%2Fmsgs_support_02.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/messages_api/msgs_support_03.json",
+          "status": "added",
+          "additions": 829,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fmessages_api%2Fmsgs_support_03.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/messages_api/msgs_support_04.json",
+          "status": "added",
+          "additions": 808,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fmessages_api%2Fmsgs_support_04.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/messages_api/msgs_support_05.json",
+          "status": "added",
+          "additions": 1097,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fmessages_api%2Fmsgs_support_05.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/logs/messages_api/msgs_support_06.json",
+          "status": "added",
+          "additions": 747,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Flogs%2Fmessages_api%2Fmsgs_support_06.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/prompts/report_prompt.txt",
+          "status": "added",
+          "additions": 58,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Fprompts%2Freport_prompt.txt"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/prompts/review_system.txt",
+          "status": "added",
+          "additions": 199,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Fprompts%2Freview_system.txt"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/prompts/verdict_schema.json",
+          "status": "added",
+          "additions": 376,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Fprompts%2Fverdict_schema.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/review_workflow_diagram.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Freview_workflow_diagram.png"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/rules/additional_rules.json",
+          "status": "added",
+          "additions": 98,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Frules%2Fadditional_rules.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/rules/transcript_rules.json",
+          "status": "added",
+          "additions": 334,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Frules%2Ftranscript_rules.json"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/sample_report.txt",
+          "status": "added",
+          "additions": 132,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Fsample_report.txt"
+        },
+        {
+          "filename": "managed_agents/example_data/agent_log_review/sample_verdict_sesn_011Inv09.json",
+          "status": "added",
+          "additions": 128,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Fexample_data%2Fagent_log_review%2Fsample_verdict_sesn_011Inv09.json"
+        },
+        {
+          "filename": "managed_agents/log_review_utils.py",
+          "status": "added",
+          "additions": 3641,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/managed_agents%2Flog_review_utils.py"
+        },
+        {
+          "filename": "registry.yaml",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/ff00469699c8ac4e1275ce13b1e521f40c1ed2ea/registry.yaml"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38986508865,
+          "name": "Verify Authors",
+          "path": ".github/workflows/verify-authors.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38986508865",
+          "head_sha": "a162e0184e71b60290808a43961a6cbc8060123c"
+        },
+        {
+          "id": 38986508905,
+          "name": "Lint and Format Check",
+          "path": ".github/workflows/lint-format.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38986508905",
+          "head_sha": "a162e0184e71b60290808a43961a6cbc8060123c"
+        },
+        {
+          "id": 38986508861,
+          "name": "Notebook Tests",
+          "path": ".github/workflows/notebook-tests.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38986508861",
+          "head_sha": "a162e0184e71b60290808a43961a6cbc8060123c"
+        },
+        {
+          "id": 38986508862,
+          "name": "Notebook Quality Check",
+          "path": ".github/workflows/notebook-quality.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38986508862",
+          "head_sha": "a162e0184e71b60290808a43961a6cbc8060123c"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38981849195,
+          "name": "Verify Authors",
+          "path": ".github/workflows/verify-authors.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38981849195",
+          "head_sha": "ff00469699c8ac4e1275ce13b1e521f40c1ed2ea"
+        },
+        {
+          "id": 38981849173,
+          "name": "Notebook Quality Check",
+          "path": ".github/workflows/notebook-quality.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38981849173",
+          "head_sha": "ff00469699c8ac4e1275ce13b1e521f40c1ed2ea"
+        },
+        {
+          "id": 38981848993,
+          "name": "Notebook Diff Comment",
+          "path": ".github/workflows/notebook-diff-comment.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38981848993",
+          "head_sha": "ff00469699c8ac4e1275ce13b1e521f40c1ed2ea"
+        },
+        {
+          "id": 38981849025,
+          "name": "Claude PR Review",
+          "path": ".github/workflows/claude-pr-review.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38981849025",
+          "head_sha": "ff00469699c8ac4e1275ce13b1e521f40c1ed2ea"
+        },
+        {
+          "id": 38981849109,
+          "name": "Claude Link Review",
+          "path": ".github/workflows/claude-link-review.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38981849109",
+          "head_sha": "ff00469699c8ac4e1275ce13b1e521f40c1ed2ea"
+        },
+        {
+          "id": 38981849085,
+          "name": "Notebook Tests",
+          "path": ".github/workflows/notebook-tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38981849085",
+          "head_sha": "ff00469699c8ac4e1275ce13b1e521f40c1ed2ea"
+        },
+        {
+          "id": 38981849087,
+          "name": "Claude Model Check",
+          "path": ".github/workflows/claude-model-check.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38981849087",
+          "head_sha": "ff00469699c8ac4e1275ce13b1e521f40c1ed2ea"
+        },
+        {
+          "id": 38981849008,
+          "name": "Link Check",
+          "path": ".github/workflows/links.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38981849008",
+          "head_sha": "ff00469699c8ac4e1275ce13b1e521f40c1ed2ea"
+        },
+        {
+          "id": 38981849282,
+          "name": "Lint and Format Check",
+          "path": ".github/workflows/lint-format.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38981849282",
+          "head_sha": "ff00469699c8ac4e1275ce13b1e521f40c1ed2ea"
+        }
+      ]
+    },
+    {
+      "number": 922,
+      "title": "feat(observability): add OpenTelemetry tracing cookbook",
+      "url": "https://github.com/anthropics/claude-cookbooks/pull/922",
+      "merged_at": "2026-10-14T17:15:25Z",
+      "merge_commit_sha": "b2b0aa1ff7d8980b005b225d3802969c87bedad5",
+      "files": [
+        "observability/opentelemetry_tracing.ipynb",
+        "registry.yaml"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "observability/opentelemetry_tracing.ipynb",
+          "status": "added",
+          "additions": 988,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/b312e92d03e9066a7116ddaf266fa9620f9caab9/observability%2Fopentelemetry_tracing.ipynb"
+        },
+        {
+          "filename": "registry.yaml",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/b312e92d03e9066a7116ddaf266fa9620f9caab9/registry.yaml"
+        }
+      ],
+      "review_states": [
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38605112215,
+          "name": "Lint and Format Check",
+          "path": ".github/workflows/lint-format.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38605112215",
+          "head_sha": "b2b0aa1ff7d8980b005b225d3802969c87bedad5"
+        },
+        {
+          "id": 38605112117,
+          "name": "Verify Authors",
+          "path": ".github/workflows/verify-authors.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38605112117",
+          "head_sha": "b2b0aa1ff7d8980b005b225d3802969c87bedad5"
+        },
+        {
+          "id": 38605112152,
+          "name": "Notebook Tests",
+          "path": ".github/workflows/notebook-tests.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38605112152",
+          "head_sha": "b2b0aa1ff7d8980b005b225d3802969c87bedad5"
+        },
+        {
+          "id": 38605112047,
+          "name": "Notebook Quality Check",
+          "path": ".github/workflows/notebook-quality.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38605112047",
+          "head_sha": "b2b0aa1ff7d8980b005b225d3802969c87bedad5"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 38604376269,
+          "name": "Claude Link Review",
+          "path": ".github/workflows/claude-link-review.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38604376269",
+          "head_sha": "b312e92d03e9066a7116ddaf266fa9620f9caab9"
+        },
+        {
+          "id": 38604376271,
+          "name": "Verify Authors",
+          "path": ".github/workflows/verify-authors.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38604376271",
+          "head_sha": "b312e92d03e9066a7116ddaf266fa9620f9caab9"
+        },
+        {
+          "id": 38604376646,
+          "name": "Link Check",
+          "path": ".github/workflows/links.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38604376646",
+          "head_sha": "b312e92d03e9066a7116ddaf266fa9620f9caab9"
+        },
+        {
+          "id": 38604376278,
+          "name": "Claude Model Check",
+          "path": ".github/workflows/claude-model-check.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38604376278",
+          "head_sha": "b312e92d03e9066a7116ddaf266fa9620f9caab9"
+        },
+        {
+          "id": 38604376478,
+          "name": "Notebook Tests",
+          "path": ".github/workflows/notebook-tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38604376478",
+          "head_sha": "b312e92d03e9066a7116ddaf266fa9620f9caab9"
+        },
+        {
+          "id": 38604376246,
+          "name": "Lint and Format Check",
+          "path": ".github/workflows/lint-format.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38604376246",
+          "head_sha": "b312e92d03e9066a7116ddaf266fa9620f9caab9"
+        },
+        {
+          "id": 38604376286,
+          "name": "Claude PR Review",
+          "path": ".github/workflows/claude-pr-review.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38604376286",
+          "head_sha": "b312e92d03e9066a7116ddaf266fa9620f9caab9"
+        },
+        {
+          "id": 38604376328,
+          "name": "Notebook Diff Comment",
+          "path": ".github/workflows/notebook-diff-comment.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38604376328",
+          "head_sha": "b312e92d03e9066a7116ddaf266fa9620f9caab9"
+        },
+        {
+          "id": 38604376261,
+          "name": "Notebook Quality Check",
+          "path": ".github/workflows/notebook-quality.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38604376261",
+          "head_sha": "b312e92d03e9066a7116ddaf266fa9620f9caab9"
+        }
+      ]
+    },
+    {
+      "number": 915,
+      "title": "feat(managed_agents): move plan-big-execute-small to multiagent_20261001",
+      "url": "https://github.com/anthropics/claude-cookbooks/pull/915",
+      "merged_at": "2026-10-14T02:56:52Z",
+      "merge_commit_sha": "39cd5a7a3a29a73e7391e17b7644c51f34a6aaa1",
+      "files": [
+        "managed_agents/CMA_plan_big_execute_small.ipynb",
+        "managed_agents/README.md",
+        "managed_agents/example_data/plan_big_execute_small/architecture_diagram.png",
+        "registry.yaml"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "managed_agents/CMA_plan_big_execute_small.ipynb",
+          "status": "modified",
+          "additions": 57,
+          "deletions": 43,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/f645bc6acf66589a93da95affc09298ac7cb3aae/managed_agents%2FCMA_plan_big_execute_small.ipynb"
+        },
+        {
+          "filename": "managed_agents/README.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/f645bc6acf66589a93da95affc09298ac7cb3aae/managed_agents%2FREADME.md"
+        },
+        {
+          "filename": "managed_agents/example_data/plan_big_execute_small/architecture_diagram.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/f645bc6acf66589a93da95affc09298ac7cb3aae/managed_agents%2Fexample_data%2Fplan_big_execute_small%2Farchitecture_diagram.png"
+        },
+        {
+          "filename": "registry.yaml",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 6,
+          "blob_url": "https://github.com/anthropics/claude-cookbooks/blob/f645bc6acf66589a93da95affc09298ac7cb3aae/registry.yaml"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [
+        {
+          "id": 38503704757,
+          "name": "Lint and Format Check",
+          "path": ".github/workflows/lint-format.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "failure",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38503704757",
+          "head_sha": "39cd5a7a3a29a73e7391e17b7644c51f34a6aaa1"
+        },
+        {
+          "id": 38503704916,
+          "name": "Notebook Tests",
+          "path": ".github/workflows/notebook-tests.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38503704916",
+          "head_sha": "39cd5a7a3a29a73e7391e17b7644c51f34a6aaa1"
+        },
+        {
+          "id": 38503704752,
+          "name": "Verify Authors",
+          "path": ".github/workflows/verify-authors.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38503704752",
+          "head_sha": "39cd5a7a3a29a73e7391e17b7644c51f34a6aaa1"
+        },
+        {
+          "id": 38503704759,
+          "name": "Notebook Quality Check",
+          "path": ".github/workflows/notebook-quality.yml",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/38503704759",
+          "head_sha": "39cd5a7a3a29a73e7391e17b7644c51f34a6aaa1"
+        }
+      ],
+      "head_commit_workflow_runs": [
+        {
+          "id": 37995764035,
+          "name": "Lint and Format Check",
+          "path": ".github/workflows/lint-format.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/37995764035",
+          "head_sha": "f645bc6acf66589a93da95affc09298ac7cb3aae"
+        },
+        {
+          "id": 37995763826,
+          "name": "Notebook Quality Check",
+          "path": ".github/workflows/notebook-quality.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/37995763826",
+          "head_sha": "f645bc6acf66589a93da95affc09298ac7cb3aae"
+        },
+        {
+          "id": 37995763832,
+          "name": "Notebook Tests",
+          "path": ".github/workflows/notebook-tests.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/37995763832",
+          "head_sha": "f645bc6acf66589a93da95affc09298ac7cb3aae"
+        },
+        {
+          "id": 37995763896,
+          "name": "Notebook Diff Comment",
+          "path": ".github/workflows/notebook-diff-comment.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/37995763896",
+          "head_sha": "f645bc6acf66589a93da95affc09298ac7cb3aae"
+        },
+        {
+          "id": 37995763874,
+          "name": "Link Check",
+          "path": ".github/workflows/links.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/37995763874",
+          "head_sha": "f645bc6acf66589a93da95affc09298ac7cb3aae"
+        },
+        {
+          "id": 37995763794,
+          "name": "Verify Authors",
+          "path": ".github/workflows/verify-authors.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/37995763794",
+          "head_sha": "f645bc6acf66589a93da95affc09298ac7cb3aae"
+        },
+        {
+          "id": 37995763915,
+          "name": "Claude PR Review",
+          "path": ".github/workflows/claude-pr-review.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/37995763915",
+          "head_sha": "f645bc6acf66589a93da95affc09298ac7cb3aae"
+        },
+        {
+          "id": 37995763827,
+          "name": "Claude Model Check",
+          "path": ".github/workflows/claude-model-check.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/37995763827",
+          "head_sha": "f645bc6acf66589a93da95affc09298ac7cb3aae"
+        },
+        {
+          "id": 37995763862,
+          "name": "Claude Link Review",
+          "path": ".github/workflows/claude-link-review.yml",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/anthropics/claude-cookbooks/actions/runs/37995763862",
+          "head_sha": "f645bc6acf66589a93da95affc09298ac7cb3aae"
+        }
+      ]
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:16:55.751376+00:00",
+  "source_times": {
+    "/repos/anthropics/anthropic-cookbook": "2026-10-17T16:06:51.034828+00:00",
+    "/repos/anthropics/claude-cookbooks/commits?sha=main&per_page=20": "2026-10-17T16:06:52.966549+00:00",
+    "/repos/anthropics/claude-cookbooks/git/trees/a162e0184e71b60290808a43961a6cbc8060123c": "2026-10-17T16:06:54.360517+00:00",
+    "/repos/anthropics/claude-cookbooks/git/trees/d02e9cd47c0e688694c91848f3f946d434778d03": "2026-10-17T16:06:55.812981+00:00",
+    "/repos/anthropics/claude-cookbooks/git/trees/c90cc398122ea9ab3a999da2bbd9477516bc0a97": "2026-10-17T16:06:57.234356+00:00",
+    "/repos/anthropics/claude-cookbooks/git/trees/afafee4ed075b4b9081441382a2bed85b1cf5987": "2026-10-17T16:06:58.631132+00:00",
+    "/repos/anthropics/claude-cookbooks/git/trees/b19c0f8b7b725f1d507087107d961f34ec43718d": "2026-10-17T16:16:45.908309+00:00",
+    "/repos/anthropics/claude-cookbooks/git/trees/4115c69a6ad915013fd2b8a5e1112f792969e1b3": "2026-10-17T16:16:48.282938+00:00",
+    "/repos/anthropics/claude-cookbooks/git/trees/66c1e02f0c936767bf0b1580335e6720a6eee1d1": "2026-10-17T16:16:51.301017+00:00",
+    "/repos/anthropics/claude-cookbooks/git/trees/4c4181a47076e27d304478a23fe0b7a92844ddb3": "2026-10-17T16:16:52.718215+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/0c54d4a4113643f91bb0ee2a767a13f2cd9a00e4": "2026-10-17T16:07:00.037000+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/f06e5c86274722a692f24da694c61121c5bf15c8": "2026-10-17T16:07:01.447233+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/369e841f6a16fea4745b14cb23cad3ac6c8049df": "2026-10-17T16:07:02.903642+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/b6c1dee32ef16aade023b8c16ceeb82dff9b6699": "2026-10-17T16:07:04.298558+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/76449e377b88757c43552f7fd3c000141806f297": "2026-10-17T16:07:05.689046+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/bdcc6631bd8a78aac077f56d186bbe78de0b1f07": "2026-10-17T16:07:07.171266+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/0729b88b1740eebd561d437e0652dee21f9478c8": "2026-10-17T16:07:08.577502+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/b1dd2b204b47119d987be963add1e6c51c016465": "2026-10-17T16:07:10.546957+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/2a37b6bb2c7faa92e6d6554c40c8a3116afe8abf": "2026-10-17T16:07:12.426307+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/b2517d08e3f57c4f0793b9184136410015dbef81": "2026-10-17T16:07:13.877129+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/bd0eb6260ca6ac88d8ba630ed096135e7d7334ab": "2026-10-17T16:07:15.322333+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/b9a74c5bc489ac12b2f61f6e01cb9ba5c3f50861": "2026-10-17T16:07:16.732313+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/2688c4b2fc109d5aabd9a23bf39153edc4ce1030": "2026-10-17T16:07:18.292211+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/48d1b352162967679f2f21239b6d8d9c9124e69f": "2026-10-17T16:07:19.863563+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/26ee62b32a518c044ff6b01c907e347df72ea59c": "2026-10-17T16:07:22.292786+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/166895b080c74c807c47fcf9dd741e67311b5a24": "2026-10-17T16:07:24.738283+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/e12d5c29b7aba87473bdadd43e207a02fa2d918d": "2026-10-17T16:07:26.245538+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/abf23ba6b5eaa7ff1ba6d60cfb041d19bd9dd154": "2026-10-17T16:07:28.725381+00:00",
+    "/repos/anthropics/claude-cookbooks/git/blobs/191f891ac004534888119d5f99a79b88236f233d": "2026-10-17T16:07:30.167217+00:00",
+    "/repos/anthropics/claude-cookbooks/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:07:36.744730+00:00",
+    "/repos/anthropics/claude-cookbooks/pulls/926/files?per_page=100": "2026-10-17T16:07:40.895914+00:00",
+    "/repos/anthropics/claude-cookbooks/pulls/926/reviews?per_page=100": "2026-10-17T16:07:42.439655+00:00",
+    "/repos/anthropics/claude-cookbooks/actions/runs?head_sha=a162e0184e71b60290808a43961a6cbc8060123c&per_page=10": "2026-10-17T16:07:44.380954+00:00",
+    "/repos/anthropics/claude-cookbooks/actions/runs?head_sha=ff00469699c8ac4e1275ce13b1e521f40c1ed2ea&per_page=10": "2026-10-17T16:07:46.564701+00:00",
+    "/repos/anthropics/claude-cookbooks/pulls/922/files?per_page=100": "2026-10-17T16:07:48.677392+00:00",
+    "/repos/anthropics/claude-cookbooks/pulls/922/reviews?per_page=100": "2026-10-17T16:07:50.485522+00:00",
+    "/repos/anthropics/claude-cookbooks/actions/runs?head_sha=b2b0aa1ff7d8980b005b225d3802969c87bedad5&per_page=10": "2026-10-17T16:07:53.312986+00:00",
+    "/repos/anthropics/claude-cookbooks/actions/runs?head_sha=b312e92d03e9066a7116ddaf266fa9620f9caab9&per_page=10": "2026-10-17T16:07:55.401484+00:00",
+    "/repos/anthropics/claude-cookbooks/pulls/915/files?per_page=100": "2026-10-17T16:07:58.625077+00:00",
+    "/repos/anthropics/claude-cookbooks/pulls/915/reviews?per_page=100": "2026-10-17T16:08:00.187757+00:00",
+    "/repos/anthropics/claude-cookbooks/actions/runs?head_sha=39cd5a7a3a29a73e7391e17b7644c51f34a6aaa1&per_page=10": "2026-10-17T16:08:02.130419+00:00",
+    "/repos/anthropics/claude-cookbooks/actions/runs?head_sha=f645bc6acf66589a93da95affc09298ac7cb3aae&per_page=10": "2026-10-17T16:08:04.152400+00:00",
+    "/repos/anthropics/claude-cookbooks/releases?per_page=20&page=1": "2026-10-17T16:16:55.750793+00:00",
+    "/repos/anthropics/claude-cookbooks/tags?per_page=3": "2026-10-17T16:08:08.110376+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:16:55.750793+00:00",
+  "status": "collected"
+}

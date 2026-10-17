@@ -1,0 +1,1014 @@
+{
+  "requested_repository": "kubernetes/kubernetes",
+  "category": "infrastructure",
+  "collected_at": "2026-10-17T16:13:29.472037+00:00",
+  "errors": [],
+  "method": "bounded-public-source-inspection-v1",
+  "repository": "kubernetes/kubernetes",
+  "metadata": {
+    "html_url": "https://github.com/kubernetes/kubernetes",
+    "description": "Production-Grade Container Scheduling and Management",
+    "homepage": "https://kubernetes.io",
+    "language": "Go",
+    "stargazers_count": 128326,
+    "forks_count": 47287,
+    "open_issues_count": 3213,
+    "pushed_at": "2026-10-17T09:14:08Z",
+    "created_at": "2014-06-06T22:56:04Z",
+    "archived": false,
+    "default_branch": "master",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "topics": [
+      "cncf",
+      "containers",
+      "go",
+      "kubernetes"
+    ],
+    "owner": {
+      "login": "kubernetes",
+      "type": "Organization",
+      "html_url": "https://github.com/kubernetes"
+    },
+    "has_discussions": false
+  },
+  "commits": [
+    {
+      "sha": "9b3380ed0f0882068abd7fb9bfbc816c595ae79e",
+      "url": "https://github.com/kubernetes/kubernetes/commit/9b3380ed0f0882068abd7fb9bfbc816c595ae79e",
+      "date": "2026-10-17T09:14:08Z",
+      "subject": "Merge pull request #142684 from Argh4k/nnn-fix"
+    },
+    {
+      "sha": "949f064e6d9e32f0a597795c265fcd50c6aad66e",
+      "url": "https://github.com/kubernetes/kubernetes/commit/949f064e6d9e32f0a597795c265fcd50c6aad66e",
+      "date": "2026-10-16T23:30:10Z",
+      "subject": "Merge pull request #143116 from xmudrii/update-go"
+    },
+    {
+      "sha": "b4213f9b623094d1a6caaab38deb25e93a0d9b2c",
+      "url": "https://github.com/kubernetes/kubernetes/commit/b4213f9b623094d1a6caaab38deb25e93a0d9b2c",
+      "date": "2026-10-16T21:53:54Z",
+      "subject": "Bump images and versions to Go 1.27.2 and update distroless-iptables"
+    },
+    {
+      "sha": "53fa80f55b15df3612f84b4ca8add27af9361379",
+      "url": "https://github.com/kubernetes/kubernetes/commit/53fa80f55b15df3612f84b4ca8add27af9361379",
+      "date": "2026-10-16T19:24:10Z",
+      "subject": "Merge pull request #142558 from paniccaaa/gsutil-gcloud-storage-rest"
+    },
+    {
+      "sha": "8d9877ea2fe0c69580c5d730bccab6dc16a5c841",
+      "url": "https://github.com/kubernetes/kubernetes/commit/8d9877ea2fe0c69580c5d730bccab6dc16a5c841",
+      "date": "2026-10-16T18:32:34Z",
+      "subject": "Merge pull request #142963 from my-git9/addon-ms"
+    },
+    {
+      "sha": "aabbb0db7982641da4378b04edb1afd62db4f04e",
+      "url": "https://github.com/kubernetes/kubernetes/commit/aabbb0db7982641da4378b04edb1afd62db4f04e",
+      "date": "2026-10-16T18:32:26Z",
+      "subject": "Extend integration tests coverage for the CompositePodGroup API (#141466)"
+    },
+    {
+      "sha": "12b1fe510690574f36f97d92d00562190b9ca95e",
+      "url": "https://github.com/kubernetes/kubernetes/commit/12b1fe510690574f36f97d92d00562190b9ca95e",
+      "date": "2026-10-16T18:32:17Z",
+      "subject": "Merge pull request #141377 from mohamedShakerr/fix-goroutine-leak-in-controller-test"
+    },
+    {
+      "sha": "bddbe39c513f56550371ca92c0423d2fb24c2120",
+      "url": "https://github.com/kubernetes/kubernetes/commit/bddbe39c513f56550371ca92c0423d2fb24c2120",
+      "date": "2026-10-16T18:32:09Z",
+      "subject": "Merge pull request #141039 from natasha41575/checkpoint_v2"
+    },
+    {
+      "sha": "e1143b1915fe107c48bd247d27f81c467daf7fd1",
+      "url": "https://github.com/kubernetes/kubernetes/commit/e1143b1915fe107c48bd247d27f81c467daf7fd1",
+      "date": "2026-10-16T17:38:20Z",
+      "subject": "Merge pull request #142849 from mauriciopoppe/pr-bump-go-restful-v3.14.0"
+    },
+    {
+      "sha": "93fad04d5d1c11665512bfabbd2744f3a8f062d6",
+      "url": "https://github.com/kubernetes/kubernetes/commit/93fad04d5d1c11665512bfabbd2744f3a8f062d6",
+      "date": "2026-10-16T17:38:11Z",
+      "subject": "Merge pull request #142598 from jpbetz/fix-binder-test-flake"
+    },
+    {
+      "sha": "9b965ac43f05d304180c7b8b9611264530788948",
+      "url": "https://github.com/kubernetes/kubernetes/commit/9b965ac43f05d304180c7b8b9611264530788948",
+      "date": "2026-10-16T15:30:30Z",
+      "subject": "Merge pull request #143100 from serathius/watchcache-correctness-watch-recursive-tests"
+    },
+    {
+      "sha": "254369f5ca7dee20cc1acf2b33c6579b3e7472e6",
+      "url": "https://github.com/kubernetes/kubernetes/commit/254369f5ca7dee20cc1acf2b33c6579b3e7472e6",
+      "date": "2026-10-16T15:30:21Z",
+      "subject": "Merge pull request #143098 from skitt/golangci-lint-2.15.0"
+    },
+    {
+      "sha": "7085c14168c5ea7b71b4bfd8f6acb060c858e8d6",
+      "url": "https://github.com/kubernetes/kubernetes/commit/7085c14168c5ea7b71b4bfd8f6acb060c858e8d6",
+      "date": "2026-10-16T15:30:13Z",
+      "subject": "Merge pull request #142815 from michaelasp/fix-volumemanager-test-flake"
+    },
+    {
+      "sha": "ca605382c7b766494450721a2f8dfd24af4ddc4a",
+      "url": "https://github.com/kubernetes/kubernetes/commit/ca605382c7b766494450721a2f8dfd24af4ddc4a",
+      "date": "2026-10-16T14:40:40Z",
+      "subject": "Merge pull request #143062 from serathius/watchcache-unparsed-rv"
+    },
+    {
+      "sha": "40dccc8ea12f325ecb0fd0707ef689a13ba771da",
+      "url": "https://github.com/kubernetes/kubernetes/commit/40dccc8ea12f325ecb0fd0707ef689a13ba771da",
+      "date": "2026-10-16T14:40:30Z",
+      "subject": "Merge pull request #142928 from iomarsayed/unexport-children-field-in-podgroupinfo"
+    },
+    {
+      "sha": "edf1676371895aad59460aa19e3ccd589ba66b8e",
+      "url": "https://github.com/kubernetes/kubernetes/commit/edf1676371895aad59460aa19e3ccd589ba66b8e",
+      "date": "2026-10-16T14:40:19Z",
+      "subject": "Merge pull request #142088 from Octopusjust/k8s-pr27"
+    },
+    {
+      "sha": "658c6691faf9972875a0b52fe76519d7591ad8f4",
+      "url": "https://github.com/kubernetes/kubernetes/commit/658c6691faf9972875a0b52fe76519d7591ad8f4",
+      "date": "2026-10-16T14:40:11Z",
+      "subject": "Merge pull request #136029 from huww98/detach-on-node-delete"
+    },
+    {
+      "sha": "7732f0328ca4d9a14e7bd72df9165a6076e28e47",
+      "url": "https://github.com/kubernetes/kubernetes/commit/7732f0328ca4d9a14e7bd72df9165a6076e28e47",
+      "date": "2026-10-16T14:32:15Z",
+      "subject": "kubelet: take the allocated pod from the stored pod"
+    },
+    {
+      "sha": "c6799b36373a61731c41bc71da420dcf73858189",
+      "url": "https://github.com/kubernetes/kubernetes/commit/c6799b36373a61731c41bc71da420dcf73858189",
+      "date": "2026-10-16T14:31:46Z",
+      "subject": "kubelet state: avoid blocking state readers during disk writes"
+    },
+    {
+      "sha": "b3edbc0fe961365d9b26af925a98eee0489d0c0a",
+      "url": "https://github.com/kubernetes/kubernetes/commit/b3edbc0fe961365d9b26af925a98eee0489d0c0a",
+      "date": "2026-10-16T14:31:41Z",
+      "subject": "kubelet: migrate allocation and actuated state to pod-based representation"
+    }
+  ],
+  "default_sha": "9b3380ed0f0882068abd7fb9bfbc816c595ae79e",
+  "root_and_selected_directory_paths": [
+    ".generated_files",
+    ".gitattributes",
+    ".github",
+    ".github/ISSUE_TEMPLATE",
+    ".github/ISSUE_TEMPLATE/bug-report.yaml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/enhancement.yaml",
+    ".github/ISSUE_TEMPLATE/failing-test.yaml",
+    ".github/ISSUE_TEMPLATE/flaking-test.yaml",
+    ".github/OWNERS",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/SECURITY.md",
+    ".gitignore",
+    ".go-version",
+    ".import-restrictions",
+    "AGENTS.md",
+    "CHANGELOG",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "LICENSES",
+    "Makefile",
+    "OWNERS",
+    "OWNERS_ALIASES",
+    "README.md",
+    "SECURITY_CONTACTS",
+    "SUPPORT.md",
+    "api",
+    "build",
+    "cluster",
+    "cmd",
+    "code-of-conduct.md",
+    "docs",
+    "docs/.gitignore",
+    "docs/OWNERS",
+    "go.mod",
+    "go.sum",
+    "go.work",
+    "go.work.sum",
+    "hack",
+    "logo",
+    "pkg",
+    "plugin",
+    "staging",
+    "test",
+    "third_party",
+    "vendor"
+  ],
+  "workflow_paths": [],
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha": "dfe80249e16f9fbc987a0fc2bd29108f1f2074d9",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/AGENTS.md",
+      "lines": 39,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          11
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "766969a156e154b65982ae6a33339b32624912d9",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/CHANGELOG.md",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "792dbf770585ea45c15dfa81b3062e073010676f",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/CONTRIBUTING.md",
+      "lines": 9,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "Makefile",
+      "sha": "613e083f0bfaefad9c1b63f91086261f81ae5909",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/Makefile",
+      "lines": 1,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "OWNERS",
+      "sha": "00ca8b940ed3fd4d06bff9ad1e4319fe2737542f",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/OWNERS",
+      "lines": 36,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "OWNERS_ALIASES",
+      "sha": "0de776432cfe59780005be12d7d26fc370d7d21c",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/OWNERS_ALIASES",
+      "lines": 620,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "README.md",
+      "sha": "831bf0164f8e625d70c35a99ae23fd3522870f52",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/README.md",
+      "lines": 100,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [
+          3
+        ],
+        "media": [
+          3,
+          5
+        ],
+        "theme_images": [],
+        "playground": [],
+        "community": [
+          98
+        ],
+        "story": []
+      }
+    },
+    {
+      "path": "SECURITY_CONTACTS",
+      "sha": "21a9a3a3f6816b74739e7bfd71146dd5b5bb5467",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/SECURITY_CONTACTS",
+      "lines": 15,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          12
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "SUPPORT.md",
+      "sha": "83e99b0a400d253a3f219ada38b774bc0e7da340",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/SUPPORT.md",
+      "lines": 29,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "code-of-conduct.md",
+      "sha": "0d15c00cf32529a51f1db0697ab8b0b0669fdc13",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/code-of-conduct.md",
+      "lines": 3,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "go.mod",
+      "sha": "ce48c54bf06c2d3e633099d1f2605298d5bcd885",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/go.mod",
+      "lines": 252,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [
+          1,
+          94,
+          226
+        ],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yaml",
+      "sha": "b680ac410433a5a41914f00a2c01fa263643c8b1",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/.github/ISSUE_TEMPLATE/bug-report.yaml",
+      "lines": 107,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "4c74dfd79cf55936ac01f1c14c8a6c65c276343a",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/.github/ISSUE_TEMPLATE/config.yml",
+      "lines": 4,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/enhancement.yaml",
+      "sha": "c7b92496fce9bfdd9d9818268795febbf7600996",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/.github/ISSUE_TEMPLATE/enhancement.yaml",
+      "lines": 21,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/failing-test.yaml",
+      "sha": "4f0469d551778f06d5dc1d906fedbc40fe864c24",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/.github/ISSUE_TEMPLATE/failing-test.yaml",
+      "lines": 48,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/flaking-test.yaml",
+      "sha": "7bf0e5123673172ab057e87de0323764eb60391e",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/.github/ISSUE_TEMPLATE/flaking-test.yaml",
+      "lines": 50,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/OWNERS",
+      "sha": "18686f9589f30b2655f8505ccedae73fb1077e3a",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/.github/OWNERS",
+      "lines": 25,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha": "dbe24b8edee723d5b22a38b87ea89b9c7ed8995a",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/.github/PULL_REQUEST_TEMPLATE.md",
+      "lines": 70,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": ".github/SECURITY.md",
+      "sha": "3bafc83a1394ecc29803a37480f791fe9748c76f",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/.github/SECURITY.md",
+      "lines": 14,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [
+          1,
+          8,
+          10,
+          14
+        ],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    },
+    {
+      "path": "docs/OWNERS",
+      "sha": "6d205d4af5c1b08ddfda9898b47308ea86171dda",
+      "status": "inspected",
+      "url": "https://github.com/kubernetes/kubernetes/blob/9b3380ed0f0882068abd7fb9bfbc816c595ae79e/docs/OWNERS",
+      "lines": 15,
+      "signals": {
+        "tests": [],
+        "lint": [],
+        "generated_code": [],
+        "release_automation": [],
+        "permissions": [],
+        "pinned_actions": [],
+        "conventional_commits": [],
+        "security": [],
+        "star_history": [],
+        "badges": [],
+        "media": [],
+        "theme_images": [],
+        "playground": [],
+        "community": [],
+        "story": []
+      }
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 142684,
+      "title": "Fix clearing NNN for low prio pods in podgrouppreemption",
+      "url": "https://github.com/kubernetes/kubernetes/pull/142684",
+      "merged_at": "2026-10-17T09:14:08Z",
+      "merge_commit_sha": "9b3380ed0f0882068abd7fb9bfbc816c595ae79e",
+      "files": [
+        "pkg/scheduler/framework/preemption/executor.go",
+        "pkg/scheduler/framework/preemption/executor_test.go",
+        "pkg/scheduler/framework/preemption/podgrouppreemption.go",
+        "pkg/scheduler/framework/preemption/podgrouppreemption_test.go",
+        "pkg/scheduler/framework/preemption/preemption.go",
+        "pkg/scheduler/framework/preemption/preemption_test.go",
+        "pkg/scheduler/framework/preemption/types.go",
+        "staging/src/k8s.io/kube-scheduler/framework/interface.go",
+        "test/integration/scheduler/preemption/podgroup/podgrouppreemption_test.go"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "pkg/scheduler/framework/preemption/executor.go",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 17,
+          "blob_url": "https://github.com/kubernetes/kubernetes/blob/76d28f31134a566a2ab9178da0f89adf6027fce3/pkg%2Fscheduler%2Fframework%2Fpreemption%2Fexecutor.go"
+        },
+        {
+          "filename": "pkg/scheduler/framework/preemption/executor_test.go",
+          "status": "modified",
+          "additions": 187,
+          "deletions": 129,
+          "blob_url": "https://github.com/kubernetes/kubernetes/blob/76d28f31134a566a2ab9178da0f89adf6027fce3/pkg%2Fscheduler%2Fframework%2Fpreemption%2Fexecutor_test.go"
+        },
+        {
+          "filename": "pkg/scheduler/framework/preemption/podgrouppreemption.go",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 4,
+          "blob_url": "https://github.com/kubernetes/kubernetes/blob/76d28f31134a566a2ab9178da0f89adf6027fce3/pkg%2Fscheduler%2Fframework%2Fpreemption%2Fpodgrouppreemption.go"
+        },
+        {
+          "filename": "pkg/scheduler/framework/preemption/podgrouppreemption_test.go",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0,
+          "blob_url": "https://github.com/kubernetes/kubernetes/blob/76d28f31134a566a2ab9178da0f89adf6027fce3/pkg%2Fscheduler%2Fframework%2Fpreemption%2Fpodgrouppreemption_test.go"
+        },
+        {
+          "filename": "pkg/scheduler/framework/preemption/preemption.go",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 12,
+          "blob_url": "https://github.com/kubernetes/kubernetes/blob/76d28f31134a566a2ab9178da0f89adf6027fce3/pkg%2Fscheduler%2Fframework%2Fpreemption%2Fpreemption.go"
+        },
+        {
+          "filename": "pkg/scheduler/framework/preemption/preemption_test.go",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 27,
+          "blob_url": "https://github.com/kubernetes/kubernetes/blob/76d28f31134a566a2ab9178da0f89adf6027fce3/pkg%2Fscheduler%2Fframework%2Fpreemption%2Fpreemption_test.go"
+        },
+        {
+          "filename": "pkg/scheduler/framework/preemption/types.go",
+          "status": "modified",
+          "additions": 20,
+          "deletions": 0,
+          "blob_url": "https://github.com/kubernetes/kubernetes/blob/76d28f31134a566a2ab9178da0f89adf6027fce3/pkg%2Fscheduler%2Fframework%2Fpreemption%2Ftypes.go"
+        },
+        {
+          "filename": "staging/src/k8s.io/kube-scheduler/framework/interface.go",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0,
+          "blob_url": "https://github.com/kubernetes/kubernetes/blob/76d28f31134a566a2ab9178da0f89adf6027fce3/staging%2Fsrc%2Fk8s.io%2Fkube-scheduler%2Fframework%2Finterface.go"
+        },
+        {
+          "filename": "test/integration/scheduler/preemption/podgroup/podgrouppreemption_test.go",
+          "status": "modified",
+          "additions": 74,
+          "deletions": 6,
+          "blob_url": "https://github.com/kubernetes/kubernetes/blob/76d28f31134a566a2ab9178da0f89adf6027fce3/test%2Fintegration%2Fscheduler%2Fpreemption%2Fpodgroup%2Fpodgrouppreemption_test.go"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [],
+      "head_commit_workflow_runs": []
+    },
+    {
+      "number": 143116,
+      "title": "Bump images and versions to Go 1.27.2 and update distroless-iptables",
+      "url": "https://github.com/kubernetes/kubernetes/pull/143116",
+      "merged_at": "2026-10-16T23:30:11Z",
+      "merge_commit_sha": "949f064e6d9e32f0a597795c265fcd50c6aad66e",
+      "files": [
+        "build/build-image/cross/VERSION",
+        "build/common.sh",
+        "build/dependencies.yaml",
+        "test/utils/image/manifest.go"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "build/build-image/cross/VERSION",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/kubernetes/kubernetes/blob/b4213f9b623094d1a6caaab38deb25e93a0d9b2c/build%2Fbuild-image%2Fcross%2FVERSION"
+        },
+        {
+          "filename": "build/common.sh",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2,
+          "blob_url": "https://github.com/kubernetes/kubernetes/blob/b4213f9b623094d1a6caaab38deb25e93a0d9b2c/build%2Fcommon.sh"
+        },
+        {
+          "filename": "build/dependencies.yaml",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3,
+          "blob_url": "https://github.com/kubernetes/kubernetes/blob/b4213f9b623094d1a6caaab38deb25e93a0d9b2c/build%2Fdependencies.yaml"
+        },
+        {
+          "filename": "test/utils/image/manifest.go",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "blob_url": "https://github.com/kubernetes/kubernetes/blob/b4213f9b623094d1a6caaab38deb25e93a0d9b2c/test%2Futils%2Fimage%2Fmanifest.go"
+        }
+      ],
+      "review_states": [],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [],
+      "head_commit_workflow_runs": []
+    },
+    {
+      "number": 141377,
+      "title": "Fix goroutine leak in TestStoreResourceVersionWithNonMetaTransform",
+      "url": "https://github.com/kubernetes/kubernetes/pull/141377",
+      "merged_at": "2026-10-16T18:32:18Z",
+      "merge_commit_sha": "12b1fe510690574f36f97d92d00562190b9ca95e",
+      "files": [
+        "staging/src/k8s.io/client-go/tools/cache/controller_test.go"
+      ],
+      "files_may_be_truncated": false,
+      "file_changes": [
+        {
+          "filename": "staging/src/k8s.io/client-go/tools/cache/controller_test.go",
+          "status": "modified",
+          "additions": 14,
+          "deletions": 1,
+          "blob_url": "https://github.com/kubernetes/kubernetes/blob/12e33808fe1d9a0da6d0cc456bff95ec03021821/staging%2Fsrc%2Fk8s.io%2Fclient-go%2Ftools%2Fcache%2Fcontroller_test.go"
+        }
+      ],
+      "review_states": [
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "COMMENTED",
+        "APPROVED"
+      ],
+      "reviews_may_be_truncated": false,
+      "merge_commit_workflow_runs": [],
+      "head_commit_workflow_runs": []
+    }
+  ],
+  "pr_selection": "latest-updated closed PRs merged into current default branch; up to 500 closed PRs scanned",
+  "releases": [
+    {
+      "tag": "v1.37.1",
+      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.1",
+      "published_at": "2026-09-23T19:13:17Z",
+      "target_commitish": "master",
+      "commit_sha": "f78e722310e50bcaca9276be22276d9e91d91308",
+      "assets": [],
+      "workflow_runs": []
+    },
+    {
+      "tag": "v1.36.5",
+      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.36.5",
+      "published_at": "2026-09-23T18:58:18Z",
+      "target_commitish": "master",
+      "commit_sha": "ad950d1cc78b0183c476bd4d3f1934c104229727",
+      "assets": [],
+      "workflow_runs": []
+    },
+    {
+      "tag": "v1.35.9",
+      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.35.9",
+      "published_at": "2026-09-23T19:35:01Z",
+      "target_commitish": "master",
+      "commit_sha": "329000efd0b26bd78155e51e4df449130f0fca00",
+      "assets": [],
+      "workflow_runs": []
+    }
+  ],
+  "release_selection": "first 3 stable published releases among latest 100 GitHub release records, API creation order",
+  "tags": [
+    {
+      "name": "v1.38.0-alpha.2",
+      "sha": "f3a03cbd1d301c6f0123b0b79113316a497da874"
+    },
+    {
+      "name": "v1.38.0-alpha.1",
+      "sha": "039223d3e2a1c6f5b1422c95fb396ff8c31d2619"
+    },
+    {
+      "name": "v1.38.0-alpha.0",
+      "sha": "556aa74b7a1d15a5a1745fba1227f7c7d92ba299"
+    }
+  ],
+  "unknowns": [
+    "effective branch protection",
+    "effective token permissions",
+    "external CI execution",
+    "private maintainer procedures",
+    "historical star counts unless independently collected"
+  ],
+  "assembled_at": "2026-10-17T16:17:11.484025+00:00",
+  "source_times": {
+    "/repos/kubernetes/kubernetes": "2026-10-17T16:13:29.472037+00:00",
+    "/repos/kubernetes/kubernetes/commits?sha=master&per_page=20": "2026-10-17T16:13:31.533865+00:00",
+    "/repos/kubernetes/kubernetes/git/trees/9b3380ed0f0882068abd7fb9bfbc816c595ae79e": "2026-10-17T16:13:33.024331+00:00",
+    "/repos/kubernetes/kubernetes/git/trees/1d65cea8d7f162c61e12fba1515b2c780ed57426": "2026-10-17T16:13:34.401770+00:00",
+    "/repos/kubernetes/kubernetes/git/trees/72701a851fc51fcba7be3b583a7ff1644a1dd3b5": "2026-10-17T16:13:35.807778+00:00",
+    "/repos/kubernetes/kubernetes/git/trees/42afd9948a878e8e44fc5dc042d57e06c3593abd": "2026-10-17T16:13:37.175525+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/dfe80249e16f9fbc987a0fc2bd29108f1f2074d9": "2026-10-17T16:13:40.064836+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/766969a156e154b65982ae6a33339b32624912d9": "2026-10-17T16:13:41.459197+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/792dbf770585ea45c15dfa81b3062e073010676f": "2026-10-17T16:13:42.855469+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/613e083f0bfaefad9c1b63f91086261f81ae5909": "2026-10-17T16:13:44.188148+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/00ca8b940ed3fd4d06bff9ad1e4319fe2737542f": "2026-10-17T16:13:45.563869+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/0de776432cfe59780005be12d7d26fc370d7d21c": "2026-10-17T16:13:47.087250+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/831bf0164f8e625d70c35a99ae23fd3522870f52": "2026-10-17T16:13:48.461440+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/21a9a3a3f6816b74739e7bfd71146dd5b5bb5467": "2026-10-17T16:13:49.843450+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/83e99b0a400d253a3f219ada38b774bc0e7da340": "2026-10-17T16:13:51.215649+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/0d15c00cf32529a51f1db0697ab8b0b0669fdc13": "2026-10-17T16:13:52.559092+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/ce48c54bf06c2d3e633099d1f2605298d5bcd885": "2026-10-17T16:13:54.058876+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/b680ac410433a5a41914f00a2c01fa263643c8b1": "2026-10-17T16:13:56.419971+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/4c74dfd79cf55936ac01f1c14c8a6c65c276343a": "2026-10-17T16:13:57.847979+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/c7b92496fce9bfdd9d9818268795febbf7600996": "2026-10-17T16:14:01.236165+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/4f0469d551778f06d5dc1d906fedbc40fe864c24": "2026-10-17T16:14:02.642163+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/7bf0e5123673172ab057e87de0323764eb60391e": "2026-10-17T16:14:04.003011+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/18686f9589f30b2655f8505ccedae73fb1077e3a": "2026-10-17T16:14:06.390299+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/dbe24b8edee723d5b22a38b87ea89b9c7ed8995a": "2026-10-17T16:14:09.236397+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/3bafc83a1394ecc29803a37480f791fe9748c76f": "2026-10-17T16:14:10.627055+00:00",
+    "/repos/kubernetes/kubernetes/git/blobs/6d205d4af5c1b08ddfda9898b47308ea86171dda": "2026-10-17T16:14:11.967589+00:00",
+    "/repos/kubernetes/kubernetes/pulls?state=closed&sort=updated&direction=desc&per_page=100&page=1": "2026-10-17T16:14:16.285027+00:00",
+    "/repos/kubernetes/kubernetes/pulls/142684/files?per_page=100": "2026-10-17T16:14:20.468553+00:00",
+    "/repos/kubernetes/kubernetes/pulls/142684/reviews?per_page=100": "2026-10-17T16:14:22.527185+00:00",
+    "/repos/kubernetes/kubernetes/actions/runs?head_sha=9b3380ed0f0882068abd7fb9bfbc816c595ae79e&per_page=10": "2026-10-17T16:14:23.957373+00:00",
+    "/repos/kubernetes/kubernetes/actions/runs?head_sha=76d28f31134a566a2ab9178da0f89adf6027fce3&per_page=10": "2026-10-17T16:14:25.288654+00:00",
+    "/repos/kubernetes/kubernetes/pulls/143116/files?per_page=100": "2026-10-17T16:14:26.738082+00:00",
+    "/repos/kubernetes/kubernetes/pulls/143116/reviews?per_page=100": "2026-10-17T16:14:28.142352+00:00",
+    "/repos/kubernetes/kubernetes/actions/runs?head_sha=949f064e6d9e32f0a597795c265fcd50c6aad66e&per_page=10": "2026-10-17T16:14:29.509946+00:00",
+    "/repos/kubernetes/kubernetes/actions/runs?head_sha=b4213f9b623094d1a6caaab38deb25e93a0d9b2c&per_page=10": "2026-10-17T16:14:33.503184+00:00",
+    "/repos/kubernetes/kubernetes/pulls/141377/files?per_page=100": "2026-10-17T16:14:34.965225+00:00",
+    "/repos/kubernetes/kubernetes/pulls/141377/reviews?per_page=100": "2026-10-17T16:14:36.559796+00:00",
+    "/repos/kubernetes/kubernetes/actions/runs?head_sha=12b1fe510690574f36f97d92d00562190b9ca95e&per_page=10": "2026-10-17T16:14:37.935952+00:00",
+    "/repos/kubernetes/kubernetes/actions/runs?head_sha=12e33808fe1d9a0da6d0cc456bff95ec03021821&per_page=10": "2026-10-17T16:14:39.341835+00:00",
+    "/repos/kubernetes/kubernetes/releases?per_page=20&page=1": "2026-10-17T16:17:11.481562+00:00",
+    "/repos/kubernetes/kubernetes/commits/v1.37.1": "2026-10-17T16:14:42.953835+00:00",
+    "/repos/kubernetes/kubernetes/actions/runs?head_sha=f78e722310e50bcaca9276be22276d9e91d91308&per_page=10": "2026-10-17T16:14:44.530888+00:00",
+    "/repos/kubernetes/kubernetes/commits/v1.36.5": "2026-10-17T16:14:45.907357+00:00",
+    "/repos/kubernetes/kubernetes/actions/runs?head_sha=ad950d1cc78b0183c476bd4d3f1934c104229727&per_page=10": "2026-10-17T16:14:47.322550+00:00",
+    "/repos/kubernetes/kubernetes/commits/v1.35.9": "2026-10-17T16:14:48.706503+00:00",
+    "/repos/kubernetes/kubernetes/actions/runs?head_sha=329000efd0b26bd78155e51e4df449130f0fca00&per_page=10": "2026-10-17T16:14:51.101221+00:00",
+    "/repos/kubernetes/kubernetes/tags?per_page=3": "2026-10-17T16:14:52.454032+00:00"
+  },
+  "last_source_fetch_at": "2026-10-17T16:17:11.481562+00:00",
+  "status": "collected"
+}
