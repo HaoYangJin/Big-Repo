@@ -119,6 +119,8 @@ python scripts/build_plugin.py --output dist
 
 研究结果、六个技能和六类仓库玩法可分别使用，不需要为小型仓库引入全部流程。
 
+仓库还提供[获授权的发行流程](docs/releases.md)：固定标签和已验证摘要，通过 GitHub Actions 的仓库令牌核验并公开已有 Release 草稿，无需保存个人令牌。
+
 ## 阅读入口
 
 - [Git 工作流](docs/git-workflow.md)：分支、暂存、验证、推送与 PR。

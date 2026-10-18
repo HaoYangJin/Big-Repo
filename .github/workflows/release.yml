@@ -1,0 +1,55 @@
+name: Release plugin
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing stable tag with an explicitly authorized release draft
+        required: true
+        type: string
+      commit:
+        description: Full reviewed commit SHA that the tag must resolve to
+        required: true
+        type: string
+      sha256:
+        description: SHA-256 of the independently validated plugin ZIP
+        required: true
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: release-${{ inputs.tag }}
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      RELEASE_TAG: ${{ inputs.tag }}
+      RELEASE_COMMIT: ${{ inputs.commit }}
+      RELEASE_SHA256: ${{ inputs.sha256 }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          path: automation
+          persist-credentials: false
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ inputs.tag }}
+          path: source
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.11'
+      - name: Validate pinned source, tests and reproducible artifacts
+        run: >-
+          python automation/scripts/publish_plugin.py prepare
+          --source source --output "$RUNNER_TEMP/plugin-release"
+          --repository "$GITHUB_REPOSITORY" --tag "$RELEASE_TAG"
+          --commit "$RELEASE_COMMIT" --sha256 "$RELEASE_SHA256"
+      - name: Upload, verify draft, publish and verify public assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >-
+          python automation/scripts/publish_plugin.py publish
+          --manifest "$RUNNER_TEMP/plugin-release/manifest.json"
