@@ -4,7 +4,7 @@
 
 客户端执行开发和推理；插件保存项目策略，管理任务与验证状态，完成推送、PR 和经验证的自动合并。没有任务时不运行定时巡检，也不后台监听 Issue。
 
-本页说明 main 开发版的新入口。已发布 1.1.0 包提供单次维护交付能力，尚不包含 project_workflow.py；新入口请使用完整开发版源码，不混合版本文件。
+本页对应 1.2.0 的项目接入与任务交付入口。1.1.0 包提供单次维护交付能力，不包含 project_workflow.py；升级时请使用完整的 1.2.0 插件包或固定标签源码，不混合版本文件。
 
 ## 三步使用
 
@@ -23,7 +23,7 @@
 在支持插件市场的客户端中登记源码市场并加载 repo-maintainer：
 
 ```text
-codex plugin marketplace add HaoYangJin/repo-standards --ref main
+codex plugin marketplace add HaoYangJin/repo-standards --ref v1.2.0
 ```
 
 按客户端的插件界面安装并开启新会话。不同版本客户端的命令和加载方式以 [Codex 官方文档](https://developers.openai.com/plugins/build/plugins) 为准。项目接入使用官方 [AGENTS.md 机制](https://developers.openai.com/codex/guides/agents-md)。
@@ -71,10 +71,10 @@ AI 调用 project_workflow.py 的 begin → check → review → deliver，使�
 
 研究与规范是参考资料，不是普通使用者的必读前提。共享工具 repo_tools.py 的 snapshot/preflight/accept/merge-readiness/showcase/pr 只读，preview 只输出预览，merge 会执行远端合并；项目工作流复用其门槛，不绕过验证、审查或 GitHub 保护。
 
-## 既有发行与升级
+## 下载、校验与升级
 
-[1.1.0 发行](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.1.0)保留原插件 ZIP、SHA-256 和安装说明。下载不会自动安装。使用发行包时核对摘要，完整解压后加载，保留整套技能和 references；升级在新目录准备完整版本，保留项目配置与用户改动，不混合覆盖单个文件。
+[1.2.0 发行入口](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.2.0)包含 `repo-maintainer-1.2.0.zip`、同名 `.sha256` 和 `INSTALL-1.2.0.md`；[1.1.0](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.1.0)保留供回退。下载不会自动安装。核对 ZIP 与同名校验文件（Linux 可用 `sha256sum -c repo-maintainer-1.2.0.zip.sha256`，macOS 可用 `shasum -a 256 -c repo-maintainer-1.2.0.zip.sha256`，PowerShell 可用 `Get-FileHash -Algorithm SHA256` 与校验文件比较摘要，忽略十六进制字母大小写），完整解压后加载，保留整套技能和 references；升级在新目录准备完整版本，保留项目配置与用户改动，不混合覆盖单个文件。
 
-新项目入口目前在 main。已经接入的项目不会因下载目录更新而静默替换运行文件；由 AI 明确核对版本后更新项目中的完整插件目录，并复验配置、命令和任务恢复。
+1.2.0 提供完整的新项目入口。已经接入的项目不会因下载目录更新而静默替换运行文件；由 AI 明确核对版本后更新项目中的完整插件目录，并复验配置、命令和任务恢复。
 
 repo-standards 的 GitHub Actions 发布流程用于这个插件自身发行。目标项目的版本发布按其实际构建、凭据和发布规则执行，不自动复制本仓库的发布工作流。
