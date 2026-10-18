@@ -19,9 +19,40 @@
 
 整个插件目录包含共享工具，发布包应整体复制。现有项目的规则优先；本插件不修改全局配置。
 
+1.0.0 已在隔离目录完成 Codex 插件安装、启用和六技能发现，以及 Claude Code 的清单校验、加载和六技能清点。用户随后明确要求本机安装，Codex 已完成用户级安装并以现有登录执行真实模型调用 repo-showcase，在测试仓库成功运行离线审查；Claude Code 的模型任务仍未验证。此结果不等于桌面界面测试或六技能全部端到端验收。
+
+### 获取与校验 1.0.0
+
+从 [GitHub Releases](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.0.0)下载 `repo-maintainer-1.0.0.zip` 和同名 `.sha256` 文件。此处为该版本的发行入口，发布前链接尚不可用。ZIP 仅包含插件目录；完整研究档案请读取源仓库。
+
+Windows PowerShell 可计算校验值，与 `.sha256` 第一列比较：
+
+```powershell
+Get-FileHash ./repo-maintainer-1.0.0.zip -Algorithm SHA256
+Get-Content ./repo-maintainer-1.0.0.zip.sha256
+Expand-Archive ./repo-maintainer-1.0.0.zip -DestinationPath ./repo-maintainer-1.0.0
+```
+
+macOS/Linux 可使用自带 Python：
+
+```text
+python3 -c "import hashlib,pathlib; print(hashlib.sha256(pathlib.Path('repo-maintainer-1.0.0.zip').read_bytes()).hexdigest())"
+python3 -m zipfile -e repo-maintainer-1.0.0.zip repo-maintainer-1.0.0
+```
+
+解压后插件根目录为 `repo-maintainer-1.0.0/repo-maintainer/`。升级时先停用旧版本，保留项目规则与本地改动，在新目录解压并重新指向它；回退时重新选择原插件目录或固定的旧提交。勿混合覆盖不同版本的单个文件。
+
 ### Codex
 
 使用支持本地插件市场的客户端，在克隆的仓库中选择 `repo-standards-local` 本地市场并安装 `repo-maintainer`。仓库 `.agents/plugins/marketplace.json` 只声明可发现项，不启用插件。不同客户端的发现和重启要求请按 [官方安装说明](https://developers.openai.com/plugins/build/plugins) 操作。
+
+支持该命令的 Codex CLI 可登记固定版本的源码市场，再在桌面客户端插件目录中选择 `repo-standards-local` 安装并开启新会话：
+
+```text
+codex plugin marketplace add HaoYangJin/repo-standards --ref v1.0.0
+```
+
+以上是用户主动安装时执行的命令，本发行过程不执行它，也不修改用户级设置。旧客户端缺少该命令时采用前述克隆仓库的本地市场方式。
 
 从 ZIP 取得插件时，先完整解压到所需项目的 `plugins/repo-maintainer/`，再按官方说明主动添加本地市场项，将 source.path 指向该目录。不要只复制清单或单个 SKILL.md；本交付不会替用户安装或启用。
 
@@ -33,7 +64,17 @@
 claude --plugin-dir /absolute/path/to/plugins/repo-maintainer
 ```
 
+如果使用上述 ZIP 解压目录，在同一工作目录执行 `claude --plugin-dir ./repo-maintainer-1.0.0/repo-maintainer`。
+
 或主动添加本仓库的市场再安装。私有来源仍需要读取权限；安装不会授予其他项目的修改权限。参考 [官方插件文档](https://code.claude.com/docs/en/plugins)。
+
+支持一条命令安装市场插件的 Claude Code 2.1.275+ 可在会话中主动执行：
+
+```text
+/plugin install repo-maintainer --marketplace HaoYangJin/repo-standards
+```
+
+这条命令从仓库默认分支取得插件；需要固定 1.0.0 时使用发行 ZIP 与 `--plugin-dir`。
 
 客户端实际加载测试结果见仓库的验收报告；JSON 和目录校验通过不能替代真实平台加载验证。
 
@@ -88,3 +129,5 @@ python scripts/build_plugin.py --output dist
 ```
 
 输出版本化 ZIP 和对应 .sha256 文件。固定条目时间、排序和权限，UTF-8 文本统一 LF，使用无压缩条目避免压缩库差异；相同文件内容得到相同字节。缓存、临时目录、凭据文件和符号链接不进入包。输出必须在插件目录之外。
+
+1.0.0 使用目标目录中的独立随机临时文件，全部准备完成后逐个原子替换 ZIP 与校验和，异常退出时清理本次临时文件；不覆盖固定名称的其他临时文件，也不打开已有输出符号链接的目标。两次替换不构成跨文件事务：后一步失败可能留下新 ZIP 与旧校验和，工具会报错交接，不能分发；分发前必须重新核对摘要。输出目录应由调用方控制，同一版本不要并发发布。

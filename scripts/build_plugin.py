@@ -7,6 +7,7 @@ import json
 import os
 from pathlib import Path
 import re
+import tempfile
 import zipfile
 
 ALLOWED_DIRS = {'.codex-plugin', '.claude-plugin', 'skills', 'scripts', 'references', 'templates', 'assets'}
@@ -84,18 +85,34 @@ def build(plugin, output):
         raise ValueError('Plugin must contain a skill')
     output.mkdir(parents=True, exist_ok=True)
     archive = output / f'{name}-{version}.zip'
-    temporary = output / f'.{name}-{version}.zip.tmp'
-    # Stored entries avoid compression-library variation across operating systems.
-    with zipfile.ZipFile(temporary, 'w', compression=zipfile.ZIP_STORED) as bundle:
-        for path, data in members:
-            info = zipfile.ZipInfo(name + '/' + path, date_time=(1980, 1, 1, 0, 0, 0))
-            info.create_system = 3
-            info.external_attr = 0o100644 << 16
-            bundle.writestr(info, data)
-    temporary.replace(archive)
-    digest = hashlib.sha256(archive.read_bytes()).hexdigest()
     checksum = output / (archive.name + '.sha256')
-    checksum.write_text(digest + '  ' + archive.name + '\n', encoding='utf-8', newline='\n')
+    staged = []
+    try:
+        # Exclusive, unique files in the destination directory avoid collisions.
+        with tempfile.NamedTemporaryFile(dir=output, prefix=f'.{name}-', suffix='.zip.tmp',
+                                         mode='w+b', delete=False) as stream:
+            temporary = Path(stream.name)
+            staged.append(temporary)
+            # Stored entries avoid compression-library variation across systems.
+            with zipfile.ZipFile(stream, 'w', compression=zipfile.ZIP_STORED) as bundle:
+                for path, data in members:
+                    info = zipfile.ZipInfo(name + '/' + path, date_time=(1980, 1, 1, 0, 0, 0))
+                    info.create_system = 3
+                    info.external_attr = 0o100644 << 16
+                    bundle.writestr(info, data)
+        digest = hashlib.sha256(temporary.read_bytes()).hexdigest()
+        with tempfile.NamedTemporaryFile(dir=output, prefix=f'.{name}-', suffix='.sha256.tmp',
+                                         mode='w', encoding='utf-8', newline='\n', delete=False) as stream:
+            checksum_temporary = Path(stream.name)
+            staged.append(checksum_temporary)
+            stream.write(digest + '  ' + archive.name + '\n')
+        # Prepare both before publication. Each replacement is atomic, not a pair transaction.
+        # Replacing a destination symlink replaces the link, without opening its target.
+        temporary.replace(archive)
+        checksum_temporary.replace(checksum)
+    finally:
+        for file in staged:
+            file.unlink(missing_ok=True)
     return {'archive': str(archive), 'checksum': str(checksum), 'sha256': digest,
             'files': len(members), 'version': version}
 
