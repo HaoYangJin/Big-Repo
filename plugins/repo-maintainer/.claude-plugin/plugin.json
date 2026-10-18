@@ -1,5 +1,5 @@
 {
   "name": "repo-maintainer",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "基于官方仓库研究的 AI 维护交付、发布准备与仓库展示技能。"
 }

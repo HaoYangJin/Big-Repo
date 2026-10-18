@@ -2,6 +2,16 @@
 
 维护 Git 仓库协作、提交说明和 AI 技能编写的中文规范，同时提供可复用模板与技能。
 
+## 下载与安装
+
+[1.0.0 发行页](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.0.0)提供插件 ZIP、SHA-256 校验和及安装说明；发布前这些链接尚不可用。GitHub 自动生成的 Source code 是完整研究仓库，插件专用包名为 `repo-maintainer-1.0.0.zip`。
+
+- [下载插件 ZIP](https://github.com/HaoYangJin/repo-standards/releases/download/v1.0.0/repo-maintainer-1.0.0.zip)
+- [下载 SHA-256 校验和](https://github.com/HaoYangJin/repo-standards/releases/download/v1.0.0/repo-maintainer-1.0.0.zip.sha256)
+- [安装与使用说明](plugins/repo-maintainer/README.md#安装与平台状态)
+
+ZIP 同时包含 Codex 与 Claude Code 清单、六个技能及工具；下载不会自动安装。实际客户端加载状态见[验收报告](docs/validation.md)。
+
 ## 官方仓库研究与维护插件
 
 - [60 个仓库分类档案](research/README.md)：包含真实提交、PR、发布及固定的仓库玩法维度。
@@ -18,7 +28,9 @@
 
 > 使用 repo-intake、repo-audit 和 maintenance-delivery，完成一轮审查、修正、验证和复核；通过本地检查、独立审查和 CI 后自动合并，首次非预期失败即保留现场并交接。
 
-本仓库已经完成首版三系统 CI；[第一轮自我优化记录](docs/self-review-round-1.md)记录本次采用插件维护自身的范围与证据。完整的平台安装加载与模型驱动验收仍单独标注，不与直接读取技能执行混为一谈。
+本仓库已经完成首版三系统 CI；[第一轮自我优化记录](docs/self-review-round-1.md)记录采用插件维护自身的范围与证据。1.0.0 已补做两端隔离加载，模型驱动任务仍未验证；详情见验收报告，不与直接读取技能执行混为一谈。
+
+[第二轮优化与首次发行准备](docs/self-review-round-2.md)记录打包安全修正、下载入口和 1.0.0 的发布范围。
 
 在仓库根目录运行：
 

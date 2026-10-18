@@ -50,6 +50,68 @@ class BuildPluginTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.m.build(self.plugin, self.root / 'out')
 
+    def test_existing_predictable_temporary_file_is_preserved(self):
+        output = self.root / 'out'
+        output.mkdir()
+        sentinel = output / '.repo-maintainer-0.2.0.zip.tmp'
+        sentinel.write_bytes(b'unrelated file')
+        self.m.build(self.plugin, output)
+        self.assertTrue(sentinel.exists())
+        self.assertEqual(sentinel.read_bytes(), b'unrelated file')
+
+    def test_archive_write_failure_preserves_previous_outputs_and_cleans_staging(self):
+        self.check_failed_build_preserves_outputs(
+            patch.object(zipfile.ZipFile, 'writestr', side_effect=OSError('injected write failure')),
+            OSError,
+        )
+
+    def test_digest_failure_does_not_publish_new_archive(self):
+        self.check_failed_build_preserves_outputs(
+            patch.object(self.m.hashlib, 'sha256', side_effect=OSError('injected digest failure')),
+            OSError,
+        )
+
+    def test_keyboard_interrupt_cleans_staging(self):
+        self.check_failed_build_preserves_outputs(
+            patch.object(zipfile.ZipFile, 'writestr', side_effect=KeyboardInterrupt),
+            KeyboardInterrupt,
+        )
+
+    def test_publish_failure_cleans_staging(self):
+        self.check_failed_build_preserves_outputs(
+            patch.object(Path, 'replace', side_effect=OSError('injected publish failure')),
+            OSError,
+        )
+
+    def check_failed_build_preserves_outputs(self, failure, error):
+        output = self.root / 'out'
+        self.m.build(self.plugin, output)
+        previous = {p.name: p.read_bytes() for p in output.iterdir()}
+        (self.plugin / 'scripts/tool.py').write_text('print(2)\n')
+        with failure, self.assertRaises(error):
+            self.m.build(self.plugin, output)
+        self.assertEqual({p.name: p.read_bytes() for p in output.iterdir()}, previous)
+
+    def test_checksum_symlink_target_is_preserved(self):
+        self.check_output_symlink_target_is_preserved('.sha256')
+
+    def test_archive_symlink_target_is_preserved(self):
+        self.check_output_symlink_target_is_preserved('')
+
+    def check_output_symlink_target_is_preserved(self, suffix):
+        output = self.root / 'out'
+        output.mkdir()
+        target = self.root / 'outside.txt'
+        target.write_bytes(b'must remain unchanged')
+        link = output / ('repo-maintainer-0.2.0.zip' + suffix)
+        try:
+            link.symlink_to(target)
+        except (OSError, NotImplementedError):
+            self.skipTest('Creating symlinks is unavailable in this environment')
+        self.m.build(self.plugin, output)
+        self.assertEqual(target.read_bytes(), b'must remain unchanged')
+        self.assertFalse(link.is_symlink())
+
     def test_sort_order_portable_with_mixed_case(self):
         (self.plugin / 'scripts/Z.py').write_text('print(2)')
         (self.plugin / 'scripts/a.py').write_text('print(3)')
