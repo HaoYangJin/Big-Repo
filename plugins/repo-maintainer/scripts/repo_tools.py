@@ -12,6 +12,7 @@ from pathlib import Path, PurePosixPath
 import re
 import stat
 import subprocess
+import sys
 from urllib.parse import quote, unquote, urlparse, urlunparse
 
 
@@ -480,4 +481,6 @@ def main():
 
 
 if __name__ == '__main__':
+    # Redirected stdout on older Windows Python otherwise uses the ANSI code page.
+    sys.stdout.reconfigure(encoding='utf-8')
     raise SystemExit(main())

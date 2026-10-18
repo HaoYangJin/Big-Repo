@@ -1,4 +1,7 @@
 from pathlib import Path
+import os
+import subprocess
+import sys
 import tempfile
 import unittest
 
@@ -7,6 +10,17 @@ from scripts.verify_plugin import SKILLS
 
 
 class HostCheckTests(unittest.TestCase):
+    def test_tool_cli_emits_utf8_under_legacy_stdio(self):
+        with tempfile.TemporaryDirectory(prefix='legacy encoding ') as directory:
+            fixture = Path(directory)
+            (fixture / 'README.md').write_text('# 中文说明\n', encoding='utf-8')
+            tool = Path(__file__).parents[1] / 'plugins/repo-maintainer/scripts/repo_tools.py'
+            env = dict(os.environ, PYTHONIOENCODING='cp1252', PYTHONUTF8='0')
+            result = subprocess.run([sys.executable, str(tool), 'preview', '--repo', str(fixture),
+                                     '--repository', 'example/private'], env=env, capture_output=True)
+            self.assertEqual(result.returncode, 0)
+            self.assertIn('中文说明', result.stdout.decode('utf-8'))
+
     def test_codex_inventory_requires_enabled_installed_skills(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
