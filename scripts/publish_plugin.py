@@ -92,6 +92,23 @@ def remote_commit(repository, tag):
     raise ValueError('Cannot resolve tag to commit')
 
 
+def release_id(repository, tag):
+    # GitHub's get-by-tag endpoint only returns published releases, not drafts.
+    matches = []
+    for page in range(1, 101):
+        releases = api(f'repos/{repository}/releases?per_page=100&page={page}')
+        if not isinstance(releases, list):
+            raise ValueError('Unexpected release list')
+        matches.extend(r['id'] for r in releases if r.get('tag_name') == tag)
+        if len(releases) < 100:
+            break
+    else:
+        raise ValueError('Release list exceeds inspection limit')
+    if len(matches) != 1 or type(matches[0]) is not int or matches[0] <= 0:
+        raise ValueError('Expected exactly one existing release for the tag')
+    return matches[0]
+
+
 def verify_assets(repository, tag, release, expected, directory):
     assets = release.get('assets', [])
     if (len(assets) != len(expected) or {a['name'] for a in assets} != set(expected)
@@ -124,10 +141,12 @@ def publish(manifest_path):
         raise ValueError('Unexpected local asset set or ZIP digest')
     if remote_commit(repository, tag) != data['commit']:
         raise ValueError('Remote tag no longer points to the validated commit')
+    identity = release_id(repository, tag)
 
     def release_state():
-        release = api(f'repos/{repository}/releases/tags/{tag}')
-        if release.get('tag_name') != tag or type(release.get('draft')) is not bool:
+        release = api(f'repos/{repository}/releases/{identity}')
+        if (release.get('id') != identity or release.get('tag_name') != tag
+                or type(release.get('draft')) is not bool):
             raise ValueError('Unexpected release identity or draft state')
         return release
 

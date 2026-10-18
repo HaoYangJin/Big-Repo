@@ -37,6 +37,7 @@ class PublishTests(unittest.TestCase):
         self.draft = True
         self.moves_tag = False
         self.writes = []
+        self.releases = [{'id': 123, 'tag_name': 'v1.1.0'}]
 
     def save(self):
         self.manifest.write_text(json.dumps(self.data))
@@ -46,7 +47,10 @@ class PublishTests(unittest.TestCase):
             return {'object': {'type': 'tag', 'sha': 'b' * 40}}
         if '/git/tags/' in endpoint:
             return {'object': {'type': 'commit', 'sha': 'f' * 40 if self.moves_tag else self.commit}}
-        return {'tag_name': 'v1.1.0', 'draft': self.draft,
+        if '/releases?' in endpoint:
+            return self.releases
+        self.assertEqual(endpoint, 'repos/a/b/releases/123')
+        return {'id': 123, 'tag_name': 'v1.1.0', 'draft': self.draft,
                 'html_url': 'https://github.com/a/b/releases/tag/v1.1.0',
                 'assets': [{'name': name, 'state': 'uploaded'} for name in self.remote]}
 
@@ -86,6 +90,19 @@ class PublishTests(unittest.TestCase):
         self.publish()
         self.assertNotIn(('upload', name), self.writes)
         self.assertEqual(len(self.writes), 3)
+
+    def test_missing_or_ambiguous_release_prevents_any_write(self):
+        for releases in ([], self.releases * 2):
+            self.releases = releases
+            with self.assertRaises(ValueError):
+                self.publish()
+            self.assertEqual(self.writes, [])
+
+    def test_release_lookup_paginates_before_selecting_stable_id(self):
+        pages = [[{'id': i + 1, 'tag_name': 'v0.0.1'} for i in range(100)], self.releases]
+        with patch.object(self.publisher, 'api', side_effect=pages) as request:
+            self.assertEqual(self.publisher.release_id('a/b', 'v1.1.0'), 123)
+        self.assertEqual(request.call_args_list[1].args[0], 'repos/a/b/releases?per_page=100&page=2')
 
     def test_existing_mismatch_and_extra_asset_prevent_any_write(self):
         for name in (next(iter(self.files)), 'unexpected.txt'):
