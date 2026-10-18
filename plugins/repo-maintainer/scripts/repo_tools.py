@@ -82,10 +82,13 @@ def validate_task(task):
         if (not isinstance(policy, dict)
                 or not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_.-]*/[A-Za-z0-9][A-Za-z0-9_.-]*', str(policy.get('repository', '')))
                 or not isinstance(policy.get('base_branch'), str) or not policy['base_branch'].strip()
-                or not isinstance(policy.get('required_checks'), list) or not policy['required_checks']
+                or not isinstance(policy.get('required_checks'), list)
+                or policy.get('ci_policy', 'required') not in ('required', 'none')
+                or (not policy['required_checks'] and policy.get('ci_policy') != 'none')
+                or (policy['required_checks'] and policy.get('ci_policy') == 'none')
                 or any(not isinstance(c, str) or not c.strip() for c in policy['required_checks'])
                 or len(set(policy['required_checks'])) != len(policy['required_checks'])):
-            raise ValueError('Merge requires repository, base_branch and unique required_checks')
+            raise ValueError('Merge requires repository, base_branch and a consistent CI policy')
     checks = task['validation']
     if any(not isinstance(c, dict) or not isinstance(c.get('id'), str) or not c['id']
            or not isinstance(c.get('command'), str) or not c['command'] for c in checks):

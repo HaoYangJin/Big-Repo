@@ -1,166 +1,77 @@
-# repo-standards
+# repo-standards · repo-maintainer
 
-维护 Git 仓库协作、提交说明和 AI 技能编写的中文规范，同时提供可复用模板与技能。
+**配置一次，以后只提开发需求或反馈，AI 自动完成本轮维护、验证、提交、推送和仓库交付。**
 
-<!-- repo-maintainer:frontpage:start -->
+repo-maintainer 是供 AI 编程客户端调用的仓库交付工具。客户端负责理解需求、开发和审查，插件保存项目规则并执行验证及 GitHub 交付。没有开发任务或反馈时不运行巡检。
 
-[![Checks](https://github.com/HaoYangJin/repo-standards/actions/workflows/check.yml/badge.svg?event=pull_request)](https://github.com/HaoYangJin/repo-standards/actions/workflows/check.yml)
-[![Release](https://img.shields.io/github/v/release/HaoYangJin/repo-standards?label=release)](https://github.com/HaoYangJin/repo-standards/releases)
-[![Stars](https://img.shields.io/github/stars/HaoYangJin/repo-standards?style=flat&label=stars)](https://github.com/HaoYangJin/repo-standards/stargazers)
+例如，你只需要说：
 
-**60 个真实样本 → 6 项维护技能 → 一轮有证据的交付。**
+> 给列表增加 CSV 导出。
 
-| 拿来用 | 看研究 | 动手体验 |
-| --- | --- | --- |
-| [下载插件 1.1.0](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.1.0) · [安装说明](plugins/repo-maintainer/README.md) | [分类档案](research/README.md) · [实践对比](research/COMPARISON.md) | [两分钟体验](#两分钟体验) · [六类玩法](plugins/repo-maintainer/skills/repo-showcase/references/showcase-catalog.md) |
+AI 根据项目配置完成开发，更新相关说明、运行检查、修复失败、组织提交、推送并创建 PR；配置为自动合并时，独立审查和 CI 成功后锁定提交合并。测试、CI 和审查反馈继续在同一任务内处理，无需再说“顺便维护、提交、上传”。
 
-徽章读取真实 GitHub 状态：Checks 对应最近的 PR 工作流，不能代替某个提交的验收；正式发行前 Release 可能显示无版本。查看[运行记录](https://github.com/HaoYangJin/repo-standards/actions)或[发行列表](https://github.com/HaoYangJin/repo-standards/releases)可核对实际状态。
+## 第一次：让 AI 接入你的项目
 
-<!-- repo-maintainer:frontpage:end -->
+当前新入口位于 **main 开发版**；已发布的 [1.1.0](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.1.0) 是旧版，不含项目接入与任务状态命令。
 
-## 下载与安装
+取得完整源码：
 
-[1.1.0 发行页](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.1.0)提供插件 ZIP、SHA-256 校验和及安装说明；发布前这些链接尚不可用。GitHub 自动生成的 Source code 是完整研究仓库，插件专用包名为 `repo-maintainer-1.1.0.zip`。
-
-- [下载插件 ZIP](https://github.com/HaoYangJin/repo-standards/releases/download/v1.1.0/repo-maintainer-1.1.0.zip)
-- [下载 SHA-256 校验和](https://github.com/HaoYangJin/repo-standards/releases/download/v1.1.0/repo-maintainer-1.1.0.zip.sha256)
-- [安装与使用说明](plugins/repo-maintainer/README.md#安装与平台状态)
-
-ZIP 同时包含 Codex 与 Claude Code 清单、六个技能及工具；下载不会自动安装。实际客户端加载状态见[验收报告](docs/validation.md)。
-
-## 两分钟体验
-
-克隆源码后，在仓库根目录执行下面两条只读命令，无须安装第三方 Python 包：
-
-```text
-python plugins/repo-maintainer/scripts/repo_tools.py snapshot --repo .
-python plugins/repo-maintainer/scripts/repo_tools.py showcase --repo . --public
+```sh
+git clone https://github.com/HaoYangJin/repo-standards.git
 ```
 
-第一条查看工作区与版本指纹，第二条审查首页的链接和素材。展示审查默认离线，外部图表可用性需另行核对。若用于其他仓库，未确认公开性时不要带 `--public`。
+在 Codex 或 Claude Code 中打开你要维护的项目，将插件位置交给 AI，并说：
 
-<details>
-<summary>展开：把这三个玩法直接交给 AI</summary>
+> 请读取 repo-standards/plugins/repo-maintainer/skills/repo-intake/SKILL.md，为当前项目启用自动维护与交付。识别项目规则、测试、CI、默认分支和已有 GitHub 连接，保存配置。以后我只提开发需求或反馈，请自动完成本轮维护与交付。
 
-- **只读体检**：“使用 repo-audit 和 repo-showcase 审查当前仓库，给出维护与展示建议，不修改文件。”
-- **预览展示**：“使用 repo-showcase，为这个公开仓库推荐有真实数据支撑的玩法，先给 README 差异预览。”
-- **完整交付**：“使用 maintenance-delivery 优化已确认的问题，按项目规则完成验证、独立审查和 CI，通过后自动合并。”
+路径按你实际下载位置提供。AI 会保存项目级入口与配置，保留已有文件；必要时补齐缺失认证或真正无法推断的关键选择。使用插件市场的用户也可加载 main 中的完整插件，再提出同样的接入需求，见[插件安装说明](plugins/repo-maintainer/README.md)。
 
-实际支持范围、自动修复与授权边界见插件说明；不会因为复制一句指令就获得仓库权限。
+接入会生成：
 
-</details>
-
-## 仓库的成长与参与
-
-<!-- repo-maintainer:activity:start -->
-
-### Star History
-
-<a href="https://www.star-history.com/#HaoYangJin/repo-standards&amp;Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=HaoYangJin%2Frepo-standards&amp;type=Date&amp;theme=dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=HaoYangJin%2Frepo-standards&amp;type=Date">
-    <img alt="repo-standards 的 Star History，星标不代表质量或用户人数" src="https://api.star-history.com/svg?repos=HaoYangJin%2Frepo-standards&amp;type=Date" width="800">
-  </picture>
-</a>
-
-[图表文字入口](https://www.star-history.com/#HaoYangJin/repo-standards&Date) · [GitHub 原始星标记录](https://github.com/HaoYangJin/repo-standards/stargazers) · [提交活动](https://github.com/HaoYangJin/repo-standards/commits/main/) · [版本时间线](https://github.com/HaoYangJin/repo-standards/releases)
-
-图表由 Star History 按公开数据动态提供，更新时间与缓存由服务控制；本仓库不编造趋势。零 Star 或数据不足时可能没有曲线；图表不可用时仍可使用上面的文字入口。不会向该服务发送私有仓库标识或登录凭据。
-
-### 项目故事
-
-| 足迹 | 可以核对的记录 |
+| 文件 | 用途 |
 | --- | --- |
-| 整理提交与技能编写规范 | [Git 工作流](docs/git-workflow.md)与[技能编写规范](skills/skill-authoring/references/authoring-standard.md) |
-| 从 60 个样本提炼维护实践，第一次用插件维护自己 | [研究索引](research/README.md)与[已合并 PR #1](https://github.com/HaoYangJin/repo-standards/pull/1) |
-| 自动修复与 AI 自动合并 | [1.1.0 迭代记录](docs/self-review-round-3.md)与[发行入口](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.1.0)；发布前为准备内容 |
-| 补足实际加载、模型冒烟与首次发行准备 | [第二轮记录](docs/self-review-round-2.md)与[本轮 PR #2](https://github.com/HaoYangJin/repo-standards/pull/2) |
+| `AGENTS.md` / `CLAUDE.md` 中的托管段 | 让客户端在后续开发任务中读取交付规则 |
+| `.repo-maintainer/config.json` | 保存验证命令、目标分支、CI 和交付策略，不含凭据 |
+| `.repo-maintainer/plugin/` | 可随项目复制的完整运行文件，不依赖原下载目录 |
 
-[参与贡献](CONTRIBUTING.md) · [提出问题](https://github.com/HaoYangJin/repo-standards/issues) · [查看真实贡献者](https://github.com/HaoYangJin/repo-standards/graphs/contributors)
+这些文件可随项目提交并共享。任务记录、日志和验证证据放在 Git 元数据内，不进入提交。AI 应确认接入状态完成，再结束首次配置。
 
-<details>
-<summary>一个维护彩蛋：规范本身也需要被验证</summary>
+## 以后：正常提需求或反馈
 
-这套插件已经用来维护自己的仓库。每轮记录保留实际问题、测试和限制；如果说明与行为不一致，可以直接提出 Issue，让下一轮维护有明确的起点。
+- **开发**：“增加 CSV 导出，字段顺序按当前页面。”
+- **修复**：“空输入会崩溃，修复这个问题。”
+- **反馈**：“这个 PR 的 Windows CI 失败了，处理后继续交付。”
+- **缩小范围**：“这次只改本地，不推送。”
+- **发布**：“这轮完成后发布 1.2.0。”只有明确的版本发布要求才会执行发行。
 
-</details>
+配置支持仅本地提交、推送并交付 PR、验证后自动合并。用户本轮更窄限制、项目规则和客户端权限优先。这里的“上传仓库”通常指提交和推送；版本发行按独立的明确请求执行。
 
-展示依赖、更新和移除方式见[首页展示维护说明](docs/showcase.md)。
+新 Issue/评论只有被 AI 客户端带入任务后才处理，本工具不后台监听 GitHub。普通问答与只读审查按原范围执行。
 
-<!-- repo-maintainer:activity:end -->
+## AI 自动做哪些事
 
-## 官方仓库研究与维护插件
+接入项目 → 读取需求/反馈 → 开发与相关维护 → 实际验证 → 独立审查 → 提交/推送/PR → 等待 CI 或修复反馈 → 按策略交付并结束本轮。
 
-- [60 个仓库分类档案](research/README.md)：包含真实提交、PR、发布及固定的仓库玩法维度。
-- [共性与差异比较](research/COMPARISON.md)：按内容类型归纳，区分候选信号、实际观察与建议。
-- [研究方法与限制](research/METHODOLOGY.md)：采样、来源时间、未知项和复现命令。
-- [repo-maintainer 插件](plugins/repo-maintainer/README.md)：Codex 优先，兼容 Claude Code，经验证自动合并 PR。
-- [验收报告](docs/validation.md)：本机测试、平台验证状态和已知限制。
+一次中断后可读取状态继续，复用已有提交和 PR。相同事件不会重复创建任务；结果不确定的远端写入先查询再决定下一步。缺失权限或无法解决的外部问题会保留进度并说明具体阻塞。
 
-插件固定覆盖仓库接管、日常维护、审查、发布准备、技能维护和展示玩法。默认在范围内自动修复，独立 AI 审查、本地验证和 CI 成功后锁定提交自动合并；明确要求发布具体版本时可在同一委托内发布，不部署；私有仓库不接入公开统计图表。
+使用 Python 3.11+、Git；GitHub 交付还需要可用的 gh 认证。AI 客户端需要具备执行命令及独立审查的能力。具体接入、命令和恢复方式见[项目工作流](plugins/repo-maintainer/references/project-workflow.md)。实际验证范围见[验收记录](docs/validation.md)。
 
-## 直接让 AI 管理本仓库
+## 其他能力与资料
 
-无需先安装插件：让当前代理读取仓库内的技能和项目规则即可执行。例如：
+核心入口是 repo-intake 和 maintenance-delivery。仓库审查、技能维护、展示和版本发布按本轮目标调用，不要求每次开发都执行全部技能。
 
-> 使用 repo-intake、repo-audit 和 maintenance-delivery，完成一轮审查、修正、验证和复核；自动诊断和修复范围内问题，通过本地检查、独立 AI 审查和 CI 后锁定提交自动合并；只有外部阻塞才交接。
+- [插件说明与安装](plugins/repo-maintainer/README.md)
+- [项目配置、任务与恢复](plugins/repo-maintainer/references/project-workflow.md)
+- [可选的仓库展示](docs/showcase.md)
+- [60 个仓库的研究资料](research/README.md)：设计参考，不是使用前置条件
+- [协作与提交规范](docs/git-workflow.md) · [技能编写规范](skills/skill-authoring/references/authoring-standard.md)
+- [贡献说明](CONTRIBUTING.md) · [本插件的发行流程](docs/releases.md)
 
-本仓库已经完成首版三系统 CI；[第一轮自我优化记录](docs/self-review-round-1.md)记录采用插件维护自身的范围与证据。1.0.0 已补做两端隔离加载，并验证 Codex 真实模型调用展示审查；Claude Code 的模型任务仍未验证。详情见验收报告，不与直接读取技能执行混为一谈。
+## 开发本插件
 
-[第二轮优化与首次发行准备](docs/self-review-round-2.md)记录 1.0.0；[1.1.0 迭代记录](docs/self-review-round-3.md)说明自动修复、独立 AI 审查、实际合并工具与发布验证范围。
-
-在仓库根目录运行：
-
-```text
+```sh
 python -m unittest discover -s tests
 python scripts/build_plugin.py --output dist
 ```
 
-研究结果、六个技能和六类仓库玩法可分别使用，不需要为小型仓库引入全部流程。
-
-仓库还提供[获授权的发行流程](docs/releases.md)：固定标签和已验证摘要，通过 GitHub Actions 的仓库令牌核验并公开已有 Release 草稿，无需保存个人令牌。
-
-## 阅读入口
-
-- [Git 工作流](docs/git-workflow.md)：分支、暂存、验证、推送与 PR。
-- [提交规范](skills/git-commit/references/commit-conventions.md)：提交类型和说明示例。
-- [技能编写规范](skills/skill-authoring/references/authoring-standard.md)：触发条件、目录、授权边界与验收。
-- [贡献说明](CONTRIBUTING.md)：修改这些规范的方法。
-
-## 使用方式
-
-规范可以直接阅读，也可以按目标项目的需要复制模板。本仓库的约定只适用于本仓库；其他项目采用前应检查已有规则。
-
-### 提交模板
-
-在需要使用模板的仓库内执行，将路径替换为本仓库的实际位置：
-
-```powershell
-git config --local commit.template "/absolute/path/to/repo-standards/templates/commit-message.txt"
-git commit
-```
-
-此设置只影响当前仓库；使用 `git commit -m` 时不会打开模板。
-
-### 可复用技能
-
-| 技能 | 用途 | 入口 |
-| --- | --- | --- |
-| git-commit | 检查改动范围、组织提交并提供验证结果 | [SKILL.md](skills/git-commit/SKILL.md) |
-| skill-authoring | 创建、改进和验收任务型技能 | [SKILL.md](skills/skill-authoring/SKILL.md) |
-
-把需要的技能**整个目录**复制到所用代理支持的技能目录，保留其中的 `references/`。安装位置和发现机制取决于具体工具，本仓库不自动安装技能或修改全局配置。
-
-[技能草稿模板](templates/SKILL.md.template)仅供起草，完成替换并命名为 `SKILL.md` 后再使用。
-
-## 文件约定
-
-文本采用 UTF-8、LF 换行。规范调整应解释适用范围，避免把一个项目的特殊情况写成通用要求。PR 配置了 Windows、macOS、Linux 离线测试矩阵；未配置自动提交钩子或分支保护，也不自动安装插件。
-
-## 参考来源
-
-- [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/)
-- [Agent Skills 格式规范](https://agentskills.io/specification)
-
-上述来源用于格式依据；本仓库的工作流与示例属于本地约定。
+本仓库自身复用 plugins/repo-maintainer 运行目录，避免复制一份插件。普通项目按上面的“一次接入”使用即可。

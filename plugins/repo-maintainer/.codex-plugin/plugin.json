@@ -1,10 +1,10 @@
 {
   "name": "repo-maintainer",
-  "version": "1.1.0",
-  "description": "基于官方仓库研究的 AI 自动修复、独立审查、验证合并与获授权发布技能。",
+  "version": "1.2.0-dev",
+  "description": "由 AI 客户端按开发需求与反馈触发，配置一次后自动完成项目维护、验证和仓库交付。",
   "skills": "./skills/",
   "interface": {
-    "displayName": "仓库维护与交付",
-    "shortDescription": "AI 自动修复、独立审查并验证合并，获授权后发布版本"
+    "displayName": "开发与仓库自动交付",
+    "shortDescription": "配置一次，需求与反馈触发，AI 自动维护并交付仓库"
   }
 }
