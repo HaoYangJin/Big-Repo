@@ -272,8 +272,9 @@ def state_dir(repo):
 def locked(directory):
     # Kernel locks release on process exit, including crashes; no stale PID locks.
     with (directory / 'workflow.lock').open('a+b') as stream:
-        stream.seek(0)
-        if not stream.read(1):
+        # Windows byte locks also prohibit reads of an already locked byte.
+        # Inspect metadata before acquiring the lock instead of reading it.
+        if os.fstat(stream.fileno()).st_size == 0:
             stream.write(b'0')
             stream.flush()
         stream.seek(0)

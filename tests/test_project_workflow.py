@@ -126,7 +126,7 @@ class ProjectWorkflowTests(unittest.TestCase):
     def test_onboarding_preserves_rules_and_vendors_portable_runtime(self):
         self.setup_project()
         for file, original in [('AGENTS.md', '# Existing rules\nKeep my rules.\n'), ('CLAUDE.md', '# Existing Claude rules\n')]:
-            text = (self.repo / file).read_text()
+            text = (self.repo / file).read_text(encoding='utf-8')
             self.assertTrue(text.startswith(original))
             self.assertEqual(text.count(self.m.START), 1)
             self.assertIn('普通问答', text)
@@ -166,11 +166,11 @@ class ProjectWorkflowTests(unittest.TestCase):
 
     def test_malformed_instruction_blocks_are_preserved(self):
         file = self.repo / 'AGENTS.md'
-        text = file.read_text() + self.m.START
+        text = file.read_text(encoding='utf-8') + self.m.START
         file.write_text(text)
         with self.assertRaises(self.m.WorkflowError):
             self.m.initialize(self.repo)
-        self.assertEqual(file.read_text(), text)
+        self.assertEqual(file.read_text(encoding='utf-8'), text)
         self.assertFalse((self.repo / self.m.CONFIG).exists())
 
     def test_begin_deduplicates_event_and_blocks_parallel_objective(self):
@@ -385,7 +385,7 @@ class ProjectWorkflowTests(unittest.TestCase):
         config['delivery'] = 'commit'
         self.m.write_json(self.repo / self.m.CONFIG, config)
         self.assertEqual(self.m.cancel(self.repo, 'User changed task scope')['status'], 'cancelled')
-        self.assertIn('return 88', (self.repo / 'feature.py').read_text())
+        self.assertIn('return 88', (self.repo / 'feature.py').read_text(encoding='utf-8'))
         self.assertTrue((Path(task['state_directory']) / 'state.json').exists())
         next_task = self.m.begin(self.repo, 'Replanned task', ['feature.py', '.repo-maintainer/**'], 'feedback-2')
         self.assertNotEqual(next_task['task_id'], task['task_id'])
