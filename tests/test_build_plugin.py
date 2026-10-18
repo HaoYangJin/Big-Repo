@@ -50,6 +50,17 @@ class BuildPluginTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.m.build(self.plugin, self.root / 'out')
 
+    def test_portable_manifest_mismatch_blocks_build(self):
+        (self.plugin / 'plugin.json').write_text('{"name":"repo-maintainer","version":"9.0.0"}')
+        with self.assertRaises(ValueError):
+            self.m.build(self.plugin, self.root / 'out')
+
+    def test_portable_manifest_agreement_is_supported(self):
+        (self.plugin / 'plugin.json').write_text('{"name":"repo-maintainer","version":"0.2.0"}')
+        result = self.m.build(self.plugin, self.root / 'out')
+        with zipfile.ZipFile(result['archive']) as bundle:
+            self.assertIn('repo-maintainer/plugin.json', bundle.namelist())
+
     def test_existing_predictable_temporary_file_is_preserved(self):
         output = self.root / 'out'
         output.mkdir()

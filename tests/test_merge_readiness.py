@@ -66,6 +66,19 @@ class MergeReadinessTests(unittest.TestCase):
         self.pr['mergeStateStatus'] = 'UNSTABLE'
         self.assertEqual(self.readiness()['status'], 'waiting')
 
+    def test_ci_repair_must_match_new_head_and_review(self):
+        old_evidence = self.merge_evidence()
+        self.pr['statusCheckRollup'][0]['conclusion'] = 'FAILURE'
+        self.assertIn('ci-not-success:ci', self.readiness()['issues'])
+        (self.root / 'README.md').write_text('# Fixed CI\n', encoding='utf-8')
+        self.git('add', 'README.md')
+        self.git('commit', '-m', 'fix: repair CI fixture')
+        self.base = self.git('rev-parse', 'HEAD').strip()
+        self.pr['headRefOid'] = self.base
+        self.pr['statusCheckRollup'][0]['conclusion'] = 'SUCCESS'
+        self.assertEqual(self.readiness(old_evidence)['status'], 'handoff')
+        self.assertEqual(self.readiness()['status'], 'ready-to-merge')
+
     def test_skipped_cancelled_and_extra_failure_block(self):
         for result in ['SKIPPED', 'CANCELLED', 'NEUTRAL', 'TIMED_OUT']:
             self.pr['statusCheckRollup'][0]['conclusion'] = result

@@ -5,6 +5,7 @@ import argparse
 import fnmatch
 import hashlib
 from html.parser import HTMLParser
+from html import unescape
 import json
 import os
 from pathlib import Path, PurePosixPath
@@ -151,6 +152,9 @@ class MediaParser(HTMLParser):
         self.links = []
 
     def handle_starttag(self, tag, attrs):
+        if tag == 'a':
+            self.links.extend((value, False) for key, value in attrs if key == 'href' and value)
+            return
         if tag not in ('img', 'source', 'video', 'audio', 'iframe', 'embed', 'image'):
             return
         for key, value in attrs:
@@ -160,6 +164,111 @@ class MediaParser(HTMLParser):
                 self.links.extend((part.strip().split()[0], True) for part in value.split(',') if part.strip())
 
 
+def visible_markdown(text):
+    """Mask code/comments in context; this is a bounded Markdown scanner."""
+    visible = list(text)
+    def mask(begin, end):
+        visible[begin:end] = ['\n' if char == '\n' else ' ' for char in text[begin:end]]
+    index = 0
+    while index < len(text):
+        if text.startswith('<!--', index):
+            end = text.find('-->', index + 4)
+            end = len(text) if end == -1 else end + 3
+            mask(index, end)
+            index = end
+            continue
+        if index == 0 or text[index - 1] == '\n':
+            opening = re.match(r' {0,3}(`{3,}|~{3,})([^\n]*)', text[index:])
+            if opening and (opening[1][0] != '`' or '`' not in opening[2]):
+                marker = re.escape(opening[1][0])
+                closing = re.compile(r'^ {0,3}' + marker + '{' + str(len(opening[1]))
+                                     + r',}[ \t]*\r?$', re.M).search(text, index + opening.end())
+                end = len(text) if closing is None else closing.end()
+                mask(index, end)
+                index = end
+                continue
+        if text[index] == '\\':
+            index += 2
+            continue
+        if text[index] == '<' and re.match(r'</?[A-Za-z][A-Za-z0-9-]*(?=[\s/>])', text[index:]):
+            end, quote_char = index + 1, None
+            while end < len(text):
+                char = text[end]
+                if quote_char:
+                    if char == quote_char:
+                        quote_char = None
+                elif char in ('"', "'"):
+                    quote_char = char
+                elif char == '>':
+                    break
+                end += 1
+            if end < len(text):
+                index = end + 1
+                continue
+        if text[index] == '`':
+            opening = re.match(r'`+', text[index:])[0]
+            start = index + len(opening)
+            # A blank line or fenced block ends the paragraph; inline spans cannot cross it.
+            boundary = re.search(r'\n[ \t]*\n|\n {0,3}(?:`{3,}|~{3,})', text[start:])
+            limit = len(text) if boundary is None else start + boundary.start()
+            closing = re.compile(r'(?<!`)' + re.escape(opening) + r'(?!`)').search(text, start, limit)
+            if closing:
+                mask(index, closing.end())
+                index = closing.end()
+                continue
+            index = start
+            continue
+        index += 1
+    return ''.join(visible)
+
+
+def markdown_references(text):
+    """Read inline/reference links with nested image labels; not a full CommonMark parser."""
+    def normalize_label(label):
+        return re.sub(r'\s+', ' ', label).strip().casefold()
+
+    definitions = {normalize_label(m[1]): m[2] for m in re.finditer(
+        r'^\s{0,3}\[([^\]]+)\]:\s*<?([^\s>]+)>?', text, re.M)}
+    links, stack, index = [], [], 0
+    while index < len(text):
+        char = text[index]
+        if char == '\\':
+            index += 2
+            continue
+        if char == '[':
+            stack.append((index, index > 0 and text[index - 1] == '!'))
+        elif char == ']' and stack:
+            begin, media = stack.pop()
+            label, after = text[begin + 1:index], index + 1
+            if after < len(text) and text[after] == '(':
+                depth, end = 1, after + 1
+                while end < len(text) and depth:
+                    if text[end] == '\\':
+                        end += 2
+                        continue
+                    if text[end] == '(':
+                        depth += 1
+                    elif text[end] == ')':
+                        depth -= 1
+                    end += 1
+                if depth == 0:
+                    match = re.match(r'\s*(?:<([^>\n]+)>|([^\s]+))', text[after + 1:end - 1])
+                    if match:
+                        links.append((unescape(match[1] or match[2]), media))
+                    index = end - 1
+            elif after < len(text) and text[after] == '[':
+                end = text.find(']', after + 1)
+                if end != -1:
+                    reference = normalize_label(text[after + 1:end] or label)
+                    if reference in definitions:
+                        links.append((unescape(definitions[reference]), media))
+                    index = end
+            elif (after == len(text) or text[after] != ':') and normalize_label(label) in definitions:
+                links.append((unescape(definitions[normalize_label(label)]), media))
+        index += 1
+    return links
+
+
 def audit_showcase(repo, readme='README.md', private=True):
     root = Path(repo).resolve()
     file = (root / readme).resolve()
@@ -167,21 +276,11 @@ def audit_showcase(repo, readme='README.md', private=True):
         raise ValueError('README must stay inside repository')
     if not file.is_file():
         return {'status': 'handoff', 'issues': ['missing-readme'], 'external_links': []}
-    text = file.read_text(encoding='utf-8')
+    text = visible_markdown(file.read_text(encoding='utf-8'))
     issues = []
     if re.search(r'\bOWNER\b|\bREPO\b|\{\{[^}]+\}\}|\[TODO:', text):
         issues.append('placeholder')
-    links = [(m.group(2), bool(m.group(1))) for m in re.finditer(r'(!?)\[[^\]]*\]\(<?([^\s)>]+)>?(?:\s+[^)]*)?\)', text)]
-    definitions = {m.group(1).strip().casefold(): m.group(2) for m in re.finditer(
-        r'^\s{0,3}\[([^\]]+)\]:\s*<?([^\s>]+)>?', text, re.M)}
-    for match in re.finditer(r'(!?)\[([^\]]+)\]\[([^\]]*)\]', text):
-        label = (match.group(3) or match.group(2)).strip().casefold()
-        if label in definitions:
-            links.append((definitions[label], bool(match.group(1))))
-    for match in re.finditer(r'(?<![\]!])(!?)\[([^\]]+)\](?![\[(\]:])', text):
-        label = match.group(2).strip().casefold()
-        if label in definitions:
-            links.append((definitions[label], bool(match.group(1))))
+    links = markdown_references(text)
     media_parser = MediaParser()
     media_parser.feed(text)
     links.extend(media_parser.links)

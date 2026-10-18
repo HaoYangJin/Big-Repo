@@ -81,6 +81,22 @@ class ToolTests(unittest.TestCase):
         evidence['checks'].append(dict(evidence['checks'][0], exit_code=0))
         self.assertIn('validation-failed', self.tools.accept(self.root, self.task, evidence)['issues'])
 
+    def test_repair_requires_fresh_evidence_and_preserves_history(self):
+        (self.root / 'README.md').write_text('# Broken\n\n', encoding='utf-8')
+        failed = self.evidence(1)
+        old_success = self.evidence()
+        self.assertEqual(self.tools.accept(self.root, self.task, failed)['status'], 'handoff')
+        (self.root / 'README.md').write_text('# Repaired\n', encoding='utf-8')
+        self.assertIn('stale-evidence', self.tools.accept(self.root, self.task, old_success)['issues'])
+        repaired = self.evidence()
+        repaired['repair_history'] = [failed]
+        self.assertEqual(self.tools.accept(self.root, self.task, repaired)['status'], 'verified-local')
+        self.assertEqual(repaired['repair_history'][0]['checks'][0]['exit_code'], 1)
+        self.git('add', 'README.md')
+        self.git('commit', '-m', 'fix: repaired document')
+        self.assertIn('stale-evidence', self.tools.accept(self.root, self.task, repaired)['issues'])
+        self.assertEqual(self.tools.accept(self.root, self.task, self.evidence())['status'], 'verified-local')
+
     def test_unknown_check_failure_also_stops(self):
         evidence = self.evidence()
         evidence['checks'].append({'id': 'unexpected', 'exit_code': 2})
@@ -120,6 +136,51 @@ class ToolTests(unittest.TestCase):
         (self.root / 'README.md').write_text('![stars](https://api.star-history.com/svg?repos=private/name)')
         result = self.tools.audit_showcase(self.root, private=True)
         self.assertTrue(any(i.startswith('private-external-media:') for i in result['issues']))
+
+    def test_clickable_badge_preserves_image_and_destination(self):
+        (self.root / 'README.md').write_text('[![Checks](https://example.invalid/badge.svg)](missing-guide.md)')
+        result = self.tools.audit_showcase(self.root)
+        self.assertIn('missing-local:missing-guide.md', result['issues'])
+        self.assertTrue(any(i.startswith('private-external-media:') for i in result['issues']))
+        self.assertTrue(result['external_links'][0]['media'])
+
+    def test_html_anchor_missing_target_is_checked(self):
+        (self.root / 'README.md').write_text('<a href="missing-guide.md"><img src="missing.png"></a>')
+        issues = self.tools.audit_showcase(self.root)['issues']
+        self.assertIn('missing-local:missing-guide.md', issues)
+        self.assertIn('missing-local:missing.png', issues)
+
+    def test_code_examples_are_not_rendered_references(self):
+        for example in ('```markdown\n![x](https://example.invalid/demo.svg)\n```',
+                        '~~~html\n<a href="missing.md">Guide</a>\n<img src="missing.png">\n~~~',
+                        '`![x](missing.png)`', '``<img src="missing.png">``'):
+            with self.subTest(example=example):
+                (self.root / 'README.md').write_text(example)
+                result = self.tools.audit_showcase(self.root)
+                self.assertEqual(result['issues'], [])
+                self.assertEqual(result['external_links'], [])
+
+    def test_reference_badge_and_real_content_after_fence(self):
+        (self.root / 'README.md').write_text(
+            '```\n![ignored](missing.png)\n```\n'
+            '[![Status][badge]](guide.md)\n\n[badge]: https://example.invalid/badge.svg\n')
+        issues = self.tools.audit_showcase(self.root)['issues']
+        self.assertNotIn('missing-local:missing.png', issues)
+        self.assertIn('missing-local:guide.md', issues)
+        self.assertTrue(any(i.startswith('private-external-media:') for i in issues))
+
+    def test_comments_and_code_do_not_hide_real_images(self):
+        examples = [
+            '<!-- ` -->\n![real](https://example.invalid/a.svg)\n\n`sample`',
+            '<!--\n```\n-->\n![real](https://example.invalid/a.svg)',
+            '`<!--` ![real](https://example.invalid/a.svg) `-->`',
+            '```html\n<!--\n```\n![real](https://example.invalid/a.svg)\n-->',
+        ]
+        for text in examples:
+            with self.subTest(text=text):
+                (self.root / 'README.md').write_text(text)
+                self.assertTrue(any(issue.startswith('private-external-media:')
+                                    for issue in self.tools.audit_showcase(self.root)['issues']))
 
     def test_dark_theme_html_is_inspected(self):
         (self.root / 'README.md').write_text('<picture><source media="(prefers-color-scheme: dark)" srcset="dark.svg"><img src="light.svg"></picture>')
@@ -164,6 +225,16 @@ class ToolTests(unittest.TestCase):
             self.tools.render_showcase('', 'a/b', private=True, star_history=True)
         with self.assertRaises(ValueError):
             self.tools.render_showcase('', 'a/b?token=x')
+
+    def test_html_attribute_literals_and_reference_whitespace(self):
+        cases = ('<img alt="`" src="https://example.invalid/private.png" title="`">',
+                 '<img alt="<!--" src="https://example.invalid/private.png" title="-->">',
+                 '![x][badge   image]\n\n[badge image]: https://example.invalid/private.png')
+        for text in cases:
+            with self.subTest(text=text):
+                (self.root / 'README.md').write_text(text, encoding='utf-8')
+                self.assertTrue(any(issue.startswith('private-external-media:')
+                                    for issue in self.tools.audit_showcase(self.root)['issues']))
 
     def test_bad_marker_rejected(self):
         with self.assertRaises(ValueError):

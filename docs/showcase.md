@@ -27,3 +27,6 @@
 - [GitHub 工作流徽章说明](https://docs.github.com/en/actions/how-tos/monitor-workflows/add-a-status-badge)
 - [Shields 项目](https://github.com/badges/shields)
 - [插件六类玩法目录](../plugins/repo-maintainer/skills/repo-showcase/references/showcase-catalog.md)
+## 1.1.0 检查器补充
+
+可点击徽章的图片和点击目标分别检查，HTML 锚点也检查相对链接；引用标签连续空白统一归一。围栏代码、行内代码及注释中的示例不当作实际展示。HTML 属性内的反引号和注释字样保留为属性文字，避免隐藏真实媒体。此实现为有界扫描，不能代替完整渲染与远程可用性验证。

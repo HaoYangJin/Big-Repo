@@ -46,12 +46,15 @@ def build(plugin, output):
     if output.is_relative_to(plugin):
         raise ValueError('Output must be outside plugin directory')
     manifest_paths = [plugin / folder / 'plugin.json' for folder in ('.codex-plugin', '.claude-plugin')]
+    if (plugin / 'plugin.json').exists() or (plugin / 'plugin.json').is_symlink():
+        manifest_paths.insert(0, plugin / 'plugin.json')
     for file in manifest_paths:
         checked_path(file, plugin)
     manifests = [json.loads(file.read_text(encoding='utf-8')) for file in manifest_paths]
     name, version = manifests[0]['name'], manifests[0]['version']
-    if any(m.get('name') != name or m.get('version') != version for m in manifests):
-        raise ValueError('Plugin manifests must agree on name and version')
+    fields = ('name', 'version', 'description', 'author') if len(manifests) == 3 else ('name', 'version')
+    if any(any(m.get(field) != manifests[0].get(field) for field in fields) for m in manifests):
+        raise ValueError('Plugin manifests must agree on identity metadata')
     if not isinstance(name, str) or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', name):
         raise ValueError('Invalid plugin name')
     if not isinstance(version, str) or not re.fullmatch(r'\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?', version):

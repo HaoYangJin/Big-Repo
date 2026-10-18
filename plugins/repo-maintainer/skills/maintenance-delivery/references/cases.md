@@ -7,4 +7,4 @@
 - 测试证据应能复核，UI变更可能需要截图或视频。 来源：[sveltejs/svelte/CONTRIBUTING.md:85](https://github.com/sveltejs/svelte/blob/40bb08482f4857d91221638dec544a532bc35389/CONTRIBUTING.md#L85)。
 - 提交披露规则因项目而异。 来源：[neovim/neovim/AGENTS.md:3](https://github.com/neovim/neovim/blob/0851e7dabed9fc9c019e22088029f36e9f3ec3e3/AGENTS.md#L3)。
 
-本插件的首次非预期失败交接、验证与审查通过后默认自动合并和展示预览策略是用户选择的产品行为，不宣称由这些样本共同证明。
+本插件的自动修复复验、验证与审查通过后默认自动合并和展示预览策略是用户选择的产品行为，不宣称由这些样本共同证明。
