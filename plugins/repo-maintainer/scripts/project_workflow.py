@@ -48,6 +48,7 @@ def root(path):
 
 
 def safe_path(repo, relative):
+    repo = Path(repo).resolve()
     path = Path(relative)
     if path.is_absolute() or '..' in path.parts or not path.parts:
         raise WorkflowError('expected-repository-relative-path')

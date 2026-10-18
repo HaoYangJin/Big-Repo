@@ -151,6 +151,19 @@ class ProjectWorkflowTests(unittest.TestCase):
         self.assertEqual(self.m.initialize(self.repo)['status'], 'needs-configuration')
         self.assertEqual(self.m.status(self.repo)['status'], 'needs-configuration')
 
+    def test_repository_alias_accepts_system_ancestor_links_but_not_project_links(self):
+        self.setup_project(delivery='commit')
+        with tempfile.TemporaryDirectory() as folder:
+            alias = Path(folder) / 'project-alias'
+            try:
+                alias.symlink_to(self.repo, target_is_directory=True)
+            except (OSError, NotImplementedError):
+                self.skipTest('Directory symlinks unavailable')
+            self.assertEqual(self.m.configuration(alias)['delivery'], 'commit')
+            (self.repo / 'linked-policy').symlink_to(self.repo / '.repo-maintainer', target_is_directory=True)
+            with self.assertRaisesRegex(self.m.WorkflowError, 'linked-project-path'):
+                self.m.safe_path(alias, 'linked-policy/config.json')
+
     def test_malformed_instruction_blocks_are_preserved(self):
         file = self.repo / 'AGENTS.md'
         text = file.read_text() + self.m.START
