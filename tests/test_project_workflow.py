@@ -210,6 +210,13 @@ class ProjectWorkflowTests(unittest.TestCase):
         self.assertEqual(self.m.check(self.repo)['status'], 'blocked')
         self.assertEqual(self.writes, [])
 
+    def test_resume_requires_same_scope(self):
+        self.setup_project()
+        self.start()
+        for event in ('feedback-1', None):
+            with self.assertRaisesRegex(self.m.WorkflowError, 'scope-changed'):
+                self.m.begin(self.repo, 'Update positive value', ['feature.py'], event)
+
     def test_remote_baseline_includes_local_main_ahead_of_origin(self):
         self.setup_project()
         baseline = self.git('rev-parse', 'HEAD')

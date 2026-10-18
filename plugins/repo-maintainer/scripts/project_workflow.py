@@ -332,6 +332,8 @@ def begin(repo, objective, allowed_paths, event=None, delivery=None):
                 raise WorkflowError('event-already-bound-to-different-task')
             if state['delivery'] != chosen:
                 raise WorkflowError('delivery-changed-cancel-and-replan-task')
+            if set(json.loads((path / 'task.json').read_text(encoding='utf-8'))['allowed_paths']) != set(allowed_paths):
+                raise WorkflowError('scope-changed-cancel-and-replan-task')
             return {'status': state['status'], 'task_id': identifier, 'state_directory': str(path), 'resumed': True}
         if (directory / 'active.json').exists():
             previous_path, previous = active(directory)
@@ -339,6 +341,8 @@ def begin(repo, objective, allowed_paths, event=None, delivery=None):
                 if previous['objective'] == objective and previous['config_digest'] == config_digest(config):
                     if previous['delivery'] != chosen:
                         raise WorkflowError('delivery-changed-cancel-and-replan-task')
+                    if set(json.loads((previous_path / 'task.json').read_text(encoding='utf-8'))['allowed_paths']) != set(allowed_paths):
+                        raise WorkflowError('scope-changed-cancel-and-replan-task')
                     return {'status': previous['status'], 'task_id': previous['id'], 'state_directory': str(previous_path), 'resumed': True}
                 raise WorkflowError('unfinished-task-resume-before-starting-another')
         current = TOOLS.snapshot(repo)
