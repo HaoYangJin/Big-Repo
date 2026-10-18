@@ -241,7 +241,7 @@ def pr_status(reference):
         raise ValueError('PR must be owner/repository#number')
     repository, number = reference.split('#')
     response = subprocess.run(['gh', 'pr', 'view', number, '--repo', repository, '--json',
-                               'url,state,isDraft,headRefOid,baseRefOid,headRefName,baseRefName,statusCheckRollup,mergeable,mergeStateStatus,reviewDecision,mergeCommit'],
+                               'url,state,isDraft,headRefOid,headRefName,baseRefName,statusCheckRollup,mergeable,mergeStateStatus,reviewDecision,mergeCommit'],
                               capture_output=True, timeout=60)
     if response.returncode:
         return {'status': 'handoff', 'issues': ['github-pr-unavailable'], 'note': 'No retry or remote mutation performed.'}
