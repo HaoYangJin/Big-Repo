@@ -2,6 +2,22 @@
 
 维护 Git 仓库协作、提交说明和 AI 技能编写的中文规范，同时提供可复用模板与技能。
 
+<!-- repo-maintainer:frontpage:start -->
+
+[![Checks](https://github.com/HaoYangJin/repo-standards/actions/workflows/check.yml/badge.svg?event=pull_request)](https://github.com/HaoYangJin/repo-standards/actions/workflows/check.yml)
+[![Release](https://img.shields.io/github/v/release/HaoYangJin/repo-standards?label=release)](https://github.com/HaoYangJin/repo-standards/releases)
+[![Stars](https://img.shields.io/github/stars/HaoYangJin/repo-standards?style=flat&label=stars)](https://github.com/HaoYangJin/repo-standards/stargazers)
+
+**60 个真实样本 → 6 项维护技能 → 一轮有证据的交付。**
+
+| 拿来用 | 看研究 | 动手体验 |
+| --- | --- | --- |
+| [下载插件 1.0.0](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.0.0) · [安装说明](plugins/repo-maintainer/README.md) | [分类档案](research/README.md) · [实践对比](research/COMPARISON.md) | [两分钟体验](#两分钟体验) · [六类玩法](plugins/repo-maintainer/skills/repo-showcase/references/showcase-catalog.md) |
+
+徽章读取真实 GitHub 状态：Checks 对应最近的 PR 工作流，不能代替某个提交的验收；正式发行前 Release 可能显示无版本。查看[运行记录](https://github.com/HaoYangJin/repo-standards/actions)或[发行列表](https://github.com/HaoYangJin/repo-standards/releases)可核对实际状态。
+
+<!-- repo-maintainer:frontpage:end -->
+
 ## 下载与安装
 
 [1.0.0 发行页](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.0.0)提供插件 ZIP、SHA-256 校验和及安装说明；发布前这些链接尚不可用。GitHub 自动生成的 Source code 是完整研究仓库，插件专用包名为 `repo-maintainer-1.0.0.zip`。
@@ -11,6 +27,67 @@
 - [安装与使用说明](plugins/repo-maintainer/README.md#安装与平台状态)
 
 ZIP 同时包含 Codex 与 Claude Code 清单、六个技能及工具；下载不会自动安装。实际客户端加载状态见[验收报告](docs/validation.md)。
+
+## 两分钟体验
+
+克隆源码后，在仓库根目录执行下面两条只读命令，无须安装第三方 Python 包：
+
+```text
+python plugins/repo-maintainer/scripts/repo_tools.py snapshot --repo .
+python plugins/repo-maintainer/scripts/repo_tools.py showcase --repo . --public
+```
+
+第一条查看工作区与版本指纹，第二条审查首页的链接和素材。展示审查默认离线，外部图表可用性需另行核对。若用于其他仓库，未确认公开性时不要带 `--public`。
+
+<details>
+<summary>展开：把这三个玩法直接交给 AI</summary>
+
+- **只读体检**：“使用 repo-audit 和 repo-showcase 审查当前仓库，给出维护与展示建议，不修改文件。”
+- **预览展示**：“使用 repo-showcase，为这个公开仓库推荐有真实数据支撑的玩法，先给 README 差异预览。”
+- **完整交付**：“使用 maintenance-delivery 优化已确认的问题，按项目规则完成验证、独立审查和 CI，通过后自动合并。”
+
+实际支持范围、首次失败交接与授权边界见插件说明；不会因为复制一句指令就获得仓库权限。
+
+</details>
+
+## 仓库的成长与参与
+
+<!-- repo-maintainer:activity:start -->
+
+### Star History
+
+<a href="https://www.star-history.com/#HaoYangJin/repo-standards&amp;Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=HaoYangJin%2Frepo-standards&amp;type=Date&amp;theme=dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=HaoYangJin%2Frepo-standards&amp;type=Date">
+    <img alt="repo-standards 的 Star History，星标不代表质量或用户人数" src="https://api.star-history.com/svg?repos=HaoYangJin%2Frepo-standards&amp;type=Date" width="800">
+  </picture>
+</a>
+
+[图表文字入口](https://www.star-history.com/#HaoYangJin/repo-standards&Date) · [GitHub 原始星标记录](https://github.com/HaoYangJin/repo-standards/stargazers) · [提交活动](https://github.com/HaoYangJin/repo-standards/commits/main/) · [版本时间线](https://github.com/HaoYangJin/repo-standards/releases)
+
+图表由 Star History 按公开数据动态提供，更新时间与缓存由服务控制；本仓库不编造趋势。零 Star 或数据不足时可能没有曲线；图表不可用时仍可使用上面的文字入口。不会向该服务发送私有仓库标识或登录凭据。
+
+### 项目故事
+
+| 足迹 | 可以核对的记录 |
+| --- | --- |
+| 整理提交与技能编写规范 | [Git 工作流](docs/git-workflow.md)与[技能编写规范](skills/skill-authoring/references/authoring-standard.md) |
+| 从 60 个样本提炼维护实践，第一次用插件维护自己 | [研究索引](research/README.md)与[已合并 PR #1](https://github.com/HaoYangJin/repo-standards/pull/1) |
+| 补足实际加载、模型冒烟与首次发行准备 | [第二轮记录](docs/self-review-round-2.md)与[本轮 PR #2](https://github.com/HaoYangJin/repo-standards/pull/2) |
+
+[参与贡献](CONTRIBUTING.md) · [提出问题](https://github.com/HaoYangJin/repo-standards/issues) · [查看真实贡献者](https://github.com/HaoYangJin/repo-standards/graphs/contributors)
+
+<details>
+<summary>一个维护彩蛋：规范本身也需要被验证</summary>
+
+这套插件已经用来维护自己的仓库。每轮记录保留实际问题、测试和限制；如果说明与行为不一致，可以直接提出 Issue，让下一轮维护有明确的起点。
+
+</details>
+
+展示依赖、更新和移除方式见[首页展示维护说明](docs/showcase.md)。
+
+<!-- repo-maintainer:activity:end -->
 
 ## 官方仓库研究与维护插件
 
