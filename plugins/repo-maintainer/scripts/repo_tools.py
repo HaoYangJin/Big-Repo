@@ -1,4 +1,4 @@
-"""Read-only repository checks and stdout-only showcase previews. Python 3.11+."""
+"""Repository checks, showcase previews and verified PR merge. Python 3.11+."""
 from __future__ import annotations
 
 import argparse
@@ -241,7 +241,7 @@ def pr_status(reference):
         raise ValueError('PR must be owner/repository#number')
     repository, number = reference.split('#')
     response = subprocess.run(['gh', 'pr', 'view', number, '--repo', repository, '--json',
-                               'url,state,isDraft,headRefOid,baseRefOid,headRefName,baseRefName,statusCheckRollup,mergeable,mergeStateStatus,reviewDecision'],
+                               'url,state,isDraft,headRefOid,headRefName,baseRefName,statusCheckRollup,mergeable,mergeStateStatus,reviewDecision,mergeCommit'],
                               capture_output=True, timeout=60)
     if response.returncode:
         return {'status': 'handoff', 'issues': ['github-pr-unavailable'], 'note': 'No retry or remote mutation performed.'}
@@ -327,13 +327,51 @@ def merge_readiness(repo, task, evidence, reference):
         issues.append('merge-state-not-clean')
     return {'status': 'handoff' if issues else ('waiting' if waiting else 'ready-to-merge'),
             'issues': sorted(set(issues)), 'pending': sorted(set(waiting)),
-            'head_sha': current['head_sha'], 'pr_url': pr.get('url'),
+            'head_sha': current['head_sha'], 'head_branch': current['branch'], 'pr_url': pr.get('url'),
             'note': 'Read-only observation. Evidence is caller-attested. Merge separately with --match-head-commit; do not bypass platform rules.'}
+
+
+def merge_pr(repo, task, evidence, reference):
+    """Recheck every gate, merge once with a SHA lock, then verify remote state."""
+    readiness = merge_readiness(repo, task, evidence, reference)
+    if readiness['status'] != 'ready-to-merge':
+        return readiness
+    repository, number = reference.split('#')
+    head = readiness['head_sha']
+    # A failed/timed-out write can still have reached GitHub. Never retry it here.
+    unconfirmed = {'status': 'handoff', 'issues': ['merge-outcome-unconfirmed'],
+                   'head_sha': head, 'pr_url': readiness['pr_url'],
+                   'note': 'Read the PR state before any further write; no automatic retry performed.'}
+    try:
+        response = subprocess.run(['gh', 'pr', 'merge', number, '--repo', repository,
+                                   '--squash', '--match-head-commit', head],
+                                  capture_output=True, timeout=60)
+        observed = pr_status(reference)
+    except (OSError, ValueError, subprocess.SubprocessError):
+        return unconfirmed
+    if not isinstance(observed, dict) or observed.get('status') != 'observed':
+        return unconfirmed
+    pr = observed.get('pr')
+    if not isinstance(pr, dict) or not isinstance(pr.get('url'), str):
+        return unconfirmed
+    commit = pr.get('mergeCommit') or {}
+    if (pr.get('state') == 'MERGED' and pr.get('headRefOid') == head
+            and pr.get('url', '').casefold() == readiness['pr_url'].casefold()
+            and pr.get('headRefName') == readiness['head_branch']
+            and pr.get('baseRefName') == task['merge']['base_branch']
+            and isinstance(commit, dict)
+            and re.fullmatch(r'[0-9a-f]{40}|[0-9a-f]{64}', str(commit.get('oid', '')))):
+        return {'status': 'merged', 'issues': [], 'head_sha': head,
+                'merge_commit': commit['oid'], 'pr_url': pr['url'],
+                'note': 'Remote MERGED state and the validated PR head confirmed.'}
+    if response.returncode and pr.get('state') == 'OPEN' and pr.get('headRefOid') == head:
+        return dict(unconfirmed, issues=['merge-command-failed'])
+    return unconfirmed
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('operation', choices=['snapshot', 'preflight', 'accept', 'showcase', 'preview', 'pr', 'merge-readiness'])
+    parser.add_argument('operation', choices=['snapshot', 'preflight', 'accept', 'showcase', 'preview', 'pr', 'merge-readiness', 'merge'])
     parser.add_argument('--repo', type=Path, default=Path.cwd())
     parser.add_argument('--task', type=Path)
     parser.add_argument('--evidence', type=Path)
@@ -347,16 +385,19 @@ def main():
     try:
         if args.operation == 'snapshot':
             result = snapshot(args.repo)
-        elif args.operation in ('preflight', 'accept', 'merge-readiness'):
-            if not args.task or (args.operation in ('accept', 'merge-readiness') and not args.evidence):
+        elif args.operation in ('preflight', 'accept', 'merge-readiness', 'merge'):
+            if not args.task or (args.operation in ('accept', 'merge-readiness', 'merge') and not args.evidence):
                 raise ValueError('Task and, for accept, evidence file are required')
             task = json.loads(args.task.read_text(encoding='utf-8'))
             if args.operation == 'preflight':
                 result = preflight(args.repo, task)
             else:
                 evidence = json.loads(args.evidence.read_text(encoding='utf-8'))
-                result = accept(args.repo, task, evidence) if args.operation == 'accept' else merge_readiness(
-                    args.repo, task, evidence, args.pr or '')
+                if args.operation == 'accept':
+                    result = accept(args.repo, task, evidence)
+                else:
+                    operation = merge_pr if args.operation == 'merge' else merge_readiness
+                    result = operation(args.repo, task, evidence, args.pr or '')
         elif args.operation == 'showcase':
             result = audit_showcase(args.repo, args.readme, private=not args.public)
         elif args.operation == 'preview':

@@ -225,8 +225,12 @@ class ToolTests(unittest.TestCase):
                 self.assertEqual(self.tools.main(), expected)
 
     def test_pr_status_success_and_permission_failure(self):
-        with patch.object(self.tools.subprocess, 'run', return_value=SimpleNamespace(returncode=0, stdout=b'{"headRefOid":"abc"}')):
+        with patch.object(self.tools.subprocess, 'run', return_value=SimpleNamespace(returncode=0, stdout=b'{"headRefOid":"abc"}')) as query:
             self.assertEqual(self.tools.pr_status('a/b#1')['status'], 'observed')
+            # gh 2.46 supports these PR fields but rejects baseRefOid entirely.
+            fields = query.call_args.args[0][-1].split(',')
+            self.assertNotIn('baseRefOid', fields)
+            self.assertTrue({'headRefOid', 'baseRefName', 'mergeCommit'} <= set(fields))
         with patch.object(self.tools.subprocess, 'run', return_value=SimpleNamespace(returncode=1)):
             self.assertEqual(self.tools.pr_status('a/b#1')['status'], 'handoff')
 
