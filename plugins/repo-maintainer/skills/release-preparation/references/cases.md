@@ -6,4 +6,4 @@
 - 多条维护线不能按最大版本号统一处理。 来源：[helm/helm/AGENTS.md:10](https://github.com/helm/helm/blob/9b88efd62a6908fb11215f8e8b50c3c62a246df0/AGENTS.md#L10)。
 - 发布凭据权限需要限定，不从说明文件推断已授权。 来源：[openai/openai-python/AGENTS.md:39](https://github.com/openai/openai-python/blob/bfada5040b0171cd0ae61aefae8c78fcf83c804a/AGENTS.md#L39)。
 
-本插件的首次非预期失败交接、验证与审查通过后默认自动合并和展示预览策略是用户选择的产品行为，不宣称由这些样本共同证明。
+本插件的范围内自动修复、独立 AI 审查与验证通过后自动合并和展示预览策略是用户选择的产品行为，不宣称由这些样本共同证明。

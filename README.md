@@ -12,7 +12,7 @@
 
 | 拿来用 | 看研究 | 动手体验 |
 | --- | --- | --- |
-| [下载插件 1.0.0](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.0.0) · [安装说明](plugins/repo-maintainer/README.md) | [分类档案](research/README.md) · [实践对比](research/COMPARISON.md) | [两分钟体验](#两分钟体验) · [六类玩法](plugins/repo-maintainer/skills/repo-showcase/references/showcase-catalog.md) |
+| [下载插件 1.1.0](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.1.0) · [安装说明](plugins/repo-maintainer/README.md) | [分类档案](research/README.md) · [实践对比](research/COMPARISON.md) | [两分钟体验](#两分钟体验) · [六类玩法](plugins/repo-maintainer/skills/repo-showcase/references/showcase-catalog.md) |
 
 徽章读取真实 GitHub 状态：Checks 对应最近的 PR 工作流，不能代替某个提交的验收；正式发行前 Release 可能显示无版本。查看[运行记录](https://github.com/HaoYangJin/repo-standards/actions)或[发行列表](https://github.com/HaoYangJin/repo-standards/releases)可核对实际状态。
 
@@ -20,10 +20,10 @@
 
 ## 下载与安装
 
-[1.0.0 发行页](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.0.0)提供插件 ZIP、SHA-256 校验和及安装说明；发布前这些链接尚不可用。GitHub 自动生成的 Source code 是完整研究仓库，插件专用包名为 `repo-maintainer-1.0.0.zip`。
+[1.1.0 发行页](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.1.0)提供插件 ZIP、SHA-256 校验和及安装说明；发布前这些链接尚不可用。GitHub 自动生成的 Source code 是完整研究仓库，插件专用包名为 `repo-maintainer-1.1.0.zip`。
 
-- [下载插件 ZIP](https://github.com/HaoYangJin/repo-standards/releases/download/v1.0.0/repo-maintainer-1.0.0.zip)
-- [下载 SHA-256 校验和](https://github.com/HaoYangJin/repo-standards/releases/download/v1.0.0/repo-maintainer-1.0.0.zip.sha256)
+- [下载插件 ZIP](https://github.com/HaoYangJin/repo-standards/releases/download/v1.1.0/repo-maintainer-1.1.0.zip)
+- [下载 SHA-256 校验和](https://github.com/HaoYangJin/repo-standards/releases/download/v1.1.0/repo-maintainer-1.1.0.zip.sha256)
 - [安装与使用说明](plugins/repo-maintainer/README.md#安装与平台状态)
 
 ZIP 同时包含 Codex 与 Claude Code 清单、六个技能及工具；下载不会自动安装。实际客户端加载状态见[验收报告](docs/validation.md)。
@@ -46,7 +46,7 @@ python plugins/repo-maintainer/scripts/repo_tools.py showcase --repo . --public
 - **预览展示**：“使用 repo-showcase，为这个公开仓库推荐有真实数据支撑的玩法，先给 README 差异预览。”
 - **完整交付**：“使用 maintenance-delivery 优化已确认的问题，按项目规则完成验证、独立审查和 CI，通过后自动合并。”
 
-实际支持范围、首次失败交接与授权边界见插件说明；不会因为复制一句指令就获得仓库权限。
+实际支持范围、自动修复与授权边界见插件说明；不会因为复制一句指令就获得仓库权限。
 
 </details>
 
@@ -74,6 +74,7 @@ python plugins/repo-maintainer/scripts/repo_tools.py showcase --repo . --public
 | --- | --- |
 | 整理提交与技能编写规范 | [Git 工作流](docs/git-workflow.md)与[技能编写规范](skills/skill-authoring/references/authoring-standard.md) |
 | 从 60 个样本提炼维护实践，第一次用插件维护自己 | [研究索引](research/README.md)与[已合并 PR #1](https://github.com/HaoYangJin/repo-standards/pull/1) |
+| 自动修复与 AI 自动合并 | [1.1.0 迭代记录](docs/self-review-round-3.md)与[发行入口](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.1.0)；发布前为准备内容 |
 | 补足实际加载、模型冒烟与首次发行准备 | [第二轮记录](docs/self-review-round-2.md)与[本轮 PR #2](https://github.com/HaoYangJin/repo-standards/pull/2) |
 
 [参与贡献](CONTRIBUTING.md) · [提出问题](https://github.com/HaoYangJin/repo-standards/issues) · [查看真实贡献者](https://github.com/HaoYangJin/repo-standards/graphs/contributors)
@@ -97,17 +98,17 @@ python plugins/repo-maintainer/scripts/repo_tools.py showcase --repo . --public
 - [repo-maintainer 插件](plugins/repo-maintainer/README.md)：Codex 优先，兼容 Claude Code，经验证自动合并 PR。
 - [验收报告](docs/validation.md)：本机测试、平台验证状态和已知限制。
 
-插件固定覆盖仓库接管、日常维护、审查、发布准备、技能维护和展示玩法。默认首次非预期验证失败即交接，默认在验证与独立审查通过后自动合并，不正式发布或部署；私有仓库不接入公开统计图表。
+插件固定覆盖仓库接管、日常维护、审查、发布准备、技能维护和展示玩法。默认在范围内自动修复，独立 AI 审查、本地验证和 CI 成功后锁定提交自动合并；明确要求发布具体版本时可在同一委托内发布，不部署；私有仓库不接入公开统计图表。
 
 ## 直接让 AI 管理本仓库
 
 无需先安装插件：让当前代理读取仓库内的技能和项目规则即可执行。例如：
 
-> 使用 repo-intake、repo-audit 和 maintenance-delivery，完成一轮审查、修正、验证和复核；通过本地检查、独立审查和 CI 后自动合并，首次非预期失败即保留现场并交接。
+> 使用 repo-intake、repo-audit 和 maintenance-delivery，完成一轮审查、修正、验证和复核；自动诊断和修复范围内问题，通过本地检查、独立 AI 审查和 CI 后锁定提交自动合并；只有外部阻塞才交接。
 
 本仓库已经完成首版三系统 CI；[第一轮自我优化记录](docs/self-review-round-1.md)记录采用插件维护自身的范围与证据。1.0.0 已补做两端隔离加载，并验证 Codex 真实模型调用展示审查；Claude Code 的模型任务仍未验证。详情见验收报告，不与直接读取技能执行混为一谈。
 
-[第二轮优化与首次发行准备](docs/self-review-round-2.md)记录打包安全修正、下载入口和 1.0.0 的发布范围。
+[第二轮优化与首次发行准备](docs/self-review-round-2.md)记录 1.0.0；[1.1.0 迭代记录](docs/self-review-round-3.md)说明自动修复、独立 AI 审查、实际合并工具与发布验证范围。
 
 在仓库根目录运行：
 

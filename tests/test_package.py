@@ -19,6 +19,7 @@ class PackageTests(unittest.TestCase):
         self.assertEqual((ROOT / market['plugins'][0]['source']['path']).resolve(), PLUGIN.resolve())
         market = json.loads((ROOT / '.claude-plugin/marketplace.json').read_text(encoding='utf-8'))
         self.assertEqual((ROOT / market['plugins'][0]['source']).resolve(), PLUGIN.resolve())
+        self.assertEqual(market['plugins'][0]['version'], claude['version'])
 
     def test_six_skills_and_self_contained_references(self):
         skills = list((PLUGIN / 'skills').glob('*/SKILL.md'))
