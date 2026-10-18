@@ -12,19 +12,19 @@ AI 根据项目配置完成开发，更新相关说明、运行检查、修复�
 
 ## 第一次：让 AI 接入你的项目
 
-当前新入口位于 **main 开发版**；已发布的 [1.1.0](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.1.0) 是旧版，不含项目接入与任务状态命令。
+本页对应 **1.2.0**，包含项目接入与可恢复的任务交付入口。[1.2.0 发行入口](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.2.0)提供完整插件 ZIP、SHA-256 和安装说明；1.1.0 不含这些新命令。
 
 取得完整源码：
 
 ```sh
-git clone https://github.com/HaoYangJin/repo-standards.git
+git clone --branch v1.2.0 https://github.com/HaoYangJin/repo-standards.git
 ```
 
 在 Codex 或 Claude Code 中打开你要维护的项目，将插件位置交给 AI，并说：
 
 > 请读取 repo-standards/plugins/repo-maintainer/skills/repo-intake/SKILL.md，为当前项目启用自动维护与交付。识别项目规则、测试、CI、默认分支和已有 GitHub 连接，保存配置。以后我只提开发需求或反馈，请自动完成本轮维护与交付。
 
-路径按你实际下载位置提供。AI 会保存项目级入口与配置，保留已有文件；必要时补齐缺失认证或真正无法推断的关键选择。使用插件市场的用户也可加载 main 中的完整插件，再提出同样的接入需求，见[插件安装说明](plugins/repo-maintainer/README.md)。
+路径按你实际下载位置提供。AI 会保存项目级入口与配置，保留已有文件；必要时补齐缺失认证或真正无法推断的关键选择。使用插件市场的用户也可加载 v1.2.0 中的完整插件，再提出同样的接入需求，见[插件安装说明](plugins/repo-maintainer/README.md)。
 
 接入会生成：
 
