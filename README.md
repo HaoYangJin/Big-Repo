@@ -1,8 +1,8 @@
-# repo-standards · repo-maintainer
+# Repo-Standards
 
 **配置一次，以后只提开发需求或反馈，AI 自动完成本轮维护、验证、提交、推送和仓库交付。**
 
-repo-maintainer 是供 AI 编程客户端调用的仓库交付工具。客户端负责理解需求、开发和审查，插件保存项目规则并执行验证及 GitHub 交付。没有开发任务或反馈时不运行巡检。
+Repo-Standards 是供 AI 编程客户端调用的仓库交付工具。客户端负责理解需求、开发和审查，插件保存项目规则并执行验证及 GitHub 交付。没有开发任务或反馈时不运行巡检。
 
 例如，你只需要说：
 
@@ -10,21 +10,48 @@ repo-maintainer 是供 AI 编程客户端调用的仓库交付工具。客户端
 
 AI 根据项目配置完成开发，更新相关说明、运行检查、修复失败、组织提交、推送并创建 PR；配置为自动合并时，独立审查和 CI 成功后锁定提交合并。测试、CI 和审查反馈继续在同一任务内处理，无需再说“顺便维护、提交、上传”。
 
+## 先看，再试
+
+```mermaid
+flowchart LR
+    A[一次接入] --> B[需求 / 反馈]
+    B --> C[开发与维护]
+    C --> D[实际验证]
+    D --> E[独立审查]
+    E --> F[CI 与合并门槛]
+    F --> G[按项目策略交付]
+    D -->|失败修复| C
+    E -->|阻塞修复| C
+```
+
+**两分钟体验，无需 GitHub 认证。** 在仓库根目录生成单文件 HTML，用浏览器打开输出文件：
+
+```sh
+# 固定示例：不读取任何项目
+python plugins/repo-maintainer/scripts/explore.py --demo --output ../Repo-Standards-demo.html
+# 本仓库真实结构快照：只读 Git 元数据，不读取文件内容
+python plugins/repo-maintainer/scripts/explore.py --repo . --output ../Repo-Standards-report.html
+```
+
+探索台包含结构信号、四种交付演练、六类玩法筛选和 Markdown 快照导出。无需启动服务器、安装前端依赖或联网；输出文件必须是新路径。演练不会执行真实交付，结构存在也不代表验证通过。[使用与维护说明](docs/showcase.md)。
+
+![Repo-Standards 离线探索台演示截图](docs/assets/explorer-demo.png)
+
 ## 第一次：让 AI 接入你的项目
 
-本页对应 **1.2.0**，包含项目接入与可恢复的任务交付入口。[1.2.0 发行入口](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.2.0)提供完整插件 ZIP、SHA-256 和安装说明；1.1.0 不含这些新命令。
+本页对应 **1.3.0 候选版本**：保留一次接入与自动交付，新增离线探索台与交付演练。正式发行状态请查看 [Releases](https://github.com/HaoYangJin/repo-standards/releases)。插件显示名与新 ZIP 名统一为 `Repo-Standards`；内部 ID、技能命令和运行目录保留 `repo-maintainer`，兼容已有项目。
 
 取得完整源码：
 
 ```sh
-git clone --branch v1.2.0 https://github.com/HaoYangJin/repo-standards.git
+git clone https://github.com/HaoYangJin/repo-standards.git
 ```
 
 在 Codex 或 Claude Code 中打开你要维护的项目，将插件位置交给 AI，并说：
 
 > 请读取 repo-standards/plugins/repo-maintainer/skills/repo-intake/SKILL.md，为当前项目启用自动维护与交付。识别项目规则、测试、CI、默认分支和已有 GitHub 连接，保存配置。以后我只提开发需求或反馈，请自动完成本轮维护与交付。
 
-路径按你实际下载位置提供。AI 会保存项目级入口与配置，保留已有文件；必要时补齐缺失认证或真正无法推断的关键选择。使用插件市场的用户也可加载 v1.2.0 中的完整插件，再提出同样的接入需求，见[插件安装说明](plugins/repo-maintainer/README.md)。
+路径按你实际下载位置提供。AI 会保存项目级入口与配置，保留已有文件；必要时补齐缺失认证或真正无法推断的关键选择。使用插件市场的用户也可加载对应版本的完整插件，再提出同样的接入需求，见[插件安装说明](plugins/repo-maintainer/README.md)。
 
 接入会生成：
 
@@ -42,7 +69,7 @@ git clone --branch v1.2.0 https://github.com/HaoYangJin/repo-standards.git
 - **修复**：“空输入会崩溃，修复这个问题。”
 - **反馈**：“这个 PR 的 Windows CI 失败了，处理后继续交付。”
 - **缩小范围**：“这次只改本地，不推送。”
-- **发布**：“这轮完成后发布 1.2.0。”只有明确的版本发布要求才会执行发行。
+- **发布**：“这轮完成后发布 1.3.0。”只有明确的版本发布要求才会执行发行。
 
 配置支持仅本地提交、推送并交付 PR、验证后自动合并。用户本轮更窄限制、项目规则和客户端权限优先。这里的“上传仓库”通常指提交和推送；版本发行按独立的明确请求执行。
 
@@ -62,7 +89,8 @@ git clone --branch v1.2.0 https://github.com/HaoYangJin/repo-standards.git
 
 - [插件说明与安装](plugins/repo-maintainer/README.md)
 - [项目配置、任务与恢复](plugins/repo-maintainer/references/project-workflow.md)
-- [可选的仓库展示](docs/showcase.md)
+- [可运行的仓库探索台与展示约定](docs/showcase.md)
+- [1.3.0 目标对照与本仓库整理](docs/iteration-1.3.0.md)
 - [60 个仓库的研究资料](research/README.md)：设计参考，不是使用前置条件
 - [协作与提交规范](docs/git-workflow.md) · [技能编写规范](skills/skill-authoring/references/authoring-standard.md)
 - [贡献说明](CONTRIBUTING.md) · [本插件的发行流程](docs/releases.md)
@@ -75,3 +103,7 @@ python scripts/build_plugin.py --output dist
 ```
 
 本仓库自身复用 plugins/repo-maintainer 运行目录，避免复制一份插件。普通项目按上面的“一次接入”使用即可。
+
+## 参与改进
+
+从 [贡献说明](CONTRIBUTING.md)、[实际 Issues](https://github.com/HaoYangJin/repo-standards/issues) 或 [贡献记录](https://github.com/HaoYangJin/repo-standards/graphs/contributors) 找到参与入口。查看 [Actions](https://github.com/HaoYangJin/repo-standards/actions) 获取真实检查状态，查看 [变更记录](plugins/repo-maintainer/CHANGELOG.md) 了解版本演进。

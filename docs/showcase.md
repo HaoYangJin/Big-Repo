@@ -1,31 +1,38 @@
-# 可选仓库展示与历史记录
+# 仓库展示与离线玩法
 
-当前首页聚焦“接入一次、需求与反馈触发、AI 自动维护并交付”的使用流程，已移除抢占入口的展示图表与徽章。展示是用户明确提出相关需求时才调用的可选能力，不是每次开发的固定检查清单。
+1.3.0 把可视化和体验放回本仓库首页：Mermaid 交付流程、真实浏览器截图、可运行的离线探索台与贡献入口。主入口仍是接入和交付；展示不作为每次开发的强制治理步骤。
 
-以下记录 1.1.0 及此前首页采用过的展示方式与维护成本，保留为研究示例；不表示当前首页仍启用，也不要求其他项目照搬。
+## 两分钟体验
 
-## 历史采用的功能
+在源码根目录运行：
 
-| 功能与用途 | 数据来源、权限和成本 | 更新与失效处理 | 移除方式 |
-| --- | --- | --- | --- |
-| Star History 明暗主题图，观察公开星标记录 | api.star-history.com 读取公开仓库标识，无令牌、无需仓库写入权限；读者浏览时会访问外部图片，受服务缓存、限流与可用性影响 | 第三方动态更新，具体更新时间未知；零 Star 不推断增长，失效后用文字入口和 GitHub 星标记录 | 删除 activity 区的 picture/a 图表与对应引用，不影响文字导航 |
-| GitHub 原生 Checks 徽章，进入真实检查结果 | GitHub 公开 check.yml 的最近 pull_request 事件；无需新工作流或权限，徽章不是指定提交验收证据 | 工作流改名或事件调整时更新 URL；失败/等待按实际显示，异常时查看 Actions 文字入口 | 删除 frontpage 区 Checks 图片及链接 |
-| Shields Release/Stars 徽章，快速进入版本与星标页面 | img.shields.io 读取公开 GitHub 数据，无账号或写入权限；受上游缓存影响 | 发行前版本可能未知；不硬编码成功或数字，查看 GitHub 原始页面核对；迁移仓库时更新标识 | 删除对应徽章，保留发行与星标文字链接 |
-| 下载卡片与两分钟体验，缩短初次使用路径 | 仓库内资料、Python 标准库和已存在脚本；运行用户本地只读检查，不创建在线环境 | 发布时更新版本与附件名，命令变化时同步；无 Python 时仍可阅读技能和文档 | 删除卡片或示例，不卸载任何环境 |
-| 贡献导航，帮助读者找到参与入口 | 已存在 CONTRIBUTING、公开 Issues 与 GitHub 真实贡献者页面；未启用 Discussions、贡献机器人或写权限 | 仓库功能或页面迁移时更新；没有记录不虚构贡献者墙或入门任务 | 删除链接，不涉及撤销机器人权限 |
-| 项目足迹与可展开的维护故事，展示真实演进 | 仓库规范、研究索引、PR #1、PR #2 和每轮自审记录；无统计服务 | 有实际新里程碑时人工更新，未发布不写已发布；来源失效时改为固定提交或移除该行 | 删除对应表格行或 details 区块 |
+```sh
+python plugins/repo-maintainer/scripts/explore.py --demo --output ../Repo-Standards-demo.html
+python plugins/repo-maintainer/scripts/explore.py --repo . --output ../Repo-Standards-report.html
+```
 
-本轮检查公开 API 图表、CI 与星标徽章均返回 SVG；发行前版本徽章返回无可用版本是预期状态，正式发布后另行核对。可用性只代表检查时刻，不能保证未来或每个读者网络可访问。来源采集：2026-10-18。
+用浏览器打开 HTML，无需服务器、账号、前端依赖或网络。每次使用新输出路径；工具不覆盖已有文件。完整发行包在解压后的 Repo-Standards 目录运行 `python scripts/explore.py`，参数相同。
 
-## 更新约定
+- **看结构**：显示采集时间、HEAD、分支、工作区是否干净、Git 跟踪路径数，以及 README、根目录协作规则、tests/test 目录和 GitHub 工作流的存在性。
+- **试交付**：顺利交付、测试失败、独立审查阻塞、CI 等待四种场景；阻塞时“下一步”不可用，显式模拟解决后才能继续。切换场景或重新开始会清空演练进度。
+- **选玩法**：筛选本地可用或公开仓库适用的六类展示方式。
+- **带走快照**：导出 Markdown，保留数据类型、时间与提交身份，不导出演练作为真实验证证据。
 
-历史首页用 `repo-maintainer:frontpage` 与 `repo-maintainer:activity` 两组 start/end 注释标识展示区；修改时更新已有区，不再次追加。它们是人工维护区，不是脚本 preview 的 `repo-maintainer:showcase` 自动生成区；不要把完整 preview 输出直接覆盖首页。
+结构信号只是启发式检查，不计算质量分或可合并分。只查 Git 跟踪路径，不读取文件内容；被跟踪但已删除的文件仍属于索引信号，工作区会标记为有改动。其他测试目录和非 GitHub CI 可能未被识别，未发现不等于项目没有相应能力。真实 CI、验证与审查继续由 project_workflow / repo_tools 执行。
 
-日常变更只核对是否影响版本、命令、链接、图表标识或故事来源；无关修改不追加装饰。外部服务不支持当前网络时保留文字入口，不自动创建定时 Actions、代理服务、部署或令牌配置。要关闭全部外部图片，删除三枚徽章与 Star History picture 即可，正文与插件仍可正常使用。
+## 本仓库采用与维护约定
 
-## 参考
+| 展示 | 来源与维护 | 移除方式 |
+| --- | --- | --- |
+| 首页 Mermaid 流程 | 与实际交付门槛同步，不冒充运行状态 | 删除流程代码块 |
+| 探索台截图 | 用 `--demo` 固定数据生成，浏览器实际截图，不含项目私有内容；界面变化后重拍 | 删除 README 图片与 docs/assets/explorer-demo.png |
+| 离线探索台 | Python 标准库 + 内嵌 HTML/CSS/JS，零外部请求；打包必须包含 assets/explorer.html | 删除生成的 HTML；移除功能时同时更新脚本、资源、测试和入口 |
+| 参与与版本入口 | 真实 CONTRIBUTING、Issues、贡献记录、Actions、Releases、CHANGELOG | 修改对应链接 |
 
-- [Star History 项目](https://github.com/star-history/star-history)
-- [GitHub 工作流徽章说明](https://docs.github.com/en/actions/how-tos/monitor-workflows/add-a-status-badge)
-- [Shields 项目](https://github.com/badges/shields)
-- [插件六类玩法目录](../plugins/repo-maintainer/skills/repo-showcase/references/showcase-catalog.md)
+生成 HTML 不会修改被检查仓库；但用户主动把输出路径放进仓库时会产生一个文件，建议放在仓库外。快照包含仓库名、分支名和提交标识，分享前应检查。页面不存储浏览器持久数据、不向第三方发送标识。
+
+## 历史与可选扩展
+
+1.1.0 及此前曾采用 Star History、Shields 和 Checks 徽章，1.2.0 将它们移到历史资料且没有提供交互替代。1.3.0 使用本地可视化和演练作为稳定入口。外部图表不随页面自动加载；公开仓库仍可按需加入真实图表并保留文字回退，私有或公开性未知仓库不发送标识到公开服务。
+
+参考：[六类玩法目录](../plugins/repo-maintainer/skills/repo-showcase/references/showcase-catalog.md)、[Star History](https://github.com/star-history/star-history)、[GitHub 工作流徽章](https://docs.github.com/en/actions/how-tos/monitor-workflows/add-a-status-badge)、[Shields](https://github.com/badges/shields)。历史可用性检查只代表当时状态，不作为本版本远程服务验收证据。

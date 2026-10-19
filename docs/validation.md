@@ -1,5 +1,29 @@
 # 验收与限制
 
+## 1.3.0：品牌、可视化与本仓库整理
+
+本轮使用 Linux、Python 3.11+ 和 Chromium 完成候选版验证。正式发行与客户端安装是独立状态，不把本地打包等同于 GitHub Release 或模型端到端验收。
+
+- Python 回归覆盖共 122 项：包括 Markdown 相对链接、六技能元数据与参考、双平台清单和市场版本、任务交付、打包及发布保护。新增结构快照、脚本注入转义、拒绝覆盖输出和仓库名大小写回归。
+- 浏览器实际运行四种演练，验证阻塞前不可推进、解决后可完成、重置、两类玩法筛选和 Markdown 导出；真实快照与演示数据标识分别检查。1280px 桌面、390px 手机及深色模式截图，无横向溢出、页面脚本错误或外部网络请求。
+- 两次构建逐字节一致，ZIP 完整性通过，顶层目录为 Repo-Standards，包含 39 个运行文件及 assets/explorer.html；解压到仓库外后实际执行 explore.py 成功。
+- 本仓库已实际生成结构快照；结果仅描述采集时 Git 索引和工作区，生成报告留在仓库外，避免把过期状态提交为持续有效证据。
+- 首次回归曾因首页截图尚未生成而出现一个相对链接失败；生成真实截图后重验。浏览器最初缺少可执行文件，安装 Chromium 后完成上述验证。没有删除断言或跳过失败。
+
+可复现命令：
+
+```sh
+python -m unittest discover -s tests
+python scripts/build_plugin.py --output dist
+python plugins/repo-maintainer/scripts/explore.py --demo --output ../demo.html
+python plugins/repo-maintainer/scripts/explore.py --repo . --output ../report.html
+# 可选开发检查：需能解析 playwright 包和已安装 Chromium，产品运行不需要它们
+node tests/explorer.browser.cjs ../demo.html ../report.html ../browser-evidence
+```
+
+浏览器脚本可用 PLAYWRIGHT_CHROMIUM_EXECUTABLE 指定已有 Chromium。发布前最终提交仍须通过项目 check、独立 AI 审查以及 Ubuntu / Windows / macOS 的实际 PR CI；最终状态以对应 PR 为准。本轮未执行 Codex / Claude Code 的实际客户端安装或模型任务，保留历史验收范围，不将其扩大。
+
+
 ## 1.2.0：任务与反馈驱动的自动交付
 
 本轮在 Linux 云环境验证，插件版本为 `1.2.0`；实际发行状态与制品以 [v1.2.0 发行](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.2.0)为准。目标是一次项目接入、由 AI 客户端执行开发需求与反馈的交付流程；不配置定时巡检或后台 Issue 监听。

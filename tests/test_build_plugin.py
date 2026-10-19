@@ -37,10 +37,11 @@ class BuildPluginTests(unittest.TestCase):
         second = self.m.build(self.plugin, self.root / 'out2')
         self.assertEqual(Path(first['archive']).read_bytes(), Path(second['archive']).read_bytes())
         self.assertEqual(first['sha256'], second['sha256'])
+        self.assertEqual(Path(first['archive']).name, 'Repo-Standards-0.2.0.zip')
         with zipfile.ZipFile(first['archive']) as archive:
             self.assertIsNone(archive.testzip())
             self.assertFalse(any('secret' in name or '__pycache__' in name for name in archive.namelist()))
-            self.assertNotIn(b'\r', archive.read('repo-maintainer/skills/demo/SKILL.md'))
+            self.assertNotIn(b'\r', archive.read('Repo-Standards/skills/demo/SKILL.md'))
         self.assertTrue(Path(first['checksum']).exists())
 
     def test_version_mismatch_and_output_inside_plugin_blocked(self):
@@ -103,7 +104,7 @@ class BuildPluginTests(unittest.TestCase):
         output.mkdir()
         target = self.root / 'outside.txt'
         target.write_bytes(b'must remain unchanged')
-        link = output / ('repo-maintainer-0.2.0.zip' + suffix)
+        link = output / ('Repo-Standards-0.2.0.zip' + suffix)
         try:
             link.symlink_to(target)
         except (OSError, NotImplementedError):

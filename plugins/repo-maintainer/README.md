@@ -1,10 +1,10 @@
-# repo-maintainer
+# Repo-Standards
 
 **给 AI 编程客户端提供项目级的自动维护与仓库交付能力。接入一次，以后只提开发需求或反馈。**
 
 客户端执行开发和推理；插件保存项目策略，管理任务与验证状态，完成推送、PR 和经验证的自动合并。没有任务时不运行定时巡检，也不后台监听 Issue。
 
-本页对应 1.2.0 的项目接入与任务交付入口。1.1.0 包提供单次维护交付能力，不包含 project_workflow.py；升级时请使用完整的 1.2.0 插件包或固定标签源码，不混合版本文件。
+本页对应 1.3.0 候选版本。显示名和发行 ZIP 使用 Repo-Standards；机器 ID、源码路径、项目配置目录及技能命令保留 repo-maintainer，以兼容既有安装。Claude Code 等按机器 ID 显示名称的客户端仍可能显示 repo-maintainer，不再使用中文插件名。
 
 ## 三步使用
 
@@ -23,7 +23,7 @@
 在支持插件市场的客户端中登记源码市场并加载 repo-maintainer：
 
 ```text
-codex plugin marketplace add HaoYangJin/repo-standards --ref v1.2.0
+codex plugin marketplace add HaoYangJin/repo-standards --ref main
 ```
 
 按客户端的插件界面安装并开启新会话。不同版本客户端的命令和加载方式以 [Codex 官方文档](https://developers.openai.com/plugins/build/plugins) 为准。项目接入使用官方 [AGENTS.md 机制](https://developers.openai.com/codex/guides/agents-md)。
@@ -73,8 +73,28 @@ AI 调用 project_workflow.py 的 begin → check → review → deliver，使�
 
 ## 下载、校验与升级
 
-[1.2.0 发行入口](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.2.0)包含 `repo-maintainer-1.2.0.zip`、同名 `.sha256` 和 `INSTALL-1.2.0.md`；[1.1.0](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.1.0)保留供回退。下载不会自动安装。核对 ZIP 与同名校验文件（Linux 可用 `sha256sum -c repo-maintainer-1.2.0.zip.sha256`，macOS 可用 `shasum -a 256 -c repo-maintainer-1.2.0.zip.sha256`，PowerShell 可用 `Get-FileHash -Algorithm SHA256` 与校验文件比较摘要，忽略十六进制字母大小写），完整解压后加载，保留整套技能和 references；升级在新目录准备完整版本，保留项目配置与用户改动，不混合覆盖单个文件。
+1.3.0 制品名称为 `Repo-Standards-1.3.0.zip`、`Repo-Standards-1.3.0.zip.sha256` 与 `INSTALL-1.3.0.md`；ZIP 顶层目录为 `Repo-Standards/`。实际发行状态查看 [Releases](https://github.com/HaoYangJin/repo-standards/releases)；候选源码和本地构建不表示已公开发行。旧版 [1.2.0](https://github.com/HaoYangJin/repo-standards/releases/tag/v1.2.0) 保留原名称供回退。
 
-1.2.0 提供完整的新项目入口。已经接入的项目不会因下载目录更新而静默替换运行文件；由 AI 明确核对版本后更新项目中的完整插件目录，并复验配置、命令和任务恢复。
+校验后完整解压，在客户端加载解压后的 `Repo-Standards` 目录（其中包含隐藏清单目录、skills、scripts 和 assets），不要按旧的 ZIP 顶层路径加载：
+
+```sh
+sha256sum -c Repo-Standards-1.3.0.zip.sha256
+claude --plugin-dir /path/to/Repo-Standards
+```
+
+macOS 使用 `shasum -a 256 -c`；PowerShell 使用 `Get-FileHash -Algorithm SHA256` 与校验文件比较。升级在新目录准备完整版本，保留项目配置和用户改动；由 AI 核对后更新已接入项目的完整运行目录，不混合覆盖单个文件。现有 `.repo-maintainer/config.json`、任务记录和技能名称无需迁移；回退同样替换完整运行目录。
+
+## 离线探索台与交付演练
+
+在解压后的插件目录运行（Python 3.11+；真实快照另需 Git）：
+
+```sh
+python scripts/explore.py --demo --output ../Repo-Standards-demo.html
+python scripts/explore.py --repo /path/to/project --output ../Repo-Standards-report.html
+```
+
+用浏览器打开输出 HTML。页面含真实结构信号或明确标记的示例数据、四种交付演练、六类玩法筛选和快照导出；无外部依赖和请求。输出路径必须尚不存在。快照不是实时监控；存在测试或 CI 文件不代表它们通过。模拟失败、修复与合并只改变页面状态，不写入真实验证证据，也不执行 Git 或 GitHub 操作。
+
+不读取源文件内容、远端地址或任务日志。报告包含仓库名、分支名和提交标识，分享前核对；删除输出 HTML 即可移除，无需关闭服务。只复制技能目录的用户按技能内参考说明操作，探索台需要完整插件。
 
 repo-standards 的 GitHub Actions 发布流程用于这个插件自身发行。目标项目的版本发布按其实际构建、凭据和发布规则执行，不自动复制本仓库的发布工作流。

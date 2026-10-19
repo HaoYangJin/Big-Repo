@@ -13,7 +13,7 @@ import zipfile
 ALLOWED_DIRS = {'.codex-plugin', '.claude-plugin', 'skills', 'scripts', 'references', 'templates', 'assets'}
 ALLOWED_ROOT = {'README.md', 'LICENSE', 'NOTICE', 'CHANGELOG.md', 'plugin.json', 'mcp.json'}
 EXCLUDED = {'__pycache__', '.git', '.venv', '.pytest_cache', 'work', 'dist', 'tmp'}
-TEXT_SUFFIXES = {'.md', '.py', '.json', '.yaml', '.yml', '.txt', '.template', '.svg'}
+TEXT_SUFFIXES = {'.md', '.py', '.json', '.yaml', '.yml', '.txt', '.template', '.svg', '.html', '.css', '.js'}
 
 
 def portable_member(relative):
@@ -56,6 +56,7 @@ def build(plugin, output):
         raise ValueError('Invalid plugin name')
     if not isinstance(version, str) or not re.fullmatch(r'\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?', version):
         raise ValueError('Invalid plugin version')
+    package_name = "Repo-Standards" if name == "repo-maintainer" else name
     members = []
     candidates = []
     for directory, directories, files in os.walk(plugin, topdown=True, followlinks=False):
@@ -84,7 +85,7 @@ def build(plugin, output):
     if not any(p.endswith('/SKILL.md') for p, _ in members):
         raise ValueError('Plugin must contain a skill')
     output.mkdir(parents=True, exist_ok=True)
-    archive = output / f'{name}-{version}.zip'
+    archive = output / f'{package_name}-{version}.zip'
     checksum = output / (archive.name + '.sha256')
     staged = []
     try:
@@ -96,7 +97,7 @@ def build(plugin, output):
             # Stored entries avoid compression-library variation across systems.
             with zipfile.ZipFile(stream, 'w', compression=zipfile.ZIP_STORED) as bundle:
                 for path, data in members:
-                    info = zipfile.ZipInfo(name + '/' + path, date_time=(1980, 1, 1, 0, 0, 0))
+                    info = zipfile.ZipInfo(package_name + '/' + path, date_time=(1980, 1, 1, 0, 0, 0))
                     info.create_system = 3
                     info.external_attr = 0o100644 << 16
                     bundle.writestr(info, data)
