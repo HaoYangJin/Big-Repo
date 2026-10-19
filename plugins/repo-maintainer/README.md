@@ -4,7 +4,7 @@
 
 客户端执行开发和推理；插件保存项目策略，管理任务与验证状态，完成推送、PR 和经验证的自动合并。没有任务时不运行定时巡检，也不后台监听 Issue。
 
-本页对应 1.3.0 候选版本。显示名和发行 ZIP 使用 Repo-Standards；机器 ID、源码路径、项目配置目录及技能命令保留 repo-maintainer，以兼容既有安装。Claude Code 等按机器 ID 显示名称的客户端仍可能显示 repo-maintainer，不再使用中文插件名。
+本页对应 1.3.0。显示名和发行 ZIP 使用 Repo-Standards；机器 ID、源码路径、项目配置目录及技能命令保留 repo-maintainer，以兼容既有安装。Claude Code 等按机器 ID 显示名称的客户端仍可能显示 repo-maintainer，不再使用中文插件名。
 
 ## 三步使用
 
@@ -20,10 +20,10 @@
 
 ### Codex
 
-在支持插件市场的客户端中登记源码市场并加载 repo-maintainer：
+正式发行后，在支持插件市场的客户端中登记固定版本源码市场并加载 repo-maintainer；发行前可直接使用当前源码目录：
 
 ```text
-codex plugin marketplace add HaoYangJin/repo-standards --ref main
+codex plugin marketplace add HaoYangJin/repo-standards --ref v1.3.0
 ```
 
 按客户端的插件界面安装并开启新会话。不同版本客户端的命令和加载方式以 [Codex 官方文档](https://developers.openai.com/plugins/build/plugins) 为准。项目接入使用官方 [AGENTS.md 机制](https://developers.openai.com/codex/guides/agents-md)。

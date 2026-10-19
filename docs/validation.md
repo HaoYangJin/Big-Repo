@@ -44,7 +44,7 @@ node tests/explorer.browser.cjs ../demo.html ../report.html ../browser-evidence
 
 ## 已执行的检查
 
-首版 0.1.0 离线测试：48 项全部通过，失败 0、错误 0。六个技能通过 skill-creator 格式校验，所有新增 Python 文件通过 Python 3.11 语法解析；首版最终提交的 Python 3.11 Windows、macOS、Ubuntu 远端矩阵也全部成功。0.2.0 的新增检查与最终状态见[本轮自我优化记录](self-review-round-1.md)和对应 PR head SHA 的 CI。
+首版 0.1.0 离线测试：48 项全部通过，失败 0、错误 0。六个技能通过 skill-creator 格式校验，所有新增 Python 文件通过 Python 3.11 语法解析；首版最终提交的 Python 3.11 Windows、macOS、Ubuntu 远端矩阵也全部成功。0.2.0 的新增检查与最终状态见[本轮自我优化记录](archive/self-review-round-1.md)和对应 PR head SHA 的 CI。
 
 标准库 trace 语句覆盖率：采集器 84.0%，仓库检查与展示工具 96.1%，报告生成器 97.5%。报告生成器测量包含真实资料重建；覆盖率不是分支覆盖，也不代表全部行为已验证。
 
@@ -64,7 +64,7 @@ node tests/explorer.browser.cjs ../demo.html ../report.html ../browser-evidence
 
 ## 1.0.0 第二轮优化
 
-[本轮记录](self-review-round-2.md)说明独立临时文件、异常清理和输出符号链接修正，以及首次 GitHub Release 的独立授权。修复后本机 72 项测试运行完成，70 项通过、2 项因 Windows 缺少符号链接创建权限跳过；最终提交的三系统 CI 另行核对。
+[本轮记录](archive/self-review-round-2.md)说明独立临时文件、异常清理和输出符号链接修正，以及首次 GitHub Release 的独立授权。修复后本机 72 项测试运行完成，70 项通过、2 项因 Windows 缺少符号链接创建权限跳过；最终提交的三系统 CI 另行核对。
 
 ## 真实平台验证状态
 
@@ -78,7 +78,7 @@ node tests/explorer.browser.cjs ../demo.html ../report.html ../browser-evidence
 
 ## 1.1.0 自动交付迭代
 
-[本轮记录](self-review-round-3.md)说明自动修复、独立 AI 审查、锁定提交的实际合并工具与同一委托内的获授权发布。新增隔离测试覆盖合并执行、等待和失败不写入、结果核对与不确定写入不重试。1.0.0 的客户端加载证据不继承为本版结果；最终测试、PR CI 与发行状态需查对应提交和实际发行。
+[本轮记录](archive/self-review-round-3.md)说明自动修复、独立 AI 审查、锁定提交的实际合并工具与同一委托内的获授权发布。新增隔离测试覆盖合并执行、等待和失败不写入、结果核对与不确定写入不重试。1.0.0 的客户端加载证据不继承为本版结果；最终测试、PR CI 与发行状态需查对应提交和实际发行。
 
 ## 工具限制
 

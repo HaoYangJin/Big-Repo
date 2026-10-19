@@ -39,12 +39,12 @@ python plugins/repo-maintainer/scripts/explore.py --repo . --output ../Repo-Stan
 
 ## 第一次：让 AI 接入你的项目
 
-本页对应 **1.3.0 候选版本**：保留一次接入与自动交付，新增离线探索台与交付演练。正式发行状态请查看 [Releases](https://github.com/HaoYangJin/repo-standards/releases)。插件显示名与新 ZIP 名统一为 `Repo-Standards`；内部 ID、技能命令和运行目录保留 `repo-maintainer`，兼容已有项目。
+本页对应 **1.3.0**：保留一次接入与自动交付，新增离线探索台与交付演练。正式发行状态请查看 [Releases](https://github.com/HaoYangJin/repo-standards/releases)。插件显示名与新 ZIP 名统一为 `Repo-Standards`；内部 ID、技能命令和运行目录保留 `repo-maintainer`，兼容已有项目。
 
-取得完整源码：
+取得固定版本源码（正式发行后使用；发行前可使用当前检出）：
 
 ```sh
-git clone https://github.com/HaoYangJin/repo-standards.git
+git clone --branch v1.3.0 https://github.com/HaoYangJin/repo-standards.git
 ```
 
 在 Codex 或 Claude Code 中打开你要维护的项目，将插件位置交给 AI，并说：
@@ -90,7 +90,7 @@ git clone https://github.com/HaoYangJin/repo-standards.git
 - [插件说明与安装](plugins/repo-maintainer/README.md)
 - [项目配置、任务与恢复](plugins/repo-maintainer/references/project-workflow.md)
 - [可运行的仓库探索台与展示约定](docs/showcase.md)
-- [1.3.0 目标对照与本仓库整理](docs/iteration-1.3.0.md)
+- [1.3.0 目标对照与本仓库整理](docs/iteration-1.3.0.md) · [清理审计](docs/cleanup-1.3.0.md)
 - [60 个仓库的研究资料](research/README.md)：设计参考，不是使用前置条件
 - [协作与提交规范](docs/git-workflow.md) · [技能编写规范](skills/skill-authoring/references/authoring-standard.md)
 - [贡献说明](CONTRIBUTING.md) · [本插件的发行流程](docs/releases.md)
