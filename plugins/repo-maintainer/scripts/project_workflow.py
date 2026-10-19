@@ -322,7 +322,7 @@ def begin(repo, objective, allowed_paths, event=None, delivery=None):
     chosen = delivery or config['delivery']
     if LEVELS[chosen] > LEVELS[config['delivery']]:
         raise WorkflowError('task-cannot-expand-project-delivery-policy')
-    if chosen != 'commit' and identity(repo) != config['repository']:
+    if chosen != 'commit' and (identity(repo) or '').casefold() != config['repository'].casefold():
         raise WorkflowError('origin-repository-changed')
     directory = state_dir(repo)
     with locked(directory):
@@ -499,7 +499,7 @@ def deliver(repo, title=None, body_file=None, retry_reason=None):
             result = {'status': 'committed', 'head_sha': current['head_sha']}
             save(path, state, 'completed', result=result)
             return {'status': 'completed', 'result': result}
-        if identity(repo) != config['repository'] or current['branch'] == config['base_branch']:
+        if (identity(repo) or '').casefold() != config['repository'].casefold() or current['branch'] == config['base_branch']:
             raise WorkflowError('delivery-needs-task-branch-and-matching-origin')
         state['delivery_head'] = current['head_sha']
         state['delivery_branch'] = current['branch']

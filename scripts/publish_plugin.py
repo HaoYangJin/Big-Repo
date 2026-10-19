@@ -33,6 +33,10 @@ def validate_target(repository, tag, commit, sha256):
         raise ValueError('Expected a full commit SHA and SHA-256')
 
 
+def package_name(version):
+    return 'Repo-Standards' if tuple(map(int, version.split('.'))) >= (1, 3, 0) else 'repo-maintainer'
+
+
 def prepare(source, output, repository, tag, commit, sha256):
     validate_target(repository, tag, commit, sha256)
     source, output = Path(source).resolve(), Path(output).resolve()
@@ -58,7 +62,7 @@ def prepare(source, output, repository, tag, commit, sha256):
         stdout, _ = run([sys.executable, str(source / 'scripts/build_plugin.py'),
                          '--output', str(output / directory)], cwd=source)
         builds.append(json.loads(stdout))
-    archive = output / 'first' / f'repo-maintainer-{version}.zip'
+    archive = output / 'first' / f'{package_name(version)}-{version}.zip'
     checksum = archive.with_suffix('.zip.sha256')
     if (digest(archive) != sha256 or digest(Path(builds[1]['archive'])) != sha256
             or checksum.read_text().strip() != f'{sha256}  {archive.name}'):
@@ -127,7 +131,7 @@ def publish(manifest_path):
     repository, tag = data['repository'], data['tag']
     validate_target(repository, tag, data['commit'], data['sha256'])
     version = tag[1:]
-    names = {f'repo-maintainer-{version}.zip', f'repo-maintainer-{version}.zip.sha256',
+    names = {f'{package_name(version)}-{version}.zip', f'{package_name(version)}-{version}.zip.sha256',
              f'INSTALL-{version}.md'}
     expected = {}
     for item in data['files']:
@@ -137,7 +141,7 @@ def publish(manifest_path):
         if file.name in expected:
             raise ValueError('Duplicate local asset')
         expected[file.name] = file
-    if set(expected) != names or digest(expected[f'repo-maintainer-{version}.zip']) != data['sha256']:
+    if set(expected) != names or digest(expected[f'{package_name(version)}-{version}.zip']) != data['sha256']:
         raise ValueError('Unexpected local asset set or ZIP digest')
     if remote_commit(repository, tag) != data['commit']:
         raise ValueError('Remote tag no longer points to the validated commit')

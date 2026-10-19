@@ -12,6 +12,7 @@ class PackageTests(unittest.TestCase):
     def test_manifests_and_marketplaces_resolve(self):
         codex = json.loads((PLUGIN / '.codex-plugin/plugin.json').read_text(encoding='utf-8'))
         claude = json.loads((PLUGIN / '.claude-plugin/plugin.json').read_text(encoding='utf-8'))
+        self.assertEqual(codex['interface']['displayName'], 'Repo-Standards')
         self.assertEqual(codex['name'], claude['name'])
         self.assertEqual(codex['version'], claude['version'])
         self.assertTrue((PLUGIN / codex['skills']).is_dir())

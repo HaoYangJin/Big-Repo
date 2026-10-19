@@ -57,6 +57,21 @@ class ProjectWorkflowTests(unittest.TestCase):
         self.git('add', '.')
         self.git('commit', '-m', 'chore: enable project delivery')
 
+    def test_repository_identity_is_case_insensitive_but_not_interchangeable(self):
+        self.setup_project()
+        self.git('remote', 'set-url', 'origin', 'https://github.com/Example/Project.git')
+        self.assertEqual(self.start()['status'], 'working')
+        self.change()
+        self.validated_review()
+        with self.github():
+            self.assertEqual(self.m.deliver(self.repo, 'Update feature', self.body())['status'], 'completed')
+
+    def test_other_repository_is_still_blocked(self):
+        self.setup_project()
+        self.git('remote', 'set-url', 'origin', 'https://github.com/example/another.git')
+        with self.assertRaises(self.m.WorkflowError):
+            self.start()
+
     def quote_python(self):
         return self.m.shlex.quote(sys.executable)
 

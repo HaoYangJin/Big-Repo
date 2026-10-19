@@ -21,15 +21,15 @@ class PublishTests(unittest.TestCase):
         self.root = Path(temp.name)
         self.commit = 'a' * 40
         self.files = {}
-        for name, content in [('repo-maintainer-1.1.0.zip', b'validated zip'),
-                              ('repo-maintainer-1.1.0.zip.sha256', b'checksum'),
-                              ('INSTALL-1.1.0.md', b'install')]:
+        for name, content in [('Repo-Standards-1.3.0.zip', b'validated zip'),
+                              ('Repo-Standards-1.3.0.zip.sha256', b'checksum'),
+                              ('INSTALL-1.3.0.md', b'install')]:
             file = self.root / name
             file.write_bytes(content)
             self.files[name] = file
         self.manifest = self.root / 'manifest.json'
-        self.data = {'repository': 'a/b', 'tag': 'v1.1.0', 'commit': self.commit,
-                     'sha256': self.publisher.digest(self.files['repo-maintainer-1.1.0.zip']),
+        self.data = {'repository': 'a/b', 'tag': 'v1.3.0', 'commit': self.commit,
+                     'sha256': self.publisher.digest(self.files['Repo-Standards-1.3.0.zip']),
                      'files': [{'path': name, 'sha256': self.publisher.digest(file)}
                                for name, file in self.files.items()]}
         self.save()
@@ -37,7 +37,7 @@ class PublishTests(unittest.TestCase):
         self.draft = True
         self.moves_tag = False
         self.writes = []
-        self.releases = [{'id': 123, 'tag_name': 'v1.1.0'}]
+        self.releases = [{'id': 123, 'tag_name': 'v1.3.0'}]
 
     def save(self):
         self.manifest.write_text(json.dumps(self.data))
@@ -50,8 +50,8 @@ class PublishTests(unittest.TestCase):
         if '/releases?' in endpoint:
             return self.releases
         self.assertEqual(endpoint, 'repos/a/b/releases/123')
-        return {'id': 123, 'tag_name': 'v1.1.0', 'draft': self.draft,
-                'html_url': 'https://github.com/a/b/releases/tag/v1.1.0',
+        return {'id': 123, 'tag_name': 'v1.3.0', 'draft': self.draft,
+                'html_url': 'https://github.com/a/b/releases/tag/v1.3.0',
                 'assets': [{'name': name, 'state': 'uploaded'} for name in self.remote]}
 
     def command(self, args, cwd=None):
@@ -101,7 +101,7 @@ class PublishTests(unittest.TestCase):
     def test_release_lookup_paginates_before_selecting_stable_id(self):
         pages = [[{'id': i + 1, 'tag_name': 'v0.0.1'} for i in range(100)], self.releases]
         with patch.object(self.publisher, 'api', side_effect=pages) as request:
-            self.assertEqual(self.publisher.release_id('a/b', 'v1.1.0'), 123)
+            self.assertEqual(self.publisher.release_id('a/b', 'v1.3.0'), 123)
         self.assertEqual(request.call_args_list[1].args[0], 'repos/a/b/releases?per_page=100&page=2')
 
     def test_existing_mismatch_and_extra_asset_prevent_any_write(self):
@@ -154,7 +154,7 @@ class PublishTests(unittest.TestCase):
         self.assertTrue(self.draft)
 
     def test_tampered_or_escaping_local_asset_prevents_any_write(self):
-        self.files['INSTALL-1.1.0.md'].write_bytes(b'changed')
+        self.files['INSTALL-1.3.0.md'].write_bytes(b'changed')
         with self.assertRaises(ValueError):
             self.publish()
         self.assertEqual(self.writes, [])
@@ -165,18 +165,22 @@ class PublishTests(unittest.TestCase):
         self.assertEqual(self.writes, [])
 
     def test_invalid_inputs_fail_before_commands(self):
-        for tag, commit, sha in [('v1.1.0;echo bad', self.commit, 'a' * 64),
-                                 ('v1.1.0', 'main', 'a' * 64),
-                                 ('v1.1.0', self.commit, 'bad')]:
+        for tag, commit, sha in [('v1.3.0;echo bad', self.commit, 'a' * 64),
+                                 ('v1.3.0', 'main', 'a' * 64),
+                                 ('v1.3.0', self.commit, 'bad')]:
             with patch.object(self.publisher, 'run') as command, self.assertRaises(ValueError):
                 self.publisher.prepare(self.root, self.root.parent / 'out', 'a/b', tag, commit, sha)
             command.assert_not_called()
+
+    def test_brand_names_preserve_historical_releases(self):
+        self.assertEqual(self.publisher.package_name('1.2.0'), 'repo-maintainer')
+        self.assertEqual(self.publisher.package_name('1.3.0'), 'Repo-Standards')
 
     def test_zero_test_run_cannot_prepare_publication(self):
         for platform in ('.codex-plugin', '.claude-plugin'):
             folder = self.root / 'source/plugins/repo-maintainer' / platform
             folder.mkdir(parents=True)
-            (folder / 'plugin.json').write_text(json.dumps({'name': 'repo-maintainer', 'version': '1.1.0'}))
+            (folder / 'plugin.json').write_text(json.dumps({'name': 'repo-maintainer', 'version': '1.3.0'}))
 
         def command(args, cwd=None):
             if args[0] == 'git':
@@ -185,5 +189,5 @@ class PublishTests(unittest.TestCase):
 
         with patch.object(self.publisher, 'run', side_effect=command), self.assertRaises(ValueError):
             self.publisher.prepare(self.root / 'source', self.root / 'out', 'a/b',
-                                   'v1.1.0', self.commit, 'a' * 64)
+                                   'v1.3.0', self.commit, 'a' * 64)
         self.assertFalse((self.root / 'out/manifest.json').exists())
