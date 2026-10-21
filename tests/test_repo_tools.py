@@ -179,6 +179,21 @@ class ToolTests(unittest.TestCase):
             with self.subTest(text=text), self.assertRaises(ValueError):
                 self.tools.render_showcase(text, 'a/b')
 
+    def test_badges_preserve_bom_and_yaml_front_matter(self):
+        for bom in ('', '\ufeff'):
+            for metadata in ('', '---\n---\n', '---\ntitle: Demo\n---\n', '---\ntitle: Demo\n...\n'):
+                for content in ('# Demo\n\nIntroduction.\n', 'Introduction.\n'):
+                    original = bom + metadata + content
+                    with self.subTest(original=original):
+                        first = self.tools.render_showcase(original, 'a/b', private=False, workflows=['check.yml'])
+                        self.assertTrue(first.startswith(bom + metadata))
+                        if content.startswith('# Demo'):
+                            self.assertLess(first.index('# Demo'), first.index('big-repo:badges:start'))
+                        self.assertLess(first.index('/badge.svg'), first.index('Introduction.'))
+                        self.assertEqual(first, self.tools.render_showcase(first, 'a/b', private=False, workflows=['check.yml']))
+                        cleaned = self.tools.render_showcase(first, 'a/b', private=True)
+                        self.assertTrue(cleaned.startswith(original.rstrip()))
+
     def test_public_star_history_opt_in(self):
         text = self.tools.render_showcase('# Demo', 'a/b', private=False, star_history=True)
         self.assertIn('api.star-history.com', text)

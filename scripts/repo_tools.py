@@ -233,15 +233,20 @@ def render_badges(text, repository, workflows):
             # Remove the spacing inserted with this owned block, keeping user prose.
             if text[max(0, begin - 2):begin] == '\n\n':
                 begin -= 2
-            elif begin == 0 and text[finish:finish + 2] == '\n\n':
+            elif text[finish:finish + 2] == '\n\n':
                 finish += 2
         return text[:begin] + block + text[finish:]
     if not block:
         return text
-    title = re.match(r'\A\ufeff?(?:[ \t]*\n)*# [^\n]+', text)
+    prefix = 1 if text.startswith('\ufeff') else 0
+    front_matter = re.match(r'---[ \t]*\n(?:.*?\n)?(?:---|\.\.\.)[ \t]*(?:\n|\Z)', text[prefix:], re.S)
+    if front_matter:
+        prefix += front_matter.end()
+    title = re.match(r'(?:[ \t]*\n)*# [^\n]+', text[prefix:])
     if title:
-        return text[:title.end()] + '\n\n' + block + text[title.end():]
-    return block + '\n\n' + text
+        position = prefix + title.end()
+        return text[:position] + '\n\n' + block + text[position:]
+    return text[:prefix] + block + '\n\n' + text[prefix:]
 
 
 def render_showcase(text, repository, private=True, star_history=False, english=False, workflows=None, links=None):
