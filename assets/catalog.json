@@ -1,0 +1,204 @@
+{
+  "version": "2.0.0",
+  "items": [
+    {
+      "id": "repo-intake",
+      "kind": "skill",
+      "name": "项目创建与接入",
+      "name_en": "Create and onboard projects",
+      "goal": "delivery",
+      "path": "skills/repo-intake/SKILL.md",
+      "summary": "为当前项目启用 Big-Repo，建立维护配置与展示入口。",
+      "prerequisite": "AI 客户端；涉及交付另需 Python 3.11+、Git 和已认证 gh",
+      "invocation": "为当前项目启用 Big-Repo，建立维护配置与展示入口。"
+    },
+    {
+      "id": "maintenance-delivery",
+      "kind": "skill",
+      "name": "维护与自动交付",
+      "name_en": "Maintain and deliver changes",
+      "goal": "delivery",
+      "path": "skills/maintenance-delivery/SKILL.md",
+      "summary": "完成本轮需求与相关说明，验证、独立审查后按策略交付。",
+      "prerequisite": "AI 客户端；涉及交付另需 Python 3.11+、Git 和已认证 gh",
+      "invocation": "完成本轮需求与相关说明，验证、独立审查后按策略交付。"
+    },
+    {
+      "id": "repo-audit",
+      "kind": "skill",
+      "name": "仓库流程审查",
+      "name_en": "Audit repository workflows",
+      "goal": "quality",
+      "path": "skills/repo-audit/SKILL.md",
+      "summary": "只读审查当前仓库的协作、验证、发布和展示流程。",
+      "prerequisite": "AI 客户端；涉及交付另需 Python 3.11+、Git 和已认证 gh",
+      "invocation": "只读审查当前仓库的协作、验证、发布和展示流程。"
+    },
+    {
+      "id": "release-preparation",
+      "kind": "skill",
+      "name": "版本准备与发布",
+      "name_en": "Prepare and publish releases",
+      "goal": "delivery",
+      "path": "skills/release-preparation/SKILL.md",
+      "summary": "为当前项目准备下一版本，只有明确版本授权才执行发布。",
+      "prerequisite": "AI 客户端；涉及交付另需 Python 3.11+、Git 和已认证 gh",
+      "invocation": "为当前项目准备下一版本，只有明确版本授权才执行发布。"
+    },
+    {
+      "id": "skill-maintenance",
+      "kind": "skill",
+      "name": "技能维护",
+      "name_en": "Maintain agent skills",
+      "goal": "skills",
+      "path": "skills/skill-maintenance/SKILL.md",
+      "summary": "审查并改进当前技能，检查触发、资源和验证。",
+      "prerequisite": "AI 客户端；涉及交付另需 Python 3.11+、Git 和已认证 gh",
+      "invocation": "审查并改进当前技能，检查触发、资源和验证。"
+    },
+    {
+      "id": "repo-showcase",
+      "kind": "skill",
+      "name": "仓库展示与玩法",
+      "name_en": "Showcase and playgrounds",
+      "goal": "showcase",
+      "path": "skills/repo-showcase/SKILL.md",
+      "summary": "补齐当前仓库的功能导航、可视化和交互体验。",
+      "prerequisite": "AI 客户端；涉及交付另需 Python 3.11+、Git 和已认证 gh",
+      "invocation": "补齐当前仓库的功能导航、可视化和交互体验。"
+    },
+    {
+      "id": "git-commit",
+      "kind": "skill",
+      "name": "Git 提交整理",
+      "name_en": "Organize Git commits",
+      "goal": "quality",
+      "path": "skills/git-commit/SKILL.md",
+      "summary": "检查本轮改动并按项目约定组织精确提交。",
+      "prerequisite": "AI 客户端；涉及交付另需 Python 3.11+、Git 和已认证 gh",
+      "invocation": "检查本轮改动并按项目约定组织精确提交。"
+    },
+    {
+      "id": "skill-authoring",
+      "kind": "skill",
+      "name": "技能编写",
+      "name_en": "Author portable skills",
+      "goal": "skills",
+      "path": "skills/skill-authoring/SKILL.md",
+      "summary": "为这类重复任务编写可独立复制的技能。",
+      "prerequisite": "AI 客户端；涉及交付另需 Python 3.11+、Git 和已认证 gh",
+      "invocation": "为这类重复任务编写可独立复制的技能。"
+    },
+    {
+      "id": "template-SKILL-md-template",
+      "kind": "template",
+      "name": "技能草稿",
+      "name_en": "Skill draft",
+      "goal": "skills",
+      "path": "templates/SKILL.md.template",
+      "summary": "预览并替换模板提示项；只保留适用内容。",
+      "prerequisite": "按模板说明替换占位符；记录真实结果。",
+      "invocation": "使用 SKILL.md.template，根据本项目实际情况填写。"
+    },
+    {
+      "id": "template-commit-message-txt",
+      "kind": "template",
+      "name": "提交说明",
+      "name_en": "Commit message",
+      "goal": "quality",
+      "path": "templates/commit-message.txt",
+      "summary": "预览并替换模板提示项；只保留适用内容。",
+      "prerequisite": "按模板说明替换占位符；记录真实结果。",
+      "invocation": "使用 commit-message.txt，根据本项目实际情况填写。"
+    },
+    {
+      "id": "template-task-example-json",
+      "kind": "template",
+      "name": "任务记录",
+      "name_en": "Task record",
+      "goal": "delivery",
+      "path": "templates/task.example.json",
+      "summary": "预览并替换模板提示项；只保留适用内容。",
+      "prerequisite": "按模板说明替换占位符；记录真实结果。",
+      "invocation": "使用 task.example.json，根据本项目实际情况填写。"
+    },
+    {
+      "id": "template-evidence-example-json",
+      "kind": "template",
+      "name": "验证证据",
+      "name_en": "Validation evidence",
+      "goal": "quality",
+      "path": "templates/evidence.example.json",
+      "summary": "预览并替换模板提示项；只保留适用内容。",
+      "prerequisite": "按模板说明替换占位符；记录真实结果。",
+      "invocation": "使用 evidence.example.json，根据本项目实际情况填写。"
+    },
+    {
+      "id": "template-handoff-md",
+      "kind": "template",
+      "name": "交接说明",
+      "name_en": "Handoff",
+      "goal": "delivery",
+      "path": "templates/handoff.md",
+      "summary": "预览并替换模板提示项；只保留适用内容。",
+      "prerequisite": "按模板说明替换占位符；记录真实结果。",
+      "invocation": "使用 handoff.md，根据本项目实际情况填写。"
+    },
+    {
+      "id": "template-showcase-md",
+      "kind": "template",
+      "name": "展示清单",
+      "name_en": "Showcase checklist",
+      "goal": "showcase",
+      "path": "templates/showcase.md",
+      "summary": "预览并替换模板提示项；只保留适用内容。",
+      "prerequisite": "按模板说明替换占位符；记录真实结果。",
+      "invocation": "使用 showcase.md，根据本项目实际情况填写。"
+    },
+    {
+      "id": "explorer",
+      "kind": "tool",
+      "name": "离线探索台",
+      "name_en": "explorer",
+      "goal": "showcase",
+      "path": "scripts/explore.py",
+      "summary": "本地工具；输出结构信号或明确的验证结果。",
+      "prerequisite": "Python 3.11+；真实快照另需 Git。",
+      "invocation": "python scripts/explore.py --demo --output ../big-repo-demo.html"
+    },
+    {
+      "id": "repo-tools",
+      "kind": "tool",
+      "name": "仓库检查工具",
+      "name_en": "repo-tools",
+      "goal": "quality",
+      "path": "scripts/repo_tools.py",
+      "summary": "本地工具；输出结构信号或明确的验证结果。",
+      "prerequisite": "Python 3.11+；真实快照另需 Git。",
+      "invocation": "python scripts/repo_tools.py snapshot --repo ."
+    }
+  ],
+  "releases": [
+    {
+      "version": "1.3.0",
+      "date": "2026-10-19T07:18:03Z",
+      "url": "https://github.com/HaoYangJin/Big-Repo/releases/tag/v1.3.0"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-18T14:42:44Z",
+      "url": "https://github.com/HaoYangJin/Big-Repo/releases/tag/v1.2.0"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-18T10:20:41Z",
+      "url": "https://github.com/HaoYangJin/Big-Repo/releases/tag/v1.1.0"
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-10-18T04:28:30Z",
+      "url": "https://github.com/HaoYangJin/Big-Repo/releases/tag/v1.0.0"
+    }
+  ],
+  "release_snapshot": "2026-10-21"
+}

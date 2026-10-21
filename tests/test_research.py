@@ -2,7 +2,7 @@ import importlib.util
 from pathlib import Path
 import unittest
 
-MODULE = Path(__file__).parents[1] / 'plugins/repo-maintainer/scripts/collect_research.py'
+MODULE = Path(__file__).parents[1] / 'scripts/collect_research.py'
 
 
 class ResearchTests(unittest.TestCase):
@@ -28,7 +28,7 @@ class ResearchTests(unittest.TestCase):
 
     def test_sample_roster(self):
         import json
-        roster = json.loads((MODULE.parents[3] / 'research/roster.json').read_text(encoding='utf-8'))
+        roster = json.loads((MODULE.parents[1] / 'research/roster.json').read_text(encoding='utf-8'))
         self.assertEqual(len(roster), 60)
         self.assertEqual(len({x['repository'] for x in roster}), 60)
 

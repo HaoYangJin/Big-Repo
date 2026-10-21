@@ -9,7 +9,7 @@ from contextlib import contextmanager
 from unittest.mock import patch
 
 
-SCRIPT = Path(__file__).parents[1] / 'plugins/repo-maintainer/scripts/project_workflow.py'
+SCRIPT = Path(__file__).parents[1] / 'scripts/project_workflow.py'
 
 
 class ProjectWorkflowTests(unittest.TestCase):
@@ -175,7 +175,7 @@ class ProjectWorkflowTests(unittest.TestCase):
             except (OSError, NotImplementedError):
                 self.skipTest('Directory symlinks unavailable')
             self.assertEqual(self.m.configuration(alias)['delivery'], 'commit')
-            (self.repo / 'linked-policy').symlink_to(self.repo / '.repo-maintainer', target_is_directory=True)
+            (self.repo / 'linked-policy').symlink_to(self.repo / '.big-repo', target_is_directory=True)
             with self.assertRaisesRegex(self.m.WorkflowError, 'linked-project-path'):
                 self.m.safe_path(alias, 'linked-policy/config.json')
 
@@ -402,7 +402,7 @@ class ProjectWorkflowTests(unittest.TestCase):
         self.assertEqual(self.m.cancel(self.repo, 'User changed task scope')['status'], 'cancelled')
         self.assertIn('return 88', (self.repo / 'feature.py').read_text(encoding='utf-8'))
         self.assertTrue((Path(task['state_directory']) / 'state.json').exists())
-        next_task = self.m.begin(self.repo, 'Replanned task', ['feature.py', '.repo-maintainer/**'], 'feedback-2')
+        next_task = self.m.begin(self.repo, 'Replanned task', ['feature.py', '.big-repo/**'], 'feedback-2')
         self.assertNotEqual(next_task['task_id'], task['task_id'])
 
     def test_nested_process_lock_prevents_concurrent_operation(self):

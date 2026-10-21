@@ -25,12 +25,12 @@ collected_at 是本档案成功读取来源的最早抓取时间，last_source_f
 公开响应的筛选结果保留于 data，文档保留 blob SHA、行数、信号行号和固定 URL；不镜像整份上游文件或运行日志。它们可能依法或因仓库调整失效，不能承诺永久可访问。
 
 ```text
-python plugins/repo-maintainer/scripts/collect_research.py --roster research/roster.json --output research/data --cache work/github-cache --workers 6
-python plugins/repo-maintainer/scripts/collect_research.py --roster research/roster.json --output research/data --cache work/github-cache --rebuild
+python scripts/collect_research.py --roster research/roster.json --output research/data --cache work/github-cache --workers 6
+python scripts/collect_research.py --roster research/roster.json --output research/data --cache work/github-cache --rebuild
 python scripts/build_research.py --data research/data --output research
 ```
 
-默认跳过已有档案；--rebuild 用缓存重建并补充缺少端点，--refresh 才重新请求已缓存来源。读取网络的临时故障允许最多 3 次尝试，403/404 直接记录。与插件维护任务的首次非预期验证失败即交接属于不同流程。
+默认跳过已有档案；--rebuild 用缓存重建并补充缺少端点，--refresh 才重新请求已缓存来源。读取网络的临时故障允许最多 3 次尝试，403/404 直接记录。这是研究采集的重试策略；当前插件维护任务按项目规则诊断并修复范围内失败。
 
 ## 证据分级
 

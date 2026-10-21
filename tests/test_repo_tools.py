@@ -9,7 +9,7 @@ from io import StringIO
 from types import SimpleNamespace
 from unittest.mock import patch
 
-MODULE = Path(__file__).parents[1] / 'plugins/repo-maintainer/scripts/repo_tools.py'
+MODULE = Path(__file__).parents[1] / 'scripts/repo_tools.py'
 
 
 class ToolTests(unittest.TestCase):
@@ -167,7 +167,7 @@ class ToolTests(unittest.TestCase):
 
     def test_bad_marker_rejected(self):
         with self.assertRaises(ValueError):
-            self.tools.render_showcase('<!-- repo-maintainer:showcase:start -->', 'a/b')
+            self.tools.render_showcase('<!-- big-repo:showcase:start -->', 'a/b')
 
     def test_network_checks_never_default(self):
         (self.root / 'README.md').write_text('[link](https://example.invalid/no-network)')
@@ -255,7 +255,7 @@ class ToolTests(unittest.TestCase):
 
     def test_invalid_marker_order_and_snapshot_subdirectory(self):
         with self.assertRaises(ValueError):
-            self.tools.render_showcase('<!-- repo-maintainer:showcase:end --><!-- repo-maintainer:showcase:start -->', 'a/b')
+            self.tools.render_showcase('<!-- big-repo:showcase:end --><!-- big-repo:showcase:start -->', 'a/b')
         nested = self.root / 'nested'
         nested.mkdir()
         with self.assertRaises(ValueError):
