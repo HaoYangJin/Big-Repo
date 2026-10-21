@@ -192,6 +192,25 @@ class V2Tests(unittest.TestCase):
         self.assertFalse(list(self.repo.glob('.AGENTS.md.big-repo-*')))
         self.assertTrue(self.workflow.migrate(self.repo)['migrated'])
 
+    def test_interrupted_migration_recovers_from_copied_runtime_cli(self):
+        self.workflow.write_json(self.repo / '.repo-maintainer/config.json', self.policy())
+        original = self.workflow.write_json
+        def write(path, data):
+            if path == self.repo / '.big-repo/config.json':
+                raise OSError('interrupted after runtime copy')
+            return original(path, data)
+        with patch.object(self.workflow, 'write_json', side_effect=write), patch.object(self.workflow, '_rollback_migration', side_effect=OSError('process interrupted')):
+            with self.assertRaises(OSError):
+                self.workflow.migrate(self.repo)
+        script = self.repo / '.big-repo/plugin/scripts/project_workflow.py'
+        import sys
+        result = subprocess.run([sys.executable, str(script), 'init', '--repo', str(self.repo), '--migrate'],
+                                capture_output=True, text=True, encoding='utf-8')
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertTrue(json.loads(result.stdout)['migrated'])
+        self.assertTrue(script.exists())
+        self.assertTrue((self.repo / '.git/big-repo/legacy-project-backup/config.json').exists())
+
     def test_create_remote_uncertain_outcome_is_queried_not_recreated(self):
         responses = [subprocess.CompletedProcess([], 1, '{"message":"Not Found"}', '')]
         remote = {'id': 1, 'full_name': 'example/project', 'private': True}

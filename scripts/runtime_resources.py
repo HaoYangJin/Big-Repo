@@ -12,7 +12,20 @@ ROOT_FILES = {'README.md', 'README.en.md', 'CHANGELOG.md', 'LICENSE', 'NOTICE'}
 def runtime_files(directory):
     directory = Path(directory).resolve()
     files = {}
-    for path in directory.rglob('*'):
+    # Enumerate only runtime roots; do not walk Git history, task logs, research
+    # snapshots or development output merely to discard them afterwards.
+    candidates = []
+    for name in sorted(DIRECTORIES):
+        root = directory / name
+        if root.exists():
+            candidates.append(root)
+            candidates.extend(root.rglob('*'))
+    candidates.extend(directory / name for name in ROOT_FILES)
+    candidates.extend(directory / 'scripts' / name for name in SCRIPTS)
+    candidates.extend(directory / 'assets' / name for name in ASSETS)
+    candidates.extend(directory / name / 'plugin.json' for name in ('.codex-plugin', '.claude-plugin'))
+    candidates.extend(directory / 'research' / name for name in ('roster.json', 'source-index.json'))
+    for path in candidates:
         relative = path.relative_to(directory)
         parts = relative.parts
         if any(p in {'.git', '.venv', '__pycache__', 'dist', 'work', 'tmp'} for p in parts):
@@ -35,21 +48,23 @@ def runtime_files(directory):
 def resource_bytes(relative, path, files, version):
     data = path.read_bytes()
     if path.suffix == '.md':
+        root = path
+        for _ in relative.parts:
+            root = root.parent
+        root = root.resolve()
         def replace(match):
             target = match[2]
             if urlparse(target).scheme or target.startswith('#'):
                 return match[0]
             local, _, fragment = target.partition('#')
             resolved = (path.parent / unquote(local)).resolve()
-            if resolved in {p.resolve() for p in files.values()}:
-                return match[0]
-            root = path
-            for _ in relative.parts:
-                root = root.parent
             try:
-                remote = resolved.relative_to(root.resolve()).as_posix()
+                resource = resolved.relative_to(root)
             except ValueError:
                 raise ValueError('Markdown link leaves source root')
+            if resource in files:
+                return match[0]
+            remote = resource.as_posix()
             url = f'https://github.com/HaoYangJin/Big-Repo/blob/v{version}/{remote}'
             if fragment:
                 url += '#' + fragment

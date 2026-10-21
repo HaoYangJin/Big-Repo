@@ -213,9 +213,13 @@ def _rollback_migration(repo, git_dir, journal):
     runtime = safe_path(repo, '.big-repo/plugin')
     if journal['config']['plugin_path'] != '.' and runtime.exists():
         expected = journal['runtime_hashes']
+        paths = list(runtime.rglob('*'))
+        if any(p.is_symlink() or not p.resolve().is_relative_to(runtime.resolve()) for p in paths):
+            raise WorkflowError('migration-recovery-runtime-conflict')
         actual = {p.relative_to(runtime).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
-                  for p in runtime.rglob('*') if p.is_file() and not p.is_symlink()}
-        if actual != expected or any(p.is_symlink() or not p.resolve().is_relative_to(runtime.resolve()) for p in runtime.rglob('*')):
+                  for p in paths if p.is_file() and '__pycache__' not in p.relative_to(runtime).parts
+                  and p.suffix not in ('.pyc', '.pyo')}
+        if actual != expected:
             raise WorkflowError('migration-recovery-runtime-conflict')
     if backup.exists():
         if old_root.exists():
@@ -248,6 +252,23 @@ def _rollback_migration(repo, git_dir, journal):
 
 
 def migrate(repo, repository=None):
+    repo = root(repo)
+    source = Path(__file__).resolve().parents[1]
+    git_dir = Path(command(['git', 'rev-parse', '--absolute-git-dir'], repo).strip()).resolve()
+    # Recovery removes the abandoned new runtime. Preserve the caller's portable
+    # runtime first when the recovery CLI itself is executing from that directory.
+    with tempfile.TemporaryDirectory(dir=git_dir, prefix='big-repo-recovery-') as temporary:
+        if source == (repo / '.big-repo/plugin').resolve() and (git_dir / 'big-repo/migration.json').exists():
+            preserved = Path(temporary) / 'runtime'
+            for relative, file in runtime_files(source).items():
+                destination = preserved / relative
+                destination.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(file, destination)
+            source = preserved
+        return _migrate(repo, repository, source)
+
+
+def _migrate(repo, repository, source):
     """Explicit namespace migration with an interruption journal and rollback."""
     repo = root(repo)
     old_file, new_file = safe_path(repo, '.repo-maintainer/config.json'), safe_path(repo, CONFIG)
@@ -284,7 +305,6 @@ def migrate(repo, repository=None):
     for path in old_state.rglob('*'):
         if path.is_symlink() or not path.resolve().is_relative_to(old_state.resolve()):
             raise WorkflowError('linked-legacy-task-state')
-    source = Path(__file__).resolve().parents[1]
     plugin = '.' if repo == source else '.big-repo/plugin'
     if plugin != '.' and safe_path(repo, plugin).exists():
         raise WorkflowError('migration-conflicting-runtime')
