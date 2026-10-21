@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "trigger": "task-or-feedback",
+  "plugin_path": ".",
+  "repository": "HaoYangJin/Big-Repo",
+  "base_branch": "main",
+  "delivery": "merge",
+  "release": "explicit-request",
+  "clients": [
+    "claude",
+    "codex"
+  ],
+  "validation": [
+    {
+      "id": "check-1",
+      "argv": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ]
+    },
+    {
+      "id": "check-2",
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ]
+    }
+  ],
+  "ci_policy": "required",
+  "required_checks": [
+    "python (ubuntu-latest)",
+    "python (windows-latest)",
+    "python (macos-latest)"
+  ]
+}

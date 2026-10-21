@@ -34,7 +34,8 @@ def validate_target(repository, tag, commit, sha256):
 
 
 def package_name(version):
-    return 'Repo-Standards' if tuple(map(int, version.split('.'))) >= (1, 3, 0) else 'repo-maintainer'
+    parsed = tuple(map(int, version.split('.')))
+    return 'Big-Repo' if parsed >= (2, 0, 0) else ('Repo-Standards' if parsed >= (1, 3, 0) else 'repo-maintainer')
 
 
 def prepare(source, output, repository, tag, commit, sha256):
@@ -47,9 +48,11 @@ def prepare(source, output, repository, tag, commit, sha256):
     if actual.strip() != commit or status.strip():
         raise ValueError('Source must be clean and match the pinned commit')
     version = tag[1:]
+    modern = tuple(map(int, version.split('.'))) >= (2, 0, 0)
+    plugin = source if modern else source / 'plugins/repo-maintainer'
     for platform in ('.codex-plugin', '.claude-plugin'):
-        manifest = json.loads((source / 'plugins/repo-maintainer' / platform / 'plugin.json').read_text())
-        if manifest['name'] != 'repo-maintainer' or manifest['version'] != version:
+        manifest = json.loads((plugin / platform / 'plugin.json').read_text())
+        if manifest['name'] != ('big-repo' if modern else 'repo-maintainer') or manifest['version'] != version:
             raise ValueError('Plugin version does not match release tag')
     output.mkdir(parents=True, exist_ok=True)
     stdout, stderr = run([sys.executable, '-m', 'unittest', 'discover', '-s', 'tests'], cwd=source)
@@ -71,7 +74,10 @@ def prepare(source, output, repository, tag, commit, sha256):
         if bundle.testzip() is not None:
             raise ValueError('Invalid ZIP')
     install = archive.parent / f'INSTALL-{version}.md'
-    install.write_bytes((source / 'plugins/repo-maintainer/README.md').read_bytes())
+    if modern:
+        install.write_text('# Big-Repo ' + version + '\n\n' + (source / 'docs/install.md').read_text(encoding='utf-8').replace('(migration.md)', '(https://github.com/HaoYangJin/Big-Repo/blob/v' + version + '/docs/migration.md)').replace('(../references/project-workflow.md)', '(https://github.com/HaoYangJin/Big-Repo/blob/v' + version + '/references/project-workflow.md)'), encoding='utf-8', newline='\n')
+    else:
+        install.write_bytes((plugin / 'README.md').read_bytes())
     data = {'repository': repository, 'tag': tag, 'commit': commit, 'sha256': sha256,
             'tests_executed': int(count[1]), 'files': [
                 {'path': str(file.relative_to(output)), 'sha256': digest(file)}

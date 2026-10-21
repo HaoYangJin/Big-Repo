@@ -1,109 +1,121 @@
-# Repo-Standards
+# Big-Repo
 
-**配置一次，以后只提开发需求或反馈，AI 自动完成本轮维护、验证、提交、推送和仓库交付。**
+[English](README.en.md) · 简体中文
 
-Repo-Standards 是供 AI 编程客户端调用的仓库交付工具。客户端负责理解需求、开发和审查，插件保存项目规则并执行验证及 GitHub 交付。没有开发任务或反馈时不运行巡检。
+![Big-Repo：插件、技能、模板与可视化](assets/social-preview.png)
 
-例如，你只需要说：
+**创建时就有门面，开发时持续维护，交付时有据可查。**
 
-> 给列表增加 CSV 导出。
+Big-Repo 是给 AI 编程客户端使用的仓库工具箱：8 个技能、6 个模板、一套可恢复的维护交付流程，以及无需服务器的离线交互体验。客户端负责理解需求和开发；Python 工具管理配置、验证、任务及 GitHub 交付。
 
-AI 根据项目配置完成开发，更新相关说明、运行检查、修复失败、组织提交、推送并创建 PR；配置为自动合并时，独立审查和 CI 成功后锁定提交合并。测试、CI 和审查反馈继续在同一任务内处理，无需再说“顺便维护、提交、上传”。
+[功能目录](#四个入口) · [快速开始](#快速开始) · [交互体验](#不止-star-history) · [安装与升级](docs/install.md) · [2.0 迁移](docs/migration.md)
 
-## 先看，再试
+## 四个入口
+
+| 分类 | 能做什么 | 入口 |
+| --- | --- | --- |
+| 插件功能 | 新建或接入项目；验证、独立审查、提交、推送、PR、按策略合并；中断后恢复 | [工作流](references/project-workflow.md) |
+| 技能 | 6 个维护技能 + Git 提交、技能编写；每个目录可独立复制 | [8 个技能](skills/README.md) |
+| 模板 | 技能草稿、提交说明、任务、证据、交接、展示清单 | [6 个模板](templates/README.md) |
+| 仓库玩法 | 能力地图、模板组合、交付沙盘、挑战、版本时间线、状态与增长展示 | [玩法说明](docs/showcase.md) |
+
+### 8 个技能解决哪些问题
+
+| 技能 | 使用场景 | 结果 |
+| --- | --- | --- |
+| `repo-intake` | 新仓库创建、已有项目首次接入 | 项目规则、配置、完整运行文件、初始展示 |
+| `maintenance-delivery` | 开发需求、缺陷、测试或 CI 反馈 | 经过验证与审查的提交、PR 或合并结果 |
+| `repo-audit` | 检查协作、测试、维护与发布流程 | 有证据的审查结论，默认只读 |
+| `skill-maintenance` | 修改或评审已有 AI 技能 | 清晰的触发条件、自包含资源和验证 |
+| `repo-showcase` | 建立和维护仓库门面与体验 | 真实导航、图表、媒体与可玩入口 |
+| `release-preparation` | 准备版本，或获明确授权后发布指定版本 | 发布材料、迁移说明及核验后的发行 |
+| `git-commit` | 整理改动与提交 | 精确暂存、符合约定的提交说明 |
+| `skill-authoring` | 编写可复用的任务技能 | 可随目录独立复制的技能 |
+
+## 快速开始
+
+需要 Python 3.11+、Git。GitHub 创建与交付另需已认证的 `gh`，实际开发和独立审查需要支持这些操作的 AI 客户端。
+
+**先体验，无需 GitHub 认证：**
+
+```sh
+python scripts/explore.py --demo --output ../Big-Repo-demo.html
+# 采集自己的仓库结构；报告不是实时监控
+python scripts/explore.py --repo . --output ../Big-Repo-report.html
+```
+
+用浏览器打开生成的 HTML。每次使用新输出路径，工具不会覆盖旧报告。也可下载仓库内的 [固定演示页](docs/big-repo-explorer.html) 后本地打开。
+
+**在 AI 客户端中接入已有项目：**
+
+> 请读取 Big-Repo 的 skills/repo-intake/SKILL.md，为当前项目启用维护与交付，识别验证、CI 和分支规则，并补齐仓库展示。以后我只提开发需求或反馈，请按项目策略完成本轮交付。
+
+**新建项目：**
+
+> 请用 Big-Repo 创建项目，先建立 README、交付规则和离线体验入口，再组织首次提交。若要创建 GitHub 远端，我会明确提供仓库标识和可见性。
+
+客户端调用 `scripts/project_workflow.py create` 或 `init`。项目配置、运行目录和托管说明可随项目共享；任务、日志和证据保存在 Git 元数据中。缺少验证或 CI 信息时会报告待配置，不能把初始化文件存在当作配置完成。[命令与恢复](references/project-workflow.md)。
+
+## 不止 Star History
+
+- **能力地图**：按目标筛选技能、模板和工具，查看前提与调用示例，复制提示语。
+- **模板工作台**：组合模板、预览、复制或下载草稿；替换提示项后再使用。
+- **交付沙盘与挑战**：体验顺利交付、测试失败、审查阻塞和 CI 等待；查看提示、解除模拟阻塞、通关、重玩。
+- **版本足迹**：展示 CHANGELOG 与已核实 Release 快照，区分源码候选和已发布版本。
+- **展示方案库**：增长、状态、媒体、快速体验、社区参与和项目故事，说明各自依赖与维护方式。
+
+![Big-Repo 离线体验台实际截图](assets/explorer-demo.png)
+
+页面不需要服务器、账号或网络。模板导出与挑战只发生在浏览器中，不执行真实提交、合并或发布；通关不是验证证据。工具能力与目标项目的结构信号分别展示。
+
+首次创建或接入时生成托管展示区和离线演示；后续维护在最终提交前同步受影响内容。公开仓库可加入真实图表与徽章，私有或公开性未知时使用本地内容，不设置后台巡检或定时任务。
+
+## 文件在哪里
+
+| 目录 | 内容 |
+| --- | --- |
+| [skills/](skills/README.md) | 全部 8 个技能 |
+| [templates/](templates/README.md) | 全部 6 个模板及替换说明 |
+| [scripts/](docs/development.md) | 运行、打包、研究和发行脚本 |
+| [assets/](docs/showcase.md) | 能力目录、离线页面、截图与品牌图 |
+| [references/](references/project-workflow.md) | 工作流、共享协议和来源摘要 |
+| [docs/](docs/README.md) | 安装、使用、开发、迁移与验收 |
+| [research/](research/README.md) | 60 个仓库的研究证据，不是 60 个可安装工具 |
+| [tests/](docs/development.md) | 自动化和浏览器验收 |
+
+## 安装、边界与贡献
+
+完整安装、校验、升级与回退见 [安装说明](docs/install.md)，旧版配置与任务迁移见 [迁移说明](docs/migration.md)。内部 ID 已改为 `big-repo`；旧版本安装不会被静默替换。
+
+交付终点支持本地提交、PR、验证后合并。用户本轮更窄限制、项目规则和平台保护优先。版本发布需要明确版本授权，部署与全局安装另行授权。
+
+[实际 Releases](https://github.com/HaoYangJin/Big-Repo/releases) · [变更记录](CHANGELOG.md) · [验证范围](docs/validation.md) · [贡献说明](CONTRIBUTING.md) · [历史记录](docs/archive/README.md)
+
+<!-- big-repo:showcase:start -->
+## 项目导航
+
+- [README](README.md)
+
+接入 → 开发 → 验证 → 独立审查 → 交付
 
 ```mermaid
 flowchart LR
-    A[一次接入] --> B[需求 / 反馈]
-    B --> C[开发与维护]
-    C --> D[实际验证]
-    D --> E[独立审查]
-    E --> F[CI 与合并门槛]
-    F --> G[按项目策略交付]
-    D -->|失败修复| C
-    E -->|阻塞修复| C
+  A[Explore] --> B[Develop] --> C[Validate] --> D[Review] --> E[Deliver]
 ```
 
-**两分钟体验，无需 GitHub 认证。** 在仓库根目录生成单文件 HTML，用浏览器打开输出文件：
+- [Big-Repo 离线体验台](docs/big-repo-explorer.html)
 
-```sh
-# 固定示例：不读取任何项目
-python plugins/repo-maintainer/scripts/explore.py --demo --output ../Repo-Standards-demo.html
-# 本仓库真实结构快照：只读 Git 元数据，不读取文件内容
-python plugins/repo-maintainer/scripts/explore.py --repo . --output ../Repo-Standards-report.html
-```
+[Releases](https://github.com/HaoYangJin/Big-Repo/releases) · [Issues](https://github.com/HaoYangJin/Big-Repo/issues)
 
-探索台包含结构信号、四种交付演练、六类玩法筛选和 Markdown 快照导出。无需启动服务器、安装前端依赖或联网；输出文件必须是新路径。演练不会执行真实交付，结构存在也不代表验证通过。[使用与维护说明](docs/showcase.md)。
+[![CI: check.yml](https://github.com/HaoYangJin/Big-Repo/actions/workflows/check.yml/badge.svg)](https://github.com/HaoYangJin/Big-Repo/actions/workflows/check.yml)
 
-![Repo-Standards 离线探索台演示截图](docs/assets/explorer-demo.png)
+[![CI: release.yml](https://github.com/HaoYangJin/Big-Repo/actions/workflows/release.yml/badge.svg)](https://github.com/HaoYangJin/Big-Repo/actions/workflows/release.yml)
 
-## 第一次：让 AI 接入你的项目
+### Star History
 
-本页对应 **1.3.0**：保留一次接入与自动交付，新增离线探索台与交付演练。正式发行状态请查看 [Releases](https://github.com/HaoYangJin/repo-standards/releases)。插件显示名与新 ZIP 名统一为 `Repo-Standards`；内部 ID、技能命令和运行目录保留 `repo-maintainer`，兼容已有项目。
+![Star History](https://api.star-history.com/svg?repos=HaoYangJin%2FBig-Repo&type=Date)
 
-取得固定版本源码（正式发行后使用；发行前可使用当前检出）：
+[文字入口：查看星标历史](https://www.star-history.com/#HaoYangJin/Big-Repo&Date)
 
-```sh
-git clone --branch v1.3.0 https://github.com/HaoYangJin/repo-standards.git
-```
-
-在 Codex 或 Claude Code 中打开你要维护的项目，将插件位置交给 AI，并说：
-
-> 请读取 repo-standards/plugins/repo-maintainer/skills/repo-intake/SKILL.md，为当前项目启用自动维护与交付。识别项目规则、测试、CI、默认分支和已有 GitHub 连接，保存配置。以后我只提开发需求或反馈，请自动完成本轮维护与交付。
-
-路径按你实际下载位置提供。AI 会保存项目级入口与配置，保留已有文件；必要时补齐缺失认证或真正无法推断的关键选择。使用插件市场的用户也可加载对应版本的完整插件，再提出同样的接入需求，见[插件安装说明](plugins/repo-maintainer/README.md)。
-
-接入会生成：
-
-| 文件 | 用途 |
-| --- | --- |
-| `AGENTS.md` / `CLAUDE.md` 中的托管段 | 让客户端在后续开发任务中读取交付规则 |
-| `.repo-maintainer/config.json` | 保存验证命令、目标分支、CI 和交付策略，不含凭据 |
-| `.repo-maintainer/plugin/` | 可随项目复制的完整运行文件，不依赖原下载目录 |
-
-这些文件可随项目提交并共享。任务记录、日志和验证证据放在 Git 元数据内，不进入提交。AI 应确认接入状态完成，再结束首次配置。
-
-## 以后：正常提需求或反馈
-
-- **开发**：“增加 CSV 导出，字段顺序按当前页面。”
-- **修复**：“空输入会崩溃，修复这个问题。”
-- **反馈**：“这个 PR 的 Windows CI 失败了，处理后继续交付。”
-- **缩小范围**：“这次只改本地，不推送。”
-- **发布**：“这轮完成后发布 1.3.0。”只有明确的版本发布要求才会执行发行。
-
-配置支持仅本地提交、推送并交付 PR、验证后自动合并。用户本轮更窄限制、项目规则和客户端权限优先。这里的“上传仓库”通常指提交和推送；版本发行按独立的明确请求执行。
-
-新 Issue/评论只有被 AI 客户端带入任务后才处理，本工具不后台监听 GitHub。普通问答与只读审查按原范围执行。
-
-## AI 自动做哪些事
-
-接入项目 → 读取需求/反馈 → 开发与相关维护 → 实际验证 → 独立审查 → 提交/推送/PR → 等待 CI 或修复反馈 → 按策略交付并结束本轮。
-
-一次中断后可读取状态继续，复用已有提交和 PR。相同事件不会重复创建任务；结果不确定的远端写入先查询再决定下一步。缺失权限或无法解决的外部问题会保留进度并说明具体阻塞。
-
-使用 Python 3.11+、Git；GitHub 交付还需要可用的 gh 认证。AI 客户端需要具备执行命令及独立审查的能力。具体接入、命令和恢复方式见[项目工作流](plugins/repo-maintainer/references/project-workflow.md)。实际验证范围见[验收记录](docs/validation.md)。
-
-## 其他能力与资料
-
-核心入口是 repo-intake 和 maintenance-delivery。仓库审查、技能维护、展示和版本发布按本轮目标调用，不要求每次开发都执行全部技能。
-
-- [插件说明与安装](plugins/repo-maintainer/README.md)
-- [项目配置、任务与恢复](plugins/repo-maintainer/references/project-workflow.md)
-- [可运行的仓库探索台与展示约定](docs/showcase.md)
-- [1.3.0 目标对照与本仓库整理](docs/iteration-1.3.0.md) · [清理审计](docs/cleanup-1.3.0.md)
-- [60 个仓库的研究资料](research/README.md)：设计参考，不是使用前置条件
-- [协作与提交规范](docs/git-workflow.md) · [技能编写规范](skills/skill-authoring/references/authoring-standard.md)
-- [贡献说明](CONTRIBUTING.md) · [本插件的发行流程](docs/releases.md)
-
-## 开发本插件
-
-```sh
-python -m unittest discover -s tests
-python scripts/build_plugin.py --output dist
-```
-
-本仓库自身复用 plugins/repo-maintainer 运行目录，避免复制一份插件。普通项目按上面的“一次接入”使用即可。
-
-## 参与改进
-
-从 [贡献说明](CONTRIBUTING.md)、[实际 Issues](https://github.com/HaoYangJin/repo-standards/issues) 或 [贡献记录](https://github.com/HaoYangJin/repo-standards/graphs/contributors) 找到参与入口。查看 [Actions](https://github.com/HaoYangJin/repo-standards/actions) 获取真实检查状态，查看 [变更记录](plugins/repo-maintainer/CHANGELOG.md) 了解版本演进。
+图表来自第三方服务，反映其可用数据；不是下载量、质量或使用人数。
+<!-- big-repo:showcase:end -->

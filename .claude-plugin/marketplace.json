@@ -1,13 +1,13 @@
 {
-  "name": "repo-standards-local",
+  "name": "big-repo-local",
   "owner": {
     "name": "HaoYangJin"
   },
   "plugins": [
     {
-      "name": "repo-maintainer",
-      "source": "./plugins/repo-maintainer",
-      "version": "1.3.0",
+      "name": "big-repo",
+      "source": "./",
+      "version": "2.0.0",
       "description": "需求与反馈触发的 AI 项目维护与仓库自动交付"
     }
   ]

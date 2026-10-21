@@ -64,7 +64,7 @@ Anthropic Skills 说明每个技能的独立目录、示例用途以及不同资
 固定检查增长活动、状态徽章、项目门面、快速体验、社区参与和项目故事。采用情况与推荐价值分别记录；某个大型项目没有某项内容，不构成应当补齐的缺陷。
 本次所查文件中 Star History 候选信号命中 0/60 个仓库；这不代表未查目录或历史版本也未使用。Star History 作为补充工具案例提供，不写成官方仓库的共同要求。
 图片统计包含徽章，主题图片信号可能来自更新记录中的 HTML 说明，在线体验信号可能来自 bug 模板；不能把这些数字解释为完整功能采用率。
-[六类玩法、依赖与移除方式](../plugins/repo-maintainer/skills/repo-showcase/references/showcase-catalog.md) · [可复用草稿](../plugins/repo-maintainer/templates/showcase.md)
+[六类玩法、依赖与移除方式](../skills/repo-showcase/references/showcase-catalog.md) · [可复用草稿](../templates/showcase.md)
 
 ## 候选信号分布
 

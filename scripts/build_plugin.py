@@ -9,6 +9,10 @@ from pathlib import Path
 import re
 import tempfile
 import zipfile
+import importlib.util
+_spec = importlib.util.spec_from_file_location("runtime_resources", Path(__file__).with_name("runtime_resources.py"))
+_resources = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(_resources)
 
 ALLOWED_DIRS = {'.codex-plugin', '.claude-plugin', 'skills', 'scripts', 'references', 'templates', 'assets'}
 ALLOWED_ROOT = {'README.md', 'LICENSE', 'NOTICE', 'CHANGELOG.md', 'plugin.json', 'mcp.json'}
@@ -56,32 +60,12 @@ def build(plugin, output):
         raise ValueError('Invalid plugin name')
     if not isinstance(version, str) or not re.fullmatch(r'\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?', version):
         raise ValueError('Invalid plugin version')
-    package_name = "Repo-Standards" if name == "repo-maintainer" else name
+    package_name = "Big-Repo" if name == "big-repo" else name
     members = []
-    candidates = []
-    for directory, directories, files in os.walk(plugin, topdown=True, followlinks=False):
-        parent = Path(directory)
-        for directory_name in list(directories):
-            child = parent / directory_name
-            relative = child.relative_to(plugin)
-            if directory_name in EXCLUDED or relative.parts[0] not in ALLOWED_DIRS:
-                directories.remove(directory_name)
-            else:
-                checked_path(child, plugin)
-        candidates.extend(parent / file_name for file_name in files)
-    for file in sorted(candidates, key=lambda p: p.relative_to(plugin).as_posix()):
-        relative = file.relative_to(plugin)
-        if any(p in EXCLUDED for p in relative.parts):
-            continue
-        if relative.parts[0] not in ALLOWED_DIRS and relative.as_posix() not in ALLOWED_ROOT:
-            continue
+    files = _resources.runtime_files(plugin)
+    for relative, file in sorted(files.items(), key=lambda item: item[0].as_posix()):
         checked_path(file, plugin)
-        if not file.is_file() or file.suffix in ('.pyc', '.pyo', '.pem', '.key') or file.name.startswith('.env'):
-            continue
-        data = file.read_bytes()
-        if file.suffix in TEXT_SUFFIXES or relative.as_posix() in ('LICENSE', 'NOTICE'):
-            data = data.decode('utf-8').replace('\r\n', '\n').replace('\r', '\n').encode('utf-8')
-        members.append((relative.as_posix(), data))
+        members.append((portable_member(relative), _resources.resource_bytes(relative, file, files, version)))
     if not any(p.endswith('/SKILL.md') for p, _ in members):
         raise ValueError('Plugin must contain a skill')
     output.mkdir(parents=True, exist_ok=True)
@@ -120,8 +104,8 @@ def build(plugin, output):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--plugin', type=Path, default=Path(__file__).resolve().parents[1] / 'plugins/repo-maintainer')
-    parser.add_argument('--output', type=Path, default=Path(__file__).resolve().parents[1] / 'dist')
+    parser.add_argument('--plugin', type=Path, default=Path(__file__).resolve().parents[1] / '.')
+    parser.add_argument('--output', type=Path, default=Path(__file__).resolve().parents[2] / 'Big-Repo-dist')
     args = parser.parse_args()
     try:
         print(json.dumps(build(args.plugin, args.output), ensure_ascii=False, indent=2))

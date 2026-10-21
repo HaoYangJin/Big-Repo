@@ -6,4 +6,7 @@
 - [第二轮：打包与首次发行准备](self-review-round-2.md)
 - [第三轮：1.1.0 自动修复与合并](self-review-round-3.md)
 
-当前版本见[验收记录](../validation.md)与[1.3.0 清理审计](../cleanup-1.3.0.md)。
+当前版本见[验收记录](../validation.md)与[1.3.0 清理审计](cleanup-1.3.0.md)。
+
+- [1.3.0 目标对照](iteration-1.3.0.md)
+- [1.x 验收记录](validation-1.x.md)

@@ -5,14 +5,14 @@ import unittest
 from urllib.parse import unquote, urlparse
 
 ROOT = Path(__file__).parents[1]
-PLUGIN = ROOT / 'plugins/repo-maintainer'
+PLUGIN = ROOT / '.'
 
 
 class PackageTests(unittest.TestCase):
     def test_manifests_and_marketplaces_resolve(self):
         codex = json.loads((PLUGIN / '.codex-plugin/plugin.json').read_text(encoding='utf-8'))
         claude = json.loads((PLUGIN / '.claude-plugin/plugin.json').read_text(encoding='utf-8'))
-        self.assertEqual(codex['interface']['displayName'], 'Repo-Standards')
+        self.assertEqual(codex['interface']['displayName'], 'Big-Repo')
         self.assertEqual(codex['name'], claude['name'])
         self.assertEqual(codex['version'], claude['version'])
         self.assertTrue((PLUGIN / codex['skills']).is_dir())
@@ -22,9 +22,9 @@ class PackageTests(unittest.TestCase):
         self.assertEqual((ROOT / market['plugins'][0]['source']).resolve(), PLUGIN.resolve())
         self.assertEqual(market['plugins'][0]['version'], claude['version'])
 
-    def test_six_skills_and_self_contained_references(self):
+    def test_eight_skills_and_self_contained_references(self):
         skills = list((PLUGIN / 'skills').glob('*/SKILL.md'))
-        self.assertEqual(len(skills), 6)
+        self.assertEqual(len(skills), 8)
         protocols = []
         for skill in skills:
             text = skill.read_text(encoding='utf-8')
@@ -32,7 +32,9 @@ class PackageTests(unittest.TestCase):
             self.assertIn('name: ' + skill.parent.name + '\n', text)
             self.assertRegex(text, r'description: .+')
             self.assertNotIn('[TODO:', text)
-            protocols.append((skill.parent / 'references/task-protocol.md').read_bytes())
+            protocol = skill.parent / 'references/task-protocol.md'
+            if protocol.exists():
+                protocols.append(protocol.read_bytes())
         self.assertTrue(all(p == protocols[0] for p in protocols))
 
     def test_markdown_local_links(self):

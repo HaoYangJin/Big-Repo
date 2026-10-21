@@ -7,7 +7,7 @@ import tempfile
 import unittest
 
 ROOT = Path(__file__).parents[1]
-SCRIPT = ROOT / 'plugins/repo-maintainer/scripts/explore.py'
+SCRIPT = ROOT / 'scripts/explore.py'
 spec = importlib.util.spec_from_file_location('explore', SCRIPT)
 explore = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(explore)
@@ -45,6 +45,14 @@ class ExploreTests(unittest.TestCase):
         self.assertEqual(json.loads(embedded), data)
         self.assertNotIn('<', embedded)
         self.assertNotIn('__REPO_DATA__', page)
+
+    def test_payload_template_markers_remain_literal_data(self):
+        data = explore.demo()
+        data['name'] = '__CATALOG_DATA__'
+        data['branch'] = '__REPO_DATA__'
+        page = explore.render(data)
+        embedded = page.split('<script id="repo-data" type="application/json">')[1].split('</script>')[0]
+        self.assertEqual(json.loads(embedded), data)
 
     def test_demo_cli_is_offline_and_never_overwrites(self):
         with tempfile.TemporaryDirectory() as tmp:
