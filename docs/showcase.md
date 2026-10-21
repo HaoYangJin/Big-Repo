@@ -22,12 +22,12 @@ python scripts/repo_tools.py showcase-sync --repo /path/to/project --repository 
 
 展示页使用固定演示，不提交不断变化的真实快照时间戳。重复执行不产生新差异；托管区外内容保留，已有非托管体验文件拒绝覆盖。真实项目结构报告仍需用 explore.py --repo 单独生成到新路径。
 
-公开模式使用实际仓库和工作流名称生成图表与徽章，并保留 Star History 文字入口。公开性未知或私有时不嵌入第三方图片。状态图片不等于当前候选已通过验收；版本与 Star 数据也不代表质量、下载量或用户数。
+公开模式使用实际仓库和工作流名称生成图表与徽章，并保留 Star History 文字入口。紧凑的 CI 徽章使用独立的 big-repo:badges 托管区，放在 README 开头的一级标题下方；没有开头标题时放在正文之前。导航、流程图与 Star History 保留在 big-repo:showcase 展示区。已有末尾展示区再次同步时，会把其中的 CI 徽章转移到顶部。公开性未知或私有时不嵌入第三方图片，并移除已托管的公开徽章；用户手写的徽章不受影响。状态图片不等于当前候选已通过验收；版本与 Star 数据也不代表质量、下载量或用户数。
 
 ## 维护与移除
 
 能力与模板来自 assets/catalog.json 以及真实资源文件；版本来自 CHANGELOG 和已登记 Release 快照。新增技能、模板或正式发行后，维护相应目录和快照资料，不虚构数据。
 
-删除 README 的 big-repo:showcase 托管区与 docs/big-repo-explorer.html 可移除生成展示。目录内入口更新时同步检查引用。离线页面无外部请求、不存储持久账号数据，挑战状态只存在于当前页面。
+删除 README 的 big-repo:badges、big-repo:showcase 托管区与 docs/big-repo-explorer.html 可移除生成展示。目录内入口更新时同步检查引用。离线页面无外部请求、不存储持久账号数据，挑战状态只存在于当前页面。
 
 品牌社交图通过 ImageGen 生成，文件为 assets/social-preview.png；界面截图由实际浏览器生成，文件为 assets/explorer-demo.png，两者不可混称。

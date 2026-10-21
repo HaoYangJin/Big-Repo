@@ -215,11 +215,41 @@ def audit_showcase(repo, readme='README.md', private=True):
             'external_links': external, 'note': 'No network requests made; fragments and remote availability are not verified.'}
 
 
+def render_badges(text, repository, workflows):
+    """Keep compact status badges below a leading title, separate from the footer."""
+    start, end = '<!-- big-repo:badges:start -->', '<!-- big-repo:badges:end -->'
+    if text.count(start) != text.count(end) or text.count(start) > 1:
+        raise ValueError('Unbalanced or duplicate badge markers')
+    if start in text and text.index(start) > text.index(end):
+        raise ValueError('Reversed badge markers')
+    badges = []
+    for workflow in workflows:
+        url = f'https://github.com/{repository}/actions/workflows/{quote(workflow, safe="")}'
+        badges.append(f'[![CI: {workflow}]({url}/badge.svg)]({url})')
+    block = '\n'.join([start, *badges, end]) if badges else ''
+    if start in text:
+        begin, finish = text.index(start), text.index(end) + len(end)
+        if not block:
+            # Remove the spacing inserted with this owned block, keeping user prose.
+            if text[max(0, begin - 2):begin] == '\n\n':
+                begin -= 2
+            elif begin == 0 and text[finish:finish + 2] == '\n\n':
+                finish += 2
+        return text[:begin] + block + text[finish:]
+    if not block:
+        return text
+    title = re.match(r'\A\ufeff?(?:[ \t]*\n)*# [^\n]+', text)
+    if title:
+        return text[:title.end()] + '\n\n' + block + text[title.end():]
+    return block + '\n\n' + text
+
+
 def render_showcase(text, repository, private=True, star_history=False, english=False, workflows=None, links=None):
     if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_.-]*/[A-Za-z0-9][A-Za-z0-9_.-]*', repository):
         raise ValueError('Expected owner/repository')
     if private and star_history:
         raise ValueError('Public Star History is disabled for private repositories')
+    text = render_badges(text, repository, [] if private else workflows or [])
     start, end = '<!-- big-repo:showcase:start -->', '<!-- big-repo:showcase:end -->'
     body = '\n'.join([start, '## Project navigator' if english else '## 项目导航', '',
                        '- [README](README.md)', '',
@@ -229,10 +259,6 @@ def render_showcase(text, repository, private=True, star_history=False, english=
         body += f'\n\n- [{label}]({target})'
     if not private:
         body += f'\n\n[Releases](https://github.com/{repository}/releases) · [Issues](https://github.com/{repository}/issues)'
-        for workflow in workflows or []:
-            encoded_workflow = quote(workflow, safe='')
-            body += (f'\n\n[![CI: {workflow}](https://github.com/{repository}/actions/workflows/{encoded_workflow}/badge.svg)]'
-                     f'(https://github.com/{repository}/actions/workflows/{encoded_workflow})')
     if star_history:
         encoded = quote(repository, safe='')
         body += ('\n\n### Star History\n\n'

@@ -154,6 +154,31 @@ class ToolTests(unittest.TestCase):
         self.assertNotIn('star-history.com', text)
         self.assertNotIn('排名', text)
 
+    def test_workflow_badges_follow_title_and_preserve_user_content(self):
+        original = '# Demo\n\n[English](README.en.md)\n\n![Manual](manual.svg)\nIntroduction.\n'
+        first = self.tools.render_showcase(original, 'a/b', private=False, workflows=['check.yml'])
+        self.assertTrue(first.startswith('# Demo\n\n<!-- big-repo:badges:start -->'))
+        self.assertLess(first.index('/badge.svg'), first.index('[English]'))
+        self.assertIn('[English](README.en.md)\n\n![Manual](manual.svg)\nIntroduction.', first)
+        self.assertNotIn('/badge.svg', first.split('<!-- big-repo:showcase:start -->')[1])
+        self.assertEqual(first, self.tools.render_showcase(first, 'a/b', private=False, workflows=['check.yml']))
+        for options in ({'private': True}, {'private': False, 'workflows': []}):
+            cleaned = self.tools.render_showcase(first, 'a/b', **options)
+            self.assertNotIn('big-repo:badges:', cleaned)
+            self.assertNotIn('/badge.svg', cleaned)
+            self.assertTrue(cleaned.startswith(original.rstrip()))
+
+    def test_badges_without_title_precede_content(self):
+        first = self.tools.render_showcase('User introduction.\n', 'a/b', private=False, workflows=['check.yml'])
+        self.assertTrue(first.startswith('<!-- big-repo:badges:start -->'))
+        self.assertEqual(first, self.tools.render_showcase(first, 'a/b', private=False, workflows=['check.yml']))
+
+    def test_invalid_badge_markers_rejected(self):
+        start, end = '<!-- big-repo:badges:start -->', '<!-- big-repo:badges:end -->'
+        for text in (start, end, end + start, start + end + start + end):
+            with self.subTest(text=text), self.assertRaises(ValueError):
+                self.tools.render_showcase(text, 'a/b')
+
     def test_public_star_history_opt_in(self):
         text = self.tools.render_showcase('# Demo', 'a/b', private=False, star_history=True)
         self.assertIn('api.star-history.com', text)
