@@ -1,5 +1,10 @@
 # Big-Repo
 
+<!-- big-repo:badges:start -->
+[![CI: check.yml](https://github.com/HaoYangJin/Big-Repo/actions/workflows/check.yml/badge.svg)](https://github.com/HaoYangJin/Big-Repo/actions/workflows/check.yml)
+[![CI: release.yml](https://github.com/HaoYangJin/Big-Repo/actions/workflows/release.yml/badge.svg)](https://github.com/HaoYangJin/Big-Repo/actions/workflows/release.yml)
+<!-- big-repo:badges:end -->
+
 English · [简体中文](README.md)
 
 ![Big-Repo: Plugins, Skills, Templates and Visuals](assets/social-preview.png)
@@ -106,10 +111,6 @@ flowchart LR
 - [Big-Repo offline playground](docs/big-repo-explorer.html)
 
 [Releases](https://github.com/HaoYangJin/Big-Repo/releases) · [Issues](https://github.com/HaoYangJin/Big-Repo/issues)
-
-[![CI: check.yml](https://github.com/HaoYangJin/Big-Repo/actions/workflows/check.yml/badge.svg)](https://github.com/HaoYangJin/Big-Repo/actions/workflows/check.yml)
-
-[![CI: release.yml](https://github.com/HaoYangJin/Big-Repo/actions/workflows/release.yml/badge.svg)](https://github.com/HaoYangJin/Big-Repo/actions/workflows/release.yml)
 
 ### Star History
 

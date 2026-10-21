@@ -71,6 +71,30 @@ class V2Tests(unittest.TestCase):
         self.assertEqual(target.read_text(encoding='utf-8'), 'User content')
         self.assertNotIn('showcase:start', (self.repo / 'README.md').read_text(encoding='utf-8'))
 
+    def test_sync_migrates_footer_badges_in_both_readmes(self):
+        workflows = self.repo / '.github/workflows'
+        workflows.mkdir(parents=True)
+        (workflows / 'check.yml').write_text('name: Check\n', encoding='utf-8')
+        legacy = ('# Existing\n\nUser introduction.\n\n<!-- big-repo:showcase:start -->\n'
+                  '[![CI](https://github.com/example/project/actions/workflows/check.yml/badge.svg)](old)\n'
+                  '<!-- big-repo:showcase:end -->\n')
+        for name in ('README.md', 'README.en.md'):
+            (self.repo / name).write_text(legacy, encoding='utf-8')
+        self.tools.sync_showcase(self.repo, 'example/project', public=True)
+        for name in ('README.md', 'README.en.md'):
+            text = (self.repo / name).read_text(encoding='utf-8')
+            self.assertEqual(text.count('/badge.svg'), 1)
+            self.assertLess(text.index('/badge.svg'), text.index('User introduction.'))
+        self.assertEqual(self.tools.sync_showcase(self.repo, 'example/project', public=True)['changed'], [])
+
+    def test_invalid_badges_abort_sync_before_any_write(self):
+        original = (self.repo / 'README.md').read_bytes()
+        (self.repo / 'README.en.md').write_text('<!-- big-repo:badges:end -->', encoding='utf-8')
+        with self.assertRaises(ValueError):
+            self.tools.sync_showcase(self.repo, 'example/project', public=True)
+        self.assertEqual((self.repo / 'README.md').read_bytes(), original)
+        self.assertFalse((self.repo / 'docs/big-repo-explorer.html').exists())
+
     def test_create_local_prepares_before_first_commit_and_preserves_content(self):
         result = self.workflow.create(self.repo, delivery='commit')
         self.assertEqual(result['status'], 'needs-configuration')
