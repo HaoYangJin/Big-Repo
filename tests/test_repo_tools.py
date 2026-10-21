@@ -194,6 +194,17 @@ class ToolTests(unittest.TestCase):
                         cleaned = self.tools.render_showcase(first, 'a/b', private=True)
                         self.assertTrue(cleaned.startswith(original.rstrip()))
 
+    def test_yaml_only_readme_without_final_newline(self):
+        for bom in ('', '\ufeff'):
+            for ending in ('---', '...'):
+                original = bom + '---\ntitle: Demo\n' + ending
+                with self.subTest(original=original):
+                    first = self.tools.render_showcase(original, 'a/b', private=False, workflows=['check.yml'])
+                    self.assertTrue(first.startswith(original + '\n<!-- big-repo:badges:start -->\n'))
+                    self.assertEqual(first, self.tools.render_showcase(first, 'a/b', private=False, workflows=['check.yml']))
+                    cleaned = self.tools.render_showcase(first, 'a/b', private=True)
+                    self.assertTrue(cleaned.startswith(original + '\n'))
+
     def test_public_star_history_opt_in(self):
         text = self.tools.render_showcase('# Demo', 'a/b', private=False, star_history=True)
         self.assertIn('api.star-history.com', text)

@@ -246,7 +246,8 @@ def render_badges(text, repository, workflows):
     if title:
         position = prefix + title.end()
         return text[:position] + '\n\n' + block + text[position:]
-    return text[:prefix] + block + '\n\n' + text[prefix:]
+    separator = '\n' if front_matter and prefix == len(text) and not text.endswith('\n') else ''
+    return text[:prefix] + separator + block + '\n\n' + text[prefix:]
 
 
 def render_showcase(text, repository, private=True, star_history=False, english=False, workflows=None, links=None):
