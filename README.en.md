@@ -13,7 +13,7 @@ English · [简体中文](README.md)
 
 Big-Repo is a repository toolkit for AI coding clients: 8 skills, 6 templates, a recoverable maintenance and delivery workflow, and an offline interactive playground. The client understands requests and develops changes; Python tools manage configuration, validation, tasks and GitHub delivery.
 
-[Capabilities](#four-starting-points) · [Quick start](#quick-start) · [Playground](#more-than-star-history) · [Installation](docs/install.md) · [2.0 migration](docs/migration.md)
+[Capabilities](#four-starting-points) · [Quick start](#quick-start) · [Playground](#more-than-star-history) · [Installation](docs/install.md) · [Migration](docs/migration.md)
 
 ## Four starting points
 
@@ -53,11 +53,11 @@ Open the generated HTML in a browser. Use a new output path each time; existing 
 
 **Onboard an existing project in your AI client:**
 
-> Read Big-Repo's skills/repo-intake/SKILL.md. Enable maintenance and delivery for this project, identify validation, CI and branch rules, and add an appropriate showcase. For later requests or feedback, complete the task according to project policy.
+> Read Big-Repo's skills/repo-intake/SKILL.md and preview onboarding for this project. Identify validation, CI and branch rules. Keep local delivery by default; enable client instructions, remote delivery and showcase only when explicitly selected.
 
 **Create a project:**
 
-> Use Big-Repo to create the project. Prepare its README, delivery rules and offline playground before the first commit. I will explicitly provide the repository identifier and visibility if a GitHub remote is needed.
+> Use Big-Repo to preview creation, then prepare a minimal README and core runtime before the first commit. I will explicitly select client instructions, showcase, and any GitHub remote identifier and visibility.
 
 The client invokes `scripts/project_workflow.py create` or `init`. Configuration, runtime files and managed instructions can be shared with the project; task logs and evidence stay in Git metadata. Missing validation or CI information remains a configuration prerequisite. File creation alone is not successful onboarding. See [commands and recovery](references/project-workflow.md).
 
@@ -73,7 +73,7 @@ The client invokes `scripts/project_workflow.py create` or `init`. Configuration
 
 The playground needs no server, account or network. Exports and challenges stay in the browser and execute no real commit, merge or release. Completion is not validation evidence. Big-Repo capabilities are separate from structural signals about the inspected project. The interactive interface and detailed guides currently use Simplified Chinese.
 
-Creation and onboarding prepare a managed showcase and offline demo. Later maintenance synchronizes affected content before the final commit. Public repositories may use real charts and badges; private or unknown visibility uses local content. No background polling or scheduled task is added.
+An explicit full profile and showcase selection prepare a managed showcase and offline demo. Later maintenance synchronizes affected content before the final commit. Public repositories may use real charts and badges; private or unknown visibility uses local content. No background polling or scheduled task is added.
 
 ## Repository map
 
@@ -92,7 +92,7 @@ Creation and onboarding prepare a managed showcase and offline demo. Later maint
 
 See [installation](docs/install.md) for checksums, upgrades and rollback, and [migration](docs/migration.md) for legacy configuration and tasks. The machine ID is now `big-repo`; existing global installations are not silently replaced.
 
-Delivery endpoints are local commit, PR and verified merge. Narrower user requests, project rules and platform protections take precedence. Publishing requires an explicitly authorized version; deployment and global installation need their own authorization.
+Delivery endpoints are local commit, PR and verified merge. New projects default to local commit, core resources, no persistent client instructions and no showcase. Preview with --dry-run; explicitly select client, delivery and showcase options. Legacy policies require confirmation through upgrade; disconnect preserves task records. Narrower user requests, project rules and platform protections take precedence. Publishing requires an explicitly authorized version; deployment and global installation need their own authorization.
 
 [Releases](https://github.com/HaoYangJin/Big-Repo/releases) · [Changelog](CHANGELOG.md) · [Validation limits](docs/validation.md) · [Contributing](CONTRIBUTING.md) · [Historical records](docs/archive/README.md) · [Project story (中文)](docs/project-story.md) · [Code of conduct (中文)](CODE_OF_CONDUCT.md) · [MIT License](LICENSE)
 

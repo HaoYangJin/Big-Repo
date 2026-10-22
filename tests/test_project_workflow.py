@@ -50,7 +50,7 @@ class ProjectWorkflowTests(unittest.TestCase):
                               capture_output=True, text=True).stdout.strip()
 
     def setup_project(self, delivery='merge', no_ci=False):
-        result = self.m.initialize(self.repo, delivery=delivery, no_ci=no_ci,
+        result = self.m.initialize(self.repo, delivery=delivery, client='both', no_ci=no_ci,
                                   checks=[f'{self.quote_python()} -B -m unittest discover -s checks'],
                                   ci=None if no_ci else ['tests'], base='main')
         self.assertEqual(result['status'], 'configured')
@@ -158,7 +158,7 @@ class ProjectWorkflowTests(unittest.TestCase):
         self.assertEqual(self.git('status', '--porcelain'), before)
 
     def test_missing_validation_and_ci_are_not_reported_ready(self):
-        result = self.m.initialize(self.repo)
+        result = self.m.initialize(self.repo, delivery='merge')
         self.assertEqual(result['status'], 'needs-configuration')
         self.assertIn('project-validation-commands', result['missing'])
         self.assertIn('actual-ci-check-names-or-confirmed-no-ci-policy', result['missing'])
@@ -184,7 +184,7 @@ class ProjectWorkflowTests(unittest.TestCase):
         text = file.read_text(encoding='utf-8') + self.m.START
         file.write_text(text)
         with self.assertRaises(self.m.WorkflowError):
-            self.m.initialize(self.repo)
+            self.m.initialize(self.repo, client='codex')
         self.assertEqual(file.read_text(encoding='utf-8'), text)
         self.assertFalse((self.repo / self.m.CONFIG).exists())
 

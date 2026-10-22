@@ -103,7 +103,7 @@ class V2Tests(unittest.TestCase):
         self.assertIn('Keep my introduction.', (self.repo / 'README.md').read_text(encoding='utf-8'))
         self.assertIn('尚无提交', load('explore').collect(self.repo)['head'])
 
-    def test_migration_retains_active_identity_and_invalidates_old_evidence(self):
+    def test_migration_requires_closed_task_and_retains_identity_and_evidence(self):
         policy = self.policy()
         legacy = self.repo / '.repo-maintainer'
         legacy.mkdir()
@@ -118,17 +118,37 @@ class V2Tests(unittest.TestCase):
         self.workflow.write_json(task_path / 'state.json', state)
         self.workflow.write_json(task_path / 'task.json', {'allowed_paths': ['.repo-maintainer/**']})
         self.workflow.write_json(task_path / 'evidence.json', {'review': {'status': 'approved'}})
+        before = {p.relative_to(self.repo): p.read_bytes() for p in self.repo.rglob('*') if p.is_file()}
+        with self.assertRaisesRegex(self.workflow.WorkflowError, 'legacy-active-task'):
+            self.workflow.migrate(self.repo)
+        self.assertEqual(before, {p.relative_to(self.repo): p.read_bytes()
+                                  for p in self.repo.rglob('*') if p.is_file()})
+        state['status'] = 'cancelled'
+        self.workflow.write_json(task_path / 'state.json', state)
         self.workflow.migrate(self.repo)
         new_path = self.repo / '.git/big-repo/tasks' / identifier
         migrated = json.loads((new_path / 'state.json').read_text())
         self.assertEqual(migrated['id'], identifier)
         self.assertEqual(migrated['pr_number'], 42)
-        self.assertEqual(migrated['status'], 'working')
-        self.assertFalse((new_path / 'evidence.json').exists())
-        self.assertTrue((new_path / 'migration-old-evidence.json').exists())
+        self.assertEqual(migrated['status'], 'cancelled')
+        self.assertEqual(json.loads((new_path / 'evidence.json').read_text()), {'review': {'status': 'approved'}})
         self.assertTrue((self.repo / '.git/big-repo/legacy-project-backup/config.json').exists())
         self.assertIn('Retain this.', (self.repo / 'AGENTS.md').read_text(encoding='utf-8'))
         self.assertFalse(self.workflow.migrate(self.repo)['migrated'])
+        result = self.workflow.upgrade(self.repo, delivery='commit', client='none', profile='core')
+        self.assertEqual(result['status'], 'upgraded')
+
+    def test_migration_keeps_delivery_instructions_and_uses_current_version_links(self):
+        policy = self.policy()
+        policy.update(delivery='pr', repository='example/project')
+        self.git('remote', 'add', 'origin', 'https://github.com/example/project.git')
+        self.workflow.write_json(self.repo / '.repo-maintainer/config.json', policy)
+        self.workflow.migrate(self.repo)
+        text = (self.repo / 'AGENTS.md').read_text(encoding='utf-8')
+        self.assertIn('创建 PR，不合并', text)
+        version = self.workflow.runtime_version()
+        exported = (self.repo / '.big-repo/plugin/README.md').read_text(encoding='utf-8')
+        self.assertIn('/blob/v' + version + '/', exported)
 
     def test_migration_conflict_refuses_to_overwrite(self):
         self.workflow.write_json(self.repo / '.repo-maintainer/config.json', self.policy())
