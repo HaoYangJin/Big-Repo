@@ -9,7 +9,9 @@ ASSETS = {'explorer.html', 'catalog.json', 'social-preview.png', 'explorer-demo.
 ROOT_FILES = {'README.md', 'README.en.md', 'CHANGELOG.md', 'LICENSE', 'NOTICE'}
 
 
-def runtime_files(directory):
+def runtime_files(directory, profile='full'):
+    if profile not in ('core', 'full'):
+        raise ValueError('Unknown resource profile')
     directory = Path(directory).resolve()
     files = {}
     # Enumerate only runtime roots; do not walk Git history, task logs, research
@@ -28,6 +30,9 @@ def runtime_files(directory):
     for path in candidates:
         relative = path.relative_to(directory)
         parts = relative.parts
+        if profile == 'core' and (parts[0] in {'assets', 'research'} or
+                relative.as_posix() in {'scripts/explore.py', 'scripts/collect_research.py'}):
+            continue
         if any(p in {'.git', '.venv', '__pycache__', 'dist', 'work', 'tmp'} for p in parts):
             continue
         allowed = (parts[0] in DIRECTORIES or relative.as_posix() in ROOT_FILES
@@ -47,6 +52,11 @@ def runtime_files(directory):
 
 def resource_bytes(relative, path, files, version):
     data = path.read_bytes()
+    if relative.as_posix() == 'assets/explorer.html':
+        header = rb'(<span class="tag">)\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?(</span>)'
+        data, replaced = re.subn(header, rb'\g<1>' + version.encode('ascii') + rb'\g<2>', data, count=1)
+        if replaced != 1:
+            raise ValueError('Explorer header version marker is missing')
     if path.suffix == '.md':
         root = path
         for _ in relative.parts:

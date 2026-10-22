@@ -13,7 +13,7 @@
 
 Big-Repo 是给 AI 编程客户端使用的仓库工具箱：8 个技能、6 个模板、一套可恢复的维护交付流程，以及无需服务器的离线交互体验。客户端负责理解需求和开发；Python 工具管理配置、验证、任务及 GitHub 交付。
 
-[功能目录](#四个入口) · [快速开始](#快速开始) · [交互体验](#不止-star-history) · [安装与升级](docs/install.md) · [2.0 迁移](docs/migration.md)
+[功能目录](#四个入口) · [快速开始](#快速开始) · [交互体验](#不止-star-history) · [安装与升级](docs/install.md) · [版本迁移](docs/migration.md)
 
 ## 四个入口
 
@@ -28,7 +28,7 @@ Big-Repo 是给 AI 编程客户端使用的仓库工具箱：8 个技能、6 个
 
 | 技能 | 使用场景 | 结果 |
 | --- | --- | --- |
-| `repo-intake` | 新仓库创建、已有项目首次接入 | 项目规则、配置、完整运行文件、初始展示 |
+| `repo-intake` | 新仓库创建、已有项目首次接入 | 策略预览、配置、core/full 运行文件与按需展示 |
 | `maintenance-delivery` | 开发需求、缺陷、测试或 CI 反馈 | 经过验证与审查的提交、PR 或合并结果 |
 | `repo-audit` | 检查协作、测试、维护与发布流程 | 有证据的审查结论，默认只读 |
 | `skill-maintenance` | 修改或评审已有 AI 技能 | 清晰的触发条件、自包含资源和验证 |
@@ -40,6 +40,8 @@ Big-Repo 是给 AI 编程客户端使用的仓库工具箱：8 个技能、6 个
 ## 快速开始
 
 需要 Python 3.11+、Git。GitHub 创建与交付另需已认证的 `gh`，实际开发和独立审查需要支持这些操作的 AI 客户端。
+
+以下探索台命令适用于包含 `scripts/explore.py` 的 `full` 运行目录；默认 `core` 接入以技能与离线文档为主。
 
 **先体验，无需 GitHub 认证：**
 
@@ -53,11 +55,11 @@ python scripts/explore.py --repo . --output ../Big-Repo-report.html
 
 **在 AI 客户端中接入已有项目：**
 
-> 请读取 Big-Repo 的 skills/repo-intake/SKILL.md，为当前项目启用维护与交付，识别验证、CI 和分支规则，并补齐仓库展示。以后我只提开发需求或反馈，请按项目策略完成本轮交付。
+> 请读取 Big-Repo 的 skills/repo-intake/SKILL.md，先预览当前项目的接入方案，识别验证、CI 和分支规则。默认仅本地交付；客户端入口、远端交付和展示按我的明确选择启用。
 
 **新建项目：**
 
-> 请用 Big-Repo 创建项目，先建立 README、交付规则和离线体验入口，再组织首次提交。若要创建 GitHub 远端，我会明确提供仓库标识和可见性。
+> 请用 Big-Repo 创建项目，先预览文件变更，建立最小 README 与 core 运行目录，再组织首次提交。若要启用客户端入口、展示或 GitHub 远端，我会明确选择对应策略和仓库标识。
 
 客户端调用 `scripts/project_workflow.py create` 或 `init`。项目配置、运行目录和托管说明可随项目共享；任务、日志和证据保存在 Git 元数据中。缺少验证或 CI 信息时会报告待配置，不能把初始化文件存在当作配置完成。[命令与恢复](references/project-workflow.md)。
 
@@ -73,7 +75,7 @@ python scripts/explore.py --repo . --output ../Big-Repo-report.html
 
 页面不需要服务器、账号或网络。模板导出与挑战只发生在浏览器中，不执行真实提交、合并或发布；通关不是验证证据。工具能力与目标项目的结构信号分别展示。
 
-首次创建或接入时生成托管展示区和离线演示；后续维护在最终提交前同步受影响内容。公开仓库可加入真实图表与徽章，私有或公开性未知时使用本地内容，不设置后台巡检或定时任务。
+2.1 新接入默认仅本地提交、无客户端常驻入口、core 资源且不生成展示。显式选择 full 与展示策略后才生成托管展示区和离线演示；后续维护只同步已选择的展示内容。公开仓库可加入真实图表与徽章，私有或公开性未知时使用本地内容，不设置后台巡检或定时任务。
 
 ## 文件在哪里
 
@@ -92,7 +94,7 @@ python scripts/explore.py --repo . --output ../Big-Repo-report.html
 
 完整安装、校验、升级与回退见 [安装说明](docs/install.md)，旧版配置与任务迁移见 [迁移说明](docs/migration.md)。内部 ID 已改为 `big-repo`；旧版本安装不会被静默替换。
 
-交付终点支持本地提交、PR、验证后合并。用户本轮更窄限制、项目规则和平台保护优先。版本发布需要明确版本授权，部署与全局安装另行授权。
+交付终点支持本地提交、PR、验证后合并，新接入默认本地提交。旧配置需显式确认，upgrade 更新运行目录，disconnect 停用入口并保留任务记录。用户本轮更窄限制、项目规则和平台保护优先。版本发布需要明确版本授权，部署与全局安装另行授权。
 
 [实际 Releases](https://github.com/HaoYangJin/Big-Repo/releases) · [变更记录](CHANGELOG.md) · [验证范围](docs/validation.md) · [贡献说明](CONTRIBUTING.md) · [历史记录](docs/archive/README.md) · [项目故事](docs/project-story.md) · [行为准则](CODE_OF_CONDUCT.md) · [MIT 许可证](LICENSE)
 

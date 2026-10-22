@@ -7,7 +7,7 @@
     {
       "name": "big-repo",
       "source": "./",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "description": "需求与反馈触发的 AI 项目维护与仓库自动交付"
     }
   ]

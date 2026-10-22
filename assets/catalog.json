@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "items": [
     {
       "id": "repo-intake",
@@ -8,9 +8,9 @@
       "name_en": "Create and onboard projects",
       "goal": "delivery",
       "path": "skills/repo-intake/SKILL.md",
-      "summary": "为当前项目启用 Big-Repo，建立维护配置与展示入口。",
+      "summary": "预览并按显式策略接入项目，默认仅本地提交、core 资源。",
       "prerequisite": "AI 客户端；涉及交付另需 Python 3.11+、Git 和已认证 gh",
-      "invocation": "为当前项目启用 Big-Repo，建立维护配置与展示入口。"
+      "invocation": "为当前项目预览 Big-Repo 接入，默认仅本地交付；客户端入口与展示由我明确选择。"
     },
     {
       "id": "maintenance-delivery",
@@ -180,6 +180,11 @@
   ],
   "releases": [
     {
+      "version": "2.0.0",
+      "date": "2026-10-21T11:50:05Z",
+      "url": "https://github.com/HaoYangJin/Big-Repo/releases/tag/v2.0.0"
+    },
+    {
       "version": "1.3.0",
       "date": "2026-10-19T07:18:03Z",
       "url": "https://github.com/HaoYangJin/Big-Repo/releases/tag/v1.3.0"
@@ -200,5 +205,5 @@
       "url": "https://github.com/HaoYangJin/Big-Repo/releases/tag/v1.0.0"
     }
   ],
-  "release_snapshot": "2026-10-21"
+  "release_snapshot": "2026-10-22"
 }

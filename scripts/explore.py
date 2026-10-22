@@ -54,6 +54,17 @@ def render(data):
     # JSON stays data even if a repository name contains HTML or a script terminator.
     payload = json.dumps(data, ensure_ascii=True).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
     catalog = json.loads((root / 'assets/catalog.json').read_text(encoding='utf-8'))
+    version = catalog.get('version')
+    if not isinstance(version, str) or not re.fullmatch(r'\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?', version):
+        raise ValueError('Invalid catalog version')
+    template, replaced = re.subn(
+        r'(<span class="tag">)\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?(</span>)',
+        lambda match: match.group(1) + version + match.group(2),
+        template,
+        count=1,
+    )
+    if replaced != 1:
+        raise ValueError('Explorer version marker is missing')
     for item in catalog['items']:
         path = (root / item['path']).resolve()
         if not path.is_relative_to(root) or not path.is_file():

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "trigger": "task-or-feedback",
   "plugin_path": ".",
   "repository": "HaoYangJin/Big-Repo",
@@ -7,8 +7,8 @@
   "delivery": "merge",
   "release": "explicit-request",
   "clients": [
-    "claude",
-    "codex"
+    "codex",
+    "claude"
   ],
   "validation": [
     {
@@ -36,5 +36,14 @@
     "python (ubuntu-latest)",
     "python (windows-latest)",
     "python (macos-latest)"
-  ]
+  ],
+  "profile": "full",
+  "showcase": "none",
+  "enabled": true,
+  "policy_confirmed": true,
+  "runtime_version": "2.1.0",
+  "policy_record": {
+    "source": "explicit-upgrade",
+    "recorded_at": "2026-10-21T13:25:02+00:00"
+  }
 }

@@ -15,6 +15,7 @@ import subprocess
 import sys
 import tempfile
 import uuid
+from datetime import datetime, timezone
 from urllib.parse import urlsplit
 
 SPEC = importlib.util.spec_from_file_location('workflow_repo_tools', Path(__file__).with_name('repo_tools.py'))
@@ -26,6 +27,126 @@ END = '<!-- big-repo:workflow:end -->'
 LEVELS = {'commit': 0, 'pr': 1, 'merge': 2}
 RUNTIME_ROOTS = {'.codex-plugin', '.claude-plugin', 'skills', 'scripts', 'references', 'templates', 'assets',
                  'README.md', 'CHANGELOG.md', 'LICENSE', 'NOTICE'}
+RECOVERY_LAUNCHER = '''#!/usr/bin/env python3
+"""Big-Repo 稳定入口：运行目录切换中断时从生命周期备份恢复。"""
+# big-repo:stable-launcher
+import json
+from pathlib import Path
+import hashlib
+import re
+import runpy
+import subprocess
+import sys
+
+
+def fail(message):
+    print(json.dumps({"status": "blocked", "issues": [message]}))
+    raise SystemExit(2)
+
+
+def runtime_hashes(root):
+    if not root.is_dir():
+        return None
+    return {
+        path.relative_to(root).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        for path in root.rglob("*")
+        if path.is_file()
+        and "__pycache__" not in path.relative_to(root).parts
+        and path.suffix not in {".pyc", ".pyo"}
+    }
+
+
+def matching_script(raw_root, expected, boundary):
+    if raw_root.is_symlink() or not isinstance(expected, dict):
+        return None
+    try:
+        root = raw_root.resolve()
+        if not root.is_relative_to(boundary) or not root.is_dir() or runtime_hashes(root) != expected:
+            return None
+    except OSError:
+        return None
+    candidate = (root / "scripts/project_workflow.py").resolve()
+    if candidate.is_file() and candidate.is_relative_to(root):
+        return candidate
+    return None
+
+
+repo = Path(__file__).resolve().parents[1]
+try:
+    config = json.loads((repo / ".big-repo/config.json").read_text(encoding="utf-8"))
+    plugin = (repo / config["plugin_path"]).resolve()
+except (OSError, ValueError, KeyError, TypeError):
+    fail("stable-launcher-config-unavailable")
+if not plugin.is_relative_to(repo):
+    fail("stable-launcher-plugin-outside-repository")
+
+script = plugin / "scripts/project_workflow.py"
+result = subprocess.run(
+    ["git", "rev-parse", "--absolute-git-dir"],
+    cwd=repo,
+    capture_output=True,
+    text=True,
+    encoding="utf-8",
+    errors="replace",
+)
+if result.returncode:
+    fail("stable-launcher-git-directory-unavailable")
+git_dir = Path(result.stdout.strip()).resolve()
+ledger = git_dir / "big-repo/lifecycle.json"
+journal = None
+if ledger.exists():
+    try:
+        journal = json.loads(ledger.read_text(encoding="utf-8"))
+    except (OSError, ValueError, KeyError, TypeError):
+        fail("stable-launcher-recovery-state-unavailable")
+    if not isinstance(journal, dict):
+        fail("stable-launcher-recovery-state-invalid")
+    if journal.get("status") == "prepared":
+        backup = journal.get("backup")
+    else:
+        journal = None
+if journal is not None:
+    if journal.get("status") != "prepared" or not isinstance(backup, str) or not re.fullmatch(r"backup-[0-9a-f]+", backup):
+        fail("stable-launcher-recovery-state-invalid")
+    backup_root = git_dir / "big-repo" / backup
+    if backup_root.is_symlink():
+        fail("stable-launcher-recovery-state-invalid")
+    backup_root = backup_root.resolve()
+    if not backup_root.is_relative_to(git_dir):
+        fail("stable-launcher-recovery-state-invalid")
+    try:
+        interrupted = sorted(
+            path for path in backup_root.iterdir()
+            if re.fullmatch(r"interrupted-runtime-[0-9a-f]+", path.name)
+        )
+    except OSError:
+        fail("stable-launcher-recovery-state-unavailable")
+    candidates = []
+    groups = [
+        (journal.get("runtime_hashes"), [
+            (backup_root / "new-runtime", git_dir),
+            *((path, git_dir) for path in interrupted),
+            (plugin, repo),
+        ]),
+        (journal.get("installed_hashes"), [
+            (backup_root / "old-runtime", git_dir),
+            (plugin, repo),
+        ]),
+    ]
+    for expected, roots in groups:
+        for raw_root, boundary in roots:
+            candidates.append(matching_script(raw_root, expected, boundary))
+    candidates = [candidate for candidate in candidates if candidate is not None]
+    if not candidates:
+        fail("stable-launcher-recovery-script-unavailable")
+    script = candidates[0]
+    if not script.is_file() or not (script.is_relative_to(repo) or script.is_relative_to(git_dir)):
+        fail("stable-launcher-recovery-script-unavailable")
+elif not script.is_file():
+    fail("stable-launcher-runtime-missing")
+
+runpy.run_path(str(script), run_name="__main__")
+'''
 
 
 class WorkflowError(ValueError):
@@ -63,7 +184,7 @@ def safe_path(repo, relative):
 
 def write_json(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', dir=path.parent,
+    with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', newline='\n', dir=path.parent,
                                      prefix='.workflow-', delete=False) as stream:
         temporary = Path(stream.name)
         try:
@@ -78,16 +199,22 @@ def write_json(path, data):
         temporary.unlink(missing_ok=True)
 
 
-def atomic_text(path, text):
+def atomic_bytes(path, data):
     temporary = None
     try:
         with tempfile.NamedTemporaryFile(dir=path.parent, prefix='.' + path.name + '.big-repo-', delete=False) as stream:
             temporary = Path(stream.name)
-            stream.write(text.encode('utf-8'))
+            stream.write(data)
+            stream.flush()
+            os.fsync(stream.fileno())
         temporary.replace(path)
     finally:
         if temporary is not None:
             temporary.unlink(missing_ok=True)
+
+
+def atomic_text(path, text):
+    atomic_bytes(path, text.encode('utf-8'))
 
 
 def identity(repo):
@@ -128,19 +255,39 @@ def infer_checks(repo):
     return []
 
 
+def parse_checks(checks):
+    if checks is None:
+        return None
+    parsed = []
+    for index, text in enumerate(checks):
+        try:
+            argv = shlex.split(text)
+        except ValueError:
+            raise WorkflowError('invalid-validation-command') from None
+        if not argv:
+            raise WorkflowError('invalid-validation-command')
+        parsed.append({'id': f'check-{index + 1}', 'argv': argv})
+    return parsed
+
+
 def validate_config(data):
-    if (data.get('schema_version') != 1 or data.get('trigger') != 'task-or-feedback'
+    if (data.get('schema_version') not in (1, 2) or data.get('trigger') != 'task-or-feedback'
             or data.get('delivery') not in LEVELS or data.get('ci_policy') not in ('required', 'none')
             or data.get('release') != 'explicit-request'):
         raise WorkflowError('invalid-project-policy')
     if not isinstance(data.get('base_branch'), str) or not data['base_branch'].strip():
         raise WorkflowError('missing-base-branch')
     if (not isinstance(data.get('plugin_path'), str) or not data['plugin_path']
-            or not isinstance(data.get('clients'), list) or not data['clients']
+            or not isinstance(data.get('clients'), list) or (data['schema_version'] == 1 and not data['clients'])
             or any(c not in ('codex', 'claude') for c in data['clients'])
             or (data.get('repository') is not None and not re.fullmatch(
                 r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', str(data['repository'])))):
         raise WorkflowError('invalid-project-identity-or-client')
+    if data['schema_version'] == 2 and (
+            not isinstance(data.get('enabled'), bool) or not isinstance(data.get('policy_confirmed'), bool)
+            or data.get('profile') not in ('core', 'full') or data.get('showcase') not in ('none', 'local', 'public')
+            or not isinstance(data.get('runtime_version'), str) or not isinstance(data.get('policy_record'), dict)):
+        raise WorkflowError('invalid-project-policy-record')
     checks = data.get('validation')
     if not isinstance(checks, list):
         raise WorkflowError('invalid-validation-list')
@@ -168,16 +315,19 @@ def config_digest(data):
     return hashlib.sha256(json.dumps(data, sort_keys=True).encode()).hexdigest()
 
 
-def instruction_block(plugin):
+def instruction_block(plugin, delivery='commit'):
     script = plugin + '/scripts/project_workflow.py'
+    outcome = {'commit': '仅本地提交，不推送、不创建 PR、不合并。',
+               'pr': '验证与独立审查通过后推送并创建 PR，不合并。',
+               'merge': '验证、独立审查及全部 CI 通过后，锁定最终 SHA 自动合并。'}[delivery]
     return f'''{START}
 ## 开发任务与反馈的自动交付
 
-本项目已接入 big-repo。收到开发需求、缺陷反馈或本轮测试/CI/审查反馈时，读取 `{CONFIG}` 和 `{plugin}/skills/maintenance-delivery/SKILL.md`，复用项目配置完成本轮维护和交付，用户无需再说“提交、上传、创建 PR”。普通问答、只读审查和用户明确的更窄限制按其原范围执行。
+本项目已显式启用 Big-Repo 客户端入口。收到开发需求、缺陷或测试/CI 反馈时，读取 `{CONFIG}` 和 `{plugin}/skills/maintenance-delivery/SKILL.md`。本项目策略：{outcome}普通问答、规划和只读审查不创建任务、不提交或执行远端写入；用户本轮更窄限制优先。
 
-由当前 AI 客户端执行：理解任务及项目规则 → 运行 `python {script} begin --repo . --objective "实际需求" --allowed-path "实际改动范围"`（已有任务先 status）→ 开发并同步相关说明与托管展示（repo_tools.py showcase-sync，核实公开性后才加 --public）→ 按项目约定精确提交 → check → 独立 AI 审查并用 review 登记真实结论 → deliver。begin 会复用事件/任务记录，deliver 会核对远端状态，等待 CI 或处理失败后继续同一任务，不能把推送或创建 PR 当作已合并。
+由当前 AI 客户端执行：理解任务及项目规则 → 运行 `python {script} begin --repo . --objective "实际需求" --allowed-path "实际改动范围"`（已有任务先 status）→ 开发并同步本轮相关说明（展示仅按已选择的策略同步）→ 精确提交 → check → 独立 AI 审查并用 review 登记真实结论 → deliver。严格遵守配置的交付终点，等待中的 CI 只读等待；结果不确定先查询，不盲目重试写入。
 
-命令详情与故障恢复见 `{plugin}/references/project-workflow.md`。保留用户已有工作；任务/日志保存在 Git 元数据内，不提交、不伪造验证或独立审查。配置不取代用户授权、项目规则与客户端权限；不读取或保存凭据值，不设置定时任务。版本发布遵循 explicit-request 策略，只有用户明确指定版本才执行。
+命令详情与故障恢复见 `{plugin}/references/project-workflow.md`。这是依赖客户端遵循协议的协作流程，不能拦截绕过脚本的 Git 操作。保留用户工作及 Git 元数据内的任务/日志；不伪造验证或独立审查。配置不取代用户授权、项目规则与客户端权限；不读取凭据值，不设置定时任务。版本发布只有获明确版本授权才执行。
 {END}
 '''
 
@@ -187,8 +337,62 @@ RUNTIME = importlib.util.module_from_spec(_runtime_spec)
 _runtime_spec.loader.exec_module(RUNTIME)
 
 
-def runtime_files(directory):
-    return RUNTIME.runtime_files(directory)
+def runtime_files(directory, profile='full'):
+    return RUNTIME.runtime_files(directory, profile=profile)
+
+
+def runtime_resource_bytes(relative, path, files, version):
+    return RUNTIME.resource_bytes(relative, path, files, version)
+
+
+def runtime_version(repo=None):
+    manifest = Path(__file__).resolve().parents[1] / '.codex-plugin/plugin.json'
+    if not manifest.is_file() and repo is not None:
+        try:
+            config = configuration(repo)
+        except (OSError, ValueError):
+            config = None
+        if config:
+            manifest = safe_path(repo, config['plugin_path']) / '.codex-plugin/plugin.json'
+    return json.loads(manifest.read_text(encoding='utf-8'))['version']
+
+
+def ensure_recovery_launcher(repo):
+    launcher = safe_path(repo, '.big-repo/workflow.py')
+    if launcher.exists():
+        current = launcher.read_text(encoding='utf-8')
+        if '# big-repo:stable-launcher' not in current:
+            raise WorkflowError('stable-launcher-conflict')
+        if current == RECOVERY_LAUNCHER:
+            return launcher
+    launcher.parent.mkdir(parents=True, exist_ok=True)
+    atomic_text(launcher, RECOVERY_LAUNCHER)
+    return launcher
+
+
+def normalize_explorer_header(repo, version):
+    output = safe_path(repo, 'docs/big-repo-explorer.html')
+    if not output.is_file():
+        raise WorkflowError('explorer-output-missing')
+    text = output.read_text(encoding='utf-8')
+    normalized, replaced = re.subn(
+        r'(<span class="tag">)\d+\.\d+\.\d+(</span>)',
+        lambda match: match.group(1) + version + match.group(2),
+        text,
+        count=1,
+    )
+    if replaced != 1:
+        raise WorkflowError('explorer-version-marker-missing')
+    if normalized != text:
+        atomic_text(output, normalized)
+
+
+def policy_gate(config):
+    if not config.get('enabled', True):
+        return {'status': 'disconnected', 'note': 'Explicitly initialize again before starting work.'}
+    if config.get('schema_version') != 2 or not config.get('policy_confirmed'):
+        return {'status': 'needs-policy-confirmation', 'note': 'Use upgrade with explicit delivery, client and profile choices.'}
+    return None
 
 
 def _rollback_migration(repo, git_dir, journal):
@@ -271,6 +475,7 @@ def migrate(repo, repository=None):
 def _migrate(repo, repository, source):
     """Explicit namespace migration with an interruption journal and rollback."""
     repo = root(repo)
+    source_version = json.loads((source / '.codex-plugin/plugin.json').read_text(encoding='utf-8'))['version']
     old_file, new_file = safe_path(repo, '.repo-maintainer/config.json'), safe_path(repo, CONFIG)
     git_dir = Path(command(['git', 'rev-parse', '--absolute-git-dir'], repo).strip()).resolve()
     old_state, new_state = git_dir / 'repo-maintainer', git_dir / 'big-repo'
@@ -292,6 +497,8 @@ def _migrate(repo, repository, source):
         return {'status': 'configured', 'config': configuration(repo), 'migrated': False}
     previous = json.loads(old_file.read_text(encoding='utf-8'))
     validate_config(previous)
+    if (old_state / 'active.json').exists() and active(old_state)[1]['status'] not in ('completed', 'cancelled'):
+        raise WorkflowError('legacy-active-task-complete-or-explicitly-cancel-before-migration')
     if repository and not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', repository):
         raise WorkflowError('invalid-migration-repository')
     chosen = repository or previous['repository']
@@ -323,7 +530,7 @@ def _migrate(repo, repository, source):
             raise WorkflowError('migration-conflicting-instruction-blocks')
         if old_start in text:
             text = text.replace(old_start, START).replace(old_end, END)
-        block = instruction_block(plugin)
+        block = instruction_block(plugin, previous['delivery'])
         instructions[name] = (text[:text.index(START)] + block + text[text.index(END) + len(END):]
                               if START in text else text.rstrip() + '\n\n' + block)
     with locked(old_state):
@@ -333,20 +540,6 @@ def _migrate(repo, repository, source):
             temporary = Path(temporary)
             staged = temporary / 'state'
             shutil.copytree(old_state, staged, ignore=shutil.ignore_patterns('workflow.lock'))
-            if (staged / 'active.json').exists():
-                task_path, state = active(staged)
-                if state['status'] not in ('completed', 'cancelled'):
-                    task = json.loads((task_path / 'task.json').read_text(encoding='utf-8'))
-                    if task.get('merge'):
-                        task['merge']['repository'] = chosen
-                    task['allowed_paths'] = list(dict.fromkeys(task['allowed_paths'] +
-                        [p.replace('.repo-maintainer/', '.big-repo/') for p in task['allowed_paths'] if p.startswith('.repo-maintainer/')]))
-                    write_json(task_path / 'task.json', task)
-                    if (task_path / 'evidence.json').exists():
-                        (task_path / 'evidence.json').replace(task_path / 'migration-old-evidence.json')
-                    state['config_digest'] = config_digest(data)
-                    state.pop('failed_fingerprint', None)
-                    save(task_path, state, 'working', migration='big-repo-2.0.0-revalidate-and-review')
             hashes = {}
             staged_runtime = temporary / 'runtime'
             if plugin != '.':
@@ -354,12 +547,12 @@ def _migrate(repo, repository, source):
                 for relative, file in candidates.items():
                     destination = staged_runtime / relative
                     destination.parent.mkdir(parents=True, exist_ok=True)
-                    payload = RUNTIME.resource_bytes(relative, file, candidates, '2.0.0')
+                    payload = runtime_resource_bytes(relative, file, candidates, source_version)
                     destination.write_bytes(payload)
                     hashes[relative.as_posix()] = hashlib.sha256(payload).hexdigest()
             journal = {'transaction_version': 1, 'status': 'prepared', 'previous_config': previous, 'config': data,
                        'original_instructions': originals, 'instructions': instructions, 'runtime_hashes': hashes,
-                       'evidence_invalidated': True}
+                       'evidence_invalidated': False}
             write_json(staged / 'migration.json', journal)
             staged.replace(new_state)
             try:
@@ -387,6 +580,28 @@ def create(repo, repository=None, visibility='private', **options):
         raise WorkflowError('invalid-create-target-or-visibility')
     if repository and not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', repository):
         raise WorkflowError('invalid-create-repository')
+    delivery = options.get('delivery') or 'commit'
+    clients = parse_clients(options.get('client') or 'none')
+    profile, showcase = options.get('profile') or 'core', options.get('showcase') or 'none'
+    if delivery not in LEVELS:
+        raise WorkflowError('invalid-delivery-selection')
+    validate_showcase(profile, showcase, repository, verify_public=False)
+    if showcase == 'public' and not repository:
+        raise WorkflowError('public-showcase-needs-repository')
+    if showcase == 'public' and visibility != 'public':
+        raise WorkflowError('public-showcase-needs-public-visibility')
+    if showcase != 'none':
+        preflight_showcase(repo, repository, public=showcase == 'public')
+    parse_checks(options.get('checks'))
+    if options.get('dry_run'):
+        return {'status': 'preview', 'repository': repository, 'visibility': visibility,
+                'delivery': delivery, 'clients': clients, 'profile': profile, 'showcase': showcase,
+                'changes': [CONFIG, '.big-repo/plugin/', '.big-repo/workflow.py', 'README.md (only if absent)'] +
+                           [('AGENTS.md' if c == 'codex' else 'CLAUDE.md') for c in clients] +
+                           (['README showcase blocks', 'docs/big-repo-explorer.html'] if showcase != 'none' else []),
+                'note': 'No files, Git repository or remote created.'}
+    if (repo / '.git').exists():
+        require_lifecycle_ready(repo)
     repo.mkdir(parents=True, exist_ok=True)
     if not (repo / '.git').exists():
         probe = subprocess.run(['git', 'rev-parse', '--show-toplevel'], cwd=repo, capture_output=True)
@@ -435,27 +650,45 @@ def create(repo, repository=None, visibility='private', **options):
             command(['git', 'remote', 'add', 'origin', f'https://github.com/{repository}.git'], repo)
         write_json(journal, {'repository': repository, 'visibility': visibility, 'status': 'confirmed', 'id': observed['id']})
     result = initialize(repo, **options)
-    TOOLS.sync_showcase(repo, repository or identity(repo), public=bool(repository and visibility == 'public'))
+    readme = safe_path(repo, 'README.md')
+    if not readme.exists():
+        atomic_text(readme, '# ' + repo.name + '\n\n请补充项目用途、功能与验证方式。\n')
     result['created'] = True
-    result['note'] = 'README, workflow and offline playground prepared before first commit; complete missing checks before delivery.'
+    result['note'] = 'Local project prepared; persistent instructions and showcase require explicit choices.'
     return result
 
 
 def initialize(repo, client=None, delivery=None, checks=None, ci=None, no_ci=False,
-               base=None, plugin_path=None, update=False, sync=True):
+               base=None, plugin_path=None, update=False, sync=False, profile=None, showcase=None, dry_run=False):
     repo = root(repo)
+    require_lifecycle_ready(repo)
     if (repo / '.repo-maintainer/config.json').exists():
         raise WorkflowError('legacy-project-use-init-migrate')
     config_file = safe_path(repo, CONFIG)
     previous = configuration(repo) if config_file.exists() else None
     if previous and not update:
-        if sync:
-            TOOLS.sync_showcase(repo, previous['repository'])
+        if dry_run:
+            return {'status': 'preview', 'config': previous, 'changes': []}
+        gate = policy_gate(previous)
+        if gate:
+            return {**gate, 'config': previous}
         missing = readiness(previous)
         return {'status': 'needs-configuration' if missing else 'configured', 'missing': missing,
                 'config': previous, 'note': 'Existing project settings preserved; use init --update for an intentional policy change.'}
-    clients = (['codex', 'claude'] if client == 'both' else [client]) if client else (previous['clients'] if previous else ['codex', 'claude'])
-    files = [safe_path(repo, 'AGENTS.md' if c == 'codex' else 'CLAUDE.md') for c in clients]
+    if previous and previous['schema_version'] != 2:
+        raise WorkflowError('legacy-policy-use-upgrade')
+    if previous and update:
+        require_idle(repo)
+    clients = parse_clients(client) if client is not None else (previous['clients'] if previous else [])
+    selected_profile = profile or (previous.get('profile', 'core') if previous else 'core')
+    if previous and selected_profile != previous.get('profile'):
+        raise WorkflowError('runtime-profile-change-use-upgrade')
+    showcase = showcase if showcase is not None else (previous.get('showcase', 'none') if previous else 'none')
+    validate_showcase(selected_profile, showcase, identity(repo))
+    if showcase != 'none':
+        preflight_showcase(repo, identity(repo), public=showcase == 'public')
+    files = [safe_path(repo, 'AGENTS.md' if c == 'codex' else 'CLAUDE.md')
+             for c in sorted(set(clients + (previous['clients'] if previous else [])))]
     texts = {}
     for file in files:
         text = file.read_bytes().decode('utf-8') if file.exists() else ''
@@ -471,14 +704,41 @@ def initialize(repo, client=None, delivery=None, checks=None, ci=None, no_ci=Fal
         raise WorkflowError('plugin-path-must-be-this-plugin-in-project')
     if not previous and not plugin_path and target.exists():
         # An interrupted copy may be reused only when it matches this runtime.
-        existing = runtime_files(target)
-        expected = runtime_files(source)
+        existing = runtime_files(target, selected_profile)
+        expected = runtime_files(source, selected_profile)
         if (set(existing) != set(expected)
-                or any(existing[name].read_bytes() != RUNTIME.resource_bytes(name, file, expected, '2.0.0') for name, file in expected.items())):
+                or any(existing[name].read_bytes() != runtime_resource_bytes(name, file, expected, runtime_version())
+                       for name, file in expected.items())):
             raise WorkflowError('existing-runtime-needs-reconciliation-not-overwrite')
+    branch = command(['git', 'symbolic-ref', '--quiet', '--short', 'refs/remotes/origin/HEAD'], repo).strip() if subprocess.run(
+        ['git', 'symbolic-ref', '--quiet', 'refs/remotes/origin/HEAD'], cwd=repo, capture_output=True).returncode == 0 else None
+    current = command(['git', 'branch', '--show-current'], repo).strip()
+    data = {'schema_version': 2, 'trigger': 'task-or-feedback', 'plugin_path': plugin,
+            'repository': identity(repo), 'base_branch': base or (previous['base_branch'] if previous else (branch.removeprefix('origin/') if branch else current or 'main')),
+            'delivery': delivery or (previous['delivery'] if previous else 'commit'),
+            'release': 'explicit-request', 'clients': sorted(set(clients)),
+            'enabled': True, 'policy_confirmed': True, 'profile': selected_profile, 'showcase': showcase,
+            'runtime_version': runtime_version(),
+            'policy_record': (
+                {'source': 'explicit-init',
+                 'recorded_at': datetime.now(timezone.utc).isoformat(timespec='seconds')}
+                if delivery is not None
+                else previous['policy_record']
+                if previous
+                else {'source': 'safe-default-init',
+                      'recorded_at': datetime.now(timezone.utc).isoformat(timespec='seconds')}
+            ),
+            'validation': (parse_checks(checks) if checks is not None
+                           else (previous['validation'] if previous else infer_checks(repo))),
+            'ci_policy': 'none' if no_ci else (previous['ci_policy'] if previous and ci is None else 'required'),
+            'required_checks': [] if no_ci else (ci if ci is not None else (previous['required_checks'] if previous else []))}
+    validate_config(data)
+    if dry_run:
+        return {'status': 'preview', 'config': data,
+                'changes': [CONFIG, plugin, '.big-repo/workflow.py'] + [str(f.relative_to(repo)) for f in files]}
+    ensure_recovery_launcher(repo)
     if not plugin_path and not target.exists():
-        # Vendor the complete portable runtime; never copy caches, links or credentials.
-        candidates = runtime_files(source)
+        candidates = runtime_files(source, selected_profile)
         target.parent.mkdir(parents=True, exist_ok=True)
         with tempfile.TemporaryDirectory(dir=target.parent) as temporary:
             staged = Path(temporary) / 'plugin'
@@ -486,32 +746,21 @@ def initialize(repo, client=None, delivery=None, checks=None, ci=None, no_ci=Fal
             for relative, path in candidates.items():
                 destination = staged / relative
                 destination.parent.mkdir(parents=True, exist_ok=True)
-                destination.write_bytes(RUNTIME.resource_bytes(relative, path, candidates, '2.0.0'))
+                destination.write_bytes(runtime_resource_bytes(relative, path, candidates, runtime_version()))
             staged.replace(target)
     if not (target / 'scripts/project_workflow.py').is_file():
         raise WorkflowError('project-runtime-missing')
-    branch = command(['git', 'symbolic-ref', '--quiet', '--short', 'refs/remotes/origin/HEAD'], repo).strip() if subprocess.run(
-        ['git', 'symbolic-ref', '--quiet', 'refs/remotes/origin/HEAD'], cwd=repo, capture_output=True).returncode == 0 else None
-    current = command(['git', 'branch', '--show-current'], repo).strip()
-    data = {'schema_version': 1, 'trigger': 'task-or-feedback', 'plugin_path': plugin,
-            'repository': identity(repo), 'base_branch': base or (previous['base_branch'] if previous else (branch.removeprefix('origin/') if branch else current or 'main')),
-            'delivery': delivery or (previous['delivery'] if previous else 'merge'),
-            'release': 'explicit-request', 'clients': sorted(set(clients + (previous['clients'] if previous else []))),
-            'validation': ([{'id': f'check-{i + 1}', 'argv': shlex.split(c)} for i, c in enumerate(checks)]
-                           if checks is not None else (previous['validation'] if previous else infer_checks(repo))),
-            'ci_policy': 'none' if no_ci else (previous['ci_policy'] if previous and ci is None else 'required'),
-            'required_checks': [] if no_ci else (ci if ci is not None else (previous['required_checks'] if previous else []))}
-    validate_config(data)
-    block = instruction_block(plugin)
+    if showcase != 'none':
+        TOOLS.sync_showcase(repo, data['repository'], public=showcase == 'public')
+        normalize_explorer_header(repo, data['runtime_version'])
+    block = instruction_block(plugin, data['delivery'])
     for file, text in texts.items():
-        result = (text[:text.index(START)] + block.rstrip('\n') + text[text.index(END) + len(END):]
-                  if START in text else text + ('\n\n' if text and not text.endswith('\n\n') else '') + block)
+        chosen = ('codex' if file.name == 'AGENTS.md' else 'claude') in clients
+        result = managed_text(text, block if chosen else None)
         if result != text:
             atomic_text(file, result)
     write_json(config_file, data)
     missing = readiness(data)
-    if sync:
-        TOOLS.sync_showcase(repo, data['repository'])
     return {'status': 'needs-configuration' if missing else 'configured', 'missing': missing, 'config': data}
 
 
@@ -526,9 +775,304 @@ def readiness(config):
     return missing
 
 
-def state_dir(repo):
-    directory = Path(command(['git', 'rev-parse', '--absolute-git-dir'], repo).strip()) / 'big-repo'
-    directory.mkdir(parents=True, exist_ok=True)
+def parse_clients(client):
+    if client not in ('none', 'codex', 'claude', 'both'):
+        raise WorkflowError('invalid-client-selection')
+    return [] if client == 'none' else (['codex', 'claude'] if client == 'both' else [client])
+
+
+def validate_showcase(profile, showcase, repository, verify_public=True):
+    if profile not in ('core', 'full') or showcase not in ('none', 'local', 'public'):
+        raise WorkflowError('invalid-runtime-or-showcase-selection')
+    source = Path(__file__).resolve().parents[1]
+    if profile == 'full':
+        required = ([source / 'assets' / name for name in RUNTIME.ASSETS]
+                    + [source / 'scripts/explore.py', source / 'scripts/collect_research.py',
+                       source / 'research/roster.json', source / 'research/source-index.json'])
+        if any(not path.is_file() for path in required):
+            raise WorkflowError('full-source-required-run-from-complete-plugin')
+    if showcase != 'none' and (profile != 'full' or not (source / 'assets/explorer.html').is_file()):
+        raise WorkflowError('showcase-needs-full-resources')
+    if showcase == 'public' and verify_public:
+        if not repository:
+            raise WorkflowError('public-showcase-needs-repository')
+        observed = json.loads(command(['gh', 'api', 'repos/' + repository]))
+        if observed.get('private') is not False or observed.get('full_name', '').casefold() != repository.casefold():
+            raise WorkflowError('public-showcase-repository-not-verified')
+
+
+def preflight_showcase(repo, repository, public=False):
+    """Render every owned showcase target without writing project files."""
+    repo = Path(repo).resolve()
+    repository = repository or 'local/project'
+    output = safe_path(repo, 'docs/big-repo-explorer.html')
+    if output.exists() and 'big-repo:generated-explorer' not in output.read_text(encoding='utf-8'):
+        raise ValueError('existing explorer is not owned by Big-Repo')
+    explorer_spec = importlib.util.spec_from_file_location(
+        'showcase_preflight_explorer', Path(__file__).with_name('explore.py')
+    )
+    explorer = importlib.util.module_from_spec(explorer_spec)
+    explorer_spec.loader.exec_module(explorer)
+    explorer.render(explorer.demo())
+    workflows = []
+    folder = repo / '.github/workflows'
+    if folder.is_dir() and not folder.is_symlink():
+        workflows = sorted(
+            path.name for path in folder.iterdir()
+            if path.is_file() and not path.is_symlink() and path.suffix in {'.yml', '.yaml'}
+        )
+    for name in ('README.md', 'README.en.md'):
+        target = safe_path(repo, name)
+        if name == 'README.en.md' and not target.exists():
+            continue
+        text = target.read_text(encoding='utf-8') if target.exists() else '# ' + repo.name + '\n'
+        old_start, old_end = '<!-- repo-maintainer:showcase:start -->', '<!-- repo-maintainer:showcase:end -->'
+        if old_start in text or old_end in text:
+            if (text.count(old_start) != 1 or text.count(old_end) != 1
+                    or text.index(old_end) < text.index(old_start)
+                    or '<!-- big-repo:showcase:start -->' in text):
+                raise ValueError('Conflicting legacy showcase block')
+            text = text.replace(old_start, '<!-- big-repo:showcase:start -->').replace(
+                old_end, '<!-- big-repo:showcase:end -->'
+            )
+        TOOLS.render_showcase(
+            text,
+            repository,
+            private=not public,
+            star_history=public,
+            english=name == 'README.en.md',
+            workflows=workflows,
+            links=[(
+                'Big-Repo offline playground' if name == 'README.en.md' else 'Big-Repo 离线体验台',
+                'docs/big-repo-explorer.html',
+            )],
+        )
+
+
+def managed_text(text, block):
+    if text.count(START) != text.count(END) or text.count(START) > 1 or (START in text and text.index(START) > text.index(END)):
+        raise WorkflowError('malformed-managed-instructions')
+    if START in text:
+        return text[:text.index(START)] + (block.rstrip('\n') if block else '') + text[text.index(END) + len(END):]
+    return text + ('\n\n' if text and not text.endswith('\n\n') else '') + block if block else text
+
+
+def require_idle(repo):
+    directory = state_dir(repo, create=False)
+    if (directory / 'active.json').exists() and active(directory)[1]['status'] not in ('completed', 'cancelled'):
+        raise WorkflowError('active-task-complete-or-explicitly-cancel-first')
+
+
+def upgrade(repo, delivery=None, client=None, profile=None, dry_run=False):
+    repo = root(repo)
+    recover_lifecycle(repo, dry_run)
+    require_idle(repo)
+    if delivery not in LEVELS or client is None or profile not in ('core', 'full'):
+        raise WorkflowError('upgrade-needs-explicit-delivery-client-profile')
+    previous = configuration(repo)
+    validate_showcase(profile, 'none', previous['repository'])
+    clients = parse_clients(client)
+    data = {**previous, 'schema_version': 2, 'delivery': delivery, 'clients': clients,
+            'profile': profile, 'showcase': previous.get('showcase', 'none') if profile == 'full' else 'none',
+            'enabled': True, 'policy_confirmed': True, 'runtime_version': runtime_version(repo),
+            'policy_record': {'source': 'explicit-upgrade', 'recorded_at': datetime.now(timezone.utc).isoformat(timespec='seconds')}}
+    validate_config(data)
+    pending, snapshots = {}, {}
+    for name, which in [('AGENTS.md', 'codex'), ('CLAUDE.md', 'claude')]:
+        file = safe_path(repo, name)
+        text = file.read_bytes().decode('utf-8') if file.exists() else ''
+        rendered = managed_text(text, instruction_block(data['plugin_path'], delivery) if which in clients else None)
+        if rendered != text:
+            pending[name] = rendered
+            snapshots[name] = file.read_bytes().hex() if file.exists() else None
+    return lifecycle(repo, previous, data, pending, 'upgrade', dry_run, snapshots)
+
+
+def disconnect(repo, dry_run=False):
+    repo = root(repo)
+    recover_lifecycle(repo, dry_run)
+    require_idle(repo)
+    previous = configuration(repo)
+    data = {**previous, 'enabled': False}
+    pending, snapshots = {}, {}
+    for name in ('AGENTS.md', 'CLAUDE.md'):
+        file = safe_path(repo, name)
+        if file.exists():
+            text = file.read_bytes().decode('utf-8')
+            rendered = managed_text(text, None)
+            if text != rendered:
+                pending[name] = rendered
+                snapshots[name] = text.encode('utf-8').hex()
+    return lifecycle(repo, previous, data, pending, 'disconnect', dry_run, snapshots)
+
+
+def lifecycle(repo, previous, data, pending, operation, dry_run, snapshots):
+    """Stage owned resources and preserve a durable rollback journal before replacement."""
+    target = safe_path(repo, previous['plugin_path'])
+    source = Path(__file__).resolve().parents[1]
+    if not source.is_dir():
+        source = target
+    resources = runtime_files(source, data['profile']) if operation == 'upgrade' and target != repo else {}
+    recovery_resources = resources or runtime_files(source, data.get('profile', 'core'))
+    installed = {}
+    if resources and target.exists():
+        owned = runtime_files(target)
+        for file in target.rglob('*'):
+            relative = file.relative_to(target)
+            if '__pycache__' in relative.parts or file.suffix == '.pyc':
+                continue
+            if file.is_symlink() or (file.is_file() and relative not in owned):
+                raise WorkflowError('unowned-runtime-content-reconcile-first')
+            if file.is_file():
+                installed[relative.as_posix()] = file.read_bytes()
+    if dry_run:
+        return {'status': 'preview', 'config': data, 'changes': [CONFIG, *pending, *(['runtime'] if resources else [])]}
+    ensure_recovery_launcher(repo)
+    directory = state_dir(repo)
+    with locked(directory):
+        require_idle(repo)
+        if configuration(repo) != previous:
+            raise WorkflowError('policy-changed-during-lifecycle')
+        for name, content in snapshots.items():
+            file = safe_path(repo, name)
+            current = file.read_bytes().hex() if file.exists() else None
+            if current != content:
+                raise WorkflowError('instructions-changed-during-lifecycle')
+        if resources and target.exists():
+            current = {}
+            for file in target.rglob('*'):
+                if file.is_symlink():
+                    raise WorkflowError('runtime-changed-during-lifecycle')
+                if file.is_file() and '__pycache__' not in file.relative_to(target).parts and file.suffix != '.pyc':
+                    current[file.relative_to(target).as_posix()] = file.read_bytes()
+            if current != installed:
+                raise WorkflowError('runtime-changed-during-lifecycle')
+        ledger = directory / 'lifecycle.json'
+        if ledger.exists() and json.loads(ledger.read_text(encoding='utf-8'))['status'] == 'prepared':
+            raise WorkflowError('interrupted-lifecycle-needs-recovery')
+        backup = directory / ('backup-' + uuid.uuid4().hex)
+        backup.mkdir()
+        originals = {}
+        for name in [CONFIG, *pending]:
+            file = safe_path(repo, name)
+            originals[name] = file.read_bytes().hex() if file.exists() else None
+        if installed:
+            for name, content in installed.items():
+                file = backup / 'runtime' / name
+                file.parent.mkdir(parents=True, exist_ok=True)
+                file.write_bytes(content)
+        journal = {'operation': operation, 'status': 'prepared', 'originals': originals,
+                   'backup': backup.name, 'plugin_path': previous['plugin_path'], 'installed': sorted(installed),
+                   'installed_hashes': {name: hashlib.sha256(content).hexdigest() for name, content in installed.items()},
+                   'runtime_replaced': False, 'runtime_created': False,
+                   'expected': {CONFIG: (json.dumps(data, ensure_ascii=False, indent=2) + '\n').encode().hex(),
+                                **{name: text.encode().hex() for name, text in pending.items()}}}
+        # A prepared transaction must already contain executable new recovery
+        # code: an installed older runtime may not support lifecycle commands.
+        # Staging failures leave the original project untouched and retryable.
+        staged = backup / 'new-runtime'
+        staged.mkdir()
+        for relative, file in recovery_resources.items():
+            destination = staged / relative
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            destination.write_bytes(runtime_resource_bytes(relative, file, recovery_resources, runtime_version(repo)))
+        journal['runtime_hashes'] = {p.relative_to(staged).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
+                                     for p in staged.rglob('*') if p.is_file()}
+        write_json(ledger, journal)
+        try:
+            if resources:
+                if target.exists():
+                    journal['runtime_replaced'] = True
+                    write_json(ledger, journal)
+                    target.replace(backup / 'old-runtime')
+                else:
+                    journal['runtime_created'] = True
+                    write_json(ledger, journal)
+                staged.replace(target)
+            write_json(safe_path(repo, CONFIG), data)
+            for name, text in pending.items():
+                atomic_text(safe_path(repo, name), text)
+            journal['status'] = 'completed'
+            write_json(ledger, journal)
+        except BaseException:
+            rollback_lifecycle(repo, directory, journal)
+            raise
+    return {'status': 'upgraded' if operation == 'upgrade' else 'disconnected', 'config': data,
+            'backup': str(backup), 'note': 'Task logs and PR associations retained; policy records are caller-attested.'}
+
+
+def rollback_lifecycle(repo, directory, journal):
+    backup = safe_path(directory, journal['backup'])
+    target = safe_path(repo, journal['plugin_path'])
+    for name, content in journal['originals'].items():
+        file = safe_path(repo, name)
+        current = file.read_bytes().hex() if file.exists() else None
+        if current not in (content, journal['expected'][name]):
+            raise WorkflowError('lifecycle-recovery-project-conflict')
+    if journal['runtime_replaced'] or journal['runtime_created']:
+        if target.exists():
+            actual = {}
+            for file in target.rglob('*'):
+                if file.is_symlink():
+                    raise WorkflowError('lifecycle-recovery-runtime-conflict')
+                if file.is_file() and '__pycache__' not in file.relative_to(target).parts:
+                    actual[file.relative_to(target).as_posix()] = hashlib.sha256(file.read_bytes()).hexdigest()
+            if actual not in (journal.get('runtime_hashes', {}), journal['installed_hashes']):
+                raise WorkflowError('lifecycle-recovery-runtime-conflict')
+        if journal['runtime_replaced'] and not (backup / 'old-runtime').exists():
+            # The process stopped after journaling intent but before the directory move.
+            if not target.exists() or actual != journal['installed_hashes']:
+                raise WorkflowError('lifecycle-recovery-runtime-backup-missing')
+            journal['runtime_replaced'] = False
+    if journal['runtime_replaced'] or journal['runtime_created']:
+        if target.exists():
+            target.replace(backup / ('interrupted-runtime-' + uuid.uuid4().hex))
+        if journal['runtime_replaced']:
+            (backup / 'old-runtime').replace(target)
+    for name, content in journal['originals'].items():
+        file = safe_path(repo, name)
+        if content is None:
+            file.unlink(missing_ok=True)
+        else:
+            # Restore exact bytes independently of the write function that failed.
+            atomic_bytes(file, bytes.fromhex(content))
+    journal['status'] = 'rolled-back'
+    write_json(directory / 'lifecycle.json', journal)
+
+
+def recover_lifecycle(repo, dry_run=False):
+    directory = state_dir(repo, create=False)
+    ledger = safe_path(directory, 'lifecycle.json')
+    if ledger.exists():
+        journal = json.loads(ledger.read_text(encoding='utf-8'))
+        if journal['status'] == 'prepared':
+            require_idle(repo)
+            if dry_run:
+                raise WorkflowError('interrupted-lifecycle-recovery-required')
+            with locked(directory):
+                journal = json.loads(ledger.read_text(encoding='utf-8'))
+                if journal['status'] == 'prepared':
+                    require_idle(repo)
+                    rollback_lifecycle(repo, directory, journal)
+
+
+def lifecycle_pending(repo):
+    ledger = safe_path(state_dir(repo, create=False), 'lifecycle.json')
+    return ledger.exists() and json.loads(ledger.read_text(encoding='utf-8'))['status'] == 'prepared'
+
+
+def require_lifecycle_ready(repo):
+    if lifecycle_pending(repo):
+        raise WorkflowError('lifecycle-recovery-required-retry-upgrade-or-disconnect')
+
+
+def state_dir(repo, create=True):
+    git_directory = Path(command(['git', 'rev-parse', '--absolute-git-dir'], repo).strip()).resolve()
+    directory = git_directory / 'big-repo'
+    if directory.is_symlink() or directory.resolve() != git_directory / 'big-repo':
+        raise WorkflowError('linked-task-state-directory')
+    if create:
+        directory.mkdir(parents=True, exist_ok=True)
     return directory
 
 
@@ -580,7 +1124,11 @@ def save(path, state, status, **details):
 
 def begin(repo, objective, allowed_paths, event=None, delivery=None):
     repo = root(repo)
+    require_lifecycle_ready(repo)
     config = configuration(repo)
+    gate = policy_gate(config)
+    if gate:
+        return gate
     if readiness(config):
         return {'status': 'needs-configuration', 'missing': readiness(config)}
     chosen = delivery or config['delivery']
@@ -726,6 +1274,10 @@ def observed_pr(config, number):
 
 def deliver(repo, title=None, body_file=None, retry_reason=None):
     repo = root(repo)
+    require_lifecycle_ready(repo)
+    gate = policy_gate(configuration(repo))
+    if gate:
+        return gate
     with locked(state_dir(repo)):
         path, state, config, task = current_task(repo)
         if state['status'] in ('completed', 'cancelled'):
@@ -824,14 +1376,18 @@ def deliver(repo, title=None, body_file=None, retry_reason=None):
 def status(repo):
     repo = root(repo)
     config = configuration(repo)
-    directory = state_dir(repo)
+    if lifecycle_pending(repo):
+        return {'status': 'recovery-required', 'policy': config,
+                'note': 'Retry upgrade or disconnect before starting work.'}
+    directory = state_dir(repo, create=False)
     if not (directory / 'active.json').exists():
         missing = readiness(config)
-        return {'status': 'needs-configuration' if missing else 'configured', 'missing': missing, 'policy': config}
+        gate = policy_gate(config)
+        return {'status': gate['status'] if gate else ('needs-configuration' if missing else 'configured'), 'missing': missing, 'policy': config}
     path, state = active(directory)
     return {'status': state['status'], 'task_id': state['id'], 'objective': state['objective'],
             'state_directory': str(path), 'attempts': state['attempts'], 'result': state.get('result'),
-            'policy_changed': state['config_digest'] != config_digest(config)}
+            'policy_changed': state['config_digest'] != config_digest(config), 'policy': config}
 
 
 def cancel(repo, reason):
@@ -857,9 +1413,12 @@ def block(repo, reason):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('operation', choices=['create', 'init', 'begin', 'check', 'review', 'deliver', 'status', 'block', 'cancel'])
+    parser.add_argument('operation', choices=['create', 'init', 'upgrade', 'disconnect', 'begin', 'check', 'review', 'deliver', 'status', 'block', 'cancel'])
     parser.add_argument('--repo', type=Path, default=Path.cwd())
-    parser.add_argument('--client', choices=['codex', 'claude', 'both'])
+    parser.add_argument('--client', choices=['none', 'codex', 'claude', 'both'])
+    parser.add_argument('--profile', choices=['core', 'full'])
+    parser.add_argument('--showcase', choices=['none', 'local', 'public'])
+    parser.add_argument('--dry-run', action='store_true')
     parser.add_argument('--delivery', choices=list(LEVELS))
     parser.add_argument('--check', action='append')
     parser.add_argument('--ci-check', action='append')
@@ -883,16 +1442,27 @@ def main():
     parser.add_argument('--reason')
     try:
         args = parser.parse_args()
+        if args.public and args.showcase not in (None, 'public'):
+            raise WorkflowError('conflicting-public-showcase-options')
+        showcase = 'public' if args.public else args.showcase
+        if args.dry_run and args.operation not in ('create', 'init', 'upgrade', 'disconnect'):
+            raise WorkflowError('dry-run-not-supported-for-this-operation')
+        if args.migrate and args.dry_run:
+            raise WorkflowError('legacy-migration-dry-run-not-supported')
         if args.operation == 'create':
             result = create(args.repo, args.repository, args.visibility, client=args.client, delivery=args.delivery,
-                            checks=args.check, ci=args.ci_check, no_ci=args.no_ci, base=args.base_branch)
+                            checks=args.check, ci=args.ci_check, no_ci=args.no_ci, base=args.base_branch,
+                            profile=args.profile, showcase=showcase, dry_run=args.dry_run)
         elif args.operation == 'init' and args.migrate:
             result = migrate(args.repo, args.repository)
         elif args.operation == 'init':
             result = initialize(args.repo, args.client, args.delivery, args.check, args.ci_check,
-                                args.no_ci, args.base_branch, args.plugin_path, args.update)
-            if args.public:
-                TOOLS.sync_showcase(root(args.repo), result['config']['repository'], public=True)
+                                args.no_ci, args.base_branch, args.plugin_path, args.update,
+                                profile=args.profile, showcase=showcase, dry_run=args.dry_run)
+        elif args.operation == 'upgrade':
+            result = upgrade(args.repo, args.delivery, args.client, args.profile, args.dry_run)
+        elif args.operation == 'disconnect':
+            result = disconnect(args.repo, args.dry_run)
         elif args.operation == 'begin':
             if not args.objective or not args.allowed_path:
                 raise WorkflowError('begin-needs-objective-and-actual-allowed-paths')
@@ -916,12 +1486,19 @@ def main():
                 raise WorkflowError('block-needs-concrete-reason')
             result = block(args.repo, args.reason)
         print(json.dumps(result, ensure_ascii=False, indent=2))
-        return 3 if result['status'] == 'waiting' else (2 if result['status'] in ('blocked', 'needs-configuration') else 0)
+        if result['status'] == 'waiting':
+            return 3
+        if result['status'] == 'disconnected' and args.operation == 'disconnect':
+            return 0
+        if result['status'] in ('blocked', 'disconnected', 'needs-configuration', 'needs-policy-confirmation'):
+            return 2
+        return 0
     except WorkflowError as error:
         print(json.dumps({'status': 'blocked', 'issues': [str(error)]}))
         return 2
-    except (OSError, ValueError, KeyError, TypeError, subprocess.SubprocessError):
-        print(json.dumps({'status': 'blocked', 'note': 'Read project policy and task state; reconcile the failed prerequisite before retrying. No credentials or raw CLI errors printed.'}))
+    except (OSError, ValueError, KeyError, TypeError, subprocess.SubprocessError) as error:
+        print(json.dumps({'status': 'blocked', 'issues': [type(error).__name__],
+                          'note': 'Read project policy and task state; reconcile the failed prerequisite before retrying. No credentials or raw CLI errors printed.'}))
         return 2
 
 
