@@ -119,6 +119,12 @@ class PolicyTests(unittest.TestCase):
         result = self.init(update=True, showcase='none')
         self.assertEqual(result['config']['showcase'], 'none')
 
+    def test_workflow_showcase_uses_runtime_version_in_generated_explorer(self):
+        result = self.init(profile='full', showcase='local')
+        text = (self.repo / 'docs/big-repo-explorer.html').read_text(encoding='utf-8')
+        self.assertIn(f'<span class="tag">{result["config"]["runtime_version"]}</span>', text)
+        self.assertNotIn('<span class="tag">2.0.0</span>', text)
+
     def test_update_preserves_policy_provenance_when_delivery_is_unchanged(self):
         self.init(delivery='merge', ci=['tests'])
         original = self.w.configuration(self.repo)['policy_record']
@@ -324,6 +330,10 @@ class PolicyTests(unittest.TestCase):
             with self.assertRaises(OSError):
                 self.w.upgrade(self.repo, delivery='commit', client='none', profile='core')
         self.assertFalse(plugin.exists())
+        old_script = next(
+            (self.repo / '.git/big-repo').glob('backup-*/old-runtime/scripts/project_workflow.py')
+        )
+        old_script.write_text('raise SystemExit(99)\n', encoding='utf-8')
 
         status = subprocess.run(
             [sys.executable, str(launcher), 'status', '--repo', str(self.repo)],
@@ -355,6 +365,48 @@ class PolicyTests(unittest.TestCase):
         self.assertEqual(recovered.returncode, 0, recovered.stdout + recovered.stderr)
         self.assertEqual(json.loads(recovered.stdout)['status'], 'upgraded')
         self.assertTrue(plugin.is_dir())
+
+    def test_stable_launcher_recovers_an_interrupted_runtime_creation(self):
+        self.init(client='codex')
+        plugin = self.repo / '.big-repo/plugin'
+        launcher = self.repo / '.big-repo/workflow.py'
+        removed = self.repo / 'removed-runtime'
+        plugin.replace(removed)
+        original_replace = Path.replace
+
+        def replace(path, target):
+            if path.name == 'new-runtime' and Path(target) == plugin:
+                raise OSError('process stopped during runtime creation')
+            return original_replace(path, target)
+
+        with patch.object(Path, 'replace', new=replace), patch.object(
+                self.w, 'rollback_lifecycle', side_effect=OSError('process stopped')
+        ):
+            with self.assertRaises(OSError):
+                self.w.upgrade(self.repo, delivery='commit', client='none', profile='core')
+        self.assertFalse(plugin.exists())
+
+        recovered = subprocess.run(
+            [
+                sys.executable,
+                str(launcher),
+                'upgrade',
+                '--repo',
+                str(self.repo),
+                '--delivery',
+                'commit',
+                '--client',
+                'none',
+                '--profile',
+                'core',
+            ],
+            capture_output=True,
+            text=True,
+            encoding='utf-8',
+        )
+        self.assertEqual(recovered.returncode, 0, recovered.stdout + recovered.stderr)
+        self.assertEqual(json.loads(recovered.stdout)['status'], 'upgraded')
+        self.assertTrue((plugin / 'scripts/project_workflow.py').is_file())
 
     def test_legacy_deliver_does_not_query_or_write_remote(self):
         self.init()

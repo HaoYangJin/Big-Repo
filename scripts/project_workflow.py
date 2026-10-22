@@ -32,6 +32,7 @@ RECOVERY_LAUNCHER = '''#!/usr/bin/env python3
 # big-repo:stable-launcher
 import json
 from pathlib import Path
+import hashlib
 import re
 import runpy
 import subprocess
@@ -41,6 +42,18 @@ import sys
 def fail(message):
     print(json.dumps({"status": "blocked", "issues": [message]}))
     raise SystemExit(2)
+
+
+def runtime_hashes(root):
+    if not root.is_dir():
+        return None
+    return {
+        path.relative_to(root).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        for path in root.rglob("*")
+        if path.is_file()
+        and "__pycache__" not in path.relative_to(root).parts
+        and path.suffix not in {".pyc", ".pyo"}
+    }
 
 
 repo = Path(__file__).resolve().parents[1]
@@ -73,10 +86,25 @@ if not script.is_file():
         fail("stable-launcher-recovery-state-unavailable")
     if journal.get("status") != "prepared" or not isinstance(backup, str) or not re.fullmatch(r"backup-[0-9a-f]+", backup):
         fail("stable-launcher-recovery-state-invalid")
-    runtime = "old-runtime" if journal.get("runtime_replaced") else "new-runtime"
-    if runtime == "new-runtime" and not journal.get("runtime_created"):
-        fail("stable-launcher-recovery-state-invalid")
-    script = (git_dir / "big-repo" / backup / runtime / "scripts/project_workflow.py").resolve()
+    backup_root = git_dir / "big-repo" / backup
+    candidates = []
+    for runtime, key in (("new-runtime", "runtime_hashes"), ("old-runtime", "installed_hashes")):
+        raw_root = backup_root / runtime
+        if raw_root.is_symlink():
+            continue
+        root = raw_root.resolve()
+        if not root.is_relative_to(git_dir):
+            continue
+        expected = journal.get(key)
+        try:
+            matches = root.is_dir() and isinstance(expected, dict) and runtime_hashes(root) == expected
+        except OSError:
+            matches = False
+        if matches:
+            candidates.append(root / "scripts/project_workflow.py")
+    if not candidates:
+        fail("stable-launcher-recovery-script-unavailable")
+    script = candidates[0].resolve()
     if not script.is_file() or not script.is_relative_to(git_dir):
         fail("stable-launcher-recovery-script-unavailable")
 
@@ -282,6 +310,23 @@ def ensure_recovery_launcher(repo):
     launcher.parent.mkdir(parents=True, exist_ok=True)
     atomic_text(launcher, RECOVERY_LAUNCHER)
     return launcher
+
+
+def normalize_explorer_header(repo, version):
+    output = safe_path(repo, 'docs/big-repo-explorer.html')
+    if not output.is_file():
+        raise WorkflowError('explorer-output-missing')
+    text = output.read_text(encoding='utf-8')
+    normalized, replaced = re.subn(
+        r'(<span class="tag">)\d+\.\d+\.\d+(</span>)',
+        lambda match: match.group(1) + version + match.group(2),
+        text,
+        count=1,
+    )
+    if replaced != 1:
+        raise WorkflowError('explorer-version-marker-missing')
+    if normalized != text:
+        atomic_text(output, normalized)
 
 
 def policy_gate(config):
@@ -648,6 +693,7 @@ def initialize(repo, client=None, delivery=None, checks=None, ci=None, no_ci=Fal
         raise WorkflowError('project-runtime-missing')
     if showcase != 'none':
         TOOLS.sync_showcase(repo, data['repository'], public=showcase == 'public')
+        normalize_explorer_header(repo, data['runtime_version'])
     block = instruction_block(plugin, data['delivery'])
     for file, text in texts.items():
         chosen = ('codex' if file.name == 'AGENTS.md' else 'claude') in clients
