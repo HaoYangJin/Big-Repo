@@ -103,6 +103,14 @@ class PolicyTests(unittest.TestCase):
                 self.assertFalse(target.exists())
                 self.assertEqual(self.files(), before)
 
+    def test_create_dry_run_rejects_invalid_check_command_before_writes(self):
+        target = self.repo / 'new-project'
+        before = self.files()
+        with self.assertRaises(self.w.WorkflowError):
+            self.w.create(target, checks=["'unterminated"], dry_run=True)
+        self.assertFalse(target.exists())
+        self.assertEqual(self.files(), before)
+
     def test_instructions_reflect_selected_policy_and_client(self):
         self.init(client='codex')
         text = (self.repo / 'AGENTS.md').read_text(encoding='utf-8')
@@ -366,6 +374,53 @@ class PolicyTests(unittest.TestCase):
         self.assertEqual(json.loads(recovered.stdout)['status'], 'upgraded')
         self.assertTrue(plugin.is_dir())
 
+    def test_stable_launcher_prefers_interrupted_new_runtime_during_partial_rollback(self):
+        self.init(client='codex')
+        plugin = self.repo / '.big-repo/plugin'
+        launcher = self.repo / '.big-repo/workflow.py'
+        original_replace = Path.replace
+        original_write_json = self.w.write_json
+
+        def replace(path, target):
+            if path.name == 'old-runtime' and Path(target) == plugin:
+                raise OSError('process stopped while restoring the old runtime')
+            return original_replace(path, target)
+
+        def write_json(path, data):
+            if Path(path) == self.repo / self.w.CONFIG:
+                raise OSError('process stopped before policy commit')
+            return original_write_json(path, data)
+
+        with patch.object(Path, 'replace', new=replace), patch.object(self.w, 'write_json', side_effect=write_json):
+            with self.assertRaises(OSError):
+                self.w.upgrade(self.repo, delivery='commit', client='none', profile='core')
+        self.assertFalse(plugin.exists())
+
+        directory = self.w.state_dir(self.repo, create=False)
+        ledger = directory / 'lifecycle.json'
+        journal = json.loads(ledger.read_text(encoding='utf-8'))
+        backup = directory / journal['backup']
+        interrupted = list(backup.glob('interrupted-runtime-*'))
+        self.assertEqual(len(interrupted), 1)
+
+        old_runtime = backup / 'old-runtime'
+        (old_runtime / 'scripts/project_workflow.py').write_text('raise SystemExit(99)\n', encoding='utf-8')
+        journal['installed_hashes'] = {
+            path.relative_to(old_runtime).as_posix(): self.w.hashlib.sha256(path.read_bytes()).hexdigest()
+            for path in old_runtime.rglob('*')
+            if path.is_file() and '__pycache__' not in path.relative_to(old_runtime).parts
+        }
+        self.w.write_json(ledger, journal)
+
+        recovered = subprocess.run(
+            [sys.executable, str(launcher), 'status', '--repo', str(self.repo)],
+            capture_output=True,
+            text=True,
+            encoding='utf-8',
+        )
+        self.assertEqual(recovered.returncode, 0, recovered.stdout + recovered.stderr)
+        self.assertEqual(json.loads(recovered.stdout)['status'], 'recovery-required')
+
     def test_stable_launcher_recovers_an_interrupted_runtime_creation(self):
         self.init(client='codex')
         plugin = self.repo / '.big-repo/plugin'
@@ -418,10 +473,17 @@ class PolicyTests(unittest.TestCase):
             self.assertEqual(self.w.deliver(self.repo)['status'], 'needs-policy-confirmation')
         self.assertFalse((self.repo / '.git/big-repo').exists())
 
-    def test_cli_disconnected_begin_and_deliver_fail(self):
+    def test_cli_disconnect_succeeds_but_disconnected_begin_and_deliver_fail(self):
         self.init()
-        self.w.disconnect(self.repo)
         script = ROOT / 'scripts/project_workflow.py'
+        disconnected = subprocess.run(
+            [sys.executable, str(script), 'disconnect', '--repo', str(self.repo)],
+            capture_output=True,
+            text=True,
+            encoding='utf-8',
+        )
+        self.assertEqual(disconnected.returncode, 0, disconnected.stdout + disconnected.stderr)
+        self.assertEqual(json.loads(disconnected.stdout)['status'], 'disconnected')
         commands = (
             ['begin', '--repo', str(self.repo), '--objective', 'Change', '--allowed-path', 'README.md'],
             ['deliver', '--repo', str(self.repo)],

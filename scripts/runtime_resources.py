@@ -53,7 +53,7 @@ def runtime_files(directory, profile='full'):
 def resource_bytes(relative, path, files, version):
     data = path.read_bytes()
     if relative.as_posix() == 'assets/explorer.html':
-        header = rb'(<span class="tag">)\d+\.\d+\.\d+(</span>)'
+        header = rb'(<span class="tag">)\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?(</span>)'
         data, replaced = re.subn(header, rb'\g<1>' + version.encode('ascii') + rb'\g<2>', data, count=1)
         if replaced != 1:
             raise ValueError('Explorer header version marker is missing')

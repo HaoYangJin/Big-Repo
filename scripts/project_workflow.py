@@ -56,6 +56,21 @@ def runtime_hashes(root):
     }
 
 
+def matching_script(raw_root, expected, boundary):
+    if raw_root.is_symlink() or not isinstance(expected, dict):
+        return None
+    try:
+        root = raw_root.resolve()
+        if not root.is_relative_to(boundary) or not root.is_dir() or runtime_hashes(root) != expected:
+            return None
+    except OSError:
+        return None
+    candidate = (root / "scripts/project_workflow.py").resolve()
+    if candidate.is_file() and candidate.is_relative_to(root):
+        return candidate
+    return None
+
+
 repo = Path(__file__).resolve().parents[1]
 try:
     config = json.loads((repo / ".big-repo/config.json").read_text(encoding="utf-8"))
@@ -66,47 +81,69 @@ if not plugin.is_relative_to(repo):
     fail("stable-launcher-plugin-outside-repository")
 
 script = plugin / "scripts/project_workflow.py"
-if not script.is_file():
-    result = subprocess.run(
-        ["git", "rev-parse", "--absolute-git-dir"],
-        cwd=repo,
-        capture_output=True,
-        text=True,
-        encoding="utf-8",
-        errors="replace",
-    )
-    if result.returncode:
-        fail("stable-launcher-git-directory-unavailable")
-    git_dir = Path(result.stdout.strip()).resolve()
-    ledger = git_dir / "big-repo/lifecycle.json"
+result = subprocess.run(
+    ["git", "rev-parse", "--absolute-git-dir"],
+    cwd=repo,
+    capture_output=True,
+    text=True,
+    encoding="utf-8",
+    errors="replace",
+)
+if result.returncode:
+    fail("stable-launcher-git-directory-unavailable")
+git_dir = Path(result.stdout.strip()).resolve()
+ledger = git_dir / "big-repo/lifecycle.json"
+journal = None
+if ledger.exists():
     try:
         journal = json.loads(ledger.read_text(encoding="utf-8"))
-        backup = journal["backup"]
     except (OSError, ValueError, KeyError, TypeError):
         fail("stable-launcher-recovery-state-unavailable")
+    if not isinstance(journal, dict):
+        fail("stable-launcher-recovery-state-invalid")
+    if journal.get("status") == "prepared":
+        backup = journal.get("backup")
+    else:
+        journal = None
+if journal is not None:
     if journal.get("status") != "prepared" or not isinstance(backup, str) or not re.fullmatch(r"backup-[0-9a-f]+", backup):
         fail("stable-launcher-recovery-state-invalid")
     backup_root = git_dir / "big-repo" / backup
+    if backup_root.is_symlink():
+        fail("stable-launcher-recovery-state-invalid")
+    backup_root = backup_root.resolve()
+    if not backup_root.is_relative_to(git_dir):
+        fail("stable-launcher-recovery-state-invalid")
+    try:
+        interrupted = sorted(
+            path for path in backup_root.iterdir()
+            if re.fullmatch(r"interrupted-runtime-[0-9a-f]+", path.name)
+        )
+    except OSError:
+        fail("stable-launcher-recovery-state-unavailable")
     candidates = []
-    for runtime, key in (("new-runtime", "runtime_hashes"), ("old-runtime", "installed_hashes")):
-        raw_root = backup_root / runtime
-        if raw_root.is_symlink():
-            continue
-        root = raw_root.resolve()
-        if not root.is_relative_to(git_dir):
-            continue
-        expected = journal.get(key)
-        try:
-            matches = root.is_dir() and isinstance(expected, dict) and runtime_hashes(root) == expected
-        except OSError:
-            matches = False
-        if matches:
-            candidates.append(root / "scripts/project_workflow.py")
+    groups = [
+        (journal.get("runtime_hashes"), [
+            (backup_root / "new-runtime", git_dir),
+            *((path, git_dir) for path in interrupted),
+            (plugin, repo),
+        ]),
+        (journal.get("installed_hashes"), [
+            (backup_root / "old-runtime", git_dir),
+            (plugin, repo),
+        ]),
+    ]
+    for expected, roots in groups:
+        for raw_root, boundary in roots:
+            candidates.append(matching_script(raw_root, expected, boundary))
+    candidates = [candidate for candidate in candidates if candidate is not None]
     if not candidates:
         fail("stable-launcher-recovery-script-unavailable")
-    script = candidates[0].resolve()
-    if not script.is_file() or not script.is_relative_to(git_dir):
+    script = candidates[0]
+    if not script.is_file() or not (script.is_relative_to(repo) or script.is_relative_to(git_dir)):
         fail("stable-launcher-recovery-script-unavailable")
+elif not script.is_file():
+    fail("stable-launcher-runtime-missing")
 
 runpy.run_path(str(script), run_name="__main__")
 '''
@@ -216,6 +253,21 @@ def infer_checks(repo):
                               for p in tests.glob('test*.py') if p.is_file()):
         return [{'id': 'tests', 'argv': ['python', '-m', 'unittest', 'discover', '-s', 'tests']}]
     return []
+
+
+def parse_checks(checks):
+    if checks is None:
+        return None
+    parsed = []
+    for index, text in enumerate(checks):
+        try:
+            argv = shlex.split(text)
+        except ValueError:
+            raise WorkflowError('invalid-validation-command') from None
+        if not argv:
+            raise WorkflowError('invalid-validation-command')
+        parsed.append({'id': f'check-{index + 1}', 'argv': argv})
+    return parsed
 
 
 def validate_config(data):
@@ -540,6 +592,7 @@ def create(repo, repository=None, visibility='private', **options):
         raise WorkflowError('public-showcase-needs-public-visibility')
     if showcase != 'none':
         preflight_showcase(repo, repository, public=showcase == 'public')
+    parse_checks(options.get('checks'))
     if options.get('dry_run'):
         return {'status': 'preview', 'repository': repository, 'visibility': visibility,
                 'delivery': delivery, 'clients': clients, 'profile': profile, 'showcase': showcase,
@@ -675,8 +728,8 @@ def initialize(repo, client=None, delivery=None, checks=None, ci=None, no_ci=Fal
                 else {'source': 'safe-default-init',
                       'recorded_at': datetime.now(timezone.utc).isoformat(timespec='seconds')}
             ),
-            'validation': ([{'id': f'check-{i + 1}', 'argv': shlex.split(c)} for i, c in enumerate(checks)]
-                           if checks is not None else (previous['validation'] if previous else infer_checks(repo))),
+            'validation': (parse_checks(checks) if checks is not None
+                           else (previous['validation'] if previous else infer_checks(repo))),
             'ci_policy': 'none' if no_ci else (previous['ci_policy'] if previous and ci is None else 'required'),
             'required_checks': [] if no_ci else (ci if ci is not None else (previous['required_checks'] if previous else []))}
     validate_config(data)
@@ -1430,9 +1483,13 @@ def main():
                 raise WorkflowError('block-needs-concrete-reason')
             result = block(args.repo, args.reason)
         print(json.dumps(result, ensure_ascii=False, indent=2))
-        return 3 if result['status'] == 'waiting' else (
-            2 if result['status'] in ('blocked', 'disconnected', 'needs-configuration', 'needs-policy-confirmation') else 0
-        )
+        if result['status'] == 'waiting':
+            return 3
+        if result['status'] == 'disconnected' and args.operation == 'disconnect':
+            return 0
+        if result['status'] in ('blocked', 'disconnected', 'needs-configuration', 'needs-policy-confirmation'):
+            return 2
+        return 0
     except WorkflowError as error:
         print(json.dumps({'status': 'blocked', 'issues': [str(error)]}))
         return 2

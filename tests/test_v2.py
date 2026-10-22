@@ -63,6 +63,13 @@ class V2Tests(unittest.TestCase):
         self.assertNotIn('<span class="tag">2.0.0</span>', text)
         self.assertIn(f'<span class="tag">{version}</span>', (ROOT / 'docs/big-repo-explorer.html').read_text(encoding='utf-8'))
 
+    def test_source_explorer_renderer_uses_catalog_version(self):
+        explore = load('explore')
+        version = json.loads((ROOT / 'assets/catalog.json').read_text(encoding='utf-8'))['version']
+        text = explore.render(explore.demo())
+        self.assertIn(f'<span class="tag">{version}</span>', text)
+        self.assertNotIn('<span class="tag">2.0.0</span>', text)
+
     def test_showcase_is_idempotent_and_private_by_default(self):
         self.tools.sync_showcase(self.repo, 'example/project')
         text = (self.repo / 'README.md').read_text(encoding='utf-8')

@@ -41,6 +41,8 @@ Big-Repo is a repository toolkit for AI coding clients: 8 skills, 6 templates, a
 
 Requires Python 3.11+ and Git. Creating or delivering to GitHub also requires authenticated `gh`. Development and independent review require a capable AI client.
 
+The playground commands below require a `full` runtime with `scripts/explore.py`; the default `core` onboarding focuses on skills and offline documentation.
+
 **Try it without GitHub authentication:**
 
 ```sh
