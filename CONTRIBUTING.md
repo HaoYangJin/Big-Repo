@@ -2,6 +2,10 @@
 
 先阅读 [Git 工作流](docs/git-workflow.md) 和 [提交规范](skills/git-commit/references/commit-conventions.md)。
 
+## 社区与许可
+
+参与讨论和评审请遵守 [行为准则](CODE_OF_CONDUCT.md)，报告与复核方式也在其中说明。本项目原创代码与文档采用 [MIT 许可证](LICENSE)；提交前确认你有权贡献相关内容，保留第三方来源、署名与许可声明。项目背景与参与建议见 [项目故事](docs/project-story.md)。
+
 ## 修改规范
 
 描述要解决的具体问题及适用场景。修改默认行为时给出迁移方式；仅属偏好的规则标明为建议。
