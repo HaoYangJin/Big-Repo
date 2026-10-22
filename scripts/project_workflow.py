@@ -162,16 +162,22 @@ def write_json(path, data):
         temporary.unlink(missing_ok=True)
 
 
-def atomic_text(path, text):
+def atomic_bytes(path, data):
     temporary = None
     try:
         with tempfile.NamedTemporaryFile(dir=path.parent, prefix='.' + path.name + '.big-repo-', delete=False) as stream:
             temporary = Path(stream.name)
-            stream.write(text.encode('utf-8'))
+            stream.write(data)
+            stream.flush()
+            os.fsync(stream.fileno())
         temporary.replace(path)
     finally:
         if temporary is not None:
             temporary.unlink(missing_ok=True)
+
+
+def atomic_text(path, text):
+    atomic_bytes(path, text.encode('utf-8'))
 
 
 def identity(repo):
@@ -973,7 +979,7 @@ def rollback_lifecycle(repo, directory, journal):
             file.unlink(missing_ok=True)
         else:
             # Restore exact bytes independently of the write function that failed.
-            file.write_bytes(bytes.fromhex(content))
+            atomic_bytes(file, bytes.fromhex(content))
     journal['status'] = 'rolled-back'
     write_json(directory / 'lifecycle.json', journal)
 
@@ -1424,7 +1430,9 @@ def main():
                 raise WorkflowError('block-needs-concrete-reason')
             result = block(args.repo, args.reason)
         print(json.dumps(result, ensure_ascii=False, indent=2))
-        return 3 if result['status'] == 'waiting' else (2 if result['status'] in ('blocked', 'needs-configuration', 'needs-policy-confirmation') else 0)
+        return 3 if result['status'] == 'waiting' else (
+            2 if result['status'] in ('blocked', 'disconnected', 'needs-configuration', 'needs-policy-confirmation') else 0
+        )
     except WorkflowError as error:
         print(json.dumps({'status': 'blocked', 'issues': [str(error)]}))
         return 2

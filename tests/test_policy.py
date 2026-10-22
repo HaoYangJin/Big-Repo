@@ -418,6 +418,54 @@ class PolicyTests(unittest.TestCase):
             self.assertEqual(self.w.deliver(self.repo)['status'], 'needs-policy-confirmation')
         self.assertFalse((self.repo / '.git/big-repo').exists())
 
+    def test_cli_disconnected_begin_and_deliver_fail(self):
+        self.init()
+        self.w.disconnect(self.repo)
+        script = ROOT / 'scripts/project_workflow.py'
+        commands = (
+            ['begin', '--repo', str(self.repo), '--objective', 'Change', '--allowed-path', 'README.md'],
+            ['deliver', '--repo', str(self.repo)],
+        )
+        for arguments in commands:
+            with self.subTest(operation=arguments[0]):
+                result = subprocess.run(
+                    [sys.executable, str(script), *arguments],
+                    capture_output=True,
+                    text=True,
+                    encoding='utf-8',
+                )
+                self.assertEqual(result.returncode, 2, result.stdout + result.stderr)
+                self.assertEqual(json.loads(result.stdout)['status'], 'disconnected')
+
+    def test_lifecycle_rollback_restores_files_without_direct_writes(self):
+        self.init(client='codex')
+        original_atomic_text = self.w.atomic_text
+
+        def interrupt(path, text):
+            if path.name == 'AGENTS.md':
+                raise OSError('interrupted')
+            return original_atomic_text(path, text)
+
+        with patch.object(self.w, 'atomic_text', side_effect=interrupt), patch.object(
+                self.w, 'rollback_lifecycle', side_effect=OSError('process stopped')
+        ):
+            with self.assertRaises(OSError):
+                self.w.upgrade(self.repo, delivery='commit', client='none', profile='core')
+
+        directory = self.w.state_dir(self.repo, create=False)
+        journal = json.loads((directory / 'lifecycle.json').read_text(encoding='utf-8'))
+        config_path = self.repo / self.w.CONFIG
+        agents_path = self.repo / 'AGENTS.md'
+        expected_config = bytes.fromhex(journal['originals'][self.w.CONFIG])
+        expected_agents = bytes.fromhex(journal['originals']['AGENTS.md'])
+
+        with patch.object(Path, 'write_bytes', side_effect=AssertionError('direct write used during rollback')):
+            self.w.rollback_lifecycle(self.repo, directory, journal)
+
+        self.assertEqual(config_path.read_bytes(), expected_config)
+        self.assertEqual(agents_path.read_bytes(), expected_agents)
+        self.assertEqual(json.loads((directory / 'lifecycle.json').read_text(encoding='utf-8'))['status'], 'rolled-back')
+
 
 if __name__ == '__main__':
     unittest.main()
