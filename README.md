@@ -94,7 +94,13 @@ python scripts/explore.py --repo . --output ../Big-Repo-report.html
 
 交付终点支持本地提交、PR、验证后合并。用户本轮更窄限制、项目规则和平台保护优先。版本发布需要明确版本授权，部署与全局安装另行授权。
 
-[实际 Releases](https://github.com/HaoYangJin/Big-Repo/releases) · [变更记录](CHANGELOG.md) · [验证范围](docs/validation.md) · [贡献说明](CONTRIBUTING.md) · [历史记录](docs/archive/README.md)
+[实际 Releases](https://github.com/HaoYangJin/Big-Repo/releases) · [变更记录](CHANGELOG.md) · [验证范围](docs/validation.md) · [贡献说明](CONTRIBUTING.md) · [历史记录](docs/archive/README.md) · [项目故事](docs/project-story.md) · [行为准则](CODE_OF_CONDUCT.md) · [MIT 许可证](LICENSE)
+
+## 社区与许可
+
+欢迎通过 Issue 和 PR 改进技能、工具、文档与体验，参与方式见 [贡献说明](CONTRIBUTING.md)，交流遵循 [行为准则](CODE_OF_CONDUCT.md)。从早期维护技能到可恢复交付与离线探索台的演进，见 [项目故事](docs/project-story.md)。
+
+本项目原创代码与文档采用 [MIT 许可证](LICENSE)；第三方引用与素材遵循各自许可。
 
 <!-- big-repo:showcase:start -->
 ## 项目导航

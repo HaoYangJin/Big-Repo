@@ -94,7 +94,7 @@ See [installation](docs/install.md) for checksums, upgrades and rollback, and [m
 
 Delivery endpoints are local commit, PR and verified merge. Narrower user requests, project rules and platform protections take precedence. Publishing requires an explicitly authorized version; deployment and global installation need their own authorization.
 
-[Releases](https://github.com/HaoYangJin/Big-Repo/releases) · [Changelog](CHANGELOG.md) · [Validation limits](docs/validation.md) · [Contributing](CONTRIBUTING.md) · [Historical records](docs/archive/README.md)
+[Releases](https://github.com/HaoYangJin/Big-Repo/releases) · [Changelog](CHANGELOG.md) · [Validation limits](docs/validation.md) · [Contributing](CONTRIBUTING.md) · [Historical records](docs/archive/README.md) · [Project story (中文)](docs/project-story.md) · [Code of conduct (中文)](CODE_OF_CONDUCT.md) · [MIT License](LICENSE)
 
 <!-- big-repo:showcase:start -->
 ## Project navigator

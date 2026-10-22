@@ -8,6 +8,9 @@
 | 交互体验与仓库展示 | [玩法说明](showcase.md) |
 | 修改、测试和构建 | [开发说明](development.md) |
 | 实际验证范围与限制 | [验收记录](validation.md) |
+| 项目背景、版本足迹与参与方向 | [项目故事](project-story.md) |
+| 社区交流与问题报告 | [行为准则](../CODE_OF_CONDUCT.md) |
+| 开源使用与分发 | [MIT 许可证](../LICENSE) |
 | Git 协作 | [协作约定](git-workflow.md) |
 | 发行操作 | [发布流程](releases.md) |
 | 历史过程与证据 | [归档](archive/README.md) |
