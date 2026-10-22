@@ -320,6 +320,54 @@ class PolicyTests(unittest.TestCase):
             self.w.upgrade(self.repo, delivery='commit', client='none', profile='core')
         self.assertEqual(before, self.files())
 
+    def test_interrupted_staging_keeps_old_project_ready_for_retry(self):
+        self.init(client='codex')
+        original_config = (self.repo / self.w.CONFIG).read_bytes()
+        original_rules = (self.repo / 'AGENTS.md').read_bytes()
+        original_write = Path.write_bytes
+
+        def write(path, content):
+            if 'new-runtime' in path.parts:
+                raise SystemExit('process stopped while staging')
+            return original_write(path, content)
+
+        with patch.object(Path, 'write_bytes', new=write), patch.object(
+                self.w, 'rollback_lifecycle', side_effect=SystemExit('process terminated')
+        ):
+            with self.assertRaises(SystemExit):
+                self.w.upgrade(self.repo, delivery='commit', client='none', profile='core')
+        self.assertEqual((self.repo / self.w.CONFIG).read_bytes(), original_config)
+        self.assertEqual((self.repo / 'AGENTS.md').read_bytes(), original_rules)
+        self.assertFalse(self.w.lifecycle_pending(self.repo))
+        self.assertEqual(self.w.upgrade(
+            self.repo, delivery='commit', client='none', profile='core'
+        )['status'], 'upgraded')
+
+    def test_prepared_upgrade_always_has_new_recovery_code(self):
+        self.init(client='codex')
+        # Model the old runtime's lack of upgrade/disconnect CLI support.
+        old_script = self.repo / '.big-repo/plugin/scripts/project_workflow.py'
+        old_script.write_text('raise SystemExit(99)\n', encoding='utf-8')
+        original_write = self.w.write_json
+
+        def write(path, data):
+            original_write(path, data)
+            if path.name == 'lifecycle.json' and data['status'] == 'prepared':
+                raise SystemExit('process stopped after prepared journal')
+
+        with patch.object(self.w, 'write_json', side_effect=write), patch.object(
+                self.w, 'rollback_lifecycle', side_effect=SystemExit('process terminated')
+        ):
+            with self.assertRaises(SystemExit):
+                self.w.upgrade(self.repo, delivery='commit', client='none', profile='core')
+        recovered = subprocess.run(
+            [sys.executable, str(self.repo / '.big-repo/workflow.py'), 'upgrade',
+             '--repo', str(self.repo), '--delivery', 'commit', '--client', 'none', '--profile', 'core'],
+            capture_output=True, text=True, encoding='utf-8',
+        )
+        self.assertEqual(recovered.returncode, 0, recovered.stdout + recovered.stderr)
+        self.assertEqual(json.loads(recovered.stdout)['status'], 'upgraded')
+
     def test_stable_launcher_recovers_after_runtime_directory_is_absent(self):
         self.init(client='codex')
         plugin = self.repo / '.big-repo/plugin'

@@ -966,18 +966,21 @@ def lifecycle(repo, previous, data, pending, operation, dry_run, snapshots):
                    'runtime_replaced': False, 'runtime_created': False,
                    'expected': {CONFIG: (json.dumps(data, ensure_ascii=False, indent=2) + '\n').encode().hex(),
                                 **{name: text.encode().hex() for name, text in pending.items()}}}
+        # A prepared transaction must already contain executable new recovery
+        # code: an installed older runtime may not support lifecycle commands.
+        # Staging failures leave the original project untouched and retryable.
+        if resources:
+            staged = backup / 'new-runtime'
+            staged.mkdir()
+            for relative, file in resources.items():
+                destination = staged / relative
+                destination.parent.mkdir(parents=True, exist_ok=True)
+                destination.write_bytes(runtime_resource_bytes(relative, file, resources, runtime_version(repo)))
+            journal['runtime_hashes'] = {p.relative_to(staged).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
+                                         for p in staged.rglob('*') if p.is_file()}
         write_json(ledger, journal)
         try:
             if resources:
-                staged = backup / 'new-runtime'
-                staged.mkdir()
-                for relative, file in resources.items():
-                    destination = staged / relative
-                    destination.parent.mkdir(parents=True, exist_ok=True)
-                    destination.write_bytes(runtime_resource_bytes(relative, file, resources, runtime_version(repo)))
-                journal['runtime_hashes'] = {p.relative_to(staged).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
-                                             for p in staged.rglob('*') if p.is_file()}
-                write_json(ledger, journal)
                 if target.exists():
                     journal['runtime_replaced'] = True
                     write_json(ledger, journal)
