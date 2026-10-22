@@ -3,6 +3,7 @@ import importlib.util
 import json
 from pathlib import Path
 import subprocess
+import sys
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -72,6 +73,36 @@ class PolicyTests(unittest.TestCase):
         self.assertEqual(result['status'], 'preview')
         self.assertFalse(target.exists())
 
+    def test_showcase_preflight_failure_leaves_initialization_untouched(self):
+        readme = self.repo / 'README.md'
+        readme.write_text(
+            '# User project\n\n<!-- big-repo:showcase:start -->\n'
+            '<!-- big-repo:showcase:start -->\n'
+            '<!-- big-repo:showcase:end -->\n',
+            encoding='utf-8',
+        )
+        before = self.files()
+        with self.assertRaises(ValueError):
+            self.init(profile='full', showcase='local')
+        self.assertEqual(self.files(), before)
+
+    def test_create_rejects_impossible_public_showcase_before_writes(self):
+        target = self.repo / 'new-project'
+        before = self.files()
+        for repository, visibility in ((None, 'public'), ('example/project', 'private')):
+            with self.subTest(repository=repository, visibility=visibility):
+                with self.assertRaises(self.w.WorkflowError):
+                    self.w.create(
+                        target,
+                        repository,
+                        visibility,
+                        profile='full',
+                        showcase='public',
+                        dry_run=True,
+                    )
+                self.assertFalse(target.exists())
+                self.assertEqual(self.files(), before)
+
     def test_instructions_reflect_selected_policy_and_client(self):
         self.init(client='codex')
         text = (self.repo / 'AGENTS.md').read_text(encoding='utf-8')
@@ -87,6 +118,13 @@ class PolicyTests(unittest.TestCase):
         self.assertEqual(result['config']['showcase'], 'local')
         result = self.init(update=True, showcase='none')
         self.assertEqual(result['config']['showcase'], 'none')
+
+    def test_update_preserves_policy_provenance_when_delivery_is_unchanged(self):
+        self.init(delivery='merge', ci=['tests'])
+        original = self.w.configuration(self.repo)['policy_record']
+        result = self.init(update=True, client='codex')
+        self.assertEqual(result['config']['delivery'], 'merge')
+        self.assertEqual(result['config']['policy_record'], original)
 
     def test_status_without_task_is_read_only_and_shows_policy(self):
         self.init()
@@ -267,6 +305,56 @@ class PolicyTests(unittest.TestCase):
         with self.assertRaisesRegex(self.w.WorkflowError, 'runtime-conflict'):
             self.w.upgrade(self.repo, delivery='commit', client='none', profile='core')
         self.assertEqual(before, self.files())
+
+    def test_stable_launcher_recovers_after_runtime_directory_is_absent(self):
+        self.init(client='codex')
+        plugin = self.repo / '.big-repo/plugin'
+        launcher = self.repo / '.big-repo/workflow.py'
+        self.assertTrue(launcher.is_file())
+        original_replace = Path.replace
+
+        def replace(path, target):
+            if path.name == 'new-runtime' and Path(target) == plugin:
+                raise OSError('process stopped during runtime swap')
+            return original_replace(path, target)
+
+        with patch.object(Path, 'replace', new=replace), patch.object(
+                self.w, 'rollback_lifecycle', side_effect=OSError('process stopped')
+        ):
+            with self.assertRaises(OSError):
+                self.w.upgrade(self.repo, delivery='commit', client='none', profile='core')
+        self.assertFalse(plugin.exists())
+
+        status = subprocess.run(
+            [sys.executable, str(launcher), 'status', '--repo', str(self.repo)],
+            capture_output=True,
+            text=True,
+            encoding='utf-8',
+        )
+        self.assertEqual(status.returncode, 0, status.stdout + status.stderr)
+        self.assertEqual(json.loads(status.stdout)['status'], 'recovery-required')
+
+        recovered = subprocess.run(
+            [
+                sys.executable,
+                str(launcher),
+                'upgrade',
+                '--repo',
+                str(self.repo),
+                '--delivery',
+                'commit',
+                '--client',
+                'none',
+                '--profile',
+                'core',
+            ],
+            capture_output=True,
+            text=True,
+            encoding='utf-8',
+        )
+        self.assertEqual(recovered.returncode, 0, recovered.stdout + recovered.stderr)
+        self.assertEqual(json.loads(recovered.stdout)['status'], 'upgraded')
+        self.assertTrue(plugin.is_dir())
 
     def test_legacy_deliver_does_not_query_or_write_remote(self):
         self.init()

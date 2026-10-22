@@ -45,9 +45,10 @@ python scripts/project_workflow.py upgrade --repo . --delivery commit --client n
 python scripts/project_workflow.py upgrade --repo . --delivery commit --client none --profile core
 python scripts/project_workflow.py disconnect --repo . --dry-run
 python scripts/project_workflow.py disconnect --repo .
+python .big-repo/workflow.py status --repo .
 ```
 
-有活动任务时拒绝升级或停用；先用原运行目录完成，或按用户指令 cancel --reason 后再开始。旧配置、日志、任务身份和 PR 关联保留。运行目录暂存后替换并备份；遇到非托管文件、异常标记或恢复冲突拒绝覆盖。status 显示 recovery-required 时，先重试 upgrade 或 disconnect 完成恢复；init、begin 与 deliver 不在半写入状态下继续。中断后重试相同生命周期操作，恢复前核对登记内容与现场；不通过删除备份、状态或旧证据绕过门槛。
+有活动任务时拒绝升级或停用；先用原运行目录完成，或按用户指令 cancel --reason 后再开始。旧配置、日志、任务身份和 PR 关联保留。运行目录暂存后替换并备份；初始化会写入 `.big-repo/workflow.py` 稳定入口，即使运行目录正在切换或暂时缺失，也可用它执行 status 和原生命周期操作。遇到非托管文件、异常标记或恢复冲突拒绝覆盖。status 显示 recovery-required 时，先重试 upgrade 或 disconnect 完成恢复；init、begin 与 deliver 不在半写入状态下继续。中断后重试相同生命周期操作，恢复前核对登记内容与现场；不通过删除备份、状态或旧证据绕过门槛。
 
 disconnect 只移除有效托管段并停用接入；不删除 README、运行目录、日志、分支或 PR。重新启用需显式 init --update。1.x 先用 init --migrate 完成命名空间迁移，再按上述策略确认；未闭合的旧任务先用原版完成或显式取消。
 
