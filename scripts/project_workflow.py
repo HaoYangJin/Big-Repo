@@ -913,6 +913,7 @@ def lifecycle(repo, previous, data, pending, operation, dry_run, snapshots):
     if not source.is_dir():
         source = target
     resources = runtime_files(source, data['profile']) if operation == 'upgrade' and target != repo else {}
+    recovery_resources = resources or runtime_files(source, data.get('profile', 'core'))
     installed = {}
     if resources and target.exists():
         owned = runtime_files(target)
@@ -969,15 +970,14 @@ def lifecycle(repo, previous, data, pending, operation, dry_run, snapshots):
         # A prepared transaction must already contain executable new recovery
         # code: an installed older runtime may not support lifecycle commands.
         # Staging failures leave the original project untouched and retryable.
-        if resources:
-            staged = backup / 'new-runtime'
-            staged.mkdir()
-            for relative, file in resources.items():
-                destination = staged / relative
-                destination.parent.mkdir(parents=True, exist_ok=True)
-                destination.write_bytes(runtime_resource_bytes(relative, file, resources, runtime_version(repo)))
-            journal['runtime_hashes'] = {p.relative_to(staged).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
-                                         for p in staged.rglob('*') if p.is_file()}
+        staged = backup / 'new-runtime'
+        staged.mkdir()
+        for relative, file in recovery_resources.items():
+            destination = staged / relative
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            destination.write_bytes(runtime_resource_bytes(relative, file, recovery_resources, runtime_version(repo)))
+        journal['runtime_hashes'] = {p.relative_to(staged).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
+                                     for p in staged.rglob('*') if p.is_file()}
         write_json(ledger, journal)
         try:
             if resources:

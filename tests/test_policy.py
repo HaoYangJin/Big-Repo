@@ -368,6 +368,42 @@ class PolicyTests(unittest.TestCase):
         self.assertEqual(recovered.returncode, 0, recovered.stdout + recovered.stderr)
         self.assertEqual(json.loads(recovered.stdout)['status'], 'upgraded')
 
+    def test_stable_launcher_recovers_prepared_disconnect(self):
+        self.init(client='codex')
+        self.assert_prepared_lifecycle_recovers('disconnect')
+
+    def test_stable_launcher_recovers_prepared_self_upgrade(self):
+        self.init(client='codex')
+        config = self.w.configuration(self.repo)
+        config['plugin_path'] = '.'
+        self.w.write_json(self.repo / self.w.CONFIG, config)
+        self.assert_prepared_lifecycle_recovers('upgrade')
+
+    def assert_prepared_lifecycle_recovers(self, operation):
+        original_write = self.w.write_json
+
+        def write(path, data):
+            original_write(path, data)
+            if path.name == 'lifecycle.json' and data['status'] == 'prepared':
+                raise SystemExit('process stopped after prepared journal')
+
+        with patch.object(self.w, 'write_json', side_effect=write), patch.object(
+                self.w, 'rollback_lifecycle', side_effect=SystemExit('process terminated')
+        ):
+            with self.assertRaises(SystemExit):
+                if operation == 'disconnect':
+                    self.w.disconnect(self.repo)
+                else:
+                    self.w.upgrade(self.repo, delivery='commit', client='none', profile='core')
+        args = [sys.executable, str(self.repo / '.big-repo/workflow.py'), operation, '--repo', str(self.repo)]
+        if operation == 'upgrade':
+            args += ['--delivery', 'commit', '--client', 'none', '--profile', 'core']
+        recovered = subprocess.run(args, capture_output=True, text=True, encoding='utf-8')
+        self.assertEqual(recovered.returncode, 0, recovered.stdout + recovered.stderr)
+        self.assertEqual(json.loads(recovered.stdout)['status'],
+                         'disconnected' if operation == 'disconnect' else 'upgraded')
+        self.assertEqual(self.w.configuration(self.repo)['enabled'], operation != 'disconnect')
+
     def test_stable_launcher_recovers_after_runtime_directory_is_absent(self):
         self.init(client='codex')
         plugin = self.repo / '.big-repo/plugin'
