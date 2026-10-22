@@ -24,6 +24,9 @@ class PolicyTests(unittest.TestCase):
         self.git('init', '-b', 'main')
         self.git('config', 'user.name', 'Test')
         self.git('config', 'user.email', 'test@example.invalid')
+        # Keep Git housekeeping out of filesystem snapshots of this isolated repo.
+        self.git('config', 'maintenance.auto', 'false')
+        self.git('config', 'gc.auto', '0')
         (self.repo / 'README.md').write_text('# User project\nKeep it.\n', encoding='utf-8')
         self.git('add', 'README.md')
         self.git('commit', '-m', 'test: baseline')
